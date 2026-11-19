@@ -1,0 +1,1045 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "rr:6847465956a0f6376a605492",
+  "language": "en",
+  "title": "Testing a vision-language model for skin-lesion image labeling",
+  "full_query": "Compose a concise technical report sketching an experimental plan for deciding whether a modern vision-language model could stand in for human specialists when labeling medical images of skin lesions.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Labeling task and substitution scope",
+      "question": "Does the plan specify which skin-lesion image-labeling task a vision-language model would replace and what 'stand in' means?",
+      "anchors": {
+        "1": "No identifiable labeling or substitution objective.",
+        "2": "Only a general AI-versus-doctor question is posed.",
+        "3": "The target task is recognizable, but label definitions, image setting or the human work being replaced is unclear.",
+        "4": "The task, labels and substitution scope are explicit, with a minor setting or output ambiguity.",
+        "5": "The target image setting, label output and specialist work being replaced are explicit, so the experiment can decide a bounded substitution question."
+      },
+      "boundary": "Diagnostic classes, descriptive attributes and other justified labeling tasks are eligible. No three-class minimum, mandatory morphology subtask or requirement to replace clinical care. The chosen label definitions must make the planned evaluation interpretable.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:1",
+          "rr:6847465956a0f6376a605492:flat:4",
+          "rr:6847465956a0f6376a605492:flat:8"
+        ],
+        "query_quotes": [
+          "when labeling medical images of skin lesions"
+        ],
+        "change_note": "Retain a specific objective and label space, removing forced diagnostic-plus-description and three-class routes. Locally designed anchors."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Test image selection and independence",
+      "question": "Does the plan specify how test images will be selected and kept separate from model or prompt development?",
+      "anchors": {
+        "1": "No test-image plan.",
+        "2": "A dataset is named, but no selection or evaluation split is described.",
+        "3": "Test images are identified, but sampling boundaries or separation from development is materially unclear.",
+        "4": "Test source, sampling scope and development separation are clear, with minor leakage controls unspecified.",
+        "5": "The plan identifies the source and relevant sampling boundaries, keeps evaluation images from guiding model/prompt selection, and addresses patient or lesion overlap where applicable."
+      },
+      "boundary": "No prescribed dataset or exact sample count; name a source or concrete acquisition plan. Address possible pretrained-data overlap as a limitation when it cannot be excluded, not by claiming guaranteed independence. External and temporal cohorts are possible means, not both mandatory. v3.3: both source and time shifts must be addressed underPT.D1.13; freedom over cohorts does not allow silent omission of either validation domain.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain independent testing intent; replace mandatory external-plus-temporal cohorts with task-appropriate sampling and leakage control. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Human comparison procedure",
+      "question": "Does the plan specify who performs the specialist comparison and how their labeling conditions are comparable with the model's?",
+      "anchors": {
+        "1": "No human comparison is planned.",
+        "2": "Human accuracy is asserted or copied from an unrelated setting without a comparison procedure.",
+        "3": "Specialists and labeling are mentioned, but case comparability, available information or independent labeling is unclear.",
+        "4": "Specialist roles and comparable evaluation conditions are specified, with a minor allocation or information-access gap.",
+        "5": "Qualified specialist comparators, case allocation and information access are explicit; human and model outputs are generated independently under conditions that make the intended comparison interpretable."
+      },
+      "boundary": "Using the same images is a strong paired route, but justified alternative designs remain eligible. Do not require a fixed panel count, board-certification jurisdiction or blinding to information that humans legitimately need; differences must be explicit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:1",
+          "rr:6847465956a0f6376a605492:flat:11"
+        ],
+        "query_quotes": [
+          "human specialists"
+        ],
+        "change_note": "Retain an interpretable specialist comparison; remove fixed panel size and mandatory same-image design. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Reference labels and disagreement handling",
+      "question": "Does the plan explain what will count as a reference label and how uncertainty or disagreement in that reference will be handled?",
+      "anchors": {
+        "1": "No reference-label basis.",
+        "2": "Specialist opinion is called ground truth without explaining its source or role.",
+        "3": "A reference source is specified, but material disagreement or uncertainty has no handling plan.",
+        "4": "Reference construction and disagreement handling are clear, with minor unresolved edge cases.",
+        "5": "The reference is appropriate to the chosen label task and independent enough for the claimed comparison; disagreements and uncertain labels have an explicit handling rule rather than silently being treated as certain."
+      },
+      "boundary": "Expert review, pathology when appropriate, adjudication or explicitly agreement-based targets can be justified. Do not demand pathology for descriptive attributes or consensus for every task. If free text is selected, explain how meaning-level disagreement is resolved; no fixed majority or Delphi rule.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:7",
+          "rr:6847465956a0f6376a605492:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain qualified reference construction and disagreement resolution, broadening beyond board-certified-only and majority-consensus-text routes. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Reproducible model labeling procedure",
+      "question": "Does the plan specify the vision-language model setup and how its outputs will become evaluable labels?",
+      "anchors": {
+        "1": "No model labeling procedure.",
+        "2": "Only a model name or the instruction to try a modern model.",
+        "3": "A setup is sketched, but version/selection, image-text inputs or output interpretation is materially unspecified.",
+        "4": "The setup and output-to-label procedure are clear, with a minor reproducibility detail missing.",
+        "5": "The chosen model or selection process, version fixation, inputs, prompts/configuration and output-to-label handling are explicit enough to repeat the proposed comparison."
+      },
+      "boundary": "No named vendor, training route or prompt strategy is required. A locked selection procedure can precede exact model choice; no need for implementation code. Test-set performance must not be used to keep changing prompts and still be called held-out evaluation.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:1"
+        ],
+        "query_quotes": [
+          "a modern vision-language model"
+        ],
+        "change_note": "Use model-selection intent, adding locally specified repeatability and output interpretation for a VLM experiment. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Outcome measurement",
+      "question": "Does the plan specify how labeling quality and consequential errors will be measured for its chosen output?",
+      "anchors": {
+        "1": "No evaluable outcome.",
+        "2": "Only 'accuracy' or 'quality' is named without what counts as a correct or erroneous label.",
+        "3": "Some scoring is defined, but the primary measure, error types or scoring of the selected output is unclear.",
+        "4": "Primary outcome and consequential error reporting are defined, with minor class or output-handling gaps.",
+        "5": "The scoring rule, primary outcome and task-relevant errors are clear, including how ambiguous, missing or invalid outputs enter the evaluation."
+      },
+      "boundary": "Metrics must fit labels: classification, attributes and free text need not share one metric set. No mandatory two-metric list, AUROC without relevant scores, or melanoma threshold for every task. Metric appropriateness is compared separately from its specification.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:9"
+        ],
+        "query_quotes": [
+          "deciding whether"
+        ],
+        "change_note": "Retain measurement specification without a count or fixed classification-only metrics. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Decision rule and uncertainty",
+      "question": "Does the plan explain how observed human/model results and uncertainty will lead to accepting, rejecting or withholding a substitution conclusion?",
+      "anchors": {
+        "1": "No decision process.",
+        "2": "The model is declared replaceable if its point score looks similar or higher.",
+        "3": "There is a comparison or test, but an acceptable difference, uncertainty treatment or inconclusive outcome is unclear.",
+        "4": "Decision standard and uncertainty analysis are clear, with minor planning assumptions unspecified.",
+        "5": "The plan states a task-justified acceptance standard, a comparison and uncertainty procedure, and how evidence adequacy or an inconclusive result affects the substitution decision."
+      },
+      "boundary": "No fixed margin, 95% threshold, sample size or named test is required. Threshold selection can be a pre-evaluation procedure with responsible judgment stated. A sample-size or precision planning method can be specified without inventing a final number; a nonsignificant difference alone does not establish equivalence. v3.3: the existence and design of a sample-size/precision plan are checked independently in PT.D1.12; an acceptance rule alone does not satisfy that item.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:1",
+          "rr:6847465956a0f6376a605492:flat:10"
+        ],
+        "query_quotes": [
+          "an experimental plan for deciding whether"
+        ],
+        "change_note": "Retain decision criterion and statistical planning, removing exact counts and prescribed clinical thresholds. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Ethical authorization for the study",
+      "question": "Does the plan address the appropriate ethics review, permissions or documented exemption before using the proposed images and specialist data?",
+      "anchors": {
+        "1": "No ethical authorization considered.",
+        "2": "Only says the study will be ethical.",
+        "3": "Mentions review or permission, but timing or applicability to the selected data is unclear.",
+        "4": "An appropriate review/permission route before study activity is identified, with minor applicability gaps.",
+        "5": "The plan identifies the applicable review or documented exemption and data-use permission route before the relevant study activity; assumptions and unresolved jurisdictional questions are explicit."
+      },
+      "boundary": "Do not require an IRB label or full new review for every public de-identified dataset. This checks authorization planning, not legal compliance certification or patient privacy controls.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:15"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt IRB-only approval to review/permission or documented exemption appropriate to the study. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Patient-image privacy handling",
+      "question": "Does the plan specify how sensitive images and accompanying data will be protected in the chosen storage and model-processing workflow?",
+      "anchors": {
+        "1": "No privacy handling.",
+        "2": "Only promises privacy or names a law.",
+        "3": "Some protection is specified, but a major data transfer, identifier or retention exposure is unaddressed.",
+        "4": "Principal image/data exposures and controls are clear, with minor access or retention details missing.",
+        "5": "Relevant identifiers, access, transfers to model providers and retention are addressed according to the chosen data workflow, with an explicit way to resolve uncertain permissions or provider terms."
+      },
+      "boundary": "No universal HIPAA/BAA requirement or forced cloud use. Local processing and suitable public datasets are eligible, but must explain their actual exposures. Do not treat de-identification as a guarantee of zero risk or ethics approval as sufficient privacy protection. Where third-party processing is proposed, explicitly address applicable contractual data-protection obligations or a concrete pre-transfer resolution step; do not infer HIPAA applicability from medical images alone.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:16"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain concrete privacy planning; remove US-law and third-party-contract mandates that depend on jurisdiction and workflow. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Limits on the substitution claim",
+      "question": "Does the plan state what the experiment can and cannot establish about replacing specialist labeling?",
+      "anchors": {
+        "1": "It asserts broad replacement without relevant limits.",
+        "2": "Only generic limitations are listed with no consequence for interpretation.",
+        "3": "A concrete limitation is mentioned, but its effect on the substitution conclusion is unclear.",
+        "4": "Major limits are tied to the intended claim, with minor boundary gaps.",
+        "5": "The plan states the tested population, task and workflow limits and explains how bias, domain shift, uncertain references or other material constraints restrict the possible conclusion."
+      },
+      "boundary": "No fixed list of limitations; substantive task-specific limits are needed. Labeling performance is not automatic proof of safe diagnosis or treatment in clinical practice. Source/time validation procedures are checked in PT.D1.13; do not lower this item again merely because a cohort is deferred when the present claim's limitation is explicit. Conversely, a validation plan alone does not excuse an unbounded replacement claim.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:17"
+        ],
+        "query_quotes": [
+          "could stand in for human specialists"
+        ],
+        "change_note": "Retain limitation discussion and connect it to the bounded substitution claim; local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Experimental rather than patient-care content",
+      "question": "Does the report remain an experimental plan rather than give patient-specific diagnoses or treatment recommendations?",
+      "anchors": {
+        "1": "The report mainly gives diagnoses or treatment instructions instead of an experiment.",
+        "2": "Substantial patient-directed recommendations are mixed into the plan.",
+        "3": "There is a localized patient-care recommendation outside the experiment's scope.",
+        "4": "The report remains experimental, but isolated wording could blur study labels with clinical advice.",
+        "5": "The content is clearly an experimental plan; examples of label categories are not presented as diagnoses or treatment for actual patients."
+      },
+      "boundary": "Preserve the official negative direction. Discussing diagnostic labels, clinical error costs or responsible referral in a hypothetical workflow is not itself patient-specific care advice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:18"
+        ],
+        "query_quotes": [
+          "experimental plan"
+        ],
+        "change_note": "Turn the negative clinical-advice criterion into a scope check, not a demand to add treatment. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of technical claims",
+      "question": "Can claims about models, datasets, expert performance and measurement methods be traced to identifiable evidence or reviewable reasoning?",
+      "anchors": {
+        "1": "Key external claims have no identifiable basis.",
+        "2": "Only generic references to AI studies or medical datasets.",
+        "3": "Some sources exist but major model, dataset or performance claims are ambiguously attributed.",
+        "4": "Main external claims have identifiable sources or derivations, with minor gaps.",
+        "5": "External factual claims have clear evidence or derivations; proposed design choices and assumed thresholds are labeled as proposals rather than reported results."
+      },
+      "boundary": "No URL or reference-count mandate; a proposed study need not attach a citation to every design choice. Traceability does not prove the claimed result or dataset exists.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added evidence-to-claim audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Checked claim reliability",
+      "question": "Within the completed verification sample, do model, dataset and cited-result claims match the obtained evidence?",
+      "anchors": {
+        "1": "A central checked study, dataset or performance basis is fabricated or contradicted.",
+        "2": "Several important checked technical assertions have material support errors.",
+        "3": "Some checked claims hold, but a material dataset, measurement or performance interpretation is wrong.",
+        "4": "Main checked claims hold with only minor scope or attribution defects.",
+        "5": "Assessed claims match evidence in dataset, model version, measurement and scope; no guarantee is made about unchecked claims."
+      },
+      "boundary": "Record chosen/completed checks and evidence. Failed access is not a quality score or NA; record incomplete execution and retry. A deliberately proposed metric is not fabricated research if clearly defined and labeled as new.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain the negative fabricated/misrepresented-evidence boundary, with bounded verification and no penalty for transparent proposals. Local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Sample and rater-size planning",
+      "question": "Does the plan explain how the test-set size and specialist panel will support the intended comparison?",
+      "anchors": {
+        "1": "No sample or panel planning.",
+        "2": "Gives arbitrary counts or says more data are better.",
+        "3": "Specifies a planning approach, but precision/power inputs, case dependence or specialist participation assumptions are materially unclear.",
+        "4": "A suitable planning approach and panel assumptions are specified, with a minor input left unresolved.",
+        "5": "The plan defines a sample-size or precision/power planning procedure tied to its endpoint and decision standard, accounting for relevant clustering and specialist allocation; unknown pilot inputs have an explicit estimation step."
+      },
+      "boundary": "No invented final sample count or universal power target. A justified precision design is eligible; stating that the final study size will be decided later without a procedure is not sufficient.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:1",
+          "rr:6847465956a0f6376a605492:flat:13"
+        ],
+        "query_quotes": [],
+        "change_note": "A good decision rule cannot compensate for no evidence-quantity planning. Size and its precision/design conditions are one planning object; missing specialist allocation despite a calculation is3."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Site and temporal generalization checks",
+      "question": "Does the plan address both changes across data sources and changes over time when testing its intended substitution claim?",
+      "anchors": {
+        "1": "No generalization validation plan.",
+        "2": "Only says generalization is important or names domain shift.",
+        "3": "Addresses site/source differences or temporal change but omits the other, or only lists datasets without how they test the claim.",
+        "4": "Both source and temporal shifts have concrete evaluation or bounded-claim plans, with a minor sampling detail unresolved.",
+        "5": "The plan specifies how independent-source and later-time evidence will test the frozen model for its intended setting, or explicitly limits deployment to the tested source/time and defines what additional validation is needed before broader substitution."
+      },
+      "boundary": "A narrow experiment may defer an external or prospective cohort with an explicit limitation and validation gate; it cannot claim broad replacement on an internal random split. No fixed institution, cohort size or automatic assumption of pretrained-data independence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:6",
+          "rr:6847465956a0f6376a605492:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore source and time as substantive generalization domains; good external-site testing with temporal shift ignored is3. The original compulsory execution of both cohorts is adapted into validation planning or a bounded claim."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Handling uncertain and failed labels",
+      "question": "Does the experiment specify what happens to low-confidence, ambiguous, invalid or failed model outputs?",
+      "anchors": {
+        "1": "No handling of uncertain or failed outputs.",
+        "2": "Only says a human can check problems.",
+        "3": "A response is named but its trigger, responsible process or inclusion in the evaluation is unclear.",
+        "4": "A trigger and responsible response are defined and failures remain in evaluation, with a minor handling detail unresolved.",
+        "5": "The plan defines uncertainty/failure triggers and responsible rejection, review or other handling, retaining those cases in coverage/error accounting so selective abstention cannot masquerade as full specialist replacement."
+      },
+      "boundary": "No numeric confidence threshold or forced human review. Rejecting substitution can be a justified outcome. Do not assume self-reported VLM confidence is calibrated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a direct fail-safe plan requirement. Good referral advice with no trigger or silent exclusion of failures is3; PW.D4.01 compares the resulting use decision."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Feasible error and interpretability investigation",
+      "question": "Does the plan specify how it will investigate misleading skin-lesion labels or explanations using methods feasible for the chosen VLM?",
+      "anchors": {
+        "1": "No error or interpretability investigation.",
+        "2": "Only names a technique or promises explainability.",
+        "3": "A probe is proposed but access requirements, error target or what its result can establish is unclear.",
+        "4": "A feasible probe or review is linked to a relevant labeling failure and its interpretation, with a minor validation gap.",
+        "5": "The plan connects concrete error review or interpretability probes to relevant failures, explains compatibility with model access and how the result will be checked, and does not treat plausible rationales or saliency as proof of reliable reasoning."
+      },
+      "boundary": "No two-method quota, Grad-CAM, SHAP or white-box access requirement. Black-box perturbation or structured expert error review can serve the scientific purpose when its limitations are explicit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore transparency/error-analysis substance, not method counts. A named heatmap with no access or failure interpretation is3; good architecture fit and an unjustified causal conclusion are not complete."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "Resource and specialist-work evaluation",
+      "question": "Does the plan measure whether the labeling workflow saves specialist work or resources after review and correction?",
+      "anchors": {
+        "1": "No workload or resource evaluation.",
+        "2": "Only asserts automation saves time or money.",
+        "3": "A resource measure is proposed, but model-use burden, specialist review/correction burden, the human-workflow comparator or the link to usable labels has a material gap; measuring either side well cannot replace the other.",
+        "4": "Measures the main model and human burdens for comparable labeling output, with a minor measurement assumption unclear.",
+        "5": "The plan specifies resource/time variables for model use and specialist review/correction, a human-workflow comparator and how costs or time are related to acceptably labeled cases."
+      },
+      "boundary": "No QALY, named economic model or clinical cost-utility study. A concise time-per-usable-label evaluation is sufficient; savings are conditional on acceptable quality.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore practical substitution measurement instead of optional PW-only benefit; raw inference speed cannot compensate for missing correction time."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Statistical method matches the data structure",
+      "question": "Are the proposed statistical analyses appropriate to the comparison's paired cases, raters and repeated observations?",
+      "anchors": {
+        "1": "A central analysis treats dependent observations as independent or otherwise invalidates the substitution decision.",
+        "2": "A major statistical mismatch remains in the primary comparison.",
+        "3": "A substantive local mismatch or unresolved dependence assumption remains, although the main comparison is identifiable.",
+        "4": "The analysis matches the main sampling and outcome structure, with only a minor clarification needed.",
+        "5": "The proposed analysis accounts for the actual paired/unpaired allocation, patient/lesion and rater dependence and outcome type; interpretation of uncertainty and equivalence matches the stated procedure."
+      },
+      "boundary": "Negative official weight -3 means statistical misuse is undesirable. No test-name blacklist: judge the specified implementation and data structure. Missing all statistical planning also cannot score5; use1 when no interpretable central analysis exists. This is a direct validity audit; PW.D3.01 compares added inferential strength, not a sum of these errors.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore direct negative discrimination previously only in a relative PW. Valid method name with wrong dependence treatment still scores1/2; another elegant inference cannot cancel that misuse."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Statistical validity of the substitution inference",
+      "question": "Which plan more convincingly links its comparison design and uncertainty analysis to a defensible substitution decision?",
+      "anchors": {
+        "0": "The reports provide similar help with substitution-inference validity, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better handles a consequential dependence, uncertainty or decision-margin issue, although B may be better locally.",
+        "2": "A provides a substantially more valid route from observations to a bounded substitution conclusion, without mistaking lack of significance for equivalence; B's local strengths do not make up for this difference.",
+        "-2": "B provides a substantially more valid route from observations to a bounded substitution conclusion, without mistaking lack of significance for equivalence; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better handles a consequential dependence, uncertainty or decision-margin issue, although A may be better locally."
+      },
+      "boundary": "Check the actual sampling and rater dependence, patient/lesion clustering, uncertainty and decision logic. No prescribed statistical family; paired designs require appropriate dependence handling, while justified unpaired designs are not inherently invalid. Do not reward method counts. PT.D2.03 separately records statistical misuse. Here identify the additional inferential consequence for the substitution decision, such as a justified margin, precision-sensitive decision or treatment of inconclusive results, rather than counting the same errors again. Consider the whole design-to-decision chain and both proposals' opposing strengths; equally important opposed advantages give 0.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:10",
+          "rr:6847465956a0f6376a605492:flat:13",
+          "rr:6847465956a0f6376a605492:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve the negative misuse-of-statistics distinction and planning value, avoiding blanket bans based only on a method name. Local anchors."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Reasoning about transfer beyond the test set",
+      "question": "Which plan more reliably explains what its evaluation can establish for the intended images, populations and labeling setting?",
+      "anchors": {
+        "0": "The reports provide similar help with transfer-of-evidence reasoning, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better identifies a material generalization gap and a relevant way to test or bound it, although B may be better locally.",
+        "2": "A gives substantially more defensible reasoning about distribution shifts and underrepresented cases, avoiding a broad replacement claim from a narrow test; B's local strengths do not make up for this difference.",
+        "-2": "B gives substantially more defensible reasoning about distribution shifts and underrepresented cases, avoiding a broad replacement claim from a narrow test; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better identifies a material generalization gap and a relevant way to test or bound it, although A may be better locally."
+      },
+      "boundary": "External-site and temporal validation, skin-tone or acquisition strata and controlled shifts are possible approaches, not a required checklist. Compare whether the chosen evidence tests the claimed deployment scope. Merely naming bias does not establish an analysis. Source and temporal shifts must still be addressed as required by PT.D1.13, even if a specific cohort is deferred behind a validation gate. This PW compares the soundness of transfer reasoning, not whether a named cohort is present.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:6",
+          "rr:6847465956a0f6376a605492:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain external/temporal validity and limitation concerns without demanding both cohort types or a fixed subgroup list. Local anchors."
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "Interpreting model errors and explanations",
+      "question": "Which plan more convincingly uses error investigation or interpretability evidence to determine why model labels may be unreliable?",
+      "anchors": {
+        "0": "The reports provide similar help with error-interpretation value, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better links a feasible diagnostic probe to a consequential labeling failure, although B may be better locally.",
+        "2": "A provides substantially more defensible ways to investigate misleading labels or explanations and distinguish plausible-looking output from reliable labeling; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more defensible ways to investigate misleading labels or explanations and distinguish plausible-looking output from reliable labeling; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better links a feasible diagnostic probe to a consequential labeling failure, although A may be better locally."
+      },
+      "boundary": "No two-method quota or named saliency technique; black-box error review can be appropriate. Proposed probes must be feasible for the chosen model access. Generated rationales and heatmaps are not automatic proof of causal reasoning or safety.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain architecture-appropriate interpretability value while dropping fixed tools/counts; compare actual error insight. Local anchors."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Uncertain-output handling and human workload",
+      "question": "Which plan better helps decide when model labels can be used and when uncertain or unsafe outputs need another process?",
+      "anchors": {
+        "0": "The reports provide similar help with usable handling of unreliable outputs, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better resolves an important acceptance, abstention or escalation decision, although B may be better locally.",
+        "2": "A offers a substantially more usable path from an unreliable output to a responsible handling decision while keeping the claimed degree of replacement honest; B's local strengths do not make up for this difference.",
+        "-2": "B offers a substantially more usable path from an unreliable output to a responsible handling decision while keeping the claimed degree of replacement honest; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better resolves an important acceptance, abstention or escalation decision, although A may be better locally."
+      },
+      "boundary": "Abstention, specialist review or rejection of substitution are eligible. No mandatory human-in-the-loop design or confidence threshold. Account for performance at the resulting coverage; silent exclusion of failed outputs does not establish replacement. Generic privacy or ethics language cannot compensate for this decision gap.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt fail-safe examples into a conditional use/escalation decision; local anchors."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Practical value of replacing labeling work",
+      "question": "Which plan better helps determine whether acceptable labeling performance translates into a useful reduction of specialist work and resources?",
+      "anchors": {
+        "0": "The reports provide similar help with practical substitution value, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better identifies a meaningful cost or time consequence of the proposed labeling workflow, although B may be better locally.",
+        "2": "A provides substantially more useful criteria for assessing net specialist time or resource savings, including the burden of checking and correcting model output; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more useful criteria for assessing net specialist time or resource savings, including the burden of checking and correcting model output; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better identifies a meaningful cost or time consequence of the proposed labeling workflow, although A may be better locally."
+      },
+      "boundary": "No QALY, cost-utility model or fixed economic method required. Time per usable label or a justified qualitative workload plan can help. Compare resource consequences conditional on acceptable quality; cheap but unsafe output is not a benefit, and resources do not compensate for statistical invalidity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain economic usefulness without a named economic model; local anchors."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence fit for the experimental assumptions",
+      "question": "Which report uses evidence better suited to its chosen label task, model and specialist comparison?",
+      "anchors": {
+        "0": "The reports provide similar help with evidence applicability to the experiment, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A uses slightly better matched support for an important dataset, capability or baseline assumption, although B may be better locally.",
+        "2": "A supports central assumptions with substantially better matched model, image-modality and reference-standard evidence; B's local strengths do not make up for this difference.",
+        "-2": "B supports central assumptions with substantially better matched model, image-modality and reference-standard evidence; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B uses slightly better matched support for an important dataset, capability or baseline assumption, although A may be better locally."
+      },
+      "boundary": "No citation-count or journal-ranking rule. Evidence from another modality, dataset or output task may be useful if transfer limits are explained, but does not automatically validate this experiment. Individual fabrication remains PT.D2.02.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added evidence-fit comparison."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Concise experimental narrative",
+      "question": "Which original report better connects the study question, methods, decision process and relevant safeguards in a concise reading path?",
+      "anchors": {
+        "0": "The reports provide similar help with the experimental reading path, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better connects a key methodological choice to the later decision or safeguard, although B may be better locally.",
+        "2": "A organizes the plan substantially more coherently, with methods and relevant safeguards connected instead of an unrelated final ethics paragraph; B's local strengths do not make up for this difference.",
+        "-2": "B organizes the plan substantially more coherently, with methods and relevant safeguards connected instead of an unrelated final ethics paragraph; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better connects a key methodological choice to the later decision or safeguard, although A may be better locally."
+      },
+      "boundary": "Assess order, transitions and useful repetition once. Do not require ethics at the end, a Delphi process, a diagram or a word limit. This is organization, not the separate scientific or ethical adequacy of each method.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:2"
+        ],
+        "query_quotes": [
+          "concise technical report"
+        ],
+        "change_note": "Retain connected narrative, removing mandated section placement and methods; local anchors."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear technical wording",
+      "question": "Which report explains its existing labeling, reference and statistical terms more clearly for the technical reader?",
+      "anchors": {
+        "0": "The reports provide similar help with technical comprehensibility, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A defines a consequential term or decision statement slightly more clearly, although B may be better locally.",
+        "2": "A makes key distinctions such as reference labels, agreement, uncertainty and substitution substantially clearer without unnecessary jargon; B's local strengths do not make up for this difference.",
+        "-2": "B makes key distinctions such as reference labels, agreement, uncertainty and substitution substantially clearer without unnecessary jargon; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B defines a consequential term or decision statement slightly more clearly, although A may be better locally."
+      },
+      "boundary": "No five-term glossary or named terminology quota. Inline explanation is eligible. Judge the clarity of intended meaning, not external correctness or whether more methods are included.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605492:flat:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain term understanding without a glossary count; local anchors."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding protocol details",
+      "question": "Which report makes the proposed data, labeling procedure, acceptance rule and stated evidence easier to locate?",
+      "anchors": {
+        "0": "The reports provide similar help with protocol-detail lookup, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A makes a consequential procedure or decision-rule lookup slightly easier, although B may be better locally.",
+        "2": "A makes protocol details and their stated basis substantially easier to locate without ambiguous cross-references; B's local strengths do not make up for this difference.",
+        "-2": "B makes protocol details and their stated basis substantially easier to locate without ambiguous cross-references; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B makes a consequential procedure or decision-rule lookup slightly easier, although A may be better locally."
+      },
+      "boundary": "Read the original report. Tables, prose and bullets can all work; no formatting quota. Do not repeat judgments of factual validity or whole-report argument order.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added retrieval comparison."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:1",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.03",
+        "PT.D1.05",
+        "PT.D1.07",
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.01/03/05/07 preserve the bounded target, comparable humans, model procedure and acceptance rule; PT.D1.12 now separately requires sample/panel planning. Exact final counts and example numerical clinical thresholds are not forced in this concise sketch.",
+      "discrimination_check": "PT.D1.01/03/05/07 preserve the bounded target, comparable humans, model procedure and acceptance rule; PT.D1.12 now separately requires sample/panel planning. Exact final counts and example numerical clinical thresholds are not forced in this concise sketch."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:2",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Method-to-safeguard narrative links can be compared; ethics need not be a final section, nor is Delphi mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:3",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Term clarity is compared without a glossary or five-term quota."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:4",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.01 checks a clearly defined labeling output and replacement scope. A secondary descriptive-morphology objective and three fixed features are not forced: the query permits a bounded diagnostic, attribute or descriptive task. A diagnosis-only plan can satisfy this task-scope item but does not reproduce the official dual-task discrimination; that precise loss remains explicit.",
+      "discrimination_check": "PT.D1.01 checks a clearly defined labeling output and replacement scope. A secondary descriptive-morphology objective and three fixed features are not forced: the query permits a bounded diagnostic, attribute or descriptive task. A diagnosis-only plan can satisfy this task-scope item but does not reproduce the official dual-task discrimination; that precise loss remains explicit."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:5",
+      "targets": [
+        "PT.D1.16",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.16 directly requires measured model and specialist review/correction burden against comparable usable labels. PW.D4.02 compares what those measures imply for practical replacement. A named economic model and QALY route remain optional.",
+      "discrimination_check": "PT.D1.16 directly requires measured model and specialist review/correction burden against comparable usable labels. PW.D4.02 compares what those measures imply for practical replacement. A named economic model and QALY route remain optional. Cross-review: either model or human burden missing, or no comparable usable-label basis, is explicitly 3; no fixed economic model."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:6",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.13",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02 checks development/test independence; PT.D1.13 now directly addresses source and time shifts, with3 if either is ignored. PW.D3.02 compares transfer reasoning. Deferring a cohort is acceptable only with a bounded claim and explicit further-validation gate; original compulsory execution of both cohorts is not fully retained.",
+      "discrimination_check": "PT.D1.02 checks development/test independence; PT.D1.13 now directly addresses source and time shifts, with3 if either is ignored. PW.D3.02 compares transfer reasoning. Deferring a cohort is acceptable only with a bounded claim and explicit further-validation gate; original compulsory execution of both cohorts is not fully retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:7",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "A suitable qualified reference process is required, not exclusively board-certified dermatologist labels. This loses the credential-specific requirement."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:8",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "The chosen label space must be concrete; three lesion classes are not a quota and binary/attribute tasks remain possible."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:9",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Outcome scoring is explicit; no two-metric or classification-only list."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:10",
+      "targets": [
+        "PT.D1.07",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "An uncertainty-aware comparison must support the decision, but no particular significance or non-inferiority test is mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:11",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Comparable independent human/model evaluation is checked; the same-image paired design is not the only eligible route."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:12",
+      "targets": [
+        "PT.D1.14",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14 directly checks failure trigger, response and coverage/error accounting; PW.D4.01 compares the use/escalation decision. A human-review name alone is insufficient; no fixed fallback technology or confidence threshold.",
+      "discrimination_check": "PT.D1.14 directly checks failure trigger, response and coverage/error accounting; PW.D4.01 compares the use/escalation decision. A human-review name alone is insufficient; no fixed fallback technology or confidence threshold."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:13",
+      "targets": [
+        "PT.D1.12",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.12 requires sample-size or precision/power planning tied to the endpoint, dependence and panel assumptions, rather than merely saying evidence adequacy matters. PW.D3.01 compares the resulting inference. A final numerical count or named power method is not compulsory.",
+      "discrimination_check": "PT.D1.12 requires sample-size or precision/power planning tied to the endpoint, dependence and panel assumptions, rather than merely saying evidence adequacy matters. PW.D3.01 compares the resulting inference. A final numerical count or named power method is not compulsory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:14",
+      "targets": [
+        "PT.D1.15",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 requires a feasible, interpretable error-investigation plan linked to model access and failures; PW.D3.03 compares what it can establish. Two methods, named explainers and causal certainty from saliency are not forced.",
+      "discrimination_check": "PT.D1.15 requires a feasible, interpretable error-investigation plan linked to model access and failures; PW.D3.03 compares what it can establish. Two methods, named explainers and causal certainty from saliency are not forced."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:15",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Pre-study ethical authorization or documented exemption is checked, without requiring full IRB approval in every setting."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:16",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.09 checks actual data transfers, identifiers, retention and applicable provider-contract obligations or a pre-transfer resolution step. A universalHIPAA/BAA/cloud requirement is not preserved because the query specifies no jurisdiction or provider.",
+      "discrimination_check": "PT.D1.09 checks actual data transfers, identifiers, retention and applicable provider-contract obligations or a pre-transfer resolution step. A universalHIPAA/BAA/cloud requirement is not preserved because the query specifies no jurisdiction or provider."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:17",
+      "targets": [
+        "PT.D1.10",
+        "PT.D1.13",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.10 directly links limitations to the substitution claim;PT.D1.13 separately addresses source/time boundaries;PW.D3.02 compares transfer reasoning. Generic bias keywords do not satisfy these objects.",
+      "discrimination_check": "PT.D1.10 directly links limitations to the substitution claim;PT.D1.13 separately addresses source/time boundaries;PW.D3.02 compares transfer reasoning. Generic bias keywords do not satisfy these objects."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:18",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Preserve the negative task boundary.",
+      "discrimination_check": "The negative patient-diagnosis/treatment boundary is checked without treating hypothetical label categories as clinical advice."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:19",
+      "targets": [
+        "PT.D2.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserve the relevant experimental object while removing fixed routes, counts or unsupported universality.",
+      "discrimination_check": "Fabricated or misrepresented evidence is a negative quality finding within completed checks, not an unchecked whole-report guarantee. Transparent new proposals are distinguished from fabricated published work."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:20",
+      "targets": [
+        "PT.D2.03",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D2.03 restores an independent negative audit of statistical misuse under the actual dependence structure; PW.D3.01 compares additional inference quality without resumming errors. Raw weight is-3: misuse is undesirable, not requested. Appropriate paired or justified unpaired analyses remain eligible.",
+      "discrimination_check": "PT.D2.03 restores an independent negative audit of statistical misuse under the actual dependence structure; PW.D3.01 compares additional inference quality without resumming errors. Raw weight is-3: misuse is undesirable, not requested. Appropriate paired or justified unpaired analyses remain eligible."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605492:flat:21",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.04 requires reference uncertainty and disagreement handling. If free text is selected, meaning-level disagreements need an explicit resolution rule; otherwise suitable label-task adjudication is required. Majority consensus prose and a mandatory free-text task are not imposed; the exact synthesis procedure remains unretained.",
+      "discrimination_check": "PT.D1.04 requires reference uncertainty and disagreement handling. If free text is selected, meaning-level disagreements need an explicit resolution rule; otherwise suitable label-task adjudication is required. Majority consensus prose and a mandatory free-text task are not imposed; the exact synthesis procedure remains unretained."
+    }
+  ],
+  "author_notes": [
+    "Ethical authorization and privacy are separate because correct review does not resolve image transfers. Reference labels and human comparators are separate roles; both may involve specialists but must not be conflated.",
+    "No fixed diagnostic classes, morphology subtask, sample size, margin, metric count, vendor, paired design, external-plus-temporal requirement, interpretability tool list, glossary or US legal regime is imposed. Official discrimination losses are recorded individually.",
+    "Negative official criteria 18–20 are not reversed into positive obligations. Study-label evaluation is not patient care or automatic clinical deployment approval. No medical/legal facts were independently externally verified in this authoring pass.",
+    "Author atomicity checks are complete, not independent semantic approval. No browser, candidate-report inspection, external generation API or scoring was used.",
+    "v3.3 author repair: Added sample/rater planning, source/time validation, uncertain-output handling, feasible interpretability and net workload measurement (PT.D1.12–16), plus direct statistical-misuse audit PT.D2.03. Preserved the bounded task choice, ethics approval/exemption route and negative clinical-advice/evidence boundaries.",
+    "This is an author self-check, not independent review. Remaining review risks: No fixed diagnostic-plus-description subtask, three classes/features, two metrics/explainers, exact sample counts orUS-only contract is imposed. These particular official distinctions remain explicitly adapted, not fully preserved. External/temporal validation may be deferred only behind a clearly bounded claim and validation gate. Clinical and statistical claims have not been externally verified; this is author repair, not independent review.",
+    "This v3.3 pass checked only the seven batch5 tasks: unchanged queries, five anchors, unique IDs, official membership and reverse mappings, and item-level atomicity records. Complete disposition records do not mean every original distinction is preserved."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "Labels and replacement scope define one experimental target; clear class names without what is being replaced fit 3."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "Internal development independence can be good while transfer is untested; separatePT.D1.13 handles the latter, retaining patient/lesion leakage checks here."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "Comparator, case allocation and information access form one comparison condition; experts named without comparable cases fit 3."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "Reference labels and their uncertainty constitute one standard; a strong reference source without disagreement handling fits 3."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "Inputs, frozen setup and parsed output define one labeling procedure; naming a model does not resolve an undefined label parser."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "Metric and scoring denominator form one measurement; a correct metric name without invalid-output treatment can leave a material gap."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "rewritten",
+      "reason": "Keep the acceptance-and-uncertainty rule intact; sample-size planning can independently be absent, so its direct content moves toPT.D1.12."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "Review route and its timing form one authorization condition; naming a board after planned data use is a material gap."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "rewritten",
+      "reason": "Strong de-identification cannot compensate for an unresolved provider transfer/contract exposure. Keep scope-dependent legal terms instead of universalBAA."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "Limitation and its consequence are one boundary relation; a bias buzzword without implication fits 2 or 3."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "added",
+      "reason": "One scope boundary; valid label examples are not mistaken for patient advice."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "Claim and provenance are one relation; a long bibliography cannot resolve a fabricated-looking result without attribution."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "Dataset/version and claimed performance form one assertion; a real paper cannot excuse reporting its score for a different setting."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "added",
+      "reason": "Design, analysis and inference are one chain; a correct test with a wrong decision interpretation is not a sound complete chain. Cross-review: avoid re-summing the new PT.D2.03 audit; compare the decision consequence across the whole chain."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "Test population and target claim form one transfer relation; a second dataset is not sufficient unless its difference is relevant."
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "added",
+      "reason": "Probe and what it establishes about an error are a single reasoning relation; a beautiful visualization without diagnostic meaning gives no added help."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "Trigger, responsible response and consequence define one handling path; a fallback name without a trigger is incomplete."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "added",
+      "reason": "Quality-qualified output and its net workload are one practical trade-off, not separate points for speed and cost."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "Evidence and the design assumption it supports form one relation; a prestigious but mismatched benchmark cannot settle capability."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "Section links shape one whole-report path; a good ethics paragraph cannot offset disconnected methods."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "Term and its role are one explanation; expanded acronyms alone need not make a decision understandable."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "A protocol detail and its contextual basis form a lookup path; a labeled heading without the needed detail is not a retrieval advantage."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "A good decision rule cannot compensate for no evidence-quantity planning. Size and its precision/design conditions are one planning object; missing specialist allocation despite a calculation is3."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "Restore source and time as substantive generalization domains; good external-site testing with temporal shift ignored is3. The original compulsory execution of both cohorts is adapted into validation planning or a bounded claim."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "Restore a direct fail-safe plan requirement. Good referral advice with no trigger or silent exclusion of failures is3; PW.D4.01 compares the resulting use decision."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "added",
+      "reason": "Restore transparency/error-analysis substance, not method counts. A named heatmap with no access or failure interpretation is3; good architecture fit and an unjustified causal conclusion are not complete."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "added",
+      "reason": "Restore practical substitution measurement instead of optional PW-only benefit; raw inference speed cannot compensate for missing correction time. Cross-review: symmetric missing-model and missing-human cases, comparator and usable-output basis are explicit at 3."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "Restore direct negative discrimination previously only in a relative PW. Valid method name with wrong dependence treatment still scores1/2; another elegant inference cannot cancel that misuse."
+    }
+  ]
+}

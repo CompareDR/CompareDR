@@ -1,0 +1,2886 @@
+{
+  "framework_paired_deltas": [
+    {
+      "case_id": "P001",
+      "query_id": "drb2_41",
+      "construction_direction": "degrade",
+      "delta": -2.994882990483191
+    },
+    {
+      "case_id": "P001",
+      "query_id": "drb2_41",
+      "construction_direction": "improve",
+      "delta": -3.379147680273128
+    },
+    {
+      "case_id": "P001",
+      "query_id": "drb2_41",
+      "construction_direction": "equivalent",
+      "delta": 1.139788068586597
+    },
+    {
+      "case_id": "P002",
+      "query_id": "drb1_19",
+      "construction_direction": "degrade",
+      "delta": 1.6453928853714146
+    },
+    {
+      "case_id": "P002",
+      "query_id": "drb1_19",
+      "construction_direction": "improve",
+      "delta": 10.036770247517957
+    },
+    {
+      "case_id": "P002",
+      "query_id": "drb1_19",
+      "construction_direction": "equivalent",
+      "delta": 3.080376797827739
+    },
+    {
+      "case_id": "P003",
+      "query_id": "drb1_25",
+      "construction_direction": "degrade",
+      "delta": -3.254255562761678
+    },
+    {
+      "case_id": "P003",
+      "query_id": "drb1_25",
+      "construction_direction": "improve",
+      "delta": 2.823339153080866
+    },
+    {
+      "case_id": "P003",
+      "query_id": "drb1_25",
+      "construction_direction": "equivalent",
+      "delta": 1.1901999313799365
+    },
+    {
+      "case_id": "P004",
+      "query_id": "drb1_27",
+      "construction_direction": "degrade",
+      "delta": -2.6801802431798123
+    },
+    {
+      "case_id": "P004",
+      "query_id": "drb1_27",
+      "construction_direction": "improve",
+      "delta": 4.000827076643304
+    },
+    {
+      "case_id": "P004",
+      "query_id": "drb1_27",
+      "construction_direction": "equivalent",
+      "delta": 0.6050172074649822
+    },
+    {
+      "case_id": "P055",
+      "query_id": "drb1_47",
+      "construction_direction": "degrade",
+      "delta": -1.2763040276470363
+    },
+    {
+      "case_id": "P055",
+      "query_id": "drb1_47",
+      "construction_direction": "improve",
+      "delta": 6.603122584320104
+    },
+    {
+      "case_id": "P055",
+      "query_id": "drb1_47",
+      "construction_direction": "equivalent",
+      "delta": 3.064595169357389
+    },
+    {
+      "case_id": "P008",
+      "query_id": "drb1_48",
+      "construction_direction": "degrade",
+      "delta": -5.291861586931589
+    },
+    {
+      "case_id": "P008",
+      "query_id": "drb1_48",
+      "construction_direction": "improve",
+      "delta": 0.8895301034000767
+    },
+    {
+      "case_id": "P008",
+      "query_id": "drb1_48",
+      "construction_direction": "equivalent",
+      "delta": 1.0639168716932517
+    },
+    {
+      "case_id": "P056",
+      "query_id": "drb1_51",
+      "construction_direction": "degrade",
+      "delta": 2.434051676342719
+    },
+    {
+      "case_id": "P056",
+      "query_id": "drb1_51",
+      "construction_direction": "improve",
+      "delta": 4.923559514359212
+    },
+    {
+      "case_id": "P056",
+      "query_id": "drb1_51",
+      "construction_direction": "equivalent",
+      "delta": 1.0164548882507631
+    },
+    {
+      "case_id": "P010",
+      "query_id": "drb2_11",
+      "construction_direction": "degrade",
+      "delta": -3.9599768273588154
+    },
+    {
+      "case_id": "P010",
+      "query_id": "drb2_11",
+      "construction_direction": "improve",
+      "delta": 1.6158334491663453
+    },
+    {
+      "case_id": "P010",
+      "query_id": "drb2_11",
+      "construction_direction": "equivalent",
+      "delta": -2.4337496625350497
+    },
+    {
+      "case_id": "P057",
+      "query_id": "drb2_117",
+      "construction_direction": "degrade",
+      "delta": -3.696726503259356
+    },
+    {
+      "case_id": "P057",
+      "query_id": "drb2_117",
+      "construction_direction": "improve",
+      "delta": 3.1270973745758113
+    },
+    {
+      "case_id": "P057",
+      "query_id": "drb2_117",
+      "construction_direction": "equivalent",
+      "delta": 7.579261792321304
+    },
+    {
+      "case_id": "P012",
+      "query_id": "drb2_119",
+      "construction_direction": "degrade",
+      "delta": -0.1923372215901793
+    },
+    {
+      "case_id": "P012",
+      "query_id": "drb2_119",
+      "construction_direction": "improve",
+      "delta": 6.685786406529694
+    },
+    {
+      "case_id": "P012",
+      "query_id": "drb2_119",
+      "construction_direction": "equivalent",
+      "delta": -0.4869494691259888
+    },
+    {
+      "case_id": "P013",
+      "query_id": "drb2_123",
+      "construction_direction": "degrade",
+      "delta": -4.496712817801324
+    },
+    {
+      "case_id": "P013",
+      "query_id": "drb2_123",
+      "construction_direction": "improve",
+      "delta": 4.555788357593144
+    },
+    {
+      "case_id": "P013",
+      "query_id": "drb2_123",
+      "construction_direction": "equivalent",
+      "delta": 0.6849683074266011
+    },
+    {
+      "case_id": "P014",
+      "query_id": "drb2_125",
+      "construction_direction": "degrade",
+      "delta": -5.629671783097471
+    },
+    {
+      "case_id": "P014",
+      "query_id": "drb2_125",
+      "construction_direction": "improve",
+      "delta": 9.660100585979691
+    },
+    {
+      "case_id": "P014",
+      "query_id": "drb2_125",
+      "construction_direction": "equivalent",
+      "delta": 2.6771818547684205
+    },
+    {
+      "case_id": "P058",
+      "query_id": "drb2_129",
+      "construction_direction": "degrade",
+      "delta": -4.690407670104904
+    },
+    {
+      "case_id": "P058",
+      "query_id": "drb2_129",
+      "construction_direction": "improve",
+      "delta": 3.5383412081893937
+    },
+    {
+      "case_id": "P058",
+      "query_id": "drb2_129",
+      "construction_direction": "equivalent",
+      "delta": 2.093850227842097
+    },
+    {
+      "case_id": "P059",
+      "query_id": "drb2_15",
+      "construction_direction": "degrade",
+      "delta": -4.419323973751162
+    },
+    {
+      "case_id": "P059",
+      "query_id": "drb2_15",
+      "construction_direction": "improve",
+      "delta": -2.9814457246434785
+    },
+    {
+      "case_id": "P059",
+      "query_id": "drb2_15",
+      "construction_direction": "equivalent",
+      "delta": -0.5529173024510641
+    },
+    {
+      "case_id": "P017",
+      "query_id": "drb2_18",
+      "construction_direction": "degrade",
+      "delta": 9.903404671549474
+    },
+    {
+      "case_id": "P017",
+      "query_id": "drb2_18",
+      "construction_direction": "improve",
+      "delta": 16.435390083225798
+    },
+    {
+      "case_id": "P017",
+      "query_id": "drb2_18",
+      "construction_direction": "equivalent",
+      "delta": 1.6985569815738941
+    },
+    {
+      "case_id": "P019",
+      "query_id": "drb2_21",
+      "construction_direction": "degrade",
+      "delta": 0.12595335371307925
+    },
+    {
+      "case_id": "P019",
+      "query_id": "drb2_21",
+      "construction_direction": "improve",
+      "delta": 7.049394300087059
+    },
+    {
+      "case_id": "P019",
+      "query_id": "drb2_21",
+      "construction_direction": "equivalent",
+      "delta": -0.01938836573555136
+    },
+    {
+      "case_id": "P021",
+      "query_id": "drb2_28",
+      "construction_direction": "degrade",
+      "delta": 3.386976350403451
+    },
+    {
+      "case_id": "P021",
+      "query_id": "drb2_28",
+      "construction_direction": "improve",
+      "delta": 5.487105923205057
+    },
+    {
+      "case_id": "P021",
+      "query_id": "drb2_28",
+      "construction_direction": "equivalent",
+      "delta": 3.6303818927624647
+    },
+    {
+      "case_id": "P060",
+      "query_id": "drb2_3",
+      "construction_direction": "degrade",
+      "delta": -3.3500712819232774
+    },
+    {
+      "case_id": "P060",
+      "query_id": "drb2_3",
+      "construction_direction": "improve",
+      "delta": 0.521197612982391
+    },
+    {
+      "case_id": "P060",
+      "query_id": "drb2_3",
+      "construction_direction": "equivalent",
+      "delta": 0.7945811324854617
+    },
+    {
+      "case_id": "P061",
+      "query_id": "drb2_46",
+      "construction_direction": "degrade",
+      "delta": -2.552165051397864
+    },
+    {
+      "case_id": "P061",
+      "query_id": "drb2_46",
+      "construction_direction": "improve",
+      "delta": 1.992933531877
+    },
+    {
+      "case_id": "P061",
+      "query_id": "drb2_46",
+      "construction_direction": "equivalent",
+      "delta": 1.4552327176065916
+    },
+    {
+      "case_id": "P062",
+      "query_id": "drb2_58",
+      "construction_direction": "degrade",
+      "delta": -2.17070824379077
+    },
+    {
+      "case_id": "P062",
+      "query_id": "drb2_58",
+      "construction_direction": "improve",
+      "delta": 5.961018819443225
+    },
+    {
+      "case_id": "P062",
+      "query_id": "drb2_58",
+      "construction_direction": "equivalent",
+      "delta": 2.5559852947767894
+    },
+    {
+      "case_id": "P028",
+      "query_id": "drb2_66",
+      "construction_direction": "degrade",
+      "delta": 5.900584546351176
+    },
+    {
+      "case_id": "P028",
+      "query_id": "drb2_66",
+      "construction_direction": "improve",
+      "delta": 14.577881050382977
+    },
+    {
+      "case_id": "P028",
+      "query_id": "drb2_66",
+      "construction_direction": "equivalent",
+      "delta": 1.5935301297399107
+    },
+    {
+      "case_id": "P030",
+      "query_id": "drb2_71",
+      "construction_direction": "degrade",
+      "delta": -4.327193097131882
+    },
+    {
+      "case_id": "P030",
+      "query_id": "drb2_71",
+      "construction_direction": "improve",
+      "delta": 6.318253705420922
+    },
+    {
+      "case_id": "P030",
+      "query_id": "drb2_71",
+      "construction_direction": "equivalent",
+      "delta": 1.050000884819923
+    },
+    {
+      "case_id": "P063",
+      "query_id": "drb2_75",
+      "construction_direction": "degrade",
+      "delta": -3.3108349751189508
+    },
+    {
+      "case_id": "P063",
+      "query_id": "drb2_75",
+      "construction_direction": "improve",
+      "delta": 5.993834901560604
+    },
+    {
+      "case_id": "P063",
+      "query_id": "drb2_75",
+      "construction_direction": "equivalent",
+      "delta": 1.492664329308127
+    },
+    {
+      "case_id": "P032",
+      "query_id": "drb2_76",
+      "construction_direction": "degrade",
+      "delta": -3.946614945120956
+    },
+    {
+      "case_id": "P032",
+      "query_id": "drb2_76",
+      "construction_direction": "improve",
+      "delta": -0.048959336148371335
+    },
+    {
+      "case_id": "P032",
+      "query_id": "drb2_76",
+      "construction_direction": "equivalent",
+      "delta": -0.007996057692750469
+    },
+    {
+      "case_id": "P033",
+      "query_id": "drb2_79",
+      "construction_direction": "degrade",
+      "delta": -1.0617551827297547
+    },
+    {
+      "case_id": "P033",
+      "query_id": "drb2_79",
+      "construction_direction": "improve",
+      "delta": 3.4439020177812694
+    },
+    {
+      "case_id": "P033",
+      "query_id": "drb2_79",
+      "construction_direction": "equivalent",
+      "delta": 1.3414918148091601
+    },
+    {
+      "case_id": "P034",
+      "query_id": "drb2_84",
+      "construction_direction": "degrade",
+      "delta": -1.2641878823142179
+    },
+    {
+      "case_id": "P034",
+      "query_id": "drb2_84",
+      "construction_direction": "improve",
+      "delta": 1.8280031563952548
+    },
+    {
+      "case_id": "P034",
+      "query_id": "drb2_84",
+      "construction_direction": "equivalent",
+      "delta": -3.3708195626822715
+    },
+    {
+      "case_id": "P036",
+      "query_id": "drb2_95",
+      "construction_direction": "degrade",
+      "delta": -0.7013558907757087
+    },
+    {
+      "case_id": "P036",
+      "query_id": "drb2_95",
+      "construction_direction": "improve",
+      "delta": 3.2971980888894237
+    },
+    {
+      "case_id": "P036",
+      "query_id": "drb2_95",
+      "construction_direction": "equivalent",
+      "delta": -0.8371542440573023
+    },
+    {
+      "case_id": "P064",
+      "query_id": "drb2_97",
+      "construction_direction": "degrade",
+      "delta": 0.36236210907655675
+    },
+    {
+      "case_id": "P064",
+      "query_id": "drb2_97",
+      "construction_direction": "improve",
+      "delta": 3.930789733104362
+    },
+    {
+      "case_id": "P064",
+      "query_id": "drb2_97",
+      "construction_direction": "equivalent",
+      "delta": 0.8276812311089543
+    },
+    {
+      "case_id": "P040",
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "construction_direction": "degrade",
+      "delta": -1.2264353631501166
+    },
+    {
+      "case_id": "P040",
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "construction_direction": "improve",
+      "delta": -0.537143213813053
+    },
+    {
+      "case_id": "P040",
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "construction_direction": "equivalent",
+      "delta": -2.820638209613648
+    },
+    {
+      "case_id": "P043",
+      "query_id": "rr_6847465956a0f6376a605343",
+      "construction_direction": "degrade",
+      "delta": -5.493329537168819
+    },
+    {
+      "case_id": "P043",
+      "query_id": "rr_6847465956a0f6376a605343",
+      "construction_direction": "improve",
+      "delta": 1.5005102169832298
+    },
+    {
+      "case_id": "P043",
+      "query_id": "rr_6847465956a0f6376a605343",
+      "construction_direction": "equivalent",
+      "delta": -0.8902580497554737
+    },
+    {
+      "case_id": "P044",
+      "query_id": "rr_6847465956a0f6376a605363",
+      "construction_direction": "degrade",
+      "delta": 4.736193758820129
+    },
+    {
+      "case_id": "P044",
+      "query_id": "rr_6847465956a0f6376a605363",
+      "construction_direction": "improve",
+      "delta": 12.42967631931139
+    },
+    {
+      "case_id": "P044",
+      "query_id": "rr_6847465956a0f6376a605363",
+      "construction_direction": "equivalent",
+      "delta": 5.452380064849542
+    },
+    {
+      "case_id": "P045",
+      "query_id": "rr_6847465956a0f6376a605371",
+      "construction_direction": "degrade",
+      "delta": 0.046161025791178645
+    },
+    {
+      "case_id": "P045",
+      "query_id": "rr_6847465956a0f6376a605371",
+      "construction_direction": "improve",
+      "delta": 10.375335485105651
+    },
+    {
+      "case_id": "P045",
+      "query_id": "rr_6847465956a0f6376a605371",
+      "construction_direction": "equivalent",
+      "delta": 1.6272078888763133
+    },
+    {
+      "case_id": "P046",
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "construction_direction": "degrade",
+      "delta": 2.385146975727345
+    },
+    {
+      "case_id": "P046",
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "construction_direction": "improve",
+      "delta": 6.913926145630164
+    },
+    {
+      "case_id": "P046",
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "construction_direction": "equivalent",
+      "delta": -2.492038077154362
+    },
+    {
+      "case_id": "P048",
+      "query_id": "rr_6847465956a0f6376a605427",
+      "construction_direction": "degrade",
+      "delta": -0.41890782022451845
+    },
+    {
+      "case_id": "P048",
+      "query_id": "rr_6847465956a0f6376a605427",
+      "construction_direction": "improve",
+      "delta": 3.459947538271834
+    },
+    {
+      "case_id": "P048",
+      "query_id": "rr_6847465956a0f6376a605427",
+      "construction_direction": "equivalent",
+      "delta": -0.05059313663585385
+    },
+    {
+      "case_id": "P049",
+      "query_id": "rr_6847465956a0f6376a605434",
+      "construction_direction": "degrade",
+      "delta": -6.072736528070983
+    },
+    {
+      "case_id": "P049",
+      "query_id": "rr_6847465956a0f6376a605434",
+      "construction_direction": "improve",
+      "delta": 5.380796709945514
+    },
+    {
+      "case_id": "P049",
+      "query_id": "rr_6847465956a0f6376a605434",
+      "construction_direction": "equivalent",
+      "delta": -0.7401563688426194
+    },
+    {
+      "case_id": "P065",
+      "query_id": "rr_6847465956a0f6376a605443",
+      "construction_direction": "degrade",
+      "delta": -0.8291107955082708
+    },
+    {
+      "case_id": "P065",
+      "query_id": "rr_6847465956a0f6376a605443",
+      "construction_direction": "improve",
+      "delta": 2.301572957050425
+    },
+    {
+      "case_id": "P065",
+      "query_id": "rr_6847465956a0f6376a605443",
+      "construction_direction": "equivalent",
+      "delta": 1.5336569452483957
+    },
+    {
+      "case_id": "P051",
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "construction_direction": "degrade",
+      "delta": 0.9669755564975446
+    },
+    {
+      "case_id": "P051",
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "construction_direction": "improve",
+      "delta": 1.9673375664055186
+    },
+    {
+      "case_id": "P051",
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "construction_direction": "equivalent",
+      "delta": -0.9157392443707977
+    },
+    {
+      "case_id": "P052",
+      "query_id": "rr_6847465956a0f6376a605492",
+      "construction_direction": "degrade",
+      "delta": 1.27694390636767
+    },
+    {
+      "case_id": "P052",
+      "query_id": "rr_6847465956a0f6376a605492",
+      "construction_direction": "improve",
+      "delta": 7.419582838467512
+    },
+    {
+      "case_id": "P052",
+      "query_id": "rr_6847465956a0f6376a605492",
+      "construction_direction": "equivalent",
+      "delta": 2.8266425205846986
+    },
+    {
+      "case_id": "P053",
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "construction_direction": "degrade",
+      "delta": -1.886317699321019
+    },
+    {
+      "case_id": "P053",
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "construction_direction": "improve",
+      "delta": 6.52076142071607
+    },
+    {
+      "case_id": "P053",
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "construction_direction": "equivalent",
+      "delta": 1.0953309786331928
+    },
+    {
+      "case_id": "P054",
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "construction_direction": "degrade",
+      "delta": -0.2874659901876697
+    },
+    {
+      "case_id": "P054",
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "construction_direction": "improve",
+      "delta": 5.661450241533359
+    },
+    {
+      "case_id": "P054",
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "construction_direction": "equivalent",
+      "delta": -0.20487706774160586
+    }
+  ],
+  "paired_mother_deltas": {
+    "full_point": [
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "degrade",
+        "delta": 5.178571428571431
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "improve",
+        "delta": -3.749999999999986
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "equivalent",
+        "delta": 4.285714285714292
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "degrade",
+        "delta": -1.911764705882348
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "improve",
+        "delta": 1.029411764705884
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "equivalent",
+        "delta": -3.235294117647058
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "degrade",
+        "delta": 4.0
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "improve",
+        "delta": 4.5
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "equivalent",
+        "delta": 2.5
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "degrade",
+        "delta": 1.0
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "improve",
+        "delta": -0.5
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "equivalent",
+        "delta": 0.5
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "degrade",
+        "delta": -5.833333333333343
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "improve",
+        "delta": -5.333333333333329
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "equivalent",
+        "delta": -1.5833333333333286
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "degrade",
+        "delta": -0.0961538461538396
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "improve",
+        "delta": -0.0961538461538396
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "equivalent",
+        "delta": 1.8269230769230802
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "degrade",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "improve",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "equivalent",
+        "delta": -5.0
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "degrade",
+        "delta": -0.625
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "improve",
+        "delta": -3.125
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "equivalent",
+        "delta": -4.84375
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "degrade",
+        "delta": -3.3552631578947256
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "improve",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "equivalent",
+        "delta": 3.75
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "degrade",
+        "delta": 8.465909090909093
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "improve",
+        "delta": 0.7954545454545467
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "equivalent",
+        "delta": -0.9090909090909065
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "degrade",
+        "delta": -2.850877192982466
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "improve",
+        "delta": -3.3333333333333286
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "equivalent",
+        "delta": -0.8114035087719316
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "degrade",
+        "delta": -5.9375
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "improve",
+        "delta": 3.802083333333343
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "equivalent",
+        "delta": -1.25
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "degrade",
+        "delta": -6.228070175438603
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "improve",
+        "delta": -4.14473684210526
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "equivalent",
+        "delta": -0.4166666666666572
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "degrade",
+        "delta": 1.541353383458656
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "improve",
+        "delta": 4.107142857142861
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "equivalent",
+        "delta": 2.9229323308270665
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "degrade",
+        "delta": -2.5
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "improve",
+        "delta": -3.125
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "equivalent",
+        "delta": -3.125
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "degrade",
+        "delta": -4.375
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "improve",
+        "delta": 4.125
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "equivalent",
+        "delta": -0.125
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "degrade",
+        "delta": -1.0714285714285694
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "improve",
+        "delta": 0.892857142857153
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "equivalent",
+        "delta": -2.857142857142847
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "degrade",
+        "delta": -5.0
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "improve",
+        "delta": -3.125
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "equivalent",
+        "delta": -2.5
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "degrade",
+        "delta": -2.916666666666657
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "improve",
+        "delta": -3.75
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "equivalent",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "degrade",
+        "delta": -2.083333333333343
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "improve",
+        "delta": -0.625
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "equivalent",
+        "delta": -0.8333333333333428
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "degrade",
+        "delta": 3.5
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "improve",
+        "delta": 4.875
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "equivalent",
+        "delta": 0.375
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "degrade",
+        "delta": -4.270833333333329
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "improve",
+        "delta": 1.9791666666666714
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "equivalent",
+        "delta": -2.96875
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "degrade",
+        "delta": -4.6875
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "improve",
+        "delta": -2.1875
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "equivalent",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "degrade",
+        "delta": -1.691176470588232
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "improve",
+        "delta": -2.5
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "equivalent",
+        "delta": -1.2745098039215748
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "degrade",
+        "delta": 1.5
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "improve",
+        "delta": 0.25
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "equivalent",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "degrade",
+        "delta": -3.5416666666666714
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "improve",
+        "delta": -1.875
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "equivalent",
+        "delta": -2.2916666666666714
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "degrade",
+        "delta": -1.0
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "improve",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "equivalent",
+        "delta": 1.7999999999999972
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "degrade",
+        "delta": -5.78125
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "improve",
+        "delta": -5.46875
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "equivalent",
+        "delta": -4.53125
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "degrade",
+        "delta": -2.5
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "improve",
+        "delta": -8.181818181818187
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "equivalent",
+        "delta": -2.7556818181818272
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "degrade",
+        "delta": -9.21875
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "improve",
+        "delta": -1.71875
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "equivalent",
+        "delta": -6.25
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "degrade",
+        "delta": -2.25
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "improve",
+        "delta": 0.375
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "equivalent",
+        "delta": -4.75
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "degrade",
+        "delta": 0.75
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "improve",
+        "delta": 1.0
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "equivalent",
+        "delta": 1.0
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "degrade",
+        "delta": -3.382352941176471
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "improve",
+        "delta": -0.808823529411768
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "equivalent",
+        "delta": -1.819852941176471
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "degrade",
+        "delta": 5.375
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "improve",
+        "delta": 5.375
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "equivalent",
+        "delta": 3.625
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "degrade",
+        "delta": -1.25
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "improve",
+        "delta": -0.9821428571428612
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "equivalent",
+        "delta": -1.1607142857142918
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "degrade",
+        "delta": -4.374999999999986
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "improve",
+        "delta": 0.625
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "equivalent",
+        "delta": 1.8269230769230802
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "degrade",
+        "delta": 0.267857142857153
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "improve",
+        "delta": -1.25
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "equivalent",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "degrade",
+        "delta": -5.364583333333336
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "improve",
+        "delta": -1.25
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "equivalent",
+        "delta": -9.947916666666671
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "degrade",
+        "delta": 2.083333333333343
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "improve",
+        "delta": 0.8333333333333428
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "equivalent",
+        "delta": 2.500000000000014
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "degrade",
+        "delta": 1.2500000000000142
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "improve",
+        "delta": -4.999999999999986
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "equivalent",
+        "delta": -4.423076923076906
+      }
+    ],
+    "race": [
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "degrade",
+        "delta": 0.6903902276563656
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "improve",
+        "delta": -0.4850509684927502
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "equivalent",
+        "delta": 0.42449232417649796
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "degrade",
+        "delta": -0.9141098604816378
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "improve",
+        "delta": 0.8195768184555305
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "equivalent",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "degrade",
+        "delta": -0.5111105162444787
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "improve",
+        "delta": -0.9544685383162061
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "equivalent",
+        "delta": -0.5724373771558433
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "degrade",
+        "delta": -0.4035191535852505
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "improve",
+        "delta": -0.2448662427834023
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "equivalent",
+        "delta": 0.26706652387943564
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "degrade",
+        "delta": -0.4827504358516279
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "improve",
+        "delta": -0.24412170433246416
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "equivalent",
+        "delta": 0.49836005673405737
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "degrade",
+        "delta": -0.2730474905891711
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "improve",
+        "delta": -0.06382197144612434
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "equivalent",
+        "delta": -0.09981763482649342
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "degrade",
+        "delta": 0.9178021660889968
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "improve",
+        "delta": -0.2882920280313641
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "equivalent",
+        "delta": 1.156893411832094
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "degrade",
+        "delta": -0.48273307033786494
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "improve",
+        "delta": -0.8226149044522373
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "equivalent",
+        "delta": -0.39537611504798065
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "degrade",
+        "delta": -0.17620951191867107
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "improve",
+        "delta": -0.5586079541355602
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "equivalent",
+        "delta": 0.18988640213002128
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "degrade",
+        "delta": 0.13160606039500777
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "improve",
+        "delta": -1.6662871012383391
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "equivalent",
+        "delta": -0.3036348570590022
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "degrade",
+        "delta": -0.49593711797717077
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "improve",
+        "delta": 0.3911098987901269
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "equivalent",
+        "delta": -0.8887929951037847
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "degrade",
+        "delta": -0.027072582825894642
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "improve",
+        "delta": -0.8991332595441861
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "equivalent",
+        "delta": -1.4909797028891205
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "degrade",
+        "delta": -0.9425136075976397
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "improve",
+        "delta": -0.2052481747492365
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "equivalent",
+        "delta": -0.06618913023716289
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "degrade",
+        "delta": 0.5047335365797068
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "improve",
+        "delta": 0.12792903794599653
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "equivalent",
+        "delta": 0.511299351354765
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "degrade",
+        "delta": 1.0000377678142698
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "improve",
+        "delta": 1.7038654573311263
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "equivalent",
+        "delta": -0.03142132749691484
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "degrade",
+        "delta": -0.45554565635528377
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "improve",
+        "delta": 0.9968590166213076
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "equivalent",
+        "delta": -0.58680504292645
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "degrade",
+        "delta": -0.08109210015609136
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "improve",
+        "delta": -0.299063204813379
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "equivalent",
+        "delta": -0.1321547959996323
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "degrade",
+        "delta": -1.999997327371375
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "improve",
+        "delta": 0.9433749485112841
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "equivalent",
+        "delta": -0.7822093279621001
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "degrade",
+        "delta": -0.9793022790561849
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "improve",
+        "delta": -1.576658468712317
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "equivalent",
+        "delta": -0.6455554005744091
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "degrade",
+        "delta": -0.1986359394734265
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "improve",
+        "delta": 0.3052600466362563
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "equivalent",
+        "delta": 0.2985809331391849
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "degrade",
+        "delta": 0.15994165743574484
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "improve",
+        "delta": 0.9438840006515363
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "equivalent",
+        "delta": -0.3133312753649449
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "degrade",
+        "delta": 0.7284745878507266
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "improve",
+        "delta": -0.04621366355448231
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "equivalent",
+        "delta": -0.0009136644148668438
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "degrade",
+        "delta": -0.7742703916966107
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "improve",
+        "delta": -1.5123634529222088
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "equivalent",
+        "delta": -0.6105739963700287
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "degrade",
+        "delta": 0.10875039501789985
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "improve",
+        "delta": 0.15714821700412784
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "equivalent",
+        "delta": -0.05741665023619902
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "degrade",
+        "delta": -0.5331056927167097
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "improve",
+        "delta": 0.3989144908254616
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "equivalent",
+        "delta": -7.105427357601002e-15
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "degrade",
+        "delta": -0.08556080798203425
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "improve",
+        "delta": 0.06523978062818259
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "equivalent",
+        "delta": -0.052951141609668184
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "degrade",
+        "delta": -1.3796601627298912
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "improve",
+        "delta": -0.2393471003685832
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "equivalent",
+        "delta": -0.9313865873970784
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "degrade",
+        "delta": -0.619799917843963
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "improve",
+        "delta": -0.9152093947030551
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "equivalent",
+        "delta": -1.032168929765426
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "degrade",
+        "delta": 0.41520577182893703
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "improve",
+        "delta": -0.039543058628225936
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "equivalent",
+        "delta": -0.21605740331614953
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "degrade",
+        "delta": -0.4278295750173555
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "improve",
+        "delta": -0.1939071626906852
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "equivalent",
+        "delta": -0.2616557751414632
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "degrade",
+        "delta": -0.6282900160038736
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "improve",
+        "delta": -0.06283567306024906
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "equivalent",
+        "delta": -1.3992043188241752
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "degrade",
+        "delta": 0.3098646726050376
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "improve",
+        "delta": 0.5192059122372967
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "equivalent",
+        "delta": 0.9221328290278024
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "degrade",
+        "delta": 0.15724327823151896
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "improve",
+        "delta": 0.05493294361190948
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "equivalent",
+        "delta": 0.4404534895187453
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "degrade",
+        "delta": -0.4653391944821479
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "improve",
+        "delta": -0.09913631257465028
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "equivalent",
+        "delta": -1.205576862489039
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "degrade",
+        "delta": -0.3365804421687315
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "improve",
+        "delta": 0.6165583278756301
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "equivalent",
+        "delta": -0.48575389191409357
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "degrade",
+        "delta": 0.6767500000715145
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "improve",
+        "delta": 0.2781750788975188
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "equivalent",
+        "delta": 0.44996585719929527
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "degrade",
+        "delta": -0.4293034637960176
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "improve",
+        "delta": -0.24215270368770092
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "equivalent",
+        "delta": -0.5161722331412051
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "degrade",
+        "delta": -0.24173966221198384
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "improve",
+        "delta": 0.3124613497769815
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "equivalent",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "degrade",
+        "delta": -0.13747466490874416
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "improve",
+        "delta": -0.04169726242338356
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "equivalent",
+        "delta": -0.7309521278445459
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "degrade",
+        "delta": -0.48714435175096327
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "improve",
+        "delta": 0.3167851882290691
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "equivalent",
+        "delta": 0.08396773512946965
+      }
+    ],
+    "source": [
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "degrade",
+        "delta": -12.280701754385966
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "improve",
+        "delta": -8.771929824561404
+      },
+      {
+        "case_id": "P001",
+        "query_id": "drb2_41",
+        "construction_direction": "equivalent",
+        "delta": -5.2631578947368425
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "degrade",
+        "delta": -0.34701630016904517
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "improve",
+        "delta": 1.3075654689023253
+      },
+      {
+        "case_id": "P002",
+        "query_id": "drb1_19",
+        "construction_direction": "equivalent",
+        "delta": -0.001778391633024512
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "degrade",
+        "delta": 0.22413299902736838
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "improve",
+        "delta": -0.16468161233672873
+      },
+      {
+        "case_id": "P003",
+        "query_id": "drb1_25",
+        "construction_direction": "equivalent",
+        "delta": -0.04967610175746984
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "degrade",
+        "delta": -0.14425390459099674
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "improve",
+        "delta": 0.10439325295180879
+      },
+      {
+        "case_id": "P004",
+        "query_id": "drb1_27",
+        "construction_direction": "equivalent",
+        "delta": 0.09354855942808626
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "degrade",
+        "delta": 0.43317809585278155
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "improve",
+        "delta": 0.3042032969469233
+      },
+      {
+        "case_id": "P055",
+        "query_id": "drb1_47",
+        "construction_direction": "equivalent",
+        "delta": 0.31131727250042474
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "degrade",
+        "delta": 0.06001065464074884
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "improve",
+        "delta": 0.17868582287120205
+      },
+      {
+        "case_id": "P008",
+        "query_id": "drb1_48",
+        "construction_direction": "equivalent",
+        "delta": 0.2919396718561771
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "degrade",
+        "delta": -0.6556471757490598
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "improve",
+        "delta": -0.039291414552756976
+      },
+      {
+        "case_id": "P056",
+        "query_id": "drb1_51",
+        "construction_direction": "equivalent",
+        "delta": 0.05220323956100259
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "degrade",
+        "delta": 1.6666666666666714
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "improve",
+        "delta": 3.3333333333333286
+      },
+      {
+        "case_id": "P010",
+        "query_id": "drb2_11",
+        "construction_direction": "equivalent",
+        "delta": 5.0
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "degrade",
+        "delta": -3.225806451612904
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "improve",
+        "delta": -1.6129032258064484
+      },
+      {
+        "case_id": "P057",
+        "query_id": "drb2_117",
+        "construction_direction": "equivalent",
+        "delta": -1.6129032258064484
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "degrade",
+        "delta": 3.3898305084745743
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "improve",
+        "delta": 3.3898305084745743
+      },
+      {
+        "case_id": "P012",
+        "query_id": "drb2_119",
+        "construction_direction": "equivalent",
+        "delta": 3.3898305084745743
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "degrade",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "improve",
+        "delta": -3.5087719298245617
+      },
+      {
+        "case_id": "P013",
+        "query_id": "drb2_123",
+        "construction_direction": "equivalent",
+        "delta": -10.526315789473685
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "degrade",
+        "delta": 1.492537313432834
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "improve",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P014",
+        "query_id": "drb2_125",
+        "construction_direction": "equivalent",
+        "delta": 5.970149253731343
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "degrade",
+        "delta": 1.6949152542372872
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "improve",
+        "delta": 5.0847457627118615
+      },
+      {
+        "case_id": "P058",
+        "query_id": "drb2_129",
+        "construction_direction": "equivalent",
+        "delta": 8.474576271186436
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "degrade",
+        "delta": 1.818181818181813
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "improve",
+        "delta": 7.272727272727266
+      },
+      {
+        "case_id": "P059",
+        "query_id": "drb2_15",
+        "construction_direction": "equivalent",
+        "delta": 7.272727272727266
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "degrade",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "improve",
+        "delta": 1.53846153846154
+      },
+      {
+        "case_id": "P017",
+        "query_id": "drb2_18",
+        "construction_direction": "equivalent",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "degrade",
+        "delta": 3.773584905660371
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "improve",
+        "delta": -1.8867924528301927
+      },
+      {
+        "case_id": "P019",
+        "query_id": "drb2_21",
+        "construction_direction": "equivalent",
+        "delta": -1.8867924528301927
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "degrade",
+        "delta": 1.25
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "improve",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P021",
+        "query_id": "drb2_28",
+        "construction_direction": "equivalent",
+        "delta": -3.75
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "degrade",
+        "delta": 7.2289156626506035
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "improve",
+        "delta": 6.024096385542169
+      },
+      {
+        "case_id": "P060",
+        "query_id": "drb2_3",
+        "construction_direction": "equivalent",
+        "delta": 3.6144578313253035
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "degrade",
+        "delta": -1.8518518518518476
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "improve",
+        "delta": 1.8518518518518547
+      },
+      {
+        "case_id": "P061",
+        "query_id": "drb2_46",
+        "construction_direction": "equivalent",
+        "delta": 1.8518518518518547
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "degrade",
+        "delta": 1.5873015873015852
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "improve",
+        "delta": 1.5873015873015852
+      },
+      {
+        "case_id": "P062",
+        "query_id": "drb2_58",
+        "construction_direction": "equivalent",
+        "delta": 1.5873015873015852
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "degrade",
+        "delta": 8.82352941176471
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "improve",
+        "delta": 2.941176470588239
+      },
+      {
+        "case_id": "P028",
+        "query_id": "drb2_66",
+        "construction_direction": "equivalent",
+        "delta": 8.82352941176471
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "degrade",
+        "delta": -7.5471698113207495
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "improve",
+        "delta": -5.660377358490564
+      },
+      {
+        "case_id": "P030",
+        "query_id": "drb2_71",
+        "construction_direction": "equivalent",
+        "delta": -11.320754716981128
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "degrade",
+        "delta": -12.499999999999993
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "improve",
+        "delta": 2.083333333333343
+      },
+      {
+        "case_id": "P063",
+        "query_id": "drb2_75",
+        "construction_direction": "equivalent",
+        "delta": -2.0833333333333286
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "degrade",
+        "delta": 4.61538461538462
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "improve",
+        "delta": -3.07692307692308
+      },
+      {
+        "case_id": "P032",
+        "query_id": "drb2_76",
+        "construction_direction": "equivalent",
+        "delta": -7.692307692307693
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "degrade",
+        "delta": -14.583333333333332
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "improve",
+        "delta": -10.416666666666664
+      },
+      {
+        "case_id": "P033",
+        "query_id": "drb2_79",
+        "construction_direction": "equivalent",
+        "delta": -10.416666666666664
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "degrade",
+        "delta": -3.225806451612897
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "improve",
+        "delta": -9.677419354838705
+      },
+      {
+        "case_id": "P034",
+        "query_id": "drb2_84",
+        "construction_direction": "equivalent",
+        "delta": -12.903225806451609
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "degrade",
+        "delta": -5.4054054054054035
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "improve",
+        "delta": 1.3513513513513544
+      },
+      {
+        "case_id": "P036",
+        "query_id": "drb2_95",
+        "construction_direction": "equivalent",
+        "delta": 2.702702702702709
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "degrade",
+        "delta": 3.225806451612904
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "improve",
+        "delta": 1.6129032258064484
+      },
+      {
+        "case_id": "P064",
+        "query_id": "drb2_97",
+        "construction_direction": "equivalent",
+        "delta": -1.6129032258064555
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "degrade",
+        "delta": -15.254237288135585
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "improve",
+        "delta": 10.169491525423737
+      },
+      {
+        "case_id": "P040",
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "construction_direction": "equivalent",
+        "delta": 10.169491525423737
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "degrade",
+        "delta": -4.761904761904759
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "improve",
+        "delta": 6.349206349206355
+      },
+      {
+        "case_id": "P043",
+        "query_id": "rr_6847465956a0f6376a605343",
+        "construction_direction": "equivalent",
+        "delta": -4.761904761904759
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "degrade",
+        "delta": 7.042253521126767
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "improve",
+        "delta": 7.042253521126767
+      },
+      {
+        "case_id": "P044",
+        "query_id": "rr_6847465956a0f6376a605363",
+        "construction_direction": "equivalent",
+        "delta": 7.042253521126767
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "degrade",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "improve",
+        "delta": -6.956521739130437
+      },
+      {
+        "case_id": "P045",
+        "query_id": "rr_6847465956a0f6376a605371",
+        "construction_direction": "equivalent",
+        "delta": 7.826086956521735
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "degrade",
+        "delta": 3.896103896103895
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "improve",
+        "delta": -3.8961038961039094
+      },
+      {
+        "case_id": "P046",
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "construction_direction": "equivalent",
+        "delta": 3.896103896103895
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "degrade",
+        "delta": 2.3255813953488342
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "improve",
+        "delta": 11.627906976744185
+      },
+      {
+        "case_id": "P048",
+        "query_id": "rr_6847465956a0f6376a605427",
+        "construction_direction": "equivalent",
+        "delta": -6.97674418604651
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "degrade",
+        "delta": 9.166666666666657
+      },
+      {
+        "case_id": "P049",
+        "query_id": "rr_6847465956a0f6376a605434",
+        "construction_direction": "improve",
+        "delta": -1.6666666666666714
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "degrade",
+        "delta": -3.333333333333343
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "improve",
+        "delta": -8.8888888888889
+      },
+      {
+        "case_id": "P065",
+        "query_id": "rr_6847465956a0f6376a605443",
+        "construction_direction": "equivalent",
+        "delta": 4.444444444444443
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "degrade",
+        "delta": -7.843137254901961
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "improve",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P051",
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "construction_direction": "equivalent",
+        "delta": 7.843137254901961
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "degrade",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "improve",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P052",
+        "query_id": "rr_6847465956a0f6376a605492",
+        "construction_direction": "equivalent",
+        "delta": 0.0
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "degrade",
+        "delta": 11.25
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "improve",
+        "delta": 7.5
+      },
+      {
+        "case_id": "P053",
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "construction_direction": "equivalent",
+        "delta": 7.5
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "degrade",
+        "delta": -6.722689075630242
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "improve",
+        "delta": -4.201680672268907
+      },
+      {
+        "case_id": "P054",
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "construction_direction": "equivalent",
+        "delta": -10.924369747899156
+      }
+    ]
+  }
+}

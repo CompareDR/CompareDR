@@ -1,0 +1,15 @@
+/* Standalone layout only; the project stylesheet and homepage design are retained. */
+.leaderboard .harness,.leaderboard td:nth-child(1){color:#516975}
+.leaderboard .total{font-weight:400}
+.leaderboard .total.best{font-weight:750}
+.board-hero{padding-top:56px;padding-bottom:36px}
+.board-hero h1{font-size:clamp(32px,4.3vw,54px);max-width:850px}
+.board-hero .hero-copy{max-width:760px}
+.board-facts{display:flex;flex-wrap:wrap;gap:12px 36px;border-top:1px solid var(--line);padding-top:20px;color:#516975;font-size:13px}
+.board-facts strong{font-size:22px;color:var(--ink);margin-right:6px;font-variant-numeric:tabular-nums}
+.download-links{display:flex;flex-wrap:wrap;gap:18px}
+.participation-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.participation-steps article{border-top:2px solid var(--line);padding-top:18px}
+.participation-steps h3{font-size:17px;line-height:1.4;margin:10px 0}
+.participation-steps p{font-size:13px;color:#516975;margin:0}
+@media(max-width:650px){.board-hero{padding-top:32px}.board-facts{gap:10px 24px}.participation-steps{grid-template-columns:1fr;gap:22px}}

@@ -1,0 +1,17 @@
+{
+  "data/benchmark.json": "2fb58753e5f08768d897a37100ec96d3e3482d9e276618932f939e9f5a2da7ed",
+  "data/cross_judge.json": "1728c7151a8c6953a5e2463386c7491fb9962a388a9a58d71eefa68ecbf8d736",
+  "data/expected_main.json": "b6a38d7c039631d3e9d38a14a3afd233215c8709c9e866459d3d8cfe29bb3539",
+  "data/expected_observations.json": "eb4797e62bd3adcb42a204e413e8ffc6b24aeb58f518a92090de5b1e35b7e32e",
+  "data/expected_sparse.json": "36f492ccbe3dd145acc51020cb061fc2326320f3f6c0ac1c3065dea5a75150dc",
+  "data/human80.json": "9d4e6e0f049baa1bccedc0fdf865bf9f998032349ed58e45ff4ec0fa5053550a",
+  "data/main_judgments.json": "0165ca2554ad8e13a17917819939ceac31812e89ed65720ba69c67147bd00b3e",
+  "data/opponent_sampling.json": "c802ea5692090468a3aff9c4888fd16bfdcf69a9d4da85add25ea9a638b71cc2",
+  "data/paper_tables.json": "1b8865fef1adcadfd52ec29df9a76affb3832ccb089747c33da30c5bd7d5349f",
+  "data/seven_ordinal_source.json": "8dafeec6d71fe8408f2a3aa766151c4210951b83ddc3b395c912dd339eccb58a",
+  "data/seven_scores.json": "0b39b28e88963689d5d8be085d121ed78edce98aa892f625537ec060d47f733b",
+  "data/sparse_trials.json": "7481d143bd5124694bf96213e0a6f9700c10683dfa4689ece31f8ea434d9d056",
+  "data/usage_ledger.json": "f658af25c4f72a3a3c6e11c66cb347b8fb9c0f66bad21f89406be14b61ec7e40",
+  "paper/main.tex": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
+  "frozen_ordinal.py": "73e9bbcef55a21b88e26feee54d7bccb5824ea0dcf0d28427f61d1a9f3476678"
+}

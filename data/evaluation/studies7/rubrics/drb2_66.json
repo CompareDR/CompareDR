@@ -1,0 +1,1508 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:66",
+  "language": "en",
+  "title": "肠道菌群与结直肠癌治疗",
+  "full_query": "I've recently been focusing on colorectal cancer (CRC) treatment, and I've heard that gut microbiota significantly impacts treatment efficacy and side effects. I would like you to conduct a comprehensive research and summary for me, covering publicly available research findings up to September 2024. Please help me organize a table specifically outlining the interactions between gut microbiota and various CRC treatment methods. This table needs to include the following columns: 'Treatment Area', 'Specific Modality', 'Positive Impacts/Advantages', 'Negative Impacts/Complications'. Under 'Treatment Area', please make sure to cover surgery, chemotherapy, immunotherapy, and radiotherapy. Additionally, I'd like to understand some future directions, so please include probiotics/prebiotics and fecal microbiota transplantation (FMT) as 'Specific Modalities' under 'Future Outlook'. Please ensure the table content is detailed and accurate, allowing me to clearly see the relationship between each therapy and the microbiota.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Interplay Between the Gut Microbiota and Colorectal Cancer: A Review of the Literature', 'authors': ['Marco Cintoni', 'Marta Palombaro', 'Eleonora Zoli', \"Giuseppe D'Agostino\", 'Gabriele Pulcini', 'Elena Leonardi', 'Pauline Raoul', 'Emanuele Rinninella', 'Flavio De Maio', 'Esmeralda Capristo', 'Antonio Gasbarrini', 'Maria Cristina Mele'], 'urls': ['https://www.mdpi.com/2076-2607/13/6/1410', 'https://pubmed.ncbi.nlm.nih.gov/40572299/', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12195752/', 'https://www.researchgate.net/publication/392786159_The_Interplay_Between_the_Gut_Microbiota_and_Colorectal_Cancer_A_Review_of_the_Literature']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.table",
+      "dimension": "D1",
+      "title": "Requested therapy table",
+      "question": "Does the report provide the requested four-column table covering the four treatment areas and the two specified future modalities?",
+      "anchors": {
+        "1": "No usable therapy table.",
+        "2": "A table exists but most required areas or columns are missing.",
+        "3": "A recognizable table lacks a required treatment area, a requested future modality or a major column.",
+        "4": "All required areas/modalities and columns are identifiable, with a minor label or placement ambiguity.",
+        "5": "The table includes Treatment Area, Specific Modality, Positive Impacts/Advantages and Negative Impacts/Complications; surgery, chemotherapy, immunotherapy, radiotherapy, and probiotics/prebiotics plus FMT under Future Outlook are identifiable."
+      },
+      "boundary": "Check the requested columns and treatment areas, not clinical content again. Equivalent row groupings are eligible. Do not require separate rows for preparation, prophylaxis, ileus, adjuncts or diet. Combined treatment must be labelled as such; cross-referencing a finding does not create another independent contribution.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:presentation:1",
+          "drb2:66:presentation:2",
+          "drb2:66:presentation:3",
+          "drb2:66:presentation:8"
+        ],
+        "query_quotes": [
+          "probiotics/prebiotics and fecal microbiota transplantation (FMT)"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Requested therapy table': Does the report provide the requested four-column table covering the four treatment areas and the two specified future modalities? Locally design the five anchors and boundaries. Concrete changes: Retain the table requirement. Retain the four specified information columns; harmless label variations remain acceptable. Retain required areas without compulsory ordering. Retain probiotics/prebiotics and FMT under Future Outlook; do not mandate a dietary row."
+      }
+    },
+    {
+      "id": "PT.D1.surgery.positive",
+      "dimension": "D1",
+      "title": "Surgery: favorable perioperative microbiota interactions",
+      "question": "Does the table concretely describe microbial management in relation to infection prevention, recovery or another specified surgical outcome?",
+      "anchors": {
+        "1": "No relevant positive microbiota-interaction information is provided for Surgery.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "A relevant interaction or limitation is stated, but its intervention, outcome or study setting is materially unclear.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The report concretely describes microbial management in relation to infection prevention, recovery or another specified surgical outcome, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Surgery: favorable perioperative microbiota interactions': Does the table concretely describe microbial management in relation to infection prevention, recovery or another specified surgical outcome? Locally design the five anchors and boundaries. Concrete changes: Require scoped surgical microbiota interactions, not every official named submodality."
+      }
+    },
+    {
+      "id": "PT.D1.surgery.negative",
+      "dimension": "D1",
+      "title": "Surgery: adverse microbiota interactions and complications",
+      "question": "Does the table explain an important microbiota-related adverse effect or complication in the surgical setting, with its relevant process and evidence context?",
+      "anchors": {
+        "1": "No relevant microbiota-related surgical adverse effect or complication is described, or its core explanation is incorrect.",
+        "2": "Only names a complication or microbial disturbance, without explaining the microbiota–outcome relationship.",
+        "3": "Describes a relevant relationship, but the microbial action, adverse outcome or perioperative setting is materially unclear.",
+        "4": "Explains the microbial change or action and its adverse consequence in a clear surgical setting, with a minor evidence-scope gap.",
+        "5": "Explains the microbiota–adverse outcome relationship and relevant process in a specified surgical setting, distinguishing association from mechanism and qualifying the applicable evidence and limits."
+      },
+      "boundary": "Anastomotic leakage, ileus and adverse effects of perioperative preparation or prophylaxis are eligible examples, not mandatory separate topics. Do not require a fixed species, pathway or recovery duration. A microbial change alone is not necessarily a complication. A specifically explained evidence gap may be adequate; an empty cell or unsupported unknown is not. Positive effects are assessed separately.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:10",
+          "drb2:66:info_recall:11",
+          "drb2:66:info_recall:12",
+          "drb2:66:info_recall:13",
+          "drb2:66:analysis:2",
+          "drb2:66:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 21 minimal revision: accept relevant alternative interactions without a fixed example quota. Original official examples remain provenance, not mandatory coverage; their exact omission detection is not preserved."
+      }
+    },
+    {
+      "id": "PT.D1.chemo.positive",
+      "dimension": "D1",
+      "title": "Chemotherapy: favorable microbiota interactions",
+      "question": "Does the table explain a specific favorable microbiota interaction with chemotherapy response or treatment tolerance, keeping the regimen and evidence context clear?",
+      "anchors": {
+        "1": "No relevant favorable microbiota–chemotherapy interaction is described, or its core explanation is incorrect.",
+        "2": "Only says microbiota or probiotics improve treatment, without a specific interaction or outcome.",
+        "3": "Describes a relevant response or tolerance finding, but its microbiota link, regimen or outcome is materially unclear.",
+        "4": "The microbiota interaction, regimen and response or tolerance outcome are clear, with a minor evidence-scope gap.",
+        "5": "Explains a specific favorable interaction with its regimen, microbiota link and outcome, distinguishing observed association or candidate prediction from demonstrated intervention benefit and stating relevant evidence limits."
+      },
+      "boundary": "Eligible content includes response-associated microbiota, candidate biomarkers or microbiota-directed adjuncts relevant to chemotherapy tolerance; no one route is mandatory. Symptom relief is not proof of improved antitumor efficacy. Label chemoradiotherapy as combined treatment, not chemotherapy alone. The same combined-treatment finding may be cross-referenced in chemotherapy and radiotherapy, but is not two independent content gains merely because it appears twice. A scoped evidence gap is eligible; an unsupported unknown is not.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:20",
+          "drb2:66:info_recall:21",
+          "drb2:66:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 21 minimal revision: accept relevant alternative interactions without a fixed example quota. Original official examples remain provenance, not mandatory coverage; their exact omission detection is not preserved."
+      }
+    },
+    {
+      "id": "PT.D1.chemo.negative",
+      "dimension": "D1",
+      "title": "Chemotherapy: resistance and adverse interactions",
+      "question": "Does the table concretely describe microbiota-related resistance and gastrointestinal toxicity, keeping the drug/regimen and outcome identifiable?",
+      "anchors": {
+        "1": "No relevant negative microbiota-interaction information is provided for Chemotherapy.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Resistance or gastrointestinal toxicity is described, but the other is absent, or the regimen/outcome is materially unclear.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The report concretely describes microbiota-related resistance and gastrointestinal toxicity, keeping the drug/regimen and outcome identifiable, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query. Describe the microbial action underlying resistance, such as anti-apoptotic signaling, rather than a taxon label alone; a supported alternative pathway is eligible.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:16",
+          "drb2:66:info_recall:17",
+          "drb2:66:info_recall:18",
+          "drb2:66:info_recall:19",
+          "drb2:66:info_recall:22",
+          "drb2:66:presentation:5",
+          "drb2:66:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Chemotherapy: resistance and adverse interactions': Does the table concretely describe microbiota-related resistance and gastrointestinal toxicity, keeping the drug/regimen and outcome identifiable? Locally design the five anchors and boundaries. Concrete changes: Adapt resistance or gastrointestinal toxicity in a stated treatment context into a scoped treatment-interaction check, not a fixed taxon/result requirement. Require scoped chemotherapy microbiota interactions, not every official named submodality."
+      }
+    },
+    {
+      "id": "PT.D1.immune.positive",
+      "dimension": "D1",
+      "title": "Immunotherapy: favorable immune-treatment interactions",
+      "question": "Does the table explain a specific favorable microbiota or microbiota-directed adjunct interaction with immunotherapy, identifying the treatment, outcome and evidence population?",
+      "anchors": {
+        "1": "No relevant favorable microbiota–immunotherapy interaction is described, or its core explanation is incorrect.",
+        "2": "Only states that microbiota or probiotics help immunity, without a treatment-linked finding.",
+        "3": "Describes a relevant finding, but the microbiota link, immune treatment, outcome or population is materially unclear.",
+        "4": "The microbiota interaction, immune treatment, outcome and population are clear, with a minor evidence-scope gap.",
+        "5": "Explains a specific interaction involving microbiota composition, metabolites or a microbiota-directed adjunct, identifies its treatment and outcome, and distinguishes response associations, experimental enhancement and symptom benefits with CRC versus adjacent evidence limits."
+      },
+      "boundary": "Composition/diversity, metabolite findings and adjunct interventions are alternative eligible routes, not a mandatory checklist. Do not require a fixed organism, regimen or positive result. Separate human CRC evidence from other cancers or preclinical findings; symptom or quality-of-life improvement does not itself establish antitumor efficacy. A scoped evidence gap is eligible; an unsupported unknown is not.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:26",
+          "drb2:66:info_recall:27",
+          "drb2:66:info_recall:28",
+          "drb2:66:info_recall:29",
+          "drb2:66:analysis:5",
+          "drb2:66:analysis:6",
+          "drb2:66:presentation:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 21 minimal revision: accept relevant alternative interactions without a fixed example quota. Original official examples remain provenance, not mandatory coverage; their exact omission detection is not preserved."
+      }
+    },
+    {
+      "id": "PT.D1.immune.negative",
+      "dimension": "D1",
+      "title": "Immunotherapy: adverse immune-treatment interactions",
+      "question": "Does the table concretely describe microbiota-related loss of response or toxicity and relevant coexposures; identify the treatment and study population rather than label all antibiotics harmful?",
+      "anchors": {
+        "1": "No relevant negative microbiota-interaction information is provided for Immunotherapy.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Antibiotic coexposure or harmful microbial/toxin effects are described but the other relevant adverse pathway or its immune consequence is missing.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The table discusses antibiotic coexposure and adverse microbial/toxin effects on immune response, with treatment/population and mechanistic versus clinical evidence clear; neither universal antibiotic harm nor universal toxin resistance is asserted."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:31",
+          "drb2:66:info_recall:32",
+          "drb2:66:presentation:6",
+          "drb2:66:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Immunotherapy: adverse immune-treatment interactions': Does the table concretely describe microbiota-related loss of response or toxicity and relevant coexposures; identify the treatment and study population rather than label all antibiotics harmful? Locally design the five anchors and boundaries. Concrete changes: Adapt adverse immune-response interactions into a scoped treatment-interaction check, not a fixed taxon/result requirement. Require scoped immunotherapy microbiota interactions, not every official named submodality."
+      }
+    },
+    {
+      "id": "PT.D1.radio.positive",
+      "dimension": "D1",
+      "title": "Radiotherapy: favorable radiation-related interactions",
+      "question": "Does the table concretely describe microbiota-related response or tolerance findings for the relevant colorectal/rectal treatment setting, or a specific evidence gap; general tumor control alone is not a microbiota benefit?",
+      "anchors": {
+        "1": "No relevant positive microbiota-interaction information is provided for Radiotherapy.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "A relevant interaction or limitation is stated, but its intervention, outcome or study setting is materially unclear.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The report concretely describes microbiota-related response or tolerance findings for the relevant colorectal/rectal treatment setting, or a specific evidence gap; general tumor control alone is not a microbiota benefit, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Radiotherapy: favorable radiation-related interactions': Does the table concretely describe microbiota-related response or tolerance findings for the relevant colorectal/rectal treatment setting, or a specific evidence gap; general tumor control alone is not a microbiota benefit? Locally design the five anchors and boundaries. Concrete changes: Require scoped radiotherapy microbiota interactions, not every official named submodality."
+      }
+    },
+    {
+      "id": "PT.D1.radio.negative",
+      "dimension": "D1",
+      "title": "Radiotherapy: adverse radiation-related interactions",
+      "question": "Does the table concretely describe radiation-associated microbiota change and gastrointestinal injury/complications, identifying whether the finding concerns radiation alone or combined treatment?",
+      "anchors": {
+        "1": "No relevant negative microbiota-interaction information is provided for Radiotherapy.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Microbiota disruption or GI injury is concrete but the barrier/inflammatory link, radiation/combined setting or broader symptom burden is missing.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The table explains radiation-related dysbiosis and barrier/inflammatory injury in mucositis or proctitis, addresses symptom burden including fatigue-associated findings or their specific evidence limits, and distinguishes radiation alone from combined treatment."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:36",
+          "drb2:66:info_recall:37",
+          "drb2:66:info_recall:38",
+          "drb2:66:info_recall:39",
+          "drb2:66:info_recall:40",
+          "drb2:66:presentation:7",
+          "drb2:66:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Radiotherapy: adverse radiation-related interactions': Does the table concretely describe radiation-associated microbiota change and gastrointestinal injury/complications, identifying whether the finding concerns radiation alone or combined treatment? Locally design the five anchors and boundaries. Concrete changes: Adapt microbiota-associated radiation injury into a scoped treatment-interaction check, not a fixed taxon/result requirement. Require scoped radiotherapy microbiota interactions, not every official named submodality."
+      }
+    },
+    {
+      "id": "PT.D1.pro.positive",
+      "dimension": "D1",
+      "title": "Probiotics/prebiotics: potential probiotic/prebiotic benefits",
+      "question": "Does the table concretely describe the distinction between the specified approaches and their proposed microbiota-related response or tolerance benefit, with strain/substrate or intervention scope as relevant?",
+      "anchors": {
+        "1": "No relevant positive microbiota-interaction information is provided for Probiotics/prebiotics.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Probiotics or prebiotics is substantive but the other is only labelled, or a proposed biological effect is confused with established clinical benefit.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The report concretely describes the distinction between the specified approaches and their proposed microbiota-related response or tolerance benefit, with strain/substrate or intervention scope as relevant, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query. Both probiotics and prebiotics need substantive explanation; one described well and the other only labelled is at most3. Explain prospective modulation of inflammation/tumor processes and tolerance, separating preclinical activity from established benefit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:43",
+          "drb2:66:info_recall:44"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Probiotics/prebiotics: potential probiotic/prebiotic benefits': Does the table concretely describe the distinction between the specified approaches and their proposed microbiota-related response or tolerance benefit, with strain/substrate or intervention scope as relevant? Locally design the five anchors and boundaries. Concrete changes: Adapt specified probiotic/prebiotic response or tolerance effects into a scoped treatment-interaction check, not a fixed taxon/result requirement."
+      }
+    },
+    {
+      "id": "PT.D1.pro.negative",
+      "dimension": "D1",
+      "title": "Probiotics/prebiotics: probiotic/prebiotic limitations and harms",
+      "question": "Does the table concretely describe the applicable intervention, safety concern or efficacy uncertainty in the CRC setting; absence of an established benefit must not be described as proof of safety?",
+      "anchors": {
+        "1": "No relevant negative microbiota-interaction information is provided for Probiotics/prebiotics.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "A relevant interaction or limitation is stated, but its intervention, outcome or study setting is materially unclear.",
+        "4": "The interaction or limitation and its main intervention/outcome context are clear, with a minor scope gap.",
+        "5": "The report concretely describes the applicable intervention, safety concern or efficacy uncertainty in the CRC setting; absence of an established benefit must not be described as proof of safety, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Probiotics/prebiotics: probiotic/prebiotic limitations and harms' for this query: Does the table concretely describe the applicable intervention, safety concern or efficacy uncertainty in the CRC setting; absence of an established benefit must not be described as proof of safety? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D1.fmt.positive",
+      "dimension": "D1",
+      "title": "FMT: potential FMT benefits",
+      "question": "Does the table concretely describe what microbiota transfer is intended to improve and what evidence supports that possibility in CRC or explicitly labelled adjacent settings?",
+      "anchors": {
+        "1": "No relevant positive microbiota-interaction information is provided for FMT.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Response improvement or treatment-injury recovery is discussed, but the other is absent or their endpoints/evidence settings are conflated.",
+        "4": "Both response and treatment-injury recovery research, or specific evidence limits for each, are described with distinct endpoints and only minor context gaps.",
+        "5": "The table explains potential FMT effects on treatment response and recovery from treatment-related injury, identifies evidence or specific limits for each, and separates CRC from adjacent cancer/settings without asserting established CRC efficacy."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query. Response improvement and treatment-injury recovery must not be conflated. Safety concerns are assessed separately in PT.D1.fmt.negative. A substantial missing requested side is at most3.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:45",
+          "drb2:66:info_recall:46",
+          "drb2:66:info_recall:47"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'FMT: potential FMT benefits': Does the table concretely describe what microbiota transfer is intended to improve and what evidence supports that possibility in CRC or explicitly labelled adjacent settings? Locally design the five anchors and boundaries. Concrete changes: Adapt potential FMT benefit with CRC versus adjacent evidence distinguished into a scoped treatment-interaction check, not a fixed taxon/result requirement."
+      }
+    },
+    {
+      "id": "PT.D1.fmt.negative",
+      "dimension": "D1",
+      "title": "FMT: FMT limitations and harms",
+      "question": "Does the table concretely describe the context-dependent transfer/safety risks and the limitations of CRC efficacy evidence, without treating exploratory findings as routine CRC treatment?",
+      "anchors": {
+        "1": "No relevant negative microbiota-interaction information is provided for FMT.",
+        "2": "Only a favorable/unfavorable label or a generic therapy fact is given, without a microbiota interaction.",
+        "3": "Transfer/safety risk or CRC efficacy uncertainty is discussed, but the other is absent or its intervention/population context is materially unclear.",
+        "4": "Both transfer-related safety concerns and CRC efficacy limits are described with only minor context gaps.",
+        "5": "The report concretely describes the context-dependent transfer/safety risks and the limitations of CRC efficacy evidence, without treating exploratory findings as routine CRC treatment, with the relevant evidence limitations stated."
+      },
+      "boundary": "Assess this side of the interaction only; benefits cannot compensate for missing harms or vice versa. An evidence gap can be an adequate answer when its specific scope and basis are described; a blank cell or unsupported 'unknown' is not. No fixed organism, regimen or result is mandatory unless named in the query. Transfer-related safety risks and CRC efficacy uncertainty cannot replace each other. Potential benefits are assessed separately in PT.D1.fmt.positive. A substantial missing requested side is at most3.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'FMT: FMT limitations and harms' for this query: Does the table concretely describe the context-dependent transfer/safety risks and the limitations of CRC efficacy evidence, without treating exploratory findings as routine CRC treatment? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D1.cutoff",
+      "dimension": "D1",
+      "title": "Research cutoff",
+      "question": "Does the report restrict its research findings to those publicly available up to September 2024?",
+      "anchors": {
+        "1": "The main evidence is from after the cutoff.",
+        "2": "Several important later findings are treated as available by the cutoff.",
+        "3": "The main scope is appropriate but an important finding's availability date is unclear.",
+        "4": "The cutoff is respected apart from minor date ambiguity.",
+        "5": "Research availability is clearly bounded by September 2024, including dates of any trials or findings used."
+      },
+      "boundary": "Do not infer a study's availability from an undated citation alone. This checks time scope, not factual support.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "up to September 2024"
+        ],
+        "change_note": "Locally add 'Research cutoff' for this query: Does the report restrict its research findings to those publicly available up to September 2024? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D1.exclusion",
+      "dimension": "D1",
+      "title": "Excluded review",
+      "question": "Does the final report avoid citing or substantively using the specifically excluded review?",
+      "anchors": {
+        "1": "The excluded review supports central conclusions.",
+        "2": "It substantively supports several secondary claims.",
+        "3": "It supports one local substantive claim.",
+        "4": "It appears only in the bibliography, with no confirmed substantive use.",
+        "5": "No observable citation/use is found; merely stating that it was excluded is not use."
+      },
+      "boundary": "Inspect final-report evidence only; do not infer browsing history or use from shared facts.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Excluded review' for this query: Does the final report avoid citing or substantively using the specifically excluded review? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D2.trace",
+      "dimension": "D2",
+      "title": "Traceability of treatment claims",
+      "question": "Can important microbiota–treatment claims be traced to their particular studies or a reviewable derivation?",
+      "anchors": {
+        "1": "Central claims lack identifiable sources.",
+        "2": "Only generic research references are given.",
+        "3": "A bibliography exists but important claims cannot be assigned to particular studies.",
+        "4": "Important claims have identifiable support, with minor attribution ambiguity.",
+        "5": "Important treatment, taxon and outcome claims have clear source links or reviewable derivations."
+      },
+      "boundary": "A bibliographic citation can be sufficient without a URL. Identifiability does not establish support.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Traceability of treatment claims' for this query: Can important microbiota–treatment claims be traced to their particular studies or a reviewable derivation? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D2.support",
+      "dimension": "D2",
+      "title": "Support within the verified sample",
+      "question": "Within the recorded verification sample, do treatment claims match the obtained evidence's population, intervention, endpoint and strength?",
+      "anchors": {
+        "1": "A central assessed treatment conclusion is contradicted or has no claimed basis.",
+        "2": "Several important assessed claims materially misstate populations, outcomes or evidence strength.",
+        "3": "Support is mixed, with material extrapolation or attribution errors remaining.",
+        "4": "Assessed claims are supported with only minor imprecision.",
+        "5": "All assessed claims match the obtained population, treatment, endpoint and evidence strength; this is not a full-report guarantee."
+      },
+      "boundary": "Publish selected/assessed counts and claim/source locations. Retrieval failure is an execution issue to report and retry, not a low score or proof of absence. This draft does not perform medical verification.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:presentation:9",
+          "drb2:66:presentation:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Support within the verified sample': Within the recorded verification sample, do treatment claims match the obtained evidence's population, intervention, endpoint and strength? Locally design the five anchors and boundaries. Concrete changes: Separate sampled external support from internal evidence-stage/applicability labelling. Separate clear wording from sampled factual support."
+      }
+    },
+    {
+      "id": "PT.D2.stage",
+      "dimension": "D2",
+      "title": "Evidence status within the report",
+      "question": "Does the report consistently distinguish association, mechanism, clinical benefit and exploratory intervention status?",
+      "anchors": {
+        "1": "Central experimental or associative findings are presented as established CRC clinical benefit.",
+        "2": "Several important claims collapse preclinical/other-cancer findings into CRC clinical recommendations.",
+        "3": "Some distinctions are explicit, but a material claim leaves its population or evidence stage ambiguous.",
+        "4": "Evidence stages and CRC applicability are clear apart from minor labelling ambiguity.",
+        "5": "The report consistently labels human CRC, other-cancer and preclinical findings, distinguishing association from tested intervention benefit and hypotheses from established use."
+      },
+      "boundary": "This is an internal audit of what the report claims and labels, not external proof that labels are correct. Uncertainty cannot be hidden behind a generic disclaimer. Indication limits such as molecular subgroups are applicability context, not automatically microbiota complications. Discuss the translational evidence tension in microbial chemoresistance: mechanistic resistance and retrospective survival endpoints need not agree. Omitting this distinction while making broad resistance claims is at most3; no mandatory Oh citation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:30",
+          "drb2:66:presentation:9",
+          "drb2:66:info_recall:48",
+          "drb2:66:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Evidence status within the report': Does the report consistently distinguish association, mechanism, clinical benefit and exploratory intervention status? Locally design the five anchors and boundaries. Concrete changes: Use molecular-subgroup/indication context to audit claimed CRC applicability; do not classify it as a microbiota complication. Separate sampled external support from internal evidence-stage/applicability labelling."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.surgery",
+      "dimension": "D3",
+      "title": "Surgical complications: causal explanation",
+      "question": "Which report better explains microbial changes through barrier or tissue-healing processes to a postoperative outcome?",
+      "anchors": {
+        "0": "The explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more defensible link in the surgical complications explanation; B may still be better locally.",
+        "2": "A gives a substantially more coherent, appropriately conditional explanation of surgical complications; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent, appropriately conditional explanation of surgical complications; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more defensible link in the surgical complications explanation; A may still be better locally."
+      },
+      "boundary": "Assess the actual causal chain, not organism counts. A named gene/cytokine does not complete a missing link; distinguish a proposed mechanism from an established effect. Do not require the official example pathway, and do not treat association as intervention causation. Compare the central chains within this therapy under a common importance criterion for both reports; record countervailing strengths, and use0 if equally consequential opposite advantages balance. Do not choose only a favorable pathway or use PT content counts.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:analysis:1",
+          "drb2:66:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Surgical complications: causal explanation': Which report better explains microbial changes through barrier or tissue-healing processes to a postoperative outcome? Locally design the five anchors and boundaries. Concrete changes: Retain a judgment of preparation–microbiota–barrier injury chain; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of bacterial tissue degradation and impaired healing; remove a prescribed positive conclusion or uniquely required molecular route."
+      }
+    },
+    {
+      "id": "PW.D3.chemo",
+      "dimension": "D3",
+      "title": "Chemotherapy effects: causal explanation",
+      "question": "Which report better explains microbial/metabolic effects through drug action or tissue injury to resistance or toxicity?",
+      "anchors": {
+        "0": "The explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more defensible link in the chemotherapy effects explanation; B may still be better locally.",
+        "2": "A gives a substantially more coherent, appropriately conditional explanation of chemotherapy effects; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent, appropriately conditional explanation of chemotherapy effects; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more defensible link in the chemotherapy effects explanation; A may still be better locally."
+      },
+      "boundary": "Assess the actual causal chain, not organism counts. A named gene/cytokine does not complete a missing link; distinguish a proposed mechanism from an established effect. Do not require the official example pathway, and do not treat association as intervention causation. Compare the central chains within this therapy under a common importance criterion for both reports; record countervailing strengths, and use0 if equally consequential opposite advantages balance. Do not choose only a favorable pathway or use PT content counts.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Chemotherapy effects: causal explanation': Which report better explains microbial/metabolic effects through drug action or tissue injury to resistance or toxicity? Locally design the five anchors and boundaries. Concrete changes: Retain a judgment of microbial anti-apoptotic effects on drug response; remove a prescribed positive conclusion or uniquely required molecular route."
+      }
+    },
+    {
+      "id": "PW.D3.immune",
+      "dimension": "D3",
+      "title": "Immune-treatment response: causal explanation",
+      "question": "Which report better explains microbial or metabolite effects through an immune pathway to a treatment response?",
+      "anchors": {
+        "0": "The explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more defensible link in the immune-treatment response explanation; B may still be better locally.",
+        "2": "A gives a substantially more coherent, appropriately conditional explanation of immune-treatment response; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent, appropriately conditional explanation of immune-treatment response; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more defensible link in the immune-treatment response explanation; A may still be better locally."
+      },
+      "boundary": "Assess the actual causal chain, not organism counts. A named gene/cytokine does not complete a missing link; distinguish a proposed mechanism from an established effect. Do not require the official example pathway, and do not treat association as intervention causation. Compare the central chains within this therapy under a common importance criterion for both reports; record countervailing strengths, and use0 if equally consequential opposite advantages balance. Do not choose only a favorable pathway or use PT content counts.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:analysis:5",
+          "drb2:66:analysis:6",
+          "drb2:66:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Immune-treatment response: causal explanation': Which report better explains microbial or metabolite effects through an immune pathway to a treatment response? Locally design the five anchors and boundaries. Concrete changes: Retain a judgment of metabolite/barrier contributions to response; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of diversity and immune-response explanations; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of microbial toxin effects on immune response; remove a prescribed positive conclusion or uniquely required molecular route."
+      }
+    },
+    {
+      "id": "PW.D3.radio",
+      "dimension": "D3",
+      "title": "Radiation injury: causal explanation",
+      "question": "Which report better explains radiation-related microbial changes through inflammation or barrier injury to gastrointestinal complications?",
+      "anchors": {
+        "0": "The explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more defensible link in the radiation injury explanation; B may still be better locally.",
+        "2": "A gives a substantially more coherent, appropriately conditional explanation of radiation injury; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent, appropriately conditional explanation of radiation injury; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more defensible link in the radiation injury explanation; A may still be better locally."
+      },
+      "boundary": "Assess the actual causal chain, not organism counts. A named gene/cytokine does not complete a missing link; distinguish a proposed mechanism from an established effect. Do not require the official example pathway, and do not treat association as intervention causation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Radiation injury: causal explanation': Which report better explains radiation-related microbial changes through inflammation or barrier injury to gastrointestinal complications? Locally design the five anchors and boundaries. Concrete changes: Retain a judgment of microbial change, inflammation and radiation injury; remove a prescribed positive conclusion or uniquely required molecular route."
+      }
+    },
+    {
+      "id": "PW.D4.translation",
+      "dimension": "D4",
+      "title": "Translational interpretation",
+      "question": "Which report better helps distinguish promising microbiota findings from what can presently be concluded about CRC treatment use?",
+      "anchors": {
+        "0": "The translational judgments provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A provides slightly more useful interpretation of an important translational limit; B may still be better locally.",
+        "2": "A provides substantially more useful, evidence-bounded judgments about readiness and unresolved needs for CRC use; B's local strengths do not make up for the difference.",
+        "-2": "B provides substantially more useful, evidence-bounded judgments about readiness and unresolved needs for CRC use; A's local strengths do not make up for the difference.",
+        "-1": "B provides slightly more useful interpretation of an important translational limit; A may still be better locally."
+      },
+      "boundary": "Compare what the evidence means for readiness, not a summary of covered therapies. When mechanistic and retrospective results differ, consider population and endpoint differences before calling them contradictory. Do not require recommending probiotics or FMT, a particular trial, or a clinical action plan.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:info_recall:48",
+          "drb2:66:analysis:4",
+          "drb2:66:analysis:9",
+          "drb2:66:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Translational interpretation': Which report better helps distinguish promising microbiota findings from what can presently be concluded about CRC treatment use? Locally design the five anchors and boundaries. Concrete changes: Retain interpretation of the translational gap without requiring Oh 2019 or equating different endpoints. Retain a judgment of different preclinical and clinical endpoints; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of shared dysbiosis associations without assuming a single cause; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of readiness of microbiota-targeted adjuncts; remove a prescribed positive conclusion or uniquely required molecular route."
+      }
+    },
+    {
+      "id": "PW.D2.fit",
+      "dimension": "D2",
+      "title": "Applicability of the evidence base",
+      "question": "Which report's evidence better fits its microbiota–CRC treatment claims?",
+      "anchors": {
+        "0": "The evidence bases provide comparable applicable support; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A has slightly more applicable evidence for an important CRC treatment claim; B may still be better locally.",
+        "2": "A has substantially more population-, regimen- and endpoint-appropriate evidence for its central CRC claims; B's local strengths do not make up for the difference.",
+        "-2": "B has substantially more population-, regimen- and endpoint-appropriate evidence for its central CRC claims; A's local strengths do not make up for the difference.",
+        "-1": "B has slightly more applicable evidence for an important CRC treatment claim; A may still be better locally."
+      },
+      "boundary": "Do not count URLs or assume all human studies answer all mechanistic questions. Other-cancer evidence can support an explicit hypothesis, not unqualified CRC efficacy.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Applicability of the evidence base' for this query: Which report's evidence better fits its microbiota–CRC treatment claims? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D5.flow",
+      "dimension": "D5",
+      "title": "Organization of the therapy synthesis",
+      "question": "Which original report more effectively guides the reader from therapy-specific findings to the future outlook?",
+      "anchors": {
+        "0": "The reports provide comparable organizational help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A organizes therapy findings and interpretation slightly more effectively; B may still be better locally.",
+        "2": "A organizes the treatment evidence and outlook substantially more coherently; B's local strengths do not make up for the difference.",
+        "-2": "B organizes the treatment evidence and outlook substantially more coherently; A's local strengths do not make up for the difference.",
+        "-1": "B organizes therapy findings and interpretation slightly more effectively; A may still be better locally."
+      },
+      "boundary": "Assess ordering, transitions and repetition in the original report; required table presence is PT, not a second reward here.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Organization of the therapy synthesis' for this query: Which original report more effectively guides the reader from therapy-specific findings to the future outlook? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D6.clear",
+      "dimension": "D6",
+      "title": "Clarity of interaction wording",
+      "question": "Which report more clearly expresses what changes the microbiota and what outcome the microbiota may affect?",
+      "anchors": {
+        "0": "The reports provide comparable clarity; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A expresses a relevant interaction or evidence qualifier slightly more clearly; B may still be better locally.",
+        "2": "A makes the direction and evidence status of treatment interactions substantially easier to understand; B's local strengths do not make up for the difference.",
+        "-2": "B makes the direction and evidence status of treatment interactions substantially easier to understand; A's local strengths do not make up for the difference.",
+        "-1": "B expresses a relevant interaction or evidence qualifier slightly more clearly; A may still be better locally."
+      },
+      "boundary": "Judge wording and cell labels, not external truth or number of taxa. Avoid interpreting raw changes in abundance as necessarily good or bad without the sentence's stated meaning.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:66:presentation:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Clarity of interaction wording': Which report more clearly expresses what changes the microbiota and what outcome the microbiota may affect? Locally design the five anchors and boundaries. Concrete changes: Separate clear wording from sampled factual support."
+      }
+    },
+    {
+      "id": "PW.D6.find",
+      "dimension": "D6",
+      "title": "Finding a therapy claim and its basis",
+      "question": "Which report makes a therapy/modality's microbiota finding, limitation and stated source easier to locate?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A makes an important therapy lookup slightly easier; B may still be better locally.",
+        "2": "A makes therapy-specific findings and their stated bases substantially easier to locate; B's local strengths do not make up for the difference.",
+        "-2": "B makes therapy-specific findings and their stated bases substantially easier to locate; A's local strengths do not make up for the difference.",
+        "-1": "B makes an important therapy lookup slightly easier; A may still be better locally."
+      },
+      "boundary": "Use the original table/text, not an extracted span layout; do not count links or rejudge source validity.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Finding a therapy claim and its basis' for this query: Which report makes a therapy/modality's microbiota finding, limitation and stated source easier to locate? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:66:info_recall:2",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:3",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:4",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:6",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:7",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:9",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:10",
+      "targets": [
+        "PT.D1.surgery.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:11",
+      "targets": [
+        "PT.D1.surgery.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:12",
+      "targets": [
+        "PT.D1.surgery.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:13",
+      "targets": [
+        "PT.D1.surgery.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:14",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:15",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:16",
+      "targets": [
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Cytotoxic Regimens], explicitly state that chemoresistance is related to Fusobacterium nucleatum. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:17",
+      "targets": [
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Cytotoxic Regimens], explicitly state that Fusobacterium nucleatum confers resistance by upregulating the BIRC3 gene to inhibit cellular apoptosis. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:18",
+      "targets": [
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Cytotoxic Regimens], explicitly state that chemotherapy causes adverse reactions such as gastrointestinal mucositis and chemotherapy-induced diarrhea (CID). Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:19",
+      "targets": [
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Cytotoxic Regimens], explicitly state that chemotherapy leads to reduced microbial diversity, dysbiosis, and elevated Klebsiella levels. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:22",
+      "targets": [
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Neoadjuvant Chemoradiotherapy], explicitly state that overexpression of Fusobacterium is associated with poor treatment response. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:20",
+      "targets": [
+        "PT.D1.chemo.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:21",
+      "targets": [
+        "PT.D1.chemo.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:23",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:24",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:25",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:43",
+      "targets": [
+        "PT.D1.pro.positive"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.pro.positive. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the positive impacts/advantages of [Future Outlook - Probiotics/Prebiotics], explicitly state that they have anti-inflammatory and anti-proliferative effects and can exert direct anti-tumor activity. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:44",
+      "targets": [
+        "PT.D1.pro.positive"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.pro.positive. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the positive impacts/advantages of [Future Outlook - Probiotics/Prebiotics], explicitly state that they can be used to treat treatment-related diarrhea. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:26",
+      "targets": [
+        "PT.D1.immune.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:27",
+      "targets": [
+        "PT.D1.immune.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:28",
+      "targets": [
+        "PT.D1.immune.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:29",
+      "targets": [
+        "PT.D1.immune.positive"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:33",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:34",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:31",
+      "targets": [
+        "PT.D1.immune.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.immune.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Immunotherapy - Immune Checkpoint Inhibitors], explicitly state that antibiotics inhibit the benefits of ICIs. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:32",
+      "targets": [
+        "PT.D1.immune.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.immune.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Immunotherapy - Immune Checkpoint Inhibitors], explicitly state that colonization by colibactin-producing E. coli (CoPEC) compromises anti-cancer T-cell sensitivity, thereby reducing efficacy. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:36",
+      "targets": [
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Radiotherapy - Localized RT or CRT (for rectal cancer)], explicitly state that it leads to changes in microbiota composition and dysbiosis. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:37",
+      "targets": [
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Radiotherapy - Localized RT or CRT (for rectal cancer)], explicitly state that it exacerbates inflammation, increases membrane permeability, and bacterial translocation. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:38",
+      "targets": [
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Radiotherapy - Localized RT or CRT (for rectal cancer)], explicitly state that it causes radiation-induced gastrointestinal mucositis. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:39",
+      "targets": [
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Radiotherapy - Localized RT or CRT (for rectal cancer)], explicitly state that radiation proctitis is associated with an increase in genera such as Akkermansia and Bacteroides. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:40",
+      "targets": [
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Radiotherapy - Localized RT or CRT (for rectal cancer)], explicitly state that treatment-related fatigue is associated with microbiota alterations. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:45",
+      "targets": [
+        "PT.D1.fmt.positive"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.fmt.positive. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the positive impacts/advantages of [Future Outlook - Fecal Microbiota Transplantation], explicitly state that it shows great potential in CRC prevention and treatment. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:46",
+      "targets": [
+        "PT.D1.fmt.positive"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.fmt.positive. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the positive impacts/advantages of [Future Outlook - Fecal Microbiota Transplantation], explicitly state that it can improve response to immunotherapy in melanoma. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:47",
+      "targets": [
+        "PT.D1.fmt.positive"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.fmt.positive. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the positive impacts/advantages of [Future Outlook - Fecal Microbiota Transplantation], explicitly state that it is effective for radiation enteritis and can restore microbiota. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:1",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "Palpation assistance is a general surgical convenience, not itself a microbiota interaction.",
+      "discrimination_check": "Adding only this official detail does not guarantee any score improvement. Its exact presence/claim distinction is deliberately not retained.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:5",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:8",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:35",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "General local control/survival is not by itself a microbiota-mediated radiotherapy advantage.",
+      "discrimination_check": "Adding only this official detail does not guarantee any score improvement. Its exact presence/claim distinction is deliberately not retained.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:41",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:42",
+      "targets": [],
+      "status": "not_retained",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:30",
+      "targets": [
+        "PT.D2.stage"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D2.stage. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Immunotherapy - Immune Checkpoint Inhibitors], explicitly state that its application is currently limited to CRC patients with mismatch repair-deficient (dMMR) or microsatellite instability-high (MSI-H). Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:info_recall:48",
+      "targets": [
+        "PT.D2.stage",
+        "PW.D4.translation"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D2.stage. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: In the negative impacts/complications of [Chemotherapy - Cytotoxic Regimens], correctly cite Oh et al.'s 2019 study published in 'Journal of Pathology and Translational Medicine', 'Prognostic Impact of Fusobacterium nucleatum Depends on Combined Tumor Location and Microsatellite Instability Status in Stage II/III Colorectal Cancers Treated with Adjuvant Chemotherapy', indicating that a retrospective analysis found no significant survival differences between high and low/negative Fusobacterium nucleatum groups, which contradicts in vitro/in vivo research findings. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:1",
+      "targets": [
+        "PW.D3.surgery"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:2",
+      "targets": [
+        "PT.D1.surgery.negative",
+        "PW.D3.surgery"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:3",
+      "targets": [
+        "PT.D1.chemo.negative",
+        "PW.D3.chemo"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.chemo.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: Able to explain the molecular mechanism of Fusobacterium nucleatum in chemoresistance: by upregulating the expression of the anti-apoptotic protein BIRC3 to inhibit cancer cell apoptosis induced by chemotherapeutic agents (e.g., 5-FU). Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:4",
+      "targets": [
+        "PT.D2.stage",
+        "PW.D4.translation"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D2.stage. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: Able to analyze and point out that there are contradictory research findings regarding Fusobacterium nucleatum in chemoresistance: preclinical (in vitro/in vivo) evidence shows it promotes resistance, while some clinical retrospective studies (e.g., Oh et al., 2019) failed to confirm its significant impact on patient survival, revealing a translational gap from basic research to clinical application. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:5",
+      "targets": [
+        "PT.D1.immune.positive",
+        "PW.D3.immune"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:6",
+      "targets": [
+        "PT.D1.immune.positive",
+        "PW.D3.immune"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:7",
+      "targets": [
+        "PT.D1.immune.negative",
+        "PW.D3.immune"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.immune.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: Able to explain how colibactin-producing E. coli (CoPEC) leads to immunotherapy resistance: the toxin colibactin produced by CoPEC can directly damage DNA and may regulate the tumor immune microenvironment, reducing the infiltration of CD3+ and CD8+ T cells, thereby weakening the efficacy of anti-PD-1 and other immunotherapies. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:8",
+      "targets": [
+        "PT.D1.radio.negative",
+        "PW.D3.radio"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: Able to explain how radiotherapy induces toxic side effects by altering the microbiota: ionizing radiation disrupts the gut microbiota balance, leading to increased secretion of pro-inflammatory cytokines (e.g., TNFα and IL-1β), exacerbating mucosal inflammation and damage, such as radiation proctitis. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:9",
+      "targets": [
+        "PW.D4.translation"
+      ],
+      "status": "adapted",
+      "reason": "Retain a judgment of shared dysbiosis associations without assuming a single cause; remove a prescribed positive conclusion or uniquely required molecular route.",
+      "discrimination_check": "An explained link or readiness limit concerning shared dysbiosis associations without assuming a single cause can improve PW.D4.translation over an unsupported claim. Other valid routes remain eligible; exact official pathway/optimistic conclusion is not compulsory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:analysis:10",
+      "targets": [
+        "PW.D4.translation"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:1",
+      "targets": [
+        "PT.D1.table"
+      ],
+      "status": "retained",
+      "reason": "Retain the table requirement.",
+      "discrimination_check": "No table scores 1; complete required structure can score 5.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:66:presentation:2",
+      "targets": [
+        "PT.D1.table"
+      ],
+      "status": "adapted",
+      "reason": "Retain the four specified information columns; harmless label variations remain acceptable.",
+      "discrimination_check": "A missing main column scores 3; a complete labelled table can score 5. Exact capitalization/punctuation is not independently rewarded.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:3",
+      "targets": [
+        "PT.D1.table"
+      ],
+      "status": "adapted",
+      "reason": "Retain required areas without compulsory ordering.",
+      "discrimination_check": "A missing area scores 3; only changing the row order does not reduce a complete table's score.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:4",
+      "targets": [
+        "PT.D1.surgery.positive",
+        "PT.D1.surgery.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:5",
+      "targets": [
+        "PT.D1.chemo.positive",
+        "PT.D1.chemo.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:6",
+      "targets": [
+        "PT.D1.immune.positive",
+        "PT.D1.immune.negative"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:7",
+      "targets": [
+        "PT.D1.radio.positive",
+        "PT.D1.radio.negative"
+      ],
+      "status": "adapted",
+      "reason": "Direct content/applicability entry: PT.D1.radio.positive, PT.D1.radio.negative. Required modality or effect domain is retained; exact species, named study, fixed recovery duration or unqualified efficacy claim is not a universal key.",
+      "discrimination_check": "The named entries distinguish absent content, a bare label and a scoped interaction; their explicit missing-side rules cap material gaps at3. Original claim: Under the 'Radiotherapy' area, 'Specific Modality' must be 'Localized RT or CRT (for rectal cancer)'. Exact original result matching remains unpreserved where qualified alternatives are used.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:8",
+      "targets": [
+        "PT.D1.table"
+      ],
+      "status": "adapted",
+      "reason": "Review 21: specific example/submodality is no longer independently mandatory. Remaining targets evaluate broader interactions or comparative quality, not guaranteed coverage of this official item.",
+      "discrimination_check": "Omission of this exact official example may no longer lower the score; do not claim full preservation of official discrimination. Relevant content remains eligible under the applicable treatment criteria.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:9",
+      "targets": [
+        "PT.D2.support",
+        "PT.D2.stage"
+      ],
+      "status": "adapted",
+      "reason": "Separate sampled external support from internal evidence-stage/applicability labelling.",
+      "discrimination_check": "Wrong treatment/outcome support can lower the sampled support score; internal mislabelling of population/stage can lower stage. No whole-table correctness is promised without actual verification.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:66:presentation:10",
+      "targets": [
+        "PT.D2.support",
+        "PW.D6.clear"
+      ],
+      "status": "adapted",
+      "reason": "Separate clear wording from sampled factual support.",
+      "discrimination_check": "Clarifying direction of an interaction affects expression; correcting an assessed unsupported claim affects support. Professional tone alone cannot establish accuracy.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.table",
+      "decision": "revise",
+      "reason": "No fixed submodality/example checklist. Check the scoped interaction, or requested table structure; distinct positive and negative outcomes remain separate."
+    },
+    {
+      "id": "PT.D1.surgery.positive",
+      "decision": "add",
+      "reason": "Added: the intervention, microbiota interaction and outcome form one scoped claim. A concrete effect with unclear context scores 3. Benefits and adverse implications have separate items, and the chemotherapy adverse item's 3 explicitly handles a missing resistance/toxicity side."
+    },
+    {
+      "id": "PT.D1.surgery.negative",
+      "decision": "revise",
+      "reason": "No fixed submodality/example checklist. Check the scoped interaction, or requested table structure; distinct positive and negative outcomes remain separate."
+    },
+    {
+      "id": "PT.D1.chemo.positive",
+      "decision": "revise",
+      "reason": "No fixed submodality/example checklist. Check the scoped interaction, or requested table structure; distinct positive and negative outcomes remain separate."
+    },
+    {
+      "id": "PT.D1.chemo.negative",
+      "decision": "rewritten",
+      "reason": "Resistance and GI toxicity retain explicit symmetric missing-side3, add action-to-response detail without fixed gene."
+    },
+    {
+      "id": "PT.D1.immune.positive",
+      "decision": "revise",
+      "reason": "No fixed submodality/example checklist. Check the scoped interaction, or requested table structure; distinct positive and negative outcomes remain separate."
+    },
+    {
+      "id": "PT.D1.immune.negative",
+      "decision": "rewritten",
+      "reason": "Make two different adverse pathways explicit; coexposure alone cannot fill microbial toxin/immune consequences."
+    },
+    {
+      "id": "PT.D1.radio.positive",
+      "decision": "add",
+      "reason": "Added: the intervention, microbiota interaction and outcome form one scoped claim. A concrete effect with unclear context scores 3. Benefits and adverse implications have separate items, and the chemotherapy adverse item's 3 explicitly handles a missing resistance/toxicity side."
+    },
+    {
+      "id": "PT.D1.radio.negative",
+      "decision": "rewritten",
+      "reason": "Require biological injury link and symptom scope, not a single dysbiosis label; exact cytokines/taxa remain replaceable."
+    },
+    {
+      "id": "PT.D1.pro.positive",
+      "decision": "rewritten",
+      "reason": "Both specified future approaches have symmetric missing-side rule; actual chemotherapy adjunct evidence moved to its own item."
+    },
+    {
+      "id": "PT.D1.pro.negative",
+      "decision": "add",
+      "reason": "Added: the intervention, microbiota interaction and outcome form one scoped claim. A concrete effect with unclear context scores 3. Benefits and adverse implications have separate items, and the chemotherapy adverse item's 3 explicitly handles a missing resistance/toxicity side."
+    },
+    {
+      "id": "PT.D1.fmt.positive",
+      "decision": "rewritten",
+      "reason": "Clarify mixed efficacy/injury and safety/evidence cases; no actual FMT protocol required."
+    },
+    {
+      "id": "PT.D1.fmt.negative",
+      "decision": "rewritten",
+      "reason": "Clarify mixed efficacy/injury and safety/evidence cases; no actual FMT protocol required."
+    },
+    {
+      "id": "PT.D1.cutoff",
+      "decision": "add",
+      "reason": "Added: a single temporal-scope judgment; more correct older facts cannot compensate for substantive later evidence."
+    },
+    {
+      "id": "PT.D1.exclusion",
+      "decision": "add",
+      "reason": "Added: grade the degree of observable use of one specified source."
+    },
+    {
+      "id": "PT.D2.trace",
+      "decision": "add",
+      "reason": "Added: source and claim attribution are one relation; partial attribution is explicitly 3."
+    },
+    {
+      "id": "PT.D2.support",
+      "decision": "add",
+      "reason": "Added: endpoints and population define a single support relation; mixed support has a stated middle anchor."
+    },
+    {
+      "id": "PT.D2.stage",
+      "decision": "rewritten",
+      "reason": "Restore specific preclinical resistance versus clinical survival distinction; generic disclaimer cannot substitute."
+    },
+    {
+      "id": "PW.D3.surgery",
+      "decision": "rewritten",
+      "reason": "Direct content checks remove coverage burden; retain therapy-level relative reasoning with symmetric mixed-chain rule."
+    },
+    {
+      "id": "PW.D3.chemo",
+      "decision": "rewritten",
+      "reason": "Direct content checks remove coverage burden; retain therapy-level relative reasoning with symmetric mixed-chain rule."
+    },
+    {
+      "id": "PW.D3.immune",
+      "decision": "rewritten",
+      "reason": "Direct content checks remove coverage burden; retain therapy-level relative reasoning with symmetric mixed-chain rule."
+    },
+    {
+      "id": "PW.D3.radio",
+      "decision": "add",
+      "reason": "Added: upstream process and downstream outcome form one causal relation; separate treatment mechanisms cannot compensate across these items."
+    },
+    {
+      "id": "PW.D4.translation",
+      "decision": "add",
+      "reason": "Added: different study stages inform one readiness judgment; accurate labelling is PT, while a changed conclusion about use is the distinct value here."
+    },
+    {
+      "id": "PW.D2.fit",
+      "decision": "add",
+      "reason": "Added: evidence and claimed inference range are a single fit relation; do not penalize the same citation error twice."
+    },
+    {
+      "id": "PW.D5.flow",
+      "decision": "add",
+      "reason": "Added: one whole-report progression, distinct from cell wording and lookup."
+    },
+    {
+      "id": "PW.D6.clear",
+      "decision": "add",
+      "reason": "Added: direction and qualifier determine one claim's meaning, not separate rewards."
+    },
+    {
+      "id": "PW.D6.find",
+      "decision": "add",
+      "reason": "Added: finding a scoped claim and its source is one lookup operation."
+    }
+  ],
+  "author_notes": [
+    "No old draft for this task. Required therapy benefits and adverse implications are separate; independent surgical, chemotherapy, immune and radiation causal explanations are also separate.",
+    "The source's exact recovery days, prescribed taxa, named trials and optimistic efficacy statements are not universal fact keys. The two future modalities remain mandatory, while a separate diet row is not.",
+    "Positive radio/surgery interaction coverage and future-intervention safety items contain local query-derived auditing judgments beyond official positive-result examples; full five-level anchors are locally authored.",
+    "Official source text is not independently verified medical evidence. No report grading, browsing or clinical recommendation was performed. Author and mechanical checks are not independent semantic review.",
+    "v3.3：恢复肠道准备、抗菌预防、肠麻痹、化疗及免疫辅助干预和饮食调节独立内容，强化作用环节与转化证据区别。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。",
+    "review14_27_minimal_v1 第21题：删除6个独立子项，放宽化疗正向、手术负面并同步放宽免疫正向；表格边界同步清理。此前恢复固定子领域的说明仅为历史记录。官方具体子领域遗漏不再保证被检出；未重新评测、未进行医学事实外核。"
+  ]
+}

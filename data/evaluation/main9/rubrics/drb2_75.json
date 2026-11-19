@@ -1,0 +1,1279 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:75",
+  "language": "zh",
+  "title": "剑桥中国文学史理论革新",
+  "full_query": "我正在研究关于中国文学史写作的学术争论，特别是围绕2010年出版的《剑桥中国文学史》（The Cambridge History of Chinese Literature）及其主编之一宇文所安（Stephen Owen）的理论。我希望你帮我深入调研并整理一份报告，清晰地梳理出这场争论的核心。具体来说，报告需要包含以下几个部分：\n\n1.  **传统方法的批判**：总结宇文所安等人认为传统或主流的中国文学史写作存在哪些问题。请具体阐述这些传统方法背后的几个核心观念或原则。\n\n2.  **新理论的提出**：阐述宇文所安为回应上述问题，提出了哪些具有颠覆性的新编纂原则和观念。请详细解释这些新观念的核心思想，例如“史中之史”（history of history）等。\n\n3.  **新历史主义的影响**：分析“新历史主义”（New Historicism），特别是斯蒂芬·格林布拉特（Stephen Greenblatt）的理论，是如何影响《剑桥中国文学史》的。请说明新历史主义的哪些核心概念（如“文本的历史性”和“历史的文本性”）被运用于这部文学史中，并如何将研究视角从“文学”转向“文学文化”。\n\n4.  **“中国性”的重塑**：解释《剑桥中国文学史》是如何重新定义“中国文学”和“中国性”（Chineseness）这一概念的。说明它为何从“民族国家”转向“社群”作为界定标准，这对文学史的语言和地理范围产生了什么影响，并给出一个具体的章节例子来说明这种变化。\n\n请确保你的报告结构清晰，分点阐述，语言学术化且易于理解。报告的目的是梳理和呈现《剑桥中国文学史》所代表的理论革新，而非评价其成功与否。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Is a New Chinese Literary History Possible? A Critical Investigation of The Cambridge History of Chinese Literature', 'authors': ['Shen Yifan 沈一帆'], 'urls': ['https://www.sciencedirect.com/org/science/article/pii/S2352133324000104', 'https://www.researchgate.net/publication/379985497_Is_a_New_Chinese_Literary_History_Possible_A_Critical_Investigation_of_The_Cambridge_History_of_Chinese_Literature', 'https://www.lhp.sdu.edu.cn/info/1372/4096.htm', 'https://brill.com/view/journals/joch/10/1/article-p1_1.xml?srsltid=AfmBOooiR3fZq9ocrbvSKNnNcNhPKktubNY8k358F6uOjI1Nwe7XhhrQ']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "研究对象与呈现目的",
+      "question": "报告是否以2010年《剑桥中国文学史》及宇文所安等人的理论革新为对象，而非转向裁判其成败？",
+      "anchors": {
+        "1": "主体不是该书或相关理论。",
+        "2": "主体转为个人褒贬，理论梳理仅零散出现。",
+        "3": "对象正确，但有明显成败裁判挤占理论说明，或主编与全书意见归属混淆。",
+        "4": "主要为理论梳理，对象与宇文所安角色清楚，只有局部不必要评价。",
+        "5": "书、2010年出版背景及宇文所安作为主编之一的角色明确，全文服务理论呈现；必要争论背景不变为作者判决。"
+      },
+      "boundary": "不要求赞美理论，不禁止说明概念适用边界；有据质疑归属属于准确呈现而非题外裁判。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:1",
+          "drb2:75:info_recall:2",
+          "drb2:75:presentation:5"
+        ],
+        "query_quotes": [
+          "而非评价其成功与否"
+        ],
+        "change_note": "取对象身份及呈现目的；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "线性发展与断代原则",
+      "question": "报告是否说明被批判的线性宏大叙事如何组织文学史，以及断代/多线索处理怎样改变这种结构？",
+      "anchors": {
+        "1": "无叙事结构讨论。",
+        "2": "只称传统线性、新编多元。",
+        "3": "开端发展结局或新断代/多线索作用只说一侧，或未解释问题。",
+        "4": "旧叙事预设与新组织变化清楚，少量范围欠缺。",
+        "5": "说明线性发展叙事的方向/终点预设及其所受批判，解释重新断代、多层或多线索如何改变文学史组织。"
+      },
+      "boundary": "不要求固定五分法或全部书章非线性；须归属所述批判，不将所有传统写作一概化。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:3",
+          "drb2:75:info_recall:12",
+          "drb2:75:info_recall:24"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "史中之史的建构与筛选",
+      "question": "报告是否解释史中之史如何研究文学过去被后人筛选、保存和重述的过程？",
+      "anchors": {
+        "1": "无史中之史。",
+        "2": "只列术语或称历史被建构。",
+        "3": "有建构论但筛选重述过程或研究对象变化不清。",
+        "4": "保存、筛选及重述怎样形成历史清楚，少量概念边界欠缺。",
+        "5": "说明研究不仅追述作品产生，也追问后来如何选取、传承与重构其历史意义；区分建构性、证据约束和任意虚构。"
+      },
+      "boundary": "不强制赞成客观性是迷信；其它新原则由11—14直接检查，不靠史中之史一项替代。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:9",
+          "drb2:75:info_recall:10",
+          "drb2:75:info_recall:11"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    },
+    {
+      "id": "PT.D1.04.text",
+      "dimension": "D1",
+      "title": "文本的历史性",
+      "question": "报告是否解释文本的历史性及其在该书中的方法意义？",
+      "anchors": {
+        "1": "未回答文本的历史性。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有语境标签，或没有说明它如何反对孤立文本分析。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "解释文本生产、流通的社会文化语境及对形式主义式孤立分析的挑战，联系本书方法并区分可证影响与解释性联系。"
+      },
+      "boundary": "人物归属可在任意章节说明，不强制所有观念源于格林布拉特；文化政治不得变成评价该书成败。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:17",
+          "drb2:75:info_recall:18",
+          "drb2:75:info_recall:19",
+          "drb2:75:info_recall:20",
+          "drb2:75:analysis:3",
+          "drb2:75:analysis:7",
+          "drb2:75:analysis:8"
+        ],
+        "query_quotes": [
+          "“文本的历史性”和“历史的文本性”"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.04.history",
+      "dimension": "D1",
+      "title": "历史的文本性",
+      "question": "报告是否解释历史的文本性及其对透明客观历史观的挑战？",
+      "anchors": {
+        "1": "未回答历史的文本性。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有历史建构口号但缺历史通过文本表述被认识的解释，或误称历史全属虚构。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "解释史料及历史叙述的文本中介与建构，说明它怎样挑战透明历史背景观并联系该书写法和文化政治问题。"
+      },
+      "boundary": "不要求历史任意虚构，也不以文本语境解释替代历史表述问题；PW比较理论—实践推理。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:19",
+          "drb2:75:info_recall:21",
+          "drb2:75:analysis:3",
+          "drb2:75:analysis:8"
+        ],
+        "query_quotes": [
+          "“文本的历史性”和“历史的文本性”"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "从文学到文学文化",
+      "question": "报告是否说明研究视角转向文学文化的含义及在编纂中的具体表现？",
+      "anchors": {
+        "1": "未回应视角转向。",
+        "2": "仅把文学史改称文化史。",
+        "3": "只讨论文化背景或单一环节，未实质说明生产、传播及物质/技术条件与文学活动的关系。",
+        "4": "说明文学作为文化活动的视角及具体编纂表现，少量关系含糊。",
+        "5": "说明文学作为文化生产活动如何联系社会话语、文本生产、物质载体与技术传播，并有该书编纂表现；与仅排列作品区别清楚。"
+      },
+      "boundary": "接受/选本与被忽视主体由14查，断代由02查；此项生产传播及物质技术不能只择其一。不强制印刷这一唯一技术或取消文学文本。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:22",
+          "drb2:75:info_recall:23",
+          "drb2:75:info_recall:24",
+          "drb2:75:analysis:4"
+        ],
+        "query_quotes": [
+          "从“文学”转向“文学文化”"
+        ],
+        "change_note": "保留研究对象扩展，不把官方关键词全量出现设为标准；五档本地设计。 v3.3将关键词所含内容分别承接，不能凭一个文化例子满分。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "中国性与社群标准",
+      "question": "报告是否说明中国文学/中国性的界定如何从民族国家转向社群，并说明这样改变的理由？",
+      "anchors": {
+        "1": "无中国性讨论。",
+        "2": "只说跨国或多元，没有界定标准。",
+        "3": "有社群定义但未说明相对民族国家标准的变化或原因。",
+        "4": "定义变化与迁徙、文化联系等理由明确，少量成员或传播范围未交代。",
+        "5": "解释文学在相关社群中生产流传如何成为界定线索，以及固定政治疆界为何不足以处理迁徙、离散与文化联系；定义的对象和范围清楚。"
+      },
+      "boundary": "不要求滕尼斯理论，不把中国性当种族本质；须区分所引用文本对Chinese communities的用词与报告自己的翻译解释，不无据扩大为所有语言或排除所有少数群体。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:25",
+          "drb2:75:info_recall:26",
+          "drb2:75:info_recall:28",
+          "drb2:75:analysis:5"
+        ],
+        "query_quotes": [
+          "从“民族国家”转向“社群”作为界定标准"
+        ],
+        "change_note": "取定义与理由，保留有据翻译修正而不强制汉族一词的绝对等值；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.07.language",
+      "dimension": "D1",
+      "title": "语言范围变化",
+      "question": "报告是否具体解释社群界定对语言范围的影响？",
+      "anchors": {
+        "1": "未回答语言范围变化。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只说语言范围扩大，或只列一种语体未说明纳入边界。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明文言/白话、方言/标准语等表达如何被纳入及其边界，允许有依据的等效说明。"
+      },
+      "boundary": "不要求固定语言清单；地理遗漏不扣本项。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:29"
+        ],
+        "query_quotes": [
+          "语言和地理范围"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.geography",
+      "dimension": "D1",
+      "title": "地理范围变化",
+      "question": "报告是否具体解释社群界定对地理范围的影响？",
+      "anchors": {
+        "1": "未回答地理范围变化。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只列海外地点，未说明社群传播或跨文化联系的边界变化。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明境内外社群、迁徙或周边文化互动如何改变文学史地理范围，并交代限制。"
+      },
+      "boundary": "不强制官方城市清单；章节例子仍PT.D1.08。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:30"
+        ],
+        "query_quotes": [
+          "语言和地理范围"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "具体章节例子",
+      "question": "报告是否给出可辨认的具体章节，并说明该章节如何体现范围或叙事标准的变化？",
+      "anchors": {
+        "1": "没有章节实例。",
+        "2": "只有作家或城市名，无法辨认章节。",
+        "3": "章节可辨，但只介绍内容而未联系本题变化。",
+        "4": "章节及其体现的变化具体，少量章名或例证位置不清。",
+        "5": "章节可由作者、标题、时段或其他信息辨认；具体内容与社群、空间或语言边界变化的联系明确。"
+      },
+      "boundary": "不强制奚密章节或抗战八地清单；只列城市不构成章节说明，例子的推导力量在PW.D3.02比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:presentation:4",
+          "drb2:75:info_recall:31"
+        ],
+        "query_quotes": [
+          "一个具体的章节例子"
+        ],
+        "change_note": "保留具体实践与联系，官方地理叙事作为可选线索，五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "四部分与分点",
+      "question": "报告是否清楚区分传统批判、新原则、新历史主义和中国性四部分，并分点呈现？",
+      "anchors": {
+        "1": "无法辨认四方面结构。",
+        "2": "只有少数分区，大多数内容混写。",
+        "3": "四方面意图可辨，但分界或分点不清。",
+        "4": "四部分及要点基本清楚，个别层级略混。",
+        "5": "四方面均有明确分区与要点，标题可用等义表述。"
+      },
+      "boundary": "内容是否充分另评，不强制逐字标题和固定每部分条数。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:presentation:1"
+        ],
+        "query_quotes": [
+          "结构清晰，分点阐述"
+        ],
+        "change_note": "保留结构功能，取消严格标题逐字要求；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "禁源的终稿使用",
+      "question": "报告是否避免引用或取用题面禁止的沈一帆文章？",
+      "anchors": {
+        "1": "禁源支撑核心理论解读。",
+        "2": "禁源支撑多个次要实质解读。",
+        "3": "禁源支撑一个局部论点。",
+        "4": "仅在书目列入禁源，未确认正文使用。",
+        "5": "完整终稿未见禁源引用或取用；说明不使用它不算引用。"
+      },
+      "boundary": "不根据用词相近推断访问历史；仅评终稿可观察使用。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Is a New Chinese Literary History Possible? A Critical Investigation of The Cambridge History of Chinese Literature"
+        ],
+        "change_note": "按题面禁源设置可观察检查及五档。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "理论与引文出处",
+      "question": "报告的理论归属、定义引文及章节说明是否可追溯到具体依据？",
+      "anchors": {
+        "1": "核心理论主张无可辨出处。",
+        "2": "只有笼统学界称述或书名，没有关键主张对应。",
+        "3": "有相关引用，但重要概念或章节说明的出处仍不清。",
+        "4": "主要理论归属及例证可定位，个别引文范围略不明。",
+        "5": "关键概念、定义和章节例证有明确出处，原文、转述和作者推论可区分。"
+      },
+      "boundary": "不要求URL或统一页码格式；足够定位的信息即可。来源可找不等于支持理论影响。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地追溯审计，针对人文学术归属。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内的归属准确性",
+      "question": "在实际完成的核验中，引文、概念归属和章节信息是否符合所得材料？",
+      "anchors": {
+        "1": "关键理论或引文被核验否定，破坏报告中心。",
+        "2": "多个重要引文或学者归属存在实质错误。",
+        "3": "部分主张有支持，但仍有重要误引、绝对化翻译或章节错配。",
+        "4": "主要已核主张相符，只有次要译词或范围偏差。",
+        "5": "本次已判断的引文、转述和章节信息符合材料，强度与归属清楚；不保证全篇查全。"
+      },
+      "boundary": "记录样本及完成数；资料访问失败不填分或NA，应另记执行问题。不同译本先澄清；官方Rubrics不作为未经核验的唯一真值。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地有限证据核验，避免将同意某种理论等同正确。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "国族文学史与分离原则",
+      "question": "报告是否解释文学史建构民族国家认同的预设，以及文学史与国族叙事分离的回应？",
+      "anchors": {
+        "1": "无国族叙事。",
+        "2": "只称民族主义不好。",
+        "3": "传统认同作用或分离原则只一面，或语体主流化关系不明。",
+        "4": "国族认同、文学选择及分离回应具体，少量历史限定欠缺。",
+        "5": "说明民族国家认同如何影响文学发展叙事，包括白话/文言主流化的相关论述；说明分离原则改变何种预设，并限定学者批判范围。"
+      },
+      "boundary": "不把所有白话研究都认定民族主义，不裁判分离是否成功；社群界定具体范围另查06/07。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:4",
+          "drb2:75:info_recall:5",
+          "drb2:75:info_recall:13"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "确定性与历史想象",
+      "question": "报告是否解释实证确定性观念及承认历史不确定性、想象空间的回应？",
+      "anchors": {
+        "1": "无认识论讨论。",
+        "2": "只有历史不确定标签。",
+        "3": "只谈客观规律信念或新不确定性一侧，或将想象当无证据编造。",
+        "4": "旧认识论与新限定具体，少量史料边界不清。",
+        "5": "说明被批判的客观规律/确定性观念，及史料缺漏、被忽视对象和历史想象如何进入叙述，解释仍需遵守的证据界限。"
+      },
+      "boundary": "不是否定实证工作本身；不要求某被忽视作家的专名。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:6",
+          "drb2:75:info_recall:14"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "纪实分析与叙事转向",
+      "question": "报告是否说明传统纪实、分析性表达的优先地位及文学史故事/叙事转向的回应？",
+      "anchors": {
+        "1": "无叙事表达观念。",
+        "2": "只说新书易读。",
+        "3": "只谈旧表达优先或新叙事技巧一面，或未解释编纂意义。",
+        "4": "两侧及其编纂意义具体，少量范围不明。",
+        "5": "说明纪实分析优先、叙事技巧次要这一被批判取向，以及文学史故事怎样重视组织、叙事与可读性而不等同虚构事实。"
+      },
+      "boundary": "不要求报告自身讲故事；评被介绍的编纂原则，不与D6报告文笔混评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:7",
+          "drb2:75:info_recall:15"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "经典形成与边缘声音",
+      "question": "报告是否解释经典化受到的批判及对经典历史性、相对性和被忽视声音的重新审视？",
+      "anchors": {
+        "1": "无经典选择问题。",
+        "2": "只说去经典化。",
+        "3": "只列伟大作家批判或新选择理念一面，或未说明筛选/接受作用。",
+        "4": "经典选择、接受变化与新视野具体，少量群体范围欠清。",
+        "5": "说明以伟大作家作品为序列的预设，及选本、接受等过程如何形成可变化的经典；交代女性等被忽视声音怎样进入新视野，不把去经典化理解为排除所有名作。"
+      },
+      "boundary": "不强制具体选本或女性作家；关注被排除主体的类别不能仅用抽象多元代替。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:info_recall:8",
+          "drb2:75:info_recall:16",
+          "drb2:75:info_recall:24"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复独立观念及批判—回应的具体区别，不以固定术语或一对一版式评分。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "批判与新原则的解释联系",
+      "question": "哪篇更可靠地解释新编纂原则如何回应传统方法的问题？",
+      "anchors": {
+        "0": "两篇在新旧方法的回应关系上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。 同等重要相反优势抵销也为0并说明。",
+        "1": "综合双方优缺点，A对一处批判与回应的联系解释略扎实；B仍可在局部更好。",
+        "2": "A明显更可靠地说明新观念改变了哪些研究前提，避免把新旧强行配成简单反义词；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更可靠地说明新观念改变了哪些研究前提，避免把新旧强行配成简单反义词；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对一处批判与回应的联系解释略扎实；A仍可在局部更好。"
+      },
+      "boundary": "不要求五对五；史中之史的建构性与史料可检验性并非必然矛盾。PT检查内容在不在，这里检查实际推论。 比较对全文中心解释有作用的关系，采用相同重要性依据同时列双方正反差异；同等重要交叉优势抵销为0，净优势才判±1，关键优势无法被局部抵销才±2。不能择取某一观念就替整个解释定胜。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:analysis:1",
+          "drb2:75:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "保留回应与建构意义，取消固定五大原则对应；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "理论与编纂实践的联系",
+      "question": "哪篇更有说服力地把理论概念与该书实际研究或章节写法联系起来？",
+      "anchors": {
+        "0": "两篇在理论到实践解释上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。 同等重要相反优势抵销也为0并说明。",
+        "1": "综合双方优缺点，A对一处方法或章节的理论联系解释略可靠；B仍可在局部更好。",
+        "2": "A明显更可靠地解释概念如何改变材料选择与叙事，而非仅凭相似术语宣称直接影响；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更可靠地解释概念如何改变材料选择与叙事，而非仅凭相似术语宣称直接影响；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对一处方法或章节的理论联系解释略可靠；A仍可在局部更好。"
+      },
+      "boundary": "新历史主义对形式主义/旧历史主义的关系、文学文化视野、空间叙事均可用，不需全部齐备；区分直接影响与可用解读。章节存在已由PT检查。 比较对全文中心解释有作用的关系，采用相同重要性依据同时列双方正反差异；同等重要交叉优势抵销为0，净优势才判±1，关键优势无法被局部抵销才±2。不能择取某一观念就替整个解释定胜。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:analysis:3",
+          "drb2:75:analysis:4",
+          "drb2:75:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "保留理论实践解释对象，开放具体章节与解释路径；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "理论革新的整体认识",
+      "question": "哪篇更帮助读者把历史建构、文学文化和社群界定理解为相互关联而非零散口号？",
+      "anchors": {
+        "0": "两篇在理论革新整体认识上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A澄清一处观念之间的联系或张力，略有助于理解；B仍可在局部更好。",
+        "2": "A形成明显更有用的理论图景，使读者理解研究对象和编纂尺度改变了什么、没有意味着什么；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B形成明显更有用的理论图景，使读者理解研究对象和编纂尺度改变了什么、没有意味着什么；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B澄清一处观念之间的联系或张力，略有助于理解；A仍可在局部更好。"
+      },
+      "boundary": "只比较综合认识，不要求评成败或原创理论；不把PT各部分总括当增量。须指出综合后读者多理解了什么。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "梳理和呈现"
+        ],
+        "change_note": "本地开放综合项，遵守不裁判成功的题面目的。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "理论解释的证据适配",
+      "question": "哪篇的依据更适合支持其对编者意图、理论影响及章节实践的解读？",
+      "anchors": {
+        "0": "两篇在解释依据适配上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在关键归属上较好区分编者自述与评论者解释；B仍可在局部更好。",
+        "2": "A核心理论解读有明显更适配且互补的材料，较少用二手标签代替所声称的直接影响证据；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B核心理论解读有明显更适配且互补的材料，较少用二手标签代替所声称的直接影响证据；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在关键归属上较好区分编者自述与评论者解释；A仍可在局部更好。"
+      },
+      "boundary": "不按引用数或原文语言排名；编者自述、章例和评论各有适用对象，不设来源类型硬配额。单条误引不在此重复罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地人文学术证据适配项。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "理论说明的整体推进",
+      "question": "哪篇原报告更好地引导读者从传统争论进入新原则及范围变化？",
+      "anchors": {
+        "0": "两篇在理论说明整体推进上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A概念引入与后文应用衔接略顺畅；B仍可在局部更好。",
+        "2": "A复杂概念和章例安排明显更连贯，避免来回重复造成理解断裂；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B复杂概念和章例安排明显更连贯，避免来回重复造成理解断裂；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B概念引入与后文应用衔接略顺畅；A仍可在局部更好。"
+      },
+      "boundary": "不强制四部分之外另加摘要；全文顺序、承接及重复一次评，题定四区有无另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:presentation:2"
+        ],
+        "query_quotes": [],
+        "change_note": "取组织功能，不与内容覆盖合评；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "学术语言的可理解性",
+      "question": "哪篇对已写的史中之史、文本性、社群等概念表达得更准确易懂？",
+      "anchors": {
+        "0": "两篇在学术表述理解上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A一处关键概念的句意或指代略清楚；B仍可在局部更好。",
+        "2": "A主要概念之间的文字区分明显更清楚，保留学术含义而减少空泛术语；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B主要概念之间的文字区分明显更清楚，保留学术含义而减少空泛术语；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B一处关键概念的句意或指代略清楚；A仍可在局部更好。"
+      },
+      "boundary": "此处准确指读者能否理解作者所写意思，外部真伪在D2；不偏好口语化或术语数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:75:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "保留学术而易懂的表达对象，剥离事实准确性；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "概念与章例的检索",
+      "question": "哪篇更方便找到某项概念解释、相关章节例子及声称依据？",
+      "anchors": {
+        "0": "两篇在概念依据查找上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A定位一处概念或章例略方便；B仍可在局部更好。",
+        "2": "A概念到章例和引用位置的查找明显更直接，减少上下文翻找；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B概念到章例和引用位置的查找明显更直接，减少上下文翻找；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B定位一处概念或章例略方便；A仍可在局部更好。"
+      },
+      "boundary": "不强制索引、页码或URL形式；比较原报告实际查找路径，不重复评宏观论证组织。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地定位比较项。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:75:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.01：中档缺口为“对象正确，但有明显成败裁判挤占理论说明，或主编与全书意见归属混淆。”；充分说明为“书、2010年出版背景及宇文所安作为主编之一的角色明确，全文服务理论呈现；必要争论背景不变为作者判决。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.01：中档缺口为“对象正确，但有明显成败裁判挤占理论说明，或主编与全书意见归属混淆。”；充分说明为“书、2010年出版背景及宇文所安作为主编之一的角色明确，全文服务理论呈现；必要争论背景不变为作者判决。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.02：中档缺口为“开端发展结局或新断代/多线索作用只说一侧，或未解释问题。”；充分说明为“说明线性发展叙事的方向/终点预设及其所受批判，解释重新断代、多层或多线索如何改变文学史组织。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:4",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.11：中档缺口为“传统认同作用或分离原则只一面，或语体主流化关系不明。”；充分说明为“说明民族国家认同如何影响文学发展叙事，包括白话/文言主流化的相关论述；说明分离原则改变何种预设，并限定学者批判范围。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:5",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.11：中档缺口为“传统认同作用或分离原则只一面，或语体主流化关系不明。”；充分说明为“说明民族国家认同如何影响文学发展叙事，包括白话/文言主流化的相关论述；说明分离原则改变何种预设，并限定学者批判范围。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:6",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.12：中档缺口为“只谈客观规律信念或新不确定性一侧，或将想象当无证据编造。”；充分说明为“说明被批判的客观规律/确定性观念，及史料缺漏、被忽视对象和历史想象如何进入叙述，解释仍需遵守的证据界限。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:7",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.13：中档缺口为“只谈旧表达优先或新叙事技巧一面，或未解释编纂意义。”；充分说明为“说明纪实分析优先、叙事技巧次要这一被批判取向，以及文学史故事怎样重视组织、叙事与可读性而不等同虚构事实。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:8",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.14：中档缺口为“只列伟大作家批判或新选择理念一面，或未说明筛选/接受作用。”；充分说明为“说明以伟大作家作品为序列的预设，及选本、接受等过程如何形成可变化的经典；交代女性等被忽视声音怎样进入新视野，不把去经典化理解为排除所有名作。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:9",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.03：中档缺口为“有建构论但筛选重述过程或研究对象变化不清。”；充分说明为“说明研究不仅追述作品产生，也追问后来如何选取、传承与重构其历史意义；区分建构性、证据约束和任意虚构。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:10",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.03：中档缺口为“有建构论但筛选重述过程或研究对象变化不清。”；充分说明为“说明研究不仅追述作品产生，也追问后来如何选取、传承与重构其历史意义；区分建构性、证据约束和任意虚构。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:11",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.03：中档缺口为“有建构论但筛选重述过程或研究对象变化不清。”；充分说明为“说明研究不仅追述作品产生，也追问后来如何选取、传承与重构其历史意义；区分建构性、证据约束和任意虚构。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:12",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.02：中档缺口为“开端发展结局或新断代/多线索作用只说一侧，或未解释问题。”；充分说明为“说明线性发展叙事的方向/终点预设及其所受批判，解释重新断代、多层或多线索如何改变文学史组织。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:13",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.11：中档缺口为“传统认同作用或分离原则只一面，或语体主流化关系不明。”；充分说明为“说明民族国家认同如何影响文学发展叙事，包括白话/文言主流化的相关论述；说明分离原则改变何种预设，并限定学者批判范围。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:14",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.12：中档缺口为“只谈客观规律信念或新不确定性一侧，或将想象当无证据编造。”；充分说明为“说明被批判的客观规律/确定性观念，及史料缺漏、被忽视对象和历史想象如何进入叙述，解释仍需遵守的证据界限。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:15",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.13：中档缺口为“只谈旧表达优先或新叙事技巧一面，或未解释编纂意义。”；充分说明为“说明纪实分析优先、叙事技巧次要这一被批判取向，以及文学史故事怎样重视组织、叙事与可读性而不等同虚构事实。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:16",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.14：中档缺口为“只列伟大作家批判或新选择理念一面，或未说明筛选/接受作用。”；充分说明为“说明以伟大作家作品为序列的预设，及选本、接受等过程如何形成可变化的经典；交代女性等被忽视声音怎样进入新视野，不把去经典化理解为排除所有名作。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:17",
+      "targets": [
+        "PT.D1.04.text"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:18",
+      "targets": [
+        "PT.D1.04.text"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:19",
+      "targets": [
+        "PT.D1.04.text",
+        "PT.D1.04.history"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text, PT.D1.04.history。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:20",
+      "targets": [
+        "PT.D1.04.text"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:21",
+      "targets": [
+        "PT.D1.04.history"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.history。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:22",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.05：中档缺口为“只讨论文化背景或单一环节，未实质说明生产、传播及物质/技术条件与文学活动的关系。”；充分说明为“说明文学作为文化生产活动如何联系社会话语、文本生产、物质载体与技术传播，并有该书编纂表现；与仅排列作品区别清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:23",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.05：中档缺口为“只讨论文化背景或单一环节，未实质说明生产、传播及物质/技术条件与文学活动的关系。”；充分说明为“说明文学作为文化生产活动如何联系社会话语、文本生产、物质载体与技术传播，并有该书编纂表现；与仅排列作品区别清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:24",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.05",
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.02：中档缺口为“开端发展结局或新断代/多线索作用只说一侧，或未解释问题。”；充分说明为“说明线性发展叙事的方向/终点预设及其所受批判，解释重新断代、多层或多线索如何改变文学史组织。”。 PT.D1.05：中档缺口为“只讨论文化背景或单一环节，未实质说明生产、传播及物质/技术条件与文学活动的关系。”；充分说明为“说明文学作为文化生产活动如何联系社会话语、文本生产、物质载体与技术传播，并有该书编纂表现；与仅排列作品区别清楚。”。 PT.D1.14：中档缺口为“只列伟大作家批判或新选择理念一面，或未说明筛选/接受作用。”；充分说明为“说明以伟大作家作品为序列的预设，及选本、接受等过程如何形成可变化的经典；交代女性等被忽视声音怎样进入新视野，不把去经典化理解为排除所有名作。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:25",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.06：中档缺口为“有社群定义但未说明相对民族国家标准的变化或原因。”；充分说明为“解释文学在相关社群中生产流传如何成为界定线索，以及固定政治疆界为何不足以处理迁徙、离散与文化联系；定义的对象和范围清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:26",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.06：中档缺口为“有社群定义但未说明相对民族国家标准的变化或原因。”；充分说明为“解释文学在相关社群中生产流传如何成为界定线索，以及固定政治疆界为何不足以处理迁徙、离散与文化联系；定义的对象和范围清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:27",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "滕尼斯是可选理论家，题面只要求社群含义。",
+      "discrimination_check": "原精确要求：引用德国社会学家斐迪南·滕尼斯（Ferdinand Tönnies）的理论，解释“社群”（Gemeinschaft）与“社会”（Gesellschaft）的区别，以说明“社群”概念的内涵。 未保留该内容出现与否的区分。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:28",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.06：中档缺口为“有社群定义但未说明相对民族国家标准的变化或原因。”；充分说明为“解释文学在相关社群中生产流传如何成为界定线索，以及固定政治疆界为何不足以处理迁徙、离散与文化联系；定义的对象和范围清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:29",
+      "targets": [
+        "PT.D1.07.language"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.07.language。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:30",
+      "targets": [
+        "PT.D1.07.geography"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.07.geography。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:31",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.08：中档缺口为“章节可辨，但只介绍内容而未联系本题变化。”；充分说明为“章节可由作者、标题、时段或其他信息辨认；具体内容与社群、空间或语言边界变化的联系明确。”。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:32",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "具体抗战城市清单未被题面指定，可换章节。",
+      "discrimination_check": "原精确要求：列出该章节中提到的地理位置：重庆、昆明、桂林、敌占区北京、孤岛时期的上海、香港、延安、台湾。 未保留该内容出现与否的区分。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:33",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "美国文学史背景是可选延伸。",
+      "discrimination_check": "原精确要求：提及1980年代美国文学史写作的背景，包括Emory Elliott主编的《哥伦比亚美国文学史》作为对后现代主义理论挑战传统文学史写作实践的回应。 未保留该内容出现与否的区分。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:34",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "美国文学史边缘文学案例并非本题共同义务。",
+      "discrimination_check": "原精确要求：提及Sacvan Bercovitch主编的《剑桥美国文学史》将女性文学、殖民地文学等边缘文学推向了前台。 未保留该内容出现与否的区分。"
+    },
+    {
+      "resource_id": "drb2:75:info_recall:35",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "美国新文学史编纂形式不是必选比较。",
+      "discrimination_check": "原精确要求：提及Greil Marcus和Werner Sollors合编的《美国新文学史》采用了点状辐射的叙事结构和文化史的写法。 未保留该内容出现与否的区分。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留相应解释或题面要求，移除唯一结论。",
+      "discrimination_check": "新旧回应关系可以比较，不要求五对五。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留相应解释或题面要求，移除唯一结论。",
+      "discrimination_check": "建构与知识形成的关系可以比較，不预置客观性是迷信的评价。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:3",
+      "targets": [
+        "PT.D1.04.text",
+        "PT.D1.04.history",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text, PT.D1.04.history, PW.D3.02。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:4",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.05：中档缺口为“只讨论文化背景或单一环节，未实质说明生产、传播及物质/技术条件与文学活动的关系。”；充分说明为“说明文学作为文化生产活动如何联系社会话语、文本生产、物质载体与技术传播，并有该书编纂表现；与仅排列作品区别清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:5",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.06：中档缺口为“有社群定义但未说明相对民族国家标准的变化或原因。”；充分说明为“解释文学在相关社群中生产流传如何成为界定线索，以及固定政治疆界为何不足以处理迁徙、离散与文化联系；定义的对象和范围清楚。”。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:6",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留相应解释或题面要求，移除唯一结论。",
+      "discrimination_check": "可比较章例说明理论的力量，但不锁定奚密与空间叙事。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:7",
+      "targets": [
+        "PT.D1.04.text"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "可选历史背景或方法论评价不设共同义务。",
+      "discrimination_check": "不要求宇文所安较早引入理论的优先权判断，不能保证区分这一论断。"
+    },
+    {
+      "resource_id": "drb2:75:analysis:8",
+      "targets": [
+        "PT.D1.04.text",
+        "PT.D1.04.history"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.text, PT.D1.04.history。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。"
+    },
+    {
+      "resource_id": "drb2:75:presentation:1",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.09：中档缺口为“四方面意图可辨，但分界或分点不清。”；充分说明为“四方面均有明确分区与要点，标题可用等义表述。”。"
+    },
+    {
+      "resource_id": "drb2:75:presentation:2",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "按题面与原报告阅读功能处理。",
+      "discrimination_check": "组织单独比较，不与内容齐全或事实真伪捆绑。"
+    },
+    {
+      "resource_id": "drb2:75:presentation:3",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "按题面与原报告阅读功能处理。",
+      "discrimination_check": "学术表达可理解性保留，事实准确性限核验。"
+    },
+    {
+      "resource_id": "drb2:75:presentation:4",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.08：中档缺口为“章节可辨，但只介绍内容而未联系本题变化。”；充分说明为“章节可由作者、标题、时段或其他信息辨认；具体内容与社群、空间或语言边界变化的联系明确。”。"
+    },
+    {
+      "resource_id": "drb2:75:presentation:5",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "当前以具体概念、范围和回应关系判断；不要求固定标签、章例或未经限定的普遍命题。",
+      "discrimination_check": "PT.D1.01：中档缺口为“对象正确，但有明显成败裁判挤占理论说明，或主编与全书意见归属混淆。”；充分说明为“书、2010年出版背景及宇文所安作为主编之一的角色明确，全文服务理论呈现；必要争论背景不变为作者判决。”。"
+    }
+  ],
+  "author_notes": [
+    "无旧稿；PT区分传统批判、新原则、理论运用、文化视角、中国性、范围与章例；不按官方五原则机械拆分。",
+    "主要混合检查已写入3分：只解释一面范围、只讲理论不联系该书、只有章节而无变化联系均不能高档。PW保留解释与综合的不同对象，不裁判该书成败。",
+    "官方历史文本性的虚构性、Chinese communities译为汉族、理论影响归属及章例信息均未外核；允许有据修正，不能把官方当无条件真值。",
+    "滕尼斯、抗战城市全清单与三部美国文学史案例有意不强制，逐项记精确区分损失。作者自检不等于独立审核；未评分。",
+    "作者侧程序检查覆盖本批6题：原Query、版本、唯一ID、五档锚点、逐字引文、来源ID及双向映射、逐条原子化自检与D1—D6覆盖；未发现结构错误。这不等于独立语义审核，未对报告评分。",
+    "v3.3: 收窄旧传统/新观念总项，分别补国族分离、确定性/想象、纪实/叙事转向、经典/边缘声音的批判—回应关系；保留史中之史独立说明。补新历史主义双重挑战与文化政治，恢复文化生产物质技术、接受选择与断代的具体去向；语言地理锚点不再只用一例代表范围。全48条处置改为实际锚点入口而非泛称内容功能。",
+    "v3.3待审 / pending review: 不强制滕尼斯、八地名单或三部美国文学史作为证明路线：当前社群定义、跨域章例和理论资源各有具体入口。北美优先权仍不裁定。Chinese communities译法、理论直接影响与各批判归属未外核；有据限定允许，不把呈现理论变为作者裁判成败。",
+    "交叉审核：PT.D1.04补文化政治/双重挑战缺失的3档和4档范围；PW.D3.01/.02自检分别限定新旧回应与理论实践对象，避免跨PW补偿。条数不变。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "对象与论述目的限定同一范围；书名正确但主体褒贬按2或3，不能靠引言正确弥补。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "传统叙事说清而不解释组织变化3；断代是叙事尺度不是另一个城市例子。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "讲建构但不说谁在何种后续过程筛选为3；概念与其认识对象不拆。"
+    },
+    {
+      "id": "PT.D1.04.text",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04.history",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "有文化概念但无物质技术传播为3；生产—载体—流通是一条文化过程，不按技术清单拆。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "标准及改变理由是一项关系；有定义无原因按3，不能用地名数量补分。"
+    },
+    {
+      "id": "PT.D1.07.language",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.07.geography",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "章节与所说明变化不可拆；章节详实但无联系明确3。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "章节与分点是同一导航层次；有标题而内容混写按3。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "单一禁源使用对象；清单与论证取用分档。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "原文与归属是一条关系，有书目但不能找到所称观点按3。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "归属、文字和语境合成断言；文字近似但主体错仍属实质错误。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "只谈社群跨国而不交代国族文学史预设为3；旧观念与回应是自然对照关系。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "确定性批判充分但无想象边界为3；证据与想象关系不得拆断。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "报告写得好不替代该理论范围；只说生动可读为2/3。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "经典标签充分但无接受/主体选择过程为3；不能用印刷史代替。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "A解释史中之史对确定性预设的回应较强、B解释国族叙事分离的回应较强时，在新旧方法回应这一共同对象内按中心解释的重要性判断；等重要相抵0，不用另一PW的章节实践优势补偿。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "A把文本语境化联系到材料选择较强、B把社群标准联系到章例空间组织较强时，在理论—实践关系内判断中心解释的重要性，等重要相抵0；不以PT领域数量决定胜者。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "观念关系是一项综合认识；篇幅均衡不等于综合，局部总结不替代联系。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "材料和所声称的意图层级不可拆；权威评论不自动证明作者自述。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "整体推进容纳局部优缺点，不拆段落与章节。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "学术精度与易懂共同构成表达，不用口语好懂抵消概念指代混乱。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "概念—例证—依据是一条检索路径，不能仅凭参考文献多判好。"
+    }
+  ]
+}

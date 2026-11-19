@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_on": "2026-11-17",
+  "repository_files_scanned": 1128,
+  "all_file_bytes_read": true,
+  "unresolved_findings": 0,
+  "false_positive_categories": {},
+  "scope": "Repository pattern scan for credentials and local device/account traces. Generated template ZIP contents are additionally covered by website regression tests. Not a guarantee against every possible secret or a redistribution-rights certification."
+}

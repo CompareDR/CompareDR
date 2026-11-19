@@ -1,0 +1,930 @@
+{
+  "version": "route-value-rubrics-three-v3.4-main-revision",
+  "task_key": "drb1:48",
+  "language": "zh",
+  "title": "53岁中国人的两周营养食谱",
+  "full_query": "我今年五十三岁，体重一百六十斤，为我提供一份两周的食谱，包含更科学、健康、简单易做的营养搭配（我是中国人）",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "两周逐日餐食",
+      "question": "报告是否提供可以直接对应到两周各日、各主要餐次的食谱？",
+      "anchors": {
+        "1": "没有两周食谱，只有饮食知识。",
+        "2": "只有零散菜名或少量示例日，无法安排两周。",
+        "3": "已安排两周，但有明显空缺日或主要餐次需要用户自行补齐。",
+        "4": "两周各日主要餐次齐全，少量复用或替换指示不够明确。",
+        "5": "两周各日主要餐次均有明确安排；明确说明如何重复使用的一周菜单也可完整覆盖两周。"
+      },
+      "boundary": "只检查日程与餐食内容是否齐全；不要求14套互不重复菜单、固定加餐次数或表格。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:1",
+          "drb1:48:instruction_following:1"
+        ],
+        "query_quotes": [
+          "一份两周的食谱"
+        ],
+        "change_note": "合并时间与完整食谱的重复要求；本地设计五档，允许明确的第二周复用。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "已知用户信息与未定条件",
+      "question": "报告是否考虑53岁、160斤的信息，并交代在缺少身高、活动量和健康状况时所采用的食谱适用假设？",
+      "anchors": {
+        "1": "忽略用户信息，或把未提供的疾病、肥胖和减重目标当作既定事实。",
+        "2": "只重复年龄体重，直接给出精确个体热量或治疗饮食而不交代假设。",
+        "3": "考虑年龄体重并提示资料不足，但菜单适用于什么情况仍不清楚。",
+        "4": "提供可用的基础食谱并说明主要适用假设，少量个体调整条件未交代。",
+        "5": "把已知年龄体重与未知个体条件分清，提供有明确适用边界的基础食谱，不因资料不足拒绝完成菜单。"
+      },
+      "boundary": "不凭体重诊断肥胖；不强制减重、计算BMI、固定热量或慢病专用菜单。这里检查个体化边界，不评营养机理解释优劣。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:2",
+          "drb1:48:instruction_following:3"
+        ],
+        "query_quotes": [
+          "我今年五十三岁，体重一百六十斤"
+        ],
+        "change_note": "官方用户针对性改为已知条件与假设检查；本地新增不得从体重单独推断疾病或减重的边界和五档。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "中式饮食可适用性",
+      "question": "食谱是否适合中国家庭的常见食材和饮食习惯？",
+      "anchors": {
+        "1": "食谱主要依赖与用户饮食背景不相符且无替代办法的食物。",
+        "2": "仅给菜名中文译名，实际搭配和主要食材仍难用于中国家庭。",
+        "3": "有明显中式餐食，但相当部分食材或搭配缺少合适替代。",
+        "4": "主要搭配和食材适合中国家庭，个别不常见选择未说明替代。",
+        "5": "整体符合中国家庭可采用的餐食组合和食材条件；地域口味与少量非中式食物均可合理容纳。"
+      },
+      "boundary": "不规定菜系或把中国人等同于单一口味；采购备餐的相对便利另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:instruction_following:2"
+        ],
+        "query_quotes": [
+          "我是中国人"
+        ],
+        "change_note": "保留文化适配对象，移除严格单一中餐路线；锚点本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "主要营养来源的菜单搭配",
+      "question": "报告是否把主食、蛋白质及脂肪来源合理安排进两周菜单？",
+      "anchors": {
+        "1": "只有单一食物或没有可识别的营养搭配。",
+        "2": "提到均衡，却无法在菜单中看到主食、蛋白质和脂肪来源的具体组合。",
+        "3": "主要来源可辨，但主食、蛋白质或脂肪中的重要一类长期缺失或组合不相容，未说明替代。",
+        "4": "菜单中主食、蛋白质和脂肪来源均有实际安排，组合基本相容，仅少量跨日搭配或替代关系不清。",
+        "5": "两周菜单实际安排主食、蛋白质及脂肪来源，跨日组合和合理替代明确，不以菜名数量代替均衡。"
+      },
+      "boundary": "检查主要营养来源的实际组合，不规定宏量比例或每餐全齐；蔬果、纤维与关键微量营养来源归PT.D1.07.produce、PT.D1.07.vitamins、PT.D1.07.minerals、PT.D1.07.fibre。一个食物兼有功能时须分别指出作用，不凭出现一次认定所有需要满足。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3",
+          "drb1:48:instruction_following:4"
+        ],
+        "query_quotes": [
+          "营养搭配"
+        ],
+        "change_note": "v3.3收窄宏量来源，微量及蔬果安排另设直接入口；保留实际菜单要求。"
+      }
+    },
+    {
+      "id": "PT.D1.05.salt",
+      "dimension": "D1",
+      "title": "盐的控制落实",
+      "question": "报告是否把控制盐的要求落实到菜单的调味或制作建议中？",
+      "anchors": {
+        "1": "没有盐或相关调味控制安排。",
+        "2": "只有少盐口号，没有落实到做法。",
+        "3": "有具体建议，但关键调味或主要餐食的落实方式不清。",
+        "4": "主要相关餐食有可执行的盐或调味控制建议，仅个别例外不明。",
+        "5": "清楚说明如何在实际菜单和调味中控制盐，处理主要相关做法及替代安排，不只用清淡菜名代替操作说明。"
+      },
+      "boundary": "不要求固定盐克数或禁用全部调味品。糖和脂肪控制不在本项扣分；建议的事实安全由D2核验，文本自相矛盾由PT.D2.02处理。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:4"
+        ],
+        "query_quotes": [
+          "健康"
+        ],
+        "change_note": "v3.4拆分：盐控制可单独落实，不能被糖或脂肪安排抵补。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.sugar",
+      "dimension": "D1",
+      "title": "添加糖的控制落实",
+      "question": "报告是否在餐食、饮品或调味安排中具体处理添加糖？",
+      "anchors": {
+        "1": "没有处理添加糖。",
+        "2": "只说少糖，没有可辨认的选择或做法。",
+        "3": "有具体控制建议，但菜单中重要相关选择或替代方式仍未说明。",
+        "4": "主要相关饮食选择有具体控制或替代建议，仅个别做法含糊。",
+        "5": "将添加糖控制落实到相关餐食、饮品或调味选择，说明如何使用或替代；若菜单不使用相关来源，也有明确的安排依据。"
+      },
+      "boundary": "不将水果、全部碳水化合物等同添加糖，不要求固定克数或零糖方案。盐、脂肪的遗漏不在此扣分；外部事实正确性由D2检查。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:4"
+        ],
+        "query_quotes": [
+          "健康"
+        ],
+        "change_note": "v3.4拆分：添加糖的安排具有独立完成状态，不与盐控制共用一分。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.fat",
+      "dimension": "D1",
+      "title": "脂肪选择与烹调",
+      "question": "报告是否通过用油、食材选择或烹调方式具体处理不利脂肪摄入问题？",
+      "anchors": {
+        "1": "没有相关脂肪选择或烹调安排。",
+        "2": "仅说少油或健康，没有具体选择与做法。",
+        "3": "有具体建议，但主要相关食材或制作环节的安排仍有重要不明。",
+        "4": "用油、食材或烹调的主要相关选择具体可用，仅局部例外未说明。",
+        "5": "将所提出的脂肪控制目标落实到菜单的食材、用油或烹调选择，说明必要替代，不把少油口号当作全部安排。"
+      },
+      "boundary": "不规定唯一油品、克数或烹调法，不把所有脂肪都视为应删除。PT.D1.04查营养来源组合，本项查控制目标是否有实际做法；外部事实支持归D2。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:4"
+        ],
+        "query_quotes": [
+          "健康"
+        ],
+        "change_note": "v3.4拆分：保持选择—制作这一落实对象，不与独立盐糖安排混评分。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "简单易做的餐食说明",
+      "question": "报告是否用常见家庭做法说明如何完成所列餐食？",
+      "anchors": {
+        "1": "菜单基本依赖复杂技法或未解释的专业制作。",
+        "2": "反复声称简单，但主要菜式的做法仍需用户另外研究。",
+        "3": "部分餐食容易完成，另一些关键做法或食材处理仍缺少必要说明。",
+        "4": "主要餐食可按常见做法或简短提示完成，仅个别复杂环节未说明。",
+        "5": "菜单采用普通家庭可完成的做法，需要说明的步骤有简明提示；不要求为煮饭等常见操作写完整教程。"
+      },
+      "boundary": "无固定烹饪分钟数、设备或逐菜详解要求；备餐组合节约实际工作量在PW.D4.01比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:5",
+          "drb1:48:instruction_following:5",
+          "drb1:48:comprehensiveness:6"
+        ],
+        "query_quotes": [
+          "简单易做"
+        ],
+        "change_note": "合并两处易做要求，评价实际做法而非是否出现口号；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "营养依据可追溯",
+      "question": "报告中决定菜单的关键营养主张及定量建议是否有可辨认依据或可检查的计算？",
+      "anchors": {
+        "1": "重要健康主张和定量建议均无可识别依据。",
+        "2": "仅称专家推荐或科学研究，无法找到具体依据。",
+        "3": "有具名依据，但部分重要建议与其对应关系不明确。",
+        "4": "主要建议可追溯到具体依据或计算，只有次要对应含糊。",
+        "5": "关键建议的来源、适用人群或计算假设可辨，菜单中的自定安排与外部营养主张区分清楚。"
+      },
+      "boundary": "不要求每道家常菜附引用；无URL不直接扣分，可定位不等于已证实支持。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用样例审计分工，本地针对营养主张和份量计算设计，不声称来自官方。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "食谱内部一致",
+      "question": "报告中的份量、人数、日程以及健康建议是否彼此一致？",
+      "anchors": {
+        "1": "菜单和说明有多处核心冲突，无法判断该怎么吃。",
+        "2": "关键人数、份量或日程存在未解释冲突，明显妨碍使用。",
+        "3": "存在局部实质冲突，但主体菜单仍可辨认。",
+        "4": "主要菜单与说明一致，只有容易澄清的次要口径问题。",
+        "5": "菜单、通用份量、替代说明及自报营养量在检查范围内相容；生熟重或人数改变有明确说明。"
+      },
+      "boundary": "只评文本内矛盾，不替代营养安全的外部事实核验；未提供精确营养计算不是矛盾。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增菜单与份量之间的一致性审计及五档。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "核验范围内的营养可靠性",
+      "question": "在记录的核验范围内，报告的关键营养建议与实际食谱是否符合所获得的依据？",
+      "anchors": {
+        "1": "核心营养建议或菜单安排被所查证据否定，明显破坏健康食谱的用途。",
+        "2": "多个重要营养建议存在实质支持错误或不适用的人群外推。",
+        "3": "部分重要建议得到支持，但仍有影响食谱使用的份量或适用范围错误。",
+        "4": "主要已核建议得到支持，仅有次要措辞或口径问题。",
+        "5": "本次已判断建议及相关菜单安排在对象、份量含义和适用范围上符合所得依据。"
+      },
+      "boundary": "记录选中与完成核验数及证据位置；访问失败是执行问题，不能填低分、满分或NA，应另记未完成并重试。无需每道菜查论文；不把未声明疾病强加给用户，也不重复奖励引用可定位。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3",
+          "drb1:48:comprehensiveness:4"
+        ],
+        "query_quotes": [],
+        "change_note": "从官方科学健康要求取建议实质可靠性；本地新增有限核验范围、执行失败处理和五档。"
+      }
+    },
+    {
+      "id": "PT.D1.07.produce",
+      "dimension": "D1",
+      "title": "蔬果安排及替代",
+      "question": "两周菜单是否实际安排蔬菜、水果及合理的跨日变化或替代？",
+      "anchors": {
+        "1": "未安排蔬菜或水果及合理替代。",
+        "2": "只建议多吃蔬果，菜单没有具体对应。",
+        "3": "有具体安排，但蔬菜或水果一侧长期缺失且无替代说明，或两周内主要安排无法辨认。",
+        "4": "两侧均有具体菜单安排或合理替代，仅少量跨日变化不清。",
+        "5": "蔬菜与水果在两周菜单中有可执行安排及合理变化；限制某类时说明具体替代，不用一句多样化代替餐食内容。"
+      },
+      "boundary": "本项检查菜单中的蔬果安排，不据出现蔬果自动认定所有营养需要满足。维生素、矿物质和纤维来源另查；不要求逐天完全不同或指定水果。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.4拆分：蔬果是菜单安排对象；不把其出现等同全部微量营养保障。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.vitamins",
+      "dimension": "D1",
+      "title": "维生素来源",
+      "question": "报告是否将本题相关的关键维生素来源安排进食谱，并说明必要替代？",
+      "anchors": {
+        "1": "没有可辨认的维生素来源安排。",
+        "2": "只列维生素名称或称营养全面，没有具体食物对应。",
+        "3": "有具体来源，但关键维生素来源安排有重要缺口，或限制某类食物后未说明如何补足。",
+        "4": "主要相关维生素来源可对应到菜单，必要替代基本明确，仅少量安排含糊。",
+        "5": "将关键维生素需求与菜单中的具体来源或合理替代对应，说明重要饮食限制下怎样保留来源；不以单一食物或笼统均衡声明代替。"
+      },
+      "boundary": "不要求逐种维生素精算、诊断缺乏症或服用补充剂。这里只查来源安排是否具体，需求判断和来源事实由D2核验。矿物质与纤维缺口不在本项扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.4拆分：维生素来源与其他营养来源可以独立不足；不再逐种营养素拆项。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.minerals",
+      "dimension": "D1",
+      "title": "矿物质来源",
+      "question": "报告是否将本题相关的关键矿物质来源安排进食谱，并说明必要替代？",
+      "anchors": {
+        "1": "没有可辨认的矿物质来源安排。",
+        "2": "只列矿物质名称或称营养全面，没有具体食物对应。",
+        "3": "有矿物质与具体食物对应，但报告提出的关键矿物质中有一项未安排来源；或已说明某类来源需避免，却未给出可用替代。",
+        "4": "关键矿物质均有具体食物来源，已提出的饮食限制也有替代；但至少一项来源或替代仅在一般建议中出现，未说明如何用于菜单。",
+        "5": "关键矿物质的来源可对应到具体菜单，已提出的饮食限制有能用于菜单的替代。题面和报告均未提出的限制无需另设替代；不要求逐种精算。"
+      },
+      "boundary": "不要求逐种矿物质精算、诊断缺乏症或服用补充剂。这里只查来源安排是否具体，需求判断和来源事实由D2核验。不要求奶制品是唯一来源；维生素与纤维缺口不在本项扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.4拆分：矿物质来源与其他营养来源可以独立不足；不再逐种营养素拆项。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.fibre",
+      "dimension": "D1",
+      "title": "膳食纤维来源",
+      "question": "两周食谱是否具体安排膳食纤维来源或合理替代，而不只提出高纤维口号？",
+      "anchors": {
+        "1": "未提供可辨认的纤维来源安排。",
+        "2": "只要求多吃纤维，未对应到具体餐食。",
+        "3": "有部分具体来源，但主要菜单的安排或限制后的替代仍有重要缺口。",
+        "4": "主要餐食安排能辨认相应来源及必要替代，仅少量落实不清。",
+        "5": "明确纤维来源如何进入两周餐食及合理变化，限制常用来源时交代替代，不凭一处食物名称认定全程已经安排。"
+      },
+      "boundary": "不规定固定克数或唯一食物。蔬果安排与纤维来源可使用同一菜单证据，但各自只查自己的结果，不因缺少某指定水果在此重复扣分；实际来源与适用性由D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.4拆分：纤维来源有独立安排结果，不靠矿物质或维生素内容抵补。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "份量与能量调整参照",
+      "question": "报告是否给出可用于菜单的个人份量及能量调整依据？",
+      "anchors": {
+        "1": "没有份量参照。",
+        "2": "只说适量或控制热量，无法确定吃多少。",
+        "3": "有部分数量，但主要餐食缺参照，或人数、生熟口径及调整条件有重要不明。",
+        "4": "主要餐食可按份量执行，并有适用假设或调整说明，仅次要口径欠清。",
+        "5": "主要餐食有量具、食物份或重量参照，说明基础需要及何种个体信息会改变总量；不凭年龄体重直接推出精确热量或强制减重。"
+      },
+      "boundary": "可用有假设的热量范围，或合理份量框架及调整条件；不要求固定数字。已有量词是否好懂在D6评，个体建议外部支持在D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:comprehensiveness:4",
+          "drb1:48:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "不强制未知个人的精确热量，不等于省略总量依据；从原05分出份量。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "个体条件到配餐策略的推理",
+      "question": "哪篇更可靠地从已知年龄体重及明确假设推导配餐策略？",
+      "anchors": {
+        "0": "两篇在配餐理由上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A对关键搭配与需求的联系解释略扎实，较少从年龄体重过度推断；B仍可在局部更好。",
+        "2": "A对主要配餐理由的前提和适用条件解释明显更可靠，能避免把一般营养建议说成个体治疗效果；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B对主要配餐理由的前提和适用条件解释明显更可靠，能避免把一般营养建议说成个体治疗效果；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对关键搭配与需求的联系解释略扎实，较少从年龄体重过度推断；A仍可在局部更好。"
+      },
+      "boundary": "仅比较个体条件—需要—策略，不包办食物互补；对多条个体推理按相同重要性同时记录正反差别，净优势不明判0，不挑有利段落。不要求推测用户已有疾病。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:insight:1"
+        ],
+        "query_quotes": [],
+        "change_note": "将个人条件与营养互补两个独立推理分开。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "把食谱用于日常生活",
+      "question": "哪篇更帮助用户在口味、做饭负担和健康搭配之间作出可持续的日常安排？",
+      "anchors": {
+        "0": "两篇在日常执行与调整上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在某个实际做饭或替换难点上给出略有帮助的取舍；B仍可在局部更好。",
+        "2": "A把口味、食材使用和准备负担结合得明显更好，使用户更容易执行并调整两周安排；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B把口味、食材使用和准备负担结合得明显更好，使用户更容易执行并调整两周安排；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在某个实际做饭或替换难点上给出略有帮助的取舍；A仍可在局部更好。"
+      },
+      "boundary": "须指出减少哪种执行困难；不以多写采购表、备餐表、替换表或长期建议加分。营养推理更正确本身不在此再奖。 若一篇省时而另一篇口味可接受性更好，须同时说明对同一执行场景的影响，净帮助相近则0，不任选一优势。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:insight:3",
+          "drb1:48:insight:4",
+          "drb1:48:insight:5"
+        ],
+        "query_quotes": [],
+        "change_note": "将中式健康改良、务实便利及可延续原则合为实际执行收益；不奖励题外延伸或固定辅助工具，五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "食谱与说明的整体组织",
+      "question": "哪篇原报告更好地安排使用说明、两周菜单及补充提示的阅读顺序？",
+      "anchors": {
+        "0": "两篇在食谱整体阅读顺序上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A让读者理解菜单与通用规则的先后关系略省力；B仍可在局部更好。",
+        "2": "A使从适用说明到两周菜单再到必要调整的阅读明显更连贯，重要规则不被无关长篇打断；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B使从适用说明到两周菜单再到必要调整的阅读明显更连贯，重要规则不被无关长篇打断；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B让读者理解菜单与通用规则的先后关系略省力；A仍可在局部更好。"
+      },
+      "boundary": "读原文综合看顺序、承接和重复；不以是否有引言结尾、固定表格或字数判优。餐次是否齐全仍在PT。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:readability:1",
+          "drb1:48:instruction_following:6"
+        ],
+        "query_quotes": [],
+        "change_note": "把结构与聚焦改为全文阅读功能比较，不把无害背景一概扣分；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "菜名、份量与步骤是否好懂",
+      "question": "哪篇把已写的食材、份量和必要营养概念说得更容易理解？",
+      "anchors": {
+        "0": "两篇在菜单句意与份量理解上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在关键量词或操作描述上略清楚，读者较少猜测；B仍可在局部更好。",
+        "2": "A主要菜名、量词及操作指代明显更清楚，用户能够准确理解已写内容；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B主要菜名、量词及操作指代明显更清楚，用户能够准确理解已写内容；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在关键量词或操作描述上略清楚，读者较少猜测；A仍可在局部更好。"
+      },
+      "boundary": "只比较已有文字的理解成本；不因年龄假定理解力低，不把份量未提供、营养错误或篇幅短再次计分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:readability:2",
+          "drb1:48:readability:4",
+          "drb1:48:readability:6"
+        ],
+        "query_quotes": [],
+        "change_note": "合并语言规范、读者适配和分量表达；从readability:4仅取呈现清晰，不取外部科学合理性，五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "查找某日某餐",
+      "question": "哪篇原报告更方便找到某天某餐、对应做法及已给出的依据？",
+      "anchors": {
+        "0": "两篇在餐食与依据定位上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A查找某个餐次或其说明略方便；B仍可在局部更好。",
+        "2": "A查找日餐、通用做法和相应依据明显更直接，较少来回翻找或误配；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B查找日餐、通用做法和相应依据明显更直接，较少来回翻找或误配；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B查找某个餐次或其说明略方便；A仍可在局部更好。"
+      },
+      "boundary": "比较实际查找路径；不强制表格、加粗、特定字号或链接，不重复评来源是否成立和全文顺序。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:48:readability:3",
+          "drb1:48:readability:5"
+        ],
+        "query_quotes": [],
+        "change_note": "从直观呈现与排版只保留定位功能，放弃装饰性格式要求；来源定位是本地扩展，五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "营养组合的解释",
+      "question": "哪篇更可靠地解释食物组合如何提供营养互补并支持所声明的健康目标？",
+      "anchors": {
+        "0": "双方营养组合解释帮助相近，或均无实际推理；须区分两种情况。",
+        "1": "A的营养组合推理总体略更扎实，B仍可能在局部更好。",
+        "2": "A明显更能解释组合到营养作用的环节和限制，B的局部优点不足以弥补这一差距。",
+        "-1": "B的营养组合推理总体略更扎实，A仍可能在局部更好。",
+        "-2": "B明显更能解释组合到营养作用的环节和限制，A的局部优点不足以弥补这一差距。"
+      },
+      "boundary": "比较实际因果环节而非食物数或PT完整性；不同链各有长处时按同一关键目标权衡，相抵则0。无需固定营养素名单或治疗效果承诺。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:48:insight:2"
+        ],
+        "query_quotes": [],
+        "change_note": "分出营养互补的独立推理对象。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb1:48:comprehensiveness:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "选用两周各餐的完整性，与instruction_following:1合并至PT.D1.01，不要求每天独创菜式。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "能区分两周各主要餐次完整与缺日缺餐；允许明确重复不丢失原完整性。"
+    },
+    {
+      "resource_id": "drb1:48:comprehensiveness:2",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "只选用年龄体重的针对性至PT.D1.02；文化背景单由instruction_following:2支持PT.D1.03，不复制父项来源。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "年龄体重假设能检出，但文化另由PT.D1.03检查；不保留推测健康需求的强度偏好。"
+    },
+    {
+      "resource_id": "drb1:48:comprehensiveness:3",
+      "targets": [
+        "PT.D1.04",
+        "PT.D2.03",
+        "PT.D1.07.produce",
+        "PT.D1.07.vitamins",
+        "PT.D1.07.minerals",
+        "PT.D1.07.fibre"
+      ],
+      "reason": "PT.D1.04查宏量来源、07查蔬果与微量来源、PT.D2.03查实际支持。 v3.4：原复合项拆为可分别记录的子项；来源仍为原官方对象，不声称其全部细节原样保留。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "04的2/4档仅查主食、蛋白质和脂肪来源；07的3档覆盖蔬菜、水果、维生素、矿物质或纤维任一重要来源缺失且无合理替代，04丰富不能抵补。无需逐种营养素精算。 子项各自使用五档，单一子项缺口不再压低其他已完成子项；参见PT.D1.07.produce, PT.D1.07.vitamins, PT.D1.07.minerals, PT.D1.07.fibre。"
+    },
+    {
+      "resource_id": "drb1:48:comprehensiveness:4",
+      "targets": [
+        "PT.D1.05.salt",
+        "PT.D1.05.sugar",
+        "PT.D1.05.fat",
+        "PT.D2.03",
+        "PT.D1.08"
+      ],
+      "reason": "05保留盐糖油及烹调，08恢复份量能量依据，D2.03保留有限核验。 v3.4：原复合项拆为可分别记录的子项；来源仍为原官方对象，不声称其全部细节原样保留。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "做法健康却无数量，08为1/2；数量清楚却只说少油少盐，05为2。 子项各自使用五档，单一子项缺口不再压低其他已完成子项；参见PT.D1.05.salt, PT.D1.05.sugar, PT.D1.05.fat。"
+    },
+    {
+      "resource_id": "drb1:48:comprehensiveness:5",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "选用家庭常见食材与易做方法至PT.D1.06。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "复杂做法、难买食材与家庭易做可区分；不设分钟阈值。"
+    },
+    {
+      "resource_id": "drb1:48:comprehensiveness:6",
+      "targets": [
+        "PT.D1.06",
+        "PT.D1.08"
+      ],
+      "reason": "08承接可用份量，06承接必要做法；饮水、替换不逐例强制。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "数量或步骤缺失各有入口；不因无采购表或固定饮水量降低。"
+    },
+    {
+      "resource_id": "drb1:48:insight:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01独立比较用户条件到策略的推导。",
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "营养原理相同也可识别个人推断过度；不强制诊断。"
+    },
+    {
+      "resource_id": "drb1:48:insight:2",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02独立比较营养互补解释，来源安排已有04/07直接入口。",
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "个人条件解释好不能掩盖营养组合因果缺步；不强制特定维生素。"
+    },
+    {
+      "resource_id": "drb1:48:insight:3",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "选用口味与健康改良的实际取舍至PW.D4.01。",
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "可识别中式口味与健康改良的有效取舍；与其他日常安排合评，不单独输出此项分数。"
+    },
+    {
+      "resource_id": "drb1:48:insight:4",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "选用备餐便利的实际帮助至PW.D4.01，不设独立技巧计数。",
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "可识别备餐技巧实际减负；不按技巧数量或备餐工具存在评分。"
+    },
+    {
+      "resource_id": "drb1:48:insight:5",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "只取可延续的调整帮助至PW.D4.01；不要求超出两周任务另讲长期知识。",
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "可识别能迁移使用的调整原则；不强制延伸长期知识，不能区分所有题外知识增量。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "合并食谱完整性至PT.D1.01，避免与comprehensiveness:1双计。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "两周食谱存在与完整性直接由PT.D1.01判别，不双计。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:2",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "选用中国家庭饮食适配至PT.D1.03，允许地域及个人差异。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "常见中国家庭饮食适配直接检查，允许合理地区差异。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "选用用户信息被考虑至PT.D1.02，不能仅重复年龄体重得高分。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "年龄体重需被真正用于适用说明，仅提及不能等价满足高档。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:4",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "融入PT.D1.04的实际搭配，不再为科学健康口号独立评分。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "实际营养安排受到检查，不保留仅声称科学的指令响应奖励。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:5",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "融入PT.D1.06的实际易做程度，不再奖励口号。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "实际易做程度受到检查，不保留仅声称简单的奖励。"
+    },
+    {
+      "resource_id": "drb1:48:instruction_following:6",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "取聚焦所带来的阅读收益至PW.D5.01，不重复扣菜单缺失。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "无关长篇造成阅读损害能识别；不把所有背景都视作偏题，也不独立输出范围分。"
+    },
+    {
+      "resource_id": "drb1:48:readability:1",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "取全文编排至PW.D5.01，删除固定引言、结尾和日序格式。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "能区分整体编排优劣；不强制引言结尾和固定日序表现形式。"
+    },
+    {
+      "resource_id": "drb1:48:readability:2",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "取用语与步骤可理解性至PW.D6.01。",
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "可区分用语、步骤和术语导致的理解成本差异。"
+    },
+    {
+      "resource_id": "drb1:48:readability:3",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "取餐食信息检索便利至PW.D6.02，不把列表视为唯一形式。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "能区分寻找餐次及做法的操作成本，不按列表格式本身评分。"
+    },
+    {
+      "resource_id": "drb1:48:readability:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "只取已写份量口径的清楚程度至PW.D6.01，不再次评分份量存在或合理性。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "量词含义在PW.D6.01检查；具体克重不必选，定位由另一项处理但不复制此资源至其来源。"
+    },
+    {
+      "resource_id": "drb1:48:readability:5",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "只取格式对定位的实际作用至PW.D6.02，取消字号行距偏好。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "保留排版有助定位的差异，不保留字体行距美观偏好。"
+    },
+    {
+      "resource_id": "drb1:48:readability:6",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "取生活化中文表达至PW.D6.01，不基于年龄作能力推断。",
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "中文菜名、标点指代及生活化表达带来的可理解性差异仍可判断。"
+    }
+  ],
+  "author_notes": [
+    "PT检查两周菜单、个人条件边界、中式搭配和家庭可做性；PW比较配餐解释、日常安排收益与原报告阅读体验。",
+    "PT份量可用性与PW量词清晰存在邻接但不重复：前者查有没有可用参照，后者只查已写参照能否读懂。",
+    "官方insight:1可能诱导从80公斤推断肥胖或疾病，已取消；官方营养条目不是独立医学事实担保。本轮仅撰写评测草稿，不提供或核验医疗建议。",
+    "未设置固定热量、菜单多样性数量或方法数量；未访问候选报告、分数或网络。作者自检不等于独立审核，待主agent程序与独立语义审核。",
+    "v3.1：保留11条、改写2条，新增1条核验，共9PT/5PW；原子化自检已逐条记录，未进行评分或外部事实核验。官方来源仅为设计依据，作者自检不等于独立语义审核。",
+    "作者侧程序检查覆盖本批6题：原Query、版本、唯一ID、五档锚点、逐字引文、来源ID及双向映射、逐条原子化自检与D1—D6覆盖；未发现结构错误。这不等于独立语义审核，未对报告评分。",
+    "v3.3：恢复微量来源，分开份量能量与健康做法，分出营养互补推理。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "retained",
+      "reason": "日期和餐次共同定义可执行日程；两周已列但缺主要餐次明确3分，不按14天拆。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "retained",
+      "reason": "已知用户信息与未知条件是同一适用边界；只考虑年龄而未交代所依赖假设按3分，不能以菜单长弥补。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "retained",
+      "reason": "食材与文化习惯共同构成可适用性；部分中式而主要食材不适用已有3分。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "rewritten",
+      "reason": "收窄宏量搭配；2、3、4、5档均仅查主食、蛋白质和脂肪来源，主食充分但蛋白或脂肪重要缺口为3。蔬果及维生素、矿物质、纤维交07，不在此重复。"
+    },
+    {
+      "id": "PT.D1.05.salt",
+      "decision": "split",
+      "reason": "盐控制可单独落实，不能被糖或脂肪安排抵补。"
+    },
+    {
+      "id": "PT.D1.05.sugar",
+      "decision": "split",
+      "reason": "添加糖的安排具有独立完成状态，不与盐控制共用一分。"
+    },
+    {
+      "id": "PT.D1.05.fat",
+      "decision": "split",
+      "reason": "保持选择—制作这一落实对象，不与独立盐糖安排混评分。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "retained",
+      "reason": "菜式与必要步骤共同定义易做；部分餐食复杂未说明按3分，不要求每菜教程。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "retained",
+      "reason": "来源与对应主张为同一追溯关系；有文献无对应按3分。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "retained",
+      "reason": "一致性是陈述之间关系；核心一致但局部实质冲突按3分，不把数字与条件拆开。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "原稿有可追溯与内部一致但不能检出一致地错误的健康建议；新增实际支持核验，混合支持按3分。"
+    },
+    {
+      "id": "PT.D1.07.produce",
+      "decision": "split",
+      "reason": "蔬果是菜单安排对象；不把其出现等同全部微量营养保障。"
+    },
+    {
+      "id": "PT.D1.07.vitamins",
+      "decision": "split",
+      "reason": "维生素来源与其他营养来源可以独立不足；不再逐种营养素拆项。"
+    },
+    {
+      "id": "PT.D1.07.minerals",
+      "decision": "split",
+      "reason": "矿物质来源与其他营养来源可以独立不足；不再逐种营养素拆项。"
+    },
+    {
+      "id": "PT.D1.07.fibre",
+      "decision": "split",
+      "reason": "纤维来源有独立安排结果，不靠矿物质或维生素内容抵补。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "做法健康但数量全缺仍为1/2；量清楚而调整条件重要缺口为3。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "个人条件推导正确但营养互补错误现可分别比较。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "rewritten",
+      "reason": "口味与备餐共同构成日常取舍，保留但补相反收益的对称判断。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "retained",
+      "reason": "顺序与必要重复共同作用于全文阅读；局部好导航不足以覆盖全文失序。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "retained",
+      "reason": "同一理解成本对象；菜名清楚但关键量词含糊须计入总体，不能凭局部用语判明显更好。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "retained",
+      "reason": "餐次到做法是定位路径；日程易找但规则难找须综合实际往返，不另拆路径环节。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "个体边界谨慎不能弥补组合推理错误；多链相反优势同标准权衡。"
+    }
+  ],
+  "revision_origin": {
+    "path": "drb1_48.json",
+    "sha256": "3bd37f6b6340f804485fa8f3a5dd0dd474ba617fdb8bd16d14498e3c831bc906",
+    "replaced_ids": {
+      "PT.D1.05": [
+        "PT.D1.05.salt",
+        "PT.D1.05.sugar",
+        "PT.D1.05.fat"
+      ],
+      "PT.D1.07": [
+        "PT.D1.07.produce",
+        "PT.D1.07.vitamins",
+        "PT.D1.07.minerals",
+        "PT.D1.07.fibre"
+      ]
+    }
+  }
+}

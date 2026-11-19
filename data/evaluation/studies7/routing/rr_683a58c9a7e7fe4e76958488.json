@@ -1,0 +1,148 @@
+{
+  "version": "execution-routing-v1",
+  "task_key": "rr:683a58c9a7e7fe4e76958488",
+  "rubrics_sha256": "947dd78ef6f72a8a1381886fb8449fa45f6502d412cd68512741cc04ce871d0b",
+  "items": [
+    {
+      "id": "PT.D1.engram",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.pc",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.integration",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.classify",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.learning",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.bio",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.scope",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D2.trace.sources",
+      "mode": "report_only",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Observable traceability, internal consistency or wording, not source entailment."
+    },
+    {
+      "id": "PT.D2.trace.status",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D2.support",
+      "mode": "required",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Criterion explicitly concerns externally checked support."
+    },
+    {
+      "id": "PT.D2.consistency",
+      "mode": "report_only",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Observable traceability, internal consistency or wording, not source entailment."
+    },
+    {
+      "id": "PT.D1.wiring",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.dynamics",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.taskplan",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.limits",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.inference",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D3.plasticity",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D4.tasktest",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D4.biotest",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D2.fit",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D5.flow",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.clear",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.find",
+      "mode": "direct_text"
+    }
+  ],
+  "status": "conservative_static_draft_not_human_reviewed",
+  "note": "Execution routing only. Required runs after bounded acquisition but always uses best available evidence to score, never pending/N/A. Other tasks need routing review before full release."
+}

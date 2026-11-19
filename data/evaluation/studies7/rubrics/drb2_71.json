@@ -1,0 +1,1560 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:71",
+  "language": "zh",
+  "title": "相信阴谋论的心理动机",
+  "full_query": "我正在研究阴谋论的心理学，希望你能帮我完成一份文献综述，具体要求如下：\n1. 这份综述需要基于2017年及以前发表的学术研究。\n2. 首先，请总结出驱动人们相信阴谋论的几种主要的心理动机或需求类型。\n3. 然后，针对你总结出的每一种动机类型，请详细阐述以下三点：\n    a) 吸引力来源：为什么阴谋论对于有这种动机的人来说，会显得特别有吸引力？\n    b) 易感人群特征：哪些特定人群、性格特质、或处于何种情境下的人，更容易因为这种动机而去相信阴谋论？请结合具体研究发现来说明。\n    c) 实际后果：根据研究，相信阴谋论最终是否能够真正满足人们的这些动机？它会带来哪些实际的心理或行为层面的后果？\n\n请将你的回答分成几个主要部分，每个部分对应一种你总结出的心理动机。在每个部分内部，请用小标题清晰地标示出“吸引力来源”、“易感人群特征”和“实际后果”这三块内容，并确保论述都有研究依据支持。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Psychology of Conspiracy Theories', 'authors': ['Karen M. Douglas', 'Robbie M. Sutton', 'Aleksandra Cichocka'], 'urls': ['https://www.researchgate.net/publication/317401748_The_Psychology_of_Conspiracy_Theories', 'https://pubmed.ncbi.nlm.nih.gov/29276345/', 'https://www.semanticscholar.org/paper/The-Psychology-of-Conspiracy-Theories-Douglas-Sutton/4e1797aa41ad9d61c0178fb3d6c16131e661369a', 'https://journals.sagepub.com/doi/10.1177/0963721417718261', 'https://journals.sagepub.com/doi/abs/10.1177/0963721417718261', 'https://www.goodreads.com/book/show/44547044-the-psychology-of-conspiracy-theories']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "阴谋论研究对象",
+      "question": "报告是否说明本综述所指的阴谋论信念，而非把所有质疑或真实合谋混为一谈？",
+      "anchors": {
+        "1": "主体不是阴谋论信念研究。",
+        "2": "只有贬义标签或将任何不信任都当阴谋论。",
+        "3": "有概念说明，但秘密合谋解释与一般怀疑、已证实合谋的界线不清。",
+        "4": "研究对象清楚，只有少量例子边界不明。",
+        "5": "明确以隐蔽行动者合谋解释事件的信念对象及必要界线，不把不信任本身或群体身份当作定义。"
+      },
+      "boundary": "不要求逐字采用官方定义；定义不预先裁定所有怀疑都错。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:2"
+        ],
+        "query_quotes": [],
+        "change_note": "保留秘密合谋解释的对象，开放措辞并避免污名化。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "主要动机类型",
+      "question": "报告是否总结出可辨认的主要心理动机或需求类型，并说明各自寻求什么？",
+      "anchors": {
+        "1": "没有动机分类。",
+        "2": "只有性格标签或单一笼统动机。",
+        "3": "提出不同类型，但意义/确定性、控制/安全、自我/群体身份与归属中有一类主要需求完全缺失，或将相关特质直接当需求。",
+        "4": "主要需求及分类依据清楚，少量边界或重叠未说明。",
+        "5": "实质覆盖意义与确定性、控制与安全、自我/群体身份及归属需求，并解释各自目标、分类依据与重叠；可用不同名称和分组，但不能省掉其中一类需求。"
+      },
+      "boundary": "不强制认知/存在/社交三个标题，也不强制系统公正理论起源；实质需求范围不能因另选分类而缩减。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:1"
+        ],
+        "query_quotes": [
+          "几种主要的心理动机或需求类型"
+        ],
+        "change_note": "保留需求分类，不强制固定三名或系统公正理论。"
+      }
+    },
+    {
+      "id": "PT.D1.03.epistemic",
+      "dimension": "D1",
+      "title": "意义与确定性吸引力",
+      "question": "报告是否具体回答意义与确定性需求的吸引力？",
+      "anchors": {
+        "1": "未回答意义与确定性吸引力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有需求标签但缺需求—叙事吸引的具体联系，或直接据吸引力断言奏效。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "具体说明意义与确定性需求为何让阴谋叙事显得有吸引力，联系信息加工、不确定情境及寻求解释，不把感觉有用当作实际满足。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:1"
+        ],
+        "query_quotes": [
+          "吸引力来源"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.existential",
+      "dimension": "D1",
+      "title": "控制与安全吸引力",
+      "question": "报告是否具体回答控制与安全需求的吸引力？",
+      "anchors": {
+        "1": "未回答控制与安全吸引力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有需求标签但缺需求—叙事吸引的具体联系，或直接据吸引力断言奏效。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "具体说明控制与安全需求为何让阴谋叙事显得有吸引力，联系焦虑、无力及自主控制，不把感觉有用当作实际满足。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:3"
+        ],
+        "query_quotes": [
+          "吸引力来源"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.social",
+      "dimension": "D1",
+      "title": "身份与归属吸引力",
+      "question": "报告是否具体回答身份与归属需求的吸引力？",
+      "anchors": {
+        "1": "未回答身份与归属吸引力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有需求标签但缺需求—叙事吸引的具体联系，或直接据吸引力断言奏效。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "具体说明身份与归属需求为何让阴谋叙事显得有吸引力，联系排斥、群体地位及自我或群体形象，不把感觉有用当作实际满足。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:5"
+        ],
+        "query_quotes": [
+          "吸引力来源"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.04.epistemic",
+      "dimension": "D1",
+      "title": "意义与确定性易感研究",
+      "question": "报告是否具体回答意义与确定性需求的易感研究？",
+      "anchors": {
+        "1": "未回答意义与确定性易感研究。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有研究但信息加工、不确定情境及寻求解释的重要方面没有处理，或看不清研究与所称易感性的关系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将意义与确定性相关的信息加工、不确定情境及寻求解释与可辨认研究结果相连，说明样本、测量或情境，不将相关性当个体诊断。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:8",
+          "drb2:71:info_recall:9",
+          "drb2:71:info_recall:10",
+          "drb2:71:info_recall:11",
+          "drb2:71:info_recall:12",
+          "drb2:71:info_recall:13",
+          "drb2:71:info_recall:14",
+          "drb2:71:info_recall:15",
+          "drb2:71:info_recall:16"
+        ],
+        "query_quotes": [
+          "请结合具体研究发现来说明。"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.04.existential",
+      "dimension": "D1",
+      "title": "控制与安全易感研究",
+      "question": "报告是否具体回答控制与安全需求的易感研究？",
+      "anchors": {
+        "1": "未回答控制与安全易感研究。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有研究但焦虑、无力及自主控制的重要方面没有处理，或看不清研究与所称易感性的关系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将控制与安全相关的焦虑、无力及自主控制与可辨认研究结果相连，说明样本、测量或情境，不将相关性当个体诊断。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:19",
+          "drb2:71:info_recall:20",
+          "drb2:71:info_recall:21",
+          "drb2:71:info_recall:22",
+          "drb2:71:info_recall:23"
+        ],
+        "query_quotes": [
+          "请结合具体研究发现来说明。"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.04.social",
+      "dimension": "D1",
+      "title": "身份与归属易感研究",
+      "question": "报告是否具体回答身份与归属需求的易感研究？",
+      "anchors": {
+        "1": "未回答身份与归属易感研究。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有研究但排斥、群体地位及自我或群体形象的重要方面没有处理，或看不清研究与所称易感性的关系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将身份与归属相关的排斥、群体地位及自我或群体形象与可辨认研究结果相连，说明样本、测量或情境，不将相关性当个体诊断。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:26",
+          "drb2:71:info_recall:27",
+          "drb2:71:info_recall:28",
+          "drb2:71:info_recall:29",
+          "drb2:71:info_recall:30",
+          "drb2:71:info_recall:31",
+          "drb2:71:info_recall:32",
+          "drb2:71:info_recall:33",
+          "drb2:71:info_recall:37"
+        ],
+        "query_quotes": [
+          "请结合具体研究发现来说明。"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.05.epistemic",
+      "dimension": "D1",
+      "title": "意义与确定性实际后果",
+      "question": "报告是否具体回答意义与确定性需求的实际后果？",
+      "anchors": {
+        "1": "未回答意义与确定性实际后果。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有后果描述但未回答需求是否满足，或关键后果领域缺失、把意向当行为。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "针对意义与确定性说明具体心理或行为后果及能否满足需求，区分接触与相信、感受与行为；结论及具体证据不足均须有研究范围依据。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:6",
+          "drb2:71:info_recall:7",
+          "drb2:71:info_recall:17",
+          "drb2:71:info_recall:18",
+          "drb2:71:analysis:2"
+        ],
+        "query_quotes": [
+          "最终是否能够真正满足人们的这些动机"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.existential",
+      "dimension": "D1",
+      "title": "控制与安全实际后果",
+      "question": "报告是否具体回答控制与安全需求的实际后果？",
+      "anchors": {
+        "1": "未回答控制与安全实际后果。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有后果描述但未回答需求是否满足，或关键后果领域缺失、把意向当行为。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "针对控制与安全说明具体心理或行为后果及能否满足需求，区分接触与相信、感受与行为；结论及具体证据不足均须有研究范围依据。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:6",
+          "drb2:71:info_recall:7",
+          "drb2:71:info_recall:24",
+          "drb2:71:info_recall:25",
+          "drb2:71:analysis:4"
+        ],
+        "query_quotes": [
+          "最终是否能够真正满足人们的这些动机"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.social",
+      "dimension": "D1",
+      "title": "身份与归属实际后果",
+      "question": "报告是否具体回答身份与归属需求的实际后果？",
+      "anchors": {
+        "1": "未回答身份与归属实际后果。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有后果描述但未回答需求是否满足，或关键后果领域缺失、把意向当行为。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "针对身份与归属说明具体心理或行为后果及能否满足需求，区分接触与相信、感受与行为；结论及具体证据不足均须有研究范围依据。"
+      },
+      "boundary": "允许其他有依据的分类与合并章节，但必须能辨认本实质领域。其他动机不得补偿本项；只查本项回答，PW比较推理的成立性及任务价值，不按出现次数奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:6",
+          "drb2:71:info_recall:7",
+          "drb2:71:info_recall:34",
+          "drb2:71:info_recall:35",
+          "drb2:71:info_recall:36",
+          "drb2:71:analysis:6"
+        ],
+        "query_quotes": [
+          "最终是否能够真正满足人们的这些动机"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "按动机分部及三小标题",
+      "question": "报告是否按所总结动机分部，并在各部标示吸引力来源、易感人群特征、实际后果？",
+      "anchors": {
+        "1": "没有可辨的按动机组织。",
+        "2": "有零散标题但多数动机或三块结构无法辨认。",
+        "3": "主要动机分部存在，但部分缺小标题或三块内容混在一起。",
+        "4": "各部三块可辨，只有轻微标题或归属问题。",
+        "5": "每个动机部分均以题面三个小标题或清楚的等义标题标示相应内容。"
+      },
+      "boundary": "不要求恰好三种动机；本项查题面结构，整体论证推进由D5比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:presentation:1",
+          "drb2:71:presentation:2"
+        ],
+        "query_quotes": [],
+        "change_note": "保留逐动机三块结构，取消固定三个动机大标题。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "2017年及以前研究",
+      "question": "报告是否以2017年及以前发表的学术研究为依据？",
+      "anchors": {
+        "1": "主要依据是2018年以后研究或非学术评论。",
+        "2": "多个核心论点依赖截止后研究。",
+        "3": "主体符合截止，但有局部实质性后期研究混入。",
+        "4": "主要研究均符合，少量线上发表/正式刊期不清。",
+        "5": "使用的学术研究均可辨为2017年及以前发表；版本和日期疑点已说明，不以新研究替代当时证据。"
+      },
+      "boundary": "线上首次发表与刊期不同须澄清，不机械根据数据库更新日期扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:presentation:4"
+        ],
+        "query_quotes": [
+          "2017年及以前发表的学术研究"
+        ],
+        "change_note": "保留题面文献发表截止。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "最终报告禁源",
+      "question": "报告是否避免在最终文本引用或实质取用被禁止的The Psychology of Conspiracy Theories？",
+      "anchors": {
+        "1": "禁源支撑核心论点。",
+        "2": "禁源支撑多个实质次要论点。",
+        "3": "禁源支撑一个局部实质论点。",
+        "4": "只列入文献清单而未确认正文使用。",
+        "5": "完整最终报告未发现可观察使用，排除声明不算引用。"
+      },
+      "boundary": "不推断访问历史；使用相同三分法不构成禁源取用证据，其他相同作者的允许研究不自动受禁。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "The Psychology of Conspiracy Theories"
+        ],
+        "change_note": "从题面新增可观察禁源边界。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "关键主张可追溯",
+      "question": "报告的动机、易感特征和后果论断是否能定位到具体研究或可检查的推导？",
+      "anchors": {
+        "1": "关键主张没有可辨认的出处或推导。",
+        "2": "只笼统提到研究、资料或数据，无法定位。",
+        "3": "有相关来源，但重要主张与具体材料的对应不清。",
+        "4": "主要主张可定位，只有次要出处范围不清。",
+        "5": "关键主张分别对应可定位材料或可检查推导，作者假设明确标出。"
+      },
+      "boundary": "只评可定位性；无URL不直接扣分。来源是否支持另由PT.D2.02核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "沿用三题出处审计分工，按本题重要主张设定对象；锚点本地明确。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内的支持程度",
+      "question": "在已完成核验范围内，研究是否支持报告声称的样本、操纵/测量、因果强度和心理或行为结果？",
+      "anchors": {
+        "1": "已核验核心主张被材料否定或所称依据不成立，破坏主要回答。",
+        "2": "多个重要已核验主张存在实质支持错误。",
+        "3": "支持情况混合，仍有影响使用的范围或归属错误。",
+        "4": "重要已核验主张基本获支持，仅有次要夸大或归属问题。",
+        "5": "所有已完成判断均符合所得证据的对象、范围和强度；不是全文正确性保证。"
+      },
+      "boundary": "发布选中与完成核验的主张、范围和数量；访问失败是执行问题，重试并记录，不转质量低分、不使用NA。没有完成核验就不能给出本项质量结论。本轮不执行外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用有限样本核验分工；只判断取得的证据，不将官方条目当外部事实保证。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "内部口径一致",
+      "question": "报告前后对需求类型、研究条件、接触/相信以及意向/行为的区分是否一致？",
+      "anchors": {
+        "1": "多个核心陈述互相冲突，无法确定主要回答。",
+        "2": "关键对象、数值或条件出现未解释冲突，明显影响使用。",
+        "3": "有局部实质矛盾，但主要回答仍可辨。",
+        "4": "核心陈述一致，仅有容易澄清的次要歧义。",
+        "5": "所查正文、表格和结论相容；不同条件造成的差异得到解释。"
+      },
+      "boundary": "只查内部兼容，不把不同条件下的差异判成矛盾；不重复外核真假。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增本题口径一致性审计，与外部核验分开。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "叙事特征与既有信念维护",
+      "question": "报告是否说明阴谋叙事如何通过推测性连接、复杂解释和抵御反驳维持既有信念？",
+      "anchors": {
+        "1": "未说明相关叙事特点。",
+        "2": "只列复杂或不可证伪等标签。",
+        "3": "解释了部分叙事特点，但推测性连接、复杂解释或反面证据吸收的重要一面缺失，或未说明其如何维护既有信念；把所有阴谋叙事视为同样不可证伪也为3。",
+        "4": "主要叙事特点与信念维护的联系清楚，局部适用条件欠充分。",
+        "5": "具体说明推测性连接、复杂解释及将反面证据纳入阴谋的做法如何保护既有信念，交代适用条件，不把这类机制当所有质疑的定义。"
+      },
+      "boundary": "不强制Lewandowsky论文或某类科学争议；这是认知吸引的具体内容，PW比较该联系的解释是否成立。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:4",
+          "drb2:71:info_recall:5"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复原来只挂可选PW的信念维护内容；特点列全但未说明反证处理为3，机制与其特征保持相连。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "后果研究的适用范围",
+      "question": "报告是否结合具体研究，说明关于阴谋论实际后果的结论适用于哪些人群或情境，以及不能直接推广到哪里？",
+      "anchors": {
+        "1": "未说明适用范围，或将有限研究结果错误推广为普遍结论。",
+        "2": "只说“样本有限”或“需要更多研究”，没有指出具体限制。",
+        "3": "指出具体样本或情境限制，但未说明它影响哪项后果结论。",
+        "4": "说明具体限制及其影响的结论，但该结论可以推广到什么范围仍不清楚。",
+        "5": "将研究对象、情境与后果结论对应，清楚说明现有结论的适用范围及不能直接外推的部分。"
+      },
+      "boundary": "边缘化群体、替代叙事和集体行动仅为可选实例，不要求同时讨论，不预设特定群体必然受益。不要求提出未经研究支持的新假说；可明确说明现有证据尚不能确定的适用范围，不得凭空指定推广边界。限制须对应具体研究及后果结论，通用免责声明不够。本项检查适用范围是否具体、清楚；PW.D4.02比较范围分析对理解重要结论的相对价值，不因满足本项而自动判优。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:38",
+          "drb2:71:info_recall:39",
+          "drb2:71:info_recall:40",
+          "drb2:71:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "第22题最小修订：取消一般样本外推、边缘化身份/权力、替代叙事和集体行动的固定组合要求，改查具体后果结论的人群与情境适用范围。官方特定实例仅保留为来源沿革，不再保证检出其遗漏。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "意义与确定性的吸引解释",
+      "question": "哪篇更可靠地解释寻求意义与确定性为何增加阴谋叙事的吸引力？",
+      "anchors": {
+        "0": "双方对意义/确定性需求到叙事吸引的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对意义/确定性需求到叙事吸引的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对意义/确定性需求到叙事吸引的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对意义/确定性需求到叙事吸引的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对意义/确定性需求到叙事吸引的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较意义/确定性需求到叙事吸引，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:4",
+          "drb2:71:info_recall:5",
+          "drb2:71:analysis:1"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "确定性后果的推断",
+      "question": "哪篇更可靠地判断阴谋论是否真正降低不确定感？",
+      "anchors": {
+        "0": "双方对研究证据到确定性满足或不确定感变化的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对研究证据到确定性满足或不确定感变化的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对研究证据到确定性满足或不确定感变化的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对研究证据到确定性满足或不确定感变化的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对研究证据到确定性满足或不确定感变化的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较研究证据到确定性满足或不确定感变化，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。 明确区分接触与相信、相关与因果、短期反应与长期后果；若称循环恶化，须有动态证据，不从单次实验自动推出。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "吸引与满足的综合认识",
+      "question": "哪篇更帮助理解阴谋论为何可能被需求推动，却未必解决这些需求？",
+      "anchors": {
+        "0": "两篇综合认识相近，或都未超出逐篇研究摘要；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A对吸引和满足之间的重要差异给出略更有用的认识；B仍可在局部更好。",
+        "2": "A对不同需求下承诺与实际结果的关系形成明显更有用的综合认识；B的局部优点不足以弥补这一差距。",
+        "-2": "B对不同需求下承诺与实际结果的关系形成明显更有用的综合认识；A的局部优点不足以弥补这一差距。",
+        "-1": "B对吸引和满足之间的重要差异给出略更有用的认识；A仍可在局部更好。"
+      },
+      "boundary": "不要求自我挫败作为唯一结论；能揭示哪些需求、结果或时间尺度不同也有价值。须说明比D3推断成立多带来何种认识。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:7",
+          "drb2:71:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "保留吸引/满足的跨研究综合，取消固定口号。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "人群与情境的外推边界",
+      "question": "哪篇更帮助判断关于阴谋论心理后果的认识适用于哪些人、哪些情境？",
+      "anchors": {
+        "0": "双方情境化认识相近，或均无可用边界判断；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A对重要人群边界或不同情境的意义略有帮助；B仍可在局部更好。",
+        "2": "A明显更帮助辨认一般样本与边缘化处境等差异如何限制结论外推；B的局部优点不足以弥补这一差距。",
+        "-2": "B明显更帮助辨认一般样本与边缘化处境等差异如何限制结论外推；A的局部优点不足以弥补这一差距。",
+        "-1": "B对重要人群边界或不同情境的意义略有帮助；A仍可在局部更好。"
+      },
+      "boundary": "可讨论归属、抗议和集体行动的条件性价值，但不强制把边缘化群体一律视为受益者。认识证据未知也有价值，不要求替未来研究给答案。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:info_recall:38",
+          "drb2:71:info_recall:39",
+          "drb2:71:info_recall:40",
+          "drb2:71:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "保留样本边界与潜在适应价值，不固定有益结论或研究引用。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "心理学证据适配",
+      "question": "哪篇的研究组合更适合支持各自的动机和后果概括？",
+      "anchors": {
+        "0": "两篇证据组合的适配帮助相近，或双方均无适用支持；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在重要结论的样本、设计或测量适配上略好；B仍可在局部更好。",
+        "2": "A对核心心理概括使用了明显更适配且互补的研究材料；B的局部优点不足以弥补这一差距。",
+        "-2": "B对核心心理概括使用了明显更适配且互补的研究材料；A的局部优点不足以弥补这一差距。",
+        "-1": "B在重要结论的样本、设计或测量适配上略好；A仍可在局部更好。"
+      },
+      "boundary": "不按研究数或作者声誉比较；前因研究不能自动填补后果证据，实验不在任何情境下都优于质性研究。单项错引不再次逐错罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增证据集合适配，与已核验真假和推断环节区分。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "全文组织与推进",
+      "question": "哪篇原综述更有效地组织各类动机与研究，使读者理解彼此关系而不在重复介绍中迷失？",
+      "anchors": {
+        "0": "两篇对整体理解的组织帮助相近，或都未形成可用阅读路径；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在整体阅读顺序和承接上略有帮助；B仍可在局部更好。",
+        "2": "A的组织明显更能连起本题的材料与结论；B的局部优点不足以弥补这一差距。",
+        "-2": "B的组织明显更能连起本题的材料与结论；A的局部优点不足以弥补这一差距。",
+        "-1": "B在整体阅读顺序和承接上略有帮助；A仍可在局部更好。"
+      },
+      "boundary": "阅读原报告，顺序、承接、摘要和不必要重复合并评一次；不默认更短或固定章节顺序更好。句子和查找效率另评。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用三题全文组织比较，仅适配本题阅读目标，不增加格式义务。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "已写内容的清晰表达",
+      "question": "哪篇更清楚地表达心理需求、易感特征、接触、相信和实际后果的含义？",
+      "anchors": {
+        "0": "双方已写意思的可理解性相近，或都没有可理解的相关说明；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在关键术语、指代或局部说明上略清楚；B仍可在局部更好。",
+        "2": "A使关键概念和陈述明显更易理解；B的局部优点不足以弥补这一差距。",
+        "-2": "B使关键概念和陈述明显更易理解；A的局部优点不足以弥补这一差距。",
+        "-1": "B在关键术语、指代或局部说明上略清楚；A仍可在局部更好。"
+      },
+      "boundary": "只评原文措辞、术语和局部表格标签，不重复事实、内容覆盖、全篇重复或组织评分；自然语言不必故作学术。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用清晰表达比较；不把学术文风或术语数量当优势。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "信息与依据查找",
+      "question": "哪篇更容易查到某类动机的吸引解释、易感研究、后果证据及出处？",
+      "anchors": {
+        "0": "双方查找成本相近，或都没有可用查找帮助；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在重要信息及其出处的查找上略省力；B仍可在局部更好。",
+        "2": "A使本题关键细节和出处的定位明显更直接；B的局部优点不足以弥补这一差距。",
+        "-2": "B使本题关键细节和出处的定位明显更直接；A的局部优点不足以弥补这一差距。",
+        "-1": "B在重要信息及其出处的查找上略省力；A仍可在局部更好。"
+      },
+      "boundary": "比较在原报告中查找特定内容的实际操作；不按图表、URL数量排名，不以内部切段判断原排版，不重复来源真实性。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用信息定位分工，限定到本题实际查找对象。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "控制与安全的吸引解释",
+      "question": "哪篇更可靠地解释控制或安全需求为何使阴谋叙事显得有吸引力？",
+      "anchors": {
+        "0": "双方对控制/安全需求到可知威胁或补偿控制感的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对控制/安全需求到可知威胁或补偿控制感的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对控制/安全需求到可知威胁或补偿控制感的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对控制/安全需求到可知威胁或补偿控制感的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对控制/安全需求到可知威胁或补偿控制感的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较控制/安全需求到可知威胁或补偿控制感，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    },
+    {
+      "id": "PW.D3.04",
+      "dimension": "D3",
+      "title": "自我与群体形象的吸引解释",
+      "question": "哪篇更可靠地解释身份和归属需求为何使阴谋叙事显得有吸引力？",
+      "anchors": {
+        "0": "双方对自我/群体需求到外部归责和形象保护的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对自我/群体需求到外部归责和形象保护的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对自我/群体需求到外部归责和形象保护的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对自我/群体需求到外部归责和形象保护的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对自我/群体需求到外部归责和形象保护的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较自我/群体需求到外部归责和形象保护，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    },
+    {
+      "id": "PW.D3.05",
+      "dimension": "D3",
+      "title": "控制与参与后果的推断",
+      "question": "哪篇更可靠地判断阴谋论对自主控制及相关参与行为的后果？",
+      "anchors": {
+        "0": "双方对研究证据到控制感和参与后果的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对研究证据到控制感和参与后果的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对研究证据到控制感和参与后果的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对研究证据到控制感和参与后果的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对研究证据到控制感和参与后果的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较研究证据到控制感和参与后果，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。 明确区分接触与相信、相关与因果、短期反应与长期后果；若称循环恶化，须有动态证据，不从单次实验自动推出。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    },
+    {
+      "id": "PW.D3.06",
+      "dimension": "D3",
+      "title": "信任与归属后果的推断",
+      "question": "哪篇更可靠地判断阴谋论对社会信任、疏离与归属的后果？",
+      "anchors": {
+        "0": "双方对研究证据到信任和归属后果的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+        "1": "总体上A对研究证据到信任和归属后果的一处重要联系解释略好；B仍可局部更好。",
+        "2": "A对研究证据到信任和归属后果的主要推理明显更可靠；B的局部优点不足以弥补。",
+        "-2": "B对研究证据到信任和归属后果的主要推理明显更可靠；A的局部优点不足以弥补。",
+        "-1": "总体上B对研究证据到信任和归属后果的一处重要联系解释略好；A仍可局部更好。"
+      },
+      "boundary": "仅比较研究证据到信任和归属后果，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。 明确区分接触与相信、相关与因果、短期反应与长期后果；若称循环恶化，须有动态证据，不从单次实验自动推出。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:71:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:71:info_recall:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02直接要求意义/确定性、控制/安全、自我/群体身份归属三类实质需求；整类缺失为3。不同名称、拆并组织允许，原三标题不强制。",
+      "discrimination_check": "PT.D1.02直接要求意义/确定性、控制/安全、自我/群体身份归属三类实质需求；整类缺失为3。不同名称、拆并组织允许，原三标题不强制。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留秘密合谋解释对象。",
+      "discrimination_check": "原项：对阴谋论给出定义：将重要事件解释为由强大而恶意的团体进行的秘密策划。 PT.D1.01识别一般不信任与阴谋信念混同，允许等义定义。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "不把系统公正理论或Jost等2008年出处设为唯一理论来源。",
+      "discrimination_check": "原项：指出该分类法（认知、存在、社交）源于系统公正理论（system-justification theory, Jost, Ledgerwood, & Hardin, 2008）。 丢失分类法指定起源的精确命中能力；该源归属亦未经独立事实核验。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:4",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.09恢复叙事特点及反面证据吸收如何维护信念的具体入口，PW.D3.01仅比较其确定性吸引解释。列特点而无维护机制为3；指定论文不强制，亦不把特征绝对化。",
+      "discrimination_check": "PT.D1.09恢复叙事特点及反面证据吸收如何维护信念的具体入口，PW.D3.01仅比较其确定性吸引解释。列特点而无维护机制为3；指定论文不强制，亦不把特征绝对化。 交叉审：推测性、复杂解释、反证吸收任一重要面缺失明确3。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:5",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.09恢复叙事特点及反面证据吸收如何维护信念的具体入口，PW.D3.01仅比较其确定性吸引解释。列特点而无维护机制为3；指定论文不强制，亦不把特征绝对化。",
+      "discrimination_check": "PT.D1.09恢复叙事特点及反面证据吸收如何维护信念的具体入口，PW.D3.01仅比较其确定性吸引解释。列特点而无维护机制为3；指定论文不强制，亦不把特征绝对化。 交叉审：推测性、复杂解释、反证吸收任一重要面缺失明确3。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:6",
+      "targets": [
+        "PT.D1.05.epistemic",
+        "PT.D1.05.existential",
+        "PT.D1.05.social"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.epistemic, PT.D1.05.existential, PT.D1.05.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留后果证据限度和吸引/满足界线。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:7",
+      "targets": [
+        "PT.D1.05.epistemic",
+        "PT.D1.05.existential",
+        "PT.D1.05.social"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.epistemic, PT.D1.05.existential, PT.D1.05.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留后果证据限度和吸引/满足界线。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:8",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:9",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:10",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:11",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:12",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:13",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:14",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:15",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:16",
+      "targets": [
+        "PT.D1.04.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:17",
+      "targets": [
+        "PT.D1.05.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:18",
+      "targets": [
+        "PT.D1.05.epistemic"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.epistemic。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:19",
+      "targets": [
+        "PT.D1.04.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:20",
+      "targets": [
+        "PT.D1.04.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:21",
+      "targets": [
+        "PT.D1.04.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:22",
+      "targets": [
+        "PT.D1.04.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:23",
+      "targets": [
+        "PT.D1.04.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:24",
+      "targets": [
+        "PT.D1.05.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:25",
+      "targets": [
+        "PT.D1.05.existential"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.existential。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:26",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:27",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:28",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:29",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:30",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:31",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:32",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:33",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:34",
+      "targets": [
+        "PT.D1.05.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:35",
+      "targets": [
+        "PT.D1.05.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:36",
+      "targets": [
+        "PT.D1.05.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留研究后果及满足判断，不指定每个负面效果。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:37",
+      "targets": [
+        "PT.D1.04.social"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.04.social。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为易感研究维度的具体来源，保留研究—特征对应而非逐篇必引。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:38",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "第22题最小修订：取消一般样本外推、边缘化身份/权力、替代叙事和集体行动的固定组合要求，改查具体后果结论的人群与情境适用范围。官方特定实例仅保留为来源沿革，不再保证检出其遗漏。",
+      "discrimination_check": "PT.D1.10检查具体限制、受影响的后果结论及适用范围；PW.D4.02比较这类分析的相对价值。缺少边缘化群体、替代叙事或集体行动实例不再单独扣分，因此不保证保留官方特定内容的遗漏检测。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:39",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "第22题最小修订：取消一般样本外推、边缘化身份/权力、替代叙事和集体行动的固定组合要求，改查具体后果结论的人群与情境适用范围。官方特定实例仅保留为来源沿革，不再保证检出其遗漏。",
+      "discrimination_check": "PT.D1.10检查具体限制、受影响的后果结论及适用范围；PW.D4.02比较这类分析的相对价值。缺少边缘化群体、替代叙事或集体行动实例不再单独扣分，因此不保证保留官方特定内容的遗漏检测。"
+    },
+    {
+      "resource_id": "drb2:71:info_recall:40",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "第22题最小修订：取消一般样本外推、边缘化身份/权力、替代叙事和集体行动的固定组合要求，改查具体后果结论的人群与情境适用范围。官方特定实例仅保留为来源沿革，不再保证检出其遗漏。",
+      "discrimination_check": "PT.D1.10检查具体限制、受影响的后果结论及适用范围；PW.D4.02比较这类分析的相对价值。缺少边缘化群体、替代叙事或集体行动实例不再单独扣分，因此不保证保留官方特定内容的遗漏检测。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:1",
+      "targets": [
+        "PT.D1.03.epistemic",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.epistemic, PW.D3.01。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.03直接检查意义和确定性的吸引联系；PW.D3.01单独比较该机制，不再由其他动机优势抵销。保留实质解释对象，但不强制每条官方措辞或单一机制结论。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:2",
+      "targets": [
+        "PT.D1.05.epistemic",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.epistemic, PW.D3.02。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.05直接检查不确定感后果与需求满足，PW.D3.02独立比较证据到该后果的推断。原必然自我挫败/循环结论不强制，跨动机的推理优点不再抵销本项错误。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:3",
+      "targets": [
+        "PT.D1.03.existential",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.existential, PW.D3.03。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.03直接检查控制安全的吸引联系；PW.D3.03单独比较该机制，不再由其他动机优势抵销。保留实质解释对象，但不强制每条官方措辞或单一机制结论。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:4",
+      "targets": [
+        "PT.D1.05.existential",
+        "PW.D3.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.existential, PW.D3.05。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.05直接检查自主控制与参与后果与需求满足，PW.D3.05独立比较证据到该后果的推断。原必然自我挫败/循环结论不强制，跨动机的推理优点不再抵销本项错误。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:5",
+      "targets": [
+        "PT.D1.03.social",
+        "PW.D3.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.social, PW.D3.04。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.03直接检查身份归属的吸引联系；PW.D3.04单独比较该机制，不再由其他动机优势抵销。保留实质解释对象，但不强制每条官方措辞或单一机制结论。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:6",
+      "targets": [
+        "PT.D1.05.social",
+        "PW.D3.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.social, PW.D3.06。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "PT.D1.05直接检查信任疏离与归属后果与需求满足，PW.D3.06独立比较证据到该后果的推断。原必然自我挫败/循环结论不强制，跨动机的推理优点不再抵销本项错误。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:7",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留跨研究吸引/满足综合，不设唯一核心论点。",
+      "discrimination_check": "原项：能够总结出核心论点：阴谋论信念是一种“讽刺性的”或“自我挫败的动机性社会认知”（ironic or self-defeating manifestation of motivated social cognition）。 PW.D4.01能辨别摘要与综合；不要求讽刺性、自我挫败或往往阻碍作为固定结论。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:8",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "第22题最小修订：取消一般样本外推、边缘化身份/权力、替代叙事和集体行动的固定组合要求，改查具体后果结论的人群与情境适用范围。官方特定实例仅保留为来源沿革，不再保证检出其遗漏。",
+      "discrimination_check": "PT.D1.10检查具体限制、受影响的后果结论及适用范围；PW.D4.02比较这类分析的相对价值。缺少边缘化群体、替代叙事或集体行动实例不再单独扣分，因此不保证保留官方特定内容的遗漏检测。"
+    },
+    {
+      "resource_id": "drb2:71:analysis:9",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留跨研究吸引/满足综合，不设唯一核心论点。",
+      "discrimination_check": "原项：能够综合得出结论：尽管阴谋论的“吸引力”源于其满足关键心理动机的“承诺”，但现有证据表明它在“实际后果”上往往会进一步阻碍这些动机的满足。 PW.D4.01能辨别摘要与综合；不要求讽刺性、自我挫败或往往阻碍作为固定结论。"
+    },
+    {
+      "resource_id": "drb2:71:presentation:1",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "按所选动机分部，不强制三个指定类型。",
+      "discrimination_check": "原项：回答清晰地分为三个主要部分，分别对应认知动机、存在动机和社交动机。 PT.D1.06保留分部检查，丢失固定三大标题命中。"
+    },
+    {
+      "resource_id": "drb2:71:presentation:2",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留每动机三块小标题。",
+      "discrimination_check": "原项：在每个动机类型下，内容被清晰地划分为“吸引力来源”、“易感人群特征”和“实际后果”三个小节。 PT.D1.06对局部缺三块结构设明确3分，不用别部补足。"
+    },
+    {
+      "resource_id": "drb2:71:presentation:3",
+      "targets": [
+        "PT.D2.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "将研究依据对应抽出用于D2追溯，表达/组织另评。",
+      "discrimination_check": "原项：全文语言流畅，逻辑清晰，符合学术综述的文体要求，并且所有论点均有研究发现作为支撑。 PT.D2.01识别论点无研究链路；原项合并的文体、逻辑和所有论点均支持不宣称全部保留。"
+    },
+    {
+      "resource_id": "drb2:71:presentation:4",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留2017年文献截止。",
+      "discrimination_check": "原项：内容严格遵守了“截至2017年及以前”的时间限制，没有包含此后发表的研究成果。 PT.D1.07直接识别截止后成果混入。"
+    }
+  ],
+  "author_notes": [
+    "不锁定三分法；每类的吸引、易感和后果作为不同必要要求，后果与是否满足保持同一关系判断。",
+    "指定理论起源不保留；具体研究保留设计线索而非必引清单，逐条注明精确作者/结果命中损失。",
+    "高风险：接触不等于相信，意向不等于行为，相关不等于因果，短期反差不自动证明循环。",
+    "仅作者自检与本地官方资源对照，无外核、无评分、无候选报告；不自称独立审核通过。",
+    "v3.3 作者修复：PT.D1.02–05明确三类实质需求范围；补叙事信念维护PT.D1.09与边缘化外推PT.D1.10。两个跨动机D3项拆成六个机制/后果判断，其余组织、证据与综合项保留。",
+    "这是作者自检，不是独立审核。待审风险：仍不强制系统公正理论起源、官方逐篇作者名单和统一自我挫败结论；这些精确差异在逐条处置保留披露。认知特质、控制情境、身份地位例子不应成为个体诊断；未外核研究结论。需复审PT.D1.04研究覆盖是否足以识别主要领域，及新增D3与D4不重复奖励。",
+    "本轮仅检查batch5的7题；原Query、逐分锚点、唯一ID、来源及反向映射、逐项原子化记录的程序检查未见错误。所有官方处置均有记录不等于全部精确要求保留。",
+    "review14_27_minimal_v1 第22题：仅修订PT.D1.10及对应来源、原子化说明。旧版关于特定情境须全部讨论的说明仅为历史记录，以当前条目为准；未重新评测。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "新增",
+      "reason": "新增：定义与边界是一个概念判断；定义有而实例范围混同为3。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "固定名称不是义务，三类实质需求却不能任选；只写认知与控制不写身份归属明确3。"
+    },
+    {
+      "id": "PT.D1.03.epistemic",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.existential",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.social",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04.epistemic",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04.existential",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04.social",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.04拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.epistemic",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.existential",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.social",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "新增",
+      "reason": "新增：组合格式已有明确缺失档位，任何一部缺一块为3，不拆各标题。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "新增",
+      "reason": "新增：单一发表期约束，主要/局部混入分档。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "新增",
+      "reason": "新增：针对特定作品的使用，不把作者全部著作或分类法连带排除。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "新增",
+      "reason": "出处与主张的对应是一项关系；有书目却无法对应重要主张为3，不拆出处数量与对应关系。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "新增",
+      "reason": "支持与范围共同定义一次核验；混合支持明确为3，核心反证为1，访问失败不属于五档质量。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "新增",
+      "reason": "同一对象在不同位置的兼容性是关系判断；局部好、局部冲突明确落3或4，无需逐句拆分。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "恢复原来只挂可选PW的信念维护内容；特点列全但未说明反证处理为3，机制与其特征保持相连。 交叉审：任一已承诺叙事特点的重要缺失明确3，不仅检查是否解释反证吸收。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "revise",
+      "reason": "围绕具体研究到后果结论的外推边界评分，不再捆绑边缘化身份/权力、替代叙事和集体行动。指出限制、关联结论、明确适用范围是同一判断的递进层次。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "split",
+      "reason": "意义/确定性需求到叙事吸引可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "split",
+      "reason": "研究证据到确定性满足或不确定感变化可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "新增",
+      "reason": "新增：承诺与实际结果是同一对照；不能用一个新标签替代综合。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "新增",
+      "reason": "新增：人群差异与可外推结论是一关系；泛称样本局限而不说明结论影响不算强贡献。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "新增",
+      "reason": "新增：证据组合与概括范围是一项；数量不能抵偿关键设计不适配。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "新增",
+      "reason": "组织要素共同服务一条阅读路径；局部摘要好但主体跳跃，按总体略好/明显差判断，不分别奖励。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "新增",
+      "reason": "术语与句子都是已写意思的可理解性；允许局部反向优势，由五档整体比较处理。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "新增",
+      "reason": "信息与所称依据构成一次查找任务；正文易找但出处绕行可为略差，不再拆来源有效性。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "split",
+      "reason": "控制/安全需求到可知威胁或补偿控制感可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    },
+    {
+      "id": "PW.D3.04",
+      "decision": "split",
+      "reason": "自我/群体需求到外部归责和形象保护可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    },
+    {
+      "id": "PW.D3.05",
+      "decision": "split",
+      "reason": "研究证据到控制感和参与后果可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    },
+    {
+      "id": "PW.D3.06",
+      "decision": "split",
+      "reason": "研究证据到信任和归属后果可独立于其他动机好坏；只在本需求内部判断关键链条及等量反向优势为0。"
+    }
+  ]
+}

@@ -1,0 +1,1839 @@
+{
+  "title": "Hybrid Evaluation for Deep Research Reports",
+  "subtitle": "Capturing Substantive Quality Differences",
+  "release": "Local draft · 2026-10-20",
+  "stats": {
+    "queries": 40,
+    "systems": 9,
+    "reports": 360,
+    "criteria": 1099,
+    "pt": 776,
+    "pw": 323,
+    "human_pairs": 80
+  },
+  "weights": {
+    "D1": 30,
+    "D2": 30,
+    "D3": 10,
+    "D4": 10,
+    "D5_D6": 20
+  },
+  "score_scale": [
+    0,
+    100
+  ],
+  "leaderboard": [
+    {
+      "rank": 1,
+      "model": "GPT-6",
+      "harness": "ChatGPT Deep Research",
+      "D1": 93.07405773352464,
+      "D2": 86.087726202319,
+      "D3": 74.82971292295643,
+      "D4": 73.74148962930512,
+      "D5_D6": 72.34909691824973,
+      "overall": 83.07547481962924
+    },
+    {
+      "rank": 2,
+      "model": "LongCat",
+      "harness": "LongCat-DeepResearch",
+      "D1": 93.59111061045078,
+      "D2": 83.59804930788616,
+      "D3": 82.63726674170437,
+      "D4": 78.78616340642968,
+      "D5_D6": 66.612559276286,
+      "overall": 82.62160284557167
+    },
+    {
+      "rank": 3,
+      "model": "Kimi K3",
+      "harness": "Kimi Researcher",
+      "D1": 90.87785596165529,
+      "D2": 76.55302161975376,
+      "D3": 70.19424636661502,
+      "D4": 67.04107067059918,
+      "D5_D6": 74.52350585756942,
+      "overall": 78.85749614965802
+    },
+    {
+      "rank": 4,
+      "model": "Claude Opus 5",
+      "harness": "Claude Research",
+      "D1": 86.74396101726789,
+      "D2": 69.5847805809174,
+      "D3": 52.02817243965914,
+      "D4": 57.60584040666633,
+      "D5_D6": 45.33458496412514,
+      "overall": 66.92894075691318
+    },
+    {
+      "rank": 5,
+      "model": "MiniMax M3",
+      "harness": "MiniMax Agent",
+      "D1": 84.41293076763276,
+      "D2": 60.85441008590442,
+      "D3": 47.3250049408881,
+      "D4": 46.191108128064585,
+      "D5_D6": 57.62885315863093,
+      "overall": 64.45758419468264
+    },
+    {
+      "rank": 6,
+      "model": "GPT-5.5",
+      "harness": "GPT Researcher",
+      "D1": 78.85914256989139,
+      "D2": 59.11196056510649,
+      "D3": 36.34960225620139,
+      "D4": 46.75364900125712,
+      "D5_D6": 46.30316277965955,
+      "overall": 58.96228862217714
+    },
+    {
+      "rank": 7,
+      "model": "—",
+      "harness": "DuMate Deep Research",
+      "D1": 82.92219028713802,
+      "D2": 50.24424024944388,
+      "D3": 35.07892873198149,
+      "D4": 37.92874442971922,
+      "D5_D6": 44.04764953504134,
+      "overall": 56.06022638415294
+    },
+    {
+      "rank": 8,
+      "model": "Gemini 3.7 Flash",
+      "harness": "Gemini Deep Research",
+      "D1": 81.25454470709889,
+      "D2": 46.1146347604769,
+      "D3": 35.50707385636582,
+      "D4": 27.729977770620735,
+      "D5_D6": 33.41603502762487,
+      "overall": 51.21766600849636
+    },
+    {
+      "rank": 9,
+      "model": "Qwen 3.8 Max",
+      "harness": "Qwen Deep Research",
+      "D1": 70.18052175453974,
+      "D2": 39.595968294858636,
+      "D3": 16.049991743628244,
+      "D4": 14.221956557338036,
+      "D5_D6": 12.440802482813037,
+      "overall": 38.448302341478765
+    }
+  ],
+  "domains": [
+    {
+      "name": "Humanities, history, and creative practice",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Medicine, health, and behavioral science",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Engineering and natural science",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Education, labor, and social systems",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Consumer, travel, and everyday decisions",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Economics, finance, business, and governance",
+      "zh": 3,
+      "en": 3,
+      "total": 6
+    },
+    {
+      "name": "Computing, AI, and digital systems",
+      "zh": 2,
+      "en": 2,
+      "total": 4
+    }
+  ],
+  "queries": [
+    {
+      "id": "drb1_19",
+      "source": "drb1",
+      "language": "zh",
+      "title": "Managing high time-series churn in Prometheus",
+      "original_title": "Prometheus高流失率治理",
+      "query": "prometheus 的高流失率会造成什么影响，有什么系统的方案可以解决？各家云厂商有没有现有方案？",
+      "pt_count": 20,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "高流失率的定义",
+        "question": "报告是否正确说明高流失率指时间序列频繁新建和停止活跃，而非同一序列持续产生新样本？",
+        "anchors": {
+          "1": "未解释高流失率，或把流失对象误解为样本数量、采样频率等其他对象。",
+          "2": "提到序列变化或流失，但没有说明具体是什么变化。",
+          "3": "明确说明新序列出现或原序列停止活跃中的一面，另一面未说明。",
+          "4": "说明时间序列频繁新建和停止活跃，但未明确区分序列更替与同一序列持续产生样本。",
+          "5": "两种更替过程清楚，并明确区分序列更替与同一序列持续产生样本；定义或例子均可，不要求固定观察时长或物理删除机制。"
+        },
+        "boundary": "只检查序列更替的定义及其与样本产生的区别。停止活跃不等于数据已被物理删除。与高基数的关系由下一项检查；成因、指标公式及场景不在本项要求。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "流失影响的因果解释",
+        "question": "哪篇更清楚且合理地从序列变化解释资源压力和运行后果？",
+        "anchors": {
+          "0": "双方因果解释帮助相近，或都只有现象清单；须说明是哪种。 同等重要的交叉优势相抵也为0，需另说明。",
+          "1": "A对序列变化到运行后果的解释略好，B可能有局部更清楚的环节。",
+          "2": "A的关键因果链明显更成立，B的局部解释优点不足以弥补缺环。",
+          "-2": "B的关键因果链明显更成立，A的局部解释优点不足以弥补缺环。",
+          "-1": "B对序列变化到运行后果的解释略好，A可能有局部更清楚的环节。"
+        },
+        "boundary": "指出实际前提和传导环节；不要求特定TSDB内部实现，不重数PT影响种类。 比较全文实际关键链条，按对题目结论的作用采用一致重要性标准，同时列双方正反差异；同等重要的相反优势抵销为0，净优势才±1，关键净优势且局部不足以抵销才±2。不能挑各自最强的一条定胜负或按PT缺项数定优。"
+      }
+    },
+    {
+      "id": "drb1_25",
+      "source": "drb1",
+      "language": "zh",
+      "title": "Neutrophil stages and subpopulation interactions in cerebral ischemia",
+      "original_title": "脑缺血中性粒细胞阶段与亚群互作",
+      "query": "请为我整合近几年有关“中性粒细胞在脑缺血急性期和慢性期的功能和发展变化”的研究成果。在此基础上预测中性粒细胞各个亚群如何和其他的细胞类型发生相互作用，最终如何导向不同的临床结局。最后，为我分析未来可能需要开展的工作。",
+      "pt_count": 18,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "近年研究与疾病范围",
+        "question": "报告是否以近几年脑缺血中的中性粒细胞研究为主体，并交代研究的时间背景？",
+        "anchors": {
+          "1": "主要讨论其他疾病或免疫细胞，未整合本题研究。",
+          "2": "相关内容零散，主要是无年份的常识或旧研究。",
+          "3": "主体切题并有近期研究，但时间范围不清或旧背景挤占研究进展。",
+          "4": "近期脑缺血研究构成主体，只有少数年份或背景范围不明。",
+          "5": "明确研究时间背景，以近期相关成果为主体，较早研究只承担必要背景作用。"
+        },
+        "boundary": "不硬定近几年为5年或10年，不要求固定文献数量；阶段内容缺漏另评。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "阶段变化的解释",
+        "question": "哪篇更合理地解释中性粒细胞作用为何随脑缺血阶段和环境改变？",
+        "anchors": {
+          "0": "两篇对阶段变化的解释帮助相近，或均未解释；须说明是哪一种。",
+          "1": "A总体略好地把环境、状态与功能变化连起来，B在某个环节仍可更好。",
+          "2": "A对阶段变化的解释明显更连贯，B局部机制细节不足以弥补主要推导缺口。",
+          "-2": "B对阶段变化的解释明显更连贯，A局部机制细节不足以弥补主要推导缺口。",
+          "-1": "B总体略好地把环境、状态与功能变化连起来，A在某个环节仍可更好。"
+        },
+        "boundary": "比较实际前提与变化结论的联系，不数通路；急慢性内容是否出现不在此重评。 比较全文相关核心推演，使用双方一致的重要性依据列出正反差异；同等重要的相反优势抵销为0，不能任选有利链条。"
+      }
+    },
+    {
+      "id": "drb1_27",
+      "source": "drb1",
+      "language": "zh",
+      "title": "Integrating AI and human psychological counseling",
+      "original_title": "AI与人类心理咨询整合",
+      "query": "如何将AI心理咨询和人类心理咨询有机结合，以便为人类心理健康谋求福利？",
+      "pt_count": 18,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "结合方式与职责",
+        "question": "报告是否具体说明 AI 与人类咨询如何共同提供服务，而不是仅分别介绍二者？",
+        "anchors": {
+          "1": "没有说明两者如何结合。",
+          "2": "只有互补、赋能等口号，看不出各自做什么。",
+          "3": "有具体分工，但信息如何衔接或人类何时介入仍不清楚。",
+          "4": "分工与主要衔接清楚，少量服务环节的职责未交代。",
+          "5": "清楚说明所选结合方式中 AI、人类及服务对象的关系、职责和衔接；不要求固定服务流程。"
+        },
+        "boundary": "检查结合内容是否明确；不在此判断机制是否有效或模式是否创新。"
+      },
+      "pw_example": {
+        "id": "PW.D2.01",
+        "dimension": "D2",
+        "title": "证据与整合方案的适配",
+        "question": "哪篇所用证据组合更适合支撑其人机整合方案及声称的健康福利？",
+        "anchors": {
+          "0": "两篇证据对各自整合判断的帮助相近，或两篇均无相关支撑；须说明是哪一种。",
+          "1": "A 的证据在重要服务情境或结果指标上略更适配，B 仍可有局部优势。",
+          "2": "A 的主要整合判断得到明显更贴合目标人群与服务情境的证据支持；B 的局部材料优势不足以弥补差距。",
+          "-2": "B 的主要整合判断得到明显更贴合目标人群与服务情境的证据支持；A 的局部材料优势不足以弥补差距。",
+          "-1": "B 的证据在重要服务情境或结果指标上略更适配，A 仍可有局部优势。"
+        },
+        "boundary": "比较可用证据组合，不按研究或链接数量，不把单条引用错误再次逐错罚分；不预设一种研究设计能回答所有服务问题。"
+      }
+    },
+    {
+      "id": "drb1_47",
+      "source": "drb1",
+      "language": "zh",
+      "title": "Factors influencing travel destination choices in 2025",
+      "original_title": "2025年旅游目的地选择因素",
+      "query": "2025 年，有哪些因素影响着旅客选择前往不同目的地旅游",
+      "pt_count": 18,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "回答对象与范围",
+        "question": "报告是否从旅客的角度回答目的地选择的影响因素，而非主要写景点推荐或旅游业经营？",
+        "anchors": {
+          "1": "主体回答另一个问题，无法辨认目的地选择因素。",
+          "2": "主要是景点推荐、旅游总量或经营建议，仅零散提到旅客选择。",
+          "3": "能够识别多种因素，但有主要部分没有回到旅客在不同地点之间的选择。",
+          "4": "主要内容围绕旅客的地点选择，只有少量扩展与此联系较弱。",
+          "5": "主体明确回答旅客为什么选择不同目的地，背景与补充内容也服务这一对象。"
+        },
+        "boundary": "只评整体任务方向，不在此再次按成本、安全等具体内容的缺项降分；各类内容由PT.D1.03至15分别判断。可以采用不同分类、章节和比较对象，不要求目的地排名。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "选择机制的推理",
+        "question": "比较全文实际核心机制，哪篇更可靠地解释因素通过哪些环节改变目的地选择，并处理这些解释的条件与其他可能原因？",
+        "anchors": {
+          "0": "双方推理帮助相近，或同等重要的相反优势相互抵销，或双方均无成立的核心机制解释。须注明是哪种情况；不能把相反优势存在本身当一方胜出。",
+          "1": "按双方同一任务重要性依据比较全文实际核心机制，列出并权衡相反优势后，A仍有小幅但可说明的净推理优势；B可在局部更好。",
+          "2": "按双方同一任务重要性依据审视全文实际核心机制并列出相反优势后，A仍有明显净推理优势；B的局部优势不足以抵销关键因果联系、解释条件或替代原因处理上的差距。",
+          "-2": "按双方同一任务重要性依据审视全文实际核心机制并列出相反优势后，B仍有明显净推理优势；A的局部优势不足以抵销关键因果联系、解释条件或替代原因处理上的差距。",
+          "-1": "按双方同一任务重要性依据比较全文实际核心机制，列出并权衡相反优势后，B仍有小幅但可说明的净推理优势；A可在局部更好。"
+        },
+        "boundary": "范围是全文实际核心机制，不得挑一个有利因素代表全文。双方统一以机制对回答2025年旅客目的地选择的重要性及推理缺口对其选择结论的影响为依据，不按篇幅、作者自称重要或固定因素权重排序。评分理由须列出双方关键机制、成立/缺步之处及相反优势；若无相反优势亦说明。只有权衡后净优势成立才判±1/±2；同等重要且抵销判0，不机械按机制条数平均。PT.D1.03至15检查内容及基本对象、方向、条件；本项只比较已写论证为何成立，不把PT缺项数量、更多例子或复杂模型当优势，不强求两篇采取相同理论。外部证据真假由D2处理。"
+      }
+    },
+    {
+      "id": "drb1_48",
+      "source": "drb1",
+      "language": "zh",
+      "title": "A two-week nutrition plan for a 53-year-old Chinese adult",
+      "original_title": "53岁中国人的两周营养食谱",
+      "query": "我今年五十三岁，体重一百六十斤，为我提供一份两周的食谱，包含更科学、健康、简单易做的营养搭配（我是中国人）",
+      "pt_count": 16,
+      "pw_count": 6,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "两周逐日餐食",
+        "question": "报告是否提供可以直接对应到两周各日、各主要餐次的食谱？",
+        "anchors": {
+          "1": "没有两周食谱，只有饮食知识。",
+          "2": "只有零散菜名或少量示例日，无法安排两周。",
+          "3": "已安排两周，但有明显空缺日或主要餐次需要用户自行补齐。",
+          "4": "两周各日主要餐次齐全，少量复用或替换指示不够明确。",
+          "5": "两周各日主要餐次均有明确安排；明确说明如何重复使用的一周菜单也可完整覆盖两周。"
+        },
+        "boundary": "只检查日程与餐食内容是否齐全；不要求14套互不重复菜单、固定加餐次数或表格。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "个体条件到配餐策略的推理",
+        "question": "哪篇更可靠地从已知年龄体重及明确假设推导配餐策略？",
+        "anchors": {
+          "0": "两篇在配餐理由上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+          "1": "综合双方优缺点，A对关键搭配与需求的联系解释略扎实，较少从年龄体重过度推断；B仍可在局部更好。",
+          "2": "A对主要配餐理由的前提和适用条件解释明显更可靠，能避免把一般营养建议说成个体治疗效果；B虽有局部优点，但不足以弥补这一差距。",
+          "-2": "B对主要配餐理由的前提和适用条件解释明显更可靠，能避免把一般营养建议说成个体治疗效果；A虽有局部优点，但不足以弥补这一差距。",
+          "-1": "综合双方优缺点，B对关键搭配与需求的联系解释略扎实，较少从年龄体重过度推断；A仍可在局部更好。"
+        },
+        "boundary": "仅比较个体条件—需要—策略，不包办食物互补；对多条个体推理按相同重要性同时记录正反差别，净优势不明判0，不挑有利段落。不要求推测用户已有疾病。"
+      }
+    },
+    {
+      "id": "drb1_51",
+      "source": "drb1",
+      "language": "en",
+      "title": "Japan's elderly consumer market, 2020–2050",
+      "original_title": "Japan's elderly consumer market, 2020–2050",
+      "query": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic.",
+      "pt_count": 20,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Population path",
+        "question": "Does the report quantify Japan's elderly population from 2020 to 2050?",
+        "anchors": {
+          "1": "No population answer.",
+          "2": "Only an isolated figure or percentage without an elderly definition.",
+          "3": "Some defined elderly population figures appear, but the baseline, endpoint or trajectory is missing.",
+          "4": "The definition, 2020 baseline, 2050 endpoint and trajectory are clear, with minor projection-label gaps.",
+          "5": "The elderly definition and population path across 2020–2050 are explicit, with observations distinguished from projections and the projection vintage and scenario identified."
+        },
+        "boundary": "No fixed age threshold, cohort bins or annual table. Forecast reasoning is compared separately."
+      },
+      "pw_example": {
+        "id": "PW.D2.01",
+        "dimension": "D2",
+        "title": "Evidence applicability",
+        "question": "Which report uses evidence better matched to its elderly-market claims?",
+        "anchors": {
+          "0": "Evidence provides comparable help for the market picture; explain whether both help similarly or neither provides relevant help.",
+          "1": "On balance, A has somewhat better population or period matching for an important estimate; B may still have local strengths.",
+          "2": "A has substantially better matched and complementary evidence for central elderly-market estimates; B's local strengths do not close this gap.",
+          "-2": "B has substantially better matched and complementary evidence for central elderly-market estimates; A's local strengths do not close this gap.",
+          "-1": "On balance, B has somewhat better population or period matching for an important estimate; A may still have local strengths."
+        },
+        "boundary": "Compare applicability, not source count; no fixed source brand or policy checklist."
+      }
+    },
+    {
+      "id": "drb2_11",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Theories of systemic financial risk",
+      "original_title": "系统性金融风险理论",
+      "query": "我正在研究系统性金融风险，想请你帮我整理一份研究综述。我希望这份综述能主要覆盖以下几个方面，且信息需要更新到2020年3月之前：\n\n1.  **理论基础对比**：请详细梳理和对比两种解释系统性风险形成机制的主要理论。第一种是主流的、基于动态随机一般均衡（DSGE）模型的“金融加速器”理论；第二种是以海曼·明斯基（Hyman Minsky）为代表的“金融不稳定性假说”（FIH）。请务必解释清楚这两种理论的核心逻辑、关键假设、以及它们如何解释风险的产生和对实体经济的影响。\n2.  **微观结构研究**：请总结从微观市场结构角度研究系统性风险的几个主要方向。具体来说，我关心以下三点：\n    *   **金融网络**：金融网络的复杂性是如何影响系统稳定性的？请解释“稳健但脆弱”（robust-yet-fragile）的特性，并提及核心-边缘（core-periphery）网络结构。\n    *   **市场流动性**：市场流动性风险和融资流动性风险是如何相互作用并形成“流动性螺旋”（liquidity spiral）的？\n    *   **金融传染**：金融传染主要有哪些渠道？请区分并解释清楚两种主要的传染类型。\n3.  **关键文献和学者**：在上述所有内容的梳理中，请务必提及相关的代表性学者和他们的关键文献或理论贡献。例如，在谈到金融加速器时要提到伯南克等人，谈到流动性螺旋时要提到布伦纳迈尔和佩德森。\n\n请确保内容组织清晰，分成“理论基础对比”和“微观结构研究”两个大部分，每个部分下再设小标题。所有信息都需要准确，并能追溯到具体的理论或研究。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'A Review of Micro-Based Systemic Risk Research from Multiple Perspectives', 'authors': ['Xiao Bai', 'Huaping Sun', 'Shibao Lu', 'Farhad Taghizadeh-Hesary'], 'urls': ['https://www.mdpi.com/1099-4300/22/7/711', 'https://pubmed.ncbi.nlm.nih.gov/33286483/', 'https://www.researchgate.net/publication/342524950_A_Review_of_Micro-Based_Systemic_Risk_Research_from_Multiple_Perspectives', 'https://ui.adsabs.harvard.edu/abs/2020Entrp..22..711B/abstract', 'https://www.mdpi.com/1099-4300/22/7/711/reprints', 'https://researchportal.u-tokai.ac.jp/ja/publications/a-review-of-micro-based-systemic-risk-research-from-multiple-pers']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 18,
+      "pw_count": 9,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "金融加速器的理论链条",
+        "question": "报告是否说明DSGE金融加速器的假设、融资摩擦及其向实体经济传导的基本逻辑？",
+        "anchors": {
+          "1": "未介绍金融加速器。",
+          "2": "只给DSGE或放大风险等标签。",
+          "3": "介绍部分机制，但遗漏信息不对称、净资产与外部融资溢价关系或投资传导的关键环节。",
+          "4": "假设、净资产—融资溢价—投资链条清楚，仅少量条件未说明。",
+          "5": "DSGE框架、信息不对称、外部相对内部融资成本、净资产与溢价的反向关系及投资放大链条完整，说明适用条件。"
+        },
+        "boundary": "检查题目指定理论的基本说明，不要求CSV方程或扩展模型；推导说服力另比。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "两理论比较的推理",
+        "question": "哪篇更合理地从两理论的假设推出风险形成与实体经济后果的差异？",
+        "anchors": {
+          "0": "双方推导帮助相近，或均只并列理论特征；须区分。",
+          "1": "A对理论差异的推导整体略好，B仍可有局部解释优势。",
+          "2": "A的关键理论对比明显更成立，B的局部例子不足以弥补推理缺口。",
+          "-2": "B的关键理论对比明显更成立，A的局部例子不足以弥补推理缺口。",
+          "-1": "B对理论差异的推导整体略好，A仍可有局部解释优势。"
+        },
+        "boundary": "指明假设、推论和缺步；PT只检查必要机制说明，不把机制名称多再次奖励。"
+      }
+    },
+    {
+      "id": "drb2_117",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Buddha-nature and emptiness in Jizang",
+      "original_title": "吉藏佛性与空",
+      "query": "我正在研究中国隋代的三论宗高僧吉藏，特别是他对‘佛性’的看法。我感到很困惑，因为他一方面是弘扬‘空’的大家，另一方面又似乎很推崇《涅槃经》等讲‘佛性常住’、‘佛性不空’的经典。我想请你帮我深入调研一下，整理一份关于吉藏佛性思想的报告，来解答这个矛盾。报告需要包括以下几个部分：\n1.  **人物背景**：简单介绍吉藏的生卒年份、所属宗派，以及他在佛学史上的地位。\n2.  **破斥旧说**：梳理并详细列出吉藏当时流行的、但他不认可的关于佛性的几种主要观点，并说明他反驳每一派的理由。比如，他为什么认为佛性不能等同于众生、心、第八识或者单纯的趋乐避苦的本能？\n3.  **确立正见**：清晰阐述吉藏自己对佛性的正面定义。这部分需要解释他提出的‘中道’佛性是什么意思，特别是‘不见空与不空’这一核心观念。另外，请解释他如何将佛性与‘第一义空’和‘智慧(般若)’联系起来。\n4.  **常住与空**：深入探讨吉藏如何论证佛性是‘常住’的。请重点解释他提出的两种‘常’（永恒性）的概念，并说明佛性属于哪一种。同时，分析他如何通过‘法身’的理论，将‘佛性常住’与三论宗核心的‘缘起性空’思想统一起来，化解二者之间的表面矛盾。\n5.  **理论的实践意义**：总结吉藏的佛性理论有哪些实际用途或目的。比如，这个理论如何支持‘一乘’思想，以及它对佛教修行者有什么鼓励作用？\n请确保内容条理清晰，引述观点时力求准确。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': \"Is Emptiness Non-Empty? Jizang's Conception of Buddha-Nature\", 'authors': ['Jenny Hung'], 'urls': ['https://www.mdpi.com/2077-1444/16/2/184', 'https://philarchive.org/rec/HUNIEN', 'https://researchportal.hkust.edu.hk/en/publications/is-emptiness-non-empty-jizangs-conception-of-buddha-nature', 'https://www.academia.edu/127515451/Is_Emptiness_Non_Empty_Jizang_s_Conception_of_Buddha_Nature']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 21,
+      "pw_count": 6,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "人物背景",
+        "question": "报告是否简要说明吉藏的生卒年、宗派和佛学史地位？",
+        "anchors": {
+          "1": "未介绍吉藏。",
+          "2": "只有姓名或空泛赞誉。",
+          "3": "有背景，但生卒、宗派、地位至少一方面缺失。",
+          "4": "三方面基本清楚，仅地位的具体含义略弱。",
+          "5": "给出生卒549–623年、三论宗身份及其代表或集大成地位，背景与佛性研究有关。"
+        },
+        "boundary": "年份和身份据官方提供的核对线索；如有可靠异说须说明依据，不以该条代替外核。不强制隋代三大高僧称号。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "破旧与立正的论理",
+        "question": "哪篇更能解释吉藏为何拒绝旧说，以及这些反驳与中道、不执两边的正见如何相容？",
+        "anchors": {
+          "0": "双方推理帮助相近，或均无可用解释；须说明。",
+          "1": "A总体略好地连接所破前提与中道，B某个反驳仍可更强。",
+          "2": "A在破旧立正的关键推导上明显更成立，B局部引文丰富不能弥补逻辑断裂。",
+          "-2": "B在破旧立正的关键推导上明显更成立，A局部引文丰富不能弥补逻辑断裂。",
+          "-1": "B总体略好地连接所破前提与中道，A某个反驳仍可更强。"
+        },
+        "boundary": "需指出实际推导，例如有佛性不等于即是佛性、无常心不等于般若；不按旧说数量或引文数量。 全文比较用一致的重要性依据列出相反推导优势，净优势不足或同等重要的优势抵销判0；不得任选一说决定胜负。"
+      }
+    },
+    {
+      "id": "drb2_119",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Climate and outdoor recreation in the United States",
+      "original_title": "气候与美国户外休闲",
+      "query": "我需要一份关于天气和气候变化对美国户外休闲活动影响的调研报告。请帮我整理和分析相关信息，并以表格形式呈现关键数据。\n具体要求如下：\n1.  **综合分析部分**：请总结天气和气候变化对美国不同类型户外休闲活动（如钓鱼、滑雪、水上活动、露营等）的总体影响趋势。分析应包括：\n    *   气温升高通常如何影响参与度，是否存在一个“过热”的临界点？\n    *   降水（包括降雨和降雪）对不同活动的影响有何差异？\n    *   气候变化（如季节长度变化、极端天气）对不同地区（如东北部、西南部）和不同活动造成了哪些不同的长期影响？\n\n2.  **关键影响因素总结表**：请制作一个表格，详细总结气温和降水对以下几类户外休闲活动的影响。表格应包含以下几列：活动类别、高温影响（是促进还是抑制）、具体温度阈值、降水影响（是促进、抑制还是不确定）、以及相关的补充说明。\n    *   **活动类别**需要覆盖：一般性游览、钓鱼、雪上活动、水上活动、露营、自行车、高尔夫。\n    *   **温度阈值**需要具体写明，例如，参与度开始下降的最高温度、参与度受抑制的最低温度等，并注明温度单位（摄氏度）。\n    *   **补充说明**应包含一些关键的细节，例如降水形式（雪/雨）、不同类型参与者（如帐篷露营者 vs 房车露营者）的敏感度差异等。\n\n请确保报告内容专业、数据准确，信息来源截止到2024年初。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Effects and perceptions of weather, climate, and climate change on outdoor recreation and nature-based tourism in the United States: A systematic review', 'authors': ['Emily J. Wilkins', 'Lydia Horne'], 'urls': ['https://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000266', 'https://www.researchgate.net/publication/379537818_Effects_and_perceptions_of_weather_climate_and_climate_change_on_outdoor_recreation_and_nature-based_tourism_in_the_United_States_A_systematic_review', 'https://pubs.usgs.gov/publication/70253056', 'https://aithor.com/paper-summary/effects-and-perceptions-of-weather-climate-and-climate-change-on-outdoor-recreation-and-nature-based-tourism-in-the-united-states-a-systematic-review']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 24,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "所需表格",
+        "question": "报告是否提供按七类活动组织、含题面五类信息列的总结表？",
+        "anchors": {
+          "1": "没有总结表。",
+          "2": "表格只有零散活动或大部分所需列缺失。",
+          "3": "可辨认总结表，但缺一类活动或一个重要信息列。",
+          "4": "七类活动和五类信息列均可辨，仅有轻微表头歧义。",
+          "5": "表格完整包含一般性游览、钓鱼、雪上、水上、露营、自行车、高尔夫及活动、高温、阈值、降水、说明五类列。"
+        },
+        "boundary": "只检查行列容器，不把单元格内容完整性重复计分；同义列名允许。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "温度响应解释",
+        "question": "哪篇更能解释升温何时促进参与、何时过热或积雪损失抑制参与？",
+        "anchors": {
+          "0": "两篇温度响应解释的帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+          "1": "A对温度响应转折的解释略更成立；B仍可在局部更好。",
+          "2": "A更清楚地从热舒适或资源条件推出温度响应转折，因果缺口明显更少；B的局部优点不足以弥补差距。",
+          "-2": "B更清楚地从热舒适或资源条件推出温度响应转折，因果缺口明显更少；A的局部优点不足以弥补差距。",
+          "-1": "B对温度响应转折的解释略更成立；A仍可在局部更好。"
+        },
+        "boundary": "明确检验非线性与雪活动依赖，不预设全国统一临界点；因果环节不能靠数值多补足。 比较全文核心温度机制，按相同的活动/结论重要性标准同时记录正反差异；不同活动上的等重反向优势抵销为0，不通过任选活动改变胜负。"
+      }
+    },
+    {
+      "id": "drb2_123",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Housing informality within formal cities",
+      "original_title": "合法城市中的住房非正规性",
+      "query": "我需要一份关于全球“住房非正规性”（Housing Informality, HI）的研究报告，请不要局限于贫民窟或非正式定居点，而是聚焦于那些在合法城市区域内出现的非合规、适应性住房实践。报告需要以2024年5月之前的数据和研究为基础，整理并分析以下几个方面：\n\n1.  **核心趋势分类与解读**：请识别并总结全球范围内主要的住房非正规性趋势。对于每种趋势，请提供具体定义和实例。主要需要覆盖非正规市场动态、附属住宅单元（ADUs）、未经授权的改造、非常规住房和侵占行为这五大类。\n\n2.  **驱动因素分析**：深入探讨导致这些非正规住房现象出现的背后原因。请从经济、社会文化、法规制度、人口迁移以及适应性需求这几个维度进行分析，并解释不同驱动因素是如何与特定的非正规住房趋势相关联的。\n\n3.  **产生的影响评估**：全面评估住房非正规性带来的多方面影响。请分别从经济（如影子经济、税收流失）、社会（如社区凝聚力、社会排斥）、法律法规（如管理难题、权利模糊）以及健康与安全（如建筑标准、基础设施缺乏）四个层面展开论述。\n\n请确保报告结构清晰，语言准确，分析有理有据。最终输出时，分别论述第一、二、三部分。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Trends, Methods, Drivers, and Impacts of Housing Informalities (HI): A Systematic Literature Review', 'authors': ['Rim Mrani', 'Hassan Radoine', 'Jérôme Chenal', 'Alanda Kamana'], 'urls': ['https://www.mdpi.com/2413-8851/9/4/101', 'https://www.researchgate.net/publication/390268719_Trends_Methods_Drivers_and_Impacts_of_Housing_Informalities_HI_A_Systematic_Literature_Review', 'https://doaj.org/article/0bc6b503b324459f8cb11b523e1b8f00', 'https://ouci.dntb.gov.ua/en/works/lmbQjr5E/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 22,
+      "pw_count": 9,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "研究范围",
+        "question": "报告是否聚焦全球合法城市区域内的非合规、适应性住房实践，并区别于仅研究贫民窟？",
+        "anchors": {
+          "1": "主体不是本题住房实践。",
+          "2": "几乎全部是贫民窟或单一城市介绍，没有说明题面范围。",
+          "3": "讨论合法城市区域实践，但与非正式定居点混同，或把单地现象无说明当全球。",
+          "4": "聚焦正确，跨地区范围可辨，少量概念或地域外推界线不清。",
+          "5": "明确本题HI的对象与非合规层面，以跨地区视野讨论合法城市内实践，贫民窟仅作有界参照。"
+        },
+        "boundary": "不要求各洲定额案例；合法城市不代表每套住房合法，非典型住房也不自动违法。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "驱动如何产生实践",
+        "question": "哪篇更可靠地解释经济、制度、社会或人口需求怎样促成具体HI实践？",
+        "anchors": {
+          "0": "两篇对HI形成机制的解释帮助相近，或均无可用机制；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+          "1": "A在重要驱动与住房应对的因果联系上略更成立；B仍可在局部更好。",
+          "2": "A对主要驱动到住房实践的解释链明显更可靠；B的局部优点不足以弥补这一差距。",
+          "-2": "B对主要驱动到住房实践的解释链明显更可靠；A的局部优点不足以弥补这一差距。",
+          "-1": "B在重要驱动与住房应对的因果联系上略更成立；A仍可在局部更好。"
+        },
+        "boundary": "不把原因栏目齐全当机制优越；检视实际环节和替代解释，不强制经济首因、文化首因或单一理论。 比较全文核心形成机制，双方按同一重要性标准同时列出正反差别；同等重要的反向优势相抵判0，不任选一机制决定全篇。"
+      }
+    },
+    {
+      "id": "drb2_125",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Educational outcomes of elementary-school recess",
+      "original_title": "小学生课间休息教育成果",
+      "query": "请以“小学生课间休息对教育成果的影响”为主题，完成一份综合性调研报告。报告需基于2009年至2022年9月期间发表的学术研究，内容应包括以下两个部分：\n\n1.  **定量研究发现汇总**：\n    请制作一个表格，系统梳理并总结探讨课间休息与教育成果关系的定量研究。表格的列应包括：研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现。\n\n2.  **定性研究与综合分析**：\n    首先，同样制作一个表格，梳理并总结探讨课间休息对教育成果影响的定性研究。表格的列应包括：研究（第一作者及年份）、国家、研究参与者、课间休息时长，以及研究中教师、家长或学生感知的教育成果。\n    然后，请结合上述定量与定性研究的发现，进行综合分析。分析应侧重于以下几个方面：\n    a.  课间休息对学生行为（如课堂专注度、违纪情况）的具体影响是什么？不同研究的结论是否存在差异？如果存在，可能的原因是什么？\n    b.  课间休息对学生学业成绩（如阅读、数学分数）的影响如何？结论是否一致？\n    c.  课间休息对学生其他认知与非认知能力（如创造力、解决问题能力）有什么影响？\n    d.  基于现有证据，是否存在一个“最优”的课间休息时长或安排模式？（例如，单次长时间休息与多次短时间休息的比较）\n\n请确保所有信息准确、来源清晰，分析部分逻辑严谨。\n\n注：报告中涉及的简写全称如下：\n- ECLS-K (Early Childhood Longitudinal Studies-Kindergarten class of 1998–1999)：指“幼儿纵向研究-1998-1999学年幼儿园班”这一大型数据集。\n- MAP (Measure of Academic Progress)测试：指“学业进步衡量”标准化测试。\n- LiiNK项目 (The LiiNK Project)：指一项在研究中被评估的干预项目，包含每天进行四次15分钟的课间休息和品格发展课程。\n- CDC (Centers for Disease Control and Prevention)：指美国疾病控制与预防中心。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Educational outcomes of recess in elementary school children: A mixed-methods systematic review', 'authors': ['Erin K. Howie', 'Kristi L. Perryman', 'Joseph Moretta', 'Laura Cameron'], 'urls': ['https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294340', 'https://pubmed.ncbi.nlm.nih.gov/37992031/', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10664954/', 'https://www.semanticscholar.org/paper/Educational-outcomes-of-recess-in-elementary-school-Howie-Perryman/643c3fb96cda4edab1466bfaaac362e6db710214']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 19,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "研究对象与发表时段",
+        "question": "报告是否以小学生课间休息与教育成果为对象，按2009年至2022年9月发表的学术研究确定证据范围？",
+        "anchors": {
+          "1": "研究主体不涉及本题或所需时段。",
+          "2": "大量依赖范围外研究，无法形成指定时段的研究图景。",
+          "3": "主体切题但有重要越界研究未说明，或混用体育课与课间休息。",
+          "4": "对象和发表时段大体明确，少量纳入边界未说明。",
+          "5": "证据范围明确限定于题定发表时段和小学教育情境；跨年级样本、复合干预及背景资料的边界说清。"
+        },
+        "boundary": "允许研究包含幼儿园或混合年级但须说明小学适用范围；发表时间不是采集数据时间，不以2023年综述代替范围内研究。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "行为研究分歧的解释",
+        "question": "哪篇更有效地解释行为研究为何出现不同结果？",
+        "anchors": {
+          "0": "两篇在研究差异的解释上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+          "1": "综合双方优缺点，A对一处重要差异的测量、样本或情境解释略可靠；B仍可在局部更好。",
+          "2": "A对主要差异给出明显更可靠的条件化解释，不把不同测量的结果强行视为矛盾；B虽有局部优点，但不足以弥补这一差距。",
+          "-2": "B对主要差异给出明显更可靠的条件化解释，不把不同测量的结果强行视为矛盾；A虽有局部优点，但不足以弥补这一差距。",
+          "-1": "综合双方优缺点，B对一处重要差异的测量、样本或情境解释略可靠；A仍可在局部更好。"
+        },
+        "boundary": "仅比较行为结果差异的解释；综合两文涉及的主要行为分歧按其对行为结论的影响判断，同等重要的相反优势为0。测量、情境与结果必须连成解释，不把PT内容完整度再求和。"
+      }
+    },
+    {
+      "id": "drb2_129",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Technologies for reducing alcohol content in wine",
+      "original_title": "降低葡萄酒酒精度技术",
+      "query": "我想请你扮演一位食品科学领域的研究员，帮我整理一份关于降低葡萄酒酒精度的技术报告。这份报告需要清晰、有条理地介绍目前主流的技术方法及其对葡萄酒风味和品质的具体影响。\n\n报告需要包含两个部分：\n1. 技术方法概述：请将各种技术按照“发酵前策略”、“发酵中策略”和“发酵后策略”进行分类。在每个分类下，逐一介绍具体的技术方法，并简要说明该技术是如何实现降低酒精度的（即其核心工作原理）。\n2. 技术影响对比表：请制作一个表格，总结不同技术对葡萄酒最终品质的影响。表格需要包含三列：“技术名称”、“对葡萄酒成分的主要改变”和“对感官属性的影响”。表格中应至少覆盖以下技术：叶面积减少法、提早采收、葡萄汁稀释、葡萄糖氧化酶添加法、非酿酒酵母、营养限制与温度控制、纳滤（NF）、反渗透（RO）、渗透蒸馏（OD）、渗透汽化（Pervaporation）、旋转锥柱（SCC）、真空蒸馏（VD）以及多级膜系统。\n\n请确保报告内容专业、信息准确，并严格按照上述两部分结构进行输出。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Low-Alcohol and Nonalcoholic Wines: From Production to Cardiovascular Health, along with Their Economic Effects', 'authors': ['Paula Silva'], 'urls': ['https://www.mdpi.com/2306-5710/10/3/49', 'https://www.researchgate.net/publication/381766531_Low-Alcohol_and_Nonalcoholic_Wines_From_Production_to_Cardiovascular_Health_along_with_Their_Economic_Effects', 'https://www.ciencia-e-vinho.com/2024/07/07/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascular-health-along-with-their-economic-effects/', 'https://novaresearch.unl.pt/en/publications/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascu', 'https://news.sciencenet.cn/htmlpaper/2025/8/2025822154821467138669.shtm', 'https://ouci.dntb.gov.ua/works/7AJqKPJ4/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 22,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "两部分与三阶段分类",
+        "question": "报告是否按技术方法概述、技术影响对比表两部分组织，并在概述中分清发酵前、中、后策略？",
+        "anchors": {
+          "1": "两部分和三阶段均无法辨认。",
+          "2": "只有两部分或三阶段中的一种结构，另一种缺失。",
+          "3": "两部分均有，但三阶段缺一类或分类边界明显混乱。",
+          "4": "两部分和三阶段齐全，只有少量标题或跨阶段技术归属欠清。",
+          "5": "两部分清楚，概述按发酵前、中、后分类；跨阶段技术说明所处理的是葡萄、葡萄汁还是成酒。"
+        },
+        "boundary": "只评规定结构和分类，不重复评技术内容质量。分类可解释跨阶段用途，不把NF永远锁定在发酵后。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "发酵前处理为何影响品质",
+        "question": "哪篇更能解释降低糖负荷与成熟度、酸度和风味之间的联系及条件？",
+        "anchors": {
+          "0": "两篇对发酵前处理的因果解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+          "1": "综合比较，A对一处重要的减糖—品质联系解释略好；B仍可能在局部更好。",
+          "2": "A对发酵前降醇如何改变品质的因果链明显更成立；B的局部优点不足以弥补这一差距。",
+          "-2": "B对发酵前降醇如何改变品质的因果链明显更成立；A的局部优点不足以弥补这一差距。",
+          "-1": "综合比较，B对一处重要的减糖—品质联系解释略好；A仍可能在局部更好。"
+        },
+        "boundary": "比较实际解释，可关注叶面积的品种环境差异、早采的成熟度代价、稀释的浓度损失或酶法的酸形成，但不要求四条完整分析路线都出现。指出链中缺哪步，不重评表格字段。"
+      }
+    },
+    {
+      "id": "drb2_15",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Government adoption and regulation of AI",
+      "original_title": "政府AI应用与监管",
+      "query": "请对人工智能（AI）在政府决策中的应用进行全面综述，重点关注过去五年（2019-2023年）的信息。您的报告应涵盖三个主要领域：\n\n1.  **人工智能在政府运作中的作用**：描述人工智能在公共管理中提升效率和效能的具体方式。这应包括人工智能如何改善数据处理、服务提供和政策制定。请提供人工智能应用的具体示例，例如用于公共服务的聊天机器人、用于安防的面部识别以及用于公共交通的自动驾驶汽车。\n\n2.  **政府中人工智能的监管框架**：分析并比较欧盟、美国和中国在人工智能监管方面采取的不同方法。对于每个地区，描述其战略的核心原则，提及关键的政策文件或指南，并解释其主要优先事项。\n\n3.  **挑战与伦理考量**：识别并解释在政府中实施人工智能的主要挑战。您必须将这些挑战分为三个不同类型：a）技术挑战（例如，与遗留系统的集成、数据质量问题），b）社会挑战（例如，工作岗位流失、公众接受度与信任），以及 c）伦理挑战（例如，“黑箱”问题、算法偏见、问责制）。\n\n您的最终产出应为一份报告，其中包含针对上述三个领域的清晰章节。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': \"Navigating Governmental Choices: A Comprehensive Review of Artificial Intelligence's Impact on Decision-Making\", 'authors': ['Gustavo Caiza', 'Verónica Sanguña', 'Natalia Tusa', 'Violeta Masaquiza', 'Alexandra Ortiz', 'Marcelo V. Garcia'], 'urls': ['https://www.mdpi.com/2227-9709/11/3/64', 'https://doi.org/10.3390/informatics11030064', 'https://text2fa.ir/wp-content/uploads/Text2fa.ir-Navigating-Governmental-Choices-A-Comprehensive-R.pdf', 'https://pure.ups.edu.ec/en/publications/navigating-governmental-choices-a-comprehensive-review-of-artific', 'https://www.semanticscholar.org/paper/Navigating-Governmental-Choices%3A-A-Comprehensive-of-Caiza-Sangu%C3%B1a/ef838c9723caeba6042168ec17c02358b5a50721', 'https://ouci.dntb.gov.ua/en/works/lxdPJKEl/', 'https://www.researchgate.net/publication/348933222_Artificial_Intelligence_in_Public_Governance']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 21,
+      "pw_count": 12,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "数据处理用途",
+        "question": "报告是否具体说明AI怎样用于政府数据处理，并指出相应效率或质量目标？",
+        "anchors": {
+          "1": "未答数据处理。",
+          "2": "只说更快更智能。",
+          "3": "有处理任务，但数据、处理动作或预期改善不清。",
+          "4": "数据处理任务和改善目标清楚，少量适用条件遗漏。",
+          "5": "说明处理什么政府数据、用AI做什么及希望改善什么，区分预期作用与已证实效果。"
+        },
+        "boundary": "不要求某模型，预测能力不自动证明决策公平。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "政府流程改善的机制",
+        "question": "哪篇更合理地解释AI改变处理流程后，为什么可能提高公共管理效率或决策质量？",
+        "anchors": {
+          "0": "双方流程改善的解释相近，或都只声称AI更快更好；须说明是哪种。",
+          "1": "A对流程变化到管理改善的解释略好，B仍可在某项应用条件上解释更清楚。",
+          "2": "A对主要流程改善的因果解释明显更成立，B局部应用优点不足以弥补关键缺环。",
+          "-2": "B对主要流程改善的因果解释明显更成立，A局部应用优点不足以弥补关键缺环。",
+          "-1": "B对流程变化到管理改善的解释略好，A仍可在某项应用条件上解释更清楚。"
+        },
+        "boundary": "沿实际任务、人员分工和输出使用关系检查；不强制交通、安防、医疗全集。速度或准确性改善不能自动证明公平与公众信任，后两者不与本项混合计分。"
+      }
+    },
+    {
+      "id": "drb2_18",
+      "source": "drb2",
+      "language": "en",
+      "title": "Horizontal gene transfer in plants",
+      "original_title": "植物水平基因转移",
+      "query": "I want to investigate 'Horizontal Gene Transfer (HGT)' in the plant world, especially transfers occurring through parasitic relationships. Could you please help me systematically compile the findings, focusing primarily on discoveries before 2021, and organize them into a clear report?\n\nThe report should include the following four sections:\n1.  **Between Parasitic Plants**: How do parasitic plants exchange genes with their host plants? For example, through what structures? What type of genetic material is transferred? Please provide specific species examples, such as studies involving 'Cuscuta' or 'Striga'.\n2.  **Between Fungi and Plants**: Is this gene transfer unidirectional or bidirectional? Please provide examples of transfer from fungi to plants (e.g., transfer of disease resistance genes) and from plants to fungi, respectively.\n3.  **Between Bacteria and Plants**: Please focus on how 'Agrobacterium' transfers its T-DNA to plants. Are there examples of plants in nature that have already integrated these bacterial genes? You can elaborate on the case of sweet potato.\n4.  **Between Viruses and Plants**: Do viruses leave their genes inside plants after infection? Additionally, can viruses act as 'carriers' or 'vectors' to facilitate gene transfer between different plants?\n\nPlease ensure each section is supported by specific species names and gene names, with clear language and bulleted discussions.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Horizontal Gene Transfers in Plants', 'authors': ['Emilie Aubin', 'Moaine El Baidouri', 'Olivier Panaud'], 'urls': ['https://www.mdpi.com/2075-1729/11/8/857', 'https://www.researchgate.net/publication/354068358_Horizontal_Gene_Transfers_in_Plants', 'https://www.mdpi.com/2075-1729/11/8/857/review_report', 'https://ouci.dntb.gov.ua/en/works/961KBDJl/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 14,
+      "pw_count": 6,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Host–parasite transfer route",
+        "question": "Does the report describe the host–parasite connection, the genetic material involved and concrete species/gene examples?",
+        "anchors": {
+          "1": "No host–parasite transfer account.",
+          "2": "Names parasites or HGT without a route or identifiable example.",
+          "3": "A route or example is concrete, but the connection, material, mitochondrial/nuclear acquisition context or donor–recipient/gene identity has a major gap.",
+          "4": "Connection, material and an identifiable example are clear, with a minor directional or context detail missing.",
+          "5": "Explains the haustorial connection, distinguishes mobile material from inherited gene acquisition and identifies mitochondrial versus nuclear acquisition contexts, with species, gene identities and transfer direction explicit in its examples."
+        },
+        "boundary": "Cuscuta and Striga are suggested examples, not a compulsory pair. Do not require atp1, a protein length or a fixed number of studies. A transfer example and its identities form one check. Mitochondrial HGT must not disappear merely because atp1 or a universal frequency claim is optional; discuss its acquisition context with an evidenced example or explicitly qualified evidence basis. This item checks material/compartment coverage; PT.D1.10 checks the RNA-to-DNA versus genomic-DNA mechanism, not a second penalty for the same missing example."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "From contact to inherited transfer",
+        "question": "Which report more convincingly explains how contact or mobile material could become an inherited plant gene, distinguishing demonstrated steps from hypotheses?",
+        "anchors": {
+          "0": "The reasoning offers comparable help, or neither explains a usable chain; state which.",
+          "1": "A is slightly stronger overall in connecting material movement to integration or inheritance; B may explain another step better.",
+          "2": "A's contact-to-inheritance reasoning is substantially stronger; B's local mechanism detail does not offset its key unsupported jump.",
+          "-2": "B's contact-to-inheritance reasoning is substantially stronger; A's local mechanism detail does not offset its key unsupported jump.",
+          "-1": "B is slightly stronger overall in connecting material movement to integration or inheritance; A may explain another step better."
+        },
+        "boundary": "Compare the report's core contact-to-inheritance inferences using the same importance criteria for both reports; document opposite strengths, and score 0 when equally consequential advantages offset. PT.D1.10 checks that RNA/DNA alternatives are actually addressed; do not use mechanism counts as reasoning quality. Good contact reasoning does not repair an unsupported inheritance leap."
+      }
+    },
+    {
+      "id": "drb2_21",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Three compass systems in animal navigation",
+      "original_title": "动物导航三类罗盘",
+      "query": "我正在整理一份关于动物导航能力的报告，需要一个关于动物如何利用环境因素来定位方向的详细章节。请你帮我调研并整理出一份详尽的资料，重点介绍动物使用的三种主要“指南针”机制：地磁罗盘（Magnetic Compass）、太阳罗盘（Sun Compass）和星辰罗盘（Star Compass）。\n\n具体要求如下：\n1.  首先，请为每一种罗盘机制提供一段详细的文字综述。内容需要覆盖：\n    *   其基本工作原理。\n    *   已知的不同工作模式（例如，地磁罗盘的“倾角罗盘”和“极性罗盘”有什么区别）。\n    *   主要有哪些动物类群在使用这种机制，请列举具体例子。\n    *   其背后的感官基础或科学界提出的主流理论模型（比如自由基对模型、磁铁矿等）。\n    *   这种能力是天生的还是后天学习的？如果是学习的，它们是如何校准的？\n    *   使用这种机制存在哪些依赖条件或局限性（例如，对光线、天气、时间的要求）。\n\n2.  在文字综述之后，请根据你调研到的信息，创建一个清晰的对比表格。表格应包含以下几列：【罗盘类型】、【工作原理】、【主要使用的动物类群】、【感官机制/理论模型】、【依赖与局限性】、【习得方式（先天/后天学习）】。表格的每一行对应一种罗盘机制。\n\n请确保所有信息都基于截至2022年的科学研究成果，并力求内容准确、全面。谢谢！\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Animal navigation: how animals use environmental factors to find their way', 'authors': ['Roswitha Wiltschko', 'Wolfgang Wiltschko'], 'urls': ['https://link.springer.com/article/10.1140/epjs/s11734-022-00610-w', 'https://epjst.epj.org/articles/epjst/abs/2023/02/11734_2022_Article_610/11734_2022_Article_610.html', 'https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way/', 'https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way-2/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 22,
+      "pw_count": 10,
+      "pt_example": {
+        "id": "PT.D1.mag.principle",
+        "dimension": "D1",
+        "title": "地磁罗盘：工作原理与模式",
+        "question": "报告是否具体说明地磁罗盘的地磁方向信息及倾角、极性模式的差别？",
+        "anchors": {
+          "1": "没有本项信息。",
+          "2": "只有名称或笼统标签，不能理解工作原理与模式。",
+          "3": "有部分具体说明，但只列倾角与极性名词或将二者都当磁北指针，或关键对象与条件不明。",
+          "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+          "5": "说明地磁方向定向，明确倾角模式利用磁力线倾斜而非极性、极性模式区分磁场极性；朝磁极/赤道与磁北/南的含义清楚。"
+        },
+        "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。"
+      },
+      "pw_example": {
+        "id": "PW.D3.mechanism",
+        "dimension": "D3",
+        "title": "磁感受模型到倾角行为",
+        "question": "哪篇更有力地说明自由基对模型为何能解释倾角而非极性反应？",
+        "anchors": {
+          "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+          "1": "A对模型性质到可观察倾角行为的解释略更成立；B仍可有局部优势。",
+          "2": "A对模型性质到可观察倾角行为的解释明显更成立；B的局部优点不足以弥补该差距。",
+          "-2": "B对模型性质到可观察倾角行为的解释明显更成立；A的局部优点不足以弥补该差距。",
+          "-1": "B对模型性质到可观察倾角行为的解释略更成立；A仍可有局部优势。"
+        },
+        "boundary": "比较对磁场方向/极性响应如何导出行为的推理与限定；列出模型名或通过PT.D1.mag.sensor不自动构成优势。太阳线索解释不补偿本项。"
+      }
+    },
+    {
+      "id": "drb2_28",
+      "source": "drb2",
+      "language": "en",
+      "title": "Urban water-supply energy recovery",
+      "original_title": "Urban water-supply energy recovery",
+      "query": "I am researching energy recovery technologies in urban water supply systems and hope you can help me compile a research report on this topic. My primary interest is to compare two mainstream technologies: conventional micro-hydroturbines and a technology called 'Pump as Turbine' (PAT). Please address the following tasks around this core focus:\n\n1. First, please provide a detailed comparison of 'conventional micro-hydroturbines' and 'Pump as Turbine (PATs)' technologies. I would like the comparison to cover the following aspects: operational efficiency (including best efficiency point and efficiency under partial load), costs (including procurement, installation, and operation & maintenance costs), pressure regulation capability, design and operational complexity, expected service life, and market availability.\n\n2. To more clearly present the above comparison, please create a summary table titled 'Comparison of Conventional Micro-hydroturbines and PATs', listing the advantages and disadvantages of these two types of technologies across the aforementioned dimensions.\n\n3. Next, I need a more specific technical parameter table. Please research and compile a table titled 'Technical Parameters and Applicability of Various Turbine Types', covering as many common turbine types as possible (e.g., Pelton, Turgo, Crossflow, Francis, Kaplan, Semi-Kaplan, PAT, Spherical, etc.). The table should include at least the following columns: Name, Type (Impulse or Reaction), Applicable Head Range (unit: meters), Applicable Flow Rate Range (unit: cubic meters/second), Design Point Efficiency Range (percentage), and a brief description of its pressure regulation capability.\n\n4. Finally, please summarize the main economic and technical challenges currently existing in installing such energy recovery equipment in urban water supply networks.\n\nPlease ensure your report is based on publicly available information up to and including early 2024. When outputting, please organize the content sequentially according to the four parts I requested, and use clear subheadings.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Comprehensive Review for Energy Recovery Technologies Used in Water Distribution Systems Considering Their Performance, Technical Challenges, and Economic Viability', 'authors': ['Admitos A. Bideris-Davos', 'Panagis N. Vovos'], 'urls': ['https://www.mdpi.com/2073-4441/16/15/2129', 'https://www.semanticscholar.org/paper/Comprehensive-Review-for-Energy-Recovery-Used-in-Bideris-Davos-Vovos/6961f947d8d091d41384cd7f03889427d1c294ed', 'https://agris.fao.org/search/en/providers/122436/records/675ad1b90ce2cede71d20fb8', 'https://scite.ai/reports/comprehensive-review-for-energy-recovery-PQ4NVjL2', 'https://discovery.researcher.life/article/comprehensive-review-for-energy-recovery-technologies-used-in-water-distribution-systems-considering-their-performance-technical-challenges-and-economic-viability/843769c474a63c749aeee8e2e25904e6', 'https://ouci.dntb.gov.ua/en/works/4NKGbrvl/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 24,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Efficiency comparison",
+        "question": "Does the report compare conventional micro-hydroturbines and PATs at best efficiency and partial load?",
+        "anchors": {
+          "1": "Neither technology's efficiency is described.",
+          "2": "Only one technology or a generic efficiency ranking is given.",
+          "3": "Both are discussed, but BEP or partial-load behavior is missing, or efficiency definitions are unclear.",
+          "4": "Both conditions are compared with minor uncertainty about equipment or efficiency basis.",
+          "5": "BEP and partial-load performance are compared with meaningful conditions and a clear hydraulic or overall efficiency basis; differences among designs are acknowledged."
+        },
+        "boundary": "No fixed 70–90% or 40–75% range is mandatory. A supported exception to a general ranking is valid. Coverage here is not a judgment that one technology must win."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Hydraulic applicability reasoning",
+        "question": "Which report reasons more convincingly from turbine behavior to viable placement and pressure management?",
+        "anchors": {
+          "0": "Hydraulic reasoning offers comparable help, or neither explains a usable operating link. State whether both offer comparable help or neither offers relevant help.",
+          "1": "A offers slightly stronger reasoning for an important operating or siting link; B may still be better in some respects.",
+          "2": "A provides substantially more coherent reasoning about head recovery, residual pressure and service operation; B's local strengths do not make up for this difference.",
+          "-2": "B provides substantially more coherent reasoning about head recovery, residual pressure and service operation; A's local strengths do not make up for this difference.",
+          "-1": "B offers slightly stronger reasoning for an important operating or siting link; A may still be better in some respects."
+        },
+        "boundary": "Inspect native controls, auxiliaries, atmospheric discharge/backpressure and service requirements where relevant. Reaction type alone does not prove a safe drop-in PRV replacement. No prescribed turbine or control architecture. Compare the actual central chains using the same importance criterion for both reports, record countervailing strengths and use 0 when they balance. PT content presence does not itself establish reasoning superiority."
+      }
+    },
+    {
+      "id": "drb2_3",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Digital strategies in four Asian countries",
+      "original_title": "亚洲四国数字化战略",
+      "query": "我正在研究亚洲几个国家如何应对社会数字化和人口老龄化的问题。我想请你帮我调研一下日本、韩国、新加坡和泰国这四个国家在国家层面的数字化发展历程。请确保你的调研截止到2022年底。\n\n具体来说，我需要两部分内容：\n\n第一部分是“各国数字化发展历程回顾”。请你分别梳理这四个国家从早期（比如引入第一台计算机或提出第一个相关国家计划）到2022年的关键数字化政策、战略或总体规划。对于每一个关键政策，请说明它大概的提出年份和核心目标。\n\n第二部分是“当前数字化战略对比”。请你制作一个表格，清晰地对比这四个国家在2022年前后正在实施的主要数字化战略。表格需要包括以下几列：国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向。\n\n请确保信息准确，条理清晰。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Digital-Based Policy and Health Promotion Policy in Japan, the Republic of Korea, Singapore, and Thailand: A Scoping Review of Policy Paths to Healthy Aging', 'authors': ['Nadila Mulati', 'Myo Nyein Aung', 'Malcolm Field', 'Eun Woo Nam', 'Carol Ma Hok Ka', 'Saiyud Moolphate', 'Hocheol Lee', 'Yuki Goto', 'Nam Hae Kweun', 'Takumi Suda', 'Yuka Koyanagi', 'Yuiko Nagamine', 'Motoyuki Yuasa'], 'urls': ['https://www.mdpi.com/1660-4601/19/24/16995', 'https://pubmed.ncbi.nlm.nih.gov/36554873/', 'https://www.researchgate.net/publication/366401399_Digital-Based_Policy_and_Health_Promotion_Policy_in_Japan_the_Republic_of_Korea_Singapore_and_Thailand_A_Scoping_Review_of_Policy_Paths_to_Healthy_Aging']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 14,
+      "pw_count": 6,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "日本发展历程",
+        "question": "报告是否回顾日本从早期信息化到2022年的关键国家政策，并说明提出年份和目标？",
+        "anchors": {
+          "1": "无日本回顾。",
+          "2": "只列日本或数字厅等零散名称，不能形成历程。",
+          "3": "有不同时期政策，但早期或近年阶段明显空缺，或多数年份目标不成对。 任何改变发展路径的重要中间阶段整块遗漏也为3，而不只检查起点和终点。",
+          "4": "主要阶段、政策年份和目标可辨，仅个别关键节点说明不足。",
+          "5": "从早期信息化到互联网、数据利用及数字社会治理的主要变化有连贯政策记录，各关键政策年份与目标清楚。"
+        },
+        "boundary": "IT基本法、e-Japan、新IT改革、i-Japan、数字政府及2021年制度变化是官方核对线索；不要求第一台计算机起点或每个计划全部出现。有据替代分期可接受，但漏掉改变发展路径的阶段不能满分。 重要阶段的完整缺失按3；4仅适用于主线齐全而个别节点细节不足。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "政策演进的解释",
+        "question": "哪篇更可靠地解释政策从早期信息化走向后续数字化目标的变化与衔接？",
+        "anchors": {
+          "0": "两篇在政策演进解释上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+          "1": "综合双方优缺点，A对重要政策转向的联系与限定略清楚；B仍可在局部更好。",
+          "2": "A明显更可靠地解释目标和治理安排如何变化，避免把先后发生直接说成因果；B虽有局部优点，但不足以弥补这一差距。",
+          "-2": "B明显更可靠地解释目标和治理安排如何变化，避免把先后发生直接说成因果；A虽有局部优点，但不足以弥补这一差距。",
+          "-1": "综合双方优缺点，B对重要政策转向的联系与限定略清楚；A仍可在局部更好。"
+        },
+        "boundary": "日本疫情、韩国规划连续性、新加坡目标扩展及泰国基础建设可作解释线索，不要求固定国家标签或证明制度成功；列时间线本身不是推理优势。 比较两文覆盖的四国关键转向，不只挑选胜方最强国家；按对四国演进判断的实际重要性权衡，同等重要的相反优势为0。"
+      }
+    },
+    {
+      "id": "drb2_41",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Low-code technologies and markets",
+      "original_title": "低代码技术与市场",
+      "query": "我最近对“低代码开发”（Low-Code Development）这个概念很感兴趣，想请你帮我做一份全面的市场和技术调研。请你重点考察**截至2021年底**的行业状况，整理出以下几方面的信息：\n\n1.  **核心技术基础**：请列出支撑低代码开发的关键技术或设计范式。比如，它背后用到了哪些编程理念或技术架构？\n2.  **主要应用领域**：低代码平台主要被用来开发哪些类型的应用或解决哪些领域的业务问题？\n3.  **主流平台与工具**：请列出市面上主流的低代码平台或工具。\n4.  **公认的业务优势**：业界普遍认为使用低代码开发能带来哪些好处？\n\n请将你的调研结果分为“核心技术基础”、“主要应用领域”、“主流平台与工具”和“公认的业务优势”四个部分进行清晰的呈现。在每个部分，不仅要列出条目，还希望能有一段总结分析，说明这些技术、领域、工具、优势之间是否存在什么有趣的内在联系或发展趋势。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Modelling in low-code development: a multi-vocal systematic review', 'authors': ['Alessio Bucaioni', 'Antonio Cicchetti', 'Federico Ciccozzi'], 'urls': ['https://link.springer.com/article/10.1007/s10270-021-00964-0', 'https://www.researchgate.net/publication/357937892_Modelling_in_low-code_development_a_multi-vocal_systematic_review', 'https://www.semanticscholar.org/paper/Modelling-in-low-code-development%3A-a-multi-vocal-Bucaioni-Cicchetti/2f25601fa5db68904a5bfbcebc7247610b4a84f5', 'https://www.es.mdu.se/publications/6377-Modelling_in_low_code_development__a_multi_vocal_systematic_review', 'https://conf.researchr.org/details/models-2022/models-2022-journal-first/72/Modelling-in-low-code-development-a-multi-vocal-systematic-review']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 24,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "建模与声明式抽象",
+        "question": "报告是否说明模型、领域表达和声明式描述怎样减少手写实现？",
+        "anchors": {
+          "1": "无建模抽象。",
+          "2": "仅MDE或抽象标签。",
+          "3": "有模型但领域表达/声明内容或与实现的关系不清。",
+          "4": "模型、领域语义及实现关系明确，少量限制欠缺。",
+          "5": "说明模型驱动、领域化表达和描述目标行为的作用及与实现的联系，不把拖拽界面等同完整语义模型。"
+        },
+        "boundary": "无需每个平台都有DSL产品或同一种MDE实现；调研须介绍这些技术范式及其适用差异。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "技术怎样产生业务效果",
+        "question": "哪篇更能解释低代码技术与开发门槛、效率或应用能力之间的因果联系？",
+        "anchors": {
+          "0": "两篇对技术产生业务效果的解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。 同等重要交叉优势抵销也判0并说明。",
+          "1": "综合比较，A对一条重要技术—业务效果关系的解释略好；B仍可能在局部更好。",
+          "2": "A对技术怎样改变开发过程及业务效果的解释明显更成立；B的局部优点不足以弥补这一差距。",
+          "-2": "B对技术怎样改变开发过程及业务效果的解释明显更成立；A的局部优点不足以弥补这一差距。",
+          "-1": "综合比较，B对一条重要技术—业务效果关系的解释略好；A仍可能在局部更好。"
+        },
+        "boundary": "可检查模型抽象与自动化、可视化与交互开发、组件复用等真实联系，但不要求固定技术全部出现。MDE传统与低代码的连续性可澄清机制，不能仅靠宣称全新或换名证明创新。公民开发者不是唯一用户群。 比较全文与中心结论相关的实际解释，用相同重要性依据列双方正反差异；相反优势同等重要且抵销为0，净优势才±1，关键净优势不被局部抵销才±2。不得选择单个有利机制代替全文，也不按PT覆盖数比较。 PT.D1.04/18等已检查必要的技术—收益关系及基本条件；仅补齐该关系、解释其业务含义或达到PT高档，不自动构成本项优势。本项须定位具体前提到结论的推导，指出双方在解释为何成立、何时不成立上的实质差异，以及该差异如何改变全文重要结论的可信程度；同一材料可以使用，但不得再次奖励PT内容完整性。例如假设检验、替代解释或条件变化均可提供判断依据，非必做方法清单。若差异只有PT已评内容的有无，而没有额外的推导成立性差异，本项不据此判胜。"
+      }
+    },
+    {
+      "id": "drb2_46",
+      "source": "drb2",
+      "language": "en",
+      "title": "Cloud auto-scaling methods and research challenges",
+      "original_title": "Cloud auto-scaling methods and research challenges",
+      "query": "I need you to help me research 'Auto-Scaling' technology in cloud computing. Please organize a clear report around this topic, mainly consisting of two major parts:\n\nPart One: Categorize current mainstream auto-scaling technologies. To my knowledge, they are mainly divided into two broad categories: 'Reactive' and 'Proactive'. Under these two categories, please provide a detailed introduction to specific technical methods. For each technical method (e.g., threshold-based, machine learning-based, etc.), please explain its core working principle, main advantages, and limitations.\n\nPart Two: Summarize the main challenges faced by academia and industry when applying auto-scaling, and the solutions proposed to address these challenges. Please cover at least the following challenge areas: energy efficiency, dynamic nature of telecom services, big data processing, cost-effective graph processing, and workload prediction. For each challenge, first describe the specific manifestation of the problem, and then find a specific, published research study as an example to illustrate the solution proposed by that research.\n\nThe final output should be divided into two main headings: 'Auto-Scaling Technology Classification' and 'Main Challenges and Solutions'. Under the first heading, further organize the content into two subheadings: 'Reactive Methods' and 'Proactive Methods'. Under the second heading, use each challenge as a subheading. The overall content should be clear, accurate, and robust with information.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Auto-Scaling Techniques in Cloud Computing: Issues and Research Directions', 'authors': ['Saleha Alharthi', 'Afra Alshamsi', 'Anoud Alseiari', 'Abdulmalik Alwarafy'], 'urls': ['https://www.mdpi.com/1424-8220/24/17/5551', 'https://www.researchgate.net/publication/383489546_Auto-Scaling_Techniques_in_Cloud_Computing_Issues_and_Research_Directions', 'https://pubmed.ncbi.nlm.nih.gov/39275461/', 'https://research.uaeu.ac.ae/en/publications/auto-scaling-techniques-in-cloud-computing-issues-and-research-di']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 16,
+      "pw_count": 11,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Reactive and proactive classification",
+        "question": "Does the report distinguish reactive from proactive auto-scaling using the timing and information behind the scaling decision?",
+        "anchors": {
+          "1": "No usable classification.",
+          "2": "Only the two category names appear.",
+          "3": "A distinction is attempted but current-state response and anticipating demand remain confused.",
+          "4": "Both categories and the basis of classification are clear, with a minor boundary ambiguity.",
+          "5": "Explains response to observed conditions versus preparing for anticipated demand, and classifies the described implementations on that basis; hybrid behavior is identified when used."
+        },
+        "boundary": "An algorithm name does not by itself determine the category. Do not require RL or fuzzy control to be inherently proactive."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Scaling behavior reasoning",
+        "question": "Which report better explains when its described reactive or anticipatory methods help or fail?",
+        "anchors": {
+          "0": "The explanations offer comparable help, or neither explains behavior beyond method labels; distinguish these cases.",
+          "1": "A slightly better explains the relevant scaling behavior, although B may explain a local limitation better.",
+          "2": "A gives substantially more convincing timing and capacity reasoning; B's local strengths do not make up for the gap.",
+          "-2": "B gives substantially more convincing timing and capacity reasoning; A's local strengths do not make up for the gap.",
+          "-1": "B slightly better explains the relevant scaling behavior, although A may explain a local limitation better."
+        },
+        "boundary": "Name the link between observation/prediction, provisioning delay and workload behavior. Do not reward proactive labels or assume reactive methods always fail at spikes. PT method profiles check that principles, advantages and limits are actually explained; here identify a stronger warranted timing/capacity inference, not more completed profiles. Compare opposing reactive/proactive reasoning advantages on the same consequential basis; equally strong opposing advantages yield 0."
+      }
+    },
+    {
+      "id": "drb2_58",
+      "source": "drb2",
+      "language": "en",
+      "title": "University online-learning outcomes during the pandemic",
+      "original_title": "疫情高校在线学习效果",
+      "query": "Please conduct a systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period (January 2020 to August 2023). Your review should answer two main questions: 1) To what extent is online learning effective? 2) What factors influenced its effectiveness?\n\nTo this end, you will first need to identify and summarize a range of relevant empirical studies published during this period. Then, based on these studies, your output must contain three sections:\n\n1.  **Summary Table of Reviewed Studies:** Create a table summarizing the key empirical studies. This table must include the following columns in this specific order: Authors, Country, Sample Size, Research Design, Outcome Variable, and Finding on Effectiveness (i.e., whether the study found it effective, ineffective, or neutral). You must cover at least 15 different studies from the 2020-2023 period.\n\n2.  **Effectiveness Analysis:** Synthesize the findings of the studies to draw an overall conclusion about the effectiveness of online learning. Your analysis should categorize the studies based on their research methodologies (e.g., cross-sectional perceptual surveys, cross-sectional comparative studies, longitudinal studies, randomized controlled trials), and discuss how the chosen methodology influenced the reported results. For instance, explain why studies asking students to compare online learning with past in-person experiences often reported different results compared to randomized controlled trials.\n\n3.  **Analysis of Influencing Factors:** Identify and elaborate on key factors that positively or negatively influenced the effectiveness of online learning during the pandemic. For each factor, you must explain the mechanism through which it impacted learning effectiveness. The factors you discuss must include: infrastructure, instructional design, lack of social interaction, negative emotions, and convenience/flexibility. For infrastructure and social interaction, you must cite specific studies as examples.\n\nYour final output should be clearly structured, with distinct headings for each of the three sections.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'A systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period', 'authors': ['Wentao Meng', 'Lei Yu', 'Chen Liu', 'Nengchao Pan', 'Xiawen Pang', 'Yunyun Zhu'], 'urls': ['https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1334153/full', 'https://www.researchgate.net/publication/377480385_A_systematic_review_of_the_effectiveness_of_online_learning_in_higher_education_during_the_COVID-19_pandemic_period', 'https://doaj.org/article/f28e842f20da479686b8f2dd97debc20']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 20,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "At least 15 empirical studies",
+        "question": "Does the summary table cover at least 15 distinct empirical studies relevant to pandemic higher-education online learning?",
+        "anchors": {
+          "1": "No identifiable empirical study set.",
+          "2": "Only isolated studies or mostly nonempirical entries.",
+          "3": "Several eligible studies are identifiable, but fewer than 15 distinct studies are covered.",
+          "4": "At least 15 apparently eligible studies are identifiable, with a minor duplicate/identity ambiguity needing clarification.",
+          "5": "At least 15 distinct eligible studies have separate identifiable entries; multiple outcomes or papers from the same study do not inflate the count."
+        },
+        "boundary": "Fifteen is the query's threshold, not a rubric quota. Do not mandate the official 25-study roster. Confirmed duplicates or ineligible entries do not count; if fewer than 15 remain, score 3 or below."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Method-sensitive synthesis",
+        "question": "Compared with B, how well does A reason from designs and outcomes to the effectiveness conclusion?",
+        "anchors": {
+          "0": "The reports offer comparable method-to-conclusion reasoning, or neither offers relevant help; state which.",
+          "1": "A provides slightly better method-to-conclusion reasoning overall; B may be stronger on a local point.",
+          "2": "A provides substantially better method-to-conclusion reasoning; B's local strengths do not offset causal or outcome confusion.",
+          "-2": "B provides substantially better method-to-conclusion reasoning; A's local strengths do not offset causal or outcome confusion.",
+          "-1": "B provides slightly better method-to-conclusion reasoning overall; A may be stronger on a local point."
+        },
+        "boundary": "Judge inference, not presence of the methodology section. Randomization is not automatic proof of quality or online superiority. Compare the whole method-to-conclusion argument using the same relevance standard for both corpora; record opposing strengths. Equal-impact opposing advantages yield 0, not a win chosen by selecting one design."
+      }
+    },
+    {
+      "id": "drb2_66",
+      "source": "drb2",
+      "language": "en",
+      "title": "The gut microbiome and colorectal cancer treatment",
+      "original_title": "肠道菌群与结直肠癌治疗",
+      "query": "I've recently been focusing on colorectal cancer (CRC) treatment, and I've heard that gut microbiota significantly impacts treatment efficacy and side effects. I would like you to conduct a comprehensive research and summary for me, covering publicly available research findings up to September 2024. Please help me organize a table specifically outlining the interactions between gut microbiota and various CRC treatment methods. This table needs to include the following columns: 'Treatment Area', 'Specific Modality', 'Positive Impacts/Advantages', 'Negative Impacts/Complications'. Under 'Treatment Area', please make sure to cover surgery, chemotherapy, immunotherapy, and radiotherapy. Additionally, I'd like to understand some future directions, so please include probiotics/prebiotics and fecal microbiota transplantation (FMT) as 'Specific Modalities' under 'Future Outlook'. Please ensure the table content is detailed and accurate, allowing me to clearly see the relationship between each therapy and the microbiota.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Interplay Between the Gut Microbiota and Colorectal Cancer: A Review of the Literature', 'authors': ['Marco Cintoni', 'Marta Palombaro', 'Eleonora Zoli', \"Giuseppe D'Agostino\", 'Gabriele Pulcini', 'Elena Leonardi', 'Pauline Raoul', 'Emanuele Rinninella', 'Flavio De Maio', 'Esmeralda Capristo', 'Antonio Gasbarrini', 'Maria Cristina Mele'], 'urls': ['https://www.mdpi.com/2076-2607/13/6/1410', 'https://pubmed.ncbi.nlm.nih.gov/40572299/', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC12195752/', 'https://www.researchgate.net/publication/392786159_The_Interplay_Between_the_Gut_Microbiota_and_Colorectal_Cancer_A_Review_of_the_Literature']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 18,
+      "pw_count": 9,
+      "pt_example": {
+        "id": "PT.D1.table",
+        "dimension": "D1",
+        "title": "Requested therapy table",
+        "question": "Does the report provide the requested four-column table covering the four treatment areas and the two specified future modalities?",
+        "anchors": {
+          "1": "No usable therapy table.",
+          "2": "A table exists but most required areas or columns are missing.",
+          "3": "A recognizable table lacks a required treatment area, a requested future modality or a major column.",
+          "4": "All required areas/modalities and columns are identifiable, with a minor label or placement ambiguity.",
+          "5": "The table includes Treatment Area, Specific Modality, Positive Impacts/Advantages and Negative Impacts/Complications; surgery, chemotherapy, immunotherapy, radiotherapy, and probiotics/prebiotics plus FMT under Future Outlook are identifiable."
+        },
+        "boundary": "Check the requested columns and treatment areas, not clinical content again. Equivalent row groupings are eligible. Do not require separate rows for preparation, prophylaxis, ileus, adjuncts or diet. Combined treatment must be labelled as such; cross-referencing a finding does not create another independent contribution."
+      },
+      "pw_example": {
+        "id": "PW.D3.surgery",
+        "dimension": "D3",
+        "title": "Surgical complications: causal explanation",
+        "question": "Which report better explains microbial changes through barrier or tissue-healing processes to a postoperative outcome?",
+        "anchors": {
+          "0": "The explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+          "1": "A gives a slightly more defensible link in the surgical complications explanation; B may still be better locally.",
+          "2": "A gives a substantially more coherent, appropriately conditional explanation of surgical complications; B's local strengths do not make up for the difference.",
+          "-2": "B gives a substantially more coherent, appropriately conditional explanation of surgical complications; A's local strengths do not make up for the difference.",
+          "-1": "B gives a slightly more defensible link in the surgical complications explanation; A may still be better locally."
+        },
+        "boundary": "Assess the actual causal chain, not organism counts. A named gene/cytokine does not complete a missing link; distinguish a proposed mechanism from an established effect. Do not require the official example pathway, and do not treat association as intervention causation. Compare the central chains within this therapy under a common importance criterion for both reports; record countervailing strengths, and use0 if equally consequential opposite advantages balance. Do not choose only a favorable pathway or use PT content counts."
+      }
+    },
+    {
+      "id": "drb2_71",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Psychological motivations for belief in conspiracy theories",
+      "original_title": "相信阴谋论的心理动机",
+      "query": "我正在研究阴谋论的心理学，希望你能帮我完成一份文献综述，具体要求如下：\n1. 这份综述需要基于2017年及以前发表的学术研究。\n2. 首先，请总结出驱动人们相信阴谋论的几种主要的心理动机或需求类型。\n3. 然后，针对你总结出的每一种动机类型，请详细阐述以下三点：\n    a) 吸引力来源：为什么阴谋论对于有这种动机的人来说，会显得特别有吸引力？\n    b) 易感人群特征：哪些特定人群、性格特质、或处于何种情境下的人，更容易因为这种动机而去相信阴谋论？请结合具体研究发现来说明。\n    c) 实际后果：根据研究，相信阴谋论最终是否能够真正满足人们的这些动机？它会带来哪些实际的心理或行为层面的后果？\n\n请将你的回答分成几个主要部分，每个部分对应一种你总结出的心理动机。在每个部分内部，请用小标题清晰地标示出“吸引力来源”、“易感人群特征”和“实际后果”这三块内容，并确保论述都有研究依据支持。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Psychology of Conspiracy Theories', 'authors': ['Karen M. Douglas', 'Robbie M. Sutton', 'Aleksandra Cichocka'], 'urls': ['https://www.researchgate.net/publication/317401748_The_Psychology_of_Conspiracy_Theories', 'https://pubmed.ncbi.nlm.nih.gov/29276345/', 'https://www.semanticscholar.org/paper/The-Psychology-of-Conspiracy-Theories-Douglas-Sutton/4e1797aa41ad9d61c0178fb3d6c16131e661369a', 'https://journals.sagepub.com/doi/10.1177/0963721417718261', 'https://journals.sagepub.com/doi/abs/10.1177/0963721417718261', 'https://www.goodreads.com/book/show/44547044-the-psychology-of-conspiracy-theories']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 19,
+      "pw_count": 12,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "阴谋论研究对象",
+        "question": "报告是否说明本综述所指的阴谋论信念，而非把所有质疑或真实合谋混为一谈？",
+        "anchors": {
+          "1": "主体不是阴谋论信念研究。",
+          "2": "只有贬义标签或将任何不信任都当阴谋论。",
+          "3": "有概念说明，但秘密合谋解释与一般怀疑、已证实合谋的界线不清。",
+          "4": "研究对象清楚，只有少量例子边界不明。",
+          "5": "明确以隐蔽行动者合谋解释事件的信念对象及必要界线，不把不信任本身或群体身份当作定义。"
+        },
+        "boundary": "不要求逐字采用官方定义；定义不预先裁定所有怀疑都错。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "意义与确定性的吸引解释",
+        "question": "哪篇更可靠地解释寻求意义与确定性为何增加阴谋叙事的吸引力？",
+        "anchors": {
+          "0": "双方对意义/确定性需求到叙事吸引的解释相近，或同等重要的相反优点抵销，或双方都未提供帮助；须说明是哪一种。",
+          "1": "总体上A对意义/确定性需求到叙事吸引的一处重要联系解释略好；B仍可局部更好。",
+          "2": "A对意义/确定性需求到叙事吸引的主要推理明显更可靠；B的局部优点不足以弥补。",
+          "-2": "B对意义/确定性需求到叙事吸引的主要推理明显更可靠；A的局部优点不足以弥补。",
+          "-1": "总体上B对意义/确定性需求到叙事吸引的一处重要联系解释略好；A仍可局部更好。"
+        },
+        "boundary": "仅比较意义/确定性需求到叙事吸引，不由其他需求机制补偿。综合两文该对象的主要推理，不只挑胜方局部；固定效果方向、作者和术语不作为优势。PT检查具体内容，D4比较跨研究认识。"
+      }
+    },
+    {
+      "id": "drb2_75",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Theoretical innovations in The Cambridge History of Chinese Literature",
+      "original_title": "剑桥中国文学史理论革新",
+      "query": "我正在研究关于中国文学史写作的学术争论，特别是围绕2010年出版的《剑桥中国文学史》（The Cambridge History of Chinese Literature）及其主编之一宇文所安（Stephen Owen）的理论。我希望你帮我深入调研并整理一份报告，清晰地梳理出这场争论的核心。具体来说，报告需要包含以下几个部分：\n\n1.  **传统方法的批判**：总结宇文所安等人认为传统或主流的中国文学史写作存在哪些问题。请具体阐述这些传统方法背后的几个核心观念或原则。\n\n2.  **新理论的提出**：阐述宇文所安为回应上述问题，提出了哪些具有颠覆性的新编纂原则和观念。请详细解释这些新观念的核心思想，例如“史中之史”（history of history）等。\n\n3.  **新历史主义的影响**：分析“新历史主义”（New Historicism），特别是斯蒂芬·格林布拉特（Stephen Greenblatt）的理论，是如何影响《剑桥中国文学史》的。请说明新历史主义的哪些核心概念（如“文本的历史性”和“历史的文本性”）被运用于这部文学史中，并如何将研究视角从“文学”转向“文学文化”。\n\n4.  **“中国性”的重塑**：解释《剑桥中国文学史》是如何重新定义“中国文学”和“中国性”（Chineseness）这一概念的。说明它为何从“民族国家”转向“社群”作为界定标准，这对文学史的语言和地理范围产生了什么影响，并给出一个具体的章节例子来说明这种变化。\n\n请确保你的报告结构清晰，分点阐述，语言学术化且易于理解。报告的目的是梳理和呈现《剑桥中国文学史》所代表的理论革新，而非评价其成功与否。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Is a New Chinese Literary History Possible? A Critical Investigation of The Cambridge History of Chinese Literature', 'authors': ['Shen Yifan 沈一帆'], 'urls': ['https://www.sciencedirect.com/org/science/article/pii/S2352133324000104', 'https://www.researchgate.net/publication/379985497_Is_a_New_Chinese_Literary_History_Possible_A_Critical_Investigation_of_The_Cambridge_History_of_Chinese_Literature', 'https://www.lhp.sdu.edu.cn/info/1372/4096.htm', 'https://brill.com/view/journals/joch/10/1/article-p1_1.xml]}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 18,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "研究对象与呈现目的",
+        "question": "报告是否以2010年《剑桥中国文学史》及宇文所安等人的理论革新为对象，而非转向裁判其成败？",
+        "anchors": {
+          "1": "主体不是该书或相关理论。",
+          "2": "主体转为个人褒贬，理论梳理仅零散出现。",
+          "3": "对象正确，但有明显成败裁判挤占理论说明，或主编与全书意见归属混淆。",
+          "4": "主要为理论梳理，对象与宇文所安角色清楚，只有局部不必要评价。",
+          "5": "书、2010年出版背景及宇文所安作为主编之一的角色明确，全文服务理论呈现；必要争论背景不变为作者判决。"
+        },
+        "boundary": "不要求赞美理论，不禁止说明概念适用边界；有据质疑归属属于准确呈现而非题外裁判。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "批判与新原则的解释联系",
+        "question": "哪篇更可靠地解释新编纂原则如何回应传统方法的问题？",
+        "anchors": {
+          "0": "两篇在新旧方法的回应关系上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。 同等重要相反优势抵销也为0并说明。",
+          "1": "综合双方优缺点，A对一处批判与回应的联系解释略扎实；B仍可在局部更好。",
+          "2": "A明显更可靠地说明新观念改变了哪些研究前提，避免把新旧强行配成简单反义词；B虽有局部优点，但不足以弥补这一差距。",
+          "-2": "B明显更可靠地说明新观念改变了哪些研究前提，避免把新旧强行配成简单反义词；A虽有局部优点，但不足以弥补这一差距。",
+          "-1": "综合双方优缺点，B对一处批判与回应的联系解释略扎实；A仍可在局部更好。"
+        },
+        "boundary": "不要求五对五；史中之史的建构性与史料可检验性并非必然矛盾。PT检查内容在不在，这里检查实际推论。 比较对全文中心解释有作用的关系，采用相同重要性依据同时列双方正反差异；同等重要交叉优势抵销为0，净优势才判±1，关键优势无法被局部抵销才±2。不能择取某一观念就替整个解释定胜。"
+      }
+    },
+    {
+      "id": "drb2_76",
+      "source": "drb2",
+      "language": "en",
+      "title": "International organizations and decolonization",
+      "original_title": "International organizations and decolonization",
+      "query": "Hello, I am researching the complex relationship between international organizations and decolonization in the 20th century. I hope you can help me compile a detailed report, with a deadline until early 2022. The report needs to clearly outline this history and be divided into three main parts:\n\nPart One, regarding the period from after World War I until the end of World War II. Please focus on the dual role of the League of Nations in decolonization. On the one hand, please explain how the League maintained imperial interests through the Mandates System; on the other hand, also explain how it inadvertently provided a stage for international oversight of colonial affairs. Additionally, please introduce anti-imperialist organizations that emerged during the same period and stood in opposition to the League, especially the \"League Against Imperialism\", detailing its founding background, main activities, and impact.\n\nPart Two, regarding the period of the United Nations after World War II. Please outline the role of the United Nations in the process of decolonization. This section needs to include: the United Nations' initial stance on colonial issues at its founding, the evolution from the League of Nations' Mandates System to the United Nations' Trusteeship System, and the provisions in the UN Charter concerning non-self-governing territories. Please explain in particular detail how the United Nations General Assembly and its subsidiary committees (e.g., the \"Committee on Information from Non-Self-Governing Territories\") became the main arena for anti-colonial struggles, and explain the historical significance and main content of the 1960 \"Declaration on the Granting of Independence to Colonial Countries and Peoples.\"\n\nPart Three, regarding the impact of decolonization on international organizations themselves. Please analyze how the large number of former colonial states joining the United Nations changed the agenda and power dynamics of the UN and other international organizations. Specifically, explain how international issues shifted from an \"East-West confrontation\" to a \"North-South divide\", and introduce the rise of the \"Non-Alignment Movement\" and the \"Group of 77\", as well as the background and objectives of their promotion of a \"New International Economic Order\" (NIEO). At the same time, also briefly mention how decolonization spurred new functions for the United Nations, such as peacekeeping operations.\n\nThroughout the report, please use clear language, avoid simplistic dichotomies of praise or condemnation, and demonstrate the complexity of the relationship between the two. Thank you!\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Special issue introduction: Towards a global history of international organizations and decolonization', 'authors': ['Eva-Maria Muschik'], 'urls': ['https://www.cambridge.org/core/journals/journal-of-global-history/article/special-issue-introduction-towards-a-global-history-of-international-organizations-and-decolonization/066AFEF8CEA16E7F776CC7CFF72927CC', 'https://ideas.repec.org/a/cup/jglhis/v17y2022i2p173-190_1.html', 'https://www.researchgate.net/publication/359174525_Special_issue_introduction_Towards_a_global_history_of_international_organizations_and_decolonization', 'https://ucrisportal.univie.ac.at/en/publications/towards-a-global-history-of-international-organizations-and-decol']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 20,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "The League's dual role",
+        "question": "Does the report describe both the Mandates System's protection of imperial interests and the opening it created for international scrutiny?",
+        "anchors": {
+          "1": "Neither role is described.",
+          "2": "Only praises or condemns the League without a concrete institutional account.",
+          "3": "One role is concrete but the other is absent or merely asserted, or the mandates' welfare/development justification is omitted despite describing administration and scrutiny.",
+          "4": "Both roles and their institutions are clear, with a minor territorial or procedural gap.",
+          "5": "Identifies imperial administration under mandates, its stated welfare/development obligations and international reporting/review through the Permanent Mandates Commission, with territorial scope and limits clear."
+        },
+        "boundary": "The two sides define the requested dual role; one strong side with the other missing scores 3. Explain the mandates' stated welfare/development obligations alongside imperial administration; identifying scrutiny alone does not explain that legitimating framework. Do not require named historians, British India or a fixed Article 22 quotation. Causal force is compared in PW.D3.01."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Imperial institutions and contestation",
+        "question": "Which report more convincingly explains how League institutions could sustain imperial rule while creating openings for scrutiny or opposition?",
+        "anchors": {
+          "0": "The explanations of the League's duality provide similar help; explain whether both help similarly or neither provides relevant help.",
+          "1": "On balance, A better explains an important institutional opening or limitation; B may still have local strengths.",
+          "2": "A provides a substantially stronger explanation of how imperial administration, scrutiny and contestation interacted; B's local strengths do not close this gap.",
+          "-2": "B provides a substantially stronger explanation of how imperial administration, scrutiny and contestation interacted; A's local strengths do not close this gap.",
+          "-1": "On balance, B better explains an important institutional opening or limitation; A may still have local strengths."
+        },
+        "boundary": "Judge concrete causal links, not a balanced number of positive and negative claims. LAI opposition may clarify alternatives without making Comintern influence the sole explanation. Compare core inferences with the same importance criteria for both reports; state opposite strengths. Equally consequential offsetting advantages score 0, not a selectively chosen mechanism win."
+      }
+    },
+    {
+      "id": "drb2_79",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Inclusive Japanese-language teaching",
+      "original_title": "包容性日语教学",
+      "query": "我是一名大学的日语项目负责人，最近在考虑如何让我们的课堂对所有学生都更友好、更具包容性。我听说一些传统的日语教材和教学方法可能对LGBTQ+（性少数群体）的学生不太友好，比如总是默认学生是异性恋，或者在教性别化语言（男性语/女性语）时过于死板。我希望你帮我做一份调研报告，梳理一下这个问题。请重点关注截至2020年的情况，并整理成以下三个部分：\n\n1.  **主流日语教材中的问题**：请调研几本在北美广泛使用的初中级日语教材，分析其中是否存在缺少LGBTQ+内容、或者包含一些基于异性恋假设的练习等问题。请务必举出具体来自哪本教材的例子，并说明为什么这些内容会给学生带来困扰。\n\n2.  **日语性别化表达的教学挑战**：分析在日语教学中，关于男性和女性说话方式差异的传统教法存在哪些问题。请同样引用一些教材或教学指导书中的具体说法作为例子，并结合相关研究，说明这种教法为何可能是有问题的。\n\n3.  **更具包容性的教学建议**：基于以上发现，提出一些老师们可以采纳的、具体的教学策略。比如，当教材内容有问题时如何处理？以及，如何以一种更包容的方式教授性别化语言？\n\n请确保报告内容具体、有据可依，并清晰地分为以上三个部分。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Toward More Inclusive Japanese Language Education: Incorporating an Awareness of Gender and Sexual Diversity among Students', 'authors': ['Jotaro Arimori'], 'urls': ['https://jll.pitt.edu/ojs/JLL/article/view/129', 'https://www.researchgate.net/publication/345454410_Toward_More_Inclusive_Japanese_Language_Education_Incorporating_an_Awareness_of_Gender_and_Sexual_Diversity_among_Students', 'https://doaj.org/article/c78fd6a300a34214beae90b10da5e355', 'https://doi.org/10.5195/jll.2020.129', 'https://www.jstor.org/stable/e27013670']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 17,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "教材调研范围",
+        "question": "报告是否调研多本北美广泛使用的初中级日语教材，并交代书名、程度和相关版本？",
+        "anchors": {
+          "1": "没有可辨教材。",
+          "2": "仅一部教材或只泛称主流教材。",
+          "3": "有多部教材，但北美使用范围、程度或例子所属版本重要信息不明。",
+          "4": "教材范围和例子版本基本明确，少量背景信息缺失。",
+          "5": "多本相关教材可辨，北美使用范围与初中级定位有依据，所用版本足以界定例子；不将新版改动混入旧版。"
+        },
+        "boundary": "不要求固定教材名单或销量排名；只检查范围说明，广泛使用断言真假限证据核验。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "教材如何造成排斥",
+        "question": "哪篇更合理地解释具体教材任务怎样使学生感到被忽视、受身份假设约束或面临披露压力？",
+        "anchors": {
+          "0": "解释帮助相近，或都仅称教材有害；须注明。",
+          "1": "A对任务到学生处境的解释略好，B可有更清楚的局部分析。",
+          "2": "A的关键排斥机制解释明显更成立，B局部例句优势不足以弥补缺环。",
+          "-2": "B的关键排斥机制解释明显更成立，A局部例句优势不足以弥补缺环。",
+          "-1": "B对任务到学生处境的解释略好，A可有更清楚的局部分析。"
+        },
+        "boundary": "指出任务要求、学生选择和可能后果；不把所有LGBTQ+学生体验设成一致，不强制某例句。 比较全文实际核心教材排斥解释，以相同的任务重要性标准列出双方正反推理差异；等重反向优势抵销为0，不任选一个例子判胜。"
+      }
+    },
+    {
+      "id": "drb2_84",
+      "source": "drb2",
+      "language": "en",
+      "title": "Oil wealth management and the resource curse",
+      "original_title": "石油财富管理与资源诅咒",
+      "query": "I am researching how oil-dependent countries manage their wealth to avoid the 'resource curse'. Please help me compile a research report, primarily focusing on public information and academic views up to and including 2020. The report needs to include the following sections:\n1.  **Core Challenges**: First, please explain what 'resource curse' and 'Dutch disease' are, and what specific negative impacts they have on the economies of oil-producing countries.\n2.  **Fiscal Policy Strategies**: Outline and explain the three main fiscal policy rules discussed in academia and policy practice for managing oil revenues. Please describe the core logic of each rule and representative countries (if any).\n3.  **Revenue Management Tools**: Provide a detailed introduction to two key revenue management tools: (1) Natural Resource Funds (NRFs), please explain their main functions, and list and explain their three main types; (2) Public Investment Management Systems, please explain why they are important for these countries, and what stages an effective system should include.\n4.  **Benchmark Case Study**: Using Norway as an example, analyze its key policies and institutional arrangements for successful oil wealth management, particularly how its fiscal rules and sovereign wealth fund operate.\nPlease ensure your answer is well-structured, and each section is detailed and accurate.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Policy Framework of Natural Resource Management in Oil-Dependence Countries', 'authors': ['Basem Ertimi', 'Tamat Sarmidi', 'Norlin Khalid', 'Mohd Helmi Ali'], 'urls': ['https://www.mdpi.com/2227-7099/9/1/25', 'https://www.researchgate.net/publication/347057845_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries', 'https://www.researchgate.net/publication/349562167_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries', 'https://ideas.repec.org/a/gam/jecomi/v9y2021i1p25-d504509.html', 'https://www.econstor.eu/handle/10419/257183', 'https://scispace.com/papers/the-policy-framework-of-natural-resource-management-in-oil-20jx4xk9e5', 'https://ouci.dntb.gov.ua/en/works/loow31El/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 20,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Resource curse and oil dependence",
+        "question": "Does the report define the resource curse and explain concrete economic vulnerabilities of oil dependence?",
+        "anchors": {
+          "1": "No meaningful definition or oil-country challenges.",
+          "2": "Names the curse but treats resource abundance itself as an inevitable cause of poverty.",
+          "3": "Defines adverse development outcomes and explains a relevant vulnerability, but the account is narrow.",
+          "4": "Explains oil-price boom-bust exposure and revenue dependence, with a limited account of governance risks.",
+          "5": "Defines the conditional development problem and connects oil-price volatility, fiscal dependence and rent-seeking or accountability risks to economic consequences."
+        },
+        "boundary": "Dutch-disease transmission has a separate item. Do not require every historical theory or imply that all oil exporters grow poorly."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Fiscal-rule mechanism comparison",
+        "question": "Which report more reliably explains how spending rules change sustainable consumption and exposure to oil-revenue shocks?",
+        "anchors": {
+          "0": "Comparable useful fiscal-rule reasoning, or neither provides it; state which.",
+          "1": "A explains the central fiscal-rule trade-offs slightly more soundly; B may be better locally.",
+          "2": "A provides substantially more coherent rule-to-risk reasoning; B's local strengths do not offset the difference.",
+          "-1": "B explains the central fiscal-rule trade-offs slightly more soundly; A may be better locally.",
+          "-2": "B provides substantially more coherent rule-to-risk reasoning; A's local strengths do not offset the difference."
+        },
+        "boundary": "Compare the actual rule mechanisms, not coverage counts. Evaluate countervailing strengths across rules by the same risk/affordability criterion; balanced opposite advantages mean0. Fund-specific mechanisms are separate."
+      }
+    },
+    {
+      "id": "drb2_95",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Materials and defects in hydroforming",
+      "original_title": "液压成形材料与缺陷",
+      "query": "我正在调研液压成形（hydroforming）技术，希望你能帮我整理一份关于该技术在材料选择和常见制造缺陷方面的资料。请你作为一名行业分析师，完成以下两个任务：\n\n1.  **常用材料分析**：详细梳理在液压成形工艺中几种代表性的金属材料。具体来说，请覆盖以下四种：高强度钢（HSS）、高强度铝合金、镁合金和钛合金。对于每一种材料，都请从“材料特性”、“成形挑战”和“主要应用”这三个方面进行介绍，并给出具体的应用实例（例如用在汽车的哪个部件上）。\n\n2.  **常见缺陷、成因及对策**：总结液压成形过程中最常见的五种制造缺陷：表面缺陷（Surface defects）、回弹（Springback）、起皱（Wrinkling）、变薄（Thinning）和撕裂（Tearing）。对于每一种缺陷，请清晰地列出其“主要成因”和“建议的解决方法”。\n\n请将你的回答分为以上两个部分，并为每个部分设置清晰的标题。内容需要准确、具体，避免模糊不清的表述。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'A review of emerging hydroforming technologies: design considerations, parametric studies, and recent innovations', 'authors': ['Satish Chinchanikar', 'Harsh Mulik', 'Param Varude', 'Sameer Atole', 'Neha Mundada'], 'urls': ['https://jeas.springeropen.com/articles/10.1186/s44147-024-00546-z', 'https://www.researchgate.net/publication/385401108_A_review_of_emerging_hydroforming_technologies_design_considerations_parametric_studies_and_recent_innovations', 'https://ui.adsabs.harvard.edu/abs/2024JEAS...71..205C/abstract']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 28,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "内容范围相关性",
+        "question": "报告的主要内容和补充内容是否围绕题目展开，或有助于回答题目？",
+        "anchors": {
+          "1": "报告主要在回答另一个问题，只有零散内容与本题有关。",
+          "2": "多个主要部分偏离题目，使分析重点发生明显变化。",
+          "3": "主要内容切题，但有明显的题外内容，且无助于回答题目。",
+          "4": "几乎所有内容都切题，只有个别补充内容对回答题目帮助不大。",
+          "5": "全部主要内容都围绕题目，或用于提供必要背景、解释相关问题。"
+        },
+        "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "哪篇更有效地解释材料特性与其成形挑战、应用之间的联系？",
+        "question": "哪篇更有效地解释材料特性与其成形挑战、应用之间的联系？",
+        "anchors": {
+          "0": "比较双方优缺点后，两篇在本项上的帮助相近；也可以是两篇都没有提供相关帮助。理由中须说明属于哪种情况。",
+          "1": "综合比较后，A在推理的可靠程度上略好；B仍可以在局部表现更好。",
+          "2": "A在推理的可靠程度上明显更好；B虽有局部优点，但不足以弥补这一差距。",
+          "-2": "B在推理的可靠程度上明显更好；A虽有局部优点，但不足以弥补这一差距。",
+          "-1": "综合比较后，B在推理的可靠程度上略好；A仍可以在局部表现更好。"
+        },
+        "boundary": "不要求唯一机理、具体温度、方程或官方举例全部出现。 本项比较报告的结论能否从所列前提和条件中合理得出。评分时要指出具体推理，以及缺少哪一步。细节更多、用途更广或更方便执行，不等于推理更可靠。 材料特性及主要应用的缺项由对应PT检查，本项不能再按缺少疲劳词语、行业名或实例重复奖惩；只比较实际联系或适用判断的质量。"
+      }
+    },
+    {
+      "id": "drb2_97",
+      "source": "drb2",
+      "language": "zh",
+      "title": "Immersive Van Gogh exhibitions",
+      "original_title": "沉浸式梵高展",
+      "query": "你好，我最近总是看到那种沉浸式梵高艺术展的广告，感觉铺天盖地的。我有点好奇，想让你帮我做一个全面的调研，但请只关注2022年及以前的情况。我希望你帮我搞清楚几个问题：\n\n1. 当时市面上有哪些主要的梵高沉浸式展览？请列出这些展览的具体名称及其背后的主要运营公司。\n2. 这些展览里面到底是什么样的？是看真画吗？还是用投影和其他技术？它们的内容、形式和体验流程大致是怎样的？请详细描述一下，可以举一些具体的例子。\n3. 这些展览的商业模式是怎样的？比如，做一个这样的展览大概要花多少钱？普通人去看一次票价是多少？它们赚钱吗，有没有具体的收入数据可以参考？\n4. 社会上对这些展览的评价怎么样？我希望你从不同角度来总结，比如专业的艺术评论家是怎么看的，商业财经媒体是怎么分析的，以及普通观众和地方新闻是怎么报道的。\n\n请你把调研结果整理成四部分，分别使用“一、主要竞争展览及其主办方”、“二、展览内容与体验”、“三、商业模式与成本收益”、“四、各方评价”作为标题。谢谢！\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Influencers: Van Gogh Immersive Experiences and the Attention-Experience Economy', 'authors': ['Kate Mondloch'], 'urls': ['https://www.mdpi.com/2076-0752/11/5/90', 'https://www.researchgate.net/publication/363712184_The_Influencers_Van_Gogh_Immersive_Experiences_and_the_Attention-Experience_Economy', 'https://www.semanticscholar.org/paper/2412794ee1f3960f50cdd717199b0e8524a90f13', 'https://scispace.com/papers/the-influencers-van-gogh-immersive-experiences-and-the-12hjy9kh']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+      "pt_count": 19,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "主要展览名单与运营主体",
+        "question": "报告是否列出2022年及以前的主要梵高沉浸式展览，区分近名品牌，并给出各自对应的主要制作或运营主体？",
+        "anchors": {
+          "1": "没有可用的沉浸式展览名单，或主体答成普通原作画展。",
+          "2": "只有零散展名，或虽有展名却没有可辨认的主体对应。",
+          "3": "有多个展览—主体对应，但漏掉多个主要品牌、把两个近名品牌当成同一项目，或多数主要主体字段缺失。",
+          "4": "主要品牌和主体基本可辨，但漏掉一个主要品牌、一个主要主体，或少数制作/运营角色需读者推断。",
+          "5": "主要品牌均可辨认并对应主要主体，尤其能区分Immersive Van Gogh与Van Gogh: The Immersive Experience；没有实质遗漏或近名混同。"
+        },
+        "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。 主要品牌核对对象为Immersive Van Gogh Exhibit、Imagine Van Gogh: The Immersive Exhibition、Beyond Van Gogh、Van Gogh Alive、Van Gogh: The Immersive Experience，允许可辨认简称，不是只凑五个名称。对应主体中应能识别Lighthouse Immersive与Immersive Van Gogh、Grande Experiences与Van Gogh Alive的关系；其余项目也须有实际主要主体。制作、运营、联合出品和场馆角色不能互换；不要求列全合作公司。上述官方对象是覆盖核对线索，不是已完成外部事实核验；有材料支持的名称或角色差异须先澄清，再判断遗漏。"
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "哪篇更准确地解释不同展览内容和技术为何产生不同观展体验？",
+        "question": "哪篇更准确地解释不同展览内容和技术为何产生不同观展体验？",
+        "anchors": {
+          "0": "两文在内容、投影节奏或空间设计如何产生观展体验上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+          "1": "综合双方优缺点，A在重要体验变化的解释上略好；B仍可局部更好。",
+          "2": "A在内容、投影节奏或空间设计如何产生观展体验上明显更有帮助；B的局部优点不足以弥补。",
+          "-2": "B在内容、投影节奏或空间设计如何产生观展体验上明显更有帮助；A的局部优点不足以弥补。",
+          "-1": "综合双方优缺点，B在重要体验变化的解释上略好；A仍可局部更好。"
+        },
+        "boundary": "不要求特定心理学理论、互动装置或更多技术名词。 本项比较报告的结论能否从所列前提和条件中合理得出。评分时要指出具体推理，以及缺少哪一步。细节更多、用途更广或更方便执行，不等于推理更可靠。"
+      }
+    },
+    {
+      "id": "rr_683a58c9a7e7fe4e76958488",
+      "source": "rr",
+      "language": "en",
+      "title": "Memory engrams and predictive-coding models",
+      "original_title": "记忆痕迹与预测编码模型",
+      "query": "Propose a biologically plausible model that integrates the neuroscience concepts of engrams and predictive coding into one network capable of performing classification tasks.",
+      "pt_count": 15,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.engram",
+        "dimension": "D1",
+        "title": "Engram representation",
+        "question": "Does the model specify a persistent memory trace and how reactivating it retrieves relevant stored information?",
+        "anchors": {
+          "1": "No memory trace is specified.",
+          "2": "Engram is only a label for an arbitrary activation or class output.",
+          "3": "A trace is described but what persists or how it is reactivated is materially unclear.",
+          "4": "Persistent storage and reactivation of a specific memory are clear, and the trace's functional contribution is explained, with a minor gap in the causal account.",
+          "5": "The model specifies what neuronal/assembly or synaptic state stores a specific memory, what persists, and how reactivation retrieves it; it explains the trace's functional contribution through an expected selective effect of perturbing it or an equivalent causal account, and distinguishes it from a transient prediction error."
+        },
+        "boundary": "Evaluate an operational memory representation, not a mandatory sparse-assembly density, memory-system theory or one-assembly-per-class design. Persistent storage and retrieval alone, without explaining the trace's functional contribution to a specific memory, remain at 3 rather than 4/5. A predicted selective effect on that memory's retrieval, or an equivalent causal account, is sufficient; no executed perturbation experiment is required. Distributed or redundant traces are eligible: disrupting one cell need not abolish recall, and the explanation may concern a graded contribution or an appropriately scoped ensemble perturbation."
+      },
+      "pw_example": {
+        "id": "PW.D3.inference",
+        "dimension": "D3",
+        "title": "Integrated inference reasoning",
+        "question": "Which proposal more convincingly explains how its memory–prediction interaction leads to the stated class decision?",
+        "anchors": {
+          "0": "The proposals provide comparable inference-reasoning help; distinguish comparable useful contributions from neither providing relevant help.",
+          "1": "A has a slightly more defensible inference-to-readout explanation; B may still be better locally.",
+          "2": "A gives a substantially more coherent explanation of how memory-conditioned predictive inference yields the class decision; B's local strengths do not make up for the difference.",
+          "-2": "B gives a substantially more coherent explanation of how memory-conditioned predictive inference yields the class decision; A's local strengths do not make up for the difference.",
+          "-1": "B has a slightly more defensible inference-to-readout explanation; A may still be better locally."
+        },
+        "boundary": "Compare the actual chain, not a list of mechanisms. A claimed settling or stopping behavior must follow from stated conditions; do not require a proof of global convergence or a particular energy function."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605343",
+      "source": "rr",
+      "language": "en",
+      "title": "Berkeley student banquet planning",
+      "original_title": "Berkeley student banquet planning",
+      "query": "Please make a plan for my student group's end of year banquet, including a specific venue and a specific menu from a caterer. We need a nice venue near Berkeley, CA with a projector for slides. There are around 30 people attending. We also need to cater food that accommodates the following dietary restrictions: 2 egg allergies, 2 peanut allergies, 1 dairy + nuts + shellfish allergy, and 1 vegetarian. The total budget for the banquet is 2500 dollars, with a hard cap of 3000 dollars. Do not factor in transportation in the budget. ",
+      "pt_count": 19,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Specific nearby banquet venue",
+        "question": "Does the plan name a venue near Berkeley and describe a seated banquet arrangement for around 30 people?",
+        "anchors": {
+          "1": "No identifiable venue near Berkeley.",
+          "2": "A venue is named without usable location or guest-capacity information.",
+          "3": "Location and capacity or occasion suitability is materially unspecified; attractive surroundings do not compensate for an unclear seated arrangement.",
+          "4": "Nearby location, a 30-person seated/table arrangement and concrete occasion suitability are clear, with only a minor room/layout detail missing.",
+          "5": "Identifies a specific nearby venue and a seated/table arrangement for around 30, explaining concrete room or service features that suit a student end-of-year celebration."
+        },
+        "boundary": "Do not impose an unrequested 10-mile radius, luxury standard or mandatory historic venue. Real-world claims are checked in D2, not assumed verified from naming. Occasion suitability must be concrete, not just the word nice; no luxury threshold."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Venue-caterer feasibility",
+        "question": "Which plan reasons more convincingly that its room, food service and presentation arrangements can work together?",
+        "anchors": {
+          "0": "Compatibility reasoning is comparable, or neither shows how the selected arrangements fit. State whether both offer comparable help or neither offers relevant help.",
+          "1": "A resolves an important venue-service compatibility link slightly more convincingly; B may still be better in some respects.",
+          "2": "A offers substantially more coherent reasoning about the selected venue, catering and event setup; B's local strengths do not make up for this difference.",
+          "-2": "B offers substantially more coherent reasoning about the selected venue, catering and event setup; A's local strengths do not make up for this difference.",
+          "-1": "B resolves an important venue-service compatibility link slightly more convincingly; A may still be better in some respects."
+        },
+        "boundary": "Compare the actual dependencies, not a count of providers or equipment. A venue allowing food does not alone establish this caterer's eligibility. Stated conditional assumptions can support a provisional plan."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605363",
+      "source": "rr",
+      "language": "en",
+      "title": "Turo and Getaround: performance, valuation and employment",
+      "original_title": "Turo and Getaround: performance, valuation and employment",
+      "query": "Write a brief research report comparing the performance of the car rental companies Turo and Getaround, detailing all major economic events for each company from 2020 to 2025 and how it affected the company's valuation. If the company falls in valuation, be sure to explain how it happened and its effects on employee numbers. Write the report for an audience not familiar with US economics and venture capital.",
+      "pt_count": 17,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Turo's economic event history",
+        "question": "Does the report cover Turo's major economic developments across 2020–2025 with dates and business consequences?",
+        "anchors": {
+          "1": "No usable Turo history is provided.",
+          "2": "Only isolated headlines appear, without a meaningful period-wide account.",
+          "3": "Several events are described, but a major phase or economically consequential development is omitted or undated.",
+          "4": "The main developments and consequences are clear, with only a minor timing or event-context gap.",
+          "5": "The period's consequential developments are dated and explained, including material changes in financing/listing plans and operating performance; coverage is not merely a count of headlines."
+        },
+        "boundary": "Use the IPO effort and withdrawal, expansion/profitability developments and 2025 restructuring as supplied coverage leads, not independently verified facts. The report must address materially relevant developments through its stated 2025 endpoint. Do not demand every official example, including incidents with no established economic effect."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Economic explanations of valuation changes",
+        "question": "Which report more convincingly explains how events could affect valuation through the relevant business or financing mechanisms?",
+        "anchors": {
+          "0": "The reports provide similar help with event-to-valuation reasoning, or neither provides relevant help. Explain which case applies.",
+          "1": "Overall, A slightly better explains an important financing or operating link while keeping causal limits clear, although B may be better locally.",
+          "2": "A gives substantially more defensible explanations of major valuation changes, distinguishing funding expectations, operating results and public-market repricing; B's local strengths do not make up for this difference.",
+          "-2": "B gives substantially more defensible explanations of major valuation changes, distinguishing funding expectations, operating results and public-market repricing; A's local strengths do not make up for this difference.",
+          "-1": "Overall, B slightly better explains an important financing or operating link while keeping causal limits clear, although A may be better locally."
+        },
+        "boundary": "Getaround's reverse-merger expectations and later US exit can be connected where supported; not a compulsory narrative. Do not infer that any later event was caused by an earlier price move. Listing more events is not stronger inference. Compare the actual core event-to-value explanations for both companies using the same materiality standard, recording opposing strengths. Equally material opposite advantages yield 0; a detailed Turo chain cannot silently erase a weak Getaround chain."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605371",
+      "source": "rr",
+      "language": "en",
+      "title": "Three relocation cities for a remote engineer",
+      "original_title": "Three relocation cities for a remote engineer",
+      "query": "i'm a remote software engineer in SF. its getting too expensive. i make $120k. i want to relocate somewhere else in the US. i need you to do the research for me and give me a ranked list of your top 3 cities.\n\nhere are my non-negotaibles:\n- the cost of living HAS to be at least 30% lower than sf. especially rent and healthcare\n- since i'm remote, I need high speed and reliable internet connection\n- i really don't want to be stuck in a car. i need a walkable neighborhood (like a walk score over 60?) and easy access to green spaces or nature for hiking\n- I also need a major airport within about 90 minutes\n\ncan you write up a detailed report for me? i need them ranked with good justifications. please also include the trade-offs like what's the weather really like, what are the state tax implications (huge for me coming from CA), diversity, amenities, that kind of stuff\n\nit's important this is backed by real data, not just vibes. like use actual cost of living indexes, real estate data, internet speed rankings, ect",
+      "pt_count": 18,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Three ranked US destinations",
+        "question": "Does the report give an identifiable top three US cities with reasons for their order?",
+        "anchors": {
+          "1": "No usable US relocation shortlist.",
+          "2": "Only one city, or an unranked collection with no usable recommendation.",
+          "3": "Only two US cities are substantively ranked, or three are ranked or discussed but an important ranking reason or a concrete user-relevant downside for any city is missing.",
+          "4": "Three US cities are ranked with clear reasons and concrete user-relevant trade-offs for each, with only minor explanation gaps.",
+          "5": "Three US cities are explicitly ranked by suitability, with grounded reasons and concrete user-relevant trade-offs for each that explain the recommendation rather than claiming universal superiority."
+        },
+        "boundary": "Any cities may qualify; no geographic-spread requirement and no preference for Austin, Raleigh or Salt Lake City. If fewer than three can be substantiated, an honest shortfall remains incomplete coverage, not a reason to invent a third. Reason persuasiveness is PW.D4.01."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Joint feasibility in one living area",
+        "question": "Which report better establishes that affordability, connectivity, walkability, nature and airport access can hold together for its proposed living locations?",
+        "anchors": {
+          "0": "The joint-feasibility reasoning offers similar help; explain whether both help similarly or neither provides relevant help.",
+          "1": "On balance, A better justifies an important link between a proposed neighborhood and the combined constraints; B may still have local strengths.",
+          "2": "A provides a substantially stronger case that the proposed living locations jointly satisfy the user's constraints; B's local strengths do not close this gap.",
+          "-2": "B provides a substantially stronger case that the proposed living locations jointly satisfy the user's constraints; A's local strengths do not close this gap.",
+          "-1": "On balance, B better justifies an important link between a proposed neighborhood and the combined constraints; A may still have local strengths."
+        },
+        "boundary": "A cheap suburb's rent, a downtown walk score and a different address's fiber cannot simply be combined. Compare how evidence applies to the same living option, not a sum of PT pass counts or a forced scoring formula."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a6053a0",
+      "source": "rr",
+      "language": "en",
+      "title": "Distributed audio streaming and chat",
+      "original_title": "分布式音频与聊天",
+      "query": "Write a technical proposal for a distributed audio streaming system. The system should include an audio streaming platform and a live chat feature. This application should be built for both browser and mobile settings. Include detailed technologies and justify why they are used. Assume the audience is a team of experienced software developers at a medium sized software company.",
+      "pt_count": 20,
+      "pw_count": 14,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Proposal objective and assumptions",
+        "question": "Does the proposal state its audio-and-chat product objective and the workload, performance, operating and team assumptions needed to interpret its design?",
+        "anchors": {
+          "1": "Neither an identifiable audio-and-chat objective nor usable design assumptions is stated.",
+          "2": "Only a generic objective is given, or assumptions are listed without identifying the product they describe.",
+          "3": "The product is identifiable, but an important workload, performance, operating or team assumption needed to interpret its choices is missing or too vague.",
+          "4": "The objective and the assumptions needed by the design are clear, with only a minor interpretive gap.",
+          "5": "The objective and necessary workload, performance, operating and team assumptions are explicit. Performance expectations are concrete enough to assess the chosen design, and team capabilities or availability relied on by the proposal are stated."
+        },
+        "boundary": "Judge the context needed to interpret this proposal, not the ambition of its targets. Concrete expectations may be numeric or a testable behavior; no prescribed latency, uptime, team size or staffing model is required. Goals and the conditions that give them meaning remain one item. Feasibility, cost and implementation priorities are assessed separately. A missing assumption matters only when a material choice depends on it."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Which proposal provides the more coherent end-to-end audio and chat behavior?",
+        "question": "Which proposal provides the more coherent end-to-end audio and chat behavior?",
+        "anchors": {
+          "0": "The proposals offer similar help with the origin-to-player and participant-to-recipient reasoning, equally important opposite advantages cancel, or neither offers help. State which applies.",
+          "1": "Overall, A is somewhat more helpful with an important aspect of the origin-to-player and participant-to-recipient reasoning; B may still be locally better.",
+          "2": "A gives substantially stronger help with the origin-to-player and participant-to-recipient reasoning; B's local strengths do not close that gap.",
+          "-2": "B gives substantially stronger help with the origin-to-player and participant-to-recipient reasoning; A's local strengths do not close that gap.",
+          "-1": "Overall, B is somewhat more helpful with an important aspect of the origin-to-player and participant-to-recipient reasoning; A may still be locally better."
+        },
+        "boundary": "Do not require a particular protocol, CDN, microservice layout, or live-audio product assumption. Assess whether the stated inference follows from its premises under the stated conditions. More implementation artifacts, broader usefulness or a more detailed plan are not themselves stronger reasoning. Name the actual inference and any gap. Use the same comparison scope for both proposals: consider consequential audio, chat and shared-state claims across their stated workload, not only the winner's strongest path or failure example. Explain how opposing strengths affect the main end-to-end behavior; equally important opposed advantages give 0. Do not sum PT coverage."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605427",
+      "source": "rr",
+      "language": "en",
+      "title": "Washington, DC Independence Day 2025 itinerary",
+      "original_title": "Washington, DC Independence Day 2025 itinerary",
+      "query": "I want to create a plan for July 4, 2025, i.e., Independence Day in Washington DC. I would like an itinerary of all the things to do and all the activities that are planned for Independence Day. Create a plan for the whole day and also extend it to the weekend, if required. Provide some reviews or explain why one should visit the place or engage in the activity. Add any additional information that is required.",
+      "pt_count": 17,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Correct holiday and destination",
+        "question": "Does the itinerary consistently plan for Independence Day in Washington, DC on July 4, 2025?",
+        "anchors": {
+          "1": "The main plan is for another date or destination.",
+          "2": "Several central activities belong to another year or a different trip, changing the requested plan.",
+          "3": "The main destination/date is correct but a material activity has an unclear or mismatched year or location.",
+          "4": "The itinerary is aligned with DC and July 4, 2025, with only a minor date/location ambiguity.",
+          "5": "The main day is explicitly July 4, 2025 in DC; nearby extensions are clearly identified and other-year information is not presented as the 2025 schedule."
+        },
+        "boundary": "Judge material recommendations, not incidental mentions of another city. Nearby Maryland/Virginia options are not automatically out of scope. A past recurring event is not proof it ran in 2025."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Itinerary feasibility",
+        "question": "Which itinerary more convincingly fits its activities, transfers, waiting and departure into the stated day?",
+        "anchors": {
+          "0": "The plans are comparably feasible, or neither offers a usable timed route; distinguish these cases.",
+          "1": "A is slightly more coherent in its timing and movement, although B may schedule one segment better.",
+          "2": "A's end-to-end schedule is substantially more feasible under its assumptions; B's local timing strengths do not make up for major conflicts.",
+          "-2": "B's end-to-end schedule is substantially more feasible under its assumptions; A's local timing strengths do not make up for major conflicts.",
+          "-1": "B is slightly more coherent in its timing and movement, although A may schedule one segment better."
+        },
+        "boundary": "Use stated durations, locations, access and queue assumptions. Do not reward more stops, exact timestamps or forced attendance at incompatible events."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605434",
+      "source": "rr",
+      "language": "en",
+      "title": "LiDAR and vision in autonomous driving",
+      "original_title": "自动驾驶激光雷达与视觉",
+      "query": "Write a concise technical report exploring why some autonomous vehicle systems prioritize LiDAR while others rely on neural networks and cameras.",
+      "pt_count": 16,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Why prioritize LiDAR",
+        "question": "Does the report state a concrete system-design rationale for prioritizing LiDAR?",
+        "anchors": {
+          "1": "No rationale or a fundamentally false choice claim.",
+          "2": "Only calls LiDAR accurate or safe.",
+          "3": "Names a useful capability but does not connect it to the system's perception need.",
+          "4": "Connects a concrete capability to the system need, with a minor scope ambiguity.",
+          "5": "Clearly connects LiDAR capability to a stated perception/design need and explains why that benefit matters for this priority."
+        },
+        "boundary": "Coverage of hardware variants, pipeline, compute, latency, energy, cost and mitigation is checked in05–14, not repeated here. This item asks why the stated capability motivates the choice, not how many constraints were listed."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Technical explanation of design choice",
+        "question": "Compared with B, how well does A connect measurement and inference characteristics to the choice of sensor strategy?",
+        "anchors": {
+          "0": "Both offer similar explanatory help, or neither connects properties to choice. State which situation applies.",
+          "1": "A provides clearer and better-qualified property-to-choice reasoning, though B may explain a local mechanism better.",
+          "2": "A substantially improves understanding of why the strategies differ under relevant conditions, without hiding inference requirements behind sensor labels; B's local strengths do not offset this.",
+          "-2": "B substantially improves understanding of why the strategies differ under relevant conditions, without hiding inference requirements behind sensor labels; A's local strengths do not offset this.",
+          "-1": "B provides clearer and better-qualified property-to-choice reasoning, though A may explain a local mechanism better."
+        },
+        "boundary": "Direct domain coverage is assessed in PT.D1.05–14. Compare actual inference/evidence fit, not missing-domain counts; use the same system-goal importance criteria, list opposite strengths, and score equally consequential offsetting advantages 0. For D3.02 compare interactions between constraints, not a second independent tally of each constraint."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605443",
+      "source": "rr",
+      "language": "en",
+      "title": "Lower and upper voting-age limits",
+      "original_title": "投票年龄上下限",
+      "query": "Debate whether there should be age limits - minimum or maximum - for voting. Consider democratic principles, cognitive development and decline, intergenerational equity, and the balance between inclusivity and informed decision-making.",
+      "pt_count": 17,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.minimum",
+        "dimension": "D1",
+        "title": "Debate over a minimum age",
+        "question": "Does the report give substantive reasons both for and against a minimum voting-age limit?",
+        "anchors": {
+          "1": "No debate about a minimum age limit.",
+          "2": "Only a position or slogan is offered.",
+          "3": "A substantive reason is given on one side, but the opposing case is absent or merely a label.",
+          "4": "Both sides have relevant reasons, with a minor ambiguity about the proposed limit or its implication.",
+          "5": "Both the case for and the case against a minimum age limit are identifiable and reasoned, including a fair statement of a case the author ultimately rejects."
+        },
+        "boundary": "This checks whether competing reasons are present, not whether they are equally convincing. No particular age cutoff, argument, neutral final stance or equal word count is required. Do not treat age-based stereotypes as evidence."
+      },
+      "pw_example": {
+        "id": "PW.D3.capacity",
+        "dimension": "D3",
+        "title": "From cognition to eligibility",
+        "question": "Which report more convincingly reasons from cognitive evidence to what an age rule can and cannot establish about voting competence?",
+        "anchors": {
+          "0": "The cognitive-policy reasoning provides comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+          "1": "A gives a slightly more defensible capacity-to-eligibility inference; B may still be better locally.",
+          "2": "A gives a substantially more defensible account of what age-related evidence implies for individual eligibility; B's local strengths do not make up for the difference.",
+          "-2": "B gives a substantially more defensible account of what age-related evidence implies for individual eligibility; A's local strengths do not make up for the difference.",
+          "-1": "B gives a slightly more defensible capacity-to-eligibility inference; A may still be better locally."
+        },
+        "boundary": "Identify the inferential step from group evidence to individuals or policy. Biological maturation, health, education and political disagreement are not interchangeable measures of voting competence. No age or testing policy is preferred by default."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a60545c",
+      "source": "rr",
+      "language": "en",
+      "title": "Comparative revolutionary dynamics: France, Russia and Iran",
+      "original_title": "Comparative revolutionary dynamics: France, Russia and Iran",
+      "query": "Conduct a comprehensive comparative analysis of the causes, processes, and outcomes of the French Revolution (1789), Russian Revolution (1917), and Iranian Revolution (1979). Your analysis should examine: socioeconomic preconditions, ideological frameworks, revolutionary leadership structures, international influences, counter-revolutionary responses, institutional transformations, and long-term societal impacts. Develop a theoretical framework for understanding revolutionary dynamics and apply it to predict potential future revolutionary scenarios.",
+      "pt_count": 31,
+      "pw_count": 8,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Three revolutions and their processes",
+        "question": "Does the report address the French Revolution of 1789, Russian Revolution of 1917 and Iranian Revolution of 1979 as historical processes, not isolated labels?",
+        "anchors": {
+          "1": "The requested revolutions are not identifiable.",
+          "2": "Only one revolution is developed, or all three are merely named.",
+          "3": "Two revolutions have substantive process accounts but the third is absent or only named, or all three are identifiable with a material phase conflation.",
+          "4": "All three have recognizable trajectories, with a minor phase or temporal-boundary gap.",
+          "5": "Each revolution has a clear historical trajectory from crisis through political change, with the relevant period and major turning points identified; different starting dates and longer aftermaths are distinguished."
+        },
+        "boundary": "Do not restrict outcomes to the named start year or impose identical phase lengths. In Russia, a process account must not silently collapse the distinct 1917 regime changes. Historical correctness is audited in D2."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Historical causal explanation",
+        "question": "Which report explains more convincingly how the stated conditions and actors produced the revolutionary trajectories and outcomes?",
+        "anchors": {
+          "0": "Historical causal reasoning is comparable, or neither goes beyond chronology and labels. State whether both offer comparable help or neither offers relevant help.",
+          "1": "A makes an important historical causal link slightly more convincingly; B may still be better in some respects.",
+          "2": "A provides substantially more coherent causal explanations across the selected revolutionary trajectories; B's local strengths do not make up for this difference.",
+          "-2": "B provides substantially more coherent causal explanations across the selected revolutionary trajectories; A's local strengths do not make up for this difference.",
+          "-1": "B makes an important historical causal link slightly more convincingly; A may still be better in some respects."
+        },
+        "boundary": "Do not equate sequence with causation, structural pressure with inevitability or leaders' intentions with actual outcomes. Counter-revolution and international influences should matter through actual arguments, not a compulsory theory checklist. Compare the central causal accounts across all three requested revolutions using the same importance standard for both reports; record opposing strengths and use 0 if equally consequential advantages balance. Do not select only the strongest case or sum PT coverage."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a605492",
+      "source": "rr",
+      "language": "en",
+      "title": "Testing a vision-language model for skin-lesion image labeling",
+      "original_title": "Testing a vision-language model for skin-lesion image labeling",
+      "query": "Compose a concise technical report sketching an experimental plan for deciding whether a modern vision-language model could stand in for human specialists when labeling medical images of skin lesions.",
+      "pt_count": 19,
+      "pw_count": 9,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "Labeling task and substitution scope",
+        "question": "Does the plan specify which skin-lesion image-labeling task a vision-language model would replace and what 'stand in' means?",
+        "anchors": {
+          "1": "No identifiable labeling or substitution objective.",
+          "2": "Only a general AI-versus-doctor question is posed.",
+          "3": "The target task is recognizable, but label definitions, image setting or the human work being replaced is unclear.",
+          "4": "The task, labels and substitution scope are explicit, with a minor setting or output ambiguity.",
+          "5": "The target image setting, label output and specialist work being replaced are explicit, so the experiment can decide a bounded substitution question."
+        },
+        "boundary": "Diagnostic classes, descriptive attributes and other justified labeling tasks are eligible. No three-class minimum, mandatory morphology subtask or requirement to replace clinical care. The chosen label definitions must make the planned evaluation interpretable."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Statistical validity of the substitution inference",
+        "question": "Which plan more convincingly links its comparison design and uncertainty analysis to a defensible substitution decision?",
+        "anchors": {
+          "0": "The reports provide similar help with substitution-inference validity, or neither provides relevant help. Explain which case applies.",
+          "1": "Overall, A slightly better handles a consequential dependence, uncertainty or decision-margin issue, although B may be better locally.",
+          "2": "A provides a substantially more valid route from observations to a bounded substitution conclusion, without mistaking lack of significance for equivalence; B's local strengths do not make up for this difference.",
+          "-2": "B provides a substantially more valid route from observations to a bounded substitution conclusion, without mistaking lack of significance for equivalence; A's local strengths do not make up for this difference.",
+          "-1": "Overall, B slightly better handles a consequential dependence, uncertainty or decision-margin issue, although A may be better locally."
+        },
+        "boundary": "Check the actual sampling and rater dependence, patient/lesion clustering, uncertainty and decision logic. No prescribed statistical family; paired designs require appropriate dependence handling, while justified unpaired designs are not inherently invalid. Do not reward method counts. PT.D2.03 separately records statistical misuse. Here identify the additional inferential consequence for the substitution decision, such as a justified margin, precision-sensitive decision or treatment of inconclusive results, rather than counting the same errors again. Consider the whole design-to-decision chain and both proposals' opposing strengths; equally important opposed advantages give 0."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a6054a7",
+      "source": "rr",
+      "language": "en",
+      "title": "UBI evidence from Finland, Canada and the United States",
+      "original_title": "UBI evidence from Finland, Canada and the United States",
+      "query": "Compare the effectiveness and potential long-term consequences of Universal Basic Income (UBI) programs in developed countries with pilot programs in Finland, Canada, and the U.S., utilizing data from peer-reviewed economic studies and policy analysis and commentary from experts published post-2015.",
+      "pt_count": 21,
+      "pw_count": 9,
+      "pt_example": {
+        "id": "PT.D1.01",
+        "dimension": "D1",
+        "title": "UBI and the programs being compared",
+        "question": "Does the report define UBI and distinguish it from the targeted or conditional designs of the pilots it discusses?",
+        "anchors": {
+          "1": "No usable definition or program distinction.",
+          "2": "Uses UBI as a label for all cash transfers.",
+          "3": "Defines UBI but does not distinguish important targeting or conditionality in the selected pilots.",
+          "4": "Definition and program differences are clear with a minor scope ambiguity.",
+          "5": "Defines the universal and unconditional features of UBI, explains its relevant policy objectives, and distinguishes actual pilot eligibility, conditionality or earnings withdrawal from a universal national scheme."
+        },
+        "boundary": "Do not require every technical term in the official examples. Universal means the specified eligible population, not literally everyone worldwide; distinguish a randomized trial sample from the policy's proposed eligibility."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "What the pilots identify",
+        "question": "Which report better explains what the pilot evidence can establish about effectiveness?",
+        "anchors": {
+          "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+          "1": "On balance, A better explains an important design or measurement limitation affecting an effectiveness inference; B may still have local strengths.",
+          "2": "A offers a substantially stronger account of what comparison groups, follow-up and outcome measures do and do not identify; B's local strengths do not close this gap.",
+          "-2": "B offers a substantially stronger account of what comparison groups, follow-up and outcome measures do and do not identify; A's local strengths do not close this gap.",
+          "-1": "On balance, B better explains an important design or measurement limitation affecting an effectiveness inference; A may still have local strengths."
+        },
+        "boundary": "A larger employment change is not automatically stronger evidence. Distinguish assignment, attrition, self-report, changing policy context and truncated follow-up when relevant; no compulsory econometric method or exhaustive bias checklist. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage."
+      }
+    },
+    {
+      "id": "rr_6847465956a0f6376a6054d0",
+      "source": "rr",
+      "language": "en",
+      "title": "Agriculture and mythology in ancient Egypt",
+      "original_title": "Agriculture and mythology in ancient Egypt",
+      "query": "Critically analyze how agricultural practices in ancient Egypt shaped the development of their mythology, particularly in relation to deities, rituals, and beliefs about life and the afterlife through an essay.",
+      "pt_count": 16,
+      "pw_count": 7,
+      "pt_example": {
+        "id": "PT.D1.01.cycle",
+        "dimension": "D1",
+        "title": "Agricultural seasonality",
+        "question": "Does the essay explain the flood–cultivation–harvest sequence as agricultural context?",
+        "anchors": {
+          "1": "No substantive account of agricultural seasonality.",
+          "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+          "3": "Flooding is named but the cultivation and harvest relation is unclear.",
+          "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+          "5": "Explains the sequence and its effect on agricultural activity, allowing variability rather than an invariably benign Nile."
+        },
+        "boundary": "No exact modern months, Sirius date or compulsory Mesopotamian contrast."
+      },
+      "pw_example": {
+        "id": "PW.D3.01",
+        "dimension": "D3",
+        "title": "Historical explanation rather than resemblance",
+        "question": "Which essay better explains how agricultural experience could shape mythology without treating a resemblance as proof of historical origin?",
+        "anchors": {
+          "0": "The historical inferences are comparably convincing, or neither goes beyond unsupported resemblance; distinguish these cases.",
+          "1": "A develops the agriculture-to-myth inference slightly more convincingly, although B may explain one correspondence or qualification better.",
+          "2": "A's main historical explanation is substantially better grounded and qualified.",
+          "-2": "B's main historical explanation is substantially better grounded and qualified.",
+          "-1": "B develops the agriculture-to-myth inference slightly more convincingly, although A may explain one correspondence or qualification better."
+        },
+        "boundary": "Follow the actual process-to-myth claim: for example, if a sowing/burial or seasonal-renewal parallel is used, ask what supports that reading and what it cannot establish. No compulsory Osiris mapping, environmental determinism, rival-theory checklist or universal agrarian origin. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2. Compare the central historical inferences using the same importance and warrant criteria for A and B; equally consequential opposite advantages are0, rather than choosing a favorable example for one essay."
+      }
+    }
+  ],
+  "human_alignment": [
+    {
+      "method": "Hybrid framework",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.602,
+      "ci": [
+        77.5,
+        93.75
+      ]
+    },
+    {
+      "method": "Direct",
+      "agreement": 83.75,
+      "kappa": 0.709,
+      "macro_f1": 0.596,
+      "ci": [
+        76.25,
+        91.25
+      ]
+    },
+    {
+      "method": "OpenRS",
+      "agreement": 78.75,
+      "kappa": 0.634,
+      "macro_f1": 0.614,
+      "ci": [
+        68.75,
+        87.5
+      ]
+    },
+    {
+      "method": "Source protocols",
+      "agreement": 63.75,
+      "kappa": 0.368,
+      "macro_f1": 0.589,
+      "ci": [
+        52.5,
+        73.75
+      ]
+    }
+  ],
+  "ablations": [
+    {
+      "method": "Full framework",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.602
+    },
+    {
+      "method": "PT-only",
+      "agreement": 77.5,
+      "kappa": 0.601,
+      "macro_f1": 0.555
+    },
+    {
+      "method": "PW-only",
+      "agreement": 82.5,
+      "kappa": 0.679,
+      "macro_f1": 0.579
+    },
+    {
+      "method": "No verification scoring feedback",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.601
+    },
+    {
+      "method": "Summary representation",
+      "agreement": 83.75,
+      "kappa": 0.702,
+      "macro_f1": 0.588
+    }
+  ],
+  "cross_judge": [
+    {
+      "judge": "GPT-5.5",
+      "order_agreement": 91.81,
+      "reversals": 6.31,
+      "rho": null,
+      "icc": null,
+      "bias": null
+    },
+    {
+      "judge": "DeepSeek-v4-flash (thinking)",
+      "order_agreement": 84.42,
+      "reversals": 14.1,
+      "rho": 1.0,
+      "icc": 0.916,
+      "bias": 0.936
+    },
+    {
+      "judge": "Gemini 2.5 Pro",
+      "order_agreement": 82.94,
+      "reversals": 15.29,
+      "rho": 0.4,
+      "icc": 0.685,
+      "bias": 4.42
+    }
+  ],
+  "controlled_revisions": {
+    "queries": 32,
+    "variants": 96,
+    "resolved": 82,
+    "unresolved": 14,
+    "label_type": "Model-generated agent-consensus silver labels, not human ground truth",
+    "rows": [
+      {
+        "change": "Degradation → lower",
+        "n": 27,
+        "hybrid": 27,
+        "pointwise": 9,
+        "source": 12
+      },
+      {
+        "change": "Improvement → higher",
+        "n": 40,
+        "hybrid": 33,
+        "pointwise": 22,
+        "source": 9
+      },
+      {
+        "change": "Equivalent → unchanged",
+        "n": 15,
+        "hybrid": 3,
+        "pointwise": 1,
+        "source": 4
+      },
+      {
+        "change": "Overall direction",
+        "n": 82,
+        "hybrid": 63,
+        "pointwise": 32,
+        "source": 25
+      }
+    ]
+  },
+  "validation_scope": "Validation experiments use the original seven-system report set; the leaderboard uses nine systems.",
+  "metric_provenance": "Human-alignment and ablation values are transcribed from Tables 5 and 7 of the final 2026-10-13 paper PDF; leaderboard values are checked against the nine-system result JSON.",
+  "leaderboard_protocol": {
+    "judge": "GPT-5.5",
+    "reasoning": "medium",
+    "verifier": "deepseek-v4.1-flash",
+    "verifier_reasoning": "disabled",
+    "note": "Leaderboard model names identify report-generation systems, not the judge."
+  },
+  "download_scope": "Includes all 40 original queries, criterion counts, and selected fields from one pointwise and one pairwise example per task (80 examples total). It does not include all 1,099 criteria. Unfinished experiment plans and preflight results are excluded."
+}

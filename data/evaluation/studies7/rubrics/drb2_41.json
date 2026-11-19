@@ -1,0 +1,1528 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:41",
+  "language": "zh",
+  "title": "低代码技术与市场",
+  "full_query": "我最近对“低代码开发”（Low-Code Development）这个概念很感兴趣，想请你帮我做一份全面的市场和技术调研。请你重点考察**截至2021年底**的行业状况，整理出以下几方面的信息：\n\n1.  **核心技术基础**：请列出支撑低代码开发的关键技术或设计范式。比如，它背后用到了哪些编程理念或技术架构？\n2.  **主要应用领域**：低代码平台主要被用来开发哪些类型的应用或解决哪些领域的业务问题？\n3.  **主流平台与工具**：请列出市面上主流的低代码平台或工具。\n4.  **公认的业务优势**：业界普遍认为使用低代码开发能带来哪些好处？\n\n请将你的调研结果分为“核心技术基础”、“主要应用领域”、“主流平台与工具”和“公认的业务优势”四个部分进行清晰的呈现。在每个部分，不仅要列出条目，还希望能有一段总结分析，说明这些技术、领域、工具、优势之间是否存在什么有趣的内在联系或发展趋势。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Modelling in low-code development: a multi-vocal systematic review', 'authors': ['Alessio Bucaioni', 'Antonio Cicchetti', 'Federico Ciccozzi'], 'urls': ['https://link.springer.com/article/10.1007/s10270-021-00964-0', 'https://www.researchgate.net/publication/357937892_Modelling_in_low-code_development_a_multi-vocal_systematic_review', 'https://www.semanticscholar.org/paper/Modelling-in-low-code-development%3A-a-multi-vocal-Bucaioni-Cicchetti/2f25601fa5db68904a5bfbcebc7247610b4a84f5', 'https://www.es.mdu.se/publications/6377-Modelling_in_low_code_development__a_multi_vocal_systematic_review', 'https://conf.researchr.org/details/models-2022/models-2022-journal-first/72/Modelling-in-low-code-development-a-multi-vocal-systematic-review']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "建模与声明式抽象",
+      "question": "报告是否说明模型、领域表达和声明式描述怎样减少手写实现？",
+      "anchors": {
+        "1": "无建模抽象。",
+        "2": "仅MDE或抽象标签。",
+        "3": "有模型但领域表达/声明内容或与实现的关系不清。",
+        "4": "模型、领域语义及实现关系明确，少量限制欠缺。",
+        "5": "说明模型驱动、领域化表达和描述目标行为的作用及与实现的联系，不把拖拽界面等同完整语义模型。"
+      },
+      "boundary": "无需每个平台都有DSL产品或同一种MDE实现；调研须介绍这些技术范式及其适用差异。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:2",
+          "drb2:41:info_recall:6",
+          "drb2:41:info_recall:9"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Web与移动应用",
+      "question": "报告是否说明低代码开发Web和移动应用的主要用途及差异？",
+      "anchors": {
+        "1": "无Web或移动应用。",
+        "2": "仅两个名称。",
+        "3": "仅一形态用途具体，另一面缺失或业务问题不明。",
+        "4": "两类用途具体，少量终端限制不清。",
+        "5": "说明Web与移动应用各解决何种交互/访问需求，区分终端交付形态及相关使用条件。"
+      },
+      "boundary": "不强制原生/混合技术全部采用或应用品牌；不能用行业名代替交付形态。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:16",
+          "drb2:41:info_recall:17"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "主流平台和工具",
+      "question": "报告是否列出截至2021年底可辨认的主流低代码平台或工具？",
+      "anchors": {
+        "1": "没有平台名单。",
+        "2": "只给公司或技术类别，无法辨认产品。",
+        "3": "有相关产品，但名单过于狭窄、混入非低代码工具未解释，或主要产品历史状态不明。",
+        "4": "主流产品名称及基本定位清楚，只有少量产品线或历史状态歧义。",
+        "5": "多个主流平台/工具可辨认，说明基本定位并区分公司与产品、当时在用与已停用的历史项目；名单有代表性而非单一生态宣传。"
+      },
+      "boundary": "Mendix、OutSystems、Power Apps、Salesforce相关产品、Zoho Creator、Appian为官方核对线索，不是每个名字必出现的固定集合。不能因题目要求截至2021年底就把更早出现但已停用的项目直接称作当时在售主流。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:41:info_recall:25",
+          "drb2:41:info_recall:26",
+          "drb2:41:info_recall:27",
+          "drb2:41:info_recall:28",
+          "drb2:41:info_recall:30",
+          "drb2:41:info_recall:31"
+        ],
+        "query_quotes": [
+          "主流的低代码平台或工具"
+        ],
+        "change_note": "保留主流产品覆盖，增加产品/公司及历史状态边界，不强制指定厂商全名单。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "开发效率与经济回报",
+      "question": "报告是否说明自动化与快速试验怎样改善开发时间、前期投入或经济回报？",
+      "anchors": {
+        "1": "无效率或经济收益。",
+        "2": "只有省时省钱口号。",
+        "3": "速度或投入回报只谈一面，或无法说明节约的工作。",
+        "4": "效率与经济意义清楚，少量条件欠缺。",
+        "5": "说明减少重复开发、快速原型/试错怎样影响周期与投入回报，区分前期节省和许可/维护等全周期成本。"
+      },
+      "boundary": "不保证ROI必提高或固定节省比例；自动化技术介绍不直接算经济解释。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:32",
+          "drb2:41:info_recall:35",
+          "drb2:41:analysis:2",
+          "drb2:41:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "四部分和逐项列示",
+      "question": "报告是否按指定四部分清楚列出相应条目？",
+      "anchors": {
+        "1": "无法辨认四部分。",
+        "2": "只对应部分主题，多数内容混排。",
+        "3": "四主题能辨认，但缺一个部分的独立呈现或条目多数埋在连续文字中。",
+        "4": "四部分和条目清楚，只有少量标题或列示边界欠清。",
+        "5": "“核心技术基础”“主要应用领域”“主流平台与工具”“公认的业务优势”四部分清楚，各部分条目可辨认。"
+      },
+      "boundary": "不强制某种项目符号；表格、编号或清楚的分项均可。这里只看规定形式，不因列表更长加分。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:41:presentation:1",
+          "drb2:41:presentation:2"
+        ],
+        "query_quotes": [
+          "四个部分进行清晰的呈现"
+        ],
+        "change_note": "保留四部分及分项呈现，将固定列表语法放宽为可辨条目。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "每部分总结分析",
+      "question": "报告是否在每个部分提供总结，说明联系或发展趋势而不只是重复名单？",
+      "anchors": {
+        "1": "没有任何总结分析。",
+        "2": "只有空泛小结或重复条目。",
+        "3": "有实质总结，但至少一部分缺失，或只在文末给总括而未分别回应四部分。",
+        "4": "四部分均有实质总结，少量联系对象或趋势时期不清。",
+        "5": "每部分均有可辨总结分析，指出所列内容之间的联系或趋势及其对象，不以重复清单替代。"
+      },
+      "boundary": "按题面要求每部分都有，不把官方允许仅文末总结放宽为本题要求。这里检查有无实质关系陈述；关系解释和洞察优劣由PW比较。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:41:presentation:3"
+        ],
+        "query_quotes": [
+          "在每个部分，不仅要列出条目，还希望能有一段总结分析"
+        ],
+        "change_note": "按题面收紧官方每部分或文末的条件，保留总结对象，新增混合缺失档位。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "截至2021年底的范围",
+      "question": "报告是否将行业、平台和趋势判断限定为截至2021年底的情况？",
+      "anchors": {
+        "1": "主体回答此后的行业情况。",
+        "2": "多处将后来产品或能力写成2021年已有，实质改变结论。",
+        "3": "主体时期正确，但有重要未标明时间的后期信息混入。",
+        "4": "时间边界清楚，只有次要状态日期不明。",
+        "5": "主要产品、技术能力和趋势均有截至2021年底的边界；后发表回顾资料明确用于说明此前事实。"
+      },
+      "boundary": "不把后发表文献本身等同于越界；历史产品的停用状态应与其出现时间分清。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "截至2021年底"
+        ],
+        "change_note": "题面派生时间约束，官方无独立完整时间项。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "最终报告禁源使用",
+      "question": "报告是否避免以题面指定的低代码多声部系统综述支撑结论？",
+      "anchors": {
+        "1": "明确用指定禁源支撑核心论点。",
+        "2": "用于多个实质次要论点。",
+        "3": "用于一个局部实质论点。",
+        "4": "只出现在参考文献，未见正文实质取用。",
+        "5": "完整最终报告未见指定禁源引用或取用；复述禁源清单不算使用。"
+      },
+      "boundary": "只按最终可观察使用判定，不推断浏览历史；同类概念相同不证明取用。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Modelling in low-code development: a multi-vocal systematic review"
+        ],
+        "change_note": "题面派生禁源检查，限定可观察证据。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "历史行业主张可追溯",
+      "question": "报告的重要平台状态、采用情况和优势主张能否对应到具体来源？",
+      "anchors": {
+        "1": "重要主张没有可辨依据。",
+        "2": "只有业内普遍认为等泛称。",
+        "3": "有来源清单，但重要产品或行业主张与出处对应含糊。",
+        "4": "多数重要主张可追溯，仅少量归属不明。",
+        "5": "关键平台、时期与行业判断均对应可辨来源或可检查推导，厂商自述与第三方判断的归属清楚。"
+      },
+      "boundary": "不因无URL扣分；可找到厂商文档不等于该文档支持行业普遍结论。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增历史产品与行业结论追溯审计。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内事实支持",
+      "question": "在已完成核验的样本内，来源是否支持报告的平台能力、日期和业务优势主张？",
+      "anchors": {
+        "1": "核心已核验主张与取得证据矛盾或依据不成立。",
+        "2": "多个重要已核验主张有实质支持错误。",
+        "3": "部分支持成立，但仍有影响判断的产品、日期或适用范围错配。",
+        "4": "重要已核验主张成立，只有次要措辞或归属问题。",
+        "5": "全部已判断主张与取得证据的产品、版本、时期和强度相符；未核验部分不作保证。"
+      },
+      "boundary": "公布选中及完成核验数；访问失败须记录和重试，不能作低分、默认满分或NA。此处只制定标准，不执行外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增事实支持审计，与引用可定位分开。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "技术和产品陈述一致",
+      "question": "报告内部对低代码、无代码、产品能力及历史状态的说法是否一致？",
+      "anchors": {
+        "1": "核心概念或产品陈述相互冲突，无法辨认所述市场。",
+        "2": "有实质影响主结论的未解释冲突。",
+        "3": "存在局部重要冲突，但主要内容仍可辨认。",
+        "4": "核心陈述一致，只有容易澄清的小歧义。",
+        "5": "检查的概念范围、产品身份、时期与能力前后一致；不同平台或版本的差异有说明。"
+      },
+      "boundary": "不强求低代码/无代码只有一种定义，但须保持自身边界一致；不作外部真实性担保。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增概念与历史状态一致性审计。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "可视化编程与界面构建",
+      "question": "报告是否说明可视化表达和GUI操作在构建应用中的不同角色？",
+      "anchors": {
+        "1": "无可视化/GUI内容。",
+        "2": "只说拖拽方便。",
+        "3": "有界面描述但未说明怎样表达逻辑或组织界面。",
+        "4": "逻辑表达与界面构建角色明确，少量条件欠缺。",
+        "5": "说明可视化如何表达流程/行为及GUI怎样支持交互配置，分清开发工具界面与生成应用界面。"
+      },
+      "boundary": "不要求图例或品牌控件；两种GUI角色可同段解释。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:3",
+          "drb2:41:info_recall:5"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "组件组织与复用",
+      "question": "报告是否说明低代码如何用组件构建并复用应用能力？",
+      "anchors": {
+        "1": "无组件内容。",
+        "2": "只列组件库。",
+        "3": "有复用动作但接口、组合方式或适用边界不明。",
+        "4": "组件组合与复用关系具体，少量条件欠缺。",
+        "5": "说明组件封装、接口和组合怎样减少重复实现，并说明可替换、升级或复用条件。"
+      },
+      "boundary": "不强制特定组件标准；本项查技术组织，业务维护收益另查19。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:4"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "应用实现与运行",
+      "question": "报告是否解释低代码描述怎样转为可执行应用，以及Web技术等运行基础的作用？",
+      "anchors": {
+        "1": "无实现运行说明。",
+        "2": "只有一键生成标签。",
+        "3": "生成/解释或运行承载只说一面，或把配置直接等同执行。",
+        "4": "描述到行为和运行基础明确，少量条件缺失。",
+        "5": "说明代码生成或解释执行等实现方式及其差异，联系Web/应用运行环境解释如何承载应用行为。"
+      },
+      "boundary": "不要求所有平台输出源码；须说明生成与解释等可有不同实现，不以单个平台代表全部。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:8",
+          "drb2:41:info_recall:11"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "数据持久化与系统连接",
+      "question": "报告是否说明数据库与API/连接器怎样支持低代码应用的数据和外部系统交互？",
+      "anchors": {
+        "1": "无数据或集成基础。",
+        "2": "只列数据库/API。",
+        "3": "持久化或外部连接一面缺失，或数据流不明。",
+        "4": "存储与接口作用具体，少量权限/映射条件欠缺。",
+        "5": "说明应用如何定义/读写持久数据、通过接口与既有系统交换信息，并交代映射或访问边界。"
+      },
+      "boundary": "不要求数据库品牌或协议；不同平台抽象不免除存储和互联范围。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:14",
+          "drb2:41:info_recall:15"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "部署与开发运维支撑",
+      "question": "报告是否说明云/PaaS交付和开发运维流程如何支撑低代码应用生命周期？",
+      "anchors": {
+        "1": "无部署运维基础。",
+        "2": "只有上云或DevOps标签。",
+        "3": "有部署位置但平台托管角色或构建、发布、运维联系不清。",
+        "4": "托管/部署与生命周期流程清楚，少量条件欠缺。",
+        "5": "说明云/PaaS及可选本地部署的职责差异，交代构建、发布、更新和运维如何衔接及平台承担什么。"
+      },
+      "boundary": "不强制采用云或某流水线；讨论云/PaaS类别与DevOps角色，不是给所有平台强加能力。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:7",
+          "drb2:41:info_recall:10",
+          "drb2:41:info_recall:13"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "技术沿革与快速开发",
+      "question": "报告是否说明低代码与模型驱动及快速应用开发思想的延续和区别？",
+      "anchors": {
+        "1": "无技术沿革。",
+        "2": "只说全新革命或旧瓶新酒。",
+        "3": "提到前身但思想联系、快速开发迭代或区别不清。",
+        "4": "连续性、迭代作用与差别具体，少量历史范围不清。",
+        "5": "解释模型驱动/快速应用开发思想如何延续到低代码的构建、试验与迭代，并区分思想延续和平台商业实现。"
+      },
+      "boundary": "不强制2018学术起点或低代码等于MDE的唯一结论；无须历史年表。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:12",
+          "drb2:41:analysis:1"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "企业流程与数据应用",
+      "question": "报告是否说明低代码用于企业服务、业务流程和数据应用解决什么问题？",
+      "anchors": {
+        "1": "无企业用途。",
+        "2": "只有企业数字化标签。",
+        "3": "服务、流程或数据应用主要一面缺失，或业务对象不明。",
+        "4": "三类功能与业务问题具体，少量边界不清。",
+        "5": "说明企业服务协同、流程编排/办理和数据录入查询管理的具体用途，分清应用问题而非仅技术组件。 说明流程数字化如何改变办理/协同，而非只把纸表搬到屏幕。"
+      },
+      "boundary": "同一企业案例可涵盖多个功能，但每个功能须实质说明；不要求行业名单。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:18",
+          "drb2:41:info_recall:19",
+          "drb2:41:info_recall:23",
+          "drb2:41:info_recall:44"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "应用成熟度与部署条件",
+      "question": "报告是否说清所介绍应用的实际使用阶段及部署条件，避免把探索或原型写成成熟应用？",
+      "anchors": {
+        "1": "未说明应用的实际使用情况，或将研究原型明确误述为已成熟部署。",
+        "2": "只说某类应用可行或已有应用，无法辨认是探索、试点还是实际部署。",
+        "3": "说明了应用的使用阶段，但没有说明支撑其部署判断的具体条件。",
+        "4": "使用阶段清楚，并说明与该应用直接相关的部署条件，但未说明这些条件如何限制适用范围。",
+        "5": "使用阶段和部署条件清楚，并说明条件对适用范围的限制；不把个别试点或特定平台能力概括为普遍成熟。"
+      },
+      "boundary": "物联网、安全关键或新兴场景均非必答，可用报告所介绍的主流应用说明。不要求逐一使用探索、试点、部署等固定标签，也不要求虚构限制。本项检查成熟度及条件的说明；PW.D4.01比较应用适合性分析的相对价值，不因满足本项而自动判优。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:20",
+          "drb2:41:info_recall:24"
+        ],
+        "query_quotes": [],
+        "change_note": "取消IoT与安全关键研究同时必答的要求；改查所介绍应用的成熟度与部署条件。官方指定领域召回要求不再保留，原来源仅记录设计沿革。"
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "行业业务应用",
+      "question": "报告是否用有代表性的行业场景，说明低代码解决什么具体业务问题？",
+      "anchors": {
+        "1": "没有行业应用，或对其业务用途的核心解释错误。",
+        "2": "仅列行业名称或笼统称用于行业数字化，没有具体业务问题。",
+        "3": "给出具体行业应用和业务问题，但未说明低代码功能如何回应该问题。",
+        "4": "说明行业业务问题与低代码功能的对应关系，但行业特有需求及其影响仍不清楚。",
+        "5": "以有代表性的场景说明业务问题、低代码功能及行业特有需求之间的关系，解释这些需求如何影响应用方式，而非仅给通用表单换上行业名称。"
+      },
+      "boundary": "医疗、教育仅为例子，不要求固定行业组合、案例数量或敏感信息与教学服务配额。代表性按与题目截至2021年底主要应用领域的关系判断，不按是否命中指定行业名判断。PT.D1.15检查通用企业功能，本项检查具体行业需求，不重复按功能数量计分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:21",
+          "drb2:41:info_recall:22"
+        ],
+        "query_quotes": [],
+        "change_note": "取消医疗、教育及其背后需求组合的必答配额；保留行业业务问题解释。官方指定行业召回要求不再保留。"
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "抽象交互与使用门槛",
+      "question": "报告是否说明抽象及GUI开发怎样改变不同技能使用者的开发门槛？",
+      "anchors": {
+        "1": "无使用者收益。",
+        "2": "只说人人可开发。",
+        "3": "有易用说法但目标用户、减少什么知识负担或限制不清。",
+        "4": "用户、降低的负担及保留技能要求清楚，少量条件欠缺。",
+        "5": "说明抽象/交互怎样帮助较少编程经验者及专业开发者，并说明仍需的业务、数据或技术能力。"
+      },
+      "boundary": "不强制公民开发者术语，不把低门槛等同无需技能；技术表现由01/09查。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:33",
+          "drb2:41:info_recall:34",
+          "drb2:41:info_recall:37",
+          "drb2:41:analysis:3",
+          "drb2:41:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.19",
+      "dimension": "D1",
+      "title": "复用、调整与维护收益",
+      "question": "报告是否解释复用和定制调整怎样影响业务灵活性及后续维护？",
+      "anchors": {
+        "1": "无调整维护收益。",
+        "2": "只有灵活可维护等标签。",
+        "3": "复用、调整或维护主要方面缺失，或未说明业务后果。",
+        "4": "三方面关系具体，少量升级/扩展条件不明。",
+        "5": "说明复用已有能力、修改适配业务及集中维护的可能收益和限制，区分应用定制与平台本身的扩展。"
+      },
+      "boundary": "不保证所有平台可无限扩展；技术接口本身不重复计业务收益。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:38",
+          "drb2:41:info_recall:40",
+          "drb2:41:info_recall:41",
+          "drb2:41:info_recall:42",
+          "drb2:41:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.20",
+      "dimension": "D1",
+      "title": "互操作、开放与锁定",
+      "question": "报告是否说明低代码的互联开放能力及厂商锁定怎样影响采用和迁移？",
+      "anchors": {
+        "1": "无互联或锁定讨论。",
+        "2": "只有开放/封闭标签。",
+        "3": "只谈连接便利或迁移约束一面，或数据/应用可迁移性不明。",
+        "4": "接口互联与迁移边界清楚，少量许可或格式条件未明。",
+        "5": "说明连接既有系统、导出/迁移数据与应用及定制扩展的边界，分析平台依赖对业务选择的后果。"
+      },
+      "boundary": "不预设开放或锁定为所有产品共有；须讨论该权衡而非选择一个有利标签。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:36",
+          "drb2:41:info_recall:43",
+          "drb2:41:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    },
+    {
+      "id": "PT.D1.21",
+      "dimension": "D1",
+      "title": "安全隐私的收益条件",
+      "question": "报告是否说明平台化开发可能提供的安全隐私支持及其责任边界？",
+      "anchors": {
+        "1": "无安全隐私内容。",
+        "2": "只称低代码更安全。",
+        "3": "有保护功能但隐私/访问风险、适用条件或责任边界不明。",
+        "4": "保护、风险及责任具体，少量条件未明。",
+        "5": "说明平台提供的权限、审计或数据保护支持怎样带来治理收益，同时限定配置、敏感数据和使用者责任，不作通用安全保证。"
+      },
+      "boundary": "不强制某认证或功能全列；有据认为收益有限可充分，完全不谈不能以开放性内容替代。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:info_recall:39"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "技术怎样产生业务效果",
+      "question": "哪篇更能解释低代码技术与开发门槛、效率或应用能力之间的因果联系？",
+      "anchors": {
+        "0": "两篇对技术产生业务效果的解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。 同等重要交叉优势抵销也判0并说明。",
+        "1": "综合比较，A对一条重要技术—业务效果关系的解释略好；B仍可能在局部更好。",
+        "2": "A对技术怎样改变开发过程及业务效果的解释明显更成立；B的局部优点不足以弥补这一差距。",
+        "-2": "B对技术怎样改变开发过程及业务效果的解释明显更成立；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一条重要技术—业务效果关系的解释略好；A仍可能在局部更好。"
+      },
+      "boundary": "可检查模型抽象与自动化、可视化与交互开发、组件复用等真实联系，但不要求固定技术全部出现。MDE传统与低代码的连续性可澄清机制，不能仅靠宣称全新或换名证明创新。公民开发者不是唯一用户群。 比较全文与中心结论相关的实际解释，用相同重要性依据列双方正反差异；相反优势同等重要且抵销为0，净优势才±1，关键净优势不被局部抵销才±2。不得选择单个有利机制代替全文，也不按PT覆盖数比较。 PT.D1.04/18等已检查必要的技术—收益关系及基本条件；仅补齐该关系、解释其业务含义或达到PT高档，不自动构成本项优势。本项须定位具体前提到结论的推导，指出双方在解释为何成立、何时不成立上的实质差异，以及该差异如何改变全文重要结论的可信程度；同一材料可以使用，但不得再次奖励PT内容完整性。例如假设检验、替代解释或条件变化均可提供判断依据，非必做方法清单。若差异只有PT已评内容的有无，而没有额外的推导成立性差异，本项不据此判胜。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:analysis:1",
+          "drb2:41:analysis:2",
+          "drb2:41:analysis:3",
+          "drb2:41:analysis:4",
+          "drb2:41:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "合并相关机制解释，保留历史连续性、应用范围和开发门槛线索，去掉唯一MDE路线和固定因果结论。 定向修复R1：保留PT必要关系检查，PW须说明额外的推导成立性差异，不重复奖励PT高档解释或覆盖。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "应用适合性与限制",
+      "question": "哪篇更帮助读者判断低代码适合何种业务需求、又在哪些条件下受到限制？",
+      "anchors": {
+        "0": "两篇对采用低代码的适用判断帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A对一项重要应用适合性或限制提供略多判断帮助；B仍可能在局部更好。",
+        "2": "A明显更能将业务需求、平台能力和实际限制连成有用的采用判断；B的局部优点不足以弥补这一差距。",
+        "-2": "B明显更能将业务需求、平台能力和实际限制连成有用的采用判断；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一项重要应用适合性或限制提供略多判断帮助；A仍可能在局部更好。"
+      },
+      "boundary": "快速原型的收益、锁定和定制限制是可检查的实际权衡，不是每篇必做的选型模型。不以风险清单长度或某厂商获胜判断；必须说明判断后果，不重复奖技术机制正确。 PT.D1.04已检查效率与经济意义，PT.D1.19/20已检查调整维护和锁定迁移对业务的后果；仅复述这些后果或补齐PT缺面，不自动构成本项优势。本项须进一步说明实际需求中什么更重要、已有能力与约束如何权衡，以及这怎样改变采用范围、优先次序或适用条件；不要求新设采购模型、指定厂商或额外推荐章节。同一材料只有带来上述额外判断帮助才在此比较，不因PW.D3.01推理更成立再加一次分。比较全文实际采用判断，以双方相同的任务重要性依据列明相反优势；相近、同等重要优势抵销或双方均无额外帮助判0并说明，净优势略好才±1，明显净优势不被局部贡献抵销才±2。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:analysis:8",
+          "drb2:41:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "保留快速试错与锁定、定制的使用后果，不强迫某一推荐或完整采购方案。 定向修复R1：相对采用判断须超出PT已评后果，明确需求优先级与实际权衡的额外贡献，不另强制选型方法。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "市场与技术图景的综合认识",
+      "question": "哪篇更能从所列技术、用途和平台中提炼对截至2021年底行业状况有用的联系或趋势？",
+      "anchors": {
+        "0": "两篇对行业图景的综合帮助相近；理由须区分双方帮助相近与双方均无相关帮助。 同等重要交叉优势抵销也判0并说明。",
+        "1": "综合比较，A对一项重要行业联系或趋势给出略有更多价值的解释；B仍可能在局部更好。",
+        "2": "A明显更能区分已有技术基础、平台定位与行业讨论重点，形成有依据的市场认识；B的局部优点不足以弥补这一差距。",
+        "-2": "B明显更能区分已有技术基础、平台定位与行业讨论重点，形成有依据的市场认识；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一项重要行业联系或趋势给出略有更多价值的解释；A仍可能在局部更好。"
+      },
+      "boundary": "只有罗列技术或四段小结不构成比较优势。若区分应用使用者与平台开发者的讨论、复用的能力与宣传关注，须说明证据范围；不要求复现某综述的频率结论，也不要求所有这些路线。 比较全文与中心结论相关的实际解释，用相同重要性依据列双方正反差异；相反优势同等重要且抵销为0，净优势才±1，关键净优势不被局部抵销才±2。不得选择单个有利机制代替全文，也不按PT覆盖数比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:analysis:6",
+          "drb2:41:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "保留能力与讨论重点、使用与平台开发的综合区分，不把文献频率或指定视角设为共同义务。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "行业证据代表性",
+      "question": "哪篇证据更适合支持所称的主流、普遍优势及发展趋势？",
+      "anchors": {
+        "0": "两篇证据对行业概括的帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在一项重要普遍化判断上使用了略更适配的证据；B仍可能在局部更好。",
+        "2": "A对关键行业概括有明显更能区分厂商宣传、个案与行业代表性的证据；B的局部优点不足以弥补这一差距。",
+        "-2": "B对关键行业概括有明显更能区分厂商宣传、个案与行业代表性的证据；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在一项重要普遍化判断上使用了略更适配的证据；A仍可能在局部更好。"
+      },
+      "boundary": "比较证据适用对象与概括范围，不按来源数或机构声望自动排名，也不把单一产品文档当全行业验证。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增行业代表性比较，不冒用官方个别术语条目作来源。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "四部分的整体推进",
+      "question": "哪篇原报告更便于从技术基础理解用途、平台及业务优势之间的联系？",
+      "anchors": {
+        "0": "两篇整体阅读顺序的帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在四部分的衔接与总结安排上略好；B仍可能在局部更好。",
+        "2": "A在全篇阅读推进与避免无效重复上明显更好；B的局部优点不足以弥补这一差距。",
+        "-2": "B在全篇阅读推进与避免无效重复上明显更好；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在四部分的衔接与总结安排上略好；A仍可能在局部更好。"
+      },
+      "boundary": "四部分是否齐全另由PT检查；本项看原文组织带来的理解路径，不默认篇幅短或重复少就更好。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "仅采用官方逻辑结构部分，全文组织与措辞分开比较。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "术语与业务表达",
+      "question": "哪篇更清楚地表达已有低代码概念、产品身份和业务收益？",
+      "anchors": {
+        "0": "两篇既有内容的表达帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在重要术语或业务句意上略易理解；B仍可能在局部更好。",
+        "2": "A对已写概念、产品和业务含义的表述明显更清楚；B的局部优点不足以弥补这一差距。",
+        "-2": "B对已写概念、产品和业务含义的表述明显更清楚；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在重要术语或业务句意上略易理解；A仍可能在局部更好。"
+      },
+      "boundary": "只评局部词句、缩写、指代和标签；不重评事实、全篇顺序或条目数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:41:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "采用官方语言流畅部分，改成可定位的概念与句意清晰度。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "查询产品或技术依据",
+      "question": "哪篇原报告更方便定位某个低代码产品、技术或优势及其所指依据？",
+      "anchors": {
+        "0": "两篇查找具体行业信息的帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A查找一项关键产品/技术信息及出处略方便；B仍可能在局部更好。",
+        "2": "A查找所需产品、时期和声称出处的路径明显更清楚；B的局部优点不足以弥补这一差距。",
+        "-2": "B查找所需产品、时期和声称出处的路径明显更清楚；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B查找一项关键产品/技术信息及出处略方便；A仍可能在局部更好。"
+      },
+      "boundary": "测试实际查找，不以表格或链接数量替代；引用存在归D2，可否容易找到在本项比较。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增按产品与技术的信息查找比较。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:41:info_recall:1",
+      "targets": [],
+      "reason": "学术研究2018年开始不是题面义务且缺原语料范围；不保留该起始年精确区分，未外核其真实性。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "学术研究2018年开始不是题面义务且缺原语料范围；不保留该起始年精确区分，未外核其真实性。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01：有模型但领域表达/声明内容或与实现的关系不清。；充分：说明模型驱动、领域化表达和描述目标行为的作用及与实现的联系，不把拖拽界面等同完整语义模型。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:3",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09：有界面描述但未说明怎样表达逻辑或组织界面。；充分：说明可视化如何表达流程/行为及GUI怎样支持交互配置，分清开发工具界面与生成应用界面。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:4",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10：有复用动作但接口、组合方式或适用边界不明。；充分：说明组件封装、接口和组合怎样减少重复实现，并说明可替换、升级或复用条件。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:5",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09：有界面描述但未说明怎样表达逻辑或组织界面。；充分：说明可视化如何表达流程/行为及GUI怎样支持交互配置，分清开发工具界面与生成应用界面。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01：有模型但领域表达/声明内容或与实现的关系不清。；充分：说明模型驱动、领域化表达和描述目标行为的作用及与实现的联系，不把拖拽界面等同完整语义模型。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:7",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13：有部署位置但平台托管角色或构建、发布、运维联系不清。；充分：说明云/PaaS及可选本地部署的职责差异，交代构建、发布、更新和运维如何衔接及平台承担什么。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:8",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11：生成/解释或运行承载只说一面，或把配置直接等同执行。；充分：说明代码生成或解释执行等实现方式及其差异，联系Web/应用运行环境解释如何承载应用行为。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:9",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01：有模型但领域表达/声明内容或与实现的关系不清。；充分：说明模型驱动、领域化表达和描述目标行为的作用及与实现的联系，不把拖拽界面等同完整语义模型。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:10",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13：有部署位置但平台托管角色或构建、发布、运维联系不清。；充分：说明云/PaaS及可选本地部署的职责差异，交代构建、发布、更新和运维如何衔接及平台承担什么。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:11",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11：生成/解释或运行承载只说一面，或把配置直接等同执行。；充分：说明代码生成或解释执行等实现方式及其差异，联系Web/应用运行环境解释如何承载应用行为。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:12",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14：提到前身但思想联系、快速开发迭代或区别不清。；充分：解释模型驱动/快速应用开发思想如何延续到低代码的构建、试验与迭代，并区分思想延续和平台商业实现。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:13",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13：有部署位置但平台托管角色或构建、发布、运维联系不清。；充分：说明云/PaaS及可选本地部署的职责差异，交代构建、发布、更新和运维如何衔接及平台承担什么。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:14",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12：持久化或外部连接一面缺失，或数据流不明。；充分：说明应用如何定义/读写持久数据、通过接口与既有系统交换信息，并交代映射或访问边界。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:15",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12：持久化或外部连接一面缺失，或数据流不明。；充分：说明应用如何定义/读写持久数据、通过接口与既有系统交换信息，并交代映射或访问边界。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:16",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02：仅一形态用途具体，另一面缺失或业务问题不明。；充分：说明Web与移动应用各解决何种交互/访问需求，区分终端交付形态及相关使用条件。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:17",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02：仅一形态用途具体，另一面缺失或业务问题不明。；充分：说明Web与移动应用各解决何种交互/访问需求，区分终端交付形态及相关使用条件。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:18",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：服务、流程或数据应用主要一面缺失，或业务对象不明。；充分：说明企业服务协同、流程编排/办理和数据录入查询管理的具体用途，分清应用问题而非仅技术组件。 说明流程数字化如何改变办理/协同，而非只把纸表搬到屏幕。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:19",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：服务、流程或数据应用主要一面缺失，或业务对象不明。；充分：说明企业服务协同、流程编排/办理和数据录入查询管理的具体用途，分清应用问题而非仅技术组件。 说明流程数字化如何改变办理/协同，而非只把纸表搬到屏幕。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:20",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "取消IoT与安全关键研究同时必答的要求；改查所介绍应用的成熟度与部署条件。官方指定领域召回要求不再保留，原来源仅记录设计沿革。",
+      "status": "adapted",
+      "discrimination_check": "不再因缺少官方指定案例扣分。当前检查：报告是否说清所介绍应用的实际使用阶段及部署条件，避免把探索或原型写成成熟应用？",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:21",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "取消医疗、教育及其背后需求组合的必答配额；保留行业业务问题解释。官方指定行业召回要求不再保留。",
+      "status": "adapted",
+      "discrimination_check": "不再因缺少官方指定案例扣分。当前检查：报告是否用有代表性的行业场景，说明低代码解决什么具体业务问题？",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:22",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "取消医疗、教育及其背后需求组合的必答配额；保留行业业务问题解释。官方指定行业召回要求不再保留。",
+      "status": "adapted",
+      "discrimination_check": "不再因缺少官方指定案例扣分。当前检查：报告是否用有代表性的行业场景，说明低代码解决什么具体业务问题？",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:23",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：服务、流程或数据应用主要一面缺失，或业务对象不明。；充分：说明企业服务协同、流程编排/办理和数据录入查询管理的具体用途，分清应用问题而非仅技术组件。 说明流程数字化如何改变办理/协同，而非只把纸表搬到屏幕。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:24",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "取消IoT与安全关键研究同时必答的要求；改查所介绍应用的成熟度与部署条件。官方指定领域召回要求不再保留，原来源仅记录设计沿革。",
+      "status": "adapted",
+      "discrimination_check": "不再因缺少官方指定案例扣分。当前检查：报告是否说清所介绍应用的实际使用阶段及部署条件，避免把探索或原型写成成熟应用？",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:25",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03将Mendix作为代表性产品核对线索，不复制每个指定品牌必出现的要求。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03将Mendix作为代表性产品核对线索，不复制每个指定品牌必出现的要求。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:26",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03将OutSystems作为名单线索；只遗漏该品牌不一定重现官方扣分。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03将OutSystems作为名单线索；只遗漏该品牌不一定重现官方扣分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:27",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03保留Power Apps产品身份线索，不要求固定品牌全集。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03保留Power Apps产品身份线索，不要求固定品牌全集。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:28",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03区分Salesforce公司与具体平台产品；不以公司名称出现本身满足全项。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03区分Salesforce公司与具体平台产品；不以公司名称出现本身满足全项。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:29",
+      "targets": [],
+      "reason": "Google App Maker需要核对截至2021年底产品生命周期，不能仅由官方列名就要求当时主流；其名称出现不保留为加分对象。未在本轮外核停用日期。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Google App Maker需要核对截至2021年底产品生命周期，不能仅由官方列名就要求当时主流；其名称出现不保留为加分对象。未在本轮外核停用日期。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:30",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03将Zoho Creator作为历史名单线索，不保证该品牌有无单独区分。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03将Zoho Creator作为历史名单线索，不保证该品牌有无单独区分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:31",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03将Appian作为核对线索，不强制某供应商组合。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03将Appian作为核对线索，不强制某供应商组合。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:32",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04：速度或投入回报只谈一面，或无法说明节约的工作。；充分：说明减少重复开发、快速原型/试错怎样影响周期与投入回报，区分前期节省和许可/维护等全周期成本。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:33",
+      "targets": [
+        "PT.D1.18"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18：有易用说法但目标用户、减少什么知识负担或限制不清。；充分：说明抽象/交互怎样帮助较少编程经验者及专业开发者，并说明仍需的业务、数据或技术能力。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:34",
+      "targets": [
+        "PT.D1.18"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18：有易用说法但目标用户、减少什么知识负担或限制不清。；充分：说明抽象/交互怎样帮助较少编程经验者及专业开发者，并说明仍需的业务、数据或技术能力。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:35",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04：速度或投入回报只谈一面，或无法说明节约的工作。；充分：说明减少重复开发、快速原型/试错怎样影响周期与投入回报，区分前期节省和许可/维护等全周期成本。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:36",
+      "targets": [
+        "PT.D1.20"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.20：只谈连接便利或迁移约束一面，或数据/应用可迁移性不明。；充分：说明连接既有系统、导出/迁移数据与应用及定制扩展的边界，分析平台依赖对业务选择的后果。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:37",
+      "targets": [
+        "PT.D1.18"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18：有易用说法但目标用户、减少什么知识负担或限制不清。；充分：说明抽象/交互怎样帮助较少编程经验者及专业开发者，并说明仍需的业务、数据或技术能力。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:38",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.19：复用、调整或维护主要方面缺失，或未说明业务后果。；充分：说明复用已有能力、修改适配业务及集中维护的可能收益和限制，区分应用定制与平台本身的扩展。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:39",
+      "targets": [
+        "PT.D1.21"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.21：有保护功能但隐私/访问风险、适用条件或责任边界不明。；充分：说明平台提供的权限、审计或数据保护支持怎样带来治理收益，同时限定配置、敏感数据和使用者责任，不作通用安全保证。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:40",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.19：复用、调整或维护主要方面缺失，或未说明业务后果。；充分：说明复用已有能力、修改适配业务及集中维护的可能收益和限制，区分应用定制与平台本身的扩展。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:41",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.19：复用、调整或维护主要方面缺失，或未说明业务后果。；充分：说明复用已有能力、修改适配业务及集中维护的可能收益和限制，区分应用定制与平台本身的扩展。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:42",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.19：复用、调整或维护主要方面缺失，或未说明业务后果。；充分：说明复用已有能力、修改适配业务及集中维护的可能收益和限制，区分应用定制与平台本身的扩展。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:43",
+      "targets": [
+        "PT.D1.20"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.20：只谈连接便利或迁移约束一面，或数据/应用可迁移性不明。；充分：说明连接既有系统、导出/迁移数据与应用及定制扩展的边界，分析平台依赖对业务选择的后果。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:info_recall:44",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：服务、流程或数据应用主要一面缺失，或业务对象不明。；充分：说明企业服务协同、流程编排/办理和数据录入查询管理的具体用途，分清应用问题而非仅技术组件。 说明流程数字化如何改变办理/协同，而非只把纸表搬到屏幕。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:1",
+      "targets": [
+        "PT.D1.14",
+        "PW.D3.01"
+      ],
+      "reason": "v3.3恢复原技术类别、应用范围或收益问题；不强制术语、唯一产品或无条件优势。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14：提到前身但思想联系、快速开发迭代或区别不清。；充分：解释模型驱动/快速应用开发思想如何延续到低代码的构建、试验与迭代，并区分思想延续和平台商业实现。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:2",
+      "targets": [
+        "PT.D1.04",
+        "PW.D3.01"
+      ],
+      "reason": "PT.D1.04保留效率与投入回报的关系及必要条件；PW.D3.01只比较超出该内容检查的具体推导成立性，不以MDE名称、PT高档或关系数量重奖。",
+      "status": "adapted",
+      "discrimination_check": "只缺效率或回报一面由PT.D1.04判3；关系均已说明后，PW须另指出双方前提到结论的实质差异及其可信程度影响，不能因同一解释已满足PT而自动判优。MDE与全部收益的固定强关联结论仍不强制。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:3",
+      "targets": [
+        "PT.D1.18",
+        "PW.D3.01"
+      ],
+      "reason": "PT.D1.18保留抽象/交互对用户知识负担的说明；PW.D3.01比较额外的因果解释成立性，不重复奖励已有技术—收益关系。",
+      "status": "adapted",
+      "discrimination_check": "目标用户、知识负担或限制不清由PT.D1.18识别；PW比较具体前提和条件为何支持重要解释，不因GUI/可视化名称或PT内容齐全自动判优。官方指定技术与GUI优势的固定直接因果结论未全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01比较技术跨用途的解释，但不要求MDE覆盖所有官方领域或称其通用基础。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01比较技术跨用途的解释，但不要求MDE覆盖所有官方领域或称其通用基础。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:5",
+      "targets": [
+        "PT.D1.18",
+        "PW.D3.01"
+      ],
+      "reason": "PT.D1.18保留不同技能用户的门槛和剩余能力要求；PW.D3.01只比较解释这些变化为何成立的额外推导贡献。",
+      "status": "adapted",
+      "discrimination_check": "缺目标用户、减少何种负担或必要限制由PT.D1.18处理；PW须定位额外成立性差异对重要结论的影响。公民开发者术语及唯一目标群体不强制，不以重复用户覆盖形成相对优势。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:6",
+      "targets": [
+        "PW.D4.02"
+      ],
+      "reason": "PW.D4.02可比较能力与讨论关注的差异；不要求复用被提及较少的原语料频率结论，其精确区分丢失。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.02可比较能力与讨论关注的差异；不要求复用被提及较少的原语料频率结论，其精确区分丢失。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:7",
+      "targets": [
+        "PT.D1.19",
+        "PW.D4.02"
+      ],
+      "reason": "仅恢复应用定制与平台本身扩展的对象区别；未恢复截至2021年使用工具的讨论较多、创建和定制平台的讨论较少这一研究关注不对称。PW.D4.02仍为可选行业综合路径，不保证检出该遗漏。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.19检查复用、调整、维护及两种定制对象，不检查研究讨论的数量或关注分布；PW.D4.02允许其他有依据的行业联系。完全未分析使用与平台创建的研究关注不对称，仍可能满足PT高档并在PW获得其他综合价值，因此该精确区分未保留，original_requirement_preserved继续为false；不强制未经本地范围证据确认的频率结论。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:8",
+      "targets": [
+        "PT.D1.04",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.04检查快速试验的效率、投入回报及成本条件；PW.D4.01比较需求优先级与能力约束权衡带来的额外采用判断，不重复奖励这些经济后果。",
+      "status": "adapted",
+      "discrimination_check": "速度或投入回报只谈一面由PT.D1.04判3；已说明经济后果不自动在PW判优，须说明其额外改变了什么采用范围或优先选择。快速原型并非每个业务必须采用的路线，官方特别适合的固定判断未全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:analysis:9",
+      "targets": [
+        "PT.D1.20",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.20检查互联、迁移及平台依赖的业务后果；PW.D4.01比较这些后果与实际需求、能力约束权衡后的额外采用判断。",
+      "status": "adapted",
+      "discrimination_check": "连接或迁移一面缺失由PT.D1.20判3；只增写锁定后果不能同时自动形成PW优势，须说明超出该PT后果的需求优先级或适用条件判断。对所有平台作相同锁定或定制不足的结论不强制。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:presentation:1",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05保留指定四部分及各自条目，缺部分有明确档位。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05保留指定四部分及各自条目，缺部分有明确档位。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:41:presentation:2",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "保留分项可辨，不强制所有部分只能使用列表而非表格。",
+      "status": "adapted",
+      "discrimination_check": "保留分项可辨，不强制所有部分只能使用列表而非表格。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:presentation:3",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06按题面要求每部分总结，不能仅文末一段满足；原更宽的或条件未保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06按题面要求每部分总结，不能仅文末一段满足；原更宽的或条件未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:41:presentation:4",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "PW.D5.01与PW.D6.01分别比较结构与表达；格式规整的纯美观维度不另评分。",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01与PW.D6.01分别比较结构与表达；格式规整的纯美观维度不另评分。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "本批机械检查已通过：Query原样、唯一ID、五档锚点、D1–D6覆盖、每条原子化记录及官方全量双向映射均已核对；仅限batch6，不代表独立语义审核或官方事实外核通过。",
+    "没有本批旧稿，按三题小修范式新建11PT/7PW。四部分各自必要内容、每部分总结与时间边界在PT；机制、采用判断、行业综合及证据/阅读价值在PW。",
+    "不把官方技术、平台、行业或优势清单全体锁为必选。逐项discrimination_check承认指定术语/品牌遗漏的精确区分损失；adapted不是保留全要求。",
+    "风险：官方学术起始年缺范围，App Maker等产品的生命周期须后续核实；安全、开放、ROI不能无条件作为通用优势。此处未核实任何外部产品事实。",
+    "原子化自检检查每条混合表现，未为数量拆分技术与作用、应用与问题。作者自检及机械校验不构成独立语义审核；未读取候选报告或评分。",
+    "v3.3: 旧技术/应用/优势三总项各可用局部内容满足高档。本轮按真实独立内容恢复建模、可视化、组件、执行、数据接口、部署运维；应用区分Web/移动、企业流程数据、设备/安全关键探索和行业需求；优势区分经济、用户门槛、维护调整、开放锁定、安全隐私。保留四部分、逐段总结与产品历史状态检查。",
+    "v3.3待审 / pending review: 非全平台必须具备所有能力：调研需要讨论领域与差异，有据说明不适用可以高档。行业替代须保留需求区别；安全关键仅研究探索不冒充成熟。2018唯一学术起点、App Maker固定名单及复用低频统计仍未恢复，缺本地范围证据；未外核。新增内容需复查相邻技术/收益重复使用风险。",
+    "review14_27_minimal_v1 第18题：仅修订PT.D1.16/17及对应来源、原子化记录。此前v3.3关于这两项须保留特定领域的说明为历史记录，以当前条目为准；未重新评测。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "revise",
+      "reason": "仅界面介绍不能代替语义模型；语法与含义关系保留，缺面3。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "Web详尽移动未答为3，反向同样处理。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "名单广但产品身份或历史状态不清判3；产品名称与当时状态不可分开核对。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "revise",
+      "reason": "开发快说清但没有投入回报含义为3。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "四主题可辨却缺分项的混合表现已判3；形式统一检查，不重评内容。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "其余三段总结很好但一段缺失仍判3；明确各部分缺失后不另拆四个小结分。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "主体时期正确但重要后期资料混入判3；单一时间范围检查。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "参考表出现和实质使用分别判4和1–3，按使用程度处理。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "来源存在但归属不明判3；不拆主张—来源关系。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "引用可定位但不支持可以独立失败，故支持与追溯分开；执行失败不算质量。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "局部和核心冲突各有档位，不拆同一产品的版本与时期。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "PT已有技术—收益内容不自动形成PW优势；A对抽象收益推导较强、B对交互收益条件较强时，定位双方额外解释成立性及对全文中心结论的影响，以相同任务重要性权衡，相抵0，净优势才±1/±2。不拆各条机制，也不按PT覆盖数或高档数判断。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "revise",
+      "reason": "适合与受限属于同一采用判断。PT已有成本、维护、迁移后果不重复奖励；A更能识别需求优先级而B更能说明能力约束时，比较其额外改变了什么采用范围或条件，以相同任务重要性权衡。相抵或双方均无额外判断为0并区分，净优势才±1/±2；不要求固定方法或强行新增推荐。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "revise",
+      "reason": "A抽象链强而B交互链强时同时处理其对中心结论的影响；相抵0，不以一个好例子自动定胜。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "个案支持强但行业外推弱属证据代表性混合表现，按重要概括判断。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "各段清楚却串联差属于全篇路径混合表现，0/±1可表达，不拆排序和重复。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "术语解释好但产品指代乱属于表达的局部差异，锚点按理解影响比较。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "能找到产品却找不到所指出处为未完成查找路径，不拆成重复便利奖励。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "界面配置好而逻辑表达缺失3，不拆每种控件。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "组件多而组合规则不明为3；接口与复用是同一关系。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "会描述建模但不解释运行3；生成与解释不是两条强制采用路线。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "数据表讲得好但完全没讲系统连接为3，反向同样处理。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "上云描述充分而没有发布更新运维关系3；部署动作与后续管理保留为生命周期对象。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "只说起源但不解释技术连续关系3。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "add",
+      "reason": "审批流程好不能代替数据应用与企业服务，只缺一主要功能为3。"
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "revise",
+      "reason": "只检查应用成熟度判断及其成立条件，不再将设备应用与安全关键探索捆绑。"
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "revise",
+      "reason": "只检查行业需求与应用功能的对应关系，不再将医疗与教育捆绑，也不按案例数量增档。"
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "add",
+      "reason": "GUI介绍充分但用户收益未解释为3，不能把控件数当易用性。"
+    },
+    {
+      "id": "PT.D1.19",
+      "decision": "add",
+      "reason": "复用好但变更维护完全未谈为3；名称可变而内容面不删。"
+    },
+    {
+      "id": "PT.D1.20",
+      "decision": "add",
+      "reason": "API功能强而不谈数据/应用迁出仍3；互联不等于可迁移。"
+    },
+    {
+      "id": "PT.D1.21",
+      "decision": "add",
+      "reason": "安全优势只做宣传为2；有功能无责任边界3。"
+    }
+  ]
+}

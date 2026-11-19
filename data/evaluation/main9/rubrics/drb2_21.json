@@ -1,0 +1,1494 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:21",
+  "language": "zh",
+  "title": "动物导航三类罗盘",
+  "full_query": "我正在整理一份关于动物导航能力的报告，需要一个关于动物如何利用环境因素来定位方向的详细章节。请你帮我调研并整理出一份详尽的资料，重点介绍动物使用的三种主要“指南针”机制：地磁罗盘（Magnetic Compass）、太阳罗盘（Sun Compass）和星辰罗盘（Star Compass）。\n\n具体要求如下：\n1.  首先，请为每一种罗盘机制提供一段详细的文字综述。内容需要覆盖：\n    *   其基本工作原理。\n    *   已知的不同工作模式（例如，地磁罗盘的“倾角罗盘”和“极性罗盘”有什么区别）。\n    *   主要有哪些动物类群在使用这种机制，请列举具体例子。\n    *   其背后的感官基础或科学界提出的主流理论模型（比如自由基对模型、磁铁矿等）。\n    *   这种能力是天生的还是后天学习的？如果是学习的，它们是如何校准的？\n    *   使用这种机制存在哪些依赖条件或局限性（例如，对光线、天气、时间的要求）。\n\n2.  在文字综述之后，请根据你调研到的信息，创建一个清晰的对比表格。表格应包含以下几列：【罗盘类型】、【工作原理】、【主要使用的动物类群】、【感官机制/理论模型】、【依赖与局限性】、【习得方式（先天/后天学习）】。表格的每一行对应一种罗盘机制。\n\n请确保所有信息都基于截至2022年的科学研究成果，并力求内容准确、全面。谢谢！\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Animal navigation: how animals use environmental factors to find their way', 'authors': ['Roswitha Wiltschko', 'Wolfgang Wiltschko'], 'urls': ['https://link.springer.com/article/10.1140/epjs/s11734-022-00610-w', 'https://epjst.epj.org/articles/epjst/abs/2023/02/11734_2022_Article_610/11734_2022_Article_610.html', 'https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way/', 'https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way-2/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.mag.principle",
+      "dimension": "D1",
+      "title": "地磁罗盘：工作原理与模式",
+      "question": "报告是否具体说明地磁罗盘的地磁方向信息及倾角、极性模式的差别？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解工作原理与模式。",
+        "3": "有部分具体说明，但只列倾角与极性名词或将二者都当磁北指针，或关键对象与条件不明。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明地磁方向定向，明确倾角模式利用磁力线倾斜而非极性、极性模式区分磁场极性；朝磁极/赤道与磁北/南的含义清楚。"
+      },
+      "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:2",
+          "drb2:21:info_recall:5",
+          "drb2:21:info_recall:6",
+          "drb2:21:info_recall:7",
+          "drb2:21:info_recall:16",
+          "drb2:21:analysis:1"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“地磁罗盘：工作原理与模式”：报告是否具体说明地磁罗盘的地磁方向信息及倾角、极性模式的差别？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。；保留倾角与极性的概念区别的判断，去掉唯一实验或绝对化结论。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.taxa",
+      "dimension": "D1",
+      "title": "地磁罗盘：使用类群与实例",
+      "question": "是否覆盖地磁定向的主要动物类群，并将具体实例对应到已知模式？",
+      "anchors": {
+        "1": "无类群实例。",
+        "2": "只有鸟类等笼统名称。",
+        "3": "有具体实例，但仅集中于一类动物，或遗漏重要脊椎/无脊椎类群及模式归属。 主要类群已列出但一种主要模式的类群归属整块未交代，也为3。",
+        "4": "鸟类、两栖、鱼、爬行、哺乳及软体、甲壳、昆虫的主要范围均交代，实例和模式大体对应，少量边界不清。",
+        "5": "覆盖上述主要类群且有可辨实例，说明鸟类/两栖/海龟的倾角证据与鱼、哺乳、龙虾等极性证据的适用范围；不确定归属明确，不把磁感受一概当罗盘。"
+      },
+      "boundary": "不强制每个官方物种名称；同类有据替例允许，但不能以一个鸟类案例代替类群广度。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:4",
+          "drb2:21:info_recall:8",
+          "drb2:21:info_recall:17"
+        ],
+        "query_quotes": [],
+        "change_note": "原不强制实例错误放宽为主要类群可以遗漏；恢复覆盖，类群与模式归属是一张证据分布关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.sensor",
+      "dimension": "D1",
+      "title": "自由基对机制及候选受体",
+      "question": "是否说明自由基对假说如何与倾角罗盘行为相容及其受体证据状态？",
+      "anchors": {
+        "1": "未说明自由基对假说。",
+        "2": "只列模型名。",
+        "3": "有反应或隐花色素说明，但极性不敏感与倾角行为的联系缺失，或受体被当作定论。",
+        "4": "说明方向相关反应、极性不敏感与倾角特征的联系及候选受体，少量证据边界略简。",
+        "5": "具体说明光诱导自由基反应对磁场轴向的响应为何与倾角而非极性定向相容，介绍视网膜隐花色素等候选基础及不确定性，区别行为相容、分子候选和完整感官机制确证。"
+      },
+      "boundary": "不强制Cry1a唯一受体或具体反应方程；模型所解释的行为仍必须明确。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:12",
+          "drb2:21:info_recall:13",
+          "drb2:21:info_recall:14",
+          "drb2:21:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "自由基对与磁铁矿可以分别好坏，拆出前者；内部模型—行为—证据界限是一条解释关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.learning",
+      "dimension": "D1",
+      "title": "地磁罗盘：习得与校准",
+      "question": "报告是否区分地磁定向能力的先天成分与经验学习成分，并说明适用类群？",
+      "anchors": {
+        "1": "未讨论地磁能力的习得。",
+        "2": "只有天生或学会的标签。",
+        "3": "具体说明先天或经验成分的一面，但另一面的证据状态或适用对象未交代。",
+        "4": "主要先天与经验成分及其适用对象清楚，仅次要限定略简。",
+        "5": "有据区分先天定向能力与需经验建立的参照，交代适用类群及尚不确定的部分；不把某类群结论推广到所有动物。"
+      },
+      "boundary": "只查先天与经验成分的区分；强度窗口、偏离后的定向变化和重新适应过程只在PT.D1.mag.intensity检查，其细节缺失不在此再次处罚。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“地磁罗盘：习得与校准”：报告是否具体说明地磁罗盘的地磁能力的先天成分、经验适应和校准？；本地设计五档与边界，不冒称官方原项复用。 交叉审核：新增强度项后移除本项对强度适应过程的重复要求，保留习得性质区分。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.limits",
+      "dimension": "D1",
+      "title": "磁罗盘的光谱与类群差异",
+      "question": "是否说明磁罗盘光依赖如何随类群和光谱条件不同？",
+      "anchors": {
+        "1": "没有光依赖说明。",
+        "2": "只称全天候或需要光。",
+        "3": "说明鸟类光依赖，但短/长波表现或与两栖、海龟的差异缺失。",
+        "4": "说明鸟类短波支持与长波失效的条件性证据及其他类群区别，少量实验条件略简。",
+        "5": "在证据物种范围内说明鸟类短波可定向和红光下受损的对照，并说明两栖与海龟不能照搬鸟类光依赖；报告相应差异或有据限定，不把一种光谱规则普遍化。"
+      },
+      "boundary": "不强制565/450nm为普遍阈值；同一光条件—类群响应关系，不重复强度适应。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:9",
+          "drb2:21:info_recall:10",
+          "drb2:21:info_recall:15"
+        ],
+        "query_quotes": [],
+        "change_note": "光谱解释好与强度窗口空白可独立发生，拆开；保留光谱及类群关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.sun.principle",
+      "dimension": "D1",
+      "title": "太阳罗盘：工作原理与模式",
+      "question": "报告是否具体说明太阳罗盘的太阳位置定向及时间补偿？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解工作原理与模式。",
+        "3": "有部分具体说明，但只说看太阳，不说明太阳移动如何被处理，或关键对象与条件不明。 只有看太阳或生物钟标签、没有时间—方位关系的合理解释最高3。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明太阳方位角而非仅高度角的作用、内部时钟如何补偿一天中不均匀的方位变化，并用改变时钟导致可预测方向偏差的实验逻辑或等效检验解释时间补偿；不要求特定实验作者。"
+      },
+      "boundary": "检查本项机制关系是否具体且合理；不强制实验名字、论文或统一物种结论。PW比较推导依据和限定的实际增益，不代替这一内容要求。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:19",
+          "drb2:21:info_recall:22",
+          "drb2:21:info_recall:24",
+          "drb2:21:info_recall:25",
+          "drb2:21:info_recall:23",
+          "drb2:21:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“太阳罗盘：工作原理与模式”：报告是否具体说明太阳罗盘的太阳位置定向及时间补偿？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。 v3.3恢复具体机制/学习判别，实验名称可替换但关键解释不可省略。"
+      }
+    },
+    {
+      "id": "PT.D1.sun.taxa",
+      "dimension": "D1",
+      "title": "太阳罗盘：主要类群分布",
+      "question": "是否用具体实例说明太阳罗盘在主要类群中的分布？",
+      "anchors": {
+        "1": "无太阳罗盘动物例子。",
+        "2": "仅说动物会看太阳。",
+        "3": "有鸟或昆虫实例，但其他重要类群整块缺失，或把向光性充当定向。",
+        "4": "鸟、昆虫及其他节肢动物、鱼和爬行类的范围与实例基本具体，少量机制归属不清。",
+        "5": "说明鸟类、昆虫含蝶类、甲壳类/蜘蛛、鱼类和爬行类的主要分布与具体例子，区分太阳定向和其他视觉行为，未确证归属有说明。"
+      },
+      "boundary": "不强制固定物种名单或把蝴蝶误作昆虫之外的并列分类；保留主要类群广度。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:21"
+        ],
+        "query_quotes": [],
+        "change_note": "一个实例可具体但广度不足，原高分过宽；缺主要类群最高3。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.sun.sensor",
+      "dimension": "D1",
+      "title": "太阳罗盘：感官基础与线索",
+      "question": "报告是否具体说明太阳罗盘的太阳视觉信息与偏振光辅助线索？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解感官基础与线索。",
+        "3": "有部分具体说明，但只列眼睛，或把偏振月光当太阳罗盘的普遍证据，或关键对象与条件不明。 只列偏振光而未说明位置线索或感知基础最高3。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "解释视觉太阳信息及适用昆虫眼部专门区域如何感知偏振模式，说明模式怎样提供太阳位置线索并在部分天空可见时补充直接日光；交代物种及可见条件。"
+      },
+      "boundary": "检查本项机制关系是否具体且合理；不强制实验名字、论文或统一物种结论。PW比较推导依据和限定的实际增益，不代替这一内容要求。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:29",
+          "drb2:21:info_recall:30",
+          "drb2:21:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“太阳罗盘：感官基础与线索”：报告是否具体说明太阳罗盘的太阳视觉信息与偏振光辅助线索？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。 v3.3恢复具体机制/学习判别，实验名称可替换但关键解释不可省略。"
+      }
+    },
+    {
+      "id": "PT.D1.sun.learning",
+      "dimension": "D1",
+      "title": "太阳罗盘：习得与校准",
+      "question": "报告是否具体说明太阳罗盘的太阳轨迹学习与校准？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解习得与校准。",
+        "3": "有部分具体说明，但只称后天学会，未说学习什么或参考什么，或关键对象与条件不明。 仅称学习而未说明轨迹变化或校准参考最高3。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明观察太阳轨迹如何学会时间—方向关系，纬度/季节变化为何需要校准，并以信鸽地磁参考等有据关系说明参照建立；不要求所有物种同一路径。"
+      },
+      "boundary": "检查本项机制关系是否具体且合理；不强制实验名字、论文或统一物种结论。PW比较推导依据和限定的实际增益，不代替这一内容要求。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:26",
+          "drb2:21:info_recall:27",
+          "drb2:21:info_recall:28",
+          "drb2:21:analysis:5",
+          "drb2:21:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“太阳罗盘：习得与校准”：报告是否具体说明太阳罗盘的太阳轨迹学习与校准？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。 v3.3恢复具体机制/学习判别，实验名称可替换但关键解释不可省略。"
+      }
+    },
+    {
+      "id": "PT.D1.sun.limits",
+      "dimension": "D1",
+      "title": "太阳罗盘：依赖与局限",
+      "question": "报告是否具体说明太阳罗盘的可见天空、时间和天气条件？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解依赖与局限。",
+        "3": "有部分具体说明，但无条件断言有云就完全不能用，或忘记时钟条件，或关键对象与条件不明。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "具体说明光照/可见天空与时间信息限制，允许偏振等线索在特定遮挡条件下仍有作用，不将白昼情况无区别外推夜间。"
+      },
+      "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“太阳罗盘：依赖与局限”：报告是否具体说明太阳罗盘的可见天空、时间和天气条件？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D1.star.principle",
+      "dimension": "D1",
+      "title": "星辰罗盘：工作原理与模式",
+      "question": "报告是否具体说明星辰罗盘的星空图样、旋转参照与定向？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解工作原理与模式。",
+        "3": "有部分具体说明，但只说认北极星或把它等同太阳式钟时补偿，或关键对象与条件不明。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明研究对象如何利用星空空间关系及旋转参照，区分学会旋转中心与使用时是否需要钟时补偿；不把一种模式当所有星光定向。"
+      },
+      "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:34",
+          "drb2:21:info_recall:35"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“星辰罗盘：工作原理与模式”：报告是否具体说明星辰罗盘的星空图样、旋转参照与定向？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。"
+      }
+    },
+    {
+      "id": "PT.D1.star.taxa",
+      "dimension": "D1",
+      "title": "星辰罗盘：使用类群与实例",
+      "question": "报告是否具体说明星辰罗盘的已知星辰定向动物的证据范围？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解使用类群与实例。",
+        "3": "有部分具体说明，但只称所有夜行动物都能使用，或没有具体实例，或关键对象与条件不明。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明有证据的类群与具体实例，区分夜迁鸟类的星辰罗盘证据与其他星光导航报道的机制范围。"
+      },
+      "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:32"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“星辰罗盘：使用类群与实例”：报告是否具体说明星辰罗盘的已知星辰定向动物的证据范围？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。"
+      }
+    },
+    {
+      "id": "PT.D1.star.sensor",
+      "dimension": "D1",
+      "title": "星辰罗盘：感官基础与理论",
+      "question": "报告是否具体说明星辰罗盘的星空视觉模式识别的感官基础？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解感官基础与理论。",
+        "3": "有部分具体说明，但只有星辰神秘感知等标签或无证据的受体定论，或关键对象与条件不明。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明视觉星空线索及模式识别的理论/行为依据，具体受体未确定时明确不确定，不编造磁性或化学机制。"
+      },
+      "boundary": "只评本题明确要求的该内容及具体程度，不要求官方全部实例、实验或参数。行为证据不等于感官机制定论；成立性限D2核验，解释质量用PW。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“星辰罗盘：感官基础与理论”：报告是否具体说明星辰罗盘的星空视觉模式识别的感官基础？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D1.star.learning",
+      "dimension": "D1",
+      "title": "星辰罗盘：习得与校准",
+      "question": "报告是否具体说明星辰罗盘的星空参照学习及方向校准？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解习得与校准。",
+        "3": "有部分具体说明，但只称后天，未说观察/学习的线索，或关键对象与条件不明。 有后天标签但动态旋转的学习作用或校准含义空白最高3。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明幼鸟首次迁徙前观察天体旋转如何形成方向参照，而非背静态星图；用人工旋转天空等实验逻辑说明学习的对象，并交代迁徙中新星空与地磁参照的有据校准关系及边界。"
+      },
+      "boundary": "检查本项机制关系是否具体且合理；不强制实验名字、论文或统一物种结论。PW比较推导依据和限定的实际增益，不代替这一内容要求。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:37",
+          "drb2:21:info_recall:39",
+          "drb2:21:info_recall:33",
+          "drb2:21:info_recall:38",
+          "drb2:21:analysis:6",
+          "drb2:21:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“星辰罗盘：习得与校准”：报告是否具体说明星辰罗盘的星空参照学习及方向校准？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。 v3.3恢复具体机制/学习判别，实验名称可替换但关键解释不可省略。"
+      }
+    },
+    {
+      "id": "PT.D1.star.limits",
+      "dimension": "D1",
+      "title": "星辰罗盘：依赖与局限",
+      "question": "报告是否具体说明星辰罗盘的星空可见性及空间条件？",
+      "anchors": {
+        "1": "没有本项信息。",
+        "2": "只有名称或笼统标签，不能理解依赖与局限。",
+        "3": "有部分具体说明，但只有夜间使用，未说明遮挡和线索可见性，或关键对象与条件不明。 仅写夜间使用而不谈可见星区或遮挡最高3。",
+        "4": "主要内容和对象清楚，仅有次要限定或细节缺口。",
+        "5": "说明星空可见性和云/光限制，以及近旋转中心星区在所述星辰罗盘中的参照意义；不把特定35°范围当全部物种通用参数。"
+      },
+      "boundary": "检查本项机制关系是否具体且合理；不强制实验名字、论文或统一物种结论。PW比较推导依据和限定的实际增益，不代替这一内容要求。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:36",
+          "drb2:21:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“星辰罗盘：依赖与局限”：报告是否具体说明星辰罗盘的星空可见性及空间条件？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。 v3.3恢复具体机制/学习判别，实验名称可替换但关键解释不可省略。"
+      }
+    },
+    {
+      "id": "PT.D1.format",
+      "dimension": "D1",
+      "title": "综述及对比表",
+      "question": "报告是否先提供三类文字综述，再给三行、六类信息列的对比表？",
+      "anchors": {
+        "1": "无综述也无对比表。",
+        "2": "只有一种形式，或表格大部分行列缺失。",
+        "3": "两种形式均有，但缺一罗盘行/重要列或没有按要求置于综述后。",
+        "4": "结构行列齐全，仅轻微标签不清。",
+        "5": "三类综述后给出对应表，含罗盘类型、原理、类群、感官机制、依赖局限、习得六类列。"
+      },
+      "boundary": "只查结构，单元格内容在对应PT计分；不强制仅六列，额外有用列允许。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:1",
+          "drb2:21:presentation:1",
+          "drb2:21:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“综述及对比表”：报告是否先提供三类文字综述，再给三行、六类信息列的对比表？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。；保留两种形式及顺序。；保留六类必需信息，不保留仅六列。"
+      }
+    },
+    {
+      "id": "PT.D1.time",
+      "dimension": "D1",
+      "title": "2022年截止",
+      "question": "报告是否限于截至2022年的科学成果？",
+      "anchors": {
+        "1": "主体为截止后成果。",
+        "2": "多处用后期发现回答当时状态。",
+        "3": "有重要年份或研究可用时间不清。",
+        "4": "总体截止正确，少量次要日期含糊。",
+        "5": "采用的科学发现均限定在截至2022年；后期回顾若出现只指向此前成果且明确。"
+      },
+      "boundary": "研究发现时间与发表/回顾日期区别；不将未知日期自动判后期。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "截至2022年的科学研究成果"
+        ],
+        "change_note": "依据本题需要新增“2022年截止”：报告是否限于截至2022年的科学成果？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D1.exclusion",
+      "dimension": "D1",
+      "title": "指定禁源",
+      "question": "最终报告是否避免引用或实质使用指定动物导航综述？",
+      "anchors": {
+        "1": "核心结论明确取自禁源。",
+        "2": "多处次要论点用禁源。",
+        "3": "一处局部实质取用禁源。",
+        "4": "仅在书目列出禁源。",
+        "5": "未见引用/取用；复述排除要求不算使用。"
+      },
+      "boundary": "仅最终报告可观察使用，不推断历史访问或凭同事实臆测抄用。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“指定禁源”：最终报告是否避免引用或实质使用指定动物导航综述？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D2.trace",
+      "dimension": "D2",
+      "title": "科学主张的出处",
+      "question": "关键动物实例、实验和理论状态是否可追溯到具体依据？",
+      "anchors": {
+        "1": "主要主张无可辨依据。",
+        "2": "泛称研究证明而无具体出处。",
+        "3": "有相关书目但关键主张归属不清。",
+        "4": "关键主张基本可定位，少数次要范围含糊。",
+        "5": "实例、理论或实验主张与具体依据对应清楚。"
+      },
+      "boundary": "可定位不等于支持；无URL不直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“科学主张的出处”：关键动物实例、实验和理论状态是否可追溯到具体依据？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D2.support",
+      "dimension": "D2",
+      "title": "核验范围内支持",
+      "question": "在记录的核验样本内，物种、实验条件及理论状态是否被材料支持？",
+      "anchors": {
+        "1": "已核验核心机制被否定或所称来源不成立。",
+        "2": "多个重要主张错误外推物种或证据状态。",
+        "3": "部分成立但有实质归属/范围错误。",
+        "4": "已判断主张基本支持，仅次要限定误差。",
+        "5": "已判断主张与所获材料的物种、条件、发现时间及证据强度相符；不担保全篇。"
+      },
+      "boundary": "记录选中/完成核验数。访问失败记执行失败并补核，不作低分、不把未查到当不存在。本轮不外核不评分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“核验范围内支持”：在记录的核验样本内，物种、实验条件及理论状态是否被材料支持？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.particle",
+      "dimension": "D1",
+      "title": "磁性颗粒感受假说",
+      "question": "是否解释磁铁矿等颗粒如何可能参与极性敏感及其证据限度？",
+      "anchors": {
+        "1": "无颗粒机制说明。",
+        "2": "只列磁铁矿名称。",
+        "3": "有受力/转导构想，但与极性方向信息的联系或确证限度不清。",
+        "4": "说明磁性颗粒响应及潜在方向转导，区分假说和证据，局部条件略简。",
+        "5": "具体说明磁性颗粒受磁场作用如何可能提供方向信息，交代与极性罗盘的潜在联系和尚不确定的受体/转导环节，不把发现颗粒等同确证罗盘器官。"
+      },
+      "boundary": "不强制特定细胞位置或统一跨物种受体；只看该候选机制解释。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:18"
+        ],
+        "query_quotes": [],
+        "change_note": "自由基对解释再好不能补偿颗粒模型只列名；新子项保留独立五档。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.mag.intensity",
+      "dimension": "D1",
+      "title": "磁场强度窗口与适应",
+      "question": "是否解释磁罗盘在熟悉强度范围及改变强度后的表现？",
+      "anchors": {
+        "1": "没有强度条件。",
+        "2": "只有磁场变化会干扰的标签。",
+        "3": "有强度窗口，但改变强度的定向后果或重新适应过程不清。",
+        "4": "说明熟悉范围外的定向变化及经验适应，少量实验限定略简。",
+        "5": "说明特定鸟类等研究中的功能强度窗口、偏离熟悉强度造成的定向障碍以及可经暴露适应新强度，数值有条件，不把暂时失效当永久无能力。"
+      },
+      "boundary": "不要求约25%为统一边界；窗口—扰动—适应是同一动态关系。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:11"
+        ],
+        "query_quotes": [],
+        "change_note": "原光/强度用或可漏后者；独立子项只判强度响应，原mag.learning保留先天/习得整体区分。；五档为本地设计。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.mechanism",
+      "dimension": "D3",
+      "title": "磁感受模型到倾角行为",
+      "question": "哪篇更有力地说明自由基对模型为何能解释倾角而非极性反应？",
+      "anchors": {
+        "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+        "1": "A对模型性质到可观察倾角行为的解释略更成立；B仍可有局部优势。",
+        "2": "A对模型性质到可观察倾角行为的解释明显更成立；B的局部优点不足以弥补该差距。",
+        "-2": "B对模型性质到可观察倾角行为的解释明显更成立；A的局部优点不足以弥补该差距。",
+        "-1": "B对模型性质到可观察倾角行为的解释略更成立；A仍可有局部优势。"
+      },
+      "boundary": "比较对磁场方向/极性响应如何导出行为的推理与限定；列出模型名或通过PT.D1.mag.sensor不自动构成优势。太阳线索解释不补偿本项。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:info_recall:13",
+          "drb2:21:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "模型解释强而时钟推理弱会独立发生；原机制总项收窄为磁场模型到行为关系。；五档重新设计，不作为PT内容总结。"
+      }
+    },
+    {
+      "id": "PW.D3.learning",
+      "dimension": "D3",
+      "title": "太阳轨迹学习解释",
+      "question": "哪篇更有力地解释太阳轨迹随地理和季节变化为何需要学习校准？",
+      "anchors": {
+        "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+        "1": "A对轨迹变化到太阳参照校准的解释略更成立；B仍可有局部优势。",
+        "2": "A对轨迹变化到太阳参照校准的解释明显更成立；B的局部优点不足以弥补该差距。",
+        "-2": "B对轨迹变化到太阳参照校准的解释明显更成立；A的局部优点不足以弥补该差距。",
+        "-1": "B对轨迹变化到太阳参照校准的解释略更成立；A仍可有局部优势。"
+      },
+      "boundary": "比较学习需要及经验如何形成参照的因果链，不重复太阳学习PT覆盖；不要求所有类群同一主罗盘。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "太阳轨迹学习和星空旋转学习可以独立好坏，原学习总项收窄至太阳关系。；五档重新设计，不作为PT内容总结。"
+      }
+    },
+    {
+      "id": "PW.D4.compare",
+      "dimension": "D4",
+      "title": "互补性与使用边界",
+      "question": "哪篇更帮助判断三类罗盘何时可用、怎样互补及哪些概括不能跨物种外推？",
+      "anchors": {
+        "0": "两篇罗盘使用判断帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A对一处使用边界或互补条件的综合判断略有帮助；B仍可在局部更好。",
+        "2": "A将线索可用性与物种证据整合成明显更有用的罗盘比较；B的局部优点不足以弥补差距。",
+        "-2": "B将线索可用性与物种证据整合成明显更有用的罗盘比较；A的局部优点不足以弥补差距。",
+        "-1": "B对一处使用边界或互补条件的综合判断略有帮助；A仍可在局部更好。"
+      },
+      "boundary": "不预设地磁永远主导或全天候；使用条件与可互补性共同回答方向线索何时可信，不只重复表格。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:analysis:4",
+          "drb2:21:analysis:7",
+          "drb2:21:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“互补性与使用边界”：哪篇更帮助判断三类罗盘何时可用、怎样互补及哪些概括不能跨物种外推？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：保留太阳与星辰时间参照的比较意义的判断，去掉唯一实验或绝对化结论。；保留参考罗盘在特定条件下的整合作用的判断，去掉唯一实验或绝对化结论。；保留线索可用条件的互补判断的判断，去掉唯一实验或绝对化结论。"
+      }
+    },
+    {
+      "id": "PW.D2.fit",
+      "dimension": "D2",
+      "title": "证据适配",
+      "question": "哪篇所用证据更适合其跨类群与机制概括？",
+      "anchors": {
+        "0": "两篇证据适配帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A在物种或实验操作的证据适配上略好；B仍可在局部更好。",
+        "2": "A对机制概括有明显更贴合物种和实验问题的证据组合；B的局部优点不足以弥补差距。",
+        "-2": "B对机制概括有明显更贴合物种和实验问题的证据组合；A的局部优点不足以弥补差距。",
+        "-1": "B在物种或实验操作的证据适配上略好；A仍可在局部更好。"
+      },
+      "boundary": "区分证明有定向能力与证明特定受体；不按论文数量或年代声望排名。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "依据本题需要新增“证据适配”：哪篇所用证据更适合其跨类群与机制概括？；本地设计五档与边界，不冒称官方原项复用。"
+      }
+    },
+    {
+      "id": "PW.D5.flow",
+      "dimension": "D5",
+      "title": "全文组织",
+      "question": "哪篇原报告更连贯地组织三类机制与比较结论？",
+      "anchors": {
+        "0": "两篇组织帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A在综述到比较的承接上略好；B仍可在局部更好。",
+        "2": "A使三类机制的综述和比较推进明显更清楚；B的局部优点不足以弥补差距。",
+        "-2": "B使三类机制的综述和比较推进明显更清楚；A的局部优点不足以弥补差距。",
+        "-1": "B在综述到比较的承接上略好；A仍可在局部更好。"
+      },
+      "boundary": "结构要求是否存在由PT评价；此处只比原文推进、承接及重复作用。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“全文组织”：哪篇原报告更连贯地组织三类机制与比较结论？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：组织与表达分配到不同对象。"
+      }
+    },
+    {
+      "id": "PW.D6.clear",
+      "dimension": "D6",
+      "title": "概念表达",
+      "question": "哪篇更清楚地表达倾角、极性、时间补偿和先天/习得等已写概念？",
+      "anchors": {
+        "0": "两篇表达帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A在概念指代或限定表达上略清楚；B仍可在局部更好。",
+        "2": "A使罗盘模式及证据状态的表达明显更易理解；B的局部优点不足以弥补差距。",
+        "-2": "B使罗盘模式及证据状态的表达明显更易理解；A的局部优点不足以弥补差距。",
+        "-1": "B在概念指代或限定表达上略清楚；A仍可在局部更好。"
+      },
+      "boundary": "不以技术名词多获胜；只比已写意思，不再核真。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“概念表达”：哪篇更清楚地表达倾角、极性、时间补偿和先天/习得等已写概念？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：组织与表达分配到不同对象。"
+      }
+    },
+    {
+      "id": "PW.D6.find",
+      "dimension": "D6",
+      "title": "比较信息查找",
+      "question": "哪篇更方便定位某罗盘的依赖、习得与对应依据？",
+      "anchors": {
+        "0": "两篇定位帮助相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A在所需罗盘信息定位上略方便；B仍可在局部更好。",
+        "2": "A让特定罗盘结论与依据的查找明显更直接；B的局部优点不足以弥补差距。",
+        "-2": "B让特定罗盘结论与依据的查找明显更直接；A的局部优点不足以弥补差距。",
+        "-1": "B在所需罗盘信息定位上略方便；A仍可在局部更好。"
+      },
+      "boundary": "不按图表数量；依据好坏另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:presentation:2"
+        ],
+        "query_quotes": [],
+        "change_note": "将相关官方判断收束到“比较信息查找”：哪篇更方便定位某罗盘的依赖、习得与对应依据？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：保留标题实际定位价值而非每类必须某格式标题。"
+      }
+    },
+    {
+      "id": "PW.D3.sun_clock",
+      "dimension": "D3",
+      "title": "时钟操作的证据推理",
+      "question": "哪篇更有力地解释改变生物钟为何会形成可预测的太阳定向偏差？",
+      "anchors": {
+        "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+        "1": "A对时钟操作到方向偏差的可检验推导的解释略更成立；B仍可有局部优势。",
+        "2": "A对时钟操作到方向偏差的可检验推导的解释明显更成立；B的局部优点不足以弥补该差距。",
+        "-2": "B对时钟操作到方向偏差的可检验推导的解释明显更成立；A的局部优点不足以弥补该差距。",
+        "-1": "B对时钟操作到方向偏差的可检验推导的解释略更成立；A仍可有局部优势。"
+      },
+      "boundary": "比较控制条件、预测和替代解释的处理，不要求某作者或实验名；PT检查时间补偿实质说明，本项只比推导的相对说服力。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "时钟操作的推理不能由磁性模型或偏振描述补偿，独立拆出同一干预—预测关系。；五档重新设计，不作为PT内容总结。"
+      }
+    },
+    {
+      "id": "PW.D3.polarized",
+      "dimension": "D3",
+      "title": "偏振线索到方位推理",
+      "question": "哪篇更有力地解释偏振模式怎样提供太阳位置线索及何时仍可使用？",
+      "anchors": {
+        "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+        "1": "A对偏振模式到方位线索及可用条件的解释略更成立；B仍可有局部优势。",
+        "2": "A对偏振模式到方位线索及可用条件的解释明显更成立；B的局部优点不足以弥补该差距。",
+        "-2": "B对偏振模式到方位线索及可用条件的解释明显更成立；A的局部优点不足以弥补该差距。",
+        "-1": "B对偏振模式到方位线索及可用条件的解释略更成立；A仍可有局部优势。"
+      },
+      "boundary": "比较从感知模式到位置估计的连接与可见条件，不以多列物种奖励；时钟机制充分不代表偏振推导成立。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "偏振感知的方向推理可以与时钟实验分别好坏，独立成项但不拆散线索和使用条件。；五档重新设计，不作为PT内容总结。"
+      }
+    },
+    {
+      "id": "PW.D3.star_learning",
+      "dimension": "D3",
+      "title": "旋转经验与星辰参照",
+      "question": "哪篇更有力地解释观察天体旋转为何不同于记忆静态星图？",
+      "anchors": {
+        "0": "双方对此关系的解释帮助相近，或均无相关解释；须区分两种情况。",
+        "1": "A对动态经验到星辰方向参照的解释略更成立；B仍可有局部优势。",
+        "2": "A对动态经验到星辰方向参照的解释明显更成立；B的局部优点不足以弥补该差距。",
+        "-2": "B对动态经验到星辰方向参照的解释明显更成立；A的局部优点不足以弥补该差距。",
+        "-1": "B对动态经验到星辰方向参照的解释略更成立；A仍可有局部优势。"
+      },
+      "boundary": "比较学习对象、旋转中心与后续定向的逻辑，不能用实验名代替；先天迁徙倾向不等于先天星图。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:21:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "星空学习的逻辑可在太阳解释很强时仍缺失，因此单独评价旋转经验—参照关系。；五档重新设计，不作为PT内容总结。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:21:info_recall:1",
+      "targets": [
+        "PT.D1.format"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "核对对象：明确指出动物使用的三种主要指南针机制是地磁罗盘、太阳罗盘和星辰罗盘。 当前PT.D1.format会区分具体说明与对象/条件不清；但不强制此项全部特定物种、参数或唯一断言，因此只在该精确细节上不同的两篇不保证分差。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:2",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "补清地磁方向定向可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "不把发现史或某个实验/旁支案例作为必选内容。",
+      "discrimination_check": "仅补入官方第3项的发现年份、特定动物或实验名称而不改变已有论证，不保证加分；明确舍弃该实例出现的独立区分。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:4",
+      "targets": [
+        "PT.D1.mag.taxa"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.taxa：主要脊椎/无脊椎类群缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:5",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "区分倾角和极性模式可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:6",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "补清倾角不依赖极性的含义可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:7",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "区分朝磁极/赤道与磁北/南可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:8",
+      "targets": [
+        "PT.D1.mag.taxa"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.taxa：倾角类群和模式归属缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:9",
+      "targets": [
+        "PT.D1.mag.limits"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.mag.limits的3/4/5直接判别短长波对照及类群差异是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:10",
+      "targets": [
+        "PT.D1.mag.limits"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.mag.limits的3/4/5直接判别短长波对照及类群差异是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:11",
+      "targets": [
+        "PT.D1.mag.intensity"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.intensity：强度窗口或适应缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:12",
+      "targets": [
+        "PT.D1.mag.sensor"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.mag.sensor的3/4/5直接判别自由基对及候选受体证据是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:13",
+      "targets": [
+        "PT.D1.mag.sensor",
+        "PW.D3.mechanism"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.sensor：极性不敏感与倾角的联系缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:14",
+      "targets": [
+        "PT.D1.mag.sensor"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.mag.sensor的3/4/5直接判别自由基对及候选受体证据是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:15",
+      "targets": [
+        "PT.D1.mag.limits"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.mag.limits的3/4/5直接判别短长波对照及类群差异是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:16",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "补清极性模式区分磁场极性可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:17",
+      "targets": [
+        "PT.D1.mag.taxa"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.taxa：极性类群和模式归属缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:18",
+      "targets": [
+        "PT.D1.mag.particle"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.particle：磁颗粒只列名称不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:19",
+      "targets": [
+        "PT.D1.sun.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "太阳位置到方向的说明可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:20",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "不把发现史或某个实验/旁支案例作为必选内容。",
+      "discrimination_check": "仅补入官方第20项的发现年份、特定动物或实验名称而不改变已有论证，不保证加分；明确舍弃该实例出现的独立区分。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:21",
+      "targets": [
+        "PT.D1.sun.taxa"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.taxa：太阳罗盘主要类群广度缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:22",
+      "targets": [
+        "PT.D1.sun.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "内部时钟的时间补偿作用可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:23",
+      "targets": [
+        "PT.D1.sun.principle"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.principle：时钟干预到预测方向偏差的检验逻辑缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:24",
+      "targets": [
+        "PT.D1.sun.principle"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.principle的3/4/5直接判别方位角及不均匀时间补偿是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:25",
+      "targets": [
+        "PT.D1.sun.principle"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.principle的3/4/5直接判别方位角及不均匀时间补偿是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:26",
+      "targets": [
+        "PT.D1.sun.learning"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.learning的3/4/5直接判别太阳轨迹经验和校准参考是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:27",
+      "targets": [
+        "PT.D1.sun.learning"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.learning的3/4/5直接判别太阳轨迹经验和校准参考是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:28",
+      "targets": [
+        "PT.D1.sun.learning"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.learning的3/4/5直接判别太阳轨迹经验和校准参考是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:29",
+      "targets": [
+        "PT.D1.sun.sensor"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.sensor的3/4/5直接判别偏振感知基础与辅助线索是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:30",
+      "targets": [
+        "PT.D1.sun.sensor"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.sun.sensor的3/4/5直接判别偏振感知基础与辅助线索是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:31",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "不把发现史或某个实验/旁支案例作为必选内容。",
+      "discrimination_check": "仅补入官方第31项的发现年份、特定动物或实验名称而不改变已有论证，不保证加分；明确舍弃该实例出现的独立区分。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:32",
+      "targets": [
+        "PT.D1.star.taxa"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "核对对象：【星辰罗盘】明确指出该机制迄今仅在夜间迁徙的鸟类中被证实。 当前PT.D1.star.taxa会区分具体说明与对象/条件不清；但不强制此项全部特定物种、参数或唯一断言，因此只在该精确细节上不同的两篇不保证分差。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:33",
+      "targets": [
+        "PT.D1.star.learning"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.star.learning：人工星空检验学习对象的逻辑缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:34",
+      "targets": [
+        "PT.D1.star.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "星空图样与旋转参照而非单星指针可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:35",
+      "targets": [
+        "PT.D1.star.principle"
+      ],
+      "status": "adapted",
+      "reason": "采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。",
+      "discrimination_check": "区别学习旋转与使用时钟补偿可使对应内容从标签或关键缺口的2/3到4/5（PW项则比较推导）；不要求无条件跨物种外推。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:36",
+      "targets": [
+        "PT.D1.star.limits"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.star.limits的3/4/5直接判别近天极星区意义是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:37",
+      "targets": [
+        "PT.D1.star.learning"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.star.learning的3/4/5直接判别旋转学习和地磁参照是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:38",
+      "targets": [
+        "PT.D1.star.learning"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.star.learning：旋转中心改变与学习后定向联系缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:info_recall:39",
+      "targets": [
+        "PT.D1.star.learning"
+      ],
+      "status": "adapted",
+      "reason": "恢复核心关系，不把官方特定参数或普遍化解释当唯一答案。",
+      "discrimination_check": "PT.D1.star.learning的3/4/5直接判别旋转学习和地磁参照是否实质说明；具体参数或唯一受体差异未完整复刻。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:1",
+      "targets": [
+        "PT.D1.mag.principle"
+      ],
+      "status": "adapted",
+      "reason": "保留倾角与极性的概念区别的判断，去掉唯一实验或绝对化结论。",
+      "discrimination_check": "补清倾角与极性的概念区别能改善PT.D1.mag.principle；仅出现指定术语不获胜，其他成立路线仍可高分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:2",
+      "targets": [
+        "PT.D1.mag.sensor",
+        "PW.D3.mechanism"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.mag.sensor：反应响应与行为关系缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:3",
+      "targets": [
+        "PT.D1.sun.principle",
+        "PW.D3.sun_clock"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.principle：时间补偿的可检验逻辑缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:4",
+      "targets": [
+        "PW.D4.compare"
+      ],
+      "status": "adapted",
+      "reason": "保留太阳与星辰时间参照的比较意义的判断，去掉唯一实验或绝对化结论。",
+      "discrimination_check": "补清太阳与星辰时间参照的比较意义能改善PW.D4.compare；仅出现指定术语不获胜，其他成立路线仍可高分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:5",
+      "targets": [
+        "PT.D1.sun.learning",
+        "PW.D3.learning"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.learning：轨迹随纬度/季节变化的校准原因缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:6",
+      "targets": [
+        "PT.D1.star.learning",
+        "PW.D3.star_learning"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.star.learning：动态旋转学习与静态星图区别缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:7",
+      "targets": [
+        "PT.D1.sun.learning",
+        "PT.D1.star.learning",
+        "PW.D4.compare"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.learning / PT.D1.star.learning：具体地磁校准关系缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:8",
+      "targets": [
+        "PT.D1.star.limits",
+        "PW.D4.compare"
+      ],
+      "status": "adapted",
+      "reason": "保留线索可用条件的互补判断的判断，去掉唯一实验或绝对化结论。",
+      "discrimination_check": "补清线索可用条件的互补判断能改善PW.D4.compare；仅出现指定术语不获胜，其他成立路线仍可高分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:10",
+      "targets": [
+        "PT.D1.sun.sensor",
+        "PW.D3.polarized"
+      ],
+      "status": "adapted",
+      "reason": "保留具体内容关系；具体作者、天体名称或统一物种结论不强制。",
+      "discrimination_check": "PT.D1.sun.sensor：偏振模式到太阳位置线索缺失不能取得4/5；补具体合理解释才可提高。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:analysis:9",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "独立演化推断并非题面必要内容，模式差异不能单独确证演化历史。",
+      "discrimination_check": "仅增加独立演化猜想不获独立分；舍弃该推论必答区分。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:presentation:1",
+      "targets": [
+        "PT.D1.format"
+      ],
+      "status": "retained",
+      "reason": "保留两种形式及顺序。",
+      "discrimination_check": "缺一种为2，齐全可5。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:21:presentation:2",
+      "targets": [
+        "PW.D6.find"
+      ],
+      "status": "adapted",
+      "reason": "保留标题实际定位价值而非每类必须某格式标题。",
+      "discrimination_check": "更易找某机制时可改变查找分；无标题但同样好找不扣，标题存在区分丢失。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:presentation:3",
+      "targets": [
+        "PT.D1.format"
+      ],
+      "status": "adapted",
+      "reason": "保留六类必需信息，不保留仅六列。",
+      "discrimination_check": "缺主要列为3，齐全可5；额外有用列不扣。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:21:presentation:4",
+      "targets": [
+        "PW.D5.flow",
+        "PW.D6.clear"
+      ],
+      "status": "adapted",
+      "reason": "组织与表达分配到不同对象。",
+      "discrimination_check": "修复章节承接只影响D5；澄清术语只影响D6，科学事实不由文风证明。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.mag.principle",
+      "decision": "add",
+      "reason": "新增：工作原理与模式与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.mag.learning",
+      "decision": "add",
+      "reason": "新增：习得与校准与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.sun.principle",
+      "decision": "add",
+      "reason": "本项按同一线索或经验到方向参照的关系判断；只列结果而联系缺失最高3，不由其他机制补偿。"
+    },
+    {
+      "id": "PT.D1.sun.sensor",
+      "decision": "add",
+      "reason": "本项按同一线索或经验到方向参照的关系判断；只列结果而联系缺失最高3，不由其他机制补偿。"
+    },
+    {
+      "id": "PT.D1.sun.learning",
+      "decision": "add",
+      "reason": "本项按同一线索或经验到方向参照的关系判断；只列结果而联系缺失最高3，不由其他机制补偿。"
+    },
+    {
+      "id": "PT.D1.sun.limits",
+      "decision": "add",
+      "reason": "新增：依赖与局限与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.star.principle",
+      "decision": "add",
+      "reason": "新增：工作原理与模式与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.star.taxa",
+      "decision": "add",
+      "reason": "新增：使用类群与实例与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.star.sensor",
+      "decision": "add",
+      "reason": "新增：感官基础与理论与其对象条件定义同一内容关系；前者出现而对象/条件缺失为3，不靠其他罗盘项目补分。"
+    },
+    {
+      "id": "PT.D1.star.learning",
+      "decision": "add",
+      "reason": "本项按同一线索或经验到方向参照的关系判断；只列结果而联系缺失最高3，不由其他机制补偿。"
+    },
+    {
+      "id": "PT.D1.star.limits",
+      "decision": "add",
+      "reason": "本项按同一线索或经验到方向参照的关系判断；只列结果而联系缺失最高3，不由其他机制补偿。"
+    },
+    {
+      "id": "PT.D1.format",
+      "decision": "add",
+      "reason": "新增：缺形式或行列有2/3分明确界线，内容好不能补结构缺口。"
+    },
+    {
+      "id": "PT.D1.time",
+      "decision": "add",
+      "reason": "新增：仅时间范围，不与事实正确性混评。"
+    },
+    {
+      "id": "PT.D1.exclusion",
+      "decision": "add",
+      "reason": "新增：同一禁源使用程度分档。"
+    },
+    {
+      "id": "PT.D2.trace",
+      "decision": "add",
+      "reason": "新增：来源与主张为单一追溯关系。"
+    },
+    {
+      "id": "PT.D2.support",
+      "decision": "add",
+      "reason": "新增：同一证据支持关系，条件不是单独打分项。"
+    },
+    {
+      "id": "PW.D4.compare",
+      "decision": "add",
+      "reason": "新增：同一线索选择/适用判断，需说明多项信息改变哪项认识。"
+    },
+    {
+      "id": "PW.D2.fit",
+      "decision": "add",
+      "reason": "新增：证据与概括范围是同一支持关系。"
+    },
+    {
+      "id": "PW.D5.flow",
+      "decision": "add",
+      "reason": "新增：章节与重复是同一阅读顺序效果，不重复格式合规。"
+    },
+    {
+      "id": "PW.D6.clear",
+      "decision": "add",
+      "reason": "新增：术语与限定构成同一意思，不拆解释词和例句。"
+    },
+    {
+      "id": "PW.D6.find",
+      "decision": "add",
+      "reason": "新增：一次任务信息查找，条件和来源不拆。"
+    },
+    {
+      "id": "PT.D1.mag.taxa",
+      "decision": "revise",
+      "reason": "原不强制实例错误放宽为主要类群可以遗漏；恢复覆盖，类群与模式归属是一张证据分布关系。 主要类群已列出但一种主要模式的类群归属整块未交代，也为3。"
+    },
+    {
+      "id": "PT.D1.sun.taxa",
+      "decision": "revise",
+      "reason": "一个实例可具体但广度不足，原高分过宽；缺主要类群最高3。"
+    },
+    {
+      "id": "PT.D1.mag.sensor",
+      "decision": "split",
+      "reason": "自由基对与磁铁矿可以分别好坏，拆出前者；内部模型—行为—证据界限是一条解释关系。"
+    },
+    {
+      "id": "PT.D1.mag.particle",
+      "decision": "split",
+      "reason": "自由基对解释再好不能补偿颗粒模型只列名；新子项保留独立五档。"
+    },
+    {
+      "id": "PT.D1.mag.limits",
+      "decision": "split",
+      "reason": "光谱解释好与强度窗口空白可独立发生，拆开；保留光谱及类群关系。"
+    },
+    {
+      "id": "PT.D1.mag.intensity",
+      "decision": "split",
+      "reason": "原光/强度用或可漏后者；独立子项只判强度响应，原mag.learning保留先天/习得整体区分。"
+    },
+    {
+      "id": "PW.D3.mechanism",
+      "decision": "split",
+      "reason": "模型解释强而时钟推理弱会独立发生；原机制总项收窄为磁场模型到行为关系。"
+    },
+    {
+      "id": "PW.D3.sun_clock",
+      "decision": "split",
+      "reason": "时钟操作的推理不能由磁性模型或偏振描述补偿，独立拆出同一干预—预测关系。"
+    },
+    {
+      "id": "PW.D3.polarized",
+      "decision": "split",
+      "reason": "偏振感知的方向推理可以与时钟实验分别好坏，独立成项但不拆散线索和使用条件。"
+    },
+    {
+      "id": "PW.D3.learning",
+      "decision": "split",
+      "reason": "太阳轨迹学习和星空旋转学习可以独立好坏，原学习总项收窄至太阳关系。"
+    },
+    {
+      "id": "PW.D3.star_learning",
+      "decision": "split",
+      "reason": "星空学习的逻辑可在太阳解释很强时仍缺失，因此单独评价旋转经验—参照关系。"
+    }
+  ],
+  "author_notes": [
+    "v3.1历史记录：本题无旧稿；三类各按原理模式、类群、感官模型、习得、限制分别评价，避免以类群多抵消模型不清。",
+    "v3.1历史记录：固定波长、25%强度、35度星区、Cry1a唯一受体、仅夜迁鸟等原文断言不作无条件事实键；官方案例的逐字区分未全保留。",
+    "v3.1历史记录：三类正文与表格不重复计算同一内容；PT查内容是否具体，PW比较推理和综合增益。",
+    "v3.1历史记录：官方内容未独立外部核真；作者逐项自检及程序检查不等于独立语义审核。",
+    "v3.3：保留三类罗盘原理、感官、学习、类群、限制的基础分工；修复类群名可替换被扩大成类群范围可省略的问题。地磁感官拆成自由基对与颗粒机制，限制拆成光谱与强度窗口；补强太阳方位时间补偿、偏振感知、学习校准及星空旋转实验的具体关系。没有要求Emlen、参宿四、1950年或特定实验名称；Cry1a、固定波长/强度/星区参数仍不作为普遍事实键。已有PW机制比较收紧为逐机制记录净差，跨机制比较的粒度仍请独立审查，不宣称原子化独立通过。",
+    "当前计数：22 PT / 7 PW。保留既有定向修复；作者自检不构成独立审核通过。",
+    "v3.3作者复查进一步拆开原机制PW的磁模型、时钟与偏振，原学习PW的太阳与星空；最终22 PT / 10 PW。分差不可被独立机制强项掩盖。"
+  ]
+}

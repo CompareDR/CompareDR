@@ -1,0 +1,82 @@
+[
+  {
+    "label": "tab:benchmark_resources",
+    "line": 148,
+    "latex": "\\begin{table}[htbp]\n\\centering\n\\small\n\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}lrrrr@{}}\n\\toprule\nBenchmark component & DRB-I & DRB-II & ResearchRubrics & Total \\\\\n\\midrule\nChinese queries & 5 & 15 & 0 & 20 \\\\\nEnglish queries & 1 & 7 & 12 & 20 \\\\\nAll queries & 6 & 22 & 12 & 40 \\\\\nShare of queries (\\%) & 15 & 55 & 30 & 100 \\\\\n\\midrule\nCollected reports & 54 & 198 & 108 & 360 \\\\\nHuman-annotated report pairs & 12 & 44 & 24 & 80 \\\\\n\\bottomrule\n\\end{tabular*}\n\\caption{Benchmark composition by source. Report counts use nine systems per query; human-annotated pair counts use two pairs per query. Collection and annotation procedures are described in Section~\\ref{sec:report_collection}.}\n\\label{tab:benchmark_resources}\n\\end{table}"
+  },
+  {
+    "label": "tab:rubric_distribution",
+    "line": 188,
+    "latex": "\\begin{table}[htbp]\n\\centering\n\\small\n\\begin{tabularx}{\\linewidth}{@{}l>{\\raggedright\\arraybackslash}Xrrr@{}}\n\\toprule\nDimension & Assessment focus & PT & PW & Total \\\\\n\\midrule\nResponsiveness & Fulfillment of the query, required coverage, and task constraints. & 669 & 0 & 669 \\\\\nEvidence & Source quality and evidential support for the report's claims. & 106 & 38 & 144 \\\\\nReasoning & Analytical depth, stated assumptions, and validity of inferences. & 0 & 98 & 98 \\\\\nSynthesis & Integration of findings and their value for answering the research task. & 0 & 67 & 67 \\\\\nReadability & Global organization, clarity, and efficiency of reading the report. & 1 & 120 & 121 \\\\\n\\midrule\nTotal & Frozen task-specific evaluation criteria. & 776 & 323 & 1,099 \\\\\n\\bottomrule\n\\end{tabularx}\n\\caption{Evaluation dimensions, assessment focus, and frozen criterion counts. PT denotes pointwise rubrics; PW denotes pairwise guidelines. Each criterion is counted once, before expansion across reports or report pairs.}\n\\label{tab:rubric_distribution}\n\\end{table}"
+  },
+  {
+    "label": "tab:system_results",
+    "line": 279,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{3pt}\n\\renewcommand{\\tabularxcolumn}[1]{m{#1}}\n\\begin{tabularx}{\\linewidth}{@{}>{\\raggedright\\arraybackslash}m{0.155\\linewidth}>{\\raggedright\\arraybackslash}m{0.21\\linewidth}*{6}{>{\\centering\\arraybackslash}X}@{}}\n\\toprule\nModel & Harness & \\shortstack{Respon-\\\\siveness} & Evidence & \\shortstack{Insight:\\\\Reasoning} & \\shortstack{Insight:\\\\Synthesis} & Readability & Total \\\\\n\\midrule\nGPT-6 & ChatGPT Deep Research & 93.07 & \\textbf{86.09} & 74.83 & 73.74 & 72.35 & \\textbf{83.08} \\\\\nLongCat & LongCat-DeepResearch & \\textbf{93.59} & 83.60 & \\textbf{82.64} & \\textbf{78.79} & 66.61 & 82.62 \\\\\nKimi K3 & Kimi Researcher & 90.88 & 76.55 & 70.19 & 67.04 & \\textbf{74.52} & 78.86 \\\\\nClaude Opus 5 & Claude Research & 86.74 & 69.58 & 52.03 & 57.61 & 45.33 & 66.93 \\\\\nMiniMax M3 & MiniMax Agent & 84.41 & 60.85 & 47.33 & 46.19 & 57.63 & 64.46 \\\\\nGPT-5.5 & GPT Researcher & 78.86 & 59.11 & 36.35 & 46.75 & 46.30 & 58.96 \\\\\n--- & DuMate Deep Research & 82.92 & 50.24 & 35.08 & 37.93 & 44.05 & 56.06 \\\\\nGemini 3.7 Flash & Gemini Deep Research & 81.25 & 46.11 & 35.51 & 27.73 & 33.42 & 51.22 \\\\\nQwen 3.8 Max & Qwen Deep Research & 70.18 & 39.60 & 16.05 & 14.22 & 12.44 & 38.45 \\\\\n\\bottomrule\n\\end{tabularx}\n\\caption{System scores on CompareDR, averaged over 40 queries using all within-query pairs. Bold marks column bests; --- denotes an undisclosed model.}\n\\label{tab:system_results}\n\\end{table*}"
+  },
+  {
+    "label": "tab:human_agreement",
+    "line": 316,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\n\n\\begin{tabular}{@{}ccccc@{}}\n\\toprule\nMethod & Agreement (\\%) & $\\kappa$ & Macro-F1 & 95\\% CI (\\%) \\\\\n\\midrule\nHybrid framework & \\textbf{86.25} & \\textbf{.746} & .602 & 77.50--93.75 \\\\\nDirect & 83.75 & .709 & .596 & 76.25--91.25 \\\\\nOpenRS & 78.75 & .634 & \\textbf{.614} & 68.75--87.50 \\\\\nSource protocols & 63.75 & .368 & .589 & 52.50--73.75 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Overall agreement with human preferences on 80 annotated report pairs. The framework aggregates judgments only for these report pairs. Confidence intervals are query-cluster bootstrap intervals.}\n\\label{tab:human_agreement}\n\\end{table*}"
+  },
+  {
+    "label": "tab:controlled_response",
+    "line": 348,
+    "latex": "\\begin{table*}[t]\n\\centering\\small\\setlength{\\tabcolsep}{3.5pt}\n\\begin{tabular}{@{}lrrrrrr@{}}\n\\toprule\nMethod & $\\tau$ & Improvement & Degradation & Equivalent & ACC & Macro-F1 \\\\\n\\midrule\nFull framework & 1.70 & \\textbf{32/40 (80.0)} & 19/40 (47.5) & 26/39 (66.7) & \\textbf{64.7} & \\textbf{64.2} \\\\\nSame-coverage PT & 3.34 & 6/40 (15.0) & 14/40 (35.0) & \\textbf{29/39 (74.4)} & 41.2 & 37.8 \\\\\nRACE & 0.3044 & 12/40 (30.0) & \\textbf{20/40 (50.0)} & 17/39 (43.6) & 41.2 & 40.8 \\\\\nSource protocols & 0.10 & 21/40 (52.5) & 16/40 (40.0) & 6/39 (15.4) & 36.1 & 34.1 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Score responses to human-confirmed revisions at macro-F1-optimal tie thresholds. Direction columns give correct counts and percentages; ACC and macro-F1 are percentages. All methods are evaluated on the same 119 revisions; one equivalent revision lacks a completed source-protocol score. Thresholds are calibrated on this set.}\n\\label{tab:controlled_response}\n\\end{table*}"
+  },
+  {
+    "label": "tab:ablations",
+    "line": 374,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\n\n\\begin{tabular}{@{}ccccc@{}}\n\\toprule\nConfiguration & Agreement (\\%) & $\\kappa$ & Macro-F1 & $\\Delta$ \\\\\n\\midrule\nFull framework & 86.25 & .746 & .602 & --- \\\\\nPT-only & 77.50 & .601 & .555 & $-8.75$ \\\\\nPW-only & 82.50 & .679 & .579 & $-3.75$ \\\\\nNo verification scoring feedback & 86.25 & .746 & .601 & $0.00$ \\\\\nSummary representation & 83.75 & .702 & .588 & $-2.50$ \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Component comparisons with GPT-5.5 medium on 80 human-annotated report pairs. $\\Delta$ is the agreement difference from the matched full framework in percentage points.}\n\\label{tab:ablations}\n\\end{table*}"
+  },
+  {
+    "label": "tab:judge-selection",
+    "line": 413,
+    "latex": "\\begin{table}[!t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{4pt}\n\\begin{tabular}{@{}cccc@{}}\n\\toprule\nJudge & Order agr. $\\uparrow$ & Reversals $\\downarrow$ & $\\rho$ \\\\\n\\midrule\nGPT-5.5 & \\textbf{91.81} & \\textbf{6.31} & -- \\\\\nDeepSeek-v4.1f & 86.09 & 13.02 & 1.000 \\\\\nGemini 2.5 Pro & 82.94 & 15.29 & 0.400 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Cross-judge comparison on 20 queries. Order agreement and strict reversals are percentages; $\\rho$ compares system rankings with GPT-5.5. DeepSeek-v4.1f denotes \\texttt{deepseek-v4.1-flash} with max reasoning.}\n\\label{tab:judge-selection}\n\\end{table}"
+  },
+  {
+    "label": "tab:judge_pilot",
+    "line": 485,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{4pt}\n\n\n\\begin{tabular}{@{}cccc@{}}\n\\toprule\nMetric & GPT-5.5 & DeepSeek-v4.1f & \\shortstack{Gemini\\\\2.5 Pro} \\\\\n\\midrule\nValid requests & 300/300 & 290/300 & 298/300 \\\\\nPW repeat: direction & 94.44 & 92.64 & 92.13 \\\\\nPW repeat: exact level & 85.00 & 74.85 & 82.02 \\\\\nPW order: direction & 89.44 & 86.96 & 83.15 \\\\\nPT repeat: exact score & 93.33 & 80.83 & 87.50 \\\\\nContent PW order: direction & 91.67 & 93.14 & 92.50 \\\\\nReadability PW order: direction & 85.00 & 76.27 & 63.79 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Fixed-input judge pilot on ten queries. Agreement entries are percentages. In column order, PW repeat comparisons use 180, 163, and 178 matched items; PT repeat comparisons use 120 each. Order statistics pool valid matches from both rounds.}\n\\label{tab:judge_pilot}\n\\end{table*}"
+  },
+  {
+    "label": "tab:cross-judge-robustness",
+    "line": 517,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{@{}lrrrrr@{}}\n\\toprule\nJudge Model & ICC(A,1) & System $\\rho$ & System $\\tau_b$ & Mean query $\\rho$ & Score Bias \\\\\n\\midrule\nGPT-5.5 (Primary) & -- & -- & -- & -- & -- \\\\\nDeepSeek-v4.1f & 0.950 & 1.000 & 1.000 & 0.800 & +0.065 \\\\\nGemini 2.5 Pro & 0.685 & 0.400 & 0.333 & 0.640 & +4.420 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Cross-judge robustness on twenty queries and four research systems. Agreement and score bias are measured relative to GPT-5.5. DeepSeek uses max reasoning.}\n\\label{tab:cross-judge-robustness}\n\\end{table*}"
+  },
+  {
+    "label": "tab:judge-stability",
+    "line": 534,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{8pt}\n\\begin{tabular}{@{}lrrr@{}}\n\\toprule\nJudge Model & Order consistency $\\uparrow$ & Reversal rate $\\downarrow$ & Cycle rate $\\downarrow$ \\\\\n\\midrule\nGPT-5.5 (Primary) & \\textbf{91.81\\%} & \\textbf{6.31\\%} & \\textbf{0.18\\%} \\\\\nDeepSeek-v4.1f & 86.09\\% & 13.02\\% & 0.62\\% \\\\\nGemini 2.5 Pro & 82.94\\% & 15.29\\% & 1.18\\% \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Judge stability on the same twenty queries. Order consistency compares judgments in both presentation orders after restoring report identities; cycle rates use non-tied, guideline-level three-system comparisons. DeepSeek uses max reasoning.}\n\\label{tab:judge-stability}\n\\end{table*}"
+  },
+  {
+    "label": "tab:token_usage",
+    "line": 563,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{6pt}\n\n\n\\begin{tabular}{@{}ccccc@{}}\n\\toprule\nModel & Responses & Input (M) & Output (M) & Total (M) \\\\\n\\midrule\nGPT-5.5 & 13,345 & 525.41 & 55.11 & 580.52 \\\\\nDeepSeek-v4.1f & 15,917 & 97.82 & 10.13 & 107.95 \\\\\n\\midrule\nTotal & 29,262 & 623.24 & 65.24 & 688.47 \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Recorded tokens for requests associated with the nine-system evaluation assets. M denotes million tokens; counts include only responses with usage metadata. Separate component and cross-judge experiments are excluded.}\n\\label{tab:token_usage}\n\\end{table*}"
+  },
+  {
+    "label": "tab:new_system_sampling",
+    "line": 605,
+    "latex": "\\begin{table*}[t]\n\\centering\n\\small\n\\setlength{\\tabcolsep}{5pt}\n\n\n\\begin{tabular}{@{}cccccc@{}}\n\\toprule\nOpponents & New pairs & Token savings & MAE & P95 & Rank accuracy \\\\\n\\midrule\n1 & 40 & 80.25\\% & 0.730 & 1.731 & 90.71\\% \\\\\n2 & 80 & 64.23\\% & 0.318 & 0.786 & 93.14\\% \\\\\n3 & 120 & 48.17\\% & 0.194 & 0.497 & 96.14\\% \\\\\n6 (full) & 240 & 0\\% & 0 & 0 & 100\\% \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{New-system entry with sparse comparisons and inverse-probability weighting. MAE and P95 summarize absolute new-system total-score errors over 700 trials per budget. Rank accuracy is exact agreement with the full-entry rank. Token savings are estimated from recorded call-dependency usage relative to full entry.}\n\\label{tab:new_system_sampling}\n\\end{table*}"
+  },
+  {
+    "label": "tab:initial_system_results",
+    "line": 630,
+    "latex": "\\begin{table*}[t]\n\\centering\\small\\setlength{\\tabcolsep}{4pt}\\begin{tabular}{@{}cccccc@{}}\\toprule System & Responsiveness & Evidence & Insight & Readability & Total \\\\ \\midrule OpenAI & \\textbf{93.03} & \\textbf{85.70} & 75.23 & 77.28 & \\textbf{84.12} \\\\ Kimi & 90.88 & 77.40 & 67.05 & \\textbf{80.08} & 79.91 \\\\ LongCat & 89.94 & 66.36 & \\textbf{76.41} & 32.99 & 68.77 \\\\ Claude & 86.74 & 70.05 & 52.79 & 53.60 & 68.32 \\\\ DuMate & 82.92 & 50.30 & 35.35 & 51.02 & 57.24 \\\\ Gemini & 81.25 & 46.04 & 29.49 & 40.84 & 52.25 \\\\ Qwen & 70.18 & 39.52 & 13.68 & 16.22 & 38.89 \\\\ \\bottomrule\\end{tabular}\n\\caption{System scores for the seven-system report set, averaged equally over 40 queries. Bold marks the highest value in each column.}\n\\label{tab:initial_system_results}\n\\end{table*}"
+  },
+  {
+    "label": "tab:controlled_thresholds",
+    "line": 653,
+    "latex": "\\begin{table*}[t]\n\\centering\\small\\setlength{\\tabcolsep}{5pt}\n\\begin{tabular}{@{}lrrrr@{}}\n\\toprule\n& \\multicolumn{2}{c}{Absolute score difference} & \\multicolumn{2}{c}{Percentage score difference} \\\\\n\\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\nMethod & Best ACC ($\\tau$) & Best Macro-F1 ($\\tau$) & Best ACC ($\\tau$) & Best Macro-F1 ($\\tau$) \\\\\n\\midrule\nFull framework & \\textbf{64.7} (1.70) & \\textbf{64.2} (1.70) & \\textbf{63.9} (2.00) & \\textbf{63.4} (2.00) \\\\\nSame-coverage PT & 41.2 (3.34) & 37.8 (3.34) & 41.2 (4.68) & 37.5 (4.68) \\\\\nRACE & 42.0 (0.135) & 40.8 (0.3044) & 42.9 (0.12) & 40.8 (0.51584) \\\\\nSource protocols & 36.1 (0.10) & 34.1 (0.10) & 36.1 (0.19) & 34.1 (0.19) \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Tie-threshold sensitivity on the common 119 controlled revisions. Each entry gives the best value of the metric, expressed as a percentage, followed in parentheses by a threshold that attains it. Absolute thresholds are score points; percentage thresholds are percentages of the base report's score. ACC and macro-F1 are optimized separately.}\n\\label{tab:controlled_thresholds}\n\\end{table*}"
+  },
+  {
+    "label": "tab:controlled_dimensions",
+    "line": 674,
+    "latex": "\\begin{table*}[t]\n\\centering\\small\\setlength{\\tabcolsep}{6pt}\n\\begin{tabular}{@{}lrrr@{}}\n\\toprule\nDimension & $N$ & Full framework & Same-coverage PT \\\\\n\\midrule\nResponsiveness & 2 & 1/2 (50.0) & 1/2 (50.0) \\\\\nEvidence & 18 & 8/18 (44.4) & \\textbf{9/18 (50.0)} \\\\\nReasoning & 56 & \\textbf{32/56 (57.1)} & 27/56 (48.2) \\\\\nSynthesis & 22 & \\textbf{8/22 (36.4)} & 7/22 (31.8) \\\\\nReadability & 25 & \\textbf{21/25 (84.0)} & 6/25 (24.0) \\\\\n\\midrule\nOverall & 123 & \\textbf{70/123 (56.9)} & 50/123 (40.7) \\\\\n\\bottomrule\n\\end{tabular}\n\\caption{Target-dimension ACC at macro-F1-optimal thresholds: 4.68 for Full framework and 3.13 for Same-coverage PT. Entries give correct counts and percentages. Each method shares one threshold across all 123 judgments from 120 human-confirmed revisions.}\n\\label{tab:controlled_dimensions}\n\\end{table*}"
+  },
+  {
+    "label": "tab:query_characteristics",
+    "line": 697,
+    "latex": "\\begin{table}[t]\n\\centering\n\\small\n\n\n\\begin{tabular}{cccc}\n\\hline\nCharacteristic & Low & Medium & High \\\\\n\\hline\nBreadth & 6 & 17 & 17 \\\\\nDepth & 3 & 15 & 22 \\\\\nExploratory scope & 9 & 23 & 8 \\\\\n\\hline\n\\end{tabular}\n\\caption{Query characteristics. Each row independently covers all 40 queries.}\n\\label{tab:query_characteristics}\n\\end{table}"
+  }
+]

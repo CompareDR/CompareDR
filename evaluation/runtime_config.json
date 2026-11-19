@@ -1,0 +1,42 @@
+{
+  "version": "comparedr-portable-v1",
+  "model": "gpt-5.5",
+  "reasoning_effort": "medium",
+  "verifier_model": "deepseek-v4.1-flash",
+  "attempts": 6,
+  "ds_attempts": 3,
+  "check_attempts": 3,
+  "workers": 150,
+  "active_queries": 8,
+  "local_stage_workers": 12,
+  "gpt_concurrency": 16,
+  "gpt_rpm": 15,
+  "gpt_tpm": null,
+  "deepseek_rpm": 30,
+  "deepseek_concurrency": 16,
+  "output_tokens": {
+    "graph": 128000,
+    "loc": 24000,
+    "diff": 24000,
+    "plan": 12000,
+    "pt": 12000,
+    "judge": 24000,
+    "readability_raw": 24000,
+    "verifier": 12000
+  },
+  "request_timeout_seconds": 600,
+  "graph_timeout_seconds": 900,
+  "ds_timeout_seconds": 180,
+  "acquisition_seconds": 180,
+  "worker_timeout_seconds": 14400,
+  "weights": [
+    30,
+    30,
+    10,
+    10,
+    20
+  ],
+  "weight_normalizer": 100,
+  "reuse_model_outputs": false,
+  "resume_passes": 3
+}

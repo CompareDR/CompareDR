@@ -1,0 +1,1048 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a6054d0",
+  "language": "en",
+  "title": "Agriculture and mythology in ancient Egypt",
+  "full_query": "Critically analyze how agricultural practices in ancient Egypt shaped the development of their mythology, particularly in relation to deities, rituals, and beliefs about life and the afterlife through an essay.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01.cycle",
+      "dimension": "D1",
+      "title": "Agricultural seasonality",
+      "question": "Does the essay explain the flood–cultivation–harvest sequence as agricultural context?",
+      "anchors": {
+        "1": "No substantive account of agricultural seasonality.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Flooding is named but the cultivation and harvest relation is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains the sequence and its effect on agricultural activity, allowing variability rather than an invariably benign Nile."
+      },
+      "boundary": "No exact modern months, Sirius date or compulsory Mesopotamian contrast.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:1",
+          "rr:6847465956a0f6376a6054d0:flat:2",
+          "rr:6847465956a0f6376a6054d0:flat:3"
+        ],
+        "query_quotes": [
+          "agricultural practices in ancient Egypt"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.01; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.01"
+    },
+    {
+      "id": "PT.D1.01.water",
+      "dimension": "D1",
+      "title": "Water management",
+      "question": "Does the essay explain how irrigation or water lifting/distribution affected farming?",
+      "anchors": {
+        "1": "No substantive account of water management.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Water management is named without explaining its practical consequence.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Connects a concrete water-management practice to labor, cultivated land or productive conditions, with historical scope."
+      },
+      "boundary": "No fixed shaduf introduction date; a technology name alone is insufficient.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:4",
+          "rr:6847465956a0f6376a6054d0:flat:5"
+        ],
+        "query_quotes": [
+          "agricultural practices in ancient Egypt"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.01; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.01"
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Deities linked to agriculture",
+      "question": "Does the essay connect the deities central to its argument to specific agricultural processes or concerns?",
+      "anchors": {
+        "1": "No relevant deity-agriculture connection.",
+        "2": "Names gods and calls them fertility deities without a concrete agricultural connection.",
+        "3": "Some deity links are concrete, but water/earth fertility, harvest/provision or reproductive-renewal roles are omitted, or central gods remain generic symbols.",
+        "4": "Explains water/earth fertility, harvest/provision and generative-renewal roles through concrete agricultural connections for the central deities, with only minor explanation gaps.",
+        "5": "Explains deity roles related to water/earth fertility, harvest/provision and generative renewal, using specific Egyptian associations and distinguishing these functions; no central god is left as an interchangeable fertility label."
+      },
+      "boundary": "No fixed pantheon or required genealogy. Incidental genealogical names do not each require an invented agricultural role. The depth and limits of causal interpretation are compared in PW.D3.01. These substantive divine functions must be addressed without requiring a fixed pantheon; do not repeat crop, rite or royal-role omissions scored in08,03 or09.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:14",
+          "rr:6847465956a0f6376a6054d0:flat:18",
+          "rr:6847465956a0f6376a6054d0:flat:27"
+        ],
+        "query_quotes": [
+          "deities"
+        ],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New deity-role relation: good treatment of one god does not erase a central unexplained god; anchors 3–4 handle unevenness without one score per deity. Cross-review makes grade4 explicitly require the same substantive domains as grade5; an entire missing domain remains3."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Rituals linked to practice",
+      "question": "Does the essay explain how identifiable Egyptian rituals relate to agricultural practices?",
+      "anchors": {
+        "1": "No ritual-agriculture connection.",
+        "2": "Only names festivals or says rituals ensured fertility.",
+        "3": "Explains ritual actions/materials or their place in the agricultural cycle, but omits the other, or leaves their agricultural meaning materially unclear.",
+        "4": "Explains concrete ritual actions or materials and the relation of ritual observance to the agricultural cycle, with only minor contextual gaps.",
+        "5": "Explains how concrete ritual actions or materials engage agricultural processes, and how ritual observance relates to the farming cycle; distinguishes seasonal occasions from practices not tied to a single season where relevant."
+      },
+      "boundary": "No mandatory Renenutet festival, Min festival or Khoiak example. An action and its agricultural meaning are one relation; do not give extra credit merely for naming more festivals. Retain the role of agricultural timing as well as embodied ritual practice, not a fixed festival or modern calendar date. These aspects may be shown in one connected case or different cases; a non-seasonal practice does not establish that agricultural timing was irrelevant throughout Egyptian ritual. Royal authority is assessed only in PT.D1.09, not as another omission here.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:16",
+          "rr:6847465956a0f6376a6054d0:flat:20",
+          "rr:6847465956a0f6376a6054d0:flat:22",
+          "rr:6847465956a0f6376a6054d0:flat:30"
+        ],
+        "query_quotes": [
+          "rituals"
+        ],
+        "change_note": "Retains rituals as a required subject and demands concrete practice links; relaxes named-festival and gesture requirements. Cross-review aligns all upper anchors with the ritual practice and agricultural-timing omission test; named festivals remain optional."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Beliefs about life",
+      "question": "Does the essay explain how agriculture informed Egyptian beliefs about life?",
+      "anchors": {
+        "1": "No discussion of beliefs about life in relation to agriculture.",
+        "2": "Only asserts that agriculture symbolized life or fertility.",
+        "3": "Identifies a relevant belief, but the agricultural experience behind it or its meaning for human life remains vague.",
+        "4": "Explains a concrete agriculture-to-life-belief connection with a minor gap.",
+        "5": "Connects specific agricultural experiences to beliefs about sustaining, renewing or ordering life and explains what that connection means in the Egyptian examples selected."
+      },
+      "boundary": "Does not require a particular doctrine or a claim that every belief came from farming. Discussion solely of postmortem rebirth does not substitute for this subject.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:31"
+        ],
+        "query_quotes": [
+          "beliefs about life"
+        ],
+        "change_note": "Retains the explicit life-belief requirement, with anchors distinguishing generic fertility language from an explained connection."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Beliefs about the afterlife",
+      "question": "Does the essay explain how agricultural experience shaped the afterlife beliefs it discusses?",
+      "anchors": {
+        "1": "No agriculture-afterlife connection.",
+        "2": "Only says death and rebirth resemble a crop cycle.",
+        "3": "Explains agricultural death/renewal imagery or postmortem sustenance/landscape, but omits the other, or leaves the farming-to-afterlife relation unclear.",
+        "4": "Explains both agricultural death/renewal imagery and postmortem sustenance or cultivated landscape, with only a minor gap in their afterlife significance.",
+        "5": "Explains agricultural processes used to imagine death and renewal, together with postmortem sustenance or cultivated landscape, distinguishing concrete Egyptian representations from a universal crop-cycle origin claim."
+      },
+      "boundary": "No fixed Osiris event-by-event mapping, Field of Reeds feature count or weighing scene. Both renewal and postmortem provision must be addressed; crop symbolism itself belongs to08, and this item requires its distinct meaning for postmortem existence.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:24",
+          "rr:6847465956a0f6376a6054d0:flat:32",
+          "rr:6847465956a0f6376a6054d0:flat:19"
+        ],
+        "query_quotes": [
+          "the afterlife"
+        ],
+        "change_note": "v3.3 targeted revision: Renewal can be explained while agrarian postmortem life is absent and vice versa; symmetric grade3 restores both without per-scene scoring. Cross-review makes grade4 explicitly require the same substantive domains as grade5; an entire missing domain remains3."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "An essay answering the historical question",
+      "question": "Does the response present a connected essay about how agriculture shaped Egyptian mythology, rather than a catalogue or a general symbolism discussion?",
+      "anchors": {
+        "1": "The response is not about the requested relationship.",
+        "2": "Mostly disconnected facts or generic symbolism not grounded in Egyptian mythology.",
+        "3": "A relevant essay direction is visible, but substantial passages remain a catalogue or lack connection to its central question.",
+        "4": "Connected prose addresses the historical relationship, with a minor digression or weak return to the main question.",
+        "5": "A discernible central claim, connected discussion and conclusion answer the agriculture-mythology question using Egyptian cases; supporting lists or tables remain subordinate to the essay."
+      },
+      "boundary": "No fixed introduction/body/conclusion headings, length or prescribed essay thesis is required. This checks form and relevance, not the comparative strength of historical reasoning or whole-essay progression.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:34"
+        ],
+        "query_quotes": [
+          "through an essay"
+        ],
+        "change_note": "Converts the negative vague-symbolism criterion into a positive relevance/form boundary; does not prohibit useful explicit comparison. Cross-review clarifies that no prescribed thesis is required; a discernible central claim remains part of the essay-form test."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Historical scope of material claims",
+      "question": "Does the essay state the historical scope and qualifications needed for its central agricultural and mythological claims?",
+      "anchors": {
+        "1": "The argument explicitly collapses incompatible periods or traditions into one unqualified account.",
+        "2": "Repeated unqualified all-Egypt/all-period assertions obscure the scope of major claims.",
+        "3": "Some scope is supplied, but a central generalization has no interpretable period, tradition or limit.",
+        "4": "Main claims have interpretable historical scope, with a minor qualification missing.",
+        "5": "Central claims are situated by the relevant period, place, textual tradition or explicitly justified broader scope; the essay does not silently project one attestation across all ancient Egypt."
+      },
+      "boundary": "No compulsory dynasty list or discussion of every regional variant. Assess stated scope, not unperformed external checks. A broad argument can qualify if its breadth is justified.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "development of their mythology"
+        ],
+        "change_note": "Locally adds historical-scope discipline for an argument spanning changing practices and traditions; not a fixed chronology answer key."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Traceable historical support",
+      "question": "Can the essay's central historical and interpretive claims be connected to identifiable sources?",
+      "anchors": {
+        "1": "No identifiable basis for central historical claims.",
+        "2": "Only vague references to historians, myths or ancient texts.",
+        "3": "Some evidence is identifiable, but key claims have unclear attribution.",
+        "4": "Most central claims map to identifiable sources, with a minor location or attribution gap.",
+        "5": "The central practices, myths, ritual descriptions and interpretations can be traced to identifiable textual, material or scholarly sources with clear claim-to-source relationships."
+      },
+      "boundary": "No URL requirement or fixed bibliography length. An ancient work with a passage identifier, an object record or sufficiently specified scholarship can be traceable; traceability does not prove support.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added historical claim-to-source audit."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Support within completed checks",
+      "question": "Within the recorded completed checks, does obtained evidence support the essay's historical claims and attributed interpretations?",
+      "anchors": {
+        "1": "A central checked claim is contradicted or its stated source is fabricated.",
+        "2": "Several important checked claims substantially misrepresent their evidence.",
+        "3": "Checked support is mixed, with a consequential factual or attribution error.",
+        "4": "Important checked claims hold, with only minor qualification issues.",
+        "5": "All assessed claims accurately represent the obtained evidence and distinguish attested material from scholarly interpretation; unassessed claims remain unverified."
+      },
+      "boundary": "Record selected and completed checks. Retrieval failure calls for retry or an execution-incomplete record, not a low score or NA. With no assessable evidence defer this check. Do not certify the entire essay from a sample.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added bounded support audit; official examples have not been independently verified for this draft."
+      }
+    },
+    {
+      "id": "PT.D1.07.grain",
+      "dimension": "D1",
+      "title": "Grain material roles",
+      "question": "Does the essay explain the material roles of grain?",
+      "anchors": {
+        "1": "No substantive account of grain material roles.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Crops are named, but their relevant role is generic or not tied to Egyptian practice.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains concrete uses of grain in food, storage, clothing or other material life, with Egyptian context."
+      },
+      "boundary": "No compulsory species/deity list. Material use and religious meaning are different objects; examples from the other crop domain cannot compensate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.nongrain",
+      "dimension": "D1",
+      "title": "Non-Grain Crops material roles",
+      "question": "Does the essay explain the material roles of non-grain crops?",
+      "anchors": {
+        "1": "No substantive account of non-grain crops material roles.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Crops are named, but their relevant role is generic or not tied to Egyptian practice.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains concrete uses of non-grain crops in food, storage, clothing or other material life, with Egyptian context."
+      },
+      "boundary": "No compulsory species/deity list. Material use and religious meaning are different objects; examples from the other crop domain cannot compensate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08.grain",
+      "dimension": "D1",
+      "title": "Grain religious roles",
+      "question": "Does the essay explain the religious roles of grain?",
+      "anchors": {
+        "1": "No substantive account of grain religious roles.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Crops are named, but their relevant role is generic or not tied to Egyptian practice.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains an identifiable Egyptian ritual use or religious meaning of grain, linking the agricultural material to that meaning and qualifying interpretation."
+      },
+      "boundary": "No compulsory species/deity list. Material use and religious meaning are different objects; examples from the other crop domain cannot compensate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.08; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.nongrain",
+      "dimension": "D1",
+      "title": "Non-Grain Crops religious roles",
+      "question": "Does the essay explain the religious roles of non-grain crops?",
+      "anchors": {
+        "1": "No substantive account of non-grain crops religious roles.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Crops are named, but their relevant role is generic or not tied to Egyptian practice.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains an identifiable Egyptian ritual use or religious meaning of non-grain crops, linking the agricultural material to that meaning and qualifying interpretation."
+      },
+      "boundary": "No compulsory species/deity list. Material use and religious meaning are different objects; examples from the other crop domain cannot compensate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.08; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Royal mediation and agricultural ritual",
+      "question": "Does the essay explain the pharaoh's agricultural-religious mediation and how royal ritual joined agricultural fertility with kingship?",
+      "anchors": {
+        "1": "No royal agricultural-religious role.",
+        "2": "Only calls the king divine or mentions a festival.",
+        "3": "Describes royal action without agricultural/political meaning, or gives meaning with no concrete ritual basis.",
+        "4": "Relates a concrete royal action to agricultural fertility and royal authority/renewal, with minor contextual gaps.",
+        "5": "Explains how the ruler's ritual mediation linked cultivation/fertility to sustaining or renewing royal authority, using a concrete attested practice and qualifying the particular rite rather than all royal ritual."
+      },
+      "boundary": "No mandatory hoe gesture, bird release, Min festival or assertion that every royal rite served biological fertility. This checks the institutional role; general ritual mechanics stay in PT.D1.03.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:20",
+          "rr:6847465956a0f6376a6054d0:flat:26",
+          "rr:6847465956a0f6376a6054d0:flat:33"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore kingship content while rejecting universal royal-fertility wording."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Agriculture, craft and husbandry",
+      "question": "Does the essay explain how agriculture's links with craft and animal husbandry entered religious life?",
+      "anchors": {
+        "1": "No related economic-social activities.",
+        "2": "Only names crafts or animals.",
+        "3": "Explains craft or husbandry connections but omits the other, or gives livelihood facts without religious significance.",
+        "4": "Both activity domains have concrete agricultural and religious connections with a minor scope gap.",
+        "5": "Explains how agricultural materials/labor or production supported crafts, and how raising or using animals related to agricultural life, connecting both to Egyptian religious roles or practices without treating all work as identical fertility symbolism."
+      },
+      "boundary": "No requirement for two separate named anecdotes, Ptah or Hathor. A single well-grounded connected account may explain both domains; distinguish cultural association from proof that farming caused every deity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:29"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore craft and husbandry domains without restoring a fixed example count."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Historical explanation rather than resemblance",
+      "question": "Which essay better explains how agricultural experience could shape mythology without treating a resemblance as proof of historical origin?",
+      "anchors": {
+        "0": "The historical inferences are comparably convincing, or neither goes beyond unsupported resemblance; distinguish these cases.",
+        "1": "A develops the agriculture-to-myth inference slightly more convincingly, although B may explain one correspondence or qualification better.",
+        "2": "A's main historical explanation is substantially better grounded and qualified.",
+        "-2": "B's main historical explanation is substantially better grounded and qualified.",
+        "-1": "B develops the agriculture-to-myth inference slightly more convincingly, although A may explain one correspondence or qualification better."
+      },
+      "boundary": "Follow the actual process-to-myth claim: for example, if a sowing/burial or seasonal-renewal parallel is used, ask what supports that reading and what it cannot establish. No compulsory Osiris mapping, environmental determinism, rival-theory checklist or universal agrarian origin. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2. Compare the central historical inferences using the same importance and warrant criteria for A and B; equally consequential opposite advantages are0, rather than choosing a favorable example for one essay.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:19"
+        ],
+        "query_quotes": [
+          "Critically analyze",
+          "shaped the development"
+        ],
+        "change_note": "Adapts the official process-to-Osiris mapping into the quality of supported historical inference across eligible cases; no fixed allegorical answer. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Connecting material practice and religious meaning",
+      "question": "Which essay better shows what is learned by relating agricultural materials or processes across ritual practice and beliefs about life or the afterlife?",
+      "anchors": {
+        "0": "The cross-connections are comparably useful, or neither connects the accounts beyond shared labels; distinguish these cases.",
+        "1": "A draws slightly more useful connections between material practice and religious meaning, although B may interpret one symbol better.",
+        "2": "A develops a substantially more illuminating connected interpretation.",
+        "-2": "B develops a substantially more illuminating connected interpretation.",
+        "-1": "B draws slightly more useful connections between material practice and religious meaning, although A may interpret one symbol better."
+      },
+      "boundary": "Compare the additional interpretive understanding formed from the content, not the number of domains covered. [PT.D1.07.grain, PT.D1.07.nongrain]–10 now check material, symbolic and institutional content directly. Identify a distinct implication beyond a valid D3 inference; use common importance criteria and score equally consequential opposite advantages 0. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2. A royal-ritual interpretation already rewarded for its institutional consequence in PW.D4.02 needs a separate consequence for understanding ritual/life/afterlife meaning here; the same inference is not two gains.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New cross-domain interpretation: good ritual description and good afterlife description without an explained connection are not automatically strong synthesis. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Agriculture within social and religious life",
+      "question": "Which essay better clarifies how agricultural mythology interacted with Egyptian social life or institutions?",
+      "anchors": {
+        "0": "The social-context insight is comparable, or neither provides relevant contextual help; distinguish these cases.",
+        "1": "A gives slightly more illuminating social context for its interpretation, although B may connect one institution or activity better.",
+        "2": "A substantially deepens the interpretation through relevant social relationships.",
+        "-2": "B substantially deepens the interpretation through relevant social relationships.",
+        "-1": "B gives slightly more illuminating social context for its interpretation, although A may connect one institution or activity better."
+      },
+      "boundary": "Compare the additional interpretive understanding formed from the content, not the number of domains covered. [PT.D1.07.grain, PT.D1.07.nongrain]–10 now check material, symbolic and institutional content directly. Identify a distinct implication beyond a valid D3 inference; use common importance criteria and score equally consequential opposite advantages 0. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2. A cross-domain symbolic connection already rewarded in PW.D4.01 needs a separate institutional or social consequence here; repeating it in social vocabulary is not an additional gain.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:9",
+          "rr:6847465956a0f6376a6054d0:flat:26",
+          "rr:6847465956a0f6376a6054d0:flat:29",
+          "rr:6847465956a0f6376a6054d0:flat:33"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New context-to-interpretation relation: abundant craft or royal facts without their effect on the mythology argument do not establish an advantage. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence suited to the interpretation",
+      "question": "Which essay uses evidence better suited to the historical and interpretive conclusions it draws?",
+      "anchors": {
+        "0": "Evidence applicability is comparable, or neither provides usable support; distinguish these cases.",
+        "1": "A's supporting material is slightly better matched to its claims, although B may substantiate one episode better.",
+        "2": "A's main interpretation rests on substantially more applicable evidence.",
+        "-2": "B's main interpretation rests on substantially more applicable evidence.",
+        "-1": "B's supporting material is slightly better matched to its claims, although A may substantiate one episode better."
+      },
+      "boundary": "Consider the relationship between attested text/object, its context and later interpretation. Neither primary-source labels nor prestigious modern sources automatically win. Bounded factual errors constrain usable support without becoming a second per-error penalty. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added comparison of historical evidence fit rather than citation quantity or traceability. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Progression of the essay",
+      "question": "Which original essay more clearly develops its argument from agricultural setting through interpretation to a supported conclusion?",
+      "anchors": {
+        "0": "Whole-essay progression is comparable, or neither offers a coherent argumentative path; distinguish these cases.",
+        "1": "A's progression is slightly easier to follow, although B may organize one section better.",
+        "2": "A's whole argument is substantially easier to follow.",
+        "-2": "B's whole argument is substantially easier to follow.",
+        "-1": "B's progression is slightly easier to follow, although A may organize one section better."
+      },
+      "boundary": "Judge the original report's arrangement and transitions, not a rewritten outline or a required section order. The existence of an essay is PT.D1.06; this compares how its argument unfolds. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "through an essay"
+        ],
+        "change_note": "Locally designs relative whole-essay organization under the requested essay form. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Understandable terms and explanations",
+      "question": "Which essay makes its existing specialist terms and agricultural-mythological explanations easier to understand?",
+      "anchors": {
+        "0": "Clarity is comparable, or neither makes its concepts understandable; distinguish these cases.",
+        "1": "A's terminology and local explanations are slightly clearer, although B may explain one concept better.",
+        "2": "A makes the existing argument substantially more understandable.",
+        "-2": "B makes the existing argument substantially more understandable.",
+        "-1": "B's terminology and local explanations are slightly clearer, although A may explain one concept better."
+      },
+      "boundary": "Assess terms actually used: a plain contextual explanation can suffice without a glossary. Do not require Ma'at, shaduf, corvée or Aaru, and do not reward additional factual coverage as clearer wording. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054d0:flat:28"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts explanation of specialist vocabulary into relative comprehension of the original prose; the official example terms are not required content. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Locating an example and its basis",
+      "question": "Which essay makes a particular agricultural-mythological example and its supporting source easier to locate?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither lets the reader locate examples and their stated basis; distinguish these cases.",
+        "1": "A makes example-to-source lookup slightly easier, although B may provide a better local pointer.",
+        "2": "A makes the needed example and its basis substantially easier to retrieve.",
+        "-2": "B makes the needed example and its basis substantially easier to retrieve.",
+        "-1": "B makes example-to-source lookup slightly easier, although A may provide a better local pointer."
+      },
+      "boundary": "Use actual navigation in the original essay. No mandatory table, hyperlink or glossary; traceable source identity is checked separately from the effort of finding it. A substantial advantage can occur when both essays are correct and useful; a defect in B is not required for +2, nor a defect in A for -2.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added information-location comparison for a historical essay. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:1",
+      "targets": [
+        "PT.D1.01.cycle"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.01.cycle. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:2",
+      "targets": [
+        "PT.D1.01.cycle"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.01.cycle. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:3",
+      "targets": [
+        "PT.D1.01.cycle"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "A single precise Sirius/New Year trigger is an optional chronological route.",
+      "discrimination_check": "Absence of Sirius does not lower a score; neither the astronomical detail nor its asserted precision is retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:4",
+      "targets": [
+        "PT.D1.01.water"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "No mandatory shaduf introduction date; the supplied date has not been independently verified.",
+      "discrimination_check": "The exact circa-2000-BCE distinction is lost. General historical-scope auditing is not a substitute for this answer key."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:5",
+      "targets": [
+        "PT.D1.01.water"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.01.water. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:6",
+      "targets": [
+        "PT.D1.07.grain"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.07.grain. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:7",
+      "targets": [
+        "PT.D1.08.grain",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.08.grain, PW.D4.01. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:8",
+      "targets": [
+        "PT.D1.07.nongrain"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.07.nongrain. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:9",
+      "targets": [
+        "PT.D1.08.nongrain",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.08.nongrain, PW.D4.02. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Restore substantive domain coverage with a direct omission test."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:10",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Lower Egyptian Hapi iconographic details are optional evidence, not a common coverage requirement.",
+      "discrimination_check": "The specific headdress, plant, frog and beard distinctions are not scored by a dedicated item; a deity-relation title does not preserve them."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:11",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Upper Egyptian Hapi iconographic details are not required.",
+      "discrimination_check": "The lotus, crocodile, beard and crown inventory is not retained; any selected factual use is subject only to bounded evidence checks."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:12",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The Heliopolitan creation sequence is one possible mythological route.",
+      "discrimination_check": "No independent penalty for omitting Atum, Nun, Shu or Tefnut; the exact creation sequence is intentionally not retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:13",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "A full Geb genealogy is not needed for all valid analyses.",
+      "discrimination_check": "No score for reproducing the listed family tree. Incidental genealogical names do not each require an invented agricultural association."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:14",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Keeps deity roles tied to concrete agricultural concerns, but not mandatory Renenutet titles and attributes.",
+      "discrimination_check": "PT.D1.02 distinguishes a provision/storage role explained through agriculture from generic fertility naming when that case is used. Exact title and role-list coverage is not mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Renenutet's granary cult is optional specific evidence.",
+      "discrimination_check": "No independent granary-cult presence check. Generic deity or storage coverage is explicitly not claimed to retain this cult detail."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:16",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Preserves the explanatory relation between ritual timing and agricultural practice without mandating Renenutet's festival.",
+      "discrimination_check": "PT.D1.03 distinguishes a festival name from an explained seasonal ritual connection. The exact festival/harvest identification is not compulsory. Agricultural timing cannot now be replaced by material/action description alone: missing the timing relation is3."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:17",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "No mandatory Min iconographic pose or handedness; the official description is not independently verified.",
+      "discrimination_check": "The exact physical-detail distinction is lost. Generic fertility discussion does not preserve the pose requirement."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:18",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retains concrete agricultural interpretation of a selected deity's role or imagery, not a required Min-to-flood equation.",
+      "discrimination_check": "PT.D1.02 lowers generic fertility labels lacking a specific agricultural element; the exact iconographic interpretation remains optional and evidence-dependent."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:19",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive domain coverage with a direct omission test.",
+      "discrimination_check": "PT.D1.05 limits a missing relevant domain or unexplained relation to 3 or below. Death-renewal process required, fixed four-event Osiris allegory not."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:20",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retains ritual action and agricultural meaning as one relation, not a compulsory king-hoeing example.",
+      "discrimination_check": "PT.D1.03 checks the ritual-action/agricultural relation; PT.D1.09 separately requires its royal-authority or renewal meaning. The named hoeing rite is optional, but the institutional meaning is no longer optional coverage under09."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:21",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Bird release at Min's festival is an optional detail.",
+      "discrimination_check": "No dedicated bird-release distinction; general ritual coverage does not preserve it."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:22",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retains concrete ritual materials/practices as evidence for agricultural links, allowing alternatives to Khoiak and corn mummies.",
+      "discrimination_check": "PT.D1.03 distinguishes an agricultural ritual mechanism from mere festival naming; the named festival and object are not mandatory. Concrete ritual action/material and its agricultural meaning cannot be replaced by calendar timing alone: missing embodied practice is3."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:23",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The weighing scene is an optional afterlife route, not itself an agricultural explanation.",
+      "discrimination_check": "No requirement for a feather, scale or stated judgment outcome. PT.D1.05's afterlife relation is not claimed to preserve this narrative."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:24",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive domain coverage with a direct omission test.",
+      "discrimination_check": "PT.D1.05 limits a missing relevant domain or unexplained relation to 3 or below. Postmortem agrarian provision/landscape required, exact scene features not."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:25",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "An explicit Mesopotamian/Levantine comparison is not required for a critical Egyptian essay.",
+      "discrimination_check": "No penalty for analyzing Egypt without cross-civilization comparison; generic historical qualification is not preservation of the requested comparison example."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:26",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive domain coverage with a direct omission test.",
+      "discrimination_check": "PT.D1.09 limits a missing relevant domain or unexplained relation to 3 or below. Royal mediation required, fixed king not."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:27",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Requires concrete agricultural links for deities central to the essay, not every incidental genealogical mention.",
+      "discrimination_check": "PT.D1.02 explicitly lowers central gods left as generic fertility labels. The literal each-mentioned-name requirement is relaxed to avoid invented associations."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:28",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Preserves the reader-facing value of explaining terms actually used, as a relative comparison.",
+      "discrimination_check": "PW.D6.01 distinguishes understandable explanations from unresolved jargon; no absolute glossary checklist or requirement to use the example terms remains."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:29",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive domain coverage with a direct omission test.",
+      "discrimination_check": "PT.D1.10 limits a missing relevant domain or unexplained relation to 3 or below. Craft and husbandry required, two-anecdote count and deity names not."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:30",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retains the explicit ritual-to-agricultural-practice requirement.",
+      "discrimination_check": "PT.D1.03 differentiates a ritual name, a partial practice link and a concrete explained relation; a broad rituals heading alone cannot satisfy it. Upper anchors require concrete practice plus its relationship to the agricultural cycle, with no named-festival quota."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:31",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retains the explicit agriculture-to-life-belief relation as its own subject.",
+      "discrimination_check": "PT.D1.04 differentiates generic fertility language from a concrete agricultural experience and its meaning for life; strong afterlife coverage cannot replace it."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:32",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retains the explicit agriculture-to-afterlife-belief relation as its own subject.",
+      "discrimination_check": "PT.D1.05 differentiates a named scene from an explained agrarian conception of postmortem existence; life-belief coverage cannot replace it."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:33",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive domain coverage with a direct omission test.",
+      "discrimination_check": "PT.D1.09 limits a missing relevant domain or unexplained relation to 3 or below. Royal authority/renewal meaning required for the discussed rite; universal royal-fertility claim rejected."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054d0:flat:34",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Preserves the negative distinction against vague symbolism detached from Egyptian mythology.",
+      "discrimination_check": "PT.D1.06 scores generic symbolic prose below a connected Egyptian analysis; explicit relevant comparisons remain allowed."
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01.cycle",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.01.cycle, PT.D1.01.water]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.01.water",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.01.cycle, PT.D1.01.water]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New deity-role relation: good treatment of one god does not erase a central unexplained god; anchors 3–4 handle unevenness without one score per deity. Cross-review makes grade4 explicitly require the same substantive domains as grade5; an entire missing domain remains3."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New ritual-practice relation: a detailed ceremony with no agricultural connection scores 3 or below; separating the gesture from its meaning would weaken the requested judgment. Cross-review aligns all upper anchors with the ritual practice and agricultural-timing omission test; named festivals remain optional."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New separately requested subject: strong afterlife coverage cannot fill an absent account of beliefs about living; within this item the experience-belief relation is intact."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "Renewal can be explained while agrarian postmortem life is absent and vice versa; symmetric grade3 restores both without per-scene scoring. Cross-review makes grade4 explicitly require the same substantive domains as grade5; an entire missing domain remains3."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New requested form and focus: fluent prose about generic symbols without Egyptian grounding scores 2–3, while auxiliary lists do not disqualify a connected essay. Cross-review clarifies that no prescribed thesis is required; a discernible central claim remains part of the essay-form test."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New scope relation: dated evidence followed by an unsupported universal inference remains mixed performance; a date and the claim it bounds are not separate checklist items."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New attribution relation: a large bibliography with no mapping for the main interpretation scores 2–3; source quantity does not repair the relationship."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New evidence-claim relation: lack of access is not the same as an obtained source contradicting a claim; a convincing interpretation cannot repair misattribution."
+    },
+    {
+      "id": "PT.D1.07.grain",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.grain, PT.D1.07.nongrain]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.nongrain",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.grain, PT.D1.07.nongrain]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08.grain",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.08.grain, PT.D1.08.nongrain]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08.nongrain",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.08.grain, PT.D1.08.nongrain]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "Specific ceremony without its royal-authority consequence is 3; generic power theory without a ritual connection is also 3."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "Craft explained but animal husbandry absent is 3 and vice versa; naming two gods without the relationships is 2/3, not automatic coverage."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New inference relation: detailed correspondences with no warrant for an origin claim may lose to a more limited well-supported argument; detail and causal qualification are judged together. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New cross-domain interpretation: good ritual description and good afterlife description without an explained connection are not automatically strong synthesis. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New context-to-interpretation relation: abundant craft or royal facts without their effect on the mythology argument do not establish an advantage. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New support-set relation: detailed evidence for a minor iconographic feature cannot compensate for poorly supported central development claims. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New whole-reading relation: good standalone deity and ritual sections can still be poorly joined; their overall progression is one judgment. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New local-understanding relation: one clear definition does not erase recurring unexplained terms, while plain language without specialist labels can be equally clear. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New lookup task: a clearly indexed deity but a buried source still leaves the reader with a harder retrieval task. Two valid essays may differ substantially: +/-2 now allow that case symmetrically, without requiring an error in the weaker essay."
+    }
+  ],
+  "author_notes": [
+    "No prior draft exists for this assigned topic. The 9 pointwise and 7 pairwise items are newly authored for this essay; no fixed item count or mechanical deity-by-deity split was used.",
+    "Pointwise keeps concrete agricultural context, each explicitly requested relationship, essay focus and historical audits. Pairwise compares inference, cross-domain interpretation, social context, evidence fit, original progression, terminology and lookup.",
+    "All 34 official resources have individual dispositions. Exact crop inventories, deity genealogies/iconography, named festivals, calendar months, Sirius trigger, shaduf date, weighing scene and mandatory cross-civilization comparison are not all retained. In particular, high-weight grain, Osiris and social-example criteria retain explanatory value but not their exact route or count.",
+    "Official month ranges, technology dates, crop lists, iconographic details and universal royal-ritual meanings are source data, not externally verified facts or fixed answer keys. This draft did not browse or verify historical evidence.",
+    "Atomicity checks preserve process-to-belief, ritual-action-to-meaning and claim-to-evidence relations. Required subjects have separate items; PW synthesis must demonstrate added understanding rather than re-sum those coverage checks.",
+    "These are author self-checks and structural checks only, not independent semantic approval. Remaining review should test whether historical-scope anchors, optional social-context value and cross-domain synthesis distinguish real differences without redundant rewards.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为13 PT / 7 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "01收窄为洪水季节与用水实践，移除作物重复检查；新增07作物用途、08作物宗教意义、09王权中介、10工艺与畜牧。02恢复神职领域，05恢复死亡更新与来世供养区别。PW社会综合不再承担这些领域的唯一覆盖责任。",
+    "历法现代月份、shaduf年代、Hapi图像、Geb家谱、固定奥西里斯四段寓意仍不作钥匙。新分项按物质用途/宗教关系/制度意义分工，须防同一句象征关系重复作不同收益；外部史实未核，待独立语义审阅。",
+    "Cross-review: no new items. Align deity and afterlife grade4 with whole-domain omission grade3; preserve agricultural ritual timing alongside practice. PW substantial advantages need not imply the other essay is defective; D4 symbolic and institutional consequences cannot be counted twice. External historical specifics remain unverified."
+  ]
+}

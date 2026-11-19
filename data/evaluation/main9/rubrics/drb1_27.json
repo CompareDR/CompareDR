@@ -1,0 +1,1006 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb1:27",
+  "language": "zh",
+  "title": "AI与人类心理咨询整合",
+  "full_query": "如何将AI心理咨询和人类心理咨询有机结合，以便为人类心理健康谋求福利？",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "结合方式与职责",
+      "question": "报告是否具体说明 AI 与人类咨询如何共同提供服务，而不是仅分别介绍二者？",
+      "anchors": {
+        "1": "没有说明两者如何结合。",
+        "2": "只有互补、赋能等口号，看不出各自做什么。",
+        "3": "有具体分工，但信息如何衔接或人类何时介入仍不清楚。",
+        "4": "分工与主要衔接清楚，少量服务环节的职责未交代。",
+        "5": "清楚说明所选结合方式中 AI、人类及服务对象的关系、职责和衔接；不要求固定服务流程。"
+      },
+      "boundary": "检查结合内容是否明确；不在此判断机制是否有效或模式是否创新。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:3",
+          "drb1:27:instruction_following:1",
+          "drb1:27:instruction_following:2",
+          "drb1:27:instruction_following:3"
+        ],
+        "query_quotes": [],
+        "change_note": "合并结合主题、如何结合和协同内容覆盖，取消多种模式数量要求；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "AI现有能力边界",
+      "question": "是否具体且合理地解释当前AI心理服务的应用能力及其限制？",
+      "anchors": {
+        "1": "未讨论AI能力。",
+        "2": "只有高效智能等标签。",
+        "3": "应用能力具体但关键限制仍有重要缺口；或限制具体，但当前应用形态及主要优势仍缺少实质解释。",
+        "4": "应用能力及关键限制有实质说明，个别适用条件略简。",
+        "5": "把当前应用形态、可及或标准化优势与共情及复杂问题处理限制联系起来，清楚区分可用辅助能力和未经确证的临床能力。"
+      },
+      "boundary": "不指定产品、算法或必然缺乏某能力的绝对结论；判断现状解释，不重复人类服务资源约束。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:1"
+        ],
+        "query_quotes": [],
+        "change_note": "原双方能力可一好一坏，拆开评；本项只保留AI能力—限制这一关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "心理健康福利目标",
+      "question": "报告是否说明结合方案具体想改善谁的何种心理健康服务结果？",
+      "anchors": {
+        "1": "未回应心理健康福利。",
+        "2": "只称效率更高或成本更低，没有服务对象或健康相关目标。",
+        "3": "提到可及性、体验或效果等具体目标，但受益对象或与结合方式的联系不清。",
+        "4": "对象、主要目标和结合方式的联系明确，少数目标的含义略泛。",
+        "5": "具体说明服务对象及希望改善的健康或服务结果，并区分技术效率与对人的实际福利。"
+      },
+      "boundary": "只检验目标是否具体；效益因果关系在 PW.D3.01.benefit 比较，净价值判断在 PW.D4.01 比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:4",
+          "drb1:27:instruction_following:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留福利目标但不要求罗列全部效率、成本与疗效指标；新增效率不等于福利的覆盖边界。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "临床安全与人工接管责任",
+      "question": "是否说明技术失效或严重风险时由谁如何接管？",
+      "anchors": {
+        "1": "无安全处理安排。",
+        "2": "仅提醒注意安全。",
+        "3": "识别具体失效或危机，但人工接管责任或触发条件不清。",
+        "4": "主要风险、触发条件和人工责任清楚，个别交接边界略缺。",
+        "5": "说明理解错误、复杂或高风险情境的处理限度及人工接管/求助责任，避免把AI提示当作已完成的临床保障。"
+      },
+      "boundary": "安全风险—责任响应是同一关系；不要求某危机脚本、诊断技术或法规。数据和自主权益另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:5",
+          "drb1:27:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "原安全及知情数据可以独立好坏；本项收窄为风险处理责任，保留既有人工介入要求。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "效果和能力主张的出处",
+      "question": "报告中的关键疗效、风险和能力主张是否能对应到具体来源或明确标出的方案假设？",
+      "anchors": {
+        "1": "关键疗效与能力说法均无可识别依据，假设也未标明。",
+        "2": "泛称研究证明，主要说法找不到具体出处。",
+        "3": "有相关文献，但部分重要结论与材料的对应需猜测。",
+        "4": "主要结论有明确出处或假设标注，仅少量次要对应不清。",
+        "5": "关键经验性主张能定位到具体材料，设计假设与已观察结果分开；引用形式不作限制。"
+      },
+      "boundary": "可定位不等于支持。不要求方案构想都有外部引用；缺 URL 不直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增适合健康协作方案的来源审计，区分研究结果与设计假设。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "实际核验范围内的支持",
+      "question": "在记录的核验样本内，疗效、安全与适用人群等主张是否得到所获证据支持？",
+      "anchors": {
+        "1": "核心已核验结论被证据否定或没有所称依据，动摇主要方案。",
+        "2": "多个重要已核验主张在人群、干预或效果强度上实质错配。",
+        "3": "部分主张成立，但仍有影响方案理解的外推或归属错误。",
+        "4": "重要已核验主张基本得到支持，只剩次要限定不精确。",
+        "5": "所有已完成判断的主张与材料的人群、干预、比较对象和结果强度相符；不代表全文事实已核实。"
+      },
+      "boundary": "评审须记录选中与完成数、主张和材料位置。访问失败记录为执行失败并补核，不打低分、不用 NA，也不把未核验计为正确。本次仅设计条目，不实施外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增限定核验范围的支持审计，尤其防止将聊天满意度或短期试验当作普遍临床疗效。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "方案内的事实与职责一致",
+      "question": "报告前后对 AI 自主程度、人工责任、对象与证据状态的说法是否一致？",
+      "anchors": {
+        "1": "核心方案有多处相互排斥的陈述，无法确定实际职责。",
+        "2": "关键责任或适用人群前后冲突且未解释。",
+        "3": "有局部实质冲突，但仍可辨认主要方案。",
+        "4": "主要陈述一致，只有容易澄清的次要表述差异。",
+        "5": "同一情境的职责、对象和证据状态前后一致，不同条件的差异有明确说明。"
+      },
+      "boundary": "只审内部陈述；不同情境下的不同方案不算冲突，不重复外部证据错误。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增人机职责与健康主张的内部一致性审计。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "人类咨询的优势与资源约束",
+      "question": "是否具体说明人类咨询的治疗优势与现实服务瓶颈？",
+      "anchors": {
+        "1": "未说明人类咨询。",
+        "2": "只说人类有温度或成本高。",
+        "3": "有共情、治疗关系或灵活判断的具体说明，但成本、供给分布及服务效率的主要约束仍空泛，或反之。 仅优势或仅资源约束一侧具体，另一侧缺失，也为3。",
+        "4": "治疗优势和现实资源约束均有解释，局部条件略欠。",
+        "5": "解释治疗关系、共情及情境判断的作用，同时说明成本、供给分布与服务容量如何限制服务；不把人类服务理想化。"
+      },
+      "boundary": "优势—约束是同一人类服务画像，任何一面重要缺失最高3；不要求特定费用或地区数字。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:2"
+        ],
+        "query_quotes": [],
+        "change_note": "从双方总述中拆出人类服务画像；AI说明再好不能抵消人类资源约束缺失。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "服务可及性与成本收益",
+      "question": "是否解释结合如何影响服务覆盖与获取成本？",
+      "anchors": {
+        "1": "未讨论可及性或成本。",
+        "2": "只称普惠、便宜或全天候。",
+        "3": "覆盖或成本变化已有具体说明，但另一面仍缺少实质内容；或两面均提到，却未说明受益者的获取障碍或重要新增负担。",
+        "4": "具体解释获取障碍与成本变化，主要对象清楚，少量限制略简。",
+        "5": "说明结合怎样改变时间、地点或供给限制及使用/人工投入成本，指出数字接入等可能使部分人仍无法受益的条件。"
+      },
+      "boundary": "只评获得服务的负担，不代替健康效果；不强制经济模型。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:4"
+        ],
+        "query_quotes": [],
+        "change_note": "旧福利目标允许只选一个结果，本项恢复服务获取与资源负担这一共同结果领域。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.07.workflow",
+      "dimension": "D1",
+      "title": "咨询师工作辅助",
+      "question": "报告是否具体说明AI怎样辅助咨询师工作并影响服务效率？",
+      "anchors": {
+        "1": "未回答咨询师工作辅助。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有工具功能，未说明它如何改变实际工作。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明信息整理、辅助判断或其他所选功能怎样改变工作流程及效率，交代人工责任；不从省时直接推导疗效提高。"
+      },
+      "boundary": "个体干预质量另查；不指定工具模块。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.care",
+      "dimension": "D1",
+      "title": "个体干预与服务质量",
+      "question": "报告是否具体说明结合方案怎样改变个体干预适配或服务质量？",
+      "anchors": {
+        "1": "未回答个体干预与服务质量。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有个性化或有效口号，未说明对个体服务的改变。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "具体说明所选人机机制如何适配需要或持续支持，区分体验、服务质量与临床结果，标明成立条件。"
+      },
+      "boundary": "工作效率不补偿本项；效果真实性归D2，因果力度由PW比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "知情同意与自主选择",
+      "question": "是否说明服务对象如何知悉AI参与并保有真实选择？",
+      "anchors": {
+        "1": "无告知或选择安排。",
+        "2": "只写知情同意。",
+        "3": "说明AI身份，但能力限制、拒绝或转人工的选择仍不清。",
+        "4": "告知内容和选择权具体，个别选择后安排略简。",
+        "5": "说明AI身份及能力限制如何告知、同意如何取得，以及拒绝或退出AI参与时的服务选择，避免将默认使用视为充分同意。"
+      },
+      "boundary": "不要求特定同意书；不以签字字样代替自主选择。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "知情—选择是一个自主性保障关系，隐私保护充分但无真实选择仍不能高分。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "敏感数据使用边界",
+      "question": "是否说明心理服务数据在AI与人类之间怎样被使用和保护？",
+      "anchors": {
+        "1": "无数据边界。",
+        "2": "仅声称保护隐私。",
+        "3": "有保护做法，但收集、共享或后续用途的重要边界不明。",
+        "4": "敏感数据流转和主要使用限制清楚，局部存取细节略简。",
+        "5": "具体说明必要数据的收集、共享访问及后续用途边界，并说明泄露或不当使用防范如何与人机协作相容。"
+      },
+      "boundary": "不强制加密算法或某法条；按实际方案的数据生命周期判断，同一关键环节缺口不能靠别处安全口号补偿。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:5",
+          "drb1:27:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "从旧安全总包拆出数据使用关系；有接管责任不代表数据权益已保留。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "偏差与不平等风险",
+      "question": "是否分析结合服务可能对不同群体产生的不公平，并交代应对？",
+      "anchors": {
+        "1": "未讨论公平问题。",
+        "2": "只称消除偏见或人人受益。",
+        "3": "识别群体差异，但算法偏差或服务接入不平等怎样形成及应对仍空泛。 算法适配偏差或资源接入不平等一侧缺失，另一侧充分，也为3。",
+        "4": "具体说明偏差和获取差异的主要风险及应对，个别群体条件略简。",
+        "5": "说明模型对不同群体的适配偏差和资源接入差异怎样影响服务公平，给出与原因对应的监测或补救方向，不把平均收益当作人人受益。"
+      },
+      "boundary": "同一分配公平关系；不要求固定群体清单或特定公平算法。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:5",
+          "drb1:27:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "旧稿未承接算法偏差/不平等的具体区别，本项恢复而不强制官方示例。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "信任与治疗关系",
+      "question": "是否解释AI介入如何影响接受度、信任及人际治疗关系？",
+      "anchors": {
+        "1": "无相关说明。",
+        "2": "只说需要信任。",
+        "3": "有接受度或依赖问题，但对治疗关系的影响或维护安排不清。",
+        "4": "说明信任、接受或依赖如何影响关系，主要维护安排合理，局部略简。",
+        "5": "具体讨论透明度、依赖或人际互动变化如何影响接受和治疗联盟，说明维持信任与人类关系的安排，不把用户满意等同健康获益。"
+      },
+      "boundary": "同一服务关系的改变；安全接管和公平不能替代此处。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:5",
+          "drb1:27:comprehensiveness:6"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复旧稿明确损失的接受度和治疗关系区别。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "协作落地条件",
+      "question": "是否说明将方案接入现实心理服务体系所需的条件？",
+      "anchors": {
+        "1": "没有实施条件。",
+        "2": "只说需合作或监管。",
+        "3": "提到技术、人员或制度条件，但关键一类完全缺失或与方案脱节。",
+        "4": "说明技术衔接、人员培训/跨学科协作和制度责任的主要条件，少量落地边界略简。",
+        "5": "对技术与工作流衔接、人才培训和跨学科分工、政策法规支持说明具体需求，分析对现有服务体系的调整及尚未具备的条件。"
+      },
+      "boundary": "判断同一落地准备度；关键条件空缺最高3，不能用技术先进抵消无人员承接。无需固定系统架构。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:7",
+          "drb1:27:comprehensiveness:5"
+        ],
+        "query_quotes": [],
+        "change_note": "将原PW中的实施条件恢复为直接检查；准备度为相互依赖对象，不按每种条件拆项。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "模式与服务情境的适配范围",
+      "question": "是否说明不同心理服务需求为何需要不同的人机参与方式？",
+      "anchors": {
+        "1": "没有情境或模式说明。",
+        "2": "宣称一种配置适合所有人。",
+        "3": "某一配置具体，但其他重要需求情境的适用/排除理由缺失。",
+        "4": "比较了重要服务情境的参与方式，主要适用界线明确，少量边界略简。",
+        "5": "展示从预防支持到不同严重程度需求的人机参与差异及衔接机制；即使聚焦一种模式，也说明其他重要需求为何不适用及替代安排。"
+      },
+      "boundary": "不规定模式种数、固定分诊流程或某干预技术；不允许以任选一路免除重要场景范围讨论。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "职责衔接好而适用范围空白可以分别判断，本项补回多情境差异而非模型数量。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "有条件的发展方向",
+      "question": "是否在现有能力与落地条件基础上说明下一步发展和仍需验证的问题？",
+      "anchors": {
+        "1": "无发展方向。",
+        "2": "只有未来更智能等预言。",
+        "3": "提出发展设想，但其与当前限制或验证需求联系薄弱。",
+        "4": "具体说明未来改进与当前瓶颈的联系，少量不确定性略简。",
+        "5": "从当前技术、服务协作或制度限制推出有条件的发展方向，说明哪些问题仍需研究或实践检验，区分潜力与已经实现。"
+      },
+      "boundary": "不强制预言某技术胜出或原创模型；只评展望是否有实际内容，不奖励新颖措辞。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:comprehensiveness:7",
+          "drb1:27:insight:6"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复未来方向的实质解释；当下实施充分不能代替前瞻的不确定性。；五档为本地设计。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据与整合方案的适配",
+      "question": "哪篇所用证据组合更适合支撑其人机整合方案及声称的健康福利？",
+      "anchors": {
+        "0": "两篇证据对各自整合判断的帮助相近，或两篇均无相关支撑；须说明是哪一种。",
+        "1": "A 的证据在重要服务情境或结果指标上略更适配，B 仍可有局部优势。",
+        "2": "A 的主要整合判断得到明显更贴合目标人群与服务情境的证据支持；B 的局部材料优势不足以弥补差距。",
+        "-2": "B 的主要整合判断得到明显更贴合目标人群与服务情境的证据支持；A 的局部材料优势不足以弥补差距。",
+        "-1": "B 的证据在重要服务情境或结果指标上略更适配，A 仍可有局部优势。"
+      },
+      "boundary": "比较可用证据组合，不按研究或链接数量，不把单条引用错误再次逐错罚分；不预设一种研究设计能回答所有服务问题。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增证据适配比较，聚焦人群、干预环境与结果而非出处数量。"
+      }
+    },
+    {
+      "id": "PW.D3.01.benefit",
+      "dimension": "D3",
+      "title": "协同改善服务的解释",
+      "question": "哪篇更能解释所选人机协作为何可能改善心理服务？",
+      "anchors": {
+        "0": "两篇对协同机制的解释价值相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A对重要协同环节的因果解释略更成立；B仍可在局部更好。",
+        "2": "A对能力互补如何改变服务结果的解释明显更连贯；B的局部优点不足以弥补差距。",
+        "-2": "B对能力互补如何改变服务结果的解释明显更连贯；A的局部优点不足以弥补差距。",
+        "-1": "B对重要协同环节的因果解释略更成立；A仍可在局部更好。"
+      },
+      "boundary": "比较分工到结果的同一因果链；缺少衔接不能靠列更多优点弥补。不要求结合必然优于单独服务；独立的风险形成链在 PW.D3.01.harm 比较。 以全文实际核心协同链为范围，用相同的服务目标重要性标准比较双方，列出正反推理差异；仅净优势明确时判胜，同等重要的相反优势抵销判0，不得各选对己方有利的一条。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:insight:1"
+        ],
+        "query_quotes": [],
+        "change_note": "从旧协同与风险比较中只保留协同因果解释，删除必然增效前提，五档按本项重写。"
+      }
+    },
+    {
+      "id": "PW.D3.01.harm",
+      "dimension": "D3",
+      "title": "失效与伤害形成的解释",
+      "question": "哪篇更能解释所选结合方式在什么条件下会失效或伤害服务对象？",
+      "anchors": {
+        "0": "两篇对失效或伤害的解释价值相近；须说明是双方帮助相近，还是双方均无相关帮助。",
+        "1": "A对重要伤害形成环节的解释略更成立；B仍可在局部更好。",
+        "2": "A对情境如何导致失效或伤害的解释明显更完整、少因果跳步；B的局部优点不足以弥补差距。",
+        "-2": "B对情境如何导致失效或伤害的解释明显更完整、少因果跳步；A的局部优点不足以弥补差距。",
+        "-1": "B对重要伤害形成环节的解释略更成立；A仍可在局部更好。"
+      },
+      "boundary": "比较情境—风险形成—后果这条关系，不以风险清单长短排名；协同好处不能抵消这里的因果缺口。伦理取舍的决策意义在 PW.D4.01。 以双方实际核心失效链为范围，采用一致的风险重要性判断并列出相反优势；净差不明或相当时判0，不以风险数量决定胜负。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:insight:3"
+        ],
+        "query_quotes": [],
+        "change_note": "从旧项拆出风险形成解释，仅承接官方风险批判分析，不声称完整承接全部规范伦理论证。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "以人的福利进行取舍",
+      "question": "哪篇更帮助读者判断，在自身说明的条件下哪些整合安排值得采用、哪些应限制或暂缓？",
+      "anchors": {
+        "0": "两篇对采用、限制或暂缓的判断帮助相近，或均未提供相关帮助；须区分。",
+        "1": "A 对一项重要采用或限制选择略更有帮助，B 仍可在其他取舍上较好。",
+        "2": "A 将健康收益、人的权益和实施限制综合成明显更有用的取舍判断；B 的局部建议不能弥补。",
+        "-2": "B 将健康收益、人的权益和实施限制综合成明显更有用的取舍判断；A 的局部建议不能弥补。",
+        "-1": "B 对一项重要采用或限制选择略更有帮助，A 仍可在其他取舍上较好。"
+      },
+      "boundary": "只用成立或明确有条件的分析，指出取舍改变了什么；不强制创新模式、推广路线、经济测算或赞成整合。 比较时说明实施门槛或当事人权益如何改变采用、限制、暂缓这一选择；不因只列培训、法规或伦理词语而加分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:insight:2",
+          "drb1:27:insight:4",
+          "drb1:27:insight:5",
+          "drb1:27:comprehensiveness:7"
+        ],
+        "query_quotes": [],
+        "change_note": "保留整合可行性、福利和实施障碍的综合价值，删除独创性与技术趋势必答要求；统一比较取舍而不重复奖励风险罗列。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "从服务问题推进到整合回答",
+      "question": "哪篇原报告更有效地组织背景、结合方案、限制与结论，使读者能连贯理解其回答？",
+      "anchors": {
+        "0": "两篇的整体推进帮助相近，或均未形成可跟随的回答；须区分。",
+        "1": "A 在方案与依据的承接或重复内容安排上略好，B 可有局部组织优势。",
+        "2": "A 的篇章推进明显更清楚，背景和限制服务于整合回答；B 的局部顺序优势不能弥补。",
+        "-2": "B 的篇章推进明显更清楚，背景和限制服务于整合回答；A 的局部顺序优势不能弥补。",
+        "-1": "B 在方案与依据的承接或重复内容安排上略好，A 可有局部组织优势。"
+      },
+      "boundary": "以原文为对象，排序、承接和全篇重复只计一次；不固定章节或优先短文。局部措辞和查找另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:readability:1",
+          "drb1:27:readability:4",
+          "drb1:27:readability:8"
+        ],
+        "query_quotes": [],
+        "change_note": "合并整体结构、段落衔接和冗余的组织作用，取消固定结构和单纯简短偏好。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "跨领域表述可理解性",
+      "question": "哪篇更清楚地表达已写的人机职责、心理服务概念与能力限定？",
+      "anchors": {
+        "0": "两篇已写内容的可理解性相近，或均无可理解的相关说明；须区分。",
+        "1": "A 在重要职责或术语的解释上略清楚，B 仍可有局部表达优势。",
+        "2": "A 的职责与专业概念表述明显更易理解，较少造成把支持误读为治疗的歧义；B 的局部清楚处不足以弥补。",
+        "-2": "B 的职责与专业概念表述明显更易理解，较少造成把支持误读为治疗的歧义；A 的局部清楚处不足以弥补。",
+        "-1": "B 在重要职责或术语的解释上略清楚，A 仍可有局部表达优势。"
+      },
+      "boundary": "只比较文字含义与图表标注，不重复评内容覆盖、事实真假、篇章重复；不要求特定图示。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:readability:2",
+          "drb1:27:readability:5",
+          "drb1:27:readability:6"
+        ],
+        "query_quotes": [],
+        "change_note": "合并术语、框架表达与读者适应性，聚焦已写意思的清晰程度。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "服务安排与依据的查找",
+      "question": "哪篇原报告更方便读者找到某项 AI 职责、人工介入条件及其声称依据？",
+      "anchors": {
+        "0": "两篇定位服务安排及依据的成本相近，或两篇均无可定位的信息；须区分。",
+        "1": "A 在一个重要服务问题的定位路径上略方便，B 仍有局部导航优势。",
+        "2": "A 能明显更直接找到重要职责和相应限定或依据；B 的局部查找便利不能弥补。",
+        "-2": "B 能明显更直接找到重要职责和相应限定或依据；A 的局部查找便利不能弥补。",
+        "-1": "B 在一个重要服务问题的定位路径上略方便，A 仍有局部导航优势。"
+      },
+      "boundary": "查找已有信息的实际步骤，不按链接数量或排版美观打分；依据能找到与支持成立分开。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:27:readability:3"
+        ],
+        "query_quotes": [],
+        "change_note": "将信息呈现与重点突出收束为职责、条件和依据的定位便利，去除加粗或列表格式偏好。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb1:27:comprehensiveness:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02中应用形态具体但复杂情境局限缺失最高3；补齐合理边界才可4/5。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:2",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05中治疗优势充分但成本、供给和容量约束空白最高3；AI优势不再补偿。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:3",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.13"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01看职责衔接，PT.D1.13看不同需求的配置适配；单一路径具体但情境范围空白不能取得后者4/5。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:4",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.06",
+        "PT.D1.07.workflow",
+        "PT.D1.07.care"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03, PT.D1.06, PT.D1.07.workflow, PT.D1.07.care。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。"
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:5",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.09",
+        "PT.D1.10",
+        "PT.D1.11",
+        "PT.D1.12"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04查技术失效接管、09查数据、10查偏差、11查接受关系、12查体系冲击；其中任一缺失都不能靠另一项补偿。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:6",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.08",
+        "PT.D1.09",
+        "PT.D1.10",
+        "PT.D1.11"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04查责任、08查知情选择、09查数据伦理、10查公平、11查关系；新增知情但不补数据只提高08。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:comprehensiveness:7",
+      "targets": [
+        "PT.D1.12",
+        "PT.D1.14",
+        "PW.D4.01"
+      ],
+      "reason": "恢复具体共同内容；不固定产品、技术或模式数量，五档按实质解释判断。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12查技术/人员/制度落地准备度，14查有条件未来方向；只列未来趋势不能使12高分，实施充分也不能代替14。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:1",
+      "targets": [
+        "PW.D3.01.benefit"
+      ],
+      "reason": "PW.D3.01： 将协同增效和风险批判性分析转为开放的条件因果比较，取消必然 1+1>2 前提；锚点本地设计。",
+      "status": "adapted",
+      "discrimination_check": "解释分工如何改善结果比列优点可使 PW.D3.01.benefit 更好；不要求必然1+1>2。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:2",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01： 保留整合可行性、福利和实施障碍的综合价值，删除独创性与技术趋势必答要求；统一比较取舍而不重复奖励风险罗列。",
+      "status": "adapted",
+      "discrimination_check": "可行的情境取舍能影响 PW.D4.01；仅新颖、独创不能改变分数，该独创性区分舍弃。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:3",
+      "targets": [
+        "PW.D3.01.harm"
+      ],
+      "reason": "PW.D3.01： 将协同增效和风险批判性分析转为开放的条件因果比较，取消必然 1+1>2 前提；锚点本地设计。",
+      "status": "adapted",
+      "discrimination_check": "补清误信AI如何导致伤害能单独改变 PW.D3.01.harm；纯规范伦理理论的深度不保证评分差异，未声称全部保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:4",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01： 保留整合可行性、福利和实施障碍的综合价值，删除独创性与技术趋势必答要求；统一比较取舍而不重复奖励风险罗列。",
+      "status": "adapted",
+      "discrimination_check": "福利与权益改变采用边界能影响 PW.D4.01；只列更多人文价值词不会更好。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:5",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01： 保留整合可行性、福利和实施障碍的综合价值，删除独创性与技术趋势必答要求；统一比较取舍而不重复奖励风险罗列。",
+      "status": "adapted",
+      "discrimination_check": "障碍及应对改变是否/何时采用能影响 PW.D4.01；对策的独到性本身不奖励。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:insight:6",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "恢复有条件的发展与研究启发，不奖励独创性本身。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14区分泛泛技术乐观与从现有限制推导的可检验方向；未另设前瞻新颖性比较。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:instruction_following:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01： 合并结合主题、如何结合和协同内容覆盖，取消多种模式数量要求；五档本地设计。",
+      "status": "adapted",
+      "discrimination_check": "仅单独介绍两类咨询而不结合为 PT.D1.01 的1/2；具体衔接可4/5。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:instruction_following:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01： 合并结合主题、如何结合和协同内容覆盖，取消多种模式数量要求；五档本地设计。",
+      "status": "adapted",
+      "discrimination_check": "结合口号为 PT.D1.01 的2，具体分工衔接可5；直接保留如何结合的判断。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:instruction_following:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01： 合并结合主题、如何结合和协同内容覆盖，取消多种模式数量要求；五档本地设计。",
+      "status": "adapted",
+      "discrimination_check": "只并存而无服务衔接最多 PT.D1.01 的3；不强制指定整合模式。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:instruction_following:4",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03： 保留福利目标但不要求罗列全部效率、成本与疗效指标；新增效率不等于福利的覆盖边界。",
+      "status": "adapted",
+      "discrimination_check": "无福利目标为 PT.D1.03 的1/2；具体对象与结果可5，推导深度另评。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:instruction_following:5",
+      "targets": [],
+      "reason": "不另选：本项混合主题与完整性，结合方式和福利目标已分别归入最终内容项；不增加总覆盖重复分。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "有意不再加总覆盖项；若只插入一段无关内容而不影响现有结合内容，本稿不保证扣分，承认相关性细微区分损失。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:1",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01： 合并整体结构、段落衔接和冗余的组织作用，取消固定结构和单纯简短偏好。",
+      "status": "adapted",
+      "discrimination_check": "重排段落使方案到限制的推进更连贯可影响 PW.D5.01；固定章节格式不奖励。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:2",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01： 合并术语、框架表达与读者适应性，聚焦已写意思的清晰程度。",
+      "status": "adapted",
+      "discrimination_check": "解开AI/心理术语歧义可影响 PW.D6.01；非妨碍理解的字形排版无独立分。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:3",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "PW.D6.02： 将信息呈现与重点突出收束为职责、条件和依据的定位便利，去除加粗或列表格式偏好。",
+      "status": "adapted",
+      "discrimination_check": "使人工介入条件更容易查找可影响 PW.D6.02；只加粗但不减少查找成本不加分。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:4",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01： 合并整体结构、段落衔接和冗余的组织作用，取消固定结构和单纯简短偏好。",
+      "status": "adapted",
+      "discrimination_check": "修复段落承接可影响 PW.D5.01；局部过渡词数量不构成优势。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:5",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01： 合并术语、框架表达与读者适应性，聚焦已写意思的清晰程度。",
+      "status": "adapted",
+      "discrimination_check": "所选框架表述从不知谁做什么变为可理解，可影响 PW.D6.01；不强制图示或模型。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:6",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01： 合并术语、框架表达与读者适应性，聚焦已写意思的清晰程度。",
+      "status": "adapted",
+      "discrimination_check": "为跨领域读者解释既有概念可影响 PW.D6.01；不以多写背景自动奖励。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:7",
+      "targets": [],
+      "reason": "不选：字号、缩进与视觉美观并非共同质量门槛，原报告格式仅在实际理解或定位受影响时比较。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "仅改变字号、缩进等美观但不改变理解定位不会评分；有意舍弃美观独立区分。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:27:readability:8",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01： 合并整体结构、段落衔接和冗余的组织作用，取消固定结构和单纯简短偏好。",
+      "status": "adapted",
+      "discrimination_check": "删掉阻断全文推进的重复可影响 PW.D5.01；必要回顾或更短字数不自动更好。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "v3.1历史记录：旧稿7 PT/6 PW；本稿7 PT/7 PW。仅拆分独立的协同与风险推理，补清福利取舍边界及原子化/官方全量记录。",
+    "v3.1历史记录：PT为内容具体程度与共同审计；PW为解释、取舍及阅读帮助。PT.D1.04保留明确缺口上限，不宣称最细粒度。",
+    "v3.1历史记录：所有官方条目均有差异测试；完整技术史、前瞻创新、伦理议题全清单和纯排版美观等未完整保留。",
+    "v3.1历史记录：作者自检与程序检查不等于独立语义审核；没有外核官方医学事实，没有读报告/分数，没有评分。",
+    "v3.3：旧稿7PT/7PW将风险权益过度合并，且福利广度、接受度、公平和落地/未来内容被省略或交由宽泛PW承接。拆开AI/人类画像与安全/自主/数据，恢复可及成本、干预质量、公平、治疗关系、落地条件、多情境适配及有条件展望。已有协同收益与伤害推理分项原样保留；PW.D4.01继续只判采用/限制的取舍价值，不代替新增PT。仍不强制产品、模式数量、原创性、特定法条或纯排版美观。",
+    "当前计数：17 PT / 7 PW。保留既有定向修复；作者自检不构成独立审核通过。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "职责和衔接是同一服务路径；只有分工没有衔接已有3分，不需拆关系。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "split",
+      "reason": "原双方能力可一好一坏，拆开评；本项只保留AI能力—限制这一关系。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "受益对象和结果构成同一目标；目标有而对象不明已有3分，不拆对象与目标。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "split",
+      "reason": "原安全及知情数据可以独立好坏；本项收窄为风险处理责任，保留既有人工介入要求。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "出处与主张归属是同一追溯关系，文献存在但对应不明已有3分。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "主张与人群/效果证据属于同一支持关系，混合支持已有3分，访问失败不进入质量分。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "keep",
+      "reason": "只判断同一对象前后是否冲突；局部实质冲突3分，不把不同情境当矛盾。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "split",
+      "reason": "从双方总述中拆出人类服务画像；AI说明再好不能抵消人类资源约束缺失。 仅优势或仅资源约束一侧具体，另一侧缺失，也为3。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "revise",
+      "reason": "旧福利目标允许只选一个结果，本项恢复服务获取与资源负担这一共同结果领域。"
+    },
+    {
+      "id": "PT.D1.07.workflow",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.07.care",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.07拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "revise",
+      "reason": "知情—选择是一个自主性保障关系，隐私保护充分但无真实选择仍不能高分。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "从旧安全总包拆出数据使用关系；有接管责任不代表数据权益已保留。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "revise",
+      "reason": "旧稿未承接算法偏差/不平等的具体区别，本项恢复而不强制官方示例。 算法适配偏差或资源接入不平等一侧缺失，另一侧充分，也为3。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "revise",
+      "reason": "恢复旧稿明确损失的接受度和治疗关系区别。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "revise",
+      "reason": "将原PW中的实施条件恢复为直接检查；准备度为相互依赖对象，不按每种条件拆项。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "revise",
+      "reason": "职责衔接好而适用范围空白可以分别判断，本项补回多情境差异而非模型数量。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "revise",
+      "reason": "恢复未来方向的实质解释；当下实施充分不能代替前瞻的不确定性。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "判断证据与所声称人群服务情境是否匹配；更多材料不能补上对象错配，这是同一支持适配关系。"
+    },
+    {
+      "id": "PW.D3.01.benefit",
+      "decision": "split",
+      "reason": "拆分：好处解释扎实但风险机制空缺不能在一个分数里相互抵消；本子项只判断分工如何改善结果。 以全文实际核心协同链为范围，用相同的服务目标重要性标准比较双方，列出正反推理差异；仅净优势明确时判胜，同等重要的相反优势抵销判0，不得各选对己方有利的一条。"
+    },
+    {
+      "id": "PW.D3.01.harm",
+      "decision": "split",
+      "reason": "拆分：保持协同解释不变而补清风险形成时，只移动本项；风险及后果保留为同一因果关系。 以双方实际核心失效链为范围，采用一致的风险重要性判断并列出相反优势；净差不明或相当时判0，不以风险数量决定胜负。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "revise",
+      "reason": "权益、收益与实施门槛是同一个采用或限制决定的条件；必须指出它们改变哪项选择，而非分别奖励三个综述。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "排序、承接及必要重复共同决定同一全文推进，依据原文实际阅读链判断，不奖励独立排版。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "措辞与限定是理解一句职责/能力说明的同一任务；不以正确事实替代可理解表达。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "职责、限定和声称来源构成一次查找目标；易找职责难找依据增加实际步骤，不需割裂定位任务。"
+    }
+  ]
+}

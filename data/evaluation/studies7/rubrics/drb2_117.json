@@ -1,0 +1,1509 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:117",
+  "language": "zh",
+  "title": "吉藏佛性与空",
+  "full_query": "我正在研究中国隋代的三论宗高僧吉藏，特别是他对‘佛性’的看法。我感到很困惑，因为他一方面是弘扬‘空’的大家，另一方面又似乎很推崇《涅槃经》等讲‘佛性常住’、‘佛性不空’的经典。我想请你帮我深入调研一下，整理一份关于吉藏佛性思想的报告，来解答这个矛盾。报告需要包括以下几个部分：\n1.  **人物背景**：简单介绍吉藏的生卒年份、所属宗派，以及他在佛学史上的地位。\n2.  **破斥旧说**：梳理并详细列出吉藏当时流行的、但他不认可的关于佛性的几种主要观点，并说明他反驳每一派的理由。比如，他为什么认为佛性不能等同于众生、心、第八识或者单纯的趋乐避苦的本能？\n3.  **确立正见**：清晰阐述吉藏自己对佛性的正面定义。这部分需要解释他提出的‘中道’佛性是什么意思，特别是‘不见空与不空’这一核心观念。另外，请解释他如何将佛性与‘第一义空’和‘智慧(般若)’联系起来。\n4.  **常住与空**：深入探讨吉藏如何论证佛性是‘常住’的。请重点解释他提出的两种‘常’（永恒性）的概念，并说明佛性属于哪一种。同时，分析他如何通过‘法身’的理论，将‘佛性常住’与三论宗核心的‘缘起性空’思想统一起来，化解二者之间的表面矛盾。\n5.  **理论的实践意义**：总结吉藏的佛性理论有哪些实际用途或目的。比如，这个理论如何支持‘一乘’思想，以及它对佛教修行者有什么鼓励作用？\n请确保内容条理清晰，引述观点时力求准确。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': \"Is Emptiness Non-Empty? Jizang's Conception of Buddha-Nature\", 'authors': ['Jenny Hung'], 'urls': ['https://www.mdpi.com/2077-1444/16/2/184', 'https://philarchive.org/rec/HUNIEN', 'https://researchportal.hkust.edu.hk/en/publications/is-emptiness-non-empty-jizangs-conception-of-buddha-nature', 'https://www.academia.edu/127515451/Is_Emptiness_Non_Empty_Jizang_s_Conception_of_Buddha_Nature']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "人物背景",
+      "question": "报告是否简要说明吉藏的生卒年、宗派和佛学史地位？",
+      "anchors": {
+        "1": "未介绍吉藏。",
+        "2": "只有姓名或空泛赞誉。",
+        "3": "有背景，但生卒、宗派、地位至少一方面缺失。",
+        "4": "三方面基本清楚，仅地位的具体含义略弱。",
+        "5": "给出生卒549–623年、三论宗身份及其代表或集大成地位，背景与佛性研究有关。"
+      },
+      "boundary": "年份和身份据官方提供的核对线索；如有可靠异说须说明依据，不以该条代替外核。不强制隋代三大高僧称号。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:1",
+          "drb2:117:info_recall:2"
+        ],
+        "query_quotes": [
+          "生卒年份、所属宗派，以及他在佛学史上的地位"
+        ],
+        "change_note": "保留题面背景对象，合并简短背景而非每个字段独立评分；锚点本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "众生说及反驳",
+      "question": "报告是否说明以众生或五蕴为佛性的旧说，并交代吉藏为什么反对？",
+      "anchors": {
+        "1": "未处理众生说。",
+        "2": "只列众生说而无反驳理由。",
+        "3": "有反驳，但未分清众生有佛性与众生就是佛性的关系。",
+        "4": "旧说及有/是区别清楚，少数论述语境不明。",
+        "5": "明确说明旧说及吉藏对有佛性与即是佛性的辨别，并交代其反驳所针对的说法。"
+      },
+      "boundary": "不把有/是关系现代化为固定实体属性理论；异说可据原文澄清。只查反驳内容，推理质量另比。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:5",
+          "drb2:117:info_recall:6"
+        ],
+        "query_quotes": [
+          "众生、心、第八识或者单纯的趋乐避苦的本能"
+        ],
+        "change_note": "采用官方众生说及反驳对象，删除现代实体属性预设。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "心说及反驳",
+      "question": "报告是否说明把心当作佛性的旧说，以及吉藏用何种心和常住观念反驳？",
+      "anchors": {
+        "1": "未处理心说。",
+        "2": "仅说不能等同于心。",
+        "3": "有理由但未说明所指心的无常与佛性常住的张力。",
+        "4": "无常心与常住佛性区别明确，少数所破对象语境不明。",
+        "5": "说明所破心说及无常/常住反驳，区别这一心识对象与后文般若智慧的含义。"
+      },
+      "boundary": "不将所有佛教的心概念一概判为同一旧说；无需指定论文。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:7",
+          "drb2:117:info_recall:8"
+        ],
+        "query_quotes": [
+          "心、第八识"
+        ],
+        "change_note": "从官方心说提取核心理由，并加后文智慧概念的语境边界。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "第八识说及反驳",
+      "question": "报告是否说明以第八识为佛性的旧说及吉藏针对它的反驳？",
+      "anchors": {
+        "1": "未处理第八识。",
+        "2": "仅列阿赖耶识名称或否定结论。",
+        "3": "有具体理由，但第八识与无明、生死之关系或论述归属不明。",
+        "4": "旧说及其无明/生死根本的反驳清楚，局部经论语境欠明。",
+        "5": "明确所破第八识说、反驳依据和适用语境，不把不同文本的藏识与法身表述直接混同。"
+      },
+      "boundary": "不强制逐字引用《摄大乘论》，但须能定位观点依据；原文支持另核。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:9",
+          "drb2:117:info_recall:10"
+        ],
+        "query_quotes": [
+          "第八识"
+        ],
+        "change_note": "保留第八识旧说与无明生死理由，取消指定经论引用形式。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "趋乐避苦说及反驳",
+      "question": "报告是否说明为何不能把趋乐避苦的本能直接当作佛性，并交代吉藏所针对的旧说？",
+      "anchors": {
+        "1": "未回应本能说。",
+        "2": "只说本能不是佛性。",
+        "3": "给出反驳，但所破主张或它与成佛根据的关系含糊。",
+        "4": "具体旧说与反驳可辨，仅少量文献语境不明。",
+        "5": "清楚说明该本能说及吉藏的反驳依据，区分众生行为倾向与佛性的意义；若归属有争议则说明。"
+      },
+      "boundary": "官方资源未专列此题面要求，本地补入；不凭常识杜撰吉藏原话或规定唯一现代心理学理由。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "单纯的趋乐避苦的本能"
+        ],
+        "change_note": "直接据题面补缺，官方空来源如实保留。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "中道佛性",
+      "question": "报告是否说明中道佛性及“不见空与不空”的含义？",
+      "anchors": {
+        "1": "未说明正面定义。",
+        "2": "只列中道或不见空与不空。",
+        "3": "有解释，但未辨明不执空/不空两边与折中、全无的区别。",
+        "4": "中道和不执两边说明清楚，仅少量经文语境不明。",
+        "5": "说明以中道论佛性及不见空与不空如何避免执取两边，不把中道实体化为第三种固定本体。"
+      },
+      "boundary": "内容定义为PT，何以化解整体矛盾由PW；不要求固定引文长度。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:17",
+          "drb2:117:info_recall:18"
+        ],
+        "query_quotes": [
+          "‘中道’佛性是什么意思，特别是‘不见空与不空’这一核心观念"
+        ],
+        "change_note": "保留中道与核心观念，引用形式放开。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "第一义空与般若",
+      "question": "报告是否说明佛性、第一义空与智慧（般若）的联系，区别它们与普通心识或虚无的含义？",
+      "anchors": {
+        "1": "未说明第一义空与般若。",
+        "2": "只列空、智慧等同义词。",
+        "3": "只有反虚无或一般不二说明，缺第一义空旧解与境智不二的区别；或只复述旧解而不说明正面联系。",
+        "4": "旧解与中道智慧的实质区别及佛性联系清楚，仅局部语境欠明。",
+        "5": "说明只取境而非智、只取智而非境等割裂为何仍偏；解释第一义空与般若的境智不二及佛性联系，不把智慧变成孤立主观心理。"
+      },
+      "boundary": "依据已有原典补审p36c、37b–37c。人物名、地域称谓可选，实质区别不可删；不重复PT.D1.06的一般中道定义。不执取一面保留，不宣称已逐项覆盖官方应机说法分类。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:19",
+          "drb2:117:info_recall:20",
+          "drb2:117:info_recall:22",
+          "drb2:117:info_recall:23",
+          "drb2:117:info_recall:24"
+        ],
+        "query_quotes": [
+          "‘第一义空’和‘智慧(般若)’"
+        ],
+        "change_note": "主Agent v3.5：依据已保存的原典补审收紧具体内容与范围，详见本轮变更和官方对照。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "两种常",
+      "question": "报告是否区分定性常与因缘常，并说明吉藏把佛性之常归于哪一种？",
+      "anchors": {
+        "1": "没有两种常。",
+        "2": "只列名称而无区别。",
+        "3": "只解释一种或未说明佛性的归属。",
+        "4": "两种常与佛性归属明确，少数条件含义欠清。",
+        "5": "区别固定自性式的定性常与不立固定自性的因缘常，说明佛性之常的归属及为何不是独立不变实体。"
+      },
+      "boundary": "官方称佛性属因缘常为待据原文核对对象；允许有依据的译名和解释差异，不把因缘常简化为普通物体永远存活。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:25",
+          "drb2:117:info_recall:26",
+          "drb2:117:info_recall:27",
+          "drb2:117:info_recall:28",
+          "drb2:117:presentation:4"
+        ],
+        "query_quotes": [
+          "两种‘常’（永恒性）的概念，并说明佛性属于哪一种"
+        ],
+        "change_note": "保留明确要求的两概念及归属，不照抄恒常显现的单一定义。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "法身与常空统一",
+      "question": "报告是否说明法身在佛性常住与缘起性空的统一中起什么作用？",
+      "anchors": {
+        "1": "未讨论法身。",
+        "2": "只有佛性即法身的等号。",
+        "3": "有统一解释，但常住、缘起无自性或所依赖法身特性的作用有重要一面未说明。",
+        "4": "法身、常住、缘起无自性的联系明确，局部解释环节欠清。",
+        "5": "解释所据法身的不二、无差别或遍在等特性如何参与常住与缘起无自性的统一，而不只以法身等号代替论证；说明常住不是定性实体、空不是断灭。"
+      },
+      "boundary": "不强制万法总体这一现代本体论模型、六道即法身措辞或藏识海比喻；文本证据与推理可靠性另评。 法身特性的解释功能不可省略；允许有文本依据的不同特性组合，不强制三特性清单或现代主客二分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:29",
+          "drb2:117:info_recall:30",
+          "drb2:117:analysis:6",
+          "drb2:117:analysis:7",
+          "drb2:117:info_recall:33",
+          "drb2:117:info_recall:35",
+          "drb2:117:analysis:8"
+        ],
+        "query_quotes": [
+          "通过‘法身’的理论"
+        ],
+        "change_note": "v3.3定向修订：常空措辞俱全但不说明法身特性起何作用最高3；保留同一统一关系，不机械拆成特性名词表。 交叉审核：将法身特性的论证作用映射到此具体入口。"
+      }
+    },
+    {
+      "id": "PT.D1.10.vehicle",
+      "dimension": "D1",
+      "title": "一乘的根据",
+      "question": "报告是否解释共同法身或有据等效的不二根据如何支持三乘归一？",
+      "anchors": {
+        "1": "未回答一乘的根据。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只称人人能成佛或一乘平等，缺共同根据及归一联系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明三乘法身无异及相关法身、涅槃、一乘联系如何支持归一，接受有据等效表述而非固定三词等式。"
+      },
+      "boundary": "补审T37n1744 p60b–60c；不把无差别实体化为第三本体；常空兼容仍PT.D1.09。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:31",
+          "drb2:117:info_recall:40",
+          "drb2:117:info_recall:41",
+          "drb2:117:analysis:9"
+        ],
+        "query_quotes": [
+          "‘一乘’思想，以及它对佛教修行者有什么鼓励作用"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.10拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.10"
+    },
+    {
+      "id": "PT.D1.10.encouragement",
+      "dimension": "D1",
+      "title": "修行鼓励机制",
+      "question": "报告是否解释佛性论为何鼓励修行而非只提出积极口号？",
+      "anchors": {
+        "1": "未回答修行鼓励机制。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只称带来信心，没有成佛目标、可达成性或误解纠正的具体联系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明成佛非妄、目标可达成如何鼓励修行并避免因误解空而懈怠；不从本有推出自动成佛。"
+      },
+      "boundary": "本有—修证的教理关系仍PT.D1.14；本项只查鼓励用途。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:44",
+          "drb2:117:analysis:10"
+        ],
+        "query_quotes": [
+          "‘一乘’思想，以及它对佛教修行者有什么鼓励作用"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.10拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.10"
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "五部分组织",
+      "question": "报告是否设有可辨的背景、破旧、正见、常空、实践五部分？",
+      "anchors": {
+        "1": "没有对应结构。",
+        "2": "只有零散分节且多个部分不明。",
+        "3": "五部分意图可见，但缺一部分的结构入口或边界混乱。",
+        "4": "五部分和标题基本清楚，局部归属欠明。",
+        "5": "五部分均有清楚标题，分别对应题面内容。"
+      },
+      "boundary": "不强制标题逐字相同；本项检查指定分区，原报告阅读推进由PW。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:presentation:1",
+          "drb2:117:presentation:2"
+        ],
+        "query_quotes": [
+          "报告需要包括以下几个部分"
+        ],
+        "change_note": "保留五分区，删除题面未要求的逐字标题限制。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "禁源可观察使用",
+      "question": "报告是否避免引用或实质使用题面禁止的Jenny Hung文章？",
+      "anchors": {
+        "1": "禁源明确支撑核心结论。",
+        "2": "禁源支撑多个实质次要观点。",
+        "3": "禁源支撑一个局部实质观点。",
+        "4": "仅列入参考文献，没有可确认正文使用。",
+        "5": "完整最终报告未见引用或取用；复述排除清单不算使用。"
+      },
+      "boundary": "只查最终报告可观察情况，不猜历史访问，不以思想相似推断取用。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Is Emptiness Non-Empty? Jizang's Conception of Buddha-Nature"
+        ],
+        "change_note": "据题面禁源补共同约束，锚点沿用三题范式并本题化。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "引文与观点归属",
+      "question": "报告是否让关键观点和引文对应到吉藏、所引经典、被批判旧说或现代解释的具体出处？",
+      "anchors": {
+        "1": "关键引文和观点均无可辨出处。",
+        "2": "仅泛称经云或学者认为，主要归属不明。",
+        "3": "主要出处可辨，但关键引文或旧说与吉藏正见混写。",
+        "4": "出处和说话者大多清楚，少数局部引文边界不明。",
+        "5": "关键引文、旧说、吉藏解释和现代转述均能对应具体来源及语境。"
+      },
+      "boundary": "书名卷次或其他足以定位的信息可用，无URL不直接扣分；归属可追溯不代表内容已证实。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "引述观点时力求准确"
+        ],
+        "change_note": "新增思想史专用证据归属审计，避免将驳论对象当自说。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验样本支持",
+      "question": "在实际核验的主张中，人物资料、经论引文和思想归属是否被取得的材料支持？",
+      "anchors": {
+        "1": "核心引文或归属被核验材料否定，主要解释失去依据。",
+        "2": "多个重要引文、年份或归属存在实质错误。",
+        "3": "部分得到支持，但重要语境或解释强度失配。",
+        "4": "重要核验主张基本支持，仅次要转述偏差。",
+        "5": "全部完成核验的主张与材料对象、归属及语境相符。"
+      },
+      "boundary": "记录选中/完成数与范围；无法取得材料属执行未完成，不作低分或NA；官方文本本身不是事实担保，本轮不执行外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "新增限域外核，不把官方诠释当唯一真实答案。"
+      }
+    },
+    {
+      "id": "PT.D1.13.fruit",
+      "dimension": "D1",
+      "title": "当果说及反驳",
+      "question": "报告是否说明以当果为正因佛性的旧说及吉藏的反驳？",
+      "anchors": {
+        "1": "未回答当果说及反驳。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有果位旧说，但只说佛性本有，没有解释所破之果何以被判为始有、作法或无常。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明当果旧说及始有—作法—无常等有据反驳联系，区别所破定执与否认一切修行成果。"
+      },
+      "boundary": "根据本地原典补审T45n1853 p36b–36c；不强制逐字引文或固定师承。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:11",
+          "drb2:117:info_recall:12"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.13"
+    },
+    {
+      "id": "PT.D1.13.principle",
+      "dimension": "D1",
+      "title": "得佛之理及反驳",
+      "question": "报告是否说明得佛之理旧说及吉藏对其立说依据或执取方式的反驳？",
+      "anchors": {
+        "1": "未回答得佛之理及反驳。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "把得佛之理误作佛的教法，或只有本有非因果口号而无具体反驳。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "准确识别以得佛之理为正因的说法，说明经据师承质问或有无、三时、即离等有据论证及针对对象，不把总破误说成只针对一家。"
+      },
+      "boundary": "官方info13对象译为佛的教法存在漂移，按补审原典p36c–37a纠正；不要求同时逐项背所有论式。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:13",
+          "drb2:117:info_recall:14"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.13"
+    },
+    {
+      "id": "PT.D1.13.truth",
+      "dimension": "D1",
+      "title": "真谛说及反驳",
+      "question": "报告是否说明真谛为佛性的旧说及吉藏提出的经据和师承质问？",
+      "anchors": {
+        "1": "未回答真谛说及反驳。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "提到真谛但没有其旧说地位或反驳，或把吉藏质问升级为现代穷尽文献的事实证明。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明真谛说及吉藏对其经据、传承的质问，准确归属批评者并保留论证范围。"
+      },
+      "boundary": "原典p36c；不无据声称所有历史材料均不存在支持。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:15",
+          "drb2:117:info_recall:16"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.13"
+    },
+    {
+      "id": "PT.D1.13.cause",
+      "dimension": "D1",
+      "title": "非因非果的含义",
+      "question": "报告是否解释非因非果怎样破除固定因果两边，而非取消修行中的因果作用？",
+      "anchors": {
+        "1": "未回答非因非果的含义。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有非因非果口号，或从中推出修行因果完全无效。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明不执因果为固定自性、因果不二与假名作用的关系，区分反执取和取消因果。"
+      },
+      "boundary": "原典p38c–39a；本有与修证另由PT.D1.14检查，不将同一缺失重复扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:14",
+          "drb2:117:analysis:11"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.13"
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "本有佛性与修行必要性",
+      "question": "报告是否解释佛性本有与仍需修行证得之间的关系，而非由本有直接推出无需修行？",
+      "anchors": {
+        "1": "未说明这一关系或明确等同本有与已完成成佛。",
+        "2": "只说人人有佛性但仍要修行，未解释。",
+        "3": "有关系说明，但本有的意义或修行改变什么仍不清楚。",
+        "4": "本有与证得的区别及联系基本明确，少数语境欠清。",
+        "5": "具体说明本有不等于现实已证得、修行如何与佛性显发或实现相关，并交代所用解释的文本依据与限制。"
+      },
+      "boundary": "隐/显、如来藏/法身是一种可据文本使用的说明，不强制唯一模型，不强迫实修或现代心理学解释。与因果旧说是否属于主要范围的待审不同。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:36",
+          "drb2:117:info_recall:37",
+          "drb2:117:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "从PW实践价值中恢复本有—修证张力的直接内容检查。"
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "伦理与对治用途",
+      "question": "报告是否说明佛性论对自他伦理态度及纠正修行误解的用途，而不只说能鼓励成佛？",
+      "anchors": {
+        "1": "没有伦理或对治用途。",
+        "2": "只有行善、正见等口号。",
+        "3": "有具体用途，但对自己、对他者的伦理态度或纠正执著中的任一重要方面未交代，或用途与佛性论缺少联系。",
+        "4": "自我态度、对他行为和对治误解均有具体用途与理论联系，仅少量对象或语境不明。",
+        "5": "解释佛性论如何影响对自己和他者的态度/行为，并如何针对特定误解或执著发挥对治作用，明确对象和所据语境。"
+      },
+      "boundary": "区分对自己、对他者的伦理态度及具体对治用途，不要求固定例子。若用四颠倒，须分清生死上执常乐我净与将无常等执著移于佛果的不同对象，不能无条件说佛性恒常直接纠正凡夫把世法当常。依据补审T45 p48a–48b；允许其他有据实例，因此不声称逐项保留官方42/43。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:info_recall:38",
+          "drb2:117:info_recall:39",
+          "drb2:117:info_recall:42",
+          "drb2:117:info_recall:43",
+          "drb2:117:analysis:13"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：依据已保存的原典补审收紧具体内容与范围，详见本轮变更和官方对照。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "破旧与立正的论理",
+      "question": "哪篇更能解释吉藏为何拒绝旧说，以及这些反驳与中道、不执两边的正见如何相容？",
+      "anchors": {
+        "0": "双方推理帮助相近，或均无可用解释；须说明。",
+        "1": "A总体略好地连接所破前提与中道，B某个反驳仍可更强。",
+        "2": "A在破旧立正的关键推导上明显更成立，B局部引文丰富不能弥补逻辑断裂。",
+        "-2": "B在破旧立正的关键推导上明显更成立，A局部引文丰富不能弥补逻辑断裂。",
+        "-1": "B总体略好地连接所破前提与中道，A某个反驳仍可更强。"
+      },
+      "boundary": "需指出实际推导，例如有佛性不等于即是佛性、无常心不等于般若；不按旧说数量或引文数量。 全文比较用一致的重要性依据列出相反推导优势，净优势不足或同等重要的优势抵销判0；不得任选一说决定胜负。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:analysis:1",
+          "drb2:117:analysis:2",
+          "drb2:117:analysis:3",
+          "drb2:117:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3定向修订：v3.3沿用基线判断对象；原自检：新增解释链，反驳好但立正跳跃会削弱整链，不拆相互依存的推理。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "化解常空矛盾的理解价值",
+      "question": "哪篇更帮助读者判断佛性常住究竟承诺了什么、没有承诺什么，从而理解它与空是否矛盾？",
+      "anchors": {
+        "0": "两篇化解困惑的帮助相近，或都只重复术语；须区分。",
+        "1": "A对一处关键概念混淆的澄清总体略有更多帮助，B局部解释可更好。",
+        "2": "A明显更能澄清常住与无自性的关系及误读后果，B局部术语细节不能弥补核心困惑未解。",
+        "-2": "B明显更能澄清常住与无自性的关系及误读后果，A局部术语细节不能弥补核心困惑未解。",
+        "-1": "B对一处关键概念混淆的澄清总体略有更多帮助，A局部解释可更好。"
+      },
+      "boundary": "PT查是否回应法身/两常；本项需指出综合后的理解改变，不因同一推理成立再次加分。允许有据的不同诠释，不预设主观智慧/客观法身二分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:analysis:5",
+          "drb2:117:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "提取非二元与法身关系的综合价值，不强制客观本体论话语。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "理论与修行的理解价值",
+      "question": "哪篇更帮助读者理解佛性论为何能支持一乘与修行，而不等于不必修行或自动成佛？",
+      "anchors": {
+        "0": "两篇对实践意义的帮助相近，或均无相关帮助；须区分。",
+        "1": "A总体略能澄清一项实践含义，B某个用途解释仍可更好。",
+        "2": "A明显更能说明理论对修行取向的意义和限制，B局部鼓励话语不能弥补误解。",
+        "-2": "B明显更能说明理论对修行取向的意义和限制，A局部鼓励话语不能弥补误解。",
+        "-1": "B总体略能澄清一项实践含义，A某个用途解释仍可更好。"
+      },
+      "boundary": "不要求读者信奉此理论，不规定隐显模型或特定伦理劝诫；评价已有解释的理解后果而非用途数量。 [PT.D1.10.vehicle, PT.D1.10.encouragement]/.14已查一乘鼓励及本有—修证关系；这里只比较这些解释对如何理解修行取向、避免懈怠或误解的进一步帮助，不因同一关系解释存在再次奖罚。相反用途优势按同一重要性依据比较，等强抵销为0，略有净优势为±1、明显净优势为±2。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:analysis:9",
+          "drb2:117:analysis:10",
+          "drb2:117:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "保留一乘、鼓励与本有/修证张力的价值，取消固定隐显解释。 交叉审核明确新增PT后的非重复边界及相反优势判法。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "报告论述推进",
+      "question": "哪篇原报告更容易让读者从旧说进入吉藏正见、常空问题和实践意义？",
+      "anchors": {
+        "0": "两篇推进相近，或均无可跟进主线；须说明。",
+        "1": "A总体组织略好，B部分总结可更有效。",
+        "2": "A全文衔接明显更顺畅，B局部标题不能弥补跳转和重复导致的断裂。",
+        "-2": "B全文衔接明显更顺畅，A局部标题不能弥补跳转和重复导致的断裂。",
+        "-1": "B总体组织略好，A部分总结可更有效。"
+      },
+      "boundary": "读原报告；只评承接和重复作用，不重复PT五标题，也不默认篇幅短更好。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "提取原官方逻辑层次，分给宏观组织。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "佛学概念表达",
+      "question": "哪篇对已写的佛性、空、常和法身表述更易理解？",
+      "anchors": {
+        "0": "两篇可理解性相近，或均难以理解；须说明。",
+        "1": "A总体略清楚，B某处术语解释可更好。",
+        "2": "A概念指代和引文释义明显更清楚，B局部流畅不能弥补核心语义难辨。",
+        "-2": "B概念指代和引文释义明显更清楚，A局部流畅不能弥补核心语义难辨。",
+        "-1": "B总体略清楚，A某处术语解释可更好。"
+      },
+      "boundary": "只评已写意思；不以浅白替代准确归属，不重复事实真伪与全文组织。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "提取官方语言清晰部分，与宏观逻辑分工。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "旧说与原典查找",
+      "question": "哪篇更方便查到某一旧说、吉藏的反驳及所称原典位置？",
+      "anchors": {
+        "0": "两篇查找成本相近，或均无可用路径；须说明。",
+        "1": "A总体查找略方便，B个别引注可更直接。",
+        "2": "A明显更少跳转即可找到对应反驳与依据，B局部链接优势不能弥补查找障碍。",
+        "-2": "B明显更少跳转即可找到对应反驳与依据，A局部链接优势不能弥补查找障碍。",
+        "-1": "B总体查找略方便，A个别引注可更直接。"
+      },
+      "boundary": "实际查找原报告，文献卷次和具名引文可替代链接；不把来源支持性再评分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:117:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "将旧说清楚列示适配为命题—反驳查找，不要求固定表格。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:117:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "保留出生/卒年核对对象。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01缺生卒为3，549–623及其他背景清楚为5；有据异说另核，不自动判错。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "保留三论宗代表身份。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01宗派缺失为3，身份与地位均明为5，不能靠年份弥补。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:3",
+      "targets": [],
+      "reason": "三大高僧称号是可替代的地位例证。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "只差慧远/智顗并称信息而地位同样清楚可同分；该专名召回未保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:4",
+      "targets": [],
+      "reason": "不强制喜爱两经的传记表述；核心矛盾由中道/法身回答。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "只差《法华经》偏好可同分，不把核心主题相近当成该事实已覆盖。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:5",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "保留众生/五蕴旧说。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02缺该命题或理由为1/2/3，关系具体及语境清楚为5；无法以别的旧说替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:6",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "保留有佛性与是佛性辨别。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02缺该命题或理由为1/2/3，关系具体及语境清楚为5；无法以别的旧说替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:7",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "保留心说。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.03缺该命题或理由为1/2/3，关系具体及语境清楚为5；无法以别的旧说替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:8",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "保留无常心与常住佛性。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.03缺该命题或理由为1/2/3，关系具体及语境清楚为5；无法以别的旧说替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:9",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "保留第八识旧说。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.04缺该命题或理由为1/2/3，关系具体及语境清楚为5；无法以别的旧说替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:10",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "保留第八识与无明、生死的反驳，不强制指定经论引用形式。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04缺无明/生死关系为3，关系清楚为5；未逐字引用《摄大乘论》可同分，固定引文召回未全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:11",
+      "targets": [
+        "PT.D1.13.fruit"
+      ],
+      "reason": "本地原典补审已确认当果旧说，现由fruit子项检查，不再以暂不能裁定代替。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "修行之果说及本有反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:12",
+      "targets": [
+        "PT.D1.13.fruit"
+      ],
+      "reason": "保留并具体化当果的始有、作法、无常反驳联系；不只要求复述本有。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "修行之果说及本有反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:13",
+      "targets": [
+        "PT.D1.13.principle"
+      ],
+      "reason": "官方把得佛之理写成佛的教法，按已保存原典补审核正对象；保留旧说与反驳，不照抄误译。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "佛的教法作为因及非因非果反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:14",
+      "targets": [
+        "PT.D1.13.principle",
+        "PT.D1.13.cause"
+      ],
+      "reason": "非因非果是反固定因果执取的论证，不以本有一句替代得佛之理的具体反驳。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "佛的教法作为因及非因非果反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:15",
+      "targets": [
+        "PT.D1.13.truth"
+      ],
+      "reason": "本地原典补审已确认真谛旧说，现由truth子项检查。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "真谛说及无经文师承反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:16",
+      "targets": [
+        "PT.D1.13.truth"
+      ],
+      "reason": "检查吉藏提出的经据师承质问，不把批评者质问升级为现代穷尽事实结论。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "真谛说及无经文师承反驳当前没有共同覆盖条目。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核，不预先裁定全部旧说必答。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:17",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "中道定义写入评价对象。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.06仅术语为2，解释中道与两边为4/5；未答中道不能被其他正见补足。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:18",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "保留不见空与不空的释义，取消逐字引经要求。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06不执两边未讲清为3，解释清楚为5；准确转述可同分，指定引文形式未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:19",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "保留智慧层面的联系，不固定为纯主观精神境界或排除所有命题含义。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07仅术语为2、关系一面缺为3、概念联系明确为5；有据其他诠释可同分，官方独占智慧境界框架未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:20",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "保留佛性—第一义空—般若关系的明确说明。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.07缺第一义空或般若一面为3，三者具体联系为5；其他佛学术语不能代替。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:21",
+      "targets": [],
+      "reason": "般若不执取的内容保留；应机说法二分定义未逐项设为必答，不能宣称全保留。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:22",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "保留佛性—第一义空—般若关系的明确说明。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.07缺第一义空或般若一面为3，三者具体联系为5；其他佛学术语不能代替。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:23",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "保留智慧层面的联系，不固定为纯主观精神境界或排除所有命题含义。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07仅术语为2、关系一面缺为3、概念联系明确为5；有据其他诠释可同分，官方独占智慧境界框架未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:24",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "人物姓名可选，第一义空旧解与境智不二的实质区别现在进入PT.D1.07。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:25",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "明确两种常、佛性归属及定性常含义。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08一种缺失或不说明归属为3，区别固定自性及因缘常归属清楚为5；有据原典差异应澄清。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:26",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "明确两种常、佛性归属及定性常含义。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08一种缺失或不说明归属为3，区别固定自性及因缘常归属清楚为5；有据原典差异应澄清。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:27",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "明确两种常、佛性归属及定性常含义。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08一种缺失或不说明归属为3，区别固定自性及因缘常归属清楚为5；有据原典差异应澄清。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:info_recall:28",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "保留因缘常与固定自性的区分，不把恒常显现机械解释为物体永生。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08因缘常含义不清为3/4，区别具体为5；不同有据哲学释义可同分，单一句定义未锁定。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:29",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "保留法身、佛性常住与因缘关系，不强制仅用同一等式。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09只写法身等号为2，常空一面未答为3，联系完整为5；未逐字说法身具有因缘常但解释等效可同分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:30",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "保留法身、佛性常住与因缘关系，不强制仅用同一等式。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09只写法身等号为2，常空一面未答为3，联系完整为5；未逐字说法身具有因缘常但解释等效可同分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:31",
+      "targets": [
+        "PT.D1.10.vehicle"
+      ],
+      "reason": "恢复一乘的法身根据；不强制三词等式或独立实体本体论。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:32",
+      "targets": [],
+      "reason": "《楞伽经》藏识海常住引文是可选展开而非全部报告共同义务。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "仅在此具体命题上不同而常空联系解释完整时可同分；该精确命题召回未保留，不能以法身主题挂靠。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:33",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "补回法身特性在统一论证中的解释作用，不再仅称可选展开。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09仅有常空结论而无特性作用最高3；不强制全部特性清单或固定无差别措辞。具体原命题是否成立仍须文本审查。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:34",
+      "targets": [],
+      "reason": "从佛视角六道即法身是可选展开而非全部报告共同义务。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "仅在此具体命题上不同而常空联系解释完整时可同分；该精确命题召回未保留，不能以法身主题挂靠。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:35",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "补回法身特性在统一论证中的解释作用，不再仅称可选展开。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09仅有常空结论而无特性作用最高3；不强制全部特性清单或固定无差别措辞。具体原命题是否成立仍须文本审查。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:36",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14：隐态术语非必选，本有与修证关系不可省略。 任一重要用途缺失由中档识别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:37",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14：显态术语非必选，修行改变什么不可只用口号。 任一重要用途缺失由中档识别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:38",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：自我伦理态度须具体，去傲慢这个特定用途不固定。 任一重要用途缺失由中档识别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:39",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：他者伦理行为须具体，不强制杀害例子。 任一重要用途缺失由中档识别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:40",
+      "targets": [
+        "PT.D1.10.vehicle"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.10.vehicle。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "一乘根据为必答，但不强制本体论基础与共用一个法身的唯一表述。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:41",
+      "targets": [
+        "PT.D1.10.vehicle"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.10.vehicle。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "一乘根据为必答，但不强制本体论基础与共用一个法身的唯一表述。"
+    },
+    {
+      "resource_id": "drb2:117:info_recall:42",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "对治对象须明确；PT.D1.15仍允许其他有据实例，未逐项保留指定实例。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:43",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "原典补审区分生死与佛果的颠倒对象；不把官方方向简写作为正确答案，未逐项保留。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:info_recall:44",
+      "targets": [
+        "PT.D1.10.encouragement"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.10.encouragement。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "保留成佛可能性对修行信心的意义，不规定非妄原词。"
+    },
+    {
+      "resource_id": "drb2:117:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "保留有/是及心的常无常反驳推理，不把众生和佛性固定成现代实体属性。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01指出反驳前提与结论比只重复否定可略优；关键推导优势可明显更好，属性理论原措辞非必需。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "保留有/是及心的常无常反驳推理，不把众生和佛性固定成现代实体属性。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01指出反驳前提与结论比只重复否定可略优；关键推导优势可明显更好，属性理论原措辞非必需。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:3",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "保留破两边与避免实体化的解释，不固定主观智慧取代客观命题。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01不执两边与中道论理相容可优于重新立固定实体；有据不同智慧诠释不因此扣分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "保留破两边与避免实体化的解释，不固定主观智慧取代客观命题。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01不执两边与中道论理相容可优于重新立固定实体；有据不同智慧诠释不因此扣分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:5",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "法身/智慧关系的解惑价值纳入PW，不强制主观客观二分或遍一切处为唯一论据。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01说明常住承诺与无自性不冲突及误读后果可略优；只有官方术语而未解惑不占优，特定本体论论据未全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:6",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "两常与法身统一作为必要回答，取消万法总体恒常显现这一唯一模型。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09只答常或空为3，说明非固定自性且非断灭为5；等效有据解释可同分，原具体模型不全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:7",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "两常与法身统一作为必要回答，取消万法总体恒常显现这一唯一模型。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09只答常或空为3，说明非固定自性且非断灭为5；等效有据解释可同分，原具体模型不全保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:8",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.01"
+      ],
+      "reason": "法身/智慧关系的解惑价值纳入PW，不强制主观客观二分或遍一切处为唯一论据。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09缺法身特性在常空统一中的作用为3，完整解释为5；PW.D4.01只比较这一解释消除了何种关键误解。特定现代本体论措辞不强制。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:9",
+      "targets": [
+        "PT.D1.10.vehicle",
+        "PW.D4.02"
+      ],
+      "reason": "比较一乘、鼓励与本有不取消修行的理解，不强制只经法身同一或隐显模型推导。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.02有据地阻止自动成佛/无需修行误读可略优；同样有帮助的其他理论路径可同分，原唯一机制未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:10",
+      "targets": [
+        "PT.D1.10.encouragement",
+        "PW.D4.02"
+      ],
+      "reason": "比较一乘、鼓励与本有不取消修行的理解，不强制只经法身同一或隐显模型推导。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.02有据地阻止自动成佛/无需修行误读可略优；同样有帮助的其他理论路径可同分，原唯一机制未保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:11",
+      "targets": [
+        "PT.D1.13.cause"
+      ],
+      "reason": "因果不二与反固定执取已有原典依据，现由cause子项明确检查；并非取消假名因果。",
+      "status": "adapted",
+      "discrimination_check": "按当前目标项的新锚点及边界检查；存在来源映射不等于原官方全部细节已保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "非因非果对因说、果说的整合目前未设专门承接；相关旧说是否属于题面主要观点尚待领域审核，不能仅因四说是题面例子便断定此区别不重要。 v3.3新增PT.D1.13检查范围依据，但未取得足以裁定该旧说的重要性及归属的材料，gap继续保留。"
+    },
+    {
+      "resource_id": "drb2:117:analysis:12",
+      "targets": [
+        "PT.D1.14",
+        "PW.D4.02"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14：直接查本有—修证关系，PW.D4.02只比理解价值，隐显模型非独占。 任一重要用途缺失由中档识别。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:analysis:13",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "恢复共同内容，不将可替换术语或劝诫实例扩大成删掉整个领域。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15：伦理与佛性观的关系有内容入口，不强制现代本体论标签。 任一重要用途缺失由中档识别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:presentation:1",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "五个题面部分有标题，允许同义标题与合理编排。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11缺结构入口为3，五部分清楚为5；不强制字面标题和固定顺序。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:presentation:2",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "五个题面部分有标题，允许同义标题与合理编排。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11缺结构入口为3，五部分清楚为5；不强制字面标题和固定顺序。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:presentation:3",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "旧说—反驳可找的具体配对转为查找效率。",
+      "status": "adapted",
+      "discrimination_check": "PW.D6.02只易找旧说却难定位反驳比对应路径直接更差；不要求固定列表/表格布局。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:117:presentation:4",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "两常明确对比及解释为PT.D1.08内容。",
+      "status": "retained",
+      "discrimination_check": "只列两个名称为2，只解释一种为3，区别清楚且归属明确为5。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:117:presentation:5",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "组织与局部表达分别比较，均以原报告为对象。",
+      "status": "adapted",
+      "discrimination_check": "同内容更顺序连贯在PW.D5.01略优；同内容术语更清楚在PW.D6.01略优；不保留绝对零含糊门槛。",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "无旧稿；20条均为本轮新建，没有为原子化数目拆分。PT14负责背景、点名旧说、定义关系、常空与用途、结构和证据审计；PW6比较实际推理与理解价值、原文组织表达查找。",
+    "逐项作者自检和62项官方差异检查，不是独立审核或外核。",
+    "补足官方未专列的趋乐避苦题面要求；不把现代智慧境界、本体论、隐显模型当唯一回答路线。",
+    "当前未保留部分旧说、藏识海及六道法身、固定对治清单等精确召回。四说只是题面例子，并不证明其它旧说不重要；主要观点范围覆盖仍需领域审核。info_recall:11–16及相关analysis:11已标gap，表示未决覆盖风险，不是确认全部七说必答，也不是已无风险的可选删除；本轮不新增PT。原supporting标签暂留，不代表已确认这些旧说仅属次要内容。官方因缘常解释、四颠倒语境和众生属性类比仍需主审核对。",
+    "本批作者程序自检：14 PT、6 PW、62项官方记录；原Query、五档锚点、ID、逐字题面引文、双向来源映射与全条目原子化记录已核对。此项不是独立语义审核，也不保证官方事实正确。",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为17 PT / 6 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "保留已存七项gap，不回退为可选。新增PT.D1.13检查非穷尽范围依据、14检查本有与修行、15恢复伦理与对治用途；已有两常/法身关系和四说条目不拆。",
+    "因说、果说、真谛说的主要范围与具体反驳仍未取得足以裁定的文本，七项gap未关闭。四颠倒、因缘常、法身相关诠释继续待领域审核；不把本次补入口当问题全部解决。",
+    "交叉审核仅修正analysis:8具体来源入口、gap旧文字与PW.D4.02非重复边界；七项主要旧说gap继续未决，结论domain_review。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增必要背景；年份好但宗派/地位缺失为3，可明确处理混合表现。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增题面点名的旧说；旧说列出而理由缺失为2，有理由但辨别不清为3，不拆关系。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增独立旧说对象；只列心说为2，有理由但概念混用为3，反驳和被反驳命题不拆。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增题面独立旧说；有名词无理由为2、关键关系不明为3，不机械拆理由。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增官方漏掉的明确对象；旧说好而理由缺失为2/3，仍按命题—反驳这一关系评分。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增定义与其核心释义，同一概念关系；只名词为2、含义不完整为3。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "keep",
+      "reason": "主Agent v3.5：依据已保存的原典补审收紧具体内容与范围，详见本轮变更和官方对照。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增对比关系；一类好另一类缺为3，概念和归属不可拆成孤立标签。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "常空措辞俱全但不说明法身特性起何作用最高3；保留同一统一关系，不机械拆成特性名词表。"
+    },
+    {
+      "id": "PT.D1.10.vehicle",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.10拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.10.encouragement",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.10拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增结构遵守；内容齐但缺结构入口为3，结构与入口不拆。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增单一禁源使用判断，局部与核心使用已有明确梯度。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增归属关系；出处好而说话者混写为3，引用与说话者不能拆。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增主张—证据同一支持判断，混合支持为3，不能拆证据和结论。"
+    },
+    {
+      "id": "PT.D1.13.fruit",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.13.principle",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.13.truth",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.13.cause",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.13拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "一乘解释好仍可能完全不解释本有与修行关系；故新增，不让鼓励话语代替。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "add",
+      "reason": "主Agent v3.5：依据已保存的原典补审收紧具体内容与范围，详见本轮变更和官方对照。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "v3.3沿用基线判断对象；原自检：新增解释链，反驳好但立正跳跃会削弱整链，不拆相互依存的推理。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增原问题的综合解惑，不拆常与空，否则无法评价是否化解矛盾。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增理论到实践的关系；信心解释好却推成无需修行削弱同一帮助，不拆关系。 交叉审核：充分解释本有/证得本身不足以在PW再获优势，须说明进一步理解后果；对称相反优势等强为0。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增全文阅读对象；顺序好而重复多综合判断，不拆写作手段。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增理解成本，语句好而关键术语难懂用总体差距比较，无须拆。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3沿用基线判断对象；原自检：新增同一信息查找链，旧说好找但依据难找影响整条路径。"
+    }
+  ]
+}

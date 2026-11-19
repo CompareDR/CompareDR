@@ -1,0 +1,1003 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a605343",
+  "language": "en",
+  "title": "Berkeley student banquet planning",
+  "full_query": "Please make a plan for my student group's end of year banquet, including a specific venue and a specific menu from a caterer. We need a nice venue near Berkeley, CA with a projector for slides. There are around 30 people attending. We also need to cater food that accommodates the following dietary restrictions: 2 egg allergies, 2 peanut allergies, 1 dairy + nuts + shellfish allergy, and 1 vegetarian. The total budget for the banquet is 2500 dollars, with a hard cap of 3000 dollars. Do not factor in transportation in the budget. ",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Specific nearby banquet venue",
+      "question": "Does the plan name a venue near Berkeley and describe a seated banquet arrangement for around 30 people?",
+      "anchors": {
+        "1": "No identifiable venue near Berkeley.",
+        "2": "A venue is named without usable location or guest-capacity information.",
+        "3": "Location and capacity or occasion suitability is materially unspecified; attractive surroundings do not compensate for an unclear seated arrangement.",
+        "4": "Nearby location, a 30-person seated/table arrangement and concrete occasion suitability are clear, with only a minor room/layout detail missing.",
+        "5": "Identifies a specific nearby venue and a seated/table arrangement for around 30, explaining concrete room or service features that suit a student end-of-year celebration."
+      },
+      "boundary": "Do not impose an unrequested 10-mile radius, luxury standard or mandatory historic venue. Real-world claims are checked in D2, not assumed verified from naming. Occasion suitability must be concrete, not just the word nice; no luxury threshold.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:1",
+          "rr:6847465956a0f6376a605343:flat:2",
+          "rr:6847465956a0f6376a605343:flat:5"
+        ],
+        "query_quotes": [
+          "near Berkeley, CA",
+          "around 30 people"
+        ],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New: identity, location and capacity define the selected venue; a beautiful venue with no dining capacity specified is 3, not offset by ambiance. Cross-review makes missing occasion suitability remain at 3 rather than allowing the old capacity-only 4."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Projector arrangement",
+      "question": "Does the plan specify a usable projector arrangement for the group's slides?",
+      "anchors": {
+        "1": "No projector arrangement.",
+        "2": "Only a generic AV claim with no identifiable projection provision.",
+        "3": "A projector is mentioned, but how it is obtained or used at the venue is materially unclear.",
+        "4": "A venue-provided or arranged projector is identified, with a minor setup detail unconfirmed.",
+        "5": "The plan identifies projection provision at the venue and the necessary screen/display surface and connection/setup assumptions, marking what still needs confirmation."
+      },
+      "boundary": "A TV alone is not automatically a projector. Do not demand a particular projector model; quoted or budgeted rental is eligible when venue use is addressed.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep the projection requirement while allowing an explicitly arranged rental rather than only built-in equipment."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Specific caterer and venue eligibility",
+      "question": "Does the plan identify a caterer able to serve the Berkeley venue under the venue's food policy?",
+      "anchors": {
+        "1": "No specific caterer.",
+        "2": "A caterer is named but no service-area or venue relationship is stated.",
+        "3": "Local service is stated but venue eligibility/outside-food permission is absent, or the reverse.",
+        "4": "Service and venue policy fit are stated with a minor approval detail pending.",
+        "5": "A specific local-serving caterer is paired with the venue, with outside-food or in-house-package eligibility explained and unconfirmed permissions clearly identified."
+      },
+      "boundary": "A named provider with a real unresolved approval can form a conditional plan, but an unqualified compatibility assertion is not proof. No mandatory outside caterer.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:3",
+          "rr:6847465956a0f6376a605343:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep caterer-area and venue-policy relationship, allow in-house packages and transparent conditional approvals."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Specific caterer menu",
+      "question": "Does the plan select identifiable dishes or packages from the named caterer rather than inventing a generic menu?",
+      "anchors": {
+        "1": "No specific menu.",
+        "2": "Only cuisine labels or an unattributed set of meal ideas.",
+        "3": "Dishes are named, but major dishes are not tied to the caterer's menu or proposed substitutions are indistinguishable from actual offerings.",
+        "4": "The selected menu is tied to the caterer with minor item or substitution ambiguity.",
+        "5": "Identifiable dishes/packages form the proposed banquet meal; menu-listed items, proposed modifications and pending approvals are clearly distinguished."
+      },
+      "boundary": "No compulsory plated service or appetizer-main-dessert sequence. Allergy suitability is separate; appealing dish descriptions are not evidence the caterer sells them.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:9",
+          "rr:6847465956a0f6376a605343:flat:10"
+        ],
+        "query_quotes": [
+          "a specific menu from a caterer"
+        ],
+        "change_note": "Retain a specific real-provider menu; remove a prescribed elevated course format."
+      }
+    },
+    {
+      "id": "PT.D1.05.egg",
+      "dimension": "D1",
+      "title": "Egg-allergy meal mapping",
+      "question": "Does the selected menu map suitable proposed meals to the two egg-allergy needs?",
+      "anchors": {
+        "1": "This allergy requirement is ignored, or a meal explicitly containing a listed allergen is assigned to the affected guest.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "A meal is proposed but the restriction, number of requested meals or ingredient-confirmation status is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Maps adequate proposed meals to the two egg-allergy needs, distinguishes confirmed ingredients from pending caterer confirmation, and identifies a concrete resolution path for unknown ingredients."
+      },
+      "boundary": "Only this guest requirement is scored here. Do not infer safety from vegan/gluten-free labels. Do not invent that affected groups are distinct people. Cross-contact handling remains PT.D1.08; unsupported safety claims remain D2. The combined restriction must be met simultaneously.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:8",
+          "rr:6847465956a0f6376a605343:flat:10"
+        ],
+        "query_quotes": [
+          "2 egg allergies, 2 peanut allergies, 1 dairy + nuts + shellfish allergy"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.peanut",
+      "dimension": "D1",
+      "title": "Peanut-allergy meal mapping",
+      "question": "Does the selected menu map suitable proposed meals to the two peanut-allergy needs?",
+      "anchors": {
+        "1": "This allergy requirement is ignored, or a meal explicitly containing a listed allergen is assigned to the affected guest.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "A meal is proposed but the restriction, number of requested meals or ingredient-confirmation status is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Maps adequate proposed meals to the two peanut-allergy needs, distinguishes confirmed ingredients from pending caterer confirmation, and identifies a concrete resolution path for unknown ingredients."
+      },
+      "boundary": "Only this guest requirement is scored here. Do not infer safety from vegan/gluten-free labels. Do not invent that affected groups are distinct people. Cross-contact handling remains PT.D1.08; unsupported safety claims remain D2. The combined restriction must be met simultaneously.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:8",
+          "rr:6847465956a0f6376a605343:flat:10"
+        ],
+        "query_quotes": [
+          "2 egg allergies, 2 peanut allergies, 1 dairy + nuts + shellfish allergy"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.combined",
+      "dimension": "D1",
+      "title": "Combined-allergy meal mapping",
+      "question": "Does the selected menu map suitable proposed meals to the one simultaneous dairy, nuts and shellfish allergy?",
+      "anchors": {
+        "1": "This allergy requirement is ignored, or a meal explicitly containing a listed allergen is assigned to the affected guest.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "A meal is proposed but the restriction, number of requested meals or ingredient-confirmation status is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Maps adequate proposed meals to the one simultaneous dairy, nuts and shellfish allergy, distinguishes confirmed ingredients from pending caterer confirmation, and identifies a concrete resolution path for unknown ingredients."
+      },
+      "boundary": "Only this guest requirement is scored here. Do not infer safety from vegan/gluten-free labels. Do not invent that affected groups are distinct people. Cross-contact handling remains PT.D1.08; unsupported safety claims remain D2. The combined restriction must be met simultaneously.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:8",
+          "rr:6847465956a0f6376a605343:flat:10"
+        ],
+        "query_quotes": [
+          "2 egg allergies, 2 peanut allergies, 1 dairy + nuts + shellfish allergy"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Vegetarian meal",
+      "question": "Does the plan provide an adequate vegetarian meal from the selected menu?",
+      "anchors": {
+        "1": "No vegetarian option, or only a nonvegetarian meal is assigned.",
+        "2": "Only a vague promise of a vegetarian option.",
+        "3": "A vegetarian item is named but it is not a sufficient meal or its role in the selected order is unclear.",
+        "4": "A specific adequate vegetarian meal is included with a minor ingredient/order confirmation pending.",
+        "5": "A specific vegetarian meal is included in the order and portion plan, with relevant ingredients or substitutions clearly identified."
+      },
+      "boundary": "Do not require vegan food. Allergy compliance and vegetarian suitability are distinct; a vegetarian label alone says nothing about eggs, dairy or nuts.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:8",
+          "rr:6847465956a0f6376a605343:flat:10"
+        ],
+        "query_quotes": [
+          "1 vegetarian"
+        ],
+        "change_note": "Separate the vegetarian meal from allergy-specific suitability because each can succeed independently."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Food quantity for the group",
+      "question": "Does the selected order specify enough food for around 30, including the restricted meals?",
+      "anchors": {
+        "1": "No usable quantity plan.",
+        "2": "Only names foods with no servings or guest allocation.",
+        "3": "An order size is given, but its servings are unclear or special meals are omitted/double-counted.",
+        "4": "The order plausibly covers 30 with special meals included, with a minor serving assumption unclear.",
+        "5": "Quantities, package servings or per-person orders cover around 30, explicitly incorporating dietary meals and reasonable serving assumptions."
+      },
+      "boundary": "Do not demand fixed surplus portions. Quantity is separate from food quality or allergen safety.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain 30-person quantity and make special-meal accounting explicit."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Allergen handling and confirmation",
+      "question": "Does the plan specify how ingredient and cross-contact questions will be resolved and special meals handled?",
+      "anchors": {
+        "1": "No relevant handling or confirmation safeguard.",
+        "2": "Only says to be careful or call the caterer.",
+        "3": "Ingredient confirmation or handling is concrete, but the other is absent or responsibility is unclear.",
+        "4": "Both confirmation and serving/handling steps are concrete with a minor responsibility detail unresolved.",
+        "5": "The plan identifies who will confirm ingredients and cross-contact feasibility with the caterer, and how approved meals are identified and served to the right guests; unresolved safety prevents an unconditional safe-meal claim."
+      },
+      "boundary": "This is planning, not a medical safety certification. No mandatory kitchen protocol, but a disclaimer cannot replace a feasible confirmation/handling path.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add a local safeguard for multiple serious food restrictions, separate from menu allocation."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Budget components and assumptions",
+      "question": "Does the plan provide an interpretable breakdown of venue, catering and relevant event charges?",
+      "anchors": {
+        "1": "No usable budget.",
+        "2": "Only an unexplained total or major costs omitted.",
+        "3": "Venue and food appear, but a material fee, tax, tip, equipment cost or estimate basis is absent.",
+        "4": "Main costs and applicable charges are itemized, with only a minor inclusion or estimate detail unclear.",
+        "5": "The budget itemizes venue, food, applicable taxes/service/tip and other costs needed by the selected plan, distinguishing included, estimated, refundable and pending amounts without double counting."
+      },
+      "boundary": "Only relevant costs are required; no mandatory decorations or insurance if not applicable. Price truth and arithmetic are audited in D2; meeting the cap is separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:6",
+          "rr:6847465956a0f6376a605343:flat:11",
+          "rr:6847465956a0f6376a605343:flat:13"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep cost breakdown and interpretability, remove the fixed 10% price tolerance in favor of scoped evidence checks."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Target budget and hard cap",
+      "question": "Does the plan acknowledge the $2,500 target and keep its proposed all-in banquet budget within the $3,000 hard cap?",
+      "anchors": {
+        "1": "The recommended plan knowingly exceeds $3,000 without a viable correction.",
+        "2": "The total cannot be assessed, or a claimed under-cap plan omits a major known charge.",
+        "3": "An under-cap estimate is provided, but its important uncertainty could exceed the cap without a spending limit, or an over-$2,500 total is not acknowledged.",
+        "4": "The stated all-in estimate and bounded remaining cost uncertainty fit within $3,000, and any spending above $2,500 is acknowledged; how a pending quote would be kept within its stated allowance is only partly explained.",
+        "5": "The proposed all-in total is within $3,000; spending above $2,500 is explicitly identified, and pending quotes have limits or adjustments sufficient to preserve the cap."
+      },
+      "boundary": "A hard cap permits exactly $3,000; the official 'strictly less' rule is not imposed. Do not reward spending more or less irrespective of the plan's requirements. An unbounded pending charge cannot qualify for 4 merely because the current estimate is below the cap. Use 3 when an important uncertainty could exceed the cap without a spending limit; 5 requires sufficient limits or adjustments for pending quotes. No pending quote is required to earn 5.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:15"
+        ],
+        "query_quotes": [
+          "2500 dollars, with a hard cap of 3000 dollars"
+        ],
+        "change_note": "Review 30: replace contradictory unbounded uncertainty at level 4 with bounded residual cost uncertainty; distinguish a stated allowance from sufficient quote limits/adjustments at level 5. Other anchors unchanged."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "No guest transportation in budget",
+      "question": "Does the banquet budget exclude attendee transportation costs?",
+      "anchors": {
+        "1": "Attendee transport is a major required budget component.",
+        "2": "Several attendee transport charges are included in the quoted banquet total.",
+        "3": "A local attendee transport line is included without a banquet-only total.",
+        "4": "Transport is excluded from the total, but an optional separate line is ambiguously labeled.",
+        "5": "The banquet total excludes attendee transport; any separately mentioned travel is clearly outside scope."
+      },
+      "boundary": "Food delivery is a catering service, not attendee transport. Do not remove delivery charges to create a misleading low total.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:14"
+        ],
+        "query_quotes": [
+          "Do not factor in transportation in the budget."
+        ],
+        "change_note": "Convert the official negative-weight violation into a positively oriented compliance item; distinguish food delivery."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of key claims",
+      "question": "Can the venue, room capacity, projector, caterer menu and budget claims be traced to specific provider information or transparent estimates?",
+      "anchors": {
+        "1": "Key claims have no identifiable source or derivation.",
+        "2": "Only generic references to research or data are given.",
+        "3": "Relevant sources exist, but important claim-to-source links are unclear.",
+        "4": "Main claims are traceable, with minor attribution ambiguity.",
+        "5": "Key claims have identifiable sources or reviewable derivations; assumptions are marked."
+      },
+      "boundary": "Assess traceability only. Bibliographic details can suffice without URLs; actual support belongs to PT.D2.02.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplar's traceability audit to this task's key claims; anchors locally specified."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support within the verification sample",
+      "question": "Within completed checks, do provider materials support the asserted room, food policy, menu/ingredients, prices and service conditions?",
+      "anchors": {
+        "1": "Verified central claims are contradicted or lack their claimed basis, undermining the answer.",
+        "2": "Several important checked claims have material support errors.",
+        "3": "Support is mixed, with material scope or attribution errors remaining.",
+        "4": "Important checked claims hold, with only minor overstatement or attribution problems.",
+        "5": "All assessed claims match the obtained evidence in object, scope and strength; this is not a full-report guarantee."
+      },
+      "boundary": "Record selected and assessed claims, scope and counts. Retrieval failure is an execution issue: retry and report it, not a low score or NA. Without completed checks, no quality conclusion is available. No external verification is performed in this authoring run.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's bounded verification audit; official rubric content is not an external fact guarantee."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Internal consistency",
+      "question": "Do menu quantities, special-meal allocations, guest counts, itemized charges and final totals agree within the plan?",
+      "anchors": {
+        "1": "Core statements conflict so extensively that the answer cannot be determined.",
+        "2": "An unexplained conflict in a key object, value or condition materially harms use.",
+        "3": "A local substantive conflict remains, but the main answer is identifiable.",
+        "4": "Core statements agree, with minor ambiguity that is easy to clarify.",
+        "5": "Checked prose, tables and conclusions agree; differences under different conditions are explained."
+      },
+      "boundary": "Assess internal compatibility, not external truth. Different conditions need not yield identical results.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add a task-specific consistency audit, separate from external verification."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Compatible event and service window",
+      "question": "Does the plan identify a plausible banquet window compatible with both venue access and catering service?",
+      "anchors": {
+        "1": "No timing arrangement.",
+        "2": "Only gives one provider's hours or says to choose a date.",
+        "3": "Gives an event window but not how both venue access and food service can fit, or leaves a known timing conflict unresolved.",
+        "4": "Provides a jointly plausible window and confirmation conditions, with a minor setup/delivery detail pending.",
+        "5": "Relates venue access, setup/presentation and catering delivery/service to a proposed window, distinguishing operating hours from event availability and identifying the checks needed to confirm both providers."
+      },
+      "boundary": "No date was supplied, so conditional windows are valid. No live availability confirmation required, but merely saying contact them is not a timing plan.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore shared timing feasibility from the broad booking-value comparison."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Booking conditions and next actions",
+      "question": "Does the plan identify consequential commitment conditions and concrete actions to resolve them before booking?",
+      "anchors": {
+        "1": "No booking conditions or next actions.",
+        "2": "Only says book early or contact the vendors.",
+        "3": "Gives concrete conditions without resolution actions, or specific actions that do not address the relevant price, availability or commitment uncertainties.",
+        "4": "Connects the main pending commitment conditions to concrete confirmation actions, with only a minor applicable condition or confirmation detail missing.",
+        "5": "Identifies applicable venue and caterer commitment conditions, separates known terms from unknowns, and explains what to confirm with the venue or caterer about availability, all-in prices and permissions before committing."
+      },
+      "boundary": "No invented fees or actual contact required. Only applicable conditions are needed; state what needs checking rather than pretending an unknown term does not apply. Allergy-handling actions are PT.D1.08, not a second omission penalty here. Do not require named responsible people, a complete responsibility allocation or a deadline schedule. Actual vendor reservation windows or deadlines, when consequential to booking, are conditions to identify or confirm, not a requirement to invent an internal project timetable.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:17",
+          "rr:6847465956a0f6376a605343:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 30: remove owner and timetable requirements from high anchors; preserve concrete vendor confirmation actions and consequential applicable booking conditions."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "No constraint-breaking fallback recommendation",
+      "question": "Does the plan keep any recommended fallback within the user's non-negotiable requirements?",
+      "anchors": {
+        "1": "Recommends a fallback knowingly violating a core allergy, projector, location, capacity or hard-cap constraint without correction.",
+        "2": "Recommends a fallback with multiple apparent constraint conflicts and treats it as usable.",
+        "3": "A proposed fallback has a material unresolved requirement with no explicit gate preventing booking it as-is.",
+        "4": "Any fallback keeps the requirements, with only a minor condition needing clarification.",
+        "5": "No fallback relaxes the requirements: optional alternatives are either compliant or explicitly gated on the needed confirmations/corrections. A plan without alternatives also satisfies this prohibition."
+      },
+      "boundary": "Alternatives are not required. This checks whether fallback recommendations silently waive constraints, not their quantity or creativity. Primary-plan omissions stay in the original content items; do not repeat the same fallback violation there.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore the negative official distinction as direct conditional compliance, not an obligation to generate alternatives."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Venue-caterer feasibility",
+      "question": "Which plan reasons more convincingly that its room, food service and presentation arrangements can work together?",
+      "anchors": {
+        "0": "Compatibility reasoning is comparable, or neither shows how the selected arrangements fit. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A resolves an important venue-service compatibility link slightly more convincingly; B may still be better in some respects.",
+        "2": "A offers substantially more coherent reasoning about the selected venue, catering and event setup; B's local strengths do not make up for this difference.",
+        "-2": "B offers substantially more coherent reasoning about the selected venue, catering and event setup; A's local strengths do not make up for this difference.",
+        "-1": "B resolves an important venue-service compatibility link slightly more convincingly; A may still be better in some respects."
+      },
+      "boundary": "Compare the actual dependencies, not a count of providers or equipment. A venue allowing food does not alone establish this caterer's eligibility. Stated conditional assumptions can support a provisional plan.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add end-to-end compatibility reasoning beyond the existence of PT specifications."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Reasoning about dietary suitability",
+      "question": "Which plan draws more defensible conclusions about what the affected guests can actually be offered?",
+      "anchors": {
+        "0": "Dietary-suitability reasoning is comparable, or neither supports usable conclusions. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes an important ingredient or combined-restriction inference slightly more defensibly; B may still be better in some respects.",
+        "2": "A reasons substantially more carefully from the available menu and handling information to conditional meal suitability; B's local strengths do not make up for this difference.",
+        "-2": "B reasons substantially more carefully from the available menu and handling information to conditional meal suitability; A's local strengths do not make up for this difference.",
+        "-1": "B makes an important ingredient or combined-restriction inference slightly more defensibly; A may still be better in some respects."
+      },
+      "boundary": "Do not infer allergen absence from cuisine or dish names; separate recipe knowledge from handling knowledge. PT checks whether all needs and safeguards are specified; here test inferences, not medical certification. Compare opposing dietary inferences across the affected guests using the same consequence/uncertainty basis; an easy well-explained restriction cannot hide an unsupported serious combined-allergy conclusion. Equal consequential opposing advantages yield 0, not a selected single-guest win.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add inference checks for ingredient labels and combined restrictions without prescribing a menu. Cross-review clarifies opposing guest-specific strengths without introducing per-allergen counts."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Celebration value under constraints",
+      "question": "Which plan makes more useful trade-offs between the celebration experience and the group's budget and practical needs?",
+      "anchors": {
+        "0": "Trade-off help is comparable, or neither goes beyond attractive descriptions or low prices. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly more useful judgment about an important experience-versus-resource trade-off; B may still be better in some respects.",
+        "2": "A provides substantially more useful choices for a pleasant student banquet within its actual constraints; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more useful choices for a pleasant student banquet within its actual constraints; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly more useful judgment about an important experience-versus-resource trade-off; A may still be better in some respects."
+      },
+      "boundary": "No compulsory luxury, plated service or cuisine. Value must follow from the selected room/menu and constraints; do not count an already scored compatibility inference again without a distinct choice consequence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve celebration suitability as contextual choice value, not a fixed ambiance standard."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Booking and confirmation priorities",
+      "question": "Which plan better helps the student organizers turn a provisional venue/menu choice into a bookable event without losing constraints?",
+      "anchors": {
+        "0": "Booking guidance is comparable, or neither provides a usable next-action path. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A gives slightly more useful guidance for an important booking, timing or confirmation decision; B may still be better in some respects.",
+        "2": "A provides substantially more usable priorities from availability checks through commitments and contingency decisions; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more usable priorities from availability checks through commitments and contingency decisions; A's local strengths do not make up for this difference.",
+        "-1": "B gives slightly more useful guidance for an important booking, timing or confirmation decision; A may still be better in some respects."
+      },
+      "boundary": "Compare the usefulness of prioritizing dependencies and commitment decisions after the content checks in PT.D1.12/13. Do not award a win merely for including more logistics, or repeat the fallback violation penalty in PT.D1.14. No actual booking required. If equally consequential priority advantages offset, score 0 and distinguish that from no useful guidance.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:17",
+          "rr:6847465956a0f6376a605343:flat:18",
+          "rr:6847465956a0f6376a605343:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New: confirmation and commitment form one event-booking path; office hours alone do not prove event availability."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Provider evidence fit",
+      "question": "Which plan uses evidence more applicable to the selected room, group order and event conditions?",
+      "anchors": {
+        "0": "Evidence applicability is comparable, or neither has usable support. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A has slightly better matched support for an important planning assumption; B may still be better in some respects.",
+        "2": "A has substantially better matched evidence for its central venue, menu and cost assumptions; B's local strengths do not make up for this difference.",
+        "-2": "B has substantially better matched evidence for its central venue, menu and cost assumptions; A's local strengths do not make up for this difference.",
+        "-1": "B has slightly better matched support for an important planning assumption; A may still be better in some respects."
+      },
+      "boundary": "No contact call or live quote is mandatory. An exact-room catering policy may be more useful than generic venue marketing; dated prices can be estimates if marked and bounded.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add provider-evidence fit, separate from quote traceability and verified truth."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Whole-report progression",
+      "question": "Which original plan more effectively leads student organizers from the proposed venue and meal to costs and next decisions?",
+      "anchors": {
+        "0": "The reports offer comparable organizational help, or neither supplies a usable reading path. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly better ordering and transitions for the whole argument; B may still be better in some respects.",
+        "2": "A provides a substantially clearer path through this task's material and conclusions; B's local strengths do not make up for this difference.",
+        "-2": "B provides a substantially clearer path through this task's material and conclusions; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly better ordering and transitions for the whole argument; A may still be better in some respects."
+      },
+      "boundary": "Read the original report. Judge order, transitions, summaries and avoidable repetition together, once. Neither brevity nor a fixed outline wins by default; sentence clarity and lookup are separate.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' whole-report comparison to this audience; no extra outline requirement."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clarity of existing content",
+      "question": "Which plan more clearly distinguishes confirmed details, estimates, ingredient restrictions and pending approvals?",
+      "anchors": {
+        "0": "Comprehensibility is comparable, or neither explains relevant content intelligibly. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A is slightly clearer in important terminology, referents or local explanations; B may still be better in some respects.",
+        "2": "A makes the key concepts and statements substantially easier to understand; B's local strengths do not make up for this difference.",
+        "-2": "B makes the key concepts and statements substantially easier to understand; A's local strengths do not make up for this difference.",
+        "-1": "B is slightly clearer in important terminology, referents or local explanations; A may still be better in some respects."
+      },
+      "boundary": "Judge original wording, terms and local table labels, not factual truth, breadth, whole-report repetition or organization. Formal vocabulary is not a requirement.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's clarity comparison without rewarding formal style or jargon count."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding details and their basis",
+      "question": "Which plan makes the selected dishes, restricted meals, individual budget lines and provider basis easier to find?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither offers usable lookup help. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes important details and their stated basis slightly easier to find; B may still be better in some respects.",
+        "2": "A makes locating this task's key details and stated sources substantially more direct; B's local strengths do not make up for this difference.",
+        "-2": "B makes locating this task's key details and stated sources substantially more direct; A's local strengths do not make up for this difference.",
+        "-1": "B makes important details and their stated basis slightly easier to find; A may still be better in some respects."
+      },
+      "boundary": "Compare actual lookup steps in the original report. Do not count charts or URLs, treat internal segmentation as original formatting, or rescore source validity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605343:flat:16"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' information-retrieval comparison to concrete task details."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep specific nearby venue, remove unrequested radius.",
+      "discrimination_check": "Original: The response proposes a real venue that is within 10 miles of Berkeley, CA. PT.D1.01 detects no identifiable nearby venue; exact within-10-miles discrimination is lost."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Keep around-30 banquet seating/tables specification.",
+      "discrimination_check": "Original: The response proposes a real venue that has capacity of at least 30 guests and offers seatings and tables for banquet style dinner. PT.D1.01 cannot earn 4/5 with unaddressed seated capacity; actual provider support remains D2."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:3",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain an explicit venue–caterer compatibility plan, including transparently unresolved permissions; this does not fully retain the original requirement of actual confirmed eligibility.",
+      "discrimination_check": "PT.D1.03 distinguishes a missing service-area/venue-policy explanation from a concrete compatibility plan. Its 5 anchor permits identified pending permissions, so an approved arrangement and a transparently conditional arrangement may both score highly. Actual eligibility is not guaranteed; PT.D2.02 only covers completed sampled claims and cannot be treated as full verification of these permissions."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:4",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep usable projection but allow an arranged projector.",
+      "discrimination_check": "Original: The response proposes a real venue that provides a projector or built-in A/V equipment suitable for slide presentations. PT.D1.02 detects generic AV versus an actual projector plan; only-in-house/built-in provision is not compulsory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:5",
+      "targets": [
+        "PT.D1.01",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore direct content/prohibition coverage while preserving provisional planning.",
+      "discrimination_check": "PT.D1.01: A concrete occasion-fit explanation is required; a merely named nearby room no longer satisfies full venue content. PW.D4.01 compares tradeoffs, not presence."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:6",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep interpretable prices/charges; reject a universal 10% tolerance without an event/date quote.",
+      "discrimination_check": "Original: The response provides the price of the venue which is within 10% margin of error from the actual price. PT.D1.09 checks cost specification and D2 checks asserted evidence/estimates; exact tolerance-based official scoring is not retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:7",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain an explicit venue–caterer compatibility plan, including transparently unresolved permissions; this does not fully retain the original requirement of actual confirmed eligibility.",
+      "discrimination_check": "PT.D1.03 distinguishes a missing service-area/venue-policy explanation from a concrete compatibility plan. Its 5 anchor permits identified pending permissions, so an approved arrangement and a transparently conditional arrangement may both score highly. Actual eligibility is not guaranteed; PT.D2.02 only covers completed sampled claims and cannot be treated as full verification of these permissions."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:8",
+      "targets": [
+        "PT.D1.05.egg",
+        "PT.D1.05.peanut",
+        "PT.D1.05.combined",
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.05.egg, PT.D1.05.peanut, PT.D1.05.combined, PT.D1.06. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Preserve the actual caterer-menu and all diet allocations, separating vegetarian and allergy purposes."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:9",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retain a banquet menu, not a prescribed elevated/plated format.",
+      "discrimination_check": "Original: The response proposes a real caterer that services a banquet-style menu (e.g. more elevated food, appetizer-main-dessert course style, more suitable for plated, not fast food) PT.D1.04 requires specific meal selection; fast-food exclusion or a compulsory course sequence no longer independently separates plans."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:10",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.05.egg",
+        "PT.D1.05.peanut",
+        "PT.D1.05.combined",
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.04, PT.D1.05.egg, PT.D1.05.peanut, PT.D1.05.combined, PT.D1.06. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Preserve the actual caterer-menu and all diet allocations, separating vegetarian and allergy purposes."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:11",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep interpretable prices/charges; reject a universal 10% tolerance without an event/date quote.",
+      "discrimination_check": "Original: The response provides the breakdown of the price from the caterer (e.g. price per person, price for main, price for dessert, delivery fee) which is within 10% margin of error from the actual price. PT.D1.09 checks cost specification and D2 checks asserted evidence/estimates; exact tolerance-based official scoring is not retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:12",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Keep food quantity for 30.",
+      "discrimination_check": "Original: The response's suggested amount of food catered is suitable for 30 people. PT.D1.07 directly detects underspecified amounts and omitted special-meal quantities."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:13",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain an interpretable breakdown of applicable costs, not a guarantee of accurate prices or arithmetic. PT.D1.09 explicitly leaves truth and arithmetic to separate audits.",
+      "discrimination_check": "PT.D1.09 distinguishes material missing charges from an interpretable itemization, but a well-explained breakdown can still contain price or arithmetic errors. PT.D2.02 checks only completed evidence samples and PT.D2.03 checks internal consistency; their existence does not guarantee this budget was fully verified. Exact original accuracy discrimination is not fully retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:14",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Original negative weight penalizes transportation inclusion; do not reverse it.",
+      "discrimination_check": "Original: The response provides a final budget which includes any transportation costs. PT.D1.11 penalizes attendee travel within the banquet budget, not food delivery."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:15",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep $2,500 target and $3,000 cap, with exactly $3,000 allowed by the query.",
+      "discrimination_check": "Original: The response provides a final post-tax and tip budget that is strictly less than $3000, and if the budget is more than $2500, the response acknowledges that it is over budget but under hard cap. PT.D1.10 detects over-cap or unacknowledged target overrun; strict-less-than-$3,000 behavior is intentionally not preserved. Level 4 requires bounded uncertainty within the cap; an unbounded material cost is not level 4. Level 5 retains sufficient quote limits or adjustments."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:16",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Keep budget readability through actual lookup, not a compulsory table.",
+      "discrimination_check": "Original: The response provides the final budget breakdown in a well structured format like a table for readability. PW.D6.02 distinguishes easy versus difficult budget-line retrieval; a clear list may perform as well as a table."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:17",
+      "targets": [
+        "PT.D1.13",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Preserve applicable booking conditions and specific confirmation actions, without mandatory assignment of people or a complete deadline schedule.",
+      "discrimination_check": "PT.D1.13: Missing applicable conditions or nonresponsive next steps cannot exceed 3; exact fee terms need evidence, not invented detail. Named owners and an internal timetable are not required for 5; consequential vendor timing still counts as an applicable condition."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:18",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore direct content/prohibition coverage while preserving provisional planning.",
+      "discrimination_check": "PT.D1.12: One provider's hours cannot stand for a compatible window; conditional availability is allowed without pretending confirmed."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:19",
+      "targets": [
+        "PT.D1.13",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Preserve applicable booking conditions and specific confirmation actions, without mandatory assignment of people or a complete deadline schedule.",
+      "discrimination_check": "PT.D1.13: A generic contact instruction is 2; actions must resolve specific commitment uncertainties. Named owners and an internal timetable are not required for 5; consequential vendor timing still counts as an applicable condition."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605343:flat:20",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore direct content/prohibition coverage while preserving provisional planning.",
+      "discrimination_check": "PT.D1.14: An independently bad fallback can now lower this compliance grade even with good booking advice. Negative meaning retained; no alternative is required."
+    }
+  ],
+  "author_notes": [
+    "No old batch4 draft exists. New items follow the three-example division of labor without a fixed count.",
+    "Allergy meal allocation, vegetarian meal adequacy, food quantity and allergen handling are distinct checks; the combined dairy+nuts+shellfish restriction remains one simultaneous requirement.",
+    "Official items 14 and 20 are negative-weight violations, not instructions to include transport or bad alternatives. A $3,000 hard cap is inclusive; an arbitrary 10-mile radius and 10% quote tolerance are not imposed.",
+    "No event is booked and no caterer is contacted. This is rubric authoring, not assurance that a meal or venue is safe/available.",
+    "Author atomicity and official-discrimination checks only; no browsing, scoring, external fact verification or independent-review claim.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为17 PT / 8 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "新增12兼容时间窗、13预订条件与针对性行动、14不违规的备选推荐；01明确场合适配。PW.D4.02收窄为优先次序价值，删去备选违规的重复处罚。保留既有flat3/7/13=false修复及交通负权方向。",
+    "透明待确认方案不等于真实可订或过敏安全认证；不要求实时报价、电话或预订。flat3/7/13完整保留标记继续false。固定10英里、10%价差、豪华餐式仍非硬条件；无备选时禁止性14成立，不增加质量NA。",
+    "Review 30: only PT.D1.10 level 4 and PT.D1.13 levels 4–5, their boundaries and corresponding notes revised. No actual booking, external verification or reevaluation. Previous conflicting owner/deadline/unbounded-cost wording is historical."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: identity, location and capacity define the selected venue; a beautiful venue with no dining capacity specified is 3, not offset by ambiance. Cross-review: complete capacity but no concrete occasion suitability is also 3; the inverse missing-capacity case remains3."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: projection provision and usable slide setup form one arrangement; generic AV is 2."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: caterer and permission cannot be split from their relationship; strong local coverage cannot repair unknown venue eligibility."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: dish and provider identity are one menu claim; generic meal ideas cannot be compensated by an excellent venue."
+    },
+    {
+      "id": "PT.D1.05.egg",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.egg, PT.D1.05.peanut, PT.D1.05.combined]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.05.peanut",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.egg, PT.D1.05.peanut, PT.D1.05.combined]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.05.combined",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.egg, PT.D1.05.peanut, PT.D1.05.combined]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: split at distinct dietary purpose rather than per ingredient; mixed vegetarian/allergy performance now has separate judgments."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: quantity and serving basis form one claim; a detailed menu with no amount is 2."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: confirmation-to-serving is one safeguarding path; a correct recipe cannot alone establish kitchen handling safety."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: costs and their inclusion basis are inseparable; a detailed food line cannot offset a missing venue charge."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "revise",
+      "reason": "Level 4 uses bounded cost uncertainty, not an internally contradictory unbounded charge under a guaranteed cap; level 5 requires sufficient quote limits or adjustments."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: single exclusion rule; no need to split transport modes."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: One attribution relation: a bibliography without a clear link to important claims scores 3."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Support and scope define one check; mixed support scores 3, central contradiction 1, and retrieval failures are outside quality judgments."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Compatibility across statements is one relation; local substantive versus minor conflicts are distinguished by 3 and 4."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "A good venue window with no caterer service fit is 3, and vice versa. Both clocks form one compatible event window."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "revise",
+      "reason": "Check booking conditions and matching actions, not a separate completeness checklist for people or deadlines."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "No alternative is compliant with the prohibition, not NA. Strong primary planning cannot offset recommending an unusable fallback."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: components and their interfaces form one feasibility relation; a good room cannot cancel a prohibited catering arrangement."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: evidence-to-suitability is one relation; a vegan label cannot prove nut or cross-contact safety. Opposing ingredient/handling strengths are judged on the same consequences, with equal strengths to0."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: one event-value trade-off; a cheap but unsuitable room does not win by price alone."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: confirmation and commitment form one event-booking path; office hours alone do not prove event availability."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New: evidence and event conditions are one relation; a good generic menu cannot establish room-specific eligibility."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: One reading path: a good summary does not automatically offset a broken main progression."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Terms and sentences are manifestations of comprehensibility; the anchors allow local countervailing strengths."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A detail and its stated basis form one lookup task; easy prose with awkward reference navigation can be slightly worse."
+    }
+  ]
+}

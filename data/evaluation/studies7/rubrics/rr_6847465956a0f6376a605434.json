@@ -1,0 +1,1049 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a605434",
+  "language": "en",
+  "title": "自动驾驶激光雷达与视觉",
+  "full_query": "Write a concise technical report exploring why some autonomous vehicle systems prioritize LiDAR while others rely on neural networks and cameras.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Why prioritize LiDAR",
+      "question": "Does the report state a concrete system-design rationale for prioritizing LiDAR?",
+      "anchors": {
+        "1": "No rationale or a fundamentally false choice claim.",
+        "2": "Only calls LiDAR accurate or safe.",
+        "3": "Names a useful capability but does not connect it to the system's perception need.",
+        "4": "Connects a concrete capability to the system need, with a minor scope ambiguity.",
+        "5": "Clearly connects LiDAR capability to a stated perception/design need and explains why that benefit matters for this priority."
+      },
+      "boundary": "Coverage of hardware variants, pipeline, compute, latency, energy, cost and mitigation is checked in05–14, not repeated here. This item asks why the stated capability motivates the choice, not how many constraints were listed.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:23",
+          "rr:6847465956a0f6376a605434:flat:16"
+        ],
+        "query_quotes": [
+          "why some autonomous vehicle systems prioritize LiDAR"
+        ],
+        "change_note": "v3.3 targeted revision: Remove integration-cost and limitation completeness from old high anchors; these are now direct independent content objects."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Why prioritize cameras and learning",
+      "question": "Does the report state a concrete system-design rationale for prioritizing cameras and learning?",
+      "anchors": {
+        "1": "No rationale or an inherently sufficient-for-safety assertion.",
+        "2": "Only says cheap or human-like.",
+        "3": "Names a benefit but does not connect it to the system's perception or deployment need.",
+        "4": "Connects a concrete camera/learning benefit to the system need, with a minor scope ambiguity.",
+        "5": "Clearly explains why the visual information or learned-perception capability motivates the chosen priority for a stated system need."
+      },
+      "boundary": "The detailed inference pipeline is05 and deployment economics11; do not penalize their omissions here again. Camera depth need not be purely learned; no fixed brand.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:23",
+          "rr:6847465956a0f6376a605434:flat:6",
+          "rr:6847465956a0f6376a605434:flat:16"
+        ],
+        "query_quotes": [
+          "others rely on neural networks and cameras"
+        ],
+        "change_note": "v3.3 targeted revision: Remove repeated pipeline/data/cost completeness while preserving the distinct camera-choice rationale."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Nonexclusive system architectures",
+      "question": "Does the report avoid treating LiDAR, cameras and neural networks as mutually exclusive alternatives?",
+      "anchors": {
+        "1": "Claims LiDAR systems do not use neural networks or cannot include cameras.",
+        "2": "Builds the comparison on a sensor-versus-software binary despite a passing qualification.",
+        "3": "Does not explicitly make the false claim, but the architecture relationship remains ambiguous.",
+        "4": "Clearly recognizes LiDAR systems can use cameras and learning, with only minor ambiguous shorthand.",
+        "5": "Clearly distinguishes sensor choice from perception software and explains that LiDAR-equipped systems can also use cameras and neural networks; the comparison concerns priorities or sensor suites rather than incompatible categories."
+      },
+      "boundary": "Fusion-stage taxonomy is optional. Acknowledging coexistence does not require advocating sensor fusion.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:31"
+        ],
+        "query_quotes": [
+          "LiDAR while others rely on neural networks and cameras"
+        ],
+        "change_note": "Make the central false-dichotomy risk a direct check; do not mandate early/late fusion."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Limits relevant to sensor choice",
+      "question": "Does the report explain consequential limitations of both approaches and relate them to operating conditions?",
+      "anchors": {
+        "1": "Both are portrayed as reliable in all situations, or limitations are fundamentally reversed.",
+        "2": "Only one side has a meaningful limitation, or both receive vague weather/AI labels.",
+        "3": "Gives a concrete limitation for each side but does not connect it clearly to the choice.",
+        "4": "Explains concrete environmental and generalization constraints for the compared approaches, with minor scope asymmetry.",
+        "5": "Explains relevant sensing failure and learned-inference/generalization failure mechanisms, their operating conditions and consequence for reliable perception; neither approach is presented as universally reliable."
+      },
+      "boundary": "Check failure mechanisms only. Mitigation, redundancy and fallback belong to12 and cannot be separately required here; no exhaustive weather/attack list. Each approach must have a meaningful limitation; either side absent scores2.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:15",
+          "rr:6847465956a0f6376a605434:flat:18"
+        ],
+        "query_quotes": [
+          "exploring why"
+        ],
+        "change_note": "v3.3 targeted revision: Failure versus response can independently succeed; remove fallback from the old full-score anchor."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceable comparative claims",
+      "question": "Can readers identify the basis for consequential empirical, manufacturer or numerical comparisons?",
+      "anchors": {
+        "1": "Main comparative claims have no identifiable basis.",
+        "2": "Most consequential claims rely on vague authority or untraceable figures.",
+        "3": "Key comparisons are attributable, but some important scope, model or date details are unclear.",
+        "4": "Consequential comparisons have identifiable sources and contexts with minor gaps.",
+        "5": "Empirical or industry-specific comparisons are tied to identifiable sources, systems and relevant conditions/dates; conceptual reasoning is clearly distinguished from empirical claims."
+      },
+      "boundary": "Do not require manufacturers, numerical benchmarks or URLs. A conceptual report can satisfy this through identifiable technical grounding and clearly bounded reasoning.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local audit for fast-changing system comparisons, not a mandatory benchmark."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support in the checked sample",
+      "question": "Do actually checked sources support the sampled claims about sensors and perception systems?",
+      "anchors": {
+        "1": "The sample contains fabricated evidence or contradictions central to the comparison.",
+        "2": "Several consequential sampled claims exaggerate or misstate the evidence.",
+        "3": "The sample has mixed support with a material correction needed.",
+        "4": "Sampled claims are supported apart from minor context or wording errors.",
+        "5": "Every claim in the stated sample is supported at its actual system, task and operating scope, without turning a perception metric into proven whole-vehicle safety."
+      },
+      "boundary": "Only judge an actual documented verification sample. Failed retrieval is an execution problem, not a low score or NA; disclose unverified scope. Do not require numeric claims solely to make an audit possible.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Separate source support from traceability and evidence selection."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Perception and downstream interfaces",
+      "question": "Does the report explain how LiDAR measurements and camera inputs become perception outputs used by the driving stack?",
+      "anchors": {
+        "1": "No sensor-to-perception account.",
+        "2": "Only names point clouds, images or neural networks.",
+        "3": "Explains one input path but not the other, leaves the processing of an input at the level of algorithm names, or leaves the downstream prediction/planning interface unclear.",
+        "4": "Explains both representations, processing and downstream use with minor detail missing.",
+        "5": "Explains how LiDAR range/geometric data and camera images are processed into relevant perception outputs, and how those objects or scene estimates inform prediction or planning; clearly distinguishes measurement and inference in the routes described."
+      },
+      "boundary": "No mandatory SLAM/segmentation roster, exact neural architecture or monocular learned-depth route. Explain substantive processing for both LiDAR and camera inputs rather than merely naming neural networks. Learned monocular depth, stereo/temporal geometry or other relevant camera-perception routes are eligible; where depth is discussed, distinguish the method actually described and do not claim all camera depth is purely learned. PT.D1.01/02 check the choice rationale, not this pipeline again.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:6",
+          "rr:6847465956a0f6376a605434:flat:13",
+          "rr:6847465956a0f6376a605434:flat:16",
+          "rr:6847465956a0f6376a605434:flat:25",
+          "rr:6847465956a0f6376a605434:flat:30"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 35: remove mandatory learned monocular depth from levels 3/5 and boundary; retain substantive processing of both sensor inputs and downstream use. Official exact monocular-depth omission detection is not preserved."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "LiDAR implementation differences",
+      "question": "Does the report explain how relevant LiDAR design variants change the comparison rather than treating LiDAR as one uniform device?",
+      "anchors": {
+        "1": "No recognition of consequential hardware variation.",
+        "2": "Only says solid-state or advanced LiDAR.",
+        "3": "Names a variant contrast but not its effect on measurement or integration.",
+        "4": "Explains a concrete design contrast and consequence with minor conditions missing.",
+        "5": "Explains a relevant scanning, ranging or packaging contrast and its measurement/integration tradeoff, making clear why the claimed LiDAR advantage depends on implementation."
+      },
+      "boundary": "No exhaustive wavelength/detector catalogue or mandatory emerging technology. A concrete architectural contrast is needed, not a brand list.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:5",
+          "rr:6847465956a0f6376a605434:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Fusion and integration choices",
+      "question": "Does the report explain how combining information at different processing stages changes system tradeoffs?",
+      "anchors": {
+        "1": "No integration-stage explanation.",
+        "2": "Only says sensors can be fused.",
+        "3": "Identifies a stage choice but not the representation or consequence, or assumes fusion always improves accuracy.",
+        "4": "Explains a meaningful early/intermediate versus late integration contrast with a relevant tradeoff.",
+        "5": "Explains where representations are combined and how that choice affects information use, modularity, alignment or processing burden, without a universal accuracy ranking."
+      },
+      "boundary": "No required terminology or fusion implementation. 03 only checks nonexclusive sensor/software categories; coexistence is not this stage explanation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Compute requirements",
+      "question": "Does the report explain the drivers of computational workload for LiDAR and camera perception?",
+      "anchors": {
+        "1": "No compute discussion.",
+        "2": "Only calls an approach computationally heavy.",
+        "3": "Explains compute for one side only, or gives an unqualified universal scaling law.",
+        "4": "Explains both sides' important data/model workload drivers with minor assumptions missing.",
+        "5": "Relates image or point-cloud volume, temporal processing and model/integration choices to compute on both sides, with conditions rather than assuming linear scaling or one universally cheaper pipeline."
+      },
+      "boundary": "No FLOP target or mandatory full variable list. Compute operations, elapsed latency and energy are different objects; do not reuse one missing detail to penalize all three.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:22"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Latency and action timing",
+      "question": "Does the report explain latency tradeoffs from sensing through perception to timely action?",
+      "anchors": {
+        "1": "No latency discussion.",
+        "2": "Only says fast or real time.",
+        "3": "Identifies a delay but not its consequence for driving or the relevant pipeline conditions.",
+        "4": "Connects sensing/processing delay to update or reaction needs, with minor assumptions missing.",
+        "5": "Explains how sampling, accumulation, processing or fusion delays affect usable scene freshness and response time under the compared conditions, distinguishing throughput from end-to-end latency."
+      },
+      "boundary": "No fixed millisecond threshold; hardware and workload context matter. Low FLOPs alone do not establish low latency.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "System energy requirements",
+      "question": "Does the report distinguish sensor power and processing energy in the LiDAR-camera comparison?",
+      "anchors": {
+        "1": "No energy discussion.",
+        "2": "Only calls one approach energy efficient.",
+        "3": "Discusses sensing or computation energy but omits the other, or uses sensor power alone as total system power.",
+        "4": "Explains sensing and processing contributions for the compared systems with a minor operating assumption missing.",
+        "5": "Explains active illumination/sensor power and computing/integration demand as distinct contributors, bounding the comparison by configuration and duty cycle rather than declaring a universal winner."
+      },
+      "boundary": "No exact watts or fixed sensor/compute ranking required. Do not infer power directly from FLOPs without implementation context.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Deployment economics",
+      "question": "Does the report explain acquisition and integration/operation costs that influence sensor priorities?",
+      "anchors": {
+        "1": "No cost rationale.",
+        "2": "Only says LiDAR expensive or cameras cheap.",
+        "3": "Discusses hardware price or lifecycle/integration burden but omits the other or its relevance to deployment.",
+        "4": "Explains both cost levels and why they matter for the proposed system, with minor scale/context missing.",
+        "5": "Relates sensor procurement and integration/calibration/maintenance or data-compute burden to deployment scale and design priorities, without equating cheap sensors with a cheap full system."
+      },
+      "boundary": "No dollar threshold or required Tesla example; one-sided cost descriptions cannot pass by naming a brand. 01/02 no longer separately require cost coverage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:23",
+          "rr:6847465956a0f6376a605434:flat:33"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Mitigation and fallback",
+      "question": "Does the report explain responses to sensing/inference failures and the limits of redundancy or fallback?",
+      "anchors": {
+        "1": "No response to failure.",
+        "2": "Only says use AI or more sensors.",
+        "3": "Explains a mitigation or residual-failure response, but omits the other or discusses only one approach without addressing the other system's failure response.",
+        "4": "Addresses mitigation and residual-failure handling for both compared approaches, with a minor common-cause or operating condition missing.",
+        "5": "Explains responses to relevant sensing and inference failures for both approaches and how redundancy, degraded operation or safe fallback handles residual uncertainty, including shared environmental or learned-model failure limits."
+      },
+      "boundary": "No prescribed de-weathering method, laser wavelength or hardware redundancy. 04 checks failure mechanisms only; do not repeat absent mitigation there.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:9",
+          "rr:6847465956a0f6376a605434:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Safety assurance and deployment rules",
+      "question": "Does the report explain how safety assurance and regulatory/deployment conditions affect sensor selection?",
+      "anchors": {
+        "1": "No assurance/deployment-constraint account.",
+        "2": "Only says safety or regulation matters.",
+        "3": "Mentions testing or regulation without explaining the constraint on selection, or treats one modality as automatically compliant.",
+        "4": "Explains assurance requirements and deployment/operating restrictions with minor scope detail missing.",
+        "5": "Explains why operating-domain evidence, failure handling and applicable deployment approval/audit requirements constrain the choice, distinguishing performance metrics from an accepted vehicle-level safety case."
+      },
+      "boundary": "No fixed jurisdiction, legal citation or claim that law mandates LiDAR. Rules may be discussed conditionally with scope stated; this is technical-report coverage, not legal advice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:17",
+          "rr:6847465956a0f6376a605434:flat:27"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a substantive technical domain previously left optional or only in broad PW; specific implementations remain replaceable."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Published like-task performance comparison",
+      "question": "Does the report provide an identifiable published quantitative comparison of LiDAR-based and camera-only systems on the same perception task?",
+      "anchors": {
+        "1": "No empirical comparative result.",
+        "2": "Only a dataset name, modality slogan or proposed future experiment; no reported comparison.",
+        "3": "A quantitative result is supplied, but a system, task, metric, source or important comparison condition is unclear or mismatched.",
+        "4": "Named systems, task, source and interpretable quantitative results are present, with minor condition details missing.",
+        "5": "Presents sourced quantitative results for identifiable LiDAR-based and camera-only systems on a comparable task, explaining configurations, metrics and limits on attributing the gap to sensor choice."
+      },
+      "boundary": "No new experiment or fixed benchmark/model pair is required. Do not invent unavailable numbers. A proposed protocol alone is not a published result and cannot earn 4/5. A well-justified result limitation can be explained but does not count as supplying the missing result.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:14",
+          "rr:6847465956a0f6376a605434:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: restore a published-result check; a proposed protocol no longer substitutes for empirical evidence."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Technical explanation of design choice",
+      "question": "Compared with B, how well does A connect measurement and inference characteristics to the choice of sensor strategy?",
+      "anchors": {
+        "0": "Both offer similar explanatory help, or neither connects properties to choice. State which situation applies.",
+        "1": "A provides clearer and better-qualified property-to-choice reasoning, though B may explain a local mechanism better.",
+        "2": "A substantially improves understanding of why the strategies differ under relevant conditions, without hiding inference requirements behind sensor labels; B's local strengths do not offset this.",
+        "-2": "B substantially improves understanding of why the strategies differ under relevant conditions, without hiding inference requirements behind sensor labels; A's local strengths do not offset this.",
+        "-1": "B provides clearer and better-qualified property-to-choice reasoning, though A may explain a local mechanism better."
+      },
+      "boundary": "Direct domain coverage is assessed in PT.D1.05–14. Compare actual inference/evidence fit, not missing-domain counts; use the same system-goal importance criteria, list opposite strengths, and score equally consequential offsetting advantages 0. For D3.02 compare interactions between constraints, not a second independent tally of each constraint.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:13",
+          "rr:6847465956a0f6376a605434:flat:16",
+          "rr:6847465956a0f6376a605434:flat:25"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New comparison: all required topics may appear with poor causal reasoning; a concise correct chain can be stronger. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "System-level tradeoff reasoning",
+      "question": "Compared with B, how well does A reason about the tradeoffs that actually bear on system selection?",
+      "anchors": {
+        "0": "Tradeoff reasoning is similarly useful, or neither moves beyond unqualified pros and cons. State which situation applies.",
+        "1": "A more clearly explains consequential tensions under explicit conditions, despite B's local strengths.",
+        "2": "A substantially better explains how competing system constraints change the preferred strategy, without pretending sensor cost alone or a single benchmark settles the choice; B's local gains do not offset this.",
+        "-2": "B substantially better explains how competing system constraints change the preferred strategy, without pretending sensor cost alone or a single benchmark settles the choice; A's local gains do not offset this.",
+        "-1": "B more clearly explains consequential tensions under explicit conditions, despite A's local strengths."
+      },
+      "boundary": "Direct domain coverage is assessed in PT.D1.05–14. Compare actual inference/evidence fit, not missing-domain counts; use the same system-goal importance criteria, list opposite strengths, and score equally consequential offsetting advantages 0. For D3.02 compare interactions between constraints, not a second independent tally of each constraint.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:7",
+          "rr:6847465956a0f6376a605434:flat:8",
+          "rr:6847465956a0f6376a605434:flat:21",
+          "rr:6847465956a0f6376a605434:flat:22",
+          "rr:6847465956a0f6376a605434:flat:23"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New comparison: a strong cost-benefit relation stays intact; missing an optional energy paragraph is not a separate penalty. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Fit of comparative evidence",
+      "question": "Compared with B, how well does A match its evidence to the comparison it makes?",
+      "anchors": {
+        "0": "Evidence fit is similar, or neither provides useful empirical support beyond clearly stated conceptual reasoning. State which situation applies.",
+        "1": "A better matches systems, tasks and conditions to its claims, while B may have a stronger local source.",
+        "2": "A substantially strengthens the comparison with appropriately scoped evidence and consequential caveats or counterevidence; B's isolated advantages do not offset the improvement.",
+        "-2": "B substantially strengthens the comparison with appropriately scoped evidence and consequential caveats or counterevidence; A's isolated advantages do not offset the improvement.",
+        "-1": "B better matches systems, tasks and conditions to its claims, while A may have a stronger local source."
+      },
+      "boundary": "Direct domain coverage is assessed in PT.D1.05–14. Compare actual inference/evidence fit, not missing-domain counts; use the same system-goal importance criteria, list opposite strengths, and score equally consequential offsetting advantages 0. For D3.02 compare interactions between constraints, not a second independent tally of each constraint.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:14",
+          "rr:6847465956a0f6376a605434:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New item: many accurate benchmark figures can still poorly support sensor-level or whole-vehicle claims. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Conditional design insight",
+      "question": "Compared with B, how much does A help readers understand when a sensor strategy makes sense?",
+      "anchors": {
+        "0": "The reports yield similar usable insight, or neither offers a meaningful synthesis. State which situation applies.",
+        "1": "A more usefully identifies conditions that change a design decision, despite B's local insights.",
+        "2": "A provides substantially clearer, well-bounded decision insight connecting operating needs and engineering constraints; B's local advantages cannot offset the improvement.",
+        "-2": "B provides substantially clearer, well-bounded decision insight connecting operating needs and engineering constraints; A's local advantages cannot offset the improvement.",
+        "-1": "B more usefully identifies conditions that change a design decision, despite A's local insights."
+      },
+      "boundary": "No manufacturer case, forecast of industry convergence or new experiment required. A useful conclusion may identify unresolved tradeoffs. Name the resulting conditional choice or remaining decision uncertainty; do not award a second win solely for the same causal tradeoff already evaluated in PW.D3.02.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:3",
+          "rr:6847465956a0f6376a605434:flat:23"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain synthesized implications without forcing a future-industry forecast. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Concise technical-report structure",
+      "question": "Compared with B, how effectively does A organize a concise explanation of the sensor-choice question?",
+      "anchors": {
+        "0": "Both use similarly proportionate, followable structures, or neither provides a useful report-level progression. State which situation applies.",
+        "1": "A uses a more focused progression from the question through reasons to synthesis, despite B's local structural strengths.",
+        "2": "A substantially improves focus and progression, giving the needed technical explanation without article-length digressions; B's local strengths do not offset this.",
+        "-2": "B substantially improves focus and progression, giving the needed technical explanation without article-length digressions; A's local strengths do not offset this.",
+        "-1": "B uses a more focused progression from the question through reasons to synthesis, despite A's local structural strengths."
+      },
+      "boundary": "No word-count cap or mandatory introduction/conclusion headings. Concision is judged relative to useful explanation, not shortest length.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:1",
+          "rr:6847465956a0f6376a605434:flat:2",
+          "rr:6847465956a0f6376a605434:flat:3"
+        ],
+        "query_quotes": [
+          "concise technical report"
+        ],
+        "change_note": "Treat brevity and focus as an integrated organization comparison rather than arbitrary count compliance. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Precise technical language",
+      "question": "Compared with B, how clearly does A explain technical terms and qualify comparison language?",
+      "anchors": {
+        "0": "Both are similarly clear, or neither clarifies the key technical language. State which situation applies.",
+        "1": "A makes consequential terms and comparison contexts clearer, though B may explain a local term better.",
+        "2": "A substantially improves technical understanding with concise definitions and meaningful units/context where relevant, without false precision; B's local strengths do not offset this.",
+        "-2": "B substantially improves technical understanding with concise definitions and meaningful units/context where relevant, without false precision; A's local strengths do not offset this.",
+        "-1": "B makes consequential terms and comparison contexts clearer, though A may explain a local term better."
+      },
+      "boundary": "No mandatory acronym list or numerical value for every qualitative comparison. Correct terms only; do not reproduce the official malformed FMCW example. Source correctness is separately audited.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:4",
+          "rr:6847465956a0f6376a605434:flat:29"
+        ],
+        "query_quotes": [],
+        "change_note": "Convert the negative vague-context official item into a positive comparative clarity object; no negative-weight inversion. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding the comparison",
+      "question": "Compared with B, how easily can readers locate the reasons, limits and supporting material for each approach in A?",
+      "anchors": {
+        "0": "Both provide similar lookup ease, or neither offers usable navigational cues. State which situation applies.",
+        "1": "A makes corresponding reasons and evidence easier to find, though B may have local navigation advantages.",
+        "2": "A substantially reduces reconstruction effort through clear labels and well-placed contrasts or source cues; B's local conveniences do not offset this.",
+        "-2": "B substantially reduces reconstruction effort through clear labels and well-placed contrasts or source cues; A's local conveniences do not offset this.",
+        "-1": "B makes corresponding reasons and evidence easier to find, though A may have local navigation advantages."
+      },
+      "boundary": "A diagram or table is optional. Evaluate lookup in the actual report, not a reformatted version; substantive coverage is PT.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605434:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain the potential lookup benefit of a diagram without demanding that format. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:1",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "Retain concise focused reporting without an arbitrary scholarly-article length threshold.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 distinguishes useful focus from bloat; no fixed word-limit failure.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:2",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "Retain a clear comparison purpose within report progression, not a mandatory introductory sentence.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 can prefer an immediately clear report without an explicit objective formula.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:3",
+      "targets": [
+        "PW.D4.01",
+        "PW.D5.01"
+      ],
+      "reason": "Retain synthesis value and progression without mandatory convergence forecasting.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 and PW.D5.01 distinguish useful synthesis from repetition; the specific future convergence claim can be omitted.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "Retain intelligible correct terminology and needed definitions; do not copy the malformed acronym example.",
+      "status": "adapted",
+      "discrimination_check": "PW.D6.01 detects consequential undefined jargon, not omission of every first-use expansion or all official acronyms.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:5",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 detects absence, labels-only discussion and a missing side/condition using 1–3. No exhaustive wavelength/detector catalogue or mandatory emerging technology. A concrete architectural contrast is needed, not a brand list.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:6",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.05"
+      ],
+      "reason": "Review 35: retain sensor-to-perception and downstream explanation while allowing relevant camera routes without compulsory monocular learned depth; other mapped criteria unchanged.",
+      "status": "adapted",
+      "discrimination_check": "Missing either sensor processing path, labels-only processing or an unclear downstream interface affects PT.D1.05. A concrete alternative camera route can reach 5 without monocular learned depth; the corresponding specific official requirement is not fully preserved.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:7",
+      "targets": [
+        "PT.D1.07",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 detects absence, labels-only discussion and a missing side/condition using 1–3. No required terminology or fusion implementation. 03 only checks nonexclusive sensor/software categories; coexistence is not this stage explanation.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:8",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 detects absence, labels-only discussion and a missing side/condition using 1–3. No fixed millisecond threshold; hardware and workload context matter. Low FLOPs alone do not establish low latency.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:9",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12 detects absence, labels-only discussion and a missing side/condition using 1–3. No prescribed de-weathering method, laser wavelength or hardware redundancy. 04 checks failure mechanisms only; do not repeat absent mitigation there.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:10",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12 detects absence, labels-only discussion and a missing side/condition using 1–3. No prescribed de-weathering method, laser wavelength or hardware redundancy. 04 checks failure mechanisms only; do not repeat absent mitigation there.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:11",
+      "targets": [],
+      "reason": "Manufacturer case studies are optional means to explain the choice.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No named-company or case-study presence test; conceptual explanations can satisfy the query.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:12",
+      "targets": [],
+      "reason": "Equations are not required for this concise technical report.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No mathematical-model presence test; technical explanation is not claimed to preserve it.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:13",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.01"
+      ],
+      "reason": "Review 35: retain sensor-to-perception and downstream explanation while allowing relevant camera routes without compulsory monocular learned depth; other mapped criteria unchanged.",
+      "status": "adapted",
+      "discrimination_check": "Missing either sensor processing path, labels-only processing or an unclear downstream interface affects PT.D1.05. A concrete alternative camera route can reach 5 without monocular learned depth; the corresponding specific official requirement is not fully preserved.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:14",
+      "targets": [
+        "PT.D1.14",
+        "PW.D2.01"
+      ],
+      "reason": "Published quantitative comparison is restored. A prospective protocol cannot substitute for observed results; the exact model or benchmark is not prescribed.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14 gives 1–2 for no empirical result, 3 for materially incomplete comparisons, and 4–5 for interpretable published results. PW.D2.01 compares evidence applicability, not presence.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:15",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Retain consequential learning/generalization limits without an exhaustive threat list.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 requires meaningful limitations on both sides; specific attacks and few-shot wording are optional.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:16",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.02",
+        "PT.D1.05",
+        "PW.D3.01"
+      ],
+      "reason": "Review 35: retain sensor-to-perception and downstream explanation while allowing relevant camera routes without compulsory monocular learned depth; other mapped criteria unchanged.",
+      "status": "adapted",
+      "discrimination_check": "Missing either sensor processing path, labels-only processing or an unclear downstream interface affects PT.D1.05. A concrete alternative camera route can reach 5 without monocular learned depth; the corresponding specific official requirement is not fully preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:17",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13 detects absence, labels-only discussion and a missing side/condition using 1–3. No fixed jurisdiction, legal citation or claim that law mandates LiDAR. Rules may be discussed conditionally with scope stated; this is technical-report coverage, not legal advice.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:18",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Retain concrete limits on each approach, not the full official examples list.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 detects one-sided or vague limitations; absence of a particular low-reflectivity or adversarial example is unpenalized.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:19",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 detects absence, labels-only discussion and a missing side/condition using 1–3. No exhaustive wavelength/detector catalogue or mandatory emerging technology. A concrete architectural contrast is needed, not a brand list.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:20",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "Retain information-access benefit without requiring a diagram.",
+      "status": "adapted",
+      "discrimination_check": "PW.D6.02 distinguishes effective lookup but cannot distinguish missing diagram from equally navigable prose.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:21",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 detects absence, labels-only discussion and a missing side/condition using 1–3. No exact watts or fixed sensor/compute ranking required. Do not infer power directly from FLOPs without implementation context.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:22",
+      "targets": [
+        "PT.D1.08",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08 detects absence, labels-only discussion and a missing side/condition using 1–3. No FLOP target or mandatory full variable list. Compute operations, elapsed latency and energy are different objects; do not reuse one missing detail to penalize all three.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:23",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.02",
+        "PT.D1.11",
+        "PW.D3.02",
+        "PW.D4.01"
+      ],
+      "reason": "Keep separate basic rationales and restore direct deployment-economic content, with distinct PW interactions and insight.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01/02 directly detect an absent rationale; PT.D1.11 handles cost completeness without double-counting it in the original anchors. PW does not re-sum PT.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:24",
+      "targets": [
+        "PT.D1.14",
+        "PW.D2.01"
+      ],
+      "reason": "Published quantitative comparison is restored. A prospective protocol cannot substitute for observed results; the exact model or benchmark is not prescribed.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14 gives 1–2 for no empirical result, 3 for materially incomplete comparisons, and 4–5 for interpretable published results. PW.D2.01 compares evidence applicability, not presence.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:25",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.01"
+      ],
+      "reason": "Review 35: retain sensor-to-perception and downstream explanation while allowing relevant camera routes without compulsory monocular learned depth; other mapped criteria unchanged.",
+      "status": "adapted",
+      "discrimination_check": "Missing either sensor processing path, labels-only processing or an unclear downstream interface affects PT.D1.05. A concrete alternative camera route can reach 5 without monocular learned depth; the corresponding specific official requirement is not fully preserved.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:26",
+      "targets": [],
+      "reason": "A separate proposed experimental protocol is not mandatory in this concise research report. Do not claim it is preserved by the published-result check.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No independent omission penalty for a proposed protocol. Empirical results alone do not imply the official protocol requirement was fully satisfied.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:27",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13 detects absence, labels-only discussion and a missing side/condition using 1–3. No fixed jurisdiction, legal citation or claim that law mandates LiDAR. Rules may be discussed conditionally with scope stated; this is technical-report coverage, not legal advice.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:28",
+      "targets": [],
+      "reason": "Toolkits and software-stack names are optional implementation detail.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No ROS/Apollo/Autoware/DRIVEworks recall distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:29",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "Official negative-polarity vague-units/context criterion is converted into precise-language comparison.",
+      "status": "adapted",
+      "discrimination_check": "PW.D6.01 distinguishes meaningful context from unqualified descriptors, without mechanically adding a negative weight or requiring numbers everywhere.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:30",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Preserve the negative concern about empty neural-network naming through a concrete perception explanation, without demanding one named architecture.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 cannot pass on NN labels alone; literal architecture-name omission is still not a standalone penalty. The negative sign is not reversed.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:31",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "Directly retain the nonbinary sensor/software distinction.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.03 can fail a report that otherwise explains both sides but falsely excludes learning from LiDAR systems.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:32",
+      "targets": [],
+      "reason": "A fixed company/sensor roster is optional and time-sensitive.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No omission penalty for GM/Cruise/Waymo/Aurora/Tesla; any chosen company facts still require support.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605434:flat:33",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "v3.3 restores direct substantive coverage; specified technologies, named studies and universal rankings are not factual keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 detects absence, labels-only discussion and a missing side/condition using 1–3. No dollar threshold or required Tesla example; one-sided cost descriptions cannot pass by naming a brand. 01/02 no longer separately require cost coverage.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "Author self-check only; no independent semantic approval, browser use or empirical verification.",
+    "No prior draft for this assigned task. Two priority rationales are separate; coupled tradeoffs stay intact.",
+    "Core retained distinctions include nonexclusive LiDAR/camera/learning architectures, explanations for both choices and meaningful limitations. Hardware catalogs, equations, benchmarks, company rosters and forecasts are optional.",
+    "Official universal compute/energy/fusion rankings and malformed acronym examples are not factual keys. Negative-weight official items 29 and 30 were considered by polarity, not blindly copied.",
+    "Concision is evaluated through useful report-level focus, not a fixed length ceiling.",
+    "Batch author program checks: 6 PT, 7 PW and 33 official records. Exact query, five-level anchors, IDs, verbatim query quotes, bidirectional provenance and complete atomicity records checked. This is not independent semantic approval or verification of official factual claims.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为16 PT / 7 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "新增05感知接口、06硬件差异、07融合、08计算、09延迟、10能耗、11部署成本、12缓解与后备、13安全部署约束、14可比评价依据。同步收窄01/02原理选择理由、04失败机制，移除新增内容的重复缺项处罚；03仅保留非二分。",
+    "不要求执行基准实验、厂商名单、固定公式或硬件目录。14允许具体比较协议而非捏造实测，故官方强制数值结果未完全保留。负权29仍表达不清为负、30改为反空泛机制标签而不强制架构名。计算/能耗/延迟不可相互替代，但共享一句信息不自动重复奖励。",
+    "Cross-review repairs all seven asymmetric negative PW anchors and the learned-depth omission loophole. Counts unchanged; no model roster, formula or performed experiment required.",
+    "Review 35: only PT.D1.05 levels 3/5, boundary and related notes revised. Earlier notes requiring learned monocular depth for high scores are historical. All PW unchanged; no external technical verification or reevaluation."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "revise",
+      "reason": "Remove integration-cost and limitation completeness from old high anchors; these are now direct independent content objects."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "Remove repeated pipeline/data/cost completeness while preserving the distinct camera-choice rationale."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: two otherwise strong rationales can still fail if the comparison rests on incompatible categories."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "revise",
+      "reason": "Failure versus response can independently succeed; remove fallback from the old full-score anchor."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: a detailed numeric comparison without a system or source stays low; adding numbers itself earns no credit."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New audit: correct benchmark numbers with an unsupported safety inference are not fully supported."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "Either missing input-processing path or downstream interface remains a gap. A complete camera route need not include learned monocular depth; no fixed architecture or cue checklist."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "add",
+      "reason": "Naming solid-state versus scanning without a consequence is3; one well-explained consequential design contrast suffices, not a count of technologies."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "Knowing that sensors coexist does not explain when their data combine. Representation-stage contrast without its consequences is3; 03 remains only the nonbinary-category check."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "Compute drivers explained for images but not point clouds is3, and vice versa. Latency and watts cannot replace computation-work explanation."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "A correct processing time without scene-freshness or action consequence is3; latency need not be split into a fixed set of individual pipeline delays."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "Sensor-power-only and compute-energy-only accounts both receive3; neither can silently serve as total system energy."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "Hardware-only and integration/operation-only cost accounts both receive3. Specific dollar figures unrelated to the deployment decision do not satisfy the relationship."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "Either mitigation or residual-failure response missing is3, as is only one approach addressed. Failure diagnosis remains04 and cannot be counted again as a missing response there."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "Assurance or deployment rules merely named without an effect on sensor selection are3 or below. A concrete regulation irrelevant to the operating scope is not a high-grade answer."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "Main-agent v3.5: restore a published-result check; a proposed protocol no longer substitutes for empirical evidence."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New comparison: all required topics may appear with poor causal reasoning; a concise correct chain can be stronger. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New comparison: a strong cost-benefit relation stays intact; missing an optional energy paragraph is not a separate penalty. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: many accurate benchmark figures can still poorly support sensor-level or whole-vehicle claims. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: a technically detailed report can add little decision insight; novelty or prediction alone earns no advantage. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: a short but disorganized note is not automatically better than a somewhat longer focused report. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: a well-structured report may still use misleading efficiency language; clear units do not prove support. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New item: prose can offer excellent comparison lookup, while a decorative diagram can offer none. Cross-review A/B reversal test: two valid reports of unequal usefulness now reverse signs consistently; an error is not required for -2."
+    }
+  ]
+}

@@ -1,0 +1,1511 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:3",
+  "language": "zh",
+  "title": "亚洲四国数字化战略",
+  "full_query": "我正在研究亚洲几个国家如何应对社会数字化和人口老龄化的问题。我想请你帮我调研一下日本、韩国、新加坡和泰国这四个国家在国家层面的数字化发展历程。请确保你的调研截止到2022年底。\n\n具体来说，我需要两部分内容：\n\n第一部分是“各国数字化发展历程回顾”。请你分别梳理这四个国家从早期（比如引入第一台计算机或提出第一个相关国家计划）到2022年的关键数字化政策、战略或总体规划。对于每一个关键政策，请说明它大概的提出年份和核心目标。\n\n第二部分是“当前数字化战略对比”。请你制作一个表格，清晰地对比这四个国家在2022年前后正在实施的主要数字化战略。表格需要包括以下几列：国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向。\n\n请确保信息准确，条理清晰。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Digital-Based Policy and Health Promotion Policy in Japan, the Republic of Korea, Singapore, and Thailand: A Scoping Review of Policy Paths to Healthy Aging', 'authors': ['Nadila Mulati', 'Myo Nyein Aung', 'Malcolm Field', 'Eun Woo Nam', 'Carol Ma Hok Ka', 'Saiyud Moolphate', 'Hocheol Lee', 'Yuki Goto', 'Nam Hae Kweun', 'Takumi Suda', 'Yuka Koyanagi', 'Yuiko Nagamine', 'Motoyuki Yuasa'], 'urls': ['https://www.mdpi.com/1660-4601/19/24/16995', 'https://pubmed.ncbi.nlm.nih.gov/36554873/', 'https://www.researchgate.net/publication/366401399_Digital-Based_Policy_and_Health_Promotion_Policy_in_Japan_the_Republic_of_Korea_Singapore_and_Thailand_A_Scoping_Review_of_Policy_Paths_to_Healthy_Aging']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "日本发展历程",
+      "question": "报告是否回顾日本从早期信息化到2022年的关键国家政策，并说明提出年份和目标？",
+      "anchors": {
+        "1": "无日本回顾。",
+        "2": "只列日本或数字厅等零散名称，不能形成历程。",
+        "3": "有不同时期政策，但早期或近年阶段明显空缺，或多数年份目标不成对。 任何改变发展路径的重要中间阶段整块遗漏也为3，而不只检查起点和终点。",
+        "4": "主要阶段、政策年份和目标可辨，仅个别关键节点说明不足。",
+        "5": "从早期信息化到互联网、数据利用及数字社会治理的主要变化有连贯政策记录，各关键政策年份与目标清楚。"
+      },
+      "boundary": "IT基本法、e-Japan、新IT改革、i-Japan、数字政府及2021年制度变化是官方核对线索；不要求第一台计算机起点或每个计划全部出现。有据替代分期可接受，但漏掉改变发展路径的阶段不能满分。 重要阶段的完整缺失按3；4仅适用于主线齐全而个别节点细节不足。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:1",
+          "drb2:3:info_recall:2",
+          "drb2:3:info_recall:3",
+          "drb2:3:info_recall:4",
+          "drb2:3:info_recall:5",
+          "drb2:3:info_recall:6",
+          "drb2:3:info_recall:7",
+          "drb2:3:info_recall:8",
+          "drb2:3:info_recall:9",
+          "drb2:3:info_recall:10"
+        ],
+        "query_quotes": [
+          "对于每一个关键政策，请说明它大概的提出年份和核心目标"
+        ],
+        "change_note": "聚合日本官方节点为一国历程覆盖，不逐政策设分或固定阶段数；锚点本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "韩国发展历程",
+      "question": "报告是否回顾韩国从早期行政计算机化到2022年的国家信息化与数字政府规划？",
+      "anchors": {
+        "1": "无韩国回顾。",
+        "2": "仅有领先国家印象或个别现代口号。",
+        "3": "有规划序列，但早期行政信息化或近期阶段缺失，或计划年份与目标大多不明。 任何改变发展路径的重要中间阶段整块遗漏也为3，而不只检查起点和终点。",
+        "4": "早期到近期主要规划及目标可辨，少量阶段衔接或时间含义欠清。",
+        "5": "说明早期行政信息化、国家基础信息系统与后续信息化/数字政府规划的关键演进，每个纳入关键政策有年份和核心目标。"
+      },
+      "boundary": "NBIS、Cyber Korea 21、e-Korea及后续总体规划是核对线索；不强制列出所有五年计划或将实施期写成发布日期。 重要阶段的完整缺失按3；4仅适用于主线齐全而个别节点细节不足。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:11",
+          "drb2:3:info_recall:12",
+          "drb2:3:info_recall:13",
+          "drb2:3:info_recall:14",
+          "drb2:3:info_recall:15",
+          "drb2:3:info_recall:16",
+          "drb2:3:info_recall:17",
+          "drb2:3:info_recall:18",
+          "drb2:3:info_recall:19"
+        ],
+        "query_quotes": [
+          "日本、韩国、新加坡和泰国"
+        ],
+        "change_note": "聚合韩国政策链，仅用对应国家来源；本地五档允许不同合理节点选择。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "新加坡发展历程",
+      "question": "报告是否回顾新加坡从早期计算机化计划到智慧国家的关键政策、年份与目标？",
+      "anchors": {
+        "1": "无新加坡回顾。",
+        "2": "只提智慧国家，未回顾早期历程。",
+        "3": "列出若干计划，但计算机化到智慧国家之间有主要断档或缺年份目标。 任何改变发展路径的重要中间阶段整块遗漏也为3，而不只检查起点和终点。",
+        "4": "主要演进阶段及政策记录明确，个别计划角色或年份口径需澄清。",
+        "5": "早期政府/公共部门计算机化、信息通信战略到智慧国家的发展有完整主线，关键政策年份和目标对应明确。"
+      },
+      "boundary": "国家计算机化、IT2000、Infocomm21、iN2015、Smart Nation是线索，不要求五个电子政务总体规划全列；区分倡议启动、部门蓝图与后续战略文件。 重要阶段的完整缺失按3；4仅适用于主线齐全而个别节点细节不足。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:20",
+          "drb2:3:info_recall:21",
+          "drb2:3:info_recall:22",
+          "drb2:3:info_recall:23",
+          "drb2:3:info_recall:24",
+          "drb2:3:info_recall:25",
+          "drb2:3:info_recall:26",
+          "drb2:3:info_recall:27"
+        ],
+        "query_quotes": [
+          "到2022年的关键数字化政策、战略或总体规划"
+        ],
+        "change_note": "选用本国政策范围与目标，取消固定名单全召回；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "泰国发展历程",
+      "question": "报告是否回顾泰国从早期国家IT政策到2022年的数字化规划及其年份、目标？",
+      "anchors": {
+        "1": "无泰国回顾。",
+        "2": "只称泰国正在数字转型，没有政策历程。",
+        "3": "有早期IT计划或近年数字政策，但另一段空缺，或主要目标未说明。 任何改变发展路径的重要中间阶段整块遗漏也为3，而不只检查起点和终点。",
+        "4": "早期到近年政策及目标大体完整，少量框架与执行计划的关系不明。",
+        "5": "关键IT政策、后续框架/总体规划及数字经济社会方向的演进可辨，各关键政策年份目标明确。"
+      },
+      "boundary": "IT2000、IT2010、相关ICT总体规划及IT2020为早期线索，仍需延伸至截止时点；不把名称年份当发布日期或固定唯一译名。 重要阶段的完整缺失按3；4仅适用于主线齐全而个别节点细节不足。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:28",
+          "drb2:3:info_recall:29",
+          "drb2:3:info_recall:30",
+          "drb2:3:info_recall:31",
+          "drb2:3:info_recall:32",
+          "drb2:3:info_recall:33"
+        ],
+        "query_quotes": [
+          "从早期"
+        ],
+        "change_note": "官方早期节点作本国线索，本地补题面要求的2022终点；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.05.jp",
+      "dimension": "D1",
+      "title": "日本当前战略记录",
+      "question": "报告是否具体说明日本2022年前后的主要战略、发布日期、愿景和支柱方向？",
+      "anchors": {
+        "1": "未回答日本当前战略记录。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "战略可辨，但日期含义、愿景或一个主要方向缺失；不能用别国完整记录补偿。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "日本所选同期主要战略及版本可辨，发布日期与实施期分清，愿景与主要方向有具体内容；有依据的并行战略或等价归纳可接受。"
+      },
+      "boundary": "本项只检查该国记录的实质内容，无表但内容完整不在本项扣格式分。不得照抄官方重复支柱、把实施跨度当发布日期；事实正确性按D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:34",
+          "drb2:3:info_recall:35",
+          "drb2:3:info_recall:36",
+          "drb2:3:info_recall:37"
+        ],
+        "query_quotes": [
+          "国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.kr",
+      "dimension": "D1",
+      "title": "韩国当前战略记录",
+      "question": "报告是否具体说明韩国2022年前后的主要战略、发布日期、愿景和支柱方向？",
+      "anchors": {
+        "1": "未回答韩国当前战略记录。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "战略可辨，但日期含义、愿景或一个主要方向缺失；不能用别国完整记录补偿。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "韩国所选同期主要战略及版本可辨，发布日期与实施期分清，愿景与主要方向有具体内容；有依据的并行战略或等价归纳可接受。"
+      },
+      "boundary": "本项只检查该国记录的实质内容，无表但内容完整不在本项扣格式分。不得照抄官方重复支柱、把实施跨度当发布日期；事实正确性按D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:38",
+          "drb2:3:info_recall:39",
+          "drb2:3:info_recall:40",
+          "drb2:3:info_recall:41"
+        ],
+        "query_quotes": [
+          "国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.sg",
+      "dimension": "D1",
+      "title": "新加坡当前战略记录",
+      "question": "报告是否具体说明新加坡2022年前后的主要战略、发布日期、愿景和支柱方向？",
+      "anchors": {
+        "1": "未回答新加坡当前战略记录。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "战略可辨，但日期含义、愿景或一个主要方向缺失；不能用别国完整记录补偿。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "新加坡所选同期主要战略及版本可辨，发布日期与实施期分清，愿景与主要方向有具体内容；有依据的并行战略或等价归纳可接受。"
+      },
+      "boundary": "本项只检查该国记录的实质内容，无表但内容完整不在本项扣格式分。不得照抄官方重复支柱、把实施跨度当发布日期；事实正确性按D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:42",
+          "drb2:3:info_recall:43",
+          "drb2:3:info_recall:44",
+          "drb2:3:info_recall:45"
+        ],
+        "query_quotes": [
+          "国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.th",
+      "dimension": "D1",
+      "title": "泰国当前战略记录",
+      "question": "报告是否具体说明泰国2022年前后的主要战略、发布日期、愿景和支柱方向？",
+      "anchors": {
+        "1": "未回答泰国当前战略记录。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "战略可辨，但日期含义、愿景或一个主要方向缺失；不能用别国完整记录补偿。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "泰国所选同期主要战略及版本可辨，发布日期与实施期分清，愿景与主要方向有具体内容；有依据的并行战略或等价归纳可接受。"
+      },
+      "boundary": "本项只检查该国记录的实质内容，无表但内容完整不在本项扣格式分。不得照抄官方重复支柱、把实施跨度当发布日期；事实正确性按D2核验。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:info_recall:46",
+          "drb2:3:info_recall:47",
+          "drb2:3:info_recall:48",
+          "drb2:3:info_recall:49"
+        ],
+        "query_quotes": [
+          "国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.table",
+      "dimension": "D1",
+      "title": "战略表格形式",
+      "question": "报告是否用有明确列名的表格呈现四国当前战略对比？",
+      "anchors": {
+        "1": "未回答战略表格形式。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有表格，但国家与题定字段的结构有主要缺失。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "表格有四国可辨记录入口及国家、战略名称、发布时间、愿景、支柱方向五类字段；允许等价多表。"
+      },
+      "boundary": "只评表格结构，不因单元格实质信息缺失再扣一次；内容归对应国家子项。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:presentation:4",
+          "drb2:3:presentation:5"
+        ],
+        "query_quotes": [
+          "国家、战略名称、发布时间、核心愿景、以及主要支柱或战略方向"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "截止时间与国家层面",
+      "question": "报告是否以截至2022年底的国家层面政策为主体，区分政策制定时间、实施期和后来的变化？",
+      "anchors": {
+        "1": "主体讨论当下政策或地方项目，未回答截止时点的国家历程。",
+        "2": "多处将2023年后政策或地方试点当作2022国家战略。",
+        "3": "主线符合范围但有重要越界或时间角色未分清。",
+        "4": "总体范围正确，少量补充资料的日期角色欠清。",
+        "5": "国家政策主体和2022年底截止明确，历史背景、地方例子及后发表回顾资料均与核心范围区分。"
+      },
+      "boundary": "2022前发布但实施到2025的计划可纳入；不因后来发表回顾材料自动判越界，也不把它当后来政策已存在。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "请确保你的调研截止到2022年底"
+        ],
+        "change_note": "题面派生范围核对及五档。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "题定两部分",
+      "question": "报告是否分别呈现各国发展历程回顾和当前战略对比，且回顾部分能分清四国？",
+      "anchors": {
+        "1": "无法识别两部分。",
+        "2": "只有回顾或当前对比，另一部分混杂不可辨。",
+        "3": "两部分可辨，但国家分界或标题明显不清。",
+        "4": "两部分与四国分界清楚，仅少量内容位置含糊。",
+        "5": "两部分及四国回顾边界明确，标题能辨认题定含义。"
+      },
+      "boundary": "不因某政策缺漏再扣本项；不强制完全同字标题或每国相同篇幅。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:presentation:1",
+          "drb2:3:presentation:2"
+        ],
+        "query_quotes": [
+          "两部分内容"
+        ],
+        "change_note": "合并分区与国别识别对象；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "禁源可观察使用",
+      "question": "报告是否避免引用或取用题面指定的Mulati等健康老龄化政策综述？",
+      "anchors": {
+        "1": "禁源支撑核心国家比较。",
+        "2": "禁源支撑多个次要实质主张。",
+        "3": "禁源支撑一个局部实质主张。",
+        "4": "仅文献清单包含禁源，未确认正文使用。",
+        "5": "完整报告未发现禁源引用或取用；说明排除它不算使用。"
+      },
+      "boundary": "只看最终文本，不根据知识相似或隐藏访问史推断违规。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Digital-Based Policy and Health Promotion Policy in Japan, the Republic of Korea, Singapore, and Thailand: A Scoping Review of Policy Paths to Healthy Aging"
+        ],
+        "change_note": "题面禁源转为可观察终稿检查；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "政策依据可定位",
+      "question": "报告关键政策日期、目标、战略支柱和比较主张是否有明确出处？",
+      "anchors": {
+        "1": "核心记录无可识别来源。",
+        "2": "仅泛称政府资料或国际机构，没有具体对应。",
+        "3": "有相关来源清单，部分重要政策或比较主张对应不清。",
+        "4": "主要记录能找到出处，仅次要引用范围不明。",
+        "5": "关键记录对应具体文件、版本或可检查推导，日期与机构归属可追溯。"
+      },
+      "boundary": "可以无URL但需足够文献信息；能定位不等于文件确实支持主张。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地来源审计，避免把政策清单资源误作引用质量来源。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内政策准确性",
+      "question": "在实际核验记录内，政策名称、日期含义、目标及支柱是否符合取得的证据？",
+      "anchors": {
+        "1": "核心政策身份或比较依据被核验否定。",
+        "2": "多个主要已核记录存在实质错误。",
+        "3": "部分已核记录得到支持，仍有影响比较的版本、日期或政策层级错配。",
+        "4": "主要已核记录相符，仅有次要译名或措辞偏差。",
+        "5": "已判断记录与证据的文件、时间含义、层级及目标相符；不声称全表查全。"
+      },
+      "boundary": "先澄清不同版本、翻译与公布/施行日期；报告核验样本与完成数。访问失败另记执行未完成，不填质量分或NA。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "请确保信息准确"
+        ],
+        "change_note": "本地有限核验审计；官方内容不是外部真实性担保。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "政策演进的解释",
+      "question": "哪篇更可靠地解释政策从早期信息化走向后续数字化目标的变化与衔接？",
+      "anchors": {
+        "0": "两篇在政策演进解释上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A对重要政策转向的联系与限定略清楚；B仍可在局部更好。",
+        "2": "A明显更可靠地解释目标和治理安排如何变化，避免把先后发生直接说成因果；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更可靠地解释目标和治理安排如何变化，避免把先后发生直接说成因果；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对重要政策转向的联系与限定略清楚；A仍可在局部更好。"
+      },
+      "boundary": "日本疫情、韩国规划连续性、新加坡目标扩展及泰国基础建设可作解释线索，不要求固定国家标签或证明制度成功；列时间线本身不是推理优势。 比较两文覆盖的四国关键转向，不只挑选胜方最强国家；按对四国演进判断的实际重要性权衡，同等重要的相反优势为0。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:analysis:1",
+          "drb2:3:analysis:2",
+          "drb2:3:analysis:3",
+          "drb2:3:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留四国演進分析但取消预定快慢及追赶结论；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "战略比较的认识价值",
+      "question": "哪篇更帮助读者理解四国战略的实际共同点、重点差异及比较限度？",
+      "anchors": {
+        "0": "两篇在战略比较认识上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A澄清一处愿景或战略层级差异，带来略有用的认识；B仍可在局部更好。",
+        "2": "A以有据且可比的政策内容形成明显更有用的四国比较，而非把名称并排或排出无据优劣；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B以有据且可比的政策内容形成明显更有用的四国比较，而非把名称并排或排出无据优劣；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B澄清一处愿景或战略层级差异，带来略有用的认识；A仍可在局部更好。"
+      },
+      "boundary": "须说明这种差异改变什么理解，例如政府服务与全社会转型的范围；不强制排名、指标模型或全套发展阶段论。准确列五字段仍只属PT内容。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "清晰地对比这四个国家"
+        ],
+        "change_note": "题面派生开放比较价值；不把表格字段齐全重奖。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "跨国证据适配",
+      "question": "哪篇的材料更适合支撑其跨国战略概括？",
+      "anchors": {
+        "0": "两篇在跨国证据适用性上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在一处关键比较中较好对齐文件时间和政策层级；B仍可在局部更好。",
+        "2": "A主要跨国判断有明显更适配的同期、同层级或明确说明不可比的依据；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B主要跨国判断有明显更适配的同期、同层级或明确说明不可比的依据；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在一处关键比较中较好对齐文件时间和政策层级；A仍可在局部更好。"
+      },
+      "boundary": "不默认英语材料优于本国语言，不按链接数排名；调查统计须区分年龄阈值和分母，政策愿景材料不能单独证明实际成效。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增政策文本与成效证据的适配比较。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "历史回顾到横向比较的推进",
+      "question": "哪篇原报告的顺序与承接更帮助理解历程和当前战略的联系？",
+      "anchors": {
+        "0": "两篇在历史与当前的阅读推进上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A让时间线与当前表的衔接略连贯；B仍可在局部更好。",
+        "2": "A明显更好地组织历史节点和横向对比，重要转向不会淹没在重复清单中；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更好地组织历史节点和横向对比，重要转向不会淹没在重复清单中；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B让时间线与当前表的衔接略连贯；A仍可在局部更好。"
+      },
+      "boundary": "整体顺序、承接及重复只计一次；不强制每国逐年排序，明确的分阶段组织同样可用。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:presentation:3",
+          "drb2:3:presentation:6"
+        ],
+        "query_quotes": [],
+        "change_note": "将严格时间顺序改为实际阅读功能，取官方全文逻辑部分；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "政策名与时间口径的表述",
+      "question": "哪篇更清楚地表达已写的政策名称、愿景和日期含义？",
+      "anchors": {
+        "0": "两篇在政策文字理解上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在关键译名或日期标签上略清楚；B仍可在局部更好。",
+        "2": "A主要政策别名、时间角色及支柱表述明显更清楚，较少让读者猜测指的是哪份文件；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B主要政策别名、时间角色及支柱表述明显更清楚，较少让读者猜测指的是哪份文件；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在关键译名或日期标签上略清楚；A仍可在局部更好。"
+      },
+      "boundary": "只看原文理解成本；日期真假另由D2处理，不因缺少英文原名直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:3:presentation:6"
+        ],
+        "query_quotes": [],
+        "change_note": "取官方表达清晰部分，剥离事实真伪；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "政策与出处查找",
+      "question": "哪篇更方便定位某国某期政策、当前战略方向及其依据？",
+      "anchors": {
+        "0": "两篇在政策记录查找上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A找到一处关键政策及依据略方便；B仍可在局部更好。",
+        "2": "A从国别、时期或战略字段找到记录和依据明显更直接，减少错行与往返；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B从国别、时期或战略字段找到记录和依据明显更直接，减少错行与往返；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B找到一处关键政策及依据略方便；A仍可在局部更好。"
+      },
+      "boundary": "不强制超链接、索引或表格外额外图表；比较实际查找成本，不重复评来源可靠性。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地信息检索项。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:3:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本政府于1958年引入第一台计算机。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2000年颁布了第一部国家法律《IT基本法》（IT Basic Act）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2000年后推出了为期五年的国家战略“e-Japan strategy”，目标是发展ICT基础设施，成为世界领先的IT国家。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:4",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2006年提出了“新IT改革战略”（New IT reform strategy），目标是建立一个任何人、任何时间、任何地点都能接触到ICT的社会。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:5",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2009年提出了“i-Japan Strategy 2015”，目标是推动了ICT的利用。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本从2013年开始，其数字化战略重点转向数字数据的利用。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:7",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2017年制定了“数字政府战略”（Digital Government Strategy），目标是进⼀步促进公共管理的数字化。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:8",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2018年推出了“数字政府行动计划”（Digital Government Action Plan）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:9",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2021年颁布了《数字社会形成基本法》（The Basic Act on Forming a Digital Society）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:10",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出日本在2021年成立了“数字厅”（Digital Agency）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:11",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国在1967年的全国人口普查中首次引入计算机。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:12",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国在1978-1982年实施了第一个“行政计算机化五年总体规划”。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:13",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国在1986年颁布了《信息系统普及与利用促进法》。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:14",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国于1987年启动了国家基础信息系统项目（NBIS Project）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:15",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出NBIS项目分为两个阶段：第一阶段（1987-1991）和第二阶段（1992-1996）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:16",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国信息通信部（MIC）在1994年至2008年间是推动数字化的主要政府机构。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:17",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国自2002年起开始推动电子政务。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:18",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。 原文夹带“补充名称”编辑残句，不沿用。",
+      "discrimination_check": "原要求：明确列出韩国的五个国家信息化总体规划及其时间：第一期（1996-2000）、第二期“Cyber Korea 21”（1999-2002）、第三期“e-Korea Vision 2006”（2002-2006）、第四期国家信息化总体规划（2008-2012）和第五期国家信息化总体规划（2013-2017）。补充第四期和第五期的名称 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。 原文夹带“补充名称”编辑残句，不沿用。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:19",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出韩国第六个国家信息化总体规划（2018-2022）旨在建设智能信息社会。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:20",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡于1980年启动了“国家计算机化计划”（National Computerization Plan），其目标是发展IT产业和劳动力，并通过使用计算机技术提高政府部门和公共部门的服务效率。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:21",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡在1986-1991年间制定了“国家IT计划”（National IT plan），其目标是进一步发展IT产业并促进数字技术的应用。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:22",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡在1992-1999年间提出了“IT 2000”总体规划，其愿景是将新加坡转变为“智能岛”。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:23",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡在2000-2003年间实施了“Infocomm 21”计划。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:24",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡在“Infocomm 21”计划期间成立了信息通信发展管理局（IDA）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:25",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡于2006年提出了十年国家总体规划“智慧国2015”（Intelligent Nation 2015）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:26",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡于2014年启动了“智慧国家计划”（Smart Nation Initiative）。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:27",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出新加坡在1980年至2011年间提出了五个电子政务总体规划，包括“公务员计算机化计划”和“eGov 2015”等。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:28",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出泰国于1996年2月提出了第一个国家IT政策“IT 2000”。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:29",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出“IT 2000”政策的目标是发展泰国的信息通信技术基础设施，将信息技术融⼊公共部⻔，促进当地产业的增⻓，并通过提⾼⼈⼝的数字素养来建设⼈⼒资源 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:30",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出泰国在2001-2010年间启动了第二个国家政策框架“IT 2010”。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:31",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出“IT 2010”框架下包含五个关键战略：电子政务、电子产业、电子商务、电子教育和电子社会。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:32",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出泰国在2002-2006年间启动了“泰国国家总体规划”。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:33",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。",
+      "discrimination_check": "原要求：明确指出泰国于2011年启动了第三个国家框架，即为期十年的“IT 2020”计划。 可识别相应阶段或字段欠缺；未强制这个精确节点、版本或数字，不能保证其单独遗漏一定扣分。有据版本修正可接受。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:34",
+      "targets": [
+        "PT.D1.05.jp"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.jp。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:35",
+      "targets": [
+        "PT.D1.05.jp"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.jp。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:36",
+      "targets": [
+        "PT.D1.05.jp"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.jp。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:37",
+      "targets": [
+        "PT.D1.05.jp"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.jp。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留所选日本战略的主要方向实质完整性；不保留原文重复支柱、固定五项及唯一版本。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:38",
+      "targets": [
+        "PT.D1.05.kr"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.kr。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:39",
+      "targets": [
+        "PT.D1.05.kr"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.kr。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。 原文把2021—2025实施期称发布时间，明确不保留该混淆。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:40",
+      "targets": [
+        "PT.D1.05.kr"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.kr。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:41",
+      "targets": [
+        "PT.D1.05.kr"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.kr。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留所选韩国战略的主要方向实质完整性；允许有据同期战略/版本，不强制原文三标签。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:42",
+      "targets": [
+        "PT.D1.05.sg"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.sg。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:43",
+      "targets": [
+        "PT.D1.05.sg"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.sg。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:44",
+      "targets": [
+        "PT.D1.05.sg"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.sg。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:45",
+      "targets": [
+        "PT.D1.05.sg"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.sg。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留所选新加坡战略的主要方向实质完整性；不强制唯一文件、固定三项格式或逐字译名。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:46",
+      "targets": [
+        "PT.D1.05.th"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.th。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:47",
+      "targets": [
+        "PT.D1.05.th"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.th。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:48",
+      "targets": [
+        "PT.D1.05.th"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.th。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "作为对应国别历程或当前战略记录的核对线索，不逐一设硬召回。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:49",
+      "targets": [
+        "PT.D1.05.th"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.th。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留所选泰国战略的主要方向实质完整性；不强制官方固定五项、唯一译名或版本。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:50",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:51",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:52",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:53",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:54",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:55",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:56",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:57",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:58",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:59",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:60",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:61",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:62",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:63",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:64",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:65",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:66",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:67",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:68",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:info_recall:69",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留对应分析对象，取消预定路线和结果。",
+      "discrimination_check": "日本慢速及疫情推动并非固定答案；可区分有据政策转向解释与纯年代罗列。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留对应分析对象，取消预定路线和结果。",
+      "discrimination_check": "可识别规划连续性解释的帮助，不强制韩国稳步推进的结论。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:3",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留对应分析对象，取消预定路线和结果。",
+      "discrimination_check": "可识别计算机化到智慧国家的目标联系，不要求唯一三阶段叙述。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留对应分析对象，取消预定路线和结果。",
+      "discrimination_check": "可识别泰国基础建设作用，不强制追赶标签。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:5",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:6",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:7",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:analysis:8",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "按第17题审核意见，删除超出Query必答范围的独立评分项。对应背景可用作解释材料，不再独立计分；旧映射及理由已保存在本次变更记录中。",
+      "discrimination_check": "无独立评分目标，不参与计分。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:1",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "保留题定结构或调整为功能性阅读比较。",
+      "discrimination_check": "两部分的存在与次序可识别；允许同义标题，故不复制官方严格指定标题的全部判分行为。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:2",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题定结构或调整为功能性阅读比较。",
+      "discrimination_check": "四国分界由PT.D1.07核对。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:3",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "保留题定结构或调整为功能性阅读比较。",
+      "discrimination_check": "比较时间发展是否易读，但不保留必须严格逐年排序。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:4",
+      "targets": [
+        "PT.D1.05.table"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.table。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留题定结构或调整为功能性阅读比较。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:5",
+      "targets": [
+        "PT.D1.05.table"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.05.table。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留题定结构或调整为功能性阅读比较。"
+    },
+    {
+      "resource_id": "drb2:3:presentation:6",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "保留题定结构或调整为功能性阅读比较。",
+      "discrimination_check": "宏观逻辑与语言分别比较，不复制混合总项。"
+    }
+  ],
+  "author_notes": [
+    "所有官方资源均逐项声明实际保留与损失；原精确要求保留为差异检查文本，不能误认为候选报告必选答案。",
+    "源风险：日本支柱重复；韩国发布与执行期混淆；早期计算机起点、机构年份、泰国/新加坡文件版本未经外核；有据修正优先澄清。",
+    "这是作者自检，不是独立审核。待审风险：历史首台计算机年份、所有规划名字、固定统计与排名仍不逐项强制；官方日本重复支柱、韩国把实施期当发布日期不恢复。四国历史条目已有主要阶段缺失=3，不为每节点拆项。新增背景的深度需与用户两部分主任务相称，不扩大成全套养老政策。未外核国家事实与官方数值；需后续语义复审。",
+    "第17题当前保留14条PT与6条PW；已删除背景项不再独立计分。历史说明及原始来源处置保存在reference_cleanup_v1/changes中，不作为当前评分指令。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "年份与目标定义政策记录；名称充分但目标缺失按3，非独立装饰字段。 交叉审：明确重要中间阶段与首尾阶段缺失同档，不要求每一个具名节点。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "added",
+      "reason": "一国历程为整体；连续列年代但无政策目标最高3，不拆每期规划。 交叉审：明确重要中间阶段与首尾阶段缺失同档，不要求每一个具名节点。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "年份与目标有一面缺失按3；名称近似而角色不明按3或4，不拆别名。 交叉审：明确重要中间阶段与首尾阶段缺失同档，不要求每一个具名节点。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "早期和近年能独立好坏但混合表现3分已明，不为每时期拆项。 交叉审：明确重要中间阶段与首尾阶段缺失同档，不要求每一个具名节点。"
+    },
+    {
+      "id": "PT.D1.05.jp",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.kr",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.sg",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.th",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.05.table",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.05拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "政策时间与角色为纳入条件；日期看似正确但角色混用仍按3，不拆年月。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "分区好但国别混在一起按3；已有明确中档，不另拆标题。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "单一来源使用对象，不把列表与核心取用同罚。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "出处和具体主张是一条关系；有政府网址却无对应文件按2或3。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "文件与其日期条件不可拆；正确年份不能抵消用错文件。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "四国政策演进是同一横向解释任务，补共同比较范围及等量相反优势为0，防止只挑某国决定胜负；不新增国家数奖励。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "共同点和差异共同定义比较认识，不强求二者字数均衡。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "材料与跨国概括范围不可拆；资料权威但口径不对齐不代表更适配。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "宏观推进不拆标题与摘要；局部时间线好但全文反复仍需权衡。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "译名和时间标签共同界定记录含义；句子流畅但指代含糊不是满优势。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "政策到来源为定位路径，单一环节清楚不能代替完整可找。"
+    }
+  ]
+}

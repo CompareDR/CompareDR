@@ -1,0 +1,2180 @@
+{
+  "pairs": 80,
+  "distinct_reports": 128,
+  "fields": [
+    "overall",
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5_D6"
+  ],
+  "label_values": [
+    "A",
+    "tie",
+    "B"
+  ],
+  "orientation": "A and B refer to the bound report sides, not system ranks.",
+  "items": [
+    {
+      "pair_id": "T01-P1",
+      "query_id": "drb1_19",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb1_19/R1.md",
+          "evaluation_sha256": "4697c23113c1bfd46790c1c616294eba308539a00f83cdceea071e42cf88896a",
+          "file_sha256": "fb06b8b52affb8694d4b403ae5eb92851cb23754abfe737b1c061cc7598d73ef"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb1_19/R4.md",
+          "evaluation_sha256": "b13d5c8fc5054b0119cfc98d39359d87b64b62d2d7ba13dce66ead7c06ff68e1",
+          "file_sha256": "b13d5c8fc5054b0119cfc98d39359d87b64b62d2d7ba13dce66ead7c06ff68e1"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T01-P2",
+      "query_id": "drb1_19",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb1_19/R5.md",
+          "evaluation_sha256": "d29cbb6407c4c7c3639c8420003bff11fcffb396eb0daead6928aee23db0dd61",
+          "file_sha256": "d29cbb6407c4c7c3639c8420003bff11fcffb396eb0daead6928aee23db0dd61"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb1_19/R4.md",
+          "evaluation_sha256": "b13d5c8fc5054b0119cfc98d39359d87b64b62d2d7ba13dce66ead7c06ff68e1",
+          "file_sha256": "b13d5c8fc5054b0119cfc98d39359d87b64b62d2d7ba13dce66ead7c06ff68e1"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T02-P1",
+      "query_id": "drb1_25",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb1_25/R1.md",
+          "evaluation_sha256": "1ec3e37d0de104ebc37615a5004aef416f332a3fd71632e95496e9641fb930e2",
+          "file_sha256": "62a75620aa3e7ff8f06a2e0cf2e3f6ed170c0cfbe865c114aeefefc269ba81ae"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb1_25/R6.md",
+          "evaluation_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d",
+          "file_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T02-P2",
+      "query_id": "drb1_25",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb1_25/R6.md",
+          "evaluation_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d",
+          "file_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb1_25/R5.md",
+          "evaluation_sha256": "6104d14ee6c97a5b68b70bc0e2d3c1955bd9042bbdd88ee67f297bcbe73f929e",
+          "file_sha256": "6104d14ee6c97a5b68b70bc0e2d3c1955bd9042bbdd88ee67f297bcbe73f929e"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T03-P1",
+      "query_id": "drb1_27",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb1_27/R7.md",
+          "evaluation_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04",
+          "file_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb1_27/R1.md",
+          "evaluation_sha256": "012c4e448a17b027db8f8a200ef07a33e0d1906b7de3271dedc612e2ff816456",
+          "file_sha256": "164b6a854ded271299b5d092f805a6a9171aeb3a755abbfc40de67ce6adbcfdf"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T03-P2",
+      "query_id": "drb1_27",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb1_27/R3.md",
+          "evaluation_sha256": "f9e5b76904db05f1b26d06d3223c5e8a17304de78f11c9ae9c8e2c9bbc98d191",
+          "file_sha256": "f9e5b76904db05f1b26d06d3223c5e8a17304de78f11c9ae9c8e2c9bbc98d191"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb1_27/R7.md",
+          "evaluation_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04",
+          "file_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T04-P1",
+      "query_id": "drb1_47",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb1_47/R3.md",
+          "evaluation_sha256": "62767198e132a3c7c2f04c29752c03b9c49ad2db19067ae9e9ab669eafba7425",
+          "file_sha256": "62767198e132a3c7c2f04c29752c03b9c49ad2db19067ae9e9ab669eafba7425"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb1_47/R2.md",
+          "evaluation_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31",
+          "file_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T04-P2",
+      "query_id": "drb1_47",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb1_47/R2.md",
+          "evaluation_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31",
+          "file_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb1_47/R5.md",
+          "evaluation_sha256": "719dca207faaee3f412fdda94beca8e939adb9545baee40b66bed792b2cf9943",
+          "file_sha256": "719dca207faaee3f412fdda94beca8e939adb9545baee40b66bed792b2cf9943"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T05-P1",
+      "query_id": "drb1_48",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb1_48/R2.md",
+          "evaluation_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff",
+          "file_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb1_48/R1.md",
+          "evaluation_sha256": "a3a2fa39dda0125c2665fa45f7a81c04e6ff441542d5e8a1f389abd0ded84243",
+          "file_sha256": "a3a2fa39dda0125c2665fa45f7a81c04e6ff441542d5e8a1f389abd0ded84243"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T05-P2",
+      "query_id": "drb1_48",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb1_48/R4.md",
+          "evaluation_sha256": "98e37e4cc71ad6e770d24eeaa80fe8f4c649d3151fb9854fc6ff00b562c7a7bf",
+          "file_sha256": "98e37e4cc71ad6e770d24eeaa80fe8f4c649d3151fb9854fc6ff00b562c7a7bf"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb1_48/R2.md",
+          "evaluation_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff",
+          "file_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T06-P1",
+      "query_id": "drb1_51",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb1_51/R6.md",
+          "evaluation_sha256": "e257f4dd060431b235cce0cf7d7a5e35831e95f9fc2e78e43fecec8dce820250",
+          "file_sha256": "e257f4dd060431b235cce0cf7d7a5e35831e95f9fc2e78e43fecec8dce820250"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb1_51/R3.md",
+          "evaluation_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36",
+          "file_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T06-P2",
+      "query_id": "drb1_51",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb1_51/R3.md",
+          "evaluation_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36",
+          "file_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb1_51/R7.md",
+          "evaluation_sha256": "be5d2c4e540da039324a7e1dd2cbd6295c4bb19b2fbe0fbf9d4dd9e34dbc409f",
+          "file_sha256": "e872110cbba15f7ba28f37962eb38d2cac6bcd36778a6030673d3b9546d9c7ab"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T07-P1",
+      "query_id": "drb2_11",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_11/R2.md",
+          "evaluation_sha256": "a6d2fd8eab866fea1d683f35e0bc980336c00a4177aac1e678f1a69b21ac2ab5",
+          "file_sha256": "a6d2fd8eab866fea1d683f35e0bc980336c00a4177aac1e678f1a69b21ac2ab5"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_11/R6.md",
+          "evaluation_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923",
+          "file_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "B",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T07-P2",
+      "query_id": "drb2_11",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_11/R3.md",
+          "evaluation_sha256": "b607174d7858b8dfd772b7db59fe7f4c6370f8f1794a82be856156de8b6ee59d",
+          "file_sha256": "b607174d7858b8dfd772b7db59fe7f4c6370f8f1794a82be856156de8b6ee59d"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_11/R6.md",
+          "evaluation_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923",
+          "file_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T08-P1",
+      "query_id": "drb2_117",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_117/R2.md",
+          "evaluation_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff",
+          "file_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_117/R1.md",
+          "evaluation_sha256": "ddebdf517c6b2a181fc4e8c6699c9c9dc2b51ef73b14416d7c15018019fe34ed",
+          "file_sha256": "3a280e026af067c716c8abb8c622664865578ddc898b15a1bcb71e9a41541e01"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T08-P2",
+      "query_id": "drb2_117",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_117/R2.md",
+          "evaluation_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff",
+          "file_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_117/R7.md",
+          "evaluation_sha256": "77e32acc7ba8b0254eef2cc2ad4accdbacd568e5d8135954e6bc2747c711d5a8",
+          "file_sha256": "77e32acc7ba8b0254eef2cc2ad4accdbacd568e5d8135954e6bc2747c711d5a8"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T09-P1",
+      "query_id": "drb2_119",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_119/R1.md",
+          "evaluation_sha256": "2eac1e39daa719917bc0f7901a5b4b25ea13b3cb4f31112ecd9c6b5f3a4fdc19",
+          "file_sha256": "3486179b66dff4a3676900138e7d134b197fc9435a7bc8b1f1cd2d2d69054270"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_119/R2.md",
+          "evaluation_sha256": "32f76813b8dfe37a56b0e75049a3cbc2ff0f29bfab36effb014049b7431aa40b",
+          "file_sha256": "32f76813b8dfe37a56b0e75049a3cbc2ff0f29bfab36effb014049b7431aa40b"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T09-P2",
+      "query_id": "drb2_119",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_119/R4.md",
+          "evaluation_sha256": "f427ccba44d1c14659760be590d7840516ca18adb2b5b1e32466eb1b07f17cd1",
+          "file_sha256": "f427ccba44d1c14659760be590d7840516ca18adb2b5b1e32466eb1b07f17cd1"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_119/R1.md",
+          "evaluation_sha256": "2eac1e39daa719917bc0f7901a5b4b25ea13b3cb4f31112ecd9c6b5f3a4fdc19",
+          "file_sha256": "3486179b66dff4a3676900138e7d134b197fc9435a7bc8b1f1cd2d2d69054270"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T10-P1",
+      "query_id": "drb2_123",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_123/R6.md",
+          "evaluation_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490",
+          "file_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_123/R2.md",
+          "evaluation_sha256": "87109f70d07eee2c7952faf14ec455f8288d3449b74af6aab376473999a82943",
+          "file_sha256": "87109f70d07eee2c7952faf14ec455f8288d3449b74af6aab376473999a82943"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T10-P2",
+      "query_id": "drb2_123",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_123/R6.md",
+          "evaluation_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490",
+          "file_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_123/R5.md",
+          "evaluation_sha256": "d407c787d056dae252261d0d6389cd9c4c14682367d92a342d4ae10e92170c1c",
+          "file_sha256": "d407c787d056dae252261d0d6389cd9c4c14682367d92a342d4ae10e92170c1c"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T11-P1",
+      "query_id": "drb2_125",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_125/R6.md",
+          "evaluation_sha256": "81e497a2117c69af6c54dbed874bfc4a2faa87b2342def62ded2f66d8b19d3bc",
+          "file_sha256": "81e497a2117c69af6c54dbed874bfc4a2faa87b2342def62ded2f66d8b19d3bc"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_125/R1.md",
+          "evaluation_sha256": "c100e7793c3f2ca6545ec349fab90d0271fc3bdef5a63ea4ce225606096723af",
+          "file_sha256": "bd2cfe6aa29e30745f4eb57037c3544adfc7dd672f2dbcb674d7786068af988e"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "tie",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T11-P2",
+      "query_id": "drb2_125",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_125/R7.md",
+          "evaluation_sha256": "bf5f21a0e358fd1ae222435b771102756b74ee878648c8e4fe6986a35820b2b2",
+          "file_sha256": "297b72af4ea26477748dcd466d1652a44504338c0747b109fcac3181e8f1a1c4"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_125/R3.md",
+          "evaluation_sha256": "7e436d74c3bc1fc305e865c9dbe9daf5732ff2f1378579bdd37406031cf9d0a4",
+          "file_sha256": "7e436d74c3bc1fc305e865c9dbe9daf5732ff2f1378579bdd37406031cf9d0a4"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T12-P1",
+      "query_id": "drb2_129",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_129/R4.md",
+          "evaluation_sha256": "258630d49dcfa1ea087d98000cb417866397dd91285b489f4a080dcb47726471",
+          "file_sha256": "258630d49dcfa1ea087d98000cb417866397dd91285b489f4a080dcb47726471"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_129/R2.md",
+          "evaluation_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e",
+          "file_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T12-P2",
+      "query_id": "drb2_129",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_129/R2.md",
+          "evaluation_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e",
+          "file_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_129/R6.md",
+          "evaluation_sha256": "27e0a673cd996043848c085e6659c4af671c1bc8d2ffcd9f425582aceb14769d",
+          "file_sha256": "27e0a673cd996043848c085e6659c4af671c1bc8d2ffcd9f425582aceb14769d"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "A",
+        "D3": "B",
+        "D4": "tie",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T13-P1",
+      "query_id": "drb2_15",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_15/R1.md",
+          "evaluation_sha256": "2c1834446b53327efccc0ebb0f9187369ab6c94a373c8ad3dfa1f2ea074ece46",
+          "file_sha256": "8eb5bfc2363477c1abf02c11e4db9d8435f97509f3443ae7e5189db8c513e40d"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_15/R4.md",
+          "evaluation_sha256": "29135196879f16286cfbd8b61e98c01d55f91fad94b2816fa62d318bbc0614cb",
+          "file_sha256": "29135196879f16286cfbd8b61e98c01d55f91fad94b2816fa62d318bbc0614cb"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T13-P2",
+      "query_id": "drb2_15",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_15/R2.md",
+          "evaluation_sha256": "ba775311a4e6d1c28d369e3127aa276f1cf88b34e6048c0fb0b7b90de54b8c33",
+          "file_sha256": "7edd0634951e5ad044882160f18fb793533f500ec57b21d6e127af0d15606bfe"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_15/R4.md",
+          "evaluation_sha256": "29135196879f16286cfbd8b61e98c01d55f91fad94b2816fa62d318bbc0614cb",
+          "file_sha256": "29135196879f16286cfbd8b61e98c01d55f91fad94b2816fa62d318bbc0614cb"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T14-P1",
+      "query_id": "drb2_18",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_18/R5.md",
+          "evaluation_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006",
+          "file_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_18/R1.md",
+          "evaluation_sha256": "d0a00ba35dba3ec842f33eea87d63f5f7f3ab9c68225c1f67312bf282b65311b",
+          "file_sha256": "a6cf99da0e567ba1736e8aad7b570c15539ed1819c11c0355f52058383e5763d"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "B",
+        "D4": "tie",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T14-P2",
+      "query_id": "drb2_18",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_18/R4.md",
+          "evaluation_sha256": "38032362b53cd3e837bd48813c50211ccfedd937250ef5f1dda2adbfad23c601",
+          "file_sha256": "38032362b53cd3e837bd48813c50211ccfedd937250ef5f1dda2adbfad23c601"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_18/R5.md",
+          "evaluation_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006",
+          "file_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T15-P1",
+      "query_id": "drb2_21",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_21/R3.md",
+          "evaluation_sha256": "927f1bf679aff5d0e493aac14369d564bce4a11f96d0cd293e8e9d150a2f3296",
+          "file_sha256": "927f1bf679aff5d0e493aac14369d564bce4a11f96d0cd293e8e9d150a2f3296"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_21/R1.md",
+          "evaluation_sha256": "97a7ff50bb91bf0fab19ce56fa3b266213f400dd6b5e6a1e25abbde8d4c4402b",
+          "file_sha256": "fc5a19359fe0a7f63212666ea7bb14cb1873a2f1fbe119c3d0b419bc49966358"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T15-P2",
+      "query_id": "drb2_21",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_21/R1.md",
+          "evaluation_sha256": "97a7ff50bb91bf0fab19ce56fa3b266213f400dd6b5e6a1e25abbde8d4c4402b",
+          "file_sha256": "fc5a19359fe0a7f63212666ea7bb14cb1873a2f1fbe119c3d0b419bc49966358"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_21/R7.md",
+          "evaluation_sha256": "76db8b5e3af2a6179eec3be3ffe91b4ddfb0e67e71558584bd3f1c289e68c643",
+          "file_sha256": "76db8b5e3af2a6179eec3be3ffe91b4ddfb0e67e71558584bd3f1c289e68c643"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T16-P1",
+      "query_id": "drb2_28",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_28/R3.md",
+          "evaluation_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884",
+          "file_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_28/R2.md",
+          "evaluation_sha256": "0981acfeac236cb9184a8a0a7117ea7182a6c68a0049424770bb1ae090cf7628",
+          "file_sha256": "0981acfeac236cb9184a8a0a7117ea7182a6c68a0049424770bb1ae090cf7628"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T16-P2",
+      "query_id": "drb2_28",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_28/R6.md",
+          "evaluation_sha256": "f24459db37b63d6076179e779597e81f7ce0a32fa9c5379891569d02293ebee5",
+          "file_sha256": "f24459db37b63d6076179e779597e81f7ce0a32fa9c5379891569d02293ebee5"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_28/R3.md",
+          "evaluation_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884",
+          "file_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T17-P1",
+      "query_id": "drb2_3",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_3/R5.md",
+          "evaluation_sha256": "50a5a047bdf0bc1762ac12a67d17cbd1e3284ccdc1fa19cddfcedb7f889c8159",
+          "file_sha256": "50a5a047bdf0bc1762ac12a67d17cbd1e3284ccdc1fa19cddfcedb7f889c8159"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_3/R3.md",
+          "evaluation_sha256": "2e8260885f93250822dfd796893c04cc7c7f54f96b2ed19109d48ea6c58debc7",
+          "file_sha256": "2e8260885f93250822dfd796893c04cc7c7f54f96b2ed19109d48ea6c58debc7"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T17-P2",
+      "query_id": "drb2_3",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_3/R4.md",
+          "evaluation_sha256": "f8dc4a14074c02b75eccdea68887aa1057011a7b247400d0d5bf74b9f092c170",
+          "file_sha256": "f8dc4a14074c02b75eccdea68887aa1057011a7b247400d0d5bf74b9f092c170"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_3/R6.md",
+          "evaluation_sha256": "66c0f67e37aa689cd0a089a01a0f3651ad7b4258c33fbad44c9e6316af6a0967",
+          "file_sha256": "66c0f67e37aa689cd0a089a01a0f3651ad7b4258c33fbad44c9e6316af6a0967"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T18-P1",
+      "query_id": "drb2_41",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_41/R3.md",
+          "evaluation_sha256": "0580e02bf438a8206deb70604138b70d6fd8f7af31630c88664e8776b4bbaae0",
+          "file_sha256": "0580e02bf438a8206deb70604138b70d6fd8f7af31630c88664e8776b4bbaae0"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_41/R5.md",
+          "evaluation_sha256": "3d9eb02b30dc725217528377960b29a91189606f024c8ca7063a9a0cd6735913",
+          "file_sha256": "3d9eb02b30dc725217528377960b29a91189606f024c8ca7063a9a0cd6735913"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "tie",
+        "D2": "B",
+        "D3": "A",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T18-P2",
+      "query_id": "drb2_41",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_41/R4.md",
+          "evaluation_sha256": "8f3704f9b456854f7f9898d181df7e3ebc91151fb40773ea0dd9da134efafa33",
+          "file_sha256": "8f3704f9b456854f7f9898d181df7e3ebc91151fb40773ea0dd9da134efafa33"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_41/R7.md",
+          "evaluation_sha256": "48c2a05e30b23154cf25606027ce27f3a413f444bb0537c8c3e5087925dc754b",
+          "file_sha256": "e1c831f94546a007a2815045259fc77a4abbfd088e47736498010642473aff86"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T19-P1",
+      "query_id": "drb2_46",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_46/R7.md",
+          "evaluation_sha256": "5e77c6f38ebd03afbe209a5475ee3813ec6fa333a02a185fe5c86fe83eba2c7f",
+          "file_sha256": "5e77c6f38ebd03afbe209a5475ee3813ec6fa333a02a185fe5c86fe83eba2c7f"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_46/R4.md",
+          "evaluation_sha256": "ea9e399c3002983e2842ba38956a6fbe9740897639fd5966e9d26c7bd3b18950",
+          "file_sha256": "ea9e399c3002983e2842ba38956a6fbe9740897639fd5966e9d26c7bd3b18950"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T19-P2",
+      "query_id": "drb2_46",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_46/R5.md",
+          "evaluation_sha256": "815e2c7ad5330eb3c992e8b6822d9a5035935193f4f33bac3e020fc990d9a4ce",
+          "file_sha256": "815e2c7ad5330eb3c992e8b6822d9a5035935193f4f33bac3e020fc990d9a4ce"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_46/R4.md",
+          "evaluation_sha256": "ea9e399c3002983e2842ba38956a6fbe9740897639fd5966e9d26c7bd3b18950",
+          "file_sha256": "ea9e399c3002983e2842ba38956a6fbe9740897639fd5966e9d26c7bd3b18950"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T20-P1",
+      "query_id": "drb2_58",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_58/R7.md",
+          "evaluation_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655",
+          "file_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_58/R5.md",
+          "evaluation_sha256": "e46ebd17fccf0264156ddae5dc7d22055e8e1a20443709c954ec5187883fa8fe",
+          "file_sha256": "e46ebd17fccf0264156ddae5dc7d22055e8e1a20443709c954ec5187883fa8fe"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T20-P2",
+      "query_id": "drb2_58",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_58/R7.md",
+          "evaluation_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655",
+          "file_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_58/R6.md",
+          "evaluation_sha256": "6d096bea2cf582534faf769e7d63409cfb2ea44d4c2d8d8926bea94f97162744",
+          "file_sha256": "6d096bea2cf582534faf769e7d63409cfb2ea44d4c2d8d8926bea94f97162744"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T21-P1",
+      "query_id": "drb2_66",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_66/R4.md",
+          "evaluation_sha256": "c4f8a242ea229bc19a5f02791f66e35082b2414c201c719f8ba09baeb7819694",
+          "file_sha256": "c4f8a242ea229bc19a5f02791f66e35082b2414c201c719f8ba09baeb7819694"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_66/R3.md",
+          "evaluation_sha256": "23bacee79a658fb5e5b0b28ef17a0a21d5c7c4d988f905339e6715d2a59ece0f",
+          "file_sha256": "23bacee79a658fb5e5b0b28ef17a0a21d5c7c4d988f905339e6715d2a59ece0f"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "B",
+        "D3": "A",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T21-P2",
+      "query_id": "drb2_66",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_66/R4.md",
+          "evaluation_sha256": "c4f8a242ea229bc19a5f02791f66e35082b2414c201c719f8ba09baeb7819694",
+          "file_sha256": "c4f8a242ea229bc19a5f02791f66e35082b2414c201c719f8ba09baeb7819694"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_66/R7.md",
+          "evaluation_sha256": "56aa86483183b0ff4a2cd0a9b5af1abaf7243dd332055f9ff2a70ebd121820aa",
+          "file_sha256": "70e6e5153dfa05e449fcb5b35dfe6198c589a507694ab933ec8885ecb34a0592"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T22-P1",
+      "query_id": "drb2_71",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_71/R5.md",
+          "evaluation_sha256": "afad85cb3b676c2c0b99d17fb4a29c5037a58dc769e50a9d6130bca4cd52cdcc",
+          "file_sha256": "afad85cb3b676c2c0b99d17fb4a29c5037a58dc769e50a9d6130bca4cd52cdcc"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_71/R4.md",
+          "evaluation_sha256": "64bd4aa808d60701e92db25e29bb4b33e88d0a369231e0bcc38310b6bd5affe3",
+          "file_sha256": "64bd4aa808d60701e92db25e29bb4b33e88d0a369231e0bcc38310b6bd5affe3"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "B",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T22-P2",
+      "query_id": "drb2_71",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_71/R6.md",
+          "evaluation_sha256": "0ca5e3df2f90ca4f1c87dab5665d702c1cdc84f4624fd74a9d5f273c4c698706",
+          "file_sha256": "0ca5e3df2f90ca4f1c87dab5665d702c1cdc84f4624fd74a9d5f273c4c698706"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_71/R7.md",
+          "evaluation_sha256": "df69cf7a93f82bcc71bc50db5422de02f237371b60a9ab92c391097a3a19087a",
+          "file_sha256": "df69cf7a93f82bcc71bc50db5422de02f237371b60a9ab92c391097a3a19087a"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T23-P1",
+      "query_id": "drb2_75",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_75/R4.md",
+          "evaluation_sha256": "05c03f4126aa4e692721107cdb2e42e45cc2f3f5ef5747930e1d0f817ea15bfe",
+          "file_sha256": "05c03f4126aa4e692721107cdb2e42e45cc2f3f5ef5747930e1d0f817ea15bfe"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_75/R3.md",
+          "evaluation_sha256": "84a32d9172f716b38c5c7778aab4775b3316ea01e9da223cfa342d93745f2a02",
+          "file_sha256": "84a32d9172f716b38c5c7778aab4775b3316ea01e9da223cfa342d93745f2a02"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "A",
+        "D2": "B",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T23-P2",
+      "query_id": "drb2_75",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_75/R7.md",
+          "evaluation_sha256": "674457edd2b62135ee80b997694422244cfcdba9f23fec772f5debd41db053c9",
+          "file_sha256": "6a8d70b0e1f45c35a89103c42f2ca752a5005ce1d45fb225f406411d3227b816"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_75/R4.md",
+          "evaluation_sha256": "05c03f4126aa4e692721107cdb2e42e45cc2f3f5ef5747930e1d0f817ea15bfe",
+          "file_sha256": "05c03f4126aa4e692721107cdb2e42e45cc2f3f5ef5747930e1d0f817ea15bfe"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T24-P1",
+      "query_id": "drb2_76",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_76/R2.md",
+          "evaluation_sha256": "999875b762d00a45c5cb1c4d95fd783f2a0a7174d7a76737a9ce4688a79bf960",
+          "file_sha256": "999875b762d00a45c5cb1c4d95fd783f2a0a7174d7a76737a9ce4688a79bf960"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_76/R7.md",
+          "evaluation_sha256": "db4b475894acdce059f85b1c4d117aa1591e5b25856ae60bb0743aca72629366",
+          "file_sha256": "fa6b144eea58dce9e3fa977ad9ae3b882429a972e70cec8395c191925dc3d15c"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T24-P2",
+      "query_id": "drb2_76",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_76/R4.md",
+          "evaluation_sha256": "f50ff4bc95980c054e3d936f37bc803849acee89f1a01dc91979b7fe15dbf73c",
+          "file_sha256": "f50ff4bc95980c054e3d936f37bc803849acee89f1a01dc91979b7fe15dbf73c"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_76/R3.md",
+          "evaluation_sha256": "a038c68e04a790c6cfa534395af77fc8181cf6bbfabdb40569ef8fb300acb47c",
+          "file_sha256": "a038c68e04a790c6cfa534395af77fc8181cf6bbfabdb40569ef8fb300acb47c"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T25-P1",
+      "query_id": "drb2_79",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_79/R6.md",
+          "evaluation_sha256": "9c3c7836301b916ebe91d4a3f9ae66437640422547492ec50adf3a67698988bd",
+          "file_sha256": "9c3c7836301b916ebe91d4a3f9ae66437640422547492ec50adf3a67698988bd"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_79/R5.md",
+          "evaluation_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171",
+          "file_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T25-P2",
+      "query_id": "drb2_79",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_79/R5.md",
+          "evaluation_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171",
+          "file_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/drb2_79/R7.md",
+          "evaluation_sha256": "cff7390851f559036f8f87531fd65fd0a0d51c5b3dd7de99229a2847a3250c77",
+          "file_sha256": "cff7390851f559036f8f87531fd65fd0a0d51c5b3dd7de99229a2847a3250c77"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T26-P1",
+      "query_id": "drb2_84",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_84/R5.md",
+          "evaluation_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a",
+          "file_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/drb2_84/R1.md",
+          "evaluation_sha256": "b863cd95f9b71b0841a73d0aabaea3a5e7fee963329c457d72d25d2e68b67f31",
+          "file_sha256": "096a9edbad6a8a49bd83499955df959fb1c73faad6c1db81e0934f7731315ab9"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T26-P2",
+      "query_id": "drb2_84",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_84/R5.md",
+          "evaluation_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a",
+          "file_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_84/R2.md",
+          "evaluation_sha256": "fba9c0b29b7ef66566f5a99020b629bf06917fbd82cd31e08b8b5cf5d6f70ed4",
+          "file_sha256": "fba9c0b29b7ef66566f5a99020b629bf06917fbd82cd31e08b8b5cf5d6f70ed4"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T27-P1",
+      "query_id": "drb2_95",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_95/R3.md",
+          "evaluation_sha256": "edda6a80b8b263ec28bd59604d9dff2080559e2f7d81cfd4087ae4698968533d",
+          "file_sha256": "edda6a80b8b263ec28bd59604d9dff2080559e2f7d81cfd4087ae4698968533d"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_95/R4.md",
+          "evaluation_sha256": "2115dbdd6a90a44f64df5f7e38257bc0a2ad2e0d704f9a00e83a277266d35dd5",
+          "file_sha256": "2115dbdd6a90a44f64df5f7e38257bc0a2ad2e0d704f9a00e83a277266d35dd5"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "tie",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T27-P2",
+      "query_id": "drb2_95",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/drb2_95/R4.md",
+          "evaluation_sha256": "2115dbdd6a90a44f64df5f7e38257bc0a2ad2e0d704f9a00e83a277266d35dd5",
+          "file_sha256": "2115dbdd6a90a44f64df5f7e38257bc0a2ad2e0d704f9a00e83a277266d35dd5"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/drb2_95/R6.md",
+          "evaluation_sha256": "cfa17792063970fabef14d402970a84d49736ca2e625a804b9e9dbac0657b1e6",
+          "file_sha256": "cfa17792063970fabef14d402970a84d49736ca2e625a804b9e9dbac0657b1e6"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T28-P1",
+      "query_id": "drb2_97",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/drb2_97/R2.md",
+          "evaluation_sha256": "757b6485bf20fe93047fccd5d8d398553c51fc586e17dae7aebeeb298d6f67d9",
+          "file_sha256": "757b6485bf20fe93047fccd5d8d398553c51fc586e17dae7aebeeb298d6f67d9"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_97/R3.md",
+          "evaluation_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9",
+          "file_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T28-P2",
+      "query_id": "drb2_97",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/drb2_97/R5.md",
+          "evaluation_sha256": "a5388bb73d6f14b04185e829ed6e6202e5cca7811d0868bc2fa357665d0ec174",
+          "file_sha256": "a5388bb73d6f14b04185e829ed6e6202e5cca7811d0868bc2fa357665d0ec174"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/drb2_97/R3.md",
+          "evaluation_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9",
+          "file_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "tie",
+        "D4": "tie",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T29-P1",
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/rr_683a58c9a7e7fe4e76958488/R3.md",
+          "evaluation_sha256": "a8756053df1ffcc7e017f09d884f3d400444b48ea00ad03ae6debbe251ca840e",
+          "file_sha256": "a8756053df1ffcc7e017f09d884f3d400444b48ea00ad03ae6debbe251ca840e"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_683a58c9a7e7fe4e76958488/R1.md",
+          "evaluation_sha256": "d54d9cfeb56947555f64531349eb7bd6139133f33c8620699cfc3040f0703f0b",
+          "file_sha256": "4a887d206b255a7f9ac6194da2b21ae280bf3f4379500940da002c1f9033f55a"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T29-P2",
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_683a58c9a7e7fe4e76958488/R1.md",
+          "evaluation_sha256": "d54d9cfeb56947555f64531349eb7bd6139133f33c8620699cfc3040f0703f0b",
+          "file_sha256": "4a887d206b255a7f9ac6194da2b21ae280bf3f4379500940da002c1f9033f55a"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_683a58c9a7e7fe4e76958488/R7.md",
+          "evaluation_sha256": "c8806e1989d702a2a7bd6b84bcc8beebfb7d5e3fcfdcc528820f12655086fe57",
+          "file_sha256": "c8806e1989d702a2a7bd6b84bcc8beebfb7d5e3fcfdcc528820f12655086fe57"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T30-P1",
+      "query_id": "rr_6847465956a0f6376a605343",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605343/R1.md",
+          "evaluation_sha256": "fec0923abe9665794b5c383d958eed0236d1344924706536842a207f11d2dd63",
+          "file_sha256": "bbbfcd2d115a2ba390e5464d3a62fb03285cbe8415707961249f6c20a00c02fd"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605343/R4.md",
+          "evaluation_sha256": "a10ae8e8de74eac73672e3cf8e3663699d080491a5ef2ca7515940e83a199fcb",
+          "file_sha256": "a10ae8e8de74eac73672e3cf8e3663699d080491a5ef2ca7515940e83a199fcb"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T30-P2",
+      "query_id": "rr_6847465956a0f6376a605343",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605343/R2.md",
+          "evaluation_sha256": "ca32315512a7cf9f9d7771364bf8b3ae8ec51a93449f9f8d55c61a24c8f9ae1f",
+          "file_sha256": "ca32315512a7cf9f9d7771364bf8b3ae8ec51a93449f9f8d55c61a24c8f9ae1f"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605343/R5.md",
+          "evaluation_sha256": "aa198d80ff8e6b62c756c2e3074245bed62e791023acdbe36981bf2eda03866a",
+          "file_sha256": "aa198d80ff8e6b62c756c2e3074245bed62e791023acdbe36981bf2eda03866a"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T31-P1",
+      "query_id": "rr_6847465956a0f6376a605363",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605363/R1.md",
+          "evaluation_sha256": "7074d987f5f9d4439d6c8fa9c7da69426391710a365fdb250d019cd26d85b8ec",
+          "file_sha256": "56b32be6162599b1a2cd69fabd5d3ba4fd468165872202111dd7e7d75d21cf20"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605363/R6.md",
+          "evaluation_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660",
+          "file_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T31-P2",
+      "query_id": "rr_6847465956a0f6376a605363",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605363/R7.md",
+          "evaluation_sha256": "52cbd04a2a792c3292d89ab0494a2ad3c580bfc122c615ba7d8806ef97fb3827",
+          "file_sha256": "52cbd04a2a792c3292d89ab0494a2ad3c580bfc122c615ba7d8806ef97fb3827"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605363/R6.md",
+          "evaluation_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660",
+          "file_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T32-P1",
+      "query_id": "rr_6847465956a0f6376a605371",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605371/R3.md",
+          "evaluation_sha256": "3eea0fa2007e320ca523a031fe020ebf56d5c5be0e65f1caa0643d2e442fffc1",
+          "file_sha256": "3eea0fa2007e320ca523a031fe020ebf56d5c5be0e65f1caa0643d2e442fffc1"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605371/R1.md",
+          "evaluation_sha256": "4f4f87eb026732bc21e586747d92991444b60e926d0a1aa9ec861b792985fb90",
+          "file_sha256": "90df5be5781bfd10fea10dc20e21c25d0f701eea225434ec5ae7d34ab4e70492"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "tie",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T32-P2",
+      "query_id": "rr_6847465956a0f6376a605371",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605371/R5.md",
+          "evaluation_sha256": "238303c8ac4df090805674584558a732418ce62662cf2544a8baf0b57646a55f",
+          "file_sha256": "238303c8ac4df090805674584558a732418ce62662cf2544a8baf0b57646a55f"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605371/R4.md",
+          "evaluation_sha256": "2b806d6ed9cb945f4ddf512a69fc94a275daa7c831057093e1854b2154fed1f9",
+          "file_sha256": "2b806d6ed9cb945f4ddf512a69fc94a275daa7c831057093e1854b2154fed1f9"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "B",
+        "D2": "A",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T33-P1",
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6053a0/R3.md",
+          "evaluation_sha256": "e3ace4313a5fc93ac2afb45cbf388c14f353409c121bccb1b8af612887da940d",
+          "file_sha256": "e3ace4313a5fc93ac2afb45cbf388c14f353409c121bccb1b8af612887da940d"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6053a0/R5.md",
+          "evaluation_sha256": "ed89e50af4eabe4ecad82d9286e99cd4c47d4b0c40c5a6b58c123d3ea4e9b454",
+          "file_sha256": "ed89e50af4eabe4ecad82d9286e99cd4c47d4b0c40c5a6b58c123d3ea4e9b454"
+        }
+      },
+      "labels": {
+        "overall": "tie",
+        "D1": "tie",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "tie",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T33-P2",
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6053a0/R6.md",
+          "evaluation_sha256": "eb2ee3d40f901a340c1a0b63b91092ff44075bf44df0f1753dfcf54127ea77be",
+          "file_sha256": "eb2ee3d40f901a340c1a0b63b91092ff44075bf44df0f1753dfcf54127ea77be"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6053a0/R2.md",
+          "evaluation_sha256": "4147614e099ec9d4c2869e6380d2360730a9a47099fbba69ca316a0e0b49f74e",
+          "file_sha256": "4147614e099ec9d4c2869e6380d2360730a9a47099fbba69ca316a0e0b49f74e"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T34-P1",
+      "query_id": "rr_6847465956a0f6376a605427",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605427/R4.md",
+          "evaluation_sha256": "0d9201d0f0391472ab666e969a3d34a404cb30669626ead5c6a095042acac49b",
+          "file_sha256": "0d9201d0f0391472ab666e969a3d34a404cb30669626ead5c6a095042acac49b"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605427/R2.md",
+          "evaluation_sha256": "65f72414f37cd47c8723567e0c3982c2d0bc9bb98155af94bd65cb25092ecf03",
+          "file_sha256": "65f72414f37cd47c8723567e0c3982c2d0bc9bb98155af94bd65cb25092ecf03"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T34-P2",
+      "query_id": "rr_6847465956a0f6376a605427",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605427/R6.md",
+          "evaluation_sha256": "3d01f04851c98c29703987d31ad634a6b72ad8e7bc3043b569e3b3ea0bd0f9e9",
+          "file_sha256": "3d01f04851c98c29703987d31ad634a6b72ad8e7bc3043b569e3b3ea0bd0f9e9"
+        },
+        "B": {
+          "report_id": "R4",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605427/R4.md",
+          "evaluation_sha256": "0d9201d0f0391472ab666e969a3d34a404cb30669626ead5c6a095042acac49b",
+          "file_sha256": "0d9201d0f0391472ab666e969a3d34a404cb30669626ead5c6a095042acac49b"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T35-P1",
+      "query_id": "rr_6847465956a0f6376a605434",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605434/R7.md",
+          "evaluation_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9",
+          "file_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605434/R3.md",
+          "evaluation_sha256": "57223189ca61b41238a56a91133913f4f7db402ad1f062b95597d9c39f1bbacf",
+          "file_sha256": "57223189ca61b41238a56a91133913f4f7db402ad1f062b95597d9c39f1bbacf"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T35-P2",
+      "query_id": "rr_6847465956a0f6376a605434",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605434/R5.md",
+          "evaluation_sha256": "29631cea39985cb71623bc6351722bcd73ad6d81184173ad80d26615b5bb6007",
+          "file_sha256": "29631cea39985cb71623bc6351722bcd73ad6d81184173ad80d26615b5bb6007"
+        },
+        "B": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605434/R7.md",
+          "evaluation_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9",
+          "file_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T36-P1",
+      "query_id": "rr_6847465956a0f6376a605443",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605443/R2.md",
+          "evaluation_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048",
+          "file_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605443/R6.md",
+          "evaluation_sha256": "518554612f34e5061ee3efbfbf9d97c5bd39e716972dc5ad2864c312d9553803",
+          "file_sha256": "518554612f34e5061ee3efbfbf9d97c5bd39e716972dc5ad2864c312d9553803"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "tie",
+        "D3": "A",
+        "D4": "tie",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T36-P2",
+      "query_id": "rr_6847465956a0f6376a605443",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605443/R7.md",
+          "evaluation_sha256": "33fcb8305c1826f82e54296b3caa9ad197e7aee43a84055efba2248715a2122d",
+          "file_sha256": "33fcb8305c1826f82e54296b3caa9ad197e7aee43a84055efba2248715a2122d"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605443/R2.md",
+          "evaluation_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048",
+          "file_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "A",
+        "D3": "A",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T37-P1",
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a60545c/R1.md",
+          "evaluation_sha256": "2aeeb2d3313bf18ff73db8029b8bc6da1ecf48a22b9be57c6b1070e32f7b4c5e",
+          "file_sha256": "0662b409d39dc5de44328b8191da7db0399bcd0b10853f5b2c1b886f284000c5"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a60545c/R2.md",
+          "evaluation_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258",
+          "file_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T37-P2",
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a60545c/R2.md",
+          "evaluation_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258",
+          "file_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a60545c/R6.md",
+          "evaluation_sha256": "58d902278b2c4ae18122aa27e66f8db4b0077f0763cc0ec9b868667d7c06fede",
+          "file_sha256": "58d902278b2c4ae18122aa27e66f8db4b0077f0763cc0ec9b868667d7c06fede"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "tie",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T38-P1",
+      "query_id": "rr_6847465956a0f6376a605492",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605492/R7.md",
+          "evaluation_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f",
+          "file_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f"
+        },
+        "B": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605492/R1.md",
+          "evaluation_sha256": "79bc6fd7798cbf73a83d3faf0d73a063e55fff31387b696aa13216018a8d7e33",
+          "file_sha256": "48504a8d447b1a56759f6626bea5403ce88ab8cc0fdae58b381f808711e40c67"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T38-P2",
+      "query_id": "rr_6847465956a0f6376a605492",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R7",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605492/R7.md",
+          "evaluation_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f",
+          "file_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a605492/R5.md",
+          "evaluation_sha256": "4ea1f18285baa812eacc2b5e018edb7f5e046523f8da37218057e026e358a64e",
+          "file_sha256": "4ea1f18285baa812eacc2b5e018edb7f5e046523f8da37218057e026e358a64e"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "tie",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "B"
+      }
+    },
+    {
+      "pair_id": "T39-P1",
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054a7/R1.md",
+          "evaluation_sha256": "d8613c1087a1e9211ccac33f34a87b172c0f910e27666b3e437d0326eb58cf73",
+          "file_sha256": "3f0c90db654cbdd0adac0055029ff1ac203209d4fbc6c334f7a837e64470bb38"
+        },
+        "B": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054a7/R5.md",
+          "evaluation_sha256": "9fad43f16f543d57dc4ac9da6ba8215dce0398fa30f8f3ef5728b3a0a431e9ef",
+          "file_sha256": "9fad43f16f543d57dc4ac9da6ba8215dce0398fa30f8f3ef5728b3a0a431e9ef"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "tie",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T39-P2",
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R1",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054a7/R1.md",
+          "evaluation_sha256": "d8613c1087a1e9211ccac33f34a87b172c0f910e27666b3e437d0326eb58cf73",
+          "file_sha256": "3f0c90db654cbdd0adac0055029ff1ac203209d4fbc6c334f7a837e64470bb38"
+        },
+        "B": {
+          "report_id": "R2",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054a7/R2.md",
+          "evaluation_sha256": "de050e323718fd773044f99adf9b56cfe8a51411d8e5c04e930ac816d8d67db0",
+          "file_sha256": "de050e323718fd773044f99adf9b56cfe8a51411d8e5c04e930ac816d8d67db0"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    },
+    {
+      "pair_id": "T40-P1",
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054d0/R6.md",
+          "evaluation_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86",
+          "file_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86"
+        },
+        "B": {
+          "report_id": "R3",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054d0/R3.md",
+          "evaluation_sha256": "b70f42e68164f2ae5ede67c985b0b1a513901830c982dff2ec46674c077e806a",
+          "file_sha256": "b70f42e68164f2ae5ede67c985b0b1a513901830c982dff2ec46674c077e806a"
+        }
+      },
+      "labels": {
+        "overall": "B",
+        "D1": "B",
+        "D2": "B",
+        "D3": "B",
+        "D4": "B",
+        "D5_D6": "A"
+      }
+    },
+    {
+      "pair_id": "T40-P2",
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "cohort": "studies7",
+      "sides": {
+        "A": {
+          "report_id": "R5",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054d0/R5.md",
+          "evaluation_sha256": "9f745f4deb63e3ea80e6b0227242b7af68d23de19942da2c7e1f4b0477dcd85d",
+          "file_sha256": "9f745f4deb63e3ea80e6b0227242b7af68d23de19942da2c7e1f4b0477dcd85d"
+        },
+        "B": {
+          "report_id": "R6",
+          "path": "data/reports/studies7/rr_6847465956a0f6376a6054d0/R6.md",
+          "evaluation_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86",
+          "file_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86"
+        }
+      },
+      "labels": {
+        "overall": "A",
+        "D1": "A",
+        "D2": "A",
+        "D3": "A",
+        "D4": "A",
+        "D5_D6": "tie"
+      }
+    }
+  ]
+}

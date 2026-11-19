@@ -1,0 +1,179 @@
+{
+  "version": "execution-routing-v1",
+  "task_key": "drb2:58",
+  "rubrics_sha256": "5c591cd9bd2a04e6ed3263a9189dc70bfe626fc1658a7f57073c7e0112a07c20",
+  "items": [
+    {
+      "id": "PT.D1.01",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.02",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.03",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.04",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.05",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.06",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.07",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.08",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.09",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.10",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.11",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.12",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.13",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D2.01",
+      "mode": "report_only",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Observable traceability, internal consistency or wording, not source entailment."
+    },
+    {
+      "id": "PT.D2.02",
+      "mode": "required",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Criterion explicitly concerns externally checked support."
+    },
+    {
+      "id": "PT.D1.14",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.15",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.16",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.17",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    },
+    {
+      "id": "PT.D1.18",
+      "mode": "optional",
+      "source": "all_completed_checks",
+      "purpose": "criterion_support",
+      "reason": "Potential factual dependence; judge can request one check, otherwise score from report."
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D3.02",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D2.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D4.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D5.01",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.01",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.02",
+      "mode": "direct_text"
+    }
+  ],
+  "status": "conservative_static_draft_not_human_reviewed",
+  "note": "Execution routing only. Required runs after bounded acquisition but always uses best available evidence to score, never pending/N/A. Other tasks need routing review before full release."
+}

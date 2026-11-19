@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CompareDR leaderboard: nine deep research systems evaluated on 40 bilingual tasks, with overall and five-dimensional scores.">
+<title>CompareDR Leaderboard — Deep Research Systems</title>
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/leaderboard.css"><link rel="stylesheet" href="assets/project.css">
+<script src="assets/data.js" defer></script><script src="assets/leaderboard.js" defer></script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href="index.html"><span class="brand-icon">C</span><span>CompareDR <b>Benchmark</b></span></a><nav aria-label="Main navigation"><a href="index.html">Overview</a><a href="#leaderboard" aria-current="page">Leaderboard</a><a href="index.html#resources">Resources</a><a href="#participate">Submit</a><a href="index.html#citation">Citation</a></nav><span class="draft">PUBLIC RESOURCES</span></header>
+<main>
+<section class="container board-hero">
+<p class="section-kicker">COMPAREDR / SYSTEM LEADERBOARD</p>
+<h1>Deep research,<br>compared across dimensions<span class="period">.</span></h1>
+<p class="hero-copy">Compare research systems on task fulfillment, evidence, reasoning, synthesis, and readability. Each entry represents a model <strong>and</strong> its research harness, evaluated on the same frozen tasks.</p>
+<div class="hero-actions"><a class="button primary" href="#leaderboard">View rankings ↓</a><a class="button secondary" href="#participate">Evaluate your system ↗</a></div>
+<div class="board-facts"><span><strong>9</strong> systems</span><span><strong>40</strong> tasks per system</span><span><strong>360</strong> reports</span><span><strong>1,099</strong> criteria</span></div>
+</section>
+<section id="leaderboard" class="leaderboard-section"><div class="container section">
+<div class="section-head"><div><p class="section-kicker">MAIN NINE-SYSTEM COHORT</p><h2>Overall ranking &amp; dimension scores</h2></div><div class="download-links"><a class="text-link" href="leaderboard.csv" download>CSV ↗</a><a class="text-link" href="leaderboard.json" download>JSON + protocol ↗</a></div></div>
+<div class="board-meta"><span><i></i> Manuscript snapshot · 16 November 2026</span><span>Higher is better · Scale 0–100 · Click any score column to sort</span></div>
+{{LEADERBOARD_TABLE}}
+<noscript><p class="table-note">The complete ranking above is readable without JavaScript; enable JavaScript only for interactive sorting.</p></noscript>
+<details open><summary>How to read this ranking</summary><p><strong>Total = 30% Responsiveness + 30% Evidence + 10% Reasoning + 10% Synthesis + 20% Readability.</strong> Queries receive equal weight. Scores combine pointwise audits with ordinal pairwise comparisons, where available. A score is not a percentage of factual accuracy. Bold values identify column leaders, not statistically significant differences.</p><p>The comparison pool is part of the protocol: adding a system can change existing systems' pairwise scores. A future expanded leaderboard must be labeled as a new cohort snapshot and consistently aggregated, not appended to this table using an independently computed score. <a class="text-link" href="index.html#method">Full scoring explanation ↗</a></p></details>
+</div></section>
+<section id="participate" class="container section">
+<div class="section-head"><div><p class="section-kicker">PARTICIPATE / NEW SYSTEMS</p><h2>Bring your system to CompareDR</h2></div><p>Contribute report outputs; evaluate under a shared protocol.</p></div>
+<div class="participation-steps">
+<article><span class="tag">01 / GENERATE</span><h3>Answer the frozen tasks</h3><p>Run your model and research harness on all 40 original queries. Preserve constraints, report text, and citation links; record generation settings and dates.</p></article>
+<article><span class="tag">02 / PACKAGE</span><h3>Provide reproducible inputs</h3><p>Include one complete report per query, query IDs, file hashes, model and harness names, and any failed tasks. Do not include credentials or private session data.</p></article>
+<article><span class="tag">03 / EVALUATE</span><h3>Use the same comparison protocol</h3><p>Maintainers validate inputs, bind the new cohort, and run or coordinate judging and aggregation. Accepted results are added with their cohort and evaluation settings.</p></article>
+</div>
+<div class="hero-actions"><a class="button primary" href="{{REPOSITORY_URL}}/issues/new?template=submit-system.yml" target="_blank" rel="noopener">Submit on GitHub  ↗</a><a class="button secondary" href="submission-template.zip" download>Download submission template ↗</a><a class="button secondary" href="submission-format.md" download>Package format &amp; validation ↗</a></div>
+<details open><summary>Required submission format</summary><p><strong>One ZIP per system:</strong> <code>submission.json</code> records the model, harness, reasoning setting, tools/budgets, generation dates, and permission scope. Place 40 complete UTF-8 Markdown reports in <code>reports/&lt;query_id&gt;.md</code>, preserving original citations. The template already lists every query ID and includes <code>queries.json</code> with the original tasks, without answer keys.</p><p>Run <code>python validate.py . --fill-hashes</code>, then <code>python validate.py .</code>. Attach the ZIP or an accessible package link in the GitHub form and paste the check result. Declare failed tasks explicitly; do not omit them. A format pass is not a quality score or automatic acceptance.</p></details>
+<p class="table-note">Submission intake uses a GitHub issue form. There is no automatic evaluation or score acceptance. The current evaluator CLI reruns the two bundled cohorts; arbitrary new-system intake still requires maintainer integration.</p>
+</section>
+</main>
+<footer class="container"><p>CompareDR · Nine-system snapshot / 2026-11-16 · Local preview</p><p><a href="index.html">Project overview</a> · <a href="leaderboard.json" download>Machine-readable scores and protocol</a></p></footer>
+</body></html>

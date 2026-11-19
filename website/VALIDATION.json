@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "tests": 29,
+  "checked_on": "2026-11-18",
+  "scope": "Local academic project-page update with collapsed authors, exact paper workflow, concrete criteria explorer, resource directory and manuscript citation; numerical inputs retained",
+  "synchronized_score_surfaces": [
+    "README.md",
+    "LEADERBOARD.md",
+    "website/dist/index.html",
+    "website/dist/leaderboard.html",
+    "website/dist/leaderboard.csv",
+    "website/dist/leaderboard.json",
+    "website/dist/data.json",
+    "website/dist/assets/data.js"
+  ],
+  "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
+  "pdf_sha256": "9601062a42df499ad3688a1f7bcf5b51635bd5b8c6272debedc61d54eaee96d5",
+  "same_baseline_stylesheet_and_domain_chart": true,
+  "presentation_override": "templates/project.css",
+  "authors_collapsed_by_default": true,
+  "content_versioned_scripts_and_styles": true,
+  "task_display_numbers": {
+    "range": "1–40",
+    "order": "existing dataset order",
+    "stable_after_language_filtering": true,
+    "per_task_source_and_raw_id_hidden": true,
+    "underlying_ids_links_and_source_metadata_unchanged": true,
+    "overall_source_attribution_retained": true,
+    "native_chrome_verified": ["all dropdown labels", "search 29", "search 40", "English starts at Task 6"]
+  },
+  "model_calls": 0,
+  "local_only": true,
+  "leaderboard_rows": 9,
+  "queries": 40,
+  "scientific_dataset_unchanged": true,
+  "main_leaderboard_synchronized": true,
+  "fixed_study_results_unchanged": true,
+  "standalone_leaderboard": true,
+  "static_rows_without_javascript": 9,
+  "browser_checks": {
+    "engine": "Supported Computer Use in-app browser",
+    "viewport_widths": [868, 1440, 390],
+    "pages": ["index.html", "leaderboard.html"],
+    "page_overflow": false,
+    "observed_javascript_errors": [],
+    "evidence_sort_both_directions": true,
+    "all_dimension_sort_unit_tests": true,
+    "screenshots_visually_reviewed": true,
+    "authors_expand_collapse_desktop_and_mobile": true,
+    "authors_keyboard_toggle": true,
+    "cleanup_limitation": "Return-to-home/viewport-reset timed out after successful QA; reconnect timed out, so reset state is unconfirmed."
+  },
+  "public_submission_service_enabled": false,
+  "submission_intake": {
+    "entry": "GitHub issue form",
+    "template": ".github/ISSUE_TEMPLATE/submit-system.yml",
+    "format_tests_passed": 9,
+    "query_only_template_records": 40,
+    "live_authenticated_form_verified": false,
+    "limitation": "Private resource targets checked locally; no live authenticated submission or repository synchronization performed in this update."
+  }
+}

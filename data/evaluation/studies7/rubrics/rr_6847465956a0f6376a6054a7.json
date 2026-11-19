@@ -1,0 +1,1192 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "rr:6847465956a0f6376a6054a7",
+  "language": "en",
+  "title": "UBI evidence from Finland, Canada and the United States",
+  "full_query": "Compare the effectiveness and potential long-term consequences of Universal Basic Income (UBI) programs in developed countries with pilot programs in Finland, Canada, and the U.S., utilizing data from peer-reviewed economic studies and policy analysis and commentary from experts published post-2015.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "UBI and the programs being compared",
+      "question": "Does the report define UBI and distinguish it from the targeted or conditional designs of the pilots it discusses?",
+      "anchors": {
+        "1": "No usable definition or program distinction.",
+        "2": "Uses UBI as a label for all cash transfers.",
+        "3": "Defines UBI but does not distinguish important targeting or conditionality in the selected pilots.",
+        "4": "Definition and program differences are clear with a minor scope ambiguity.",
+        "5": "Defines the universal and unconditional features of UBI, explains its relevant policy objectives, and distinguishes actual pilot eligibility, conditionality or earnings withdrawal from a universal national scheme."
+      },
+      "boundary": "Do not require every technical term in the official examples. Universal means the specified eligible population, not literally everyone worldwide; distinguish a randomized trial sample from the policy's proposed eligibility.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:13",
+          "rr:6847465956a0f6376a6054a7:flat:16",
+          "rr:6847465956a0f6376a6054a7:flat:28"
+        ],
+        "query_quotes": [
+          "Universal Basic Income (UBI)"
+        ],
+        "change_note": "Retain definition and design distinction; remove a compulsory glossary or assumption that all programs share one design."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Finnish pilot design",
+      "question": "Does the report describe the Finnish pilot design needed to interpret its findings?",
+      "anchors": {
+        "1": "No Finnish pilot is identified.",
+        "2": "Only gives a country or experiment name.",
+        "3": "Identifies the pilot but an important eligibility, payment, sample/comparison or duration detail is missing.",
+        "4": "The design and comparison context are clear, with a minor parameter or period gap.",
+        "5": "Specifies the relevant Finnish pilot's eligibility, transfer amount/frequency, sample and comparison design, and payment/observation duration so the reader can interpret its findings."
+      },
+      "boundary": "For the 2017–2018 experiment, €560 monthly and around 2,000 recipients are official checking leads, not independently verified facts here. Amount, sample and time belong to the design; no separate date or numeric score.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:15",
+          "rr:6847465956a0f6376a6054a7:flat:20",
+          "rr:6847465956a0f6376a6054a7:flat:25"
+        ],
+        "query_quotes": [
+          "pilot programs in Finland"
+        ],
+        "change_note": "Retain payment/sample design objects and comparable labels, but no mandatory table or isolated numeric-answer score."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Finnish effectiveness evidence",
+      "question": "Does the report describe Finnish findings on employment and well-being with their measurement and uncertainty?",
+      "anchors": {
+        "1": "No Finnish findings.",
+        "2": "Only calls the experiment a success or failure.",
+        "3": "Only employment or well-being is substantively addressed, or the effects have no interpretable period/comparison.",
+        "4": "Both outcome areas have concrete findings and uncertainty, with minor measurement or period gaps.",
+        "5": "Reports interpretable employment and well-being findings, separating effect magnitude, statistical uncertainty and observation period; differentiates outcomes rather than declaring a single overall success from one metric."
+      },
+      "boundary": "A non-significant employment result is not proof of zero effect. Evidence-based qualifications to the official minor-employment/clearer-well-being summary are allowed; no single sign or estimate is frozen.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:2",
+          "rr:6847465956a0f6376a6054a7:flat:18"
+        ],
+        "query_quotes": [
+          "effectiveness"
+        ],
+        "change_note": "Preserve the distinction between employment and well-being effects; add uncertainty and mixed-coverage anchors rather than a fixed conclusion."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Canadian pilot design and actual exposure",
+      "question": "Does the report describe the Canadian pilot's eligibility, payments, comparison and actual duration?",
+      "anchors": {
+        "1": "No Canadian pilot is identified.",
+        "2": "Only names a Canadian program.",
+        "3": "Important eligibility, payment, comparison or actual-duration information is missing.",
+        "4": "Design and actual exposure are clear with a minor gap.",
+        "5": "The selected Canadian pilot's target population, payment/withdrawal structure, comparison design and actual payment/observation periods are clear; early termination or incomplete implementation is explained when relevant."
+      },
+      "boundary": "Ontario is an official reference case, not the only permissible Canadian pilot. If used, distinguish planned duration, cancellation announcement, last payments and participants' actual exposure; do not impose the official about-ten-months phrase without checking its cohort and dates.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:3",
+          "rr:6847465956a0f6376a6054a7:flat:21",
+          "rr:6847465956a0f6376a6054a7:flat:25"
+        ],
+        "query_quotes": [
+          "Canada"
+        ],
+        "change_note": "Retain design and early-termination limitations, dropping a forced Canadian case and unverified uniform payment duration."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Canadian effectiveness evidence",
+      "question": "Does the report present interpretable Canadian pilot outcomes and distinguish observed findings from evidence gaps?",
+      "anchors": {
+        "1": "No Canadian outcomes.",
+        "2": "Only says the program worked, failed or was cancelled.",
+        "3": "Work or household-welfare outcomes, including health/well-being, lack both substantive findings and a study-specific explanation of the evidence gap; or the reported findings have unclear measurement, comparison or completion status.",
+        "4": "Work and household-welfare outcomes, including health/well-being, each have concrete findings or well-specified evaluation gaps, with minor scope ambiguity.",
+        "5": "Describes the selected Canadian pilot's work and household-welfare findings, including health/well-being, or specific evidence limits for those areas, identifying measurement and comparison status; early cancellation or missing causal evaluation is not treated as proof of no effect."
+      },
+      "boundary": "An evidence gap can be a substantive finding if its evaluation basis and consequences are explained. Do not invent outcomes or force Ontario's limited evidence to equal a completed randomized experiment.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:3",
+          "rr:6847465956a0f6376a6054a7:flat:18"
+        ],
+        "query_quotes": [
+          "effectiveness"
+        ],
+        "change_note": "Use official early-termination and health/welfare objects for the outcome-evidence distinction; no fixed result or compulsory Canadian site. v3.3 explicitly preserves the health/well-being domain within the profile."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "US pilot design",
+      "question": "Does the report describe the US pilot designs used in the comparison?",
+      "anchors": {
+        "1": "No US pilot is identified.",
+        "2": "Only names programs or cities.",
+        "3": "Identifies a pilot but lacks important eligibility, transfer, comparison or duration information.",
+        "4": "Selected pilots' relevant designs are clear with minor parameter gaps.",
+        "5": "Identifies the US pilots actually used and explains their target population, payment terms, assignment/comparison approach and duration, keeping distinct programs and cohorts separate."
+      },
+      "boundary": "No fixed number of US pilots. Stockton, Compton and Denver are examples, not a mandatory list. An additional pilot needs enough design context for any comparison based on it.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:16",
+          "rr:6847465956a0f6376a6054a7:flat:25"
+        ],
+        "query_quotes": [
+          "the U.S."
+        ],
+        "change_note": "Retain targeting and comparable design context, not specific city/sample-count requirements."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "US effectiveness evidence",
+      "question": "Does the report describe interpretable US pilot findings on work, financial security and well-being?",
+      "anchors": {
+        "1": "No US pilot findings.",
+        "2": "Only gives an overall success label.",
+        "3": "Only isolated outcomes are described, or a key area has neither findings nor an explained evidence gap.",
+        "4": "Relevant work, financial-security and well-being findings or specific gaps are clear, with minor measurement or time ambiguity.",
+        "5": "Presents the selected US pilots' relevant work, financial-security and well-being findings or documented measurement gaps, identifying comparison groups and periods and distinguishing income volatility from income level."
+      },
+      "boundary": "Do not require SEED or a fixed volatility percentage. If SEED is used, distinguish its measured full-time employment and income-volatility results by cohort and period. More pilots do not compensate for uninterpretable outcomes.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:4",
+          "rr:6847465956a0f6376a6054a7:flat:17",
+          "rr:6847465956a0f6376a6054a7:flat:18"
+        ],
+        "query_quotes": [
+          "effectiveness"
+        ],
+        "change_note": "Retain distinct outcome meanings and comparison context, removing compulsory SEED selection and fixed effect values."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "An explicit cross-country comparison",
+      "question": "Does the report directly compare the Finnish, Canadian and US evidence rather than give three unrelated profiles?",
+      "anchors": {
+        "1": "No comparative discussion.",
+        "2": "Only repeats country names or unrelated outcome claims.",
+        "3": "One country is not integrated, or employment, financial security, health/well-being, poverty/distribution or fiscal implications are omitted rather than compared or explicitly delimited.",
+        "4": "All three countries and the stated outcome domains are integrated, with a minor comparability or scope gap.",
+        "5": "Compares all three countries on employment, financial security including volatility where measured, health/well-being, poverty/distribution and fiscal implications; identifies which results can be aligned and where pilot measurement or scale prevents a direct comparison."
+      },
+      "boundary": "No common numerical measure or fixed table is required. A documented lack of measurement is informative only when tied to the relevant study, outcome and limitation; it cannot silently erase a domain. Pilot household income changes do not establish nationwide poverty or net fiscal effects. National estimates belong to the long-term items.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:7"
+        ],
+        "query_quotes": [
+          "Compare the effectiveness and potential long-term consequences"
+        ],
+        "change_note": "Restore the official substantive comparison domains without imposing identical measures or named Canadian/US cases."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Limits of pilot-to-national inference",
+      "question": "Does the report distinguish observed pilot effects from sustained national-policy claims?",
+      "anchors": {
+        "1": "Treats pilot results as direct proof of national long-run effects, or makes no distinction at all.",
+        "2": "Adds a generic caveat while still claiming nationwide inflation or sustained GDP effects from pilot data alone.",
+        "3": "Separates observed and projected results in places but leaves an important population, duration or scale jump unsupported.",
+        "4": "Pilot-to-national limits are explicit and consequential claims are qualified, with a minor scope ambiguity.",
+        "5": "Clearly separates observed pilot results from national long-run projections, explains relevant short-duration and small/local-sample limits, and does not claim that pilot data alone establish national inflation or sustained GDP effects."
+      },
+      "boundary": "This checks the stated inference boundary, not whether every long-term domain is present. The new labor, fiscal, macro and health items check those domains separately. Conditional national projections using additional evidence are permitted; absence of observed national evidence is not proof of no effect.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:6",
+          "rr:6847465956a0f6376a6054a7:flat:10"
+        ],
+        "query_quotes": [
+          "potential long-term consequences"
+        ],
+        "change_note": "Narrow the former omnibus future-consequences item to external validity and preserve the negative macro-inference restriction; restore substantive domains in explicit items."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Requested evidence types and dates",
+      "question": "Does the report use post-2015 peer-reviewed economic research and policy analysis or expert commentary?",
+      "anchors": {
+        "1": "No relevant identifiable evidence.",
+        "2": "Relies only on unsourced opinion or predominantly ineligible older material.",
+        "3": "Uses relevant recent material but peer-reviewed economic evidence or policy/expert analysis is absent, or dates/status are materially unclear.",
+        "4": "Both evidence types and post-2015 publication basis are identifiable, with minor classification or dating gaps.",
+        "5": "The analysis actually uses post-2015 peer-reviewed economic evidence and policy/expert analysis with identifiable publication dates and roles; older historical material is explicitly distinguished as background rather than substituted for the required evidence."
+      },
+      "boundary": "Post-2015 concerns publication, not when a pilot began. A working paper, preprint or sponsor report must not be labelled peer-reviewed without basis. Earlier program data discussed in a later eligible study can qualify.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:9",
+          "rr:6847465956a0f6376a6054a7:flat:19"
+        ],
+        "query_quotes": [
+          "data from peer-reviewed economic studies and policy analysis and commentary from experts published post-2015"
+        ],
+        "change_note": "Combine positive recent sourcing and negative old-source concern; query explicitly adds peer-review and policy/expert evidence types. No fixed source brand."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceable estimates and interpretations",
+      "question": "Can the report's quantitative claims and attributed interpretations be traced to specific sources or stated derivations?",
+      "anchors": {
+        "1": "Central quantitative claims have no identifiable basis.",
+        "2": "Only generic references are given; most quantities cannot be traced.",
+        "3": "Sources are listed but an important quantity or interpretation lacks a clear link, or smaller quantitative claims repeatedly lack attribution.",
+        "4": "Quantitative claims and attributed interpretations are traceable apart from an isolated minor attribution gap.",
+        "5": "All quantitative claims have identifiable source links or reviewable derivations from cited inputs, with program, outcome, period and units distinguished; attributed expert interpretations are identifiable."
+      },
+      "boundary": "No mandatory citation layout or URL. One clearly scoped citation can cover a group of figures. Publication eligibility is checked in PT.D1.10, and factual support only within the actual sample in PT.D2.02; a visible citation alone proves neither.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore quantitative-claim traceability rather than exempting all supposedly incidental numbers; citation syntax remains flexible."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support in the assessed evidence sample",
+      "question": "Within the actually verified sample, does obtained evidence support the report's outcome and policy assertions?",
+      "anchors": {
+        "1": "Central checked findings are contradicted or lack their claimed basis.",
+        "2": "Several important checked claims have substantive support errors.",
+        "3": "Some checked claims hold, but an important outcome, population, period or certainty mismatch remains.",
+        "4": "Important assessed claims hold apart from minor overstatement or attribution issues.",
+        "5": "All assessed claims match obtained evidence in population, design, outcome, period and strength; unchecked assertions are not certified."
+      },
+      "boundary": "Record selected/assessed counts and sources obtained. Inaccessibility is an execution failure, not a low score, automatic 5 or NA. This batch authors the check but does not conduct external verification.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local bounded evidence-support audit, distinct from visible citations and mandatory publication types."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Consistent treatment of programs and estimates",
+      "question": "Are pilot identities, treatment amounts, units and comparisons internally consistent?",
+      "anchors": {
+        "1": "Core program identities or estimates conflict so the conclusions are indeterminate.",
+        "2": "A major unexplained contradiction changes a central comparison.",
+        "3": "A local substantive inconsistency remains but the comparison is interpretable.",
+        "4": "Core definitions and figures agree with minor ambiguity.",
+        "5": "Checked program labels, currencies, payment periods, populations and outcome definitions agree; gross versus net costs and observed versus modeled estimates remain distinct when used."
+      },
+      "boundary": "This consistency item does not separately penalize absence of a fiscal model: the required macro projection is checked in PT.D1.13. Nor must all programs use the same outcome measure. Check identities and accounting of estimates actually presented; internal consistency is not external validation.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local audit of program and estimate identities across the comparison."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Sustained labor incentives",
+      "question": "Does the report explain potential sustained labor responses to national UBI using post-2015 evidence?",
+      "anchors": {
+        "1": "No long-term labor discussion.",
+        "2": "Only predicts that people will work more or less.",
+        "3": "Identifies a labor mechanism but lacks a post-2015 basis or conflates a temporary pilot effect with a sustained response.",
+        "4": "Explains a supported labor response and its conditions with a minor evidence or design gap.",
+        "5": "Explains how a sustained transfer and its financing or withdrawal design could change labor incentives or work choices, using identifiable post-2015 research and distinguishing projections from pilot observations."
+      },
+      "boundary": "No preferred direction or required list of job search, entrepreneurship, hours and retraining. At least a concrete labor-response mechanism is required; a generic future-benefits paragraph is insufficient.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:11"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore labor incentives as a content domain, not an optional route within any long-term discussion."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Annual national transfer cost",
+      "question": "Does the report give an interpretable annual national UBI cost estimate for a developed country?",
+      "anchors": {
+        "1": "No national cost estimate.",
+        "2": "Only calls UBI expensive or gives an unscoped number.",
+        "3": "Gives a numerical cost but a material country, benefit, coverage, annualization or post-2015 source basis is missing.",
+        "4": "Annual national cost and its assumptions are identifiable with a minor unit or coverage ambiguity.",
+        "5": "Provides a sourced post-2015 annual national transfer-cost estimate for a developed country, identifying benefit level, covered population and monetary or GDP units; states whether it is gross outlay or another cost concept."
+      },
+      "boundary": "No mandated country, benefit level or source brand. Currency and GDP share are alternatives. Net offsets do not replace identification of the transfer outlay; a transparent derivation from cited post-2015 inputs is allowed if labeled as the report's calculation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a numerical fiscal scale estimate and its defining assumptions; do not hide presence under relative fiscal usefulness."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Quantitative national macro projection",
+      "question": "Does the report present a sourced national macroeconomic projection with its financing assumption?",
+      "anchors": {
+        "1": "No quantitative national macro projection.",
+        "2": "Gives a macro slogan or labels pilot outcomes as a national forecast.",
+        "3": "Reports a projected number but lacks a credible post-2015 model source, outcome definition or financing assumption.",
+        "4": "A quantitative macro projection and financing basis are clear, with a minor horizon or scale ambiguity.",
+        "5": "Presents a quantitative national general-equilibrium or macro-model projection for developed-country UBI from an identifiable credible post-2015 source, stating the projected outcome, horizon or model regime, and financing assumption."
+      },
+      "boundary": "No particular model, country, sign or output variable is mandatory. GDP, aggregate labor or inflation are examples, not a checklist. A simple benefit-times-population calculation does not substitute for a modeled macro consequence; projections are not observed pilot effects.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore the original modeled quantitative distinction while leaving model and outcome choice open."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Long-term national health projection",
+      "question": "Does the report quantify a conditional long-term national health-care cost or utilization consequence?",
+      "anchors": {
+        "1": "No national long-term health-cost or utilization discussion.",
+        "2": "Only asserts that healthier recipients will save money.",
+        "3": "Gives a qualitative mechanism or a number without a post-2015 national projection basis, relevant population or time context.",
+        "4": "A sourced quantitative national health projection is clear, with a minor contextual gap.",
+        "5": "Reports a post-2015 quantitative projection of national UBI's long-term health-care cost or utilization consequences in a developed country, with population, period and relevant assumptions; distinguishes projected savings or use changes from pilot well-being scores."
+      },
+      "boundary": "No mandatory positive savings, disease, hospital metric or source brand. Cost and utilization are alternatives. Evidence gaps must be stated honestly rather than inventing a forecast; a qualitative discussion alone does not preserve the official quantitative distinction.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:22"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore long-term health-care quantification, separate from observed mental well-being and generic fiscal offsets."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Net national public-finance balance",
+      "question": "Does the report explain national UBI fiscal burdens after considering specified potential public-finance offsets and their assumptions?",
+      "anchors": {
+        "1": "No net national fiscal analysis.",
+        "2": "Confuses gross transfers with net cost or assumes unspecified savings pay for everything.",
+        "3": "Identifies potential offsets but does not explain how they relate to spending or what conditions determine their fiscal relevance.",
+        "4": "Explains spending, relevant potential offsets and their main conditions using identifiable evidence, with a minor accounting or scope gap.",
+        "5": "Uses identifiable post-2015 study or policy-analysis evidence to explain how expenditure and specified potential offsets affect the net fiscal burden under stated assumptions, distinguishing established estimates from uncertain savings without double counting."
+      },
+      "boundary": "A numerical net figure is eligible but not mandatory; a concrete evidence-based qualitative account of expenditure, offsets and their limits can suffice. Merely listing possible savings cannot. Do not equate a financing tax with a real resource saving or assume all benefits are budget offsets. State important scope exclusions; no prescribed offset category or positive net outcome.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 39: retain concrete evidence, assumptions and policy meaning while allowing non-numerical analysis. The official mandatory numerical format is not fully preserved."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "National delivery administration cost",
+      "question": "Does the report assess the administrative burden of delivering national UBI using identifiable evidence and explicit delivery assumptions?",
+      "anchors": {
+        "1": "No administration-cost discussion.",
+        "2": "Only calls UBI administratively simple or cheap.",
+        "3": "Identifies cost drivers or an estimate, but the basis, delivery assumptions or relevance to national implementation is unclear.",
+        "4": "Provides an interpretable, evidence-based assessment of national delivery administration and its main assumptions, with a minor scope gap.",
+        "5": "Uses cited evidence or a transparent derivation to assess national delivery administration, explains the relevant processes and assumptions, and distinguishes remaining administrative burdens from transfer payments and possible savings from replacing existing programs."
+      },
+      "boundary": "Currency, a share of benefit outlay, other relevant resource measures or a concrete qualitative comparison are eligible; no mandatory unit or numerical estimate. A general claim of simplicity is insufficient. Do not convert staffing or process evidence into a monetary estimate without a stated basis; do not confuse transfers or gross program-replacement savings with remaining administration costs.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:26"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 39: retain concrete evidence, assumptions and policy meaning while allowing non-numerical analysis. The official mandatory numerical format is not fully preserved."
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "Political conditions for national durability",
+      "question": "Does the report explain a sourced political or public-support barrier to sustained national UBI?",
+      "anchors": {
+        "1": "No political-feasibility discussion.",
+        "2": "Only says UBI is controversial.",
+        "3": "Names a barrier or cancellation but does not connect it to national policy durability or identify post-2015 support.",
+        "4": "Connects a supported political barrier to sustained implementation, with a minor scope gap.",
+        "5": "Uses post-2015 evidence or expert policy analysis to explain how a concrete political or public-opinion barrier could affect adoption or persistence of national UBI, distinguishing policy durability from transfer effectiveness."
+      },
+      "boundary": "No compulsory poll, party list or number of obstacles. An implementation difficulty qualifies only if its political-support or decision consequence is explained; cancellation alone does not establish ineffectiveness.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:23"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a common political-feasibility content check alongside, not inside, relative policy insight."
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "Projection uncertainty or sensitivity",
+      "question": "Does the report explain how specific uncertainties or assumptions affect a long-term national UBI conclusion or projection?",
+      "anchors": {
+        "1": "No treatment of uncertainty in long-term national-policy conclusions.",
+        "2": "Only says forecasts are uncertain.",
+        "3": "Names an uncertainty or alternative scenario but does not explain which conclusion it changes or how; numerical bounds, if used, lack a clear meaning.",
+        "4": "Explains how a specific uncertain input or assumption affects a long-term conclusion, with a minor condition or scope gap.",
+        "5": "Identifies a material uncertainty, relates alternative plausible assumptions to the direction, strength or applicability of a national-policy conclusion, and makes clear what can and cannot be inferred; any numerical bounds are correctly described as statistical or assumption-driven."
+      },
+      "boundary": "Quantitative intervals, numerical scenarios and specific qualitative conditional reasoning are all eligible; no numerical projection or interval is required. Generic caution is insufficient. A pilot confidence interval alone does not establish national uncertainty. Do not label assumed scenarios as statistical confidence intervals, invent precision, or claim that uncertainty alone reverses a conclusion.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:27"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 39: retain concrete evidence, assumptions and policy meaning while allowing non-numerical analysis. The official mandatory numerical format is not fully preserved."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "What the pilots identify",
+      "question": "Which report better explains what the pilot evidence can establish about effectiveness?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A better explains an important design or measurement limitation affecting an effectiveness inference; B may still have local strengths.",
+        "2": "A offers a substantially stronger account of what comparison groups, follow-up and outcome measures do and do not identify; B's local strengths do not close this gap.",
+        "-2": "B offers a substantially stronger account of what comparison groups, follow-up and outcome measures do and do not identify; A's local strengths do not close this gap.",
+        "-1": "On balance, B better explains an important design or measurement limitation affecting an effectiveness inference; A may still have local strengths."
+      },
+      "boundary": "A larger employment change is not automatically stronger evidence. Distinguish assignment, attrition, self-report, changing policy context and truncated follow-up when relevant; no compulsory econometric method or exhaustive bias checklist. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local comparative causal-identification criterion; separates reporting findings from interpreting their causal strength."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Extrapolation to sustained national policy",
+      "question": "Which report reasons more convincingly from small or temporary pilots to possible sustained national UBI consequences?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A better justifies an important extrapolation or uncertainty boundary; B may still have local strengths.",
+        "2": "A provides a substantially stronger, explicitly conditional bridge from pilot evidence to national long-run consequences; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially stronger, explicitly conditional bridge from pilot evidence to national long-run consequences; A's local strengths do not close this gap.",
+        "-1": "On balance, B better justifies an important extrapolation or uncertainty boundary; A may still have local strengths."
+      },
+      "boundary": "Pilot outcomes cannot by themselves establish nationwide inflation or sustained GDP growth. Model results must retain financing and behavioral assumptions; a qualitative explanation can be stronger than an ill-matched numerical model. Confidence intervals or scenarios help through the uncertainty they resolve, not their mere presence. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:6",
+          "rr:6847465956a0f6376a6054a7:flat:10",
+          "rr:6847465956a0f6376a6054a7:flat:12",
+          "rr:6847465956a0f6376a6054a7:flat:27"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain relative validity of the pilot-to-national bridge; PT.D1.09/.13/.18 now separately restore the inference boundary, modeled projection and numerical uncertainty requirements."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Interpreting effectiveness across outcomes",
+      "question": "Which report offers a more useful conclusion about what these programs achieved, for whom and on which outcomes?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A more usefully resolves an important difference between work and household-welfare findings; B may still have local strengths.",
+        "2": "A gives a substantially more useful cross-country judgment that distinguishes outcome-specific gains, limits and affected groups; B's local strengths do not close this gap.",
+        "-2": "B gives a substantially more useful cross-country judgment that distinguishes outcome-specific gains, limits and affected groups; A's local strengths do not close this gap.",
+        "-1": "On balance, B more usefully resolves an important difference between work and household-welfare findings; A may still have local strengths."
+      },
+      "boundary": "A welfare gain need not require employment growth, and an employment change need not establish poverty reduction. Compare the consequences of the synthesis, not the PT coverage count or a second score for causal validity. No pro- or anti-UBI verdict is preferred. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain synthesis across outcomes while separating its decision meaning from coverage and causal validity."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Financing and distributional consequences",
+      "question": "Which report better clarifies how financing and benefit design change the long-term policy implications of UBI?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A more usefully clarifies an important fiscal or distributional trade-off; B may still have local strengths.",
+        "2": "A provides a substantially more useful account of how payment design, financing or offsets change who gains and the public-resource burden; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially more useful account of how payment design, financing or offsets change who gains and the public-resource burden; A's local strengths do not close this gap.",
+        "-1": "On balance, B more usefully clarifies an important fiscal or distributional trade-off; A may still have local strengths."
+      },
+      "boundary": "Gross transfer cost is not net fiscal cost; health or administrative savings are conditional rather than automatic offsets. PT.D1.12/.14 check national cost and health estimates; PT.D1.15 checks the net fiscal account without requiring a numerical net figure. Here, compare what the financing analysis reveals about public burdens and beneficiaries; more numbers or fulfilled PT requirements alone do not imply a stronger judgment. Identify an implication beyond simply listing costs. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:5",
+          "rr:6847465956a0f6376a6054a7:flat:22",
+          "rr:6847465956a0f6376a6054a7:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore fiscal and health quantification in explicit PT items; keep this PW for the explanatory value of financing-dependent distributional trade-offs."
+      }
+    },
+    {
+      "id": "PW.D4.03",
+      "dimension": "D4",
+      "title": "Durability and political feasibility",
+      "question": "Which report better clarifies what could allow or prevent a pilot's benefits from persisting through national implementation?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A more usefully connects an important political or implementation condition to policy durability; B may still have local strengths.",
+        "2": "A provides substantially more useful insight into how political support or implementation constraints affect sustained policy benefits; B's local strengths do not close this gap.",
+        "-2": "B provides substantially more useful insight into how political support or implementation constraints affect sustained policy benefits; A's local strengths do not close this gap.",
+        "-1": "On balance, B more usefully connects an important political or implementation condition to policy durability; A may still have local strengths."
+      },
+      "boundary": "Do not require a public-opinion poll, party list or implementation blueprint. A cancellation can reveal fragility without proving the transfer itself ineffective; distinguish this decision implication from causal-evidence loss. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:23",
+          "rr:6847465956a0f6376a6054a7:flat:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain political feasibility and cancellation as policy-durability context, not a fixed survey requirement or an effectiveness verdict."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence appropriate to each inference",
+      "question": "Which report uses an evidence set better suited to its comparative effectiveness and long-term claims?",
+      "anchors": {
+        "0": "Neither report has a defensible net advantage on this question: both help similarly, neither helps, or equally consequential opposing strengths balance. State which situation applies.",
+        "1": "On balance, A uses somewhat more applicable evidence for an important cross-country inference; B may still have local strengths.",
+        "2": "A uses substantially better matched and complementary studies or expert analysis for the key claims; B's local strengths do not close this gap.",
+        "-2": "B uses substantially better matched and complementary studies or expert analysis for the key claims; A's local strengths do not close this gap.",
+        "-1": "On balance, B uses somewhat more applicable evidence for an important cross-country inference; A may still have local strengths."
+      },
+      "boundary": "Peer review does not erase design differences; commentary cannot substitute for causal estimates, and pilot data cannot substitute for macro assumptions. Evaluate applicability, not source counts or a prestige ranking. For opposing strengths, identify the consequence for this criterion on both sides and use the same importance basis, not the most favorable isolated example. Equally consequential opposing strengths yield 0; ±1 requires a modest net advantage and ±2 a substantial net advantage.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local evidence-set comparison beyond required source types."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Progression from pilots to policy",
+      "question": "Which original report provides a more helpful path from program context through findings to the comparative policy discussion?",
+      "anchors": {
+        "0": "The original reports provide comparable reading paths; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has a somewhat clearer progression between pilot evidence and policy conclusions; B may still have local strengths.",
+        "2": "A has substantially clearer whole-report progression, with useful cross-references and summaries rather than repetitive pilot profiles; B's local strengths do not close this gap.",
+        "-2": "B has substantially clearer whole-report progression, with useful cross-references and summaries rather than repetitive pilot profiles; A's local strengths do not close this gap.",
+        "-1": "On balance, B has a somewhat clearer progression between pilot evidence and policy conclusions; A may still have local strengths."
+      },
+      "boundary": "No required separate section for every pilot or fixed table; clarity of original organization is the object.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:1"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt separate-pilot-section requirement into actual whole-report readability rather than compulsory layout."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear policy and statistical language",
+      "question": "Which report explains its existing UBI terminology and estimates more clearly?",
+      "anchors": {
+        "0": "The existing terminology and estimates offer similar clarity; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes important policy terms or statistical comparisons somewhat easier to understand; B may still have local strengths.",
+        "2": "A makes the existing program distinctions and estimates substantially more understandable through precise wording and labels; B's local strengths do not close this gap.",
+        "-2": "B makes the existing program distinctions and estimates substantially more understandable through precise wording and labels; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes important policy terms or statistical comparisons somewhat easier to understand; A may still have local strengths."
+      },
+      "boundary": "Explain specialized terms when used, not a mandatory glossary. Do not reward more estimates or methodological complexity as clarity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain understandable terminology, remove a checklist of tax and income-support terms."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding a pilot result and its basis",
+      "question": "Which original report makes it easier to locate a pilot's design, result and stated source?",
+      "anchors": {
+        "0": "The reports offer comparable lookup help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes an important pilot/outcome lookup somewhat easier; B may still have local strengths.",
+        "2": "A substantially reduces searching to connect pilot-specific results with design context and stated sources; B's local strengths do not close this gap.",
+        "-2": "B substantially reduces searching to connect pilot-specific results with design context and stated sources; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes an important pilot/outcome lookup somewhat easier; A may still have local strengths."
+      },
+      "boundary": "A consistent comparison table may help but is not required. Do not score citation truth or whole-report flow again.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6054a7:flat:25"
+        ],
+        "query_quotes": [],
+        "change_note": "Use comparable labeling/navigation aspect, not a compulsory table or consolidated bullet block."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:1",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "Retain navigable country distinctions, not a compulsory separate section for every pilot.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 can distinguish an intelligible country-to-policy reading path from disordered profiles; it deliberately does not distinguish two equally clear layouts solely by section headings.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:2",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "Preserve the employment versus well-being contrast in PT.D1.03 rather than freezing an effect sign across estimands.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03 assigns 3 if either outcome is missing and 5 only for interpretable findings and uncertainty in both. A blanket zero-employment claim cannot substitute for period-specific evidence; the exact official result wording is not an unverified answer key.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:3",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.05",
+        "PW.D4.03"
+      ],
+      "reason": "Retain actual exposure and evidence loss in PT.D1.04/.05 and political durability in PW.D4.03; do not require Ontario over another justified Canadian case.",
+      "status": "adapted",
+      "discrimination_check": "For Ontario, planned duration without actual cancellation/payment timing is a material design gap (3); cancellation asserted as proof of no effect fails .05. The uniform ten-month claim is not retained because participant exposure and dates need checking. PT.D1.05 now treats missing work and missing household/health evidence symmetrically: either domain needs findings or a specific documented evaluation gap for 4/5.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:4",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain interpretable US employment evidence in PT.D1.07; Stockton remains a permissible reference case, not the only case.",
+      "status": "adapted",
+      "discrimination_check": "For SEED, a generic employment improvement without full-time outcome/comparison/period cannot reach 5. The fixed positive SEED result is not demanded when a different US pilot is appropriately compared.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:5",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.02"
+      ],
+      "reason": "Restore annual national cost, benefit level, coverage and currency/GDP scale in PT.D1.12; PW.D4.02 only compares resulting policy insight.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12 gives 1 for no estimate, 3 for missing defining assumptions and 5 for an interpretable post-2015 numerical basis. A labeled derivation from cited post-2015 inputs is allowed, so the original requirement that the final number itself appear in a source is relaxed, not the quantitative content.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:6",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.02"
+      ],
+      "reason": "Preserve the negative direction: PT.D1.09 disallows treating pilots alone as proof of nationwide inflation or sustained GDP growth, and PW.D3.02 compares justified extrapolation.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 gives 2 when a token caveat coexists with the forbidden macro claim, versus 5 for an explicit bounded distinction. Conditional external model evidence is allowed, not confused with pilot identification.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:7",
+      "targets": [
+        "PT.D1.08",
+        "PW.D4.01"
+      ],
+      "reason": "Restore employment, financial security/volatility, health, poverty/distribution and fiscal comparison in PT.D1.08; PW.D4.01 compares the resulting achievement judgment.",
+      "status": "adapted",
+      "discrimination_check": "All three countries must enter the comparison. Omission of any important stated domain gives 3, whereas documented measurement and national-scale limits can explain non-comparability at 5. No mandatory Ontario choice or identical measurement table.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:8",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01 preserves intelligible specialized language actually used; no compulsory introduction of every example term.",
+      "status": "adapted",
+      "discrimination_check": "An unexplained EMTR or negative-income-tax concept used in the argument can create a clarity disadvantage; not using that term does not. The original exact glossary list is not retained.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:9",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10 preserves actual use of identifiable post-2015 economics and policy/expert analysis; country findings also require an interpretable basis.",
+      "status": "adapted",
+      "discrimination_check": "Only recent commentary or only economics research is 3; both requested evidence roles must be present for 5. Country estimates are also traceable in PT.D2.01. Source brands and Ontario/Stockton choice are not fixed.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:10",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.02"
+      ],
+      "reason": "PT.D1.09 directly preserves local/short pilot versus sustained national scope; PW.D3.02 tests reasoning beyond presence of caveats.",
+      "status": "retained",
+      "discrimination_check": "An important duration or population jump remains 3 even when generic uncertainty is acknowledged; consequential scope distinctions are required for 5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:11",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "PT.D1.11 now directly requires supported long-term labor-incentive analysis, rather than treating labor as an optional route.",
+      "status": "adapted",
+      "discrimination_check": "Unexplained forecasts or only temporary pilot work findings cannot reach 5; a post-2015 sustained-response mechanism and design conditions can. Specific job-choice examples and a predetermined direction are not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:12",
+      "targets": [
+        "PT.D1.13",
+        "PW.D3.02"
+      ],
+      "reason": "PT.D1.13 restores a quantitative macro/general-equilibrium projection and financing assumption; PW.D3.02 compares the bridge's justification.",
+      "status": "retained",
+      "discrimination_check": "No numerical projection is 1, a model number without financing is 3, and a contextualized post-2015 modeled projection is 5. Particular output variables and model brands remain alternatives.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:13",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 directly retains universality/unconditionality versus targeted guaranteed-income designs.",
+      "status": "retained",
+      "discrimination_check": "A correct generic definition with actual targeting unclassified is 3; a clear definition mapped to selected programs is 5. Trial sampling is not mistaken for proposed policy universality.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:14",
+      "targets": [
+        "PT.D2.01"
+      ],
+      "reason": "PT.D2.01 now covers all quantitative claims with traceable sources or reviewable sourced-input derivations; source eligibility remains PT.D1.10.",
+      "status": "adapted",
+      "discrimination_check": "An important untraceable number or repeated smaller untraceable quantities gives 3; all quantities traceable gives 5. Exact inline/footnote format is not required, and a derivation need not be quoted as if itself published.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:15",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02 retains the actual Finnish transfer amount and monthly/payment period, including the official €560 reference as a verification lead.",
+      "status": "adapted",
+      "discrimination_check": "Missing an important payment amount or frequency is 3 rather than full credit for naming Finland. The numerical design must be reported; its factual support is not certified without the separate obtained-evidence check.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:16",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.01/.06 retain the distinction between universal policy and targeted Canadian/US guaranteed-income designs and actual selected US eligibility.",
+      "status": "adapted",
+      "discrimination_check": "Calling every targeted transfer universal fails the conceptual distinction; a US pilot without meaningful targeting terms is 3 in .06. Exact city list and sample counts for all example programs are not mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:17",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07 explicitly retains financial-security evidence and volatility distinct from income level.",
+      "status": "adapted",
+      "discrimination_check": "Income level alone cannot satisfy unexplained volatility findings when material to the selected pilot; a missing financial-security area is 3. For SEED, measured volatility must have comparison and period; the exact official percentages and compulsory SEED selection are not frozen.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:18",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.05",
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.03/.05/.07 explicitly require each country's health/well-being findings or study-specific documented measurement/evaluation limits.",
+      "status": "adapted",
+      "discrimination_check": "Employment alone cannot reach 5. Canada now explicitly names health/well-being rather than letting any household outcome substitute. No uniform effect sign or particular scale is demanded, and a real documented data gap is not fabricated into a result. PT.D1.05 now treats missing work and missing household/health evidence symmetrically: either domain needs findings or a specific documented evaluation gap for 4/5.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:19",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Retain the negative concern in PT.D1.10: older material cannot substitute for the requested post-2015 evidence.",
+      "status": "adapted",
+      "discrimination_check": "Predominantly ineligible older evidence is 2, while earlier background must be explicitly separated and justified. Post-2015 analysis of an older experiment is eligible; negative weight is not inverted into a bonus for older sources.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:20",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02 retains Finnish sample and comparison context, with around 2,000 recipients as an unverified official lead.",
+      "status": "adapted",
+      "discrimination_check": "Payment described without sample/comparison context is 3; both are needed for 5. No separate isolated sample-number score, and factual matching remains subject to actual source verification.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:21",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "PT.D1.04 retains substantive Canadian eligibility and earnings-withdrawal structure, not just a pilot title.",
+      "status": "adapted",
+      "discrimination_check": "For Ontario, saying only low-income without meaningful eligibility/withdrawal terms is insufficient for 5. Exact towns, age/residency thresholds and the official example list are not imposed on a different Canadian design; their exact checklist distinction remains unretained.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:22",
+      "targets": [
+        "PT.D1.14",
+        "PW.D4.02"
+      ],
+      "reason": "PT.D1.14 restores a post-2015 quantitative national health-care cost or utilization projection; PW.D4.02 only compares the usefulness of fiscal implications.",
+      "status": "retained",
+      "discrimination_check": "Pilot well-being or a qualitative savings claim is not a national health estimate. A mechanism without a quantitative projection is 3; a contextualized projection is 5. No predetermined savings sign or specific utilization metric.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:23",
+      "targets": [
+        "PT.D1.17",
+        "PW.D4.03"
+      ],
+      "reason": "PT.D1.17 restores a sourced political/public-support barrier and its national durability consequence; PW.D4.03 assesses relative insight.",
+      "status": "retained",
+      "discrimination_check": "A cancellation or political label without a sourced adoption/persistence link is 3; a concrete post-2015 grounded barrier explanation is 5. No mandatory poll or party list.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:24",
+      "targets": [
+        "PT.D1.15",
+        "PW.D4.02"
+      ],
+      "reason": "Review 39: retain the substantive fiscal, administrative or uncertainty assessment with evidence and scope, but remove mandatory numerical output or units.",
+      "status": "adapted",
+      "discrimination_check": "A concrete qualitative account may satisfy the current item; generic claims or unsupported assumptions cannot. Omission of the official numerical figure, monetary/outlay-share format or interval is no longer independently penalized.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:25",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.04",
+        "PT.D1.06",
+        "PW.D6.02"
+      ],
+      "reason": "PT.D1.02/.04/.06 retain substantive comparable program design parameters; PW.D6.02 retains lookup usefulness.",
+      "status": "adapted",
+      "discrimination_check": "Missing major payment, duration or comparison design details is 3 in the appropriate country item; full design context can reach 5 without a consolidated table. Every suggested parameter need not apply identically to every design, but the domain cannot disappear.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:26",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "Review 39: retain the substantive fiscal, administrative or uncertainty assessment with evidence and scope, but remove mandatory numerical output or units.",
+      "status": "adapted",
+      "discrimination_check": "A concrete qualitative account may satisfy the current item; generic claims or unsupported assumptions cannot. Omission of the official numerical figure, monetary/outlay-share format or interval is no longer independently penalized.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:27",
+      "targets": [
+        "PT.D1.18",
+        "PW.D3.02"
+      ],
+      "reason": "Review 39: retain the substantive fiscal, administrative or uncertainty assessment with evidence and scope, but remove mandatory numerical output or units.",
+      "status": "adapted",
+      "discrimination_check": "A concrete qualitative account may satisfy the current item; generic claims or unsupported assumptions cannot. Omission of the official numerical figure, monetary/outlay-share format or interval is no longer independently penalized.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6054a7:flat:28",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 preserves definition, policy objectives and relevance to program differences without fixing introductory placement.",
+      "status": "adapted",
+      "discrimination_check": "A definition alone with real programs misclassified is 3; definition, objectives and mapped distinctions are needed for 5. The location of that explanation and exhaustive welfare-design catalogue are not mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "Batch6 mechanical checks passed for unchanged queries, unique IDs, five-level anchors, D1–D6 coverage, per-item atomicity records and complete bidirectional official mappings. This is not independent semantic review or external verification of official facts.",
+    "No earlier assigned draft was available. Country design and effectiveness profiles are separate because a complete description can coexist with poor or missing findings. Each outcome profile has explicit mixed-coverage anchors rather than a separate score for every statistic.",
+    "The query names countries, not mandatory Ontario or SEED programs. Post-2015 refers to publication date, so newer analysis of an older pilot may qualify. Peer-reviewed economics and policy/expert analysis are both required; working papers are not assumed peer-reviewed.",
+    "Official negative items 6 and 19 retain their direction. The Ontario payment-duration wording and cross-period Finnish/US effect summaries need independent source checking; none is externally verified here. Precise model, cost, sample and source-layout distinctions not retained are recorded individually.",
+    "Author item-by-item atomicity and official-discrimination checks and mechanical validation only; no scoring, reports, browser or independent semantic review. No weights or aggregation rule are assigned to newly added items.",
+    "v3.3: 补回长期劳动激励、全国年度转移成本、宏观模型量化、长期医疗成本/利用预测、净公共财政余额、管理成本、政治持续性和定量不确定性八个实际入口（PT.D1.11—18），不再把官方明确的量化要求误称可选例子。PT.D1.09收窄为外推边界并保留负权方向；.08恢复三国结果领域，.05明确加拿大健康/幸福感，PT.D2.01恢复量值逐条追溯。保留原13项与9个PW；关系型PW补充双向混合表现净优势判法，成本覆盖不再靠宽泛PW冒充。范例国家方案、模型品牌、输出变量及布局仍可选择，但成本/健康/劳动等领域不能省略。",
+    "v3.3待审 / pending review: 本稿21PT/9PW；全部28项官方资源有具体处置，无空置重要类别。仍未保留强制Ontario/Stockton选择、未核实的统一Ontario付款月数、跨时期固定效果结论及特定版式；改用实际方案及测量条件核查。若合格全国医疗或财政量化研究不足，应诚实报告证据缺口，不编造估计，也不把外部检索失败计作低分；这些官方定量要求的证据可得性仍需独立审阅。本轮未查外部研究，不声称真实数字或语义已独立通过。",
+    "Cross-review: PT.D1.05's 3/4 anchors now symmetrically require work and household/health findings or specific evidence gaps. PT.D2.03's old no-fiscal-model wording is scoped to consistency, so it cannot waive restored PT.D1.13. Counts remain 21 PT/9 PW; no fixed pilot, model or effect direction added.",
+    "Review 39: PT.D1.15/16/18 numerical-only conditions relaxed; PW.D4.02 changed only to update its reference to PT.D1.15. Earlier mandatory-number notes are historical. Other national-cost/health criteria unchanged; no external economic verification or reevaluation."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Definition without mapping actual targeting is explicitly 3. The concept and the cases it classifies form one distinction."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "retain",
+      "reason": "v3.3复查保留：A known amount but missing comparison or duration is 3; numerical parameters and their design conditions stay together."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Employment described well with well-being absent, or vice versa, is explicitly 3. Clear mixed anchors avoid splitting the outcome profile further."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Planned duration without actual exposure is 3 when material; eligibility and payment conditions jointly define the Canadian intervention."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "劳动与家庭福利（含健康/幸福感）任一面既无结果也无具体研究证据缺口均3；另一面充分不能补偿。真实未测量/取消导致缺口可以解释，不伪造为零效应。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "retain",
+      "reason": "v3.3复查保留：A pilot name with unclear targeting/payment or comparison scores 3; added US pilots must be interpretable if used, not counted for breadth alone."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Good work findings with financial security or well-being unexplained score 3 unless a specific measurement gap is documented. Outcome level and volatility remain distinguishable within the profile."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "revise",
+      "reason": "保留三国对照这个关系对象，补回原来被无固定清单删除的结果领域；任一国家或重要领域未进入比较为3，记录真实不可比性可满足该领域，不能凭空填数。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "原项把任意一种长期后果当作全领域承接，现保留推断边界本身，劳动等内容另有入口。能说明时长却仍以试点证明全国GDP，明确落2而非用其他优点抵消。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Recent policy commentary without peer-reviewed economics, or the reverse, is explicitly 3. Publication status/date define eligible evidence and are not separate bonuses."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "revise",
+      "reason": "数值与其出处不可分；核心数值有出处但多处其他量值无法追溯为3，单一轻微遗漏为4，不按引用格式拆项。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Attribution and support can independently succeed or fail; bounded external support is therefore separate."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Local and central definition/unit contradictions have different levels; values stay attached to their program and period."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D4.03",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "revise",
+      "reason": "保留该关系或同一推断对象；新增双向同一重要性依据：一方局部好不能直接胜出，反向优势等强为0，微弱净优势±1、显著净优势±2；不按PT缺项计数。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Good individual profiles with weak comparative transitions is mixed whole-report progression; local strengths are allowed at ±1."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "retain",
+      "reason": "v3.3复查保留：Clear policy definitions but confusing statistical wording are mixed comprehensibility; assess the existing meaning, not evidence quality."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "retain",
+      "reason": "v3.3复查保留：A result located without its design or stated basis is an incomplete lookup path; do not split into repetitive navigation rewards."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "劳动反应及其制度条件构成一个机制；只有试点就业结果、没有长期激励解释为3，不能用健康收益抵消。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "金额和福利水平、覆盖范围共同定义成本数值，不应拆为计数项；有金额但不知支付对象为3。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "预测量与融资假设共同界定情景；数字完整但融资缺失为3。此项不要求不确定性范围，范围由PT.D1.18单查。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "健康感受改善与全国医疗支出预测是不同证据对象；只有前者为2，清楚机制但无定量预测为3。数值及条件不拆。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "revise",
+      "reason": "Assess the concrete relationship and evidence stated in the current item, not the presence of a mandatory numerical format."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "revise",
+      "reason": "Assess the concrete relationship and evidence stated in the current item, not the presence of a mandatory numerical format."
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "add",
+      "reason": "障碍与其持续实施后果是同一判断；只有党派名称或取消事实、没有关联解释为3。"
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "revise",
+      "reason": "Assess the concrete relationship and evidence stated in the current item, not the presence of a mandatory numerical format."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "paper_sections": [
+    "sec:controlled_changes",
+    "app:controlled_changes"
+  ],
+  "plan_review": {
+    "reviewers": 3,
+    "procedure": "Independent human assessment of editing plans; majority reconciliation."
+  },
+  "implementation": {
+    "agent": "Codex Astra",
+    "procedure": "Apply the agreed editing plans."
+  },
+  "final_review": {
+    "type": "human",
+    "procedure": "Compare each revision with its base report and confirm quality direction and target dimensions."
+  },
+  "status_basis": "Frozen manuscript and author confirmation for this exact report version.",
+  "direction_labels_status": "human_confirmed",
+  "labels_changed": false
+}

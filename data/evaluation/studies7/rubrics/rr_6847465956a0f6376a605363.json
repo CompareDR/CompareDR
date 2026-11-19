@@ -1,0 +1,929 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "rr:6847465956a0f6376a605363",
+  "language": "en",
+  "title": "Turo and Getaround: performance, valuation and employment",
+  "full_query": "Write a brief research report comparing the performance of the car rental companies Turo and Getaround, detailing all major economic events for each company from 2020 to 2025 and how it affected the company's valuation. If the company falls in valuation, be sure to explain how it happened and its effects on employee numbers. Write the report for an audience not familiar with US economics and venture capital.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Turo's economic event history",
+      "question": "Does the report cover Turo's major economic developments across 2020–2025 with dates and business consequences?",
+      "anchors": {
+        "1": "No usable Turo history is provided.",
+        "2": "Only isolated headlines appear, without a meaningful period-wide account.",
+        "3": "Several events are described, but a major phase or economically consequential development is omitted or undated.",
+        "4": "The main developments and consequences are clear, with only a minor timing or event-context gap.",
+        "5": "The period's consequential developments are dated and explained, including material changes in financing/listing plans and operating performance; coverage is not merely a count of headlines."
+      },
+      "boundary": "Use the IPO effort and withdrawal, expansion/profitability developments and 2025 restructuring as supplied coverage leads, not independently verified facts. The report must address materially relevant developments through its stated 2025 endpoint. Do not demand every official example, including incidents with no established economic effect.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:10"
+        ],
+        "query_quotes": [
+          "all major economic events for each company from 2020 to 2025"
+        ],
+        "change_note": "Adapt event coverage into a period-wide account; remove the two-event quota and mandatory examples. Anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Getaround's economic event history",
+      "question": "Does the report cover Getaround's major economic developments across 2020–2025 with dates and business consequences?",
+      "anchors": {
+        "1": "No usable Getaround history is provided.",
+        "2": "Only a failure label or isolated event is mentioned.",
+        "3": "There is an event history, but a major financing, listing or operating phase is absent or lacks its consequence.",
+        "4": "Main phases and consequences are clear, with a minor timing or transition gap.",
+        "5": "The account covers consequential financing, public-listing and operating changes over the period, including material retrenchment, with clear dates and business consequences, distinguishing supported explanations from uncertain attribution."
+      },
+      "boundary": "Pandemic disruption, funding, SPAC listing, subsequent financial stress and US operating exit are supplied coverage leads; clarify scope and supporting evidence rather than treating this list as verified. Listing valuation is separately assessed; no two-event quota. The reverse-merger funding or unit-economics expectations and later US exit are not a compulsory explanatory chain. An evidence-supported account of the major events and their consequences can satisfy this item without that narrative; missing major events or consequences still affects the score. PW.D3.01 compares the reasoning of the explanations actually offered, rather than rewarding a prescribed story.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:11",
+          "rr:6847465956a0f6376a605363:flat:2"
+        ],
+        "query_quotes": [
+          "all major economic events for each company from 2020 to 2025"
+        ],
+        "change_note": "Review 31: remove the mandatory reverse-merger-expectations-to-US-exit narrative from levels 3 and 5, retaining period-wide major-event coverage, dates, consequences and attribution limits. Align with the existing PW.D3.01 boundary."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Turo valuation evidence and gaps",
+      "question": "Does the report describe Turo's valuation at material events and distinguish observed values from expectations or unavailable information?",
+      "anchors": {
+        "1": "No valuation information or explicit evidence gap is given.",
+        "2": "A dollar figure is supplied without date, basis or explanation of what it measures.",
+        "3": "There are dated figures or gaps, but a major private-round, secondary estimate or hoped-for IPO distinction is unclear. An absent opening valuation basis or unsupported claim that no event valuation is available is an important gap.",
+        "4": "Main valuation figures and evidence gaps have clear dates and bases, with only a minor qualification missing.",
+        "5": "Material event-linked valuations or well-supported disclosure gaps are stated, separating completed financing valuations, secondary estimates and listing expectations; no continuous private-company market price is invented. Establish the opening valuation context and distinguish an actual measured change from undisclosed values or expectations."
+      },
+      "boundary": "Do not require the supplied $1.24B, $1.7B or $2.2B figures. A financing amount is not a company valuation; abandoned IPO plans do not alone establish a measured fall. A supported gap can fully answer an unavailable valuation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:5",
+          "rr:6847465956a0f6376a605363:flat:12"
+        ],
+        "query_quotes": [
+          "how it affected the company's valuation"
+        ],
+        "change_note": "Retain limited private valuation visibility and basis distinctions; remove fixed figures and unverified round dates. Anchors are local. v3.3 requires opening context, not the unverified exact unicorn date."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Getaround valuation changes",
+      "question": "Does the report describe Getaround's event-linked valuation changes using clearly identified and comparable measures?",
+      "anchors": {
+        "1": "No valuation trajectory or evidence-gap account.",
+        "2": "Only an undated peak or collapse claim is supplied.",
+        "3": "Some values are provided, but a key event's valuation effect or the distinction between deal value, market capitalization and share price is unclear. An absent opening valuation basis or unsupported claim that no event valuation is available is an important gap.",
+        "4": "Major changes and measurement bases are clear, with minor date or capitalization details missing.",
+        "5": "Material event-linked valuation changes are explained with dates and measure definitions, including the transition from transaction expectations to public trading values and any later limits on measurement. Establish the opening valuation context and distinguish an actual measured change from undisclosed values or expectations."
+      },
+      "boundary": "Do not require the official $1.2B, 65% or sub-$1M examples. Adjust or qualify share-price comparisons for capital changes when relevant; fundraising cash is not valuation. Delisting, trading suspension and operating closure must not be treated as synonyms.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:4",
+          "rr:6847465956a0f6376a605363:flat:12"
+        ],
+        "query_quotes": [
+          "how it affected the company's valuation"
+        ],
+        "change_note": "Retain event-linked valuation trajectory; replace fixed magnitudes with measure-aware requirements. Anchors are local. v3.3 requires opening context, not the unverified exact unicorn date."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Turo employment consequences",
+      "question": "Does the report address the effect of any evidenced Turo valuation decline or related financing deterioration on employee numbers?",
+      "anchors": {
+        "1": "The employment question is ignored.",
+        "2": "Layoffs or hiring are mentioned without timing, scale or connection to the reported deterioration.",
+        "3": "There is a dated workforce change, but its size, baseline or relationship to the reported economic change is unclear.",
+        "4": "Workforce change and its evidential relationship to deterioration are clear, with minor scope or baseline gaps.",
+        "5": "Available employee counts or reductions are dated and scoped, with supported links and limits; if a valuation fall or employee effect is not established, the report explicitly explains that evidence gap rather than inventing one."
+      },
+      "boundary": "No forced causal claim that IPO withdrawal caused layoffs. Distinguish employee counts, percentage cuts, hosts and contractors. A supported absence of an established decline can meet 5, not an unreasoned 'not applicable'.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:3"
+        ],
+        "query_quotes": [
+          "its effects on employee numbers"
+        ],
+        "change_note": "Use the supplied IPO/layoff connection as a question to investigate, not a mandatory causal answer. Add explicit evidence-gap handling and local anchors."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Getaround employment consequences",
+      "question": "Does the report address how Getaround's deterioration relates to employee numbers, with dates and geographic scope?",
+      "anchors": {
+        "1": "No employment account is given.",
+        "2": "Only 'jobs were lost' or a shutdown label appears.",
+        "3": "A workforce reduction is stated, but its timing, size or affected operation is unclear.",
+        "4": "Major employment effects are quantified or specifically bounded, with minor baseline or geographic ambiguity.",
+        "5": "Material employee changes are dated and scoped, and any relation to financial deterioration is stated with evidence limits; unavailable totals or causal links are explicitly identified."
+      },
+      "boundary": "A US exit is not automatically a worldwide workforce loss. Do not require an unsupported global count or infer that valuation mechanically determines headcount. Distinguish overlapping layoff rounds so totals are not double counted.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "its effects on employee numbers"
+        ],
+        "change_note": "Query-derived company-specific employment check; no supplied event item is misrepresented as a source for exact headcount. Anchors are local."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Direct performance comparison",
+      "question": "Does the report directly compare Turo and Getaround on their economic performance rather than provide two unrelated histories?",
+      "anchors": {
+        "1": "No comparison is made.",
+        "2": "A winner is named without a basis.",
+        "3": "A comparison is made, but the measures or relevant period differ without qualification.",
+        "4": "The main comparison uses interpretable bases, with minor asymmetry or qualification gaps.",
+        "5": "The companies are directly compared on relevant operating and financing outcomes, acknowledging differences in disclosure, listing status and the period covered."
+      },
+      "boundary": "No prescribed winner, fixed metrics list or investment recommendation. Coverage in the company-specific items is not re-scored here; check that an explicit comparison exists on an interpretable basis.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:13",
+          "rr:6847465956a0f6376a605363:flat:17",
+          "rr:6847465956a0f6376a605363:flat:18"
+        ],
+        "query_quotes": [
+          "comparing the performance"
+        ],
+        "change_note": "Retain direct comparison and usable operating evidence; remove fixed metric counts. Anchors are local."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "2020–2025 focus",
+      "question": "Does the report keep its substantive economic account within 2020–2025, clearly labeling earlier context and its 2025 endpoint?",
+      "anchors": {
+        "1": "The main account concerns another period.",
+        "2": "Extensive earlier or later events displace the requested period or are presented as within it.",
+        "3": "The requested period is the main focus, but material out-of-period events or an unstated early cutoff distort it.",
+        "4": "The period is respected, with only minor context or endpoint ambiguity.",
+        "5": "The account is bounded to the requested period; earlier context is brief and necessary, and the 2025 endpoint is clear without treating future or later events as already known."
+      },
+      "boundary": "Earlier fundraising can set the opening valuation; other necessary background is also allowed if clearly labeled. Do not require an event in every year where no material development is established.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:7",
+          "rr:6847465956a0f6376a605363:flat:8"
+        ],
+        "query_quotes": [
+          "from 2020 to 2025"
+        ],
+        "change_note": "Preserve the negative direction of official scope rules, allowing necessary context rather than banning all non-fundraising background. Anchors are local."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of economic claims",
+      "question": "Can key valuations, events and headcount claims be traced to identifiable evidence or transparent calculations?",
+      "anchors": {
+        "1": "Key claims have no identifiable basis.",
+        "2": "Only generic media, filings or company statements are mentioned.",
+        "3": "Relevant references exist, but important amounts, dates or workforce claims are not clearly bound to them.",
+        "4": "Main claims have identifiable sources or calculations, with minor attribution gaps.",
+        "5": "Key values, events and employment numbers have clear sources or reviewable calculations; company statements, estimates and the report's deductions are distinguished."
+      },
+      "boundary": "A sufficiently identified filing, article or document counts without a URL. Traceability does not prove support; do not require a filing type or a citation per sentence.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added source-to-claim audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Reliability within the checked sample",
+      "question": "Within the recorded verification sample, do material valuation and employment claims match the evidence obtained?",
+      "anchors": {
+        "1": "Central checked valuation or workforce claims are contradicted or have a fabricated basis.",
+        "2": "Several important checked amounts or event descriptions have material support errors.",
+        "3": "Some checked claims hold, but significant measure, date, denominator or attribution errors remain.",
+        "4": "Important checked claims hold, with minor wording or scope errors only.",
+        "5": "All assessed claims match the obtained evidence in measure, date, scope and strength; this is not a whole-report guarantee."
+      },
+      "boundary": "Publish selected and assessed counts. Access failure is an execution issue: do not turn it into a low score, a perfect score or NA. Clarify equity versus enterprise value, splits, announcement versus effective dates and regional layoffs before deciding mismatch.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added bounded factual audit; official examples are leads, not an independent guarantee."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Turo's marketplace economics",
+      "question": "Does the report explain how Turo's marketplace generates revenue and allocates vehicle and protection responsibilities?",
+      "anchors": {
+        "1": "No business-model explanation.",
+        "2": "Only calls Turo a car rental company or marketplace.",
+        "3": "Identifies hosts and bookings but leaves transaction revenue or protection/fee responsibilities unclear. A clear revenue account without vehicle-supply responsibility, or a clear supply account without protection arrangements, also scores 3.",
+        "4": "Explains vehicle ownership, transaction monetization and protection-related arrangements, with minor qualifications missing.",
+        "5": "Explains in novice terms the host–renter marketplace, who supplies vehicles, how commissions/fees generate platform revenue and how protection arrangements affect the transaction; distinguishes platform income from charges passed to hosts or insurers."
+      },
+      "boundary": "No three-component quota or mandatory delivery/late fee; the core supply–transaction–revenue relationship cannot be replaced by a valuation headline.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:14",
+          "rr:6847465956a0f6376a605363:flat:15"
+        ],
+        "query_quotes": [],
+        "change_note": "Turo's model can be unclear while Getaround's is excellent; company-specific economics need separate entries. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Getaround's marketplace economics",
+      "question": "Does the report explain Getaround's vehicle-access model and how it earns from hosts and rental transactions?",
+      "anchors": {
+        "1": "No model explanation.",
+        "2": "Only calls it a sharing platform.",
+        "3": "Identifies owner-supplied cars but not how rental fees, owner services or connected access affect its economics. A clear commission account without the owner/access arrangement, or the reverse, also scores 3.",
+        "4": "Explains transaction revenue and owner/technology arrangements, with minor region or period qualifications missing.",
+        "5": "Explains owner-supplied vehicles, booking commissions/protection arrangements and the role of connected access and owner-side charges or subscriptions where applicable, specifying relevant region/time rather than assuming identical terms everywhere."
+      },
+      "boundary": "No required count of fee types or assertion of a universal subscription; explain the substantive role or documented absence of the relevant arrangement.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:14",
+          "rr:6847465956a0f6376a605363:flat:16"
+        ],
+        "query_quotes": [],
+        "change_note": "A well-described peer-to-peer concept does not explain Getaround's distinct revenue and access relationship. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Turo operating performance indicators",
+      "question": "Does the report quantify Turo's operating scale and monetization or operating performance using meaningful measures?",
+      "anchors": {
+        "1": "No operating evidence.",
+        "2": "Only qualitative success language or valuation figures.",
+        "3": "An operating figure is present but its date/definition is unclear, or scale is not connected to monetization/performance.",
+        "4": "Interpretable scale and economic-performance measures are provided, with minor time or comparability gaps.",
+        "5": "Provides dated, defined evidence of marketplace activity and how it translates into revenue or operating performance; identifies material disclosure gaps without treating valuation as operating output."
+      },
+      "boundary": "No fixed metric count; listings/bookings and take rate/revenue/profit are possible measures, not a compulsory roster. Numbers retain periods and denominators.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "The substantive operating evidence is independent of having a direct comparison; a common comparison basis alone was too weak. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Getaround operating performance indicators",
+      "question": "Does the report quantify Getaround's operating activity and its ability to turn that activity into economic performance?",
+      "anchors": {
+        "1": "No operating indicators.",
+        "2": "Only calls it unsuccessful or cites a share-price fall.",
+        "3": "Some activity or financial figures appear but their scope or economic meaning is unclear, or only one side is described.",
+        "4": "Activity and monetization/performance measures are dated and interpretable, with minor scope gaps.",
+        "5": "Uses scoped activity and revenue/unit-economic or operating-result evidence to explain performance over relevant phases, distinguishing US and other operations and reporting genuine unavailable information."
+      },
+      "boundary": "No arbitrary two-metric quota; missing disclosure is explained, not fabricated. Share price cannot stand in for bookings or operating results.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "A complete Turo data account cannot compensate for no Getaround operating evidence. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Demand and vehicle-supply risks",
+      "question": "Does the report explain how competition, adoption and available vehicle supply expose the platforms to business risk?",
+      "anchors": {
+        "1": "No demand or supply risk discussion.",
+        "2": "Only lists competition or seasonality.",
+        "3": "Identifies a risk but does not link customer demand or owner supply to bookings and business performance. A concrete demand account with owner-supply exposure missing, or the reverse, also scores 3.",
+        "4": "Explains demand/competition and owner-supply constraints for the comparison, with minor company context gaps.",
+        "5": "Explains how competition or adoption affects demand and how owner participation/seasonality affects usable supply, linking both to platform activity and economic resilience with company-specific relevance."
+      },
+      "boundary": "One two-sided-market exposure relationship; not a mandatory competitor list or risk count.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Funding risk can be clear while marketplace activity risk is absent; separate their judgment objects. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Funding and liquidity risks",
+      "question": "Does the report explain how funding access and cash needs expose each company to economic stress?",
+      "anchors": {
+        "1": "No funding-risk explanation.",
+        "2": "Only says capital is needed.",
+        "3": "Mentions financing or cash loss without explaining runway, refinancing or the pressure to reduce spending.",
+        "4": "Explains the relation between cash needs and financing access with relevant company circumstances, with minor limitations missing.",
+        "5": "Explains how cash consumption and available financing constrain continued operations or restructuring, distinguishing valuation signals from spendable cash and identifying private/public funding differences."
+      },
+      "boundary": "No mandatory runway calculation or assumption that a lower valuation itself removes cash; event causality is separately compared.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Market demand strength cannot substitute for liquidity adequacy; keep the cash-needs–funding relationship together. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Protection, liability and operating constraints",
+      "question": "Does the report explain how insurance, liability, regulation and vehicle incidents can affect platform economics?",
+      "anchors": {
+        "1": "No operating/protection risk discussion.",
+        "2": "Only lists accidents or regulation.",
+        "3": "Names exposures without explaining responsibility or cost/availability consequences. A concrete protection account with relevant operational/regulatory constraints omitted, or the reverse, also scores 3.",
+        "4": "Explains protection/liability and regulatory or operational constraints, with minor company-specific conditions missing.",
+        "5": "Explains how protection costs, liability allocation and relevant regulatory or incident-related restrictions can affect margins or service availability; distinguishes an illustrative incident from an established material financial effect."
+      },
+      "boundary": "No required crash, theft or Cybertruck story; do not infer liability or valuation damage solely from an incident's publicity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Risk–responsibility–operating consequence is one relationship, independent of capital-market access. Five-level anchors are locally designed."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Economic explanations of valuation changes",
+      "question": "Which report more convincingly explains how events could affect valuation through the relevant business or financing mechanisms?",
+      "anchors": {
+        "0": "The reports provide similar help with event-to-valuation reasoning, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better explains an important financing or operating link while keeping causal limits clear, although B may be better locally.",
+        "2": "A gives substantially more defensible explanations of major valuation changes, distinguishing funding expectations, operating results and public-market repricing; B's local strengths do not make up for this difference.",
+        "-2": "B gives substantially more defensible explanations of major valuation changes, distinguishing funding expectations, operating results and public-market repricing; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better explains an important financing or operating link while keeping causal limits clear, although A may be better locally."
+      },
+      "boundary": "Getaround's reverse-merger expectations and later US exit can be connected where supported; not a compulsory narrative. Do not infer that any later event was caused by an earlier price move. Listing more events is not stronger inference. Compare the actual core event-to-value explanations for both companies using the same materiality standard, recording opposing strengths. Equally material opposite advantages yield 0; a detailed Turo chain cannot silently erase a weak Getaround chain.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the fixed Getaround story into an open mechanism comparison. Anchors are locally designed."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Explaining economic stress and workforce changes",
+      "question": "Which report more reliably explains the link, or limits of a link, between economic deterioration and workforce changes?",
+      "anchors": {
+        "0": "The reports provide similar help with economic-stress-to-employment reasoning, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A slightly better distinguishes a supported employment explanation from coincidence or an unproven causal claim, although B may be better locally.",
+        "2": "A gives substantially more defensible workforce explanations, separating reported reasons, shared pressures and uncertain attribution; B's local strengths do not make up for this difference.",
+        "-2": "B gives substantially more defensible workforce explanations, separating reported reasons, shared pressures and uncertain attribution; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B slightly better distinguishes a supported employment explanation from coincidence or an unproven causal claim, although A may be better locally."
+      },
+      "boundary": "No requirement that Turo's IPO withdrawal caused layoffs or that a price fall directly causes dismissals. PT checks whether employment is addressed; this item examines the argument actually made, including a reasoned conclusion that causation is unestablished. Assess the main workforce explanations for both companies symmetrically. Record opposite strengths and their impact on the employment conclusion; equal-impact trade-offs yield 0 rather than selecting one company.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Remove the official forced IPO-to-layoff causality while preserving the relationship to investigate; local anchors."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Interpreting the divergent business paths",
+      "question": "Which report better helps a non-specialist understand what the companies' different economic paths mean, beyond their headline valuations?",
+      "anchors": {
+        "0": "The reports provide similar help with comparative business interpretation, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A offers slightly more useful insight into one important difference in funding, operations or resilience, although B may be better locally.",
+        "2": "A provides substantially more useful comparative insight into the companies' strengths and limits without treating unlike valuations as a simple league table; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more useful comparative insight into the companies' strengths and limits without treating unlike valuations as a simple league table; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B offers slightly more useful insight into one important difference in funding, operations or resilience, although A may be better locally."
+      },
+      "boundary": "Compare the further meaning of divergent paths using the established business models, operating evidence and risk conditions. Their substantive coverage is now directly checked in PT.D1.09–15; do not call those domains optional or total their PT results here. No predetermined winner or investment advice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:15",
+          "rr:6847465956a0f6376a605363:flat:16",
+          "rr:6847465956a0f6376a605363:flat:19",
+          "rr:6847465956a0f6376a605363:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain business-model and risk contributions and comparative interpretation, removing fixed counts and the mandated winner. Local anchors. v3.3 restores direct PT entries; this PW retains only comparative implications."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence appropriate to valuation and employment",
+      "question": "Which report uses evidence better suited to its private/public valuation and employment comparisons?",
+      "anchors": {
+        "0": "The reports provide similar help with economic evidence applicability, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A uses slightly more appropriate evidence for an important valuation basis or workforce scope, although B may be better locally.",
+        "2": "A grounds central comparisons in substantially more appropriate evidence, distinguishing transaction documents, estimates, market snapshots and workforce disclosures; B's local strengths do not make up for this difference.",
+        "-2": "B grounds central comparisons in substantially more appropriate evidence, distinguishing transaction documents, estimates, market snapshots and workforce disclosures; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B uses slightly more appropriate evidence for an important valuation basis or workforce scope, although A may be better locally."
+      },
+      "boundary": "No mandatory SEC filing. A filing can be especially suitable for a disclosed transaction but not automatically for an undisclosed private valuation. Compare fit and corroboration, not URL totals or institutional prestige; individual support errors remain in PT.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Replace an SEC-reference quota with evidence fitness to the claim; local anchors."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Brief report organization",
+      "question": "Which original report organizes the economic story more effectively for a reader new to US economics?",
+      "anchors": {
+        "0": "The reports provide similar help with the overall economic reading path, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A makes the timeline and comparison slightly easier to follow with less unnecessary repetition, although B may be better locally.",
+        "2": "A provides a substantially clearer progression from necessary background through events to the comparison, without burying central findings; B's local strengths do not make up for this difference.",
+        "-2": "B provides a substantially clearer progression from necessary background through events to the comparison, without burying central findings; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B makes the timeline and comparison slightly easier to follow with less unnecessary repetition, although A may be better locally."
+      },
+      "boundary": "Brief means efficient for this task, not a word-count target. No mandatory table or chart; needed explanations are not clutter. Assess order, transitions and repetition once, separately from sentence clarity.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:9"
+        ],
+        "query_quotes": [
+          "brief research report"
+        ],
+        "change_note": "Use the summary-presentation intent without requiring figures for each company; local anchors."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Plain explanation of unfamiliar terms",
+      "question": "Which report makes its existing business model and valuation language easier for a novice to understand?",
+      "anchors": {
+        "0": "The reports provide similar help with novice understanding of economic terms, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A explains a consequential acronym or valuation term slightly more clearly in context, although B may be better locally.",
+        "2": "A makes core rental-platform, financing and valuation concepts substantially clearer without unexplained jargon or misleading simplification; B's local strengths do not make up for this difference.",
+        "-2": "B makes core rental-platform, financing and valuation concepts substantially clearer without unexplained jargon or misleading simplification; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B explains a consequential acronym or valuation term slightly more clearly in context, although A may be better locally."
+      },
+      "boundary": "Explain terms actually used; no acronym quota or standalone glossary. Peer-to-peer rental can be explained without the acronym. Judge comprehensibility, not whether every possible revenue stream is covered or the facts are externally correct.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605363:flat:1",
+          "rr:6847465956a0f6376a605363:flat:14"
+        ],
+        "query_quotes": [
+          "an audience not familiar with US economics and venture capital"
+        ],
+        "change_note": "Retain novice adaptation, replacing all-acronym first-use and separate-section rules with contextual understanding; local anchors."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Locating event values and evidence",
+      "question": "Which report makes a company's dated event, associated valuation and supporting evidence easier to find?",
+      "anchors": {
+        "0": "The reports provide similar help with finding dated economic evidence, or neither provides relevant help. Explain which case applies.",
+        "1": "Overall, A makes an important event-to-value lookup slightly more direct, although B may be better locally.",
+        "2": "A makes company, date, value and stated source lookups substantially more direct, with fewer ambiguous cross-references; B's local strengths do not make up for this difference.",
+        "-2": "B makes company, date, value and stated source lookups substantially more direct, with fewer ambiguous cross-references; A's local strengths do not make up for this difference.",
+        "-1": "Overall, B makes an important event-to-value lookup slightly more direct, although A may be better locally."
+      },
+      "boundary": "Inspect original presentation; prose and tables can both work. Do not score link count, citation validity or the same macro-organization benefit twice.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added information-retrieval comparison."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:1",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Contextual explanations are retained; all acronyms at first occurrence are not a mandatory checklist."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:2",
+      "targets": [
+        "PT.D1.02",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Official reverse-merger-to-exit explanation remains an eligible route, not mandatory. PT.D1.02 checks major events and consequences; PW.D3.01 compares supported explanations actually offered.",
+      "discrimination_check": "Omitting this specific narrative alone does not cap PT at 3 or preclude 5. Important missing events/consequences still lower PT; an unsupported causal narrative is not rewarded in PW. Exact official narrative omission detection is not preserved."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:3",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Employment consequences and causal reasoning are explicit; no forced causal claim that IPO withdrawal caused April layoffs."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:4",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Event-linked valuation changes and basis distinctions are checked; the supplied magnitudes and delisting date are not frozen answer keys."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:5",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Private valuation visibility and disclosure gaps are checked; the supplied rounds, dates and three dollar amounts are not required."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:6",
+      "targets": [
+        "PW.D2.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Evidence fit is compared; absence of an SEC citation alone is not penalized."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:7",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion. Original weight is -3: an out-of-period penalty direction, never a requirement to add earlier events; no new numeric weighting is imposed.",
+      "discrimination_check": "The negative out-of-period direction is preserved; necessary earlier non-fundraising context is permitted, so the exact penalty is not copied."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:8",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion. Original weight is -3: an out-of-period penalty direction, never a requirement to add earlier events; no new numeric weighting is imposed.",
+      "discrimination_check": "The negative out-of-period direction is preserved for Turo without a blanket ban on useful historical context."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:9",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Summary usability can be compared, but absence of a figure per company is not a defect by itself."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:10",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Turo's major phases matter, not at least two selected events; official incident examples are not compulsory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:11",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "Getaround's period-wide economic developments matter; neither a two-event threshold nor a fixed pandemic percentage is retained."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:12",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.03 / PT.D1.04 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of opening valuation context without a fixed unicorn assertion."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:13",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retain the direct task requirement.",
+      "discrimination_check": "An explicit, meaningful comparison is directly checked; a sentence or section can satisfy it without a required heading."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:14",
+      "targets": [
+        "PT.D1.09",
+        "PT.D1.10",
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.09 / PT.D1.10 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of owner–renter marketplace operation."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:15",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.09 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of Turo supply, transaction income and protection."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:16",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.10 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of Getaround connected access and monetization."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:17",
+      "targets": [
+        "PT.D1.07",
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.11 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of Turo operating scale and economic performance."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:18",
+      "targets": [
+        "PT.D1.07",
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.12 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of Getaround activity and monetization."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:19",
+      "targets": [
+        "PT.D1.13",
+        "PT.D1.14",
+        "PT.D1.15",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore substantive direct assessment; do not freeze example quantities, dates, fee rosters or a causal verdict.",
+      "discrimination_check": "PT.D1.13 / PT.D1.14 / PT.D1.15 distinguishes absent/general claims (1–3) from specific, qualified explanations (4–5) of marketplace exposure, funding/liquidity and protection/operational constraints."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605363:flat:20",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain the relevant object while removing a count, format or predetermined conclusion.",
+      "discrimination_check": "A grounded overall comparison is assessed, not a mandated Turo-wins conclusion. This intentionally loses the official directional preference."
+    }
+  ],
+  "author_notes": [
+    "v3.1 history: No earlier draft exists. Company-specific event, valuation and employment objects are separate because a strong event history cannot answer missing valuation or job-number questions. Numeric values stay with dates and denominators.",
+    "v3.1 history: Official resources 7 and 8 are negative scope criteria, not requests to add pre-2020 content. No fixed word count, metric count, event quota, SEC source rule or forced company winner is used.",
+    "v3.1 history: Important unverified leads include Turo round dates, Getaround listing/delisting market capitalization and the IPO-withdrawal/layoff causal claim. They are not independent factual guarantees; unsupported causation is not required.",
+    "v3.1 history: All final items have author atomicity checks. All supplied resources have explicit discrimination-loss records. No scoring, browsing or independent semantic approval is claimed.",
+    "v3.1 history: Author-side mechanical validation covered all six assigned files: query identity, version, item IDs, five anchors, exact query quotes, official-source membership and bidirectional mappings, all-item atomicity coverage and D1–D6 coverage. It found no structural errors. This is not independent semantic review; no report was scored.",
+    "v3.3 repair: Preserve company-specific event, valuation and employment checks and the negative direction of scope items 7/8. Add direct checks of each business model and operating evidence, marketplace exposure, liquidity and protection/operational risk. Restore opening valuation context and the reverse-merger-to-retrenchment issue without fixed amounts, fee counts, filing quotas or a forced winner.",
+    "Final v3.3 draft: 17 PT / 7 PW. Author and mechanical checks are not independent semantic approval. No external fact verification or report scoring was performed.",
+    "Review 31: only PT.D1.02 levels 3/5, boundary and associated provenance/audit notes revised; prior mandatory expectations-to-retrenchment wording is historical. All PW unchanged; no external economic fact verification or reevaluation."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "A dated event and its consequence form one historical record; names without dates or consequences fit 3, so no per-event splitting."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "added",
+      "reason": "History and its consequences remain one object; an excellent merger description cannot replace an absent major later phase. No particular cross-event narrative is mandatory."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "Value, date and valuation basis define one quantity; a precise amount without basis scores 2 or 3 rather than earning separate precision credit."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "A change is a relation between dated measures; a correct peak cannot compensate for an incomparable end value."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "Timing, denominator and economic relationship make the employment consequence interpretable; a layoff number alone fits 3."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "Geography and denominator belong to the workforce quantity; correct percentage with unknown scope cannot receive 5."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "Comparison requires both objects and a common basis; strong standalone histories without comparison fit 1 or 2."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "Dates and context status define the boundary; old facts correctly labeled can be acceptable without splitting each year."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "A figure and its claimed basis form a single attribution relation; a bibliography alone fits 3 at best."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "Magnitude and its measure/date are one assertion; a correct dollar sign cannot offset a wrong valuation basis."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "added",
+      "reason": "Events, mechanism and valuation consequence are one reasoning chain; a plausible link without support does not become strong because the chronology is detailed. Compare the actual core event-to-value explanations for both companies using the same materiality standard, recording opposing strengths. Equally material opposite advantages yield 0; a detailed Turo chain cannot silently erase a weak Getaround chain."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "This is one causal relation, not separate rewards for dates and layoffs; chronology alone cannot establish the link. Assess the main workforce explanations for both companies symmetrically. Record opposite strengths and their impact on the employment conclusion; equal-impact trade-offs yield 0 rather than selecting one company."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "Business model and economic outcome form a comparative explanation; extra fee lists without consequences do not establish insight."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "Source and measurement purpose remain one relation; official provenance cannot offset stale or mismatched scope."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "Order and repetition jointly shape the whole reading path; one good summary cannot offset an incoherent main account."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "Term expansion and its meaning form one explanation; spelling out SPAC without clarifying the role may still leave a major understanding gap."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "Event-to-value-to-source is a lookup path; an accessible bibliography alone does not establish easy attribution."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "Turo's model can be unclear while Getaround's is excellent; company-specific economics need separate entries. A clear revenue account without vehicle-supply responsibility, or a clear supply account without protection arrangements, also scores 3."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "revise",
+      "reason": "A well-described peer-to-peer concept does not explain Getaround's distinct revenue and access relationship. A clear commission account without the owner/access arrangement, or the reverse, also scores 3."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "revise",
+      "reason": "The substantive operating evidence is independent of having a direct comparison; a common comparison basis alone was too weak."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "revise",
+      "reason": "A complete Turo data account cannot compensate for no Getaround operating evidence."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "revise",
+      "reason": "Funding risk can be clear while marketplace activity risk is absent; separate their judgment objects. A concrete demand account with owner-supply exposure missing, or the reverse, also scores 3."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "revise",
+      "reason": "Market demand strength cannot substitute for liquidity adequacy; keep the cash-needs–funding relationship together."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "revise",
+      "reason": "Risk–responsibility–operating consequence is one relationship, independent of capital-market access. A concrete protection account with relevant operational/regulatory constraints omitted, or the reverse, also scores 3."
+    }
+  ]
+}

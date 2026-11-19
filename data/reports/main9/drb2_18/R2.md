@@ -1,0 +1,239 @@
+# Horizontal Gene Transfer in the Plant Kingdom: Evolutionary Mechanisms, Genomic Integration, and Cross-Domain Dynamics
+
+Horizontal gene transfer (HGT)—the non-sexual exchange and stable genomic integration of genetic material across distinct evolutionary lineages—has fundamentally reshaped the understanding of plant genome evolution[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). Historically regarded as a mechanism almost exclusively restricted to prokaryotes, large-scale comparative genomics and phylogenomics have confirmed that HGT operates across eukaryotic kingdoms, playing an indispensable role in plant diversification, metabolic adaptation, and ecological specialization[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). In the plant kingdom (Viridiplantae), foreign genetic acquisitions occur across diverse ecological interfaces, involving parasitic interactions, fungal symbioses and pathogenesis, bacterial-mediated transformations, and viral insertions[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+## Between Parasitic Plants and Host Plants: Haustorial Conduits and Genomic Chimerism
+
+Parasitic angiosperms comprise approximately 4,750 species distributed across 12 independently evolved evolutionary lineages[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT). These plants attach to, penetrate, and extract water, carbon, and mineral nutrients from host plants via a specialized morphological organ termed the **haustorium**[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). Beyond its primary physiological role in nutrient acquisition, the haustorium establishes an intimate cellular and vascular bridge that facilitates substantial macromolecular traffic, creating a prime hotspot for inter-plant horizontal gene transfer[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+### Haustorial Architecture and Cellular Conduits
+
+The development of the haustorium involves localized enzymatic digestion of host tissues, mechanical penetration, and cellular differentiation to establish physiological continuity with host vasculature[[9]](https://academic.oup.com/aob/article/135/5/823/7914565). Translocation occurs across several specialized structural interfaces:
+
+- **Direct Phloem-to-Phloem Connections:** Sieve elements of the parasite directly fuse or establish continuous symplastic conduits with host sieve tubes, exposing the parasite to high-velocity streams of phloem sap enriched with metabolites, proteins, and ribonucleic acids[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+- **Xylem-to-Xylem Junctions:** Direct tracheary connections permit passive transpirational flow of water, inorganic ions, and extracellular mobile DNA fragments directly into the parasite xylem network[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+- **Interspecific Plasmodesmata:** Secondary plasmodesmata form de novo between host parenchyma cells and invading parasitic intrusive cells (such as *Cuscuta* searching hyphae), establishing symplastic nano-channels that permit the unhindered bidirectional movement of macromolecules, small regulatory RNAs, and high concentrations of messenger RNA (mRNA)[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+
+### Spectrum of Transferred Genetic Material
+
+Horizontal transfers between parasitic plants and their hosts span all three plant genomic compartments and involve both DNA and RNA intermediates[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT):
+
+- **Mitochondrial DNA (mtDNA):** Quantitatively, plant mitochondrial genomes are the most frequent recipients of horizontally transferred sequences[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT). Plant mitochondria possess active, non-sequence-specific DNA uptake mechanisms, frequent mitochondrial fusion events, and robust homologous recombination machinery, coupled with a general absence of selection pressures to downsize non-coding sequences[[12]](https://www.pnas.org/doi/10.1073/pnas.1608765113). In extreme holoparasites, such as *Lophophytum mirabile* (Balanophoraceae) and *Rafflesia arnoldii* (Rafflesiaceae), massive mitochondrial transfers have resulted in the functional replacement of native respiratory genes with host homologs[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+- **Plastidial DNA (Plastomes):** Transfer into the plastid genome is exceedingly rare due to the high membrane integrity of chloroplasts, the absence of active exogenous DNA uptake systems, and strong structural constraints that eliminate foreign insertions[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+- **Nuclear DNA (nuDNA):** Nuclear transfers, while less frequent than mitochondrial transfers, directly contribute to adaptive evolution[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). Nuclear HGT proceeds via two distinct molecular pathways: *Direct Genomic DNA Integration:* Genomic double-strand breaks in parasite meristematic or haustorial cells capture fragmented host DNA, integrating entire structural units including native introns and flanking intergenic sequences[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). *mRNA-Mediated Retro-Processing:* Translocated host mRNAs entering through haustorial phloem junctions undergo reverse transcription mediated by endogenous retrotransposon reverse transcriptases; the resulting complementary DNA (cDNA) integrates into host chromosomes, characterized by the complete absence of introns and the retention of terminal poly-A sequence vestiges[[12]](https://www.pnas.org/doi/10.1073/pnas.1608765113).
+
+### Empirical Species Case Studies
+
+#### *Striga hermonthica* (Purple Witchweed)
+
+*Striga hermonthica* is an obligate root hemiparasite within the Orobanchaceae that infests major monocot cereal crops across sub-Saharan Africa, including *Sorghum bicolor* (sorghum) and *Oryza sativa* (rice)[[16]](https://plantimmunity.riken.jp/_src/582/201020science20yoshida20et20al.pdf?v=1557792277409).
+
+- **Transferred Locus:** Transcriptome and genomic analyses identified the nuclear gene **`ShContig9483`**, which encodes an uncharacterized 448-amino-acid protein[[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405).
+- **Phylogenetic Evidence:** Although *S. hermonthica* is a eudicot, phylogenetic reconstruction places `ShContig9483` robustly within the panicoid grass clade of Poaceae, exhibiting highest sequence identity to *Sorghum bicolor* and *Oryza sativa*, with no homologous counterpart detected in any non-parasitic eudicot[[16]](https://plantimmunity.riken.jp/_src/582/201020science20yoshida20et20al.pdf?v=1557792277409).
+- **Mechanistic Footprint:** The genomic locus of `ShContig9483` features 13 consecutive adenine nucleotides at its 3' terminus, indicating that the gene originated via reverse transcription of a host mRNA transcript captured across the root haustorium prior to speciation between *S. hermonthica* and *Striga gesnerioides*[[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405).
+
+#### *Cuscuta* spp. (Dodder)
+
+The genus *Cuscuta* (Convolvulaceae) comprises stem holoparasites that entwine aerial vegetative organs of host plants[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT). Large-scale genomic sequencing of *Cuscuta australis* and *Cuscuta campestris* revealed dozens of functional nuclear HGT acquisitions[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113):
+
+- **Strictosidine Synthase-Like (*SSL*) Acquisition:** *Cuscuta australis* (and independently, the root parasite *Orobanche aegyptiaca*) acquired *SSL* genes from host species in the Brassicaceae[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). The transferred *SSL* genes maintain high amino acid conservation and are actively transcribed, playing putative roles in secondary alkaloid synthesis and defense against host chemical immunity[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+- **Convergent Retention and Haustorial Specialization:** Horizontally acquired genes in *Cuscuta* show a significant transcriptional bias, being expressed specifically within mature haustorial tissues[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). Functional annotations indicate enrichment for cell wall-modifying enzymes, amino acid transporters, and proteases, suggesting that foreign genes have been repeatedly co-opted to optimize haustorial penetration and nutrient assimilation[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+#### *Orobanche minor* (Small Broomrape)
+
+In the holoparasitic root parasite *Orobanche minor* (Orobanchaceae), genomic sequencing revealed at least 22 nuclear HGT events (*OmHT01* through *OmHT22*) derived from host species in the Fabaceae (legumes)[[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405). Detailed exon-intron mapping demonstrated that nearly all *OmHT* genes preserve identical intron positions and canonical splice signals relative to their legume orthologs, confirming that horizontal transfer in this lineage occurred predominantly through direct genomic DNA fragments rather than retro-processed RNA intermediates[[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405).
+
+| Parasite Species | Parasite Family | Donor Taxon | Transferred Gene / Locus | Primary Mechanism / Integration Target | Adaptive Biological Function | Reference(s) |
+| --- | --- | --- | --- | --- | --- | --- |
+| ***Striga hermonthica*** | Orobanchaceae (Eudicot) | Poaceae (*Sorghum bicolor*) | `ShContig9483` | mRNA retrotranscription (Nuclear poly-A vestige) | Active nuclear transcription; putative host interaction | [[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405) |
+| ***Orobanche aegyptiaca*** | Orobanchaceae (Eudicot) | Brassicaceae | *SSL* (*Strictosidine Synthase-Like*) | Direct DNA / Nuclear genome | Secondary alkaloid metabolism; host defense evasion | [[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113) |
+| ***Cuscuta australis*** | Convolvulaceae (Eudicot) | Brassicaceae | *SSL* (*Strictosidine Synthase-Like*) | Direct DNA / Nuclear genome | Chemical defense and metabolic adaptation | [[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113) |
+| ***Orobanche minor*** | Orobanchaceae (Eudicot) | Fabaceae (Legumes) | *OmHT01* – *OmHT22* | Genomic DNA capture (Intron-conserved nuDNA) | Haustorial maintenance; nitrogenous metabolic assimilation | [[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405) |
+| ***Lophophytum mirabile*** | Balanophoraceae (Eudicot) | Mimosoideae (Fabaceae) | Core mtDNA (*matR*, *atp1*, *cox1*) | Mitochondrial genome fusion and replacement | Functional substitution of core respiratory machinery | [[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT) |
+
+## Between Fungi and Plants: Bidirectional Trajectories Across the Vegetative Interface
+
+Physical interactions between fungi and plants have persisted for over 450 million years, spanning mutualistic mycorrhizal symbioses, endophytism, and aggressive phytopathogenic relationships[[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC2729602/). Despite rigid polysaccharide cell walls and the absence of phagotrophic engulfment, phylogenomic analyses confirm that horizontal gene transfer between plants and fungi has occurred repeatedly in a **bidirectional** manner[[3]](https://academic.oup.com/plcell/article-abstract/21/7/1897/6095451).
+
+### Directionality and Evolutionary Dynamics
+
+Comparative phylogenomics establishes that genetic material moves across kingdoms in both directions:
+
+- **Fungus-to-Plant Transfers:** Fungi serve as donors of catalytic enzymes, secondary metabolite biosynthetic genes, and resistance determinants that integrate into plant nuclear genomes, aiding ecological adaptation and defense[[3]](https://academic.oup.com/plcell/article-abstract/21/7/1897/6095451).
+- **Plant-to-Fungus Transfers:** Fungi acquire host plant defense scaffolds and carbohydrate-metabolizing enzymes, enabling phytopathogens to neutralize host phytoalexins and bypass cellular immune barriers[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full).
+
+### Fungus-to-Plant Gene Transfer: Acquisition of Disease Resistance
+
+The most prominent documented case of fungus-to-plant horizontal transfer involves the acquisition of agricultural disease resistance:
+
+- **The Transfer of `Fhb7` to Triticeae:** Fusarium head blight (FHB), caused primarily by the ascomycete fungus *Fusarium graminearum*, is a destructive disease of bread wheat (*Triticum aestivum*) that causes severe kernel damage and contaminates grain with trichothecene mycotoxins such as deoxynivalenol (DON)[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf).
+- **Origin and Mechanism:** Positional cloning and genomic sequencing established that the major resistance gene **`Fhb7`** encodes a glutathione S-transferase (GST)[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf). Phylogenomic mapping demonstrated that `Fhb7` was horizontally transferred from an endophytic fungus within the genus ***Epichloë*** (Clavicipitaceae) into the nuclear genome of the wild diploid tall wheatgrass, ***Thinopyrum elongatum*** (syn. *Agropyron elongatum*)[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf).
+- **Biochemical Function:** The horizontally acquired fungal GST detoxifies trichothecenes by catalyzing the conjugation of glutathione onto the reactive 12,13-epoxy ring of DON, abolishing fungal mycotoxicoses without incurring any plant physiological or yield penalty[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf). The introgression of the *Th. elongatum* chromosomal segment harboring `Fhb7` into hexaploid wheat cultivars confers broad-spectrum, durable resistance to FHB and crown rot[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf).
+- **Ancient Terrestrialization Acquisitions:** Broader phylogenomic screens reveal that ancestral fungal-to-plant HGT events occurred in early-diverging land plants, transferring metabolic genes that facilitated transition from an aquatic milieu to ancestral terrestrial soils[[3]](https://academic.oup.com/plcell/article-abstract/21/7/1897/6095451).
+
+### Plant-to-Fungus Gene Transfer: Pathogenic Specialization
+
+Plant-to-fungi transfers provide phytopathogens with physiological mechanisms to evade or dismantle host defenses:
+
+- **UDP-Glucosyltransferase Acquisition in *Botrytis cinerea*:** The polyphagous necrotrophic fungus *Botrytis cinerea* acquired a **UDP-glucosyltransferase (UGT)** gene via HGT from the hawkweed ***Hieracium pilosella*** (Asteraceae)[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full). This acquired plant enzyme allows the pathogen to glycosylate, detoxify, and neutralize host-secreted antifungal secondary metabolites during tissue invasion[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full).
+- **Leucine-Rich Repeat (LRR) Proteins in *Pyrenophora*:** The foliar necrotrophic fungal pathogen ***Pyrenophora tritici-repentis*** acquired a **leucine-rich repeat (LRR)** domain-containing protein from its monocot host, barley (***Hordeum vulgare***)[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full). The pathogen integrated this host immune receptor motif into its effector machinery, allowing it to modulate host recognition signaling networks during infection[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full).
+- **Subtilisin-like Proteases in *Colletotrichum*:** Hemibiotrophic pathogens in the genus *Colletotrichum* acquired plant-derived subtilisin-like serine proteases, expanding their extracellular secretome to facilitate the enzymatic degradation of host cell-wall structural proteins[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full).
+
+| Transfer Direction | Donor Lineage | Recipient Lineage | Horizontally Transferred Gene | Primary Biochemical / Adaptive Role |
+| --- | --- | --- | --- | --- |
+| **Fungus $\rightarrow$ Plant** | *Epichloë* (Endophytic Ascomycete) | *Thinopyrum elongatum* (Tall Wheatgrass) | `Fhb7` (Glutathione S-transferase) | Enzymatic detoxification of trichothecene mycotoxins; confers high resistance to Fusarium head blight[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf). |
+| **Fungus $\rightarrow$ Plant** | Ancestral Ascomycota | Early Embryophytes / Charophyte Algae | Soil-metabolism / nutrient enzymes | Biochemical adaptation to ancestral terrestrial soil matrices[[3]](https://academic.oup.com/plcell/article-abstract/21/7/1897/6095451). |
+| **Plant $\rightarrow$ Fungus** | *Hieracium pilosella* (Asteraceae) | *Botrytis cinerea* (Necrotrophic Pathogen) | `UGT` (UDP-glucosyltransferase) | Enzymatic neutralization and glycosylation of host phytoalexins[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full). |
+| **Plant $\rightarrow$ Fungus** | *Hordeum vulgare* (Barley) | *Pyrenophora tritici-repentis* | `LRR` (Leucine-Rich Repeat Protein) | Molecular mimicry and suppression of host immune recognition[[24]](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full). |
+
+## Between Bacteria and Plants: *Agrobacterium* Molecular Machinery and Naturally Transgenic Flora
+
+The horizontal transfer of transfer DNA (T-DNA) from the soil bacterium *Agrobacterium* (*Rhizobium radiobacter* / *Agrobacterium tumefaciens* / *Agrobacterium rhizogenes*) into the nuclear genome of dicotyledonous plants is the only known naturally occurring cross-domain genetic transformation system operating in nature.
+
+### Molecular Cascade of *Agrobacterium* T-DNA Translocation
+
+The transfer process represents a tightly coordinated biochemical cascade regulated by the virulence (*vir*) regulon located on the Tumor-inducing (Ti) or Root-inducing (Ri) plasmid:
+
+1. **Chemosensory Activation:** Phenolic compounds (e.g., acetosyringone) and monosaccharides exuded by wounded plant cells are sensed by the transmembrane kinase **VirA**. VirA autophosphorylates and subsequently activates the cytoplasmic response regulator **VirG** by transphosphorylation, initiating transcription across all *vir* operons (*virA*, *virB*, *virC*, *virD*, *virE*, *virF*, *virG*).
+2. **T-Strand Processing:** The site-specific endonuclease **VirD1/VirD2** recognizes flanking 25-base-pair direct repeat borders (Left Border, LB, and Right Border, RB). VirD2 nicks the bottom strand and attaches covalently to the 5' phosphate of the single-stranded DNA (ssDNA) via a conserved tyrosine residue, creating the mobile **T-strand**.
+3. **Type IV Secretion Delivery:** The **VirB complex** (VirB1 through VirB11), together with the **VirD4** coupling protein, assembles a Type IV Secretion System (T4SS) that forms a channel traversing both bacterial membranes and the host cell wall. The VirD2–T-strand intermediate, along with effector proteins (**VirE2**, **VirE3**, and **VirF**), is injected into the host cytoplasm.
+4. **Cytoplasmic Protection and Nuclear Import:** Within the plant cytoplasm, monomeric **VirE2** proteins bind cooperatively along the length of the single-stranded T-strand, forming a protective nucleoprotein filament that prevents degradation by host nucleases. Nuclear Localization Signals (NLS) on VirD2, VirE2, and the adaptor protein VirE3 recruit host **importin-$\alpha$**, directing active transport of the complex through the nuclear pore complex into the plant nucleus.
+5. **Host-Mediated Chromosomal Integration:** In the host nucleus, the nucleoprotein complex strips its protein coat. Integration into host chromosomes occurs at genomic double-strand breaks via **Non-Homologous End Joining (NHEJ)** or **Microhomology-Mediated End Joining (MMEJ)** pathways, resulting in stable, heritable integration into the plant nuclear chromosome.
+
+### Naturally Transgenic Plants in Nature
+
+Ancient *Agrobacterium* infections transformed somatic cells that subsequently regenerated into fertile germlines, giving rise to "naturally transgenic" plants that harbor bacterial genes across natural populations.
+
+#### The Paradigm of Sweet Potato (*Ipomoea batatas*)
+
+Sequencing of cultivated sweet potato (*Ipomoea batatas*, Convolvulaceae) revealed that its nuclear genome naturally contains intact, expressed *Agrobacterium* T-DNA insertions, proving that cultivated sweet potato is a naturally transgenic crop:
+
+- **Genomic Integration Architecture:** All 291 examined cultivated sweet potato accessions (spanning landraces and cultivars across the Americas, Africa, and Asia) contain stably integrated *Agrobacterium* T-DNA at two distinct loci: **`IbT-DNA1`** and **`IbT-DNA2`**.
+- **Gene Complement of `IbT-DNA1`:** This locus is universally conserved across all cultivated clones and encodes four intact open reading frames:**`iaaM`** (tryptophan 2-monooxygenase) and **`iaaH`** / `aux1` (indole-3-acetamide hydrolase), which together catalyze the biochemical synthesis of indole-3-acetic acid (auxin) from tryptophan.A **`rolB/rolC`**-like gene homolog that modulates plant growth regulator responsiveness.An actively transcribed uncharacterized open reading frame termed **`C-prot`**.
+- **Gene Complement of `IbT-DNA2`:** Found in a subset of sweet potato cultivars, this locus contains the cytokinin biosynthesis gene **`ipt`** (isopentenyltransferase), additional *iaaM* and *iaaH* homologs, and **`acS`** (agropine synthase), which catalyzes the synthesis of opines.
+- **Evolutionary and Agronomic Impact:** The *IbT-DNA1* genes are actively transcribed in sweet potato storage roots and vegetative tissues. The acquisition of auxin- and cytokinin-synthesizing bacterial genes altered endogenous hormonal balances, directly promoting storage root enlargement (tuberization) and vigorous vegetative propagation. This phenotypic innovation was actively maintained and fixed by early agriculturalists during sweet potato domestication thousands of years ago.
+
+#### Additional Naturally Transgenic Plant Taxa
+
+- **`Nicotiana` (Solanaceae):** Wild species including *Nicotiana tabacum*, *Nicotiana glauca*, *Nicotiana tomentosiformis*, and *Nicotiana otophora* harbor cellular T-DNA (**`cT-DNA`**) acquired from ancient infections by *Agrobacterium rhizogenes*. These loci retain intact, expressed copies of **`rolB`**, **`rolC`**, **`orf13`**, and **`orf14`**, which alter adventitious root morphology and cellular sensitivity to auxins.
+- **`Linaria` (Plantaginaceae):** Species of toadflax (*Linaria vulgaris*) contain conserved, expressed homologs of *Agrobacterium* **`rolC`** and microspore-specific **`mis`** genes stably inherited across wild geographic populations.
+- **Other Angiosperm Genera:** Natural *Agrobacterium* T-DNA captures have been identified in the genomes of *Camellia* (tea) and *Cranbe*, confirming that horizontal transfer from *Agrobacterium* is an ongoing evolutionary force in vascular plants.
+
+| Plant Taxon | Bacterial Ancestral Donor | Integrated T-DNA Locus | Key Bacterial Genes Retained | Resulting Phenotypic / Evolutionary Consequence |
+| --- | --- | --- | --- | --- |
+| ***Ipomoea batatas*** (Sweet Potato) | *Agrobacterium* sp. (Ti/Ri-like) | `IbT-DNA1` & `IbT-DNA2` | `iaaM`, `iaaH`, `ipt`, `rolB/C`-like, `acS` | Altered auxin/cytokinin balance; promoted storage root formation; conserved via human domestication. |
+| ***Nicotiana*** spp. (Wild Tobaccos) | *Agrobacterium rhizogenes* | `cT-DNA` | `rolB`, `rolC`, `orf13`, `orf14` | Modified adventitious rooting, cellular proliferation, and altered development. |
+| ***Linaria vulgaris*** (Toadflax) | *Agrobacterium rhizogenes* | `Lv-cT-DNA` | `rolC`, `mis` (microspore-specific) | Functional retention in reproductive and vegetative tissues across wild populations. |
+| ***Camellia sinensis*** (Tea Plant) | *Agrobacterium* sp. | Natural T-DNA loci | `iaaM`, opine-like synthase genes | Evolutionary remodeling of root secondary metabolic pathways. |
+
+## Between Viruses and Plants: Endogenous Elements and Viral Vectors of Gene Flow
+
+Interactions between viruses and plants operate across two genomic dimensions: the permanent integration and co-option of viral sequences into the plant nuclear genome, and the capacity of autonomous plant viruses to serve as vectors that capture, carry, and horizontally transfer genetic sequences between distinct plant hosts[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+
+### Endogenous Viral Elements (EVEs) and Pararetroviruses
+
+During viral infection, viral genomic fragments integrate into host nuclear chromosomes through illegitimate recombination events during the repair of host double-strand breaks[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes). When these integrations occur in germline or meristematic stem cells, they become heritable **Endogenous Viral Elements (EVEs)**[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes). In plants, the most prominent EVEs derive from the **`Caulimoviridae`** (double-stranded DNA pararetroviruses, known as Endogenous Pararetroviral Sequences or EPRVs) and the **`Geminiviridae`** (circular single-stranded DNA viruses)[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+
+#### Petunia Vein Clearing Virus (PVCV)
+
+- **Species:** Garden petunia (*Petunia hybrida*, Solanaceae)[[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler).
+- **Integration Structure:** The complete double-stranded DNA genome of **Petunia Vein Clearing Virus (PVCV)** is integrated as tandem, head-to-tail repetitive arrays embedded in the *P. hybrida* nuclear genome[[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler).
+- **Epigenetic Silencing and Pathogenic Reconstitution:** Under non-stress conditions, integrated PVCV loci are silenced by host DNA methylation and small RNA pathways[[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler). However, abiotic stressors (such as temperature extremes or nutrient starvation) or interspecific crosses disrupt host epigenetic silencing[[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler). This allows the integrated tandem repeats to undergo transcription and homologous recombination, reconstituting fully functional, infectious episomal PVCV virions that cause spontaneous systemic vein-clearing disease[[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler).
+
+#### Banana Streak Virus (BSV) in *Musa*
+
+- **Species:** Bananas and plantains (*Musa* spp.).
+- **Integration Dynamics:** Endogenous Banana Streak Viruses (**`eBSV`**) are integrated into the "B" genome of the wild diploid ancestor *Musa balbisiana*, but are absent from the "A" genome of *Musa acuminata*.
+- **Hybridization-Triggered Activation:** Interspecific breeding between *M. acuminata* and *M. balbisiana* to generate triploid hybrids (AAB or ABB cultivars) triggers genomic stress that disrupts epigenetic repression. The integrated `eBSV` sequences recombine *de novo* into infectious episomal BSV virions, causing spontaneous viral outbreaks in hybrid banana plantations and presenting a challenge for conventional crop improvement.
+
+#### Host Domestication of Viral Elements
+
+Plants frequently domesticate integrated EVEs for adaptive functions[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes):
+
+- **Antiviral Immune Memory:** Host plants transcribe fragmented EVEs to generate hairpin and aberrant double-stranded RNAs[[26]](https://www.mdpi.com/2076-393X/14/1/81). These transcripts are processed by Dicer-like (DCL) endonucleases into primary small interfering RNAs (siRNAs), feeding into the **RNA-directed DNA methylation (RdDM)** and post-transcriptional gene silencing (PTGS) machinery to confer sequence-specific immunity against related exogenous viruses[[26]](https://www.mdpi.com/2076-393X/14/1/81).
+- **Geminivirus-Related DNA (`GRD`):** Species of *Nicotiana* harbor ancestral Geminivirus-Related DNA sequences (`GRD5` and `GRD3`) encoding truncated replication-associated (Rep) protein domains that competitively inhibit modern geminiviral replication, providing an endogenous protein-mediated defense shield.
+
+### Viruses as Vectors Mediating Inter-Plant Horizontal Gene Transfer
+
+Beyond contributing their own structural sequences, plant viruses can capture host cellular sequences and mediate transduction between different host plants[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+
+#### Mechanisms of Host Gene Acquisition by Viruses
+
+- **Replicase Template-Switching:** During viral RNA replication, the viral RNA-dependent RNA polymerase (RdRp) can stall and dissociate from the viral genomic template, subsequently re-initiating synthesis on a co-localized host cellular messenger RNA[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes). This "copy-choice" recombination mechanism incorporates host coding or regulatory sequences directly into the viral RNA genome[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+- **Recombination with Transposable Elements:** Nuclear-replicating plant DNA viruses (such as geminiviruses) and pararetroviruses can undergo non-homologous recombination with host transposable elements (TEs), miniature inverted-repeat transposable elements (MITEs), or small nuclear RNAs, packaging these host elements into viral capsids[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+
+#### Inter-Plant Transduction Conduits
+
+Once a recombinant virus encapsidates host-derived genetic material, it is transported systemically across the plant vascular network and transmitted to new, unrelated host species via several biological vectors[[26]](https://www.mdpi.com/2076-393X/14/1/81):
+
+- **Polyphagous Insect Vectors:** Broad-host-range insect vectors (aphids, whiteflies, thrips, leafhoppers) transfer recombinant plant viruses between phylogenetically distinct species sharing the same ecosystem.
+- **Parasitic Plant Bridges:** Parasitic vines, such as *Cuscuta* species, frequently parasitize multiple adjacent host plants simultaneously, acting as physical bridges that transmit recombinant viral vectors carrying captured plant genes from one host directly into the vascular tissue of another[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT).
+- **Chromosomal Integration:** Upon infecting a new recipient plant, host-derived genes carried by the viral vector can integrate into the new host chromosome via reverse transcription, homologous recombination, or double-strand break repair pathways[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes).
+
+#### Biotechnological Exploitation of Viral Vectors
+
+The natural vectoring capability of plant viruses provides the foundation for modern plant molecular biotechnology[[26]](https://www.mdpi.com/2076-393X/14/1/81). Engineered viral expression systems derived from **Tobacco Mosaic Virus (TMV)**, **Potato Virus X (PVX)**, and **Tobacco Rattle Virus (TRV)** are standard platforms for **Virus-Induced Gene Silencing (VIGS)** and **Virus-Induced Genome Editing (VIGE)**[[26]](https://www.mdpi.com/2076-393X/14/1/81). These systems utilize viral autonomous movement and high expression levels to deliver recombinant RNA sequences and Cas endonuclease components throughout the host plant, mirroring the natural horizontal transduction pathways established over evolutionary history[[26]](https://www.mdpi.com/2076-393X/14/1/81).
+
+| Viral Group / Element | Host Plant Lineage | Viral Entity / Locus | Integration / Vector Mechanism | Evolutionary / Practical Impact | Reference(s) |
+| --- | --- | --- | --- | --- | --- |
+| **Pararetrovirus (EPRV)** | *Petunia hybrida* | Petunia Vein Clearing Virus (PVCV) | Tandem nuclear repeats; stress-induced excision | Latent integration; environmental stress triggers spontaneous pathogenic virion assembly. | [[25]](https://www.researchgate.net/profile/Katja-Richert-Poeggeler) |
+| **Pararetrovirus (EPRV)** | *Musa balbisiana* (Banana B-genome) | Endogenous Banana Streak Virus (`eBSV`) | Nuclear chromosomal integration; hybrid activation | Reconstitutes infectious BSV upon interspecific hybridization; barrier to banana breeding. | [[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) |
+| ***Geminiviridae*** | *Nicotiana* spp. | Geminivirus-Related DNA (`GRD5`/`GRD3`) | Ancient single-stranded DNA repair integration | Domesticated to express truncated Rep proteins that inhibit exogenous geminivirus replication. | [[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) |
+| **Autonomous Plant Viruses (e.g., TRV, PVX, TMV)** | Broad Angiosperm Hosts | Recombinant viral genomes | RdRp template switching; insect & *Cuscuta* bridging | Inter-host sequence transduction in nature; harnessed as VIGS/VIGE biotechnology tools. | [[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) |
+
+## Evolutionary Synthesis and Cross-Domain Matrix
+
+The accumulated genomic evidence demonstrates that horizontal gene transfer in plants is not an evolutionary anomaly, but a pervasive, ongoing biological force that operates across multiple kingdom-level interfaces[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+| HGT Interface | Primary Structural Conduit | Transferred Nucleic Acid Form | Representative Transferred Genes | Evolutionary Impact on Recipient Plant |
+| --- | --- | --- | --- | --- |
+| **Parasitic Plant $\leftrightarrow$ Host** | Multicellular Haustorium (Phloem, Xylem, Plasmodesmata)[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113) | Direct genomic dsDNA & mobile phloem mRNA[[12]](https://www.pnas.org/doi/10.1073/pnas.1608765113) | `ShContig9483`, *SSL*, *OmHT01–22*, *matR*, *atp1*[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113)[[8]](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT)[[15]](https://academic.oup.com/gbe/article/10/12/3196/5165405) | Metabolic co-option, haustorial feeding efficiency, and mitochondrial genome remodeling[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). |
+| **Fungus $\leftrightarrow$ Plant** | Hyphal Apoplastic & Symplastic Ingress[[6]](https://pmc.ncbi.nlm.nih.gov/articles/PMC2729602/) | Nuclear chromosomal fragments[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf) | `Fhb7` (GST), `UGT`, `LRR`, Subtilisin-like proteases[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf) | Evolution of durable disease resistance (*Fhb7*) and phytopathogenic effector specialization[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf). |
+| **Bacterium $\rightarrow$ Plant** | *Agrobacterium* Type IV Secretion System (T4SS) | Single-stranded T-strand DNA (VirD2-capped) | `iaaM`, `iaaH`, `ipt`, `rolB`, `rolC`, `acS` | Hormonal reprogramming, storage root induction, and natural agricultural domestication (*Ipomoea batatas*). |
+| **Virus $\leftrightarrow$ Plant** | Illegitimate Recombination & Viral Replicase Transduction[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) | Double- and single-stranded viral DNA / Recombinant RNA[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) | PVCV, `eBSV`, `GRD` Rep domains, transduced host RNAs[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes) | Endogenous siRNA immune memory, stress-induced pathogenesis, and vector-mediated inter-plant gene flow[[7]](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes). |
+
+Several key evolutionary principles emerge from the comparative analysis of plant HGT:
+
+1. **Physical Intimacy Dictates Transfer Frequency:** The probability of horizontal genetic exchange correlates with the degree of physical, nutritional, and spatial intimacy between interacting organisms[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113). Haustorial connections in parasitic plants, intracellular delivery by *Agrobacterium*, persistent endophytic/pathogenic fungal hyphal networks, and systemic viral infections provide the requisite micro-environments for foreign nucleic acids to access plant cells[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+2. **Mechanistic Convergence Across Intermediates:** Foreign genetic incorporation proceeds through distinct biochemical routes: direct capture of double-stranded genomic DNA fragments (which preserve native intron structures) and reverse transcription of mobile messenger or viral RNAs (which yield intronless retro-sequences marked by terminal poly-A vestiges)[[5]](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf).
+3. **Purifying Selection and Adaptive Co-Option:** While the majority of horizontally transferred sequences succumb to mutational decay and pseudogenization, foreign genes that provide immediate adaptive advantages—such as the mycotoxin-neutralizing `Fhb7` GST in wheatgrass, storage-root-inducing *IbT-DNA* cassettes in sweet potato, and defensive *SSL* enzymes in parasitic *Cuscuta*—are captured by strong purifying selection and integrated into native plant regulatory networks[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+In summary, horizontal gene transfer serves as a major driver of reticulate evolution in the plant kingdom, allowing plant genomes to rapidly acquire pre-adapted, complex biochemical machinery across vast phylogenetic distances[[1]](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113).
+
+## Sources
+
+1. [pnas.org — Horizontal gene transfer is more frequent with increased heterotrophy and contributes to parasite adaptation | PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.1608765113)
+2. [pmc.ncbi.nlm.nih.gov — Horizontal Gene Transfer: From Evolutionary Flexibility to Disease Progression - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7248198/)
+3. [academic.oup.com — Phylogenomic Analysis Demonstrates a Pattern of Rare and Ancient Horizontal Gene Transfer between Plants and Fungi - Oxford Academic](https://academic.oup.com/plcell/article-abstract/21/7/1897/6095451)
+4. [mural.maynoothuniversity.ie — Horizontal gene transfer in fungi - - MURAL - Maynooth University Research Archive Library](https://mural.maynoothuniversity.ie/id/eprint/3037/1/DF_Horizontal.pdf)
+5. [biorxiv.org — Fungi ligE-type glutathione S-transferases horizontally transferred](https://www.biorxiv.org/content/10.1101/2020.06.24.168203v1.full.pdf)
+6. [pmc.ncbi.nlm.nih.gov — Phylogenomic Analysis Demonstrates a Pattern of Rare and Ancient Horizontal Gene Transfer between Plants and Fungi - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2729602/)
+7. [researchgate.net — Viruses as vectors of horizontal transfer of genetic material in eukaryotes - ResearchGate](https://www.researchgate.net/publication/318063867_Viruses_as_vectors_of_horizontal_transfer_of_genetic_material_in_eukaryotes)
+8. [researchgate.net — Gene-stealing plants: parasitic plants and horizontal gene transfer (HGT) - ResearchGate](https://www.researchgate.net/publication/350875336_Gene-stealing_plants_parasitic_plants_and_horizontal_gene_transfer_HGT)
+9. [academic.oup.com — One organ to infect them all: the Cuscuta haustorium | Annals of Botany | Oxford Academic](https://academic.oup.com/aob/article/135/5/823/7914565)
+10. [pubmed.ncbi.nlm.nih.gov — Molecular translocation between parasitic plants and their hosts - PubMed](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed_citedin&from_uid=41439178)
+11. [frontiersin.org — RNA trafficking in parasitic plant systems - Frontiers](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2012.00203/full)
+12. [pnas.org — Horizontal gene transfer is more frequent with increased heterotrophy and contributes to parasite adaptation | PNAS](https://www.pnas.org/doi/10.1073/pnas.1608765113)
+13. [semanticscholar.org — Horizontal gene transfer in parasitic plants. - Semantic Scholar](https://www.semanticscholar.org/paper/Horizontal-gene-transfer-in-parasitic-plants.-Davis-Xi/1cd254bdb2f931c1bd90ab9bd06ced75cf38d201)
+14. [researchgate.net — Horizontal Gene Transfer in Eukaryotes: Fungi-to-Plant and Plant-to-Plant Transfers of Organellar DNA | Request PDF - ResearchGate](https://www.researchgate.net/publication/278637212_Horizontal_Gene_Transfer_in_Eukaryotes_Fungi-to-Plant_and_Plant-to-Plant_Transfers_of_Organellar_DNA)
+15. [academic.oup.com — Horizontal Gene Transfer in Five Parasite Plant Species in Orobanchaceae | Genome Biology and Evolution | Oxford Academic](https://academic.oup.com/gbe/article/10/12/3196/5165405)
+16. [plantimmunity.riken.jp — Horizontal Gene Transfer by the Parasitic Plant Striga hermonthica BREVIA - riken](https://plantimmunity.riken.jp/_src/582/201020science20yoshida20et20al.pdf?v=1557792277409)
+17. [pmc.ncbi.nlm.nih.gov — The genus Striga: a witch profile - PMC - NIH](https://pmc.ncbi.nlm.nih.gov/articles/PMC6638688/)
+18. [en.wikipedia.org — Striga hermonthica - Wikipedia](https://en.wikipedia.org/wiki/Striga_hermonthica)
+19. [asiaresearchnews.com — Parasite plants rob genes from their hosts | Asia Research News](https://www.asiaresearchnews.com/html/article.php/aid/5250/cid/2/research/technology/riken/parasite_plants_rob_genes_from_their_hosts.html)
+20. [researchgate.net — (PDF) Horizontal Gene Transfer by the Parasitic Plant Striga hermonthica - ResearchGate](https://www.researchgate.net/publication/44635726_Horizontal_Gene_Transfer_by_the_Parasitic_Plant_Striga_hermonthica)
+21. [biorxiv.org — Parasitism-mediated horizontal transfer of a functional cytochrome P450 gene entails transposon colonization in newly gained introns | bioRxiv](https://www.biorxiv.org/content/10.1101/2025.08.25.672084v1.full-text)
+22. [pmc.ncbi.nlm.nih.gov — Molecular translocation between parasitic plants and their hosts - PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12719493/)
+23. [pubmed.ncbi.nlm.nih.gov — Phylogenomic analysis demonstrates a pattern of rare and ancient horizontal gene transfer between plants and fungi - PubMed](https://pubmed.ncbi.nlm.nih.gov/19584142/)
+24. [frontiersin.org — Contribution of Multiple Inter-Kingdom Horizontal Gene Transfers to Evolution and Adaptation of Amphibian-Killing Chytrid, Batrachochytrium dendrobatidis - Frontiers](https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2016.01360/full)
+25. [researchgate.net — Katja R Richert-Pöggeler PhD Senior Researcher at Julius Kühn-Institut - ResearchGate](https://www.researchgate.net/profile/Katja-Richert-Poeggeler)
+26. [mdpi.com — Plant Viral Vectors for Vaccine Development - MDPI](https://www.mdpi.com/2076-393X/14/1/81)
+27. [pmc.ncbi.nlm.nih.gov — Viruses as tools in gene therapy, vaccine development, and cancer treatment - PMC - NIH](https://pmc.ncbi.nlm.nih.gov/articles/PMC9035288/)
+28. [preprints.org — Plant Viral Vectors for Vaccine Development - Preprints.org](https://www.preprints.org/manuscript/202510.0250)
+29. [horizonepublishing.com — Viruses unleashed: Revolutionary approaches to gene transfer in plants](https://horizonepublishing.com/index.php/PST/article/view/6041)
+30. [eprints.whiterose.ac.uk — Gene transfer agents: structural and functional properties of domesticated viruses](https://eprints.whiterose.ac.uk/id/eprint/213070/)
+31. [https://nopr.niscpr.res.in/bitstream/123456789/45448/1/IJMS%2047(12)%202343-2352.pdf](https://nopr.niscpr.res.in/bitstream/123456789/45448/1/IJMS%2047(12)%202343-2352.pdf)
+32. [https://pdfs.semanticscholar.org/817b/98a3410f2490629245ee03c838bd2ad640df.pdf](https://pdfs.semanticscholar.org/817b/98a3410f2490629245ee03c838bd2ad640df.pdf)
+33. [https://www.mdpi.com/2075-1729/11/8/857](https://www.mdpi.com/2075-1729/11/8/857)
+34. [https://www.researchgate.net/figure/Phylogenetic-Evidence-for-Plant-Fungi-HGT-with-Weak-Topology-Support-Values-but-Confirmed_fig2_26653634](https://www.researchgate.net/figure/Phylogenetic-Evidence-for-Plant-Fungi-HGT-with-Weak-Topology-Support-Values-but-Confirmed_fig2_26653634)
+35. [https://substack.com/home/post/p-156239189](https://substack.com/home/post/p-156239189)

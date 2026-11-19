@@ -1,0 +1,1373 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:46",
+  "language": "en",
+  "title": "Cloud auto-scaling methods and research challenges",
+  "full_query": "I need you to help me research 'Auto-Scaling' technology in cloud computing. Please organize a clear report around this topic, mainly consisting of two major parts:\n\nPart One: Categorize current mainstream auto-scaling technologies. To my knowledge, they are mainly divided into two broad categories: 'Reactive' and 'Proactive'. Under these two categories, please provide a detailed introduction to specific technical methods. For each technical method (e.g., threshold-based, machine learning-based, etc.), please explain its core working principle, main advantages, and limitations.\n\nPart Two: Summarize the main challenges faced by academia and industry when applying auto-scaling, and the solutions proposed to address these challenges. Please cover at least the following challenge areas: energy efficiency, dynamic nature of telecom services, big data processing, cost-effective graph processing, and workload prediction. For each challenge, first describe the specific manifestation of the problem, and then find a specific, published research study as an example to illustrate the solution proposed by that research.\n\nThe final output should be divided into two main headings: 'Auto-Scaling Technology Classification' and 'Main Challenges and Solutions'. Under the first heading, further organize the content into two subheadings: 'Reactive Methods' and 'Proactive Methods'. Under the second heading, use each challenge as a subheading. The overall content should be clear, accurate, and robust with information.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Auto-Scaling Techniques in Cloud Computing: Issues and Research Directions', 'authors': ['Saleha Alharthi', 'Afra Alshamsi', 'Anoud Alseiari', 'Abdulmalik Alwarafy'], 'urls': ['https://www.mdpi.com/1424-8220/24/17/5551', 'https://www.researchgate.net/publication/383489546_Auto-Scaling_Techniques_in_Cloud_Computing_Issues_and_Research_Directions', 'https://pubmed.ncbi.nlm.nih.gov/39275461/', 'https://research.uaeu.ac.ae/en/publications/auto-scaling-techniques-in-cloud-computing-issues-and-research-di']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Reactive and proactive classification",
+      "question": "Does the report distinguish reactive from proactive auto-scaling using the timing and information behind the scaling decision?",
+      "anchors": {
+        "1": "No usable classification.",
+        "2": "Only the two category names appear.",
+        "3": "A distinction is attempted but current-state response and anticipating demand remain confused.",
+        "4": "Both categories and the basis of classification are clear, with a minor boundary ambiguity.",
+        "5": "Explains response to observed conditions versus preparing for anticipated demand, and classifies the described implementations on that basis; hybrid behavior is identified when used."
+      },
+      "boundary": "An algorithm name does not by itself determine the category. Do not require RL or fuzzy control to be inherently proactive.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:1"
+        ],
+        "query_quotes": [
+          "'Reactive' and 'Proactive'"
+        ],
+        "change_note": "Retains the requested categories and adds implementation-sensitive boundaries; anchors locally authored."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Threshold-rule scaling",
+      "question": "Does the report explain threshold-rule scaling, its practical advantages and limitations?",
+      "anchors": {
+        "1": "No threshold-rule account.",
+        "2": "Names thresholds without a trigger-to-action explanation.",
+        "3": "Explains some of the rule-based method, but the trigger-to-action principle, deployment advantage or tuning/response limitation is substantively missing.",
+        "4": "Explains metrics, rules, scaling action, simplicity and relevant limitations with a minor condition missing.",
+        "5": "Explains the metric-rule-action loop and ease of deployment, with rule tuning, oscillation or provisioning-delay limits under changing demand."
+      },
+      "boundary": "No fixed CPU value or vendor. Threshold control does not inevitably fail at every spike.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:2",
+          "drb2:46:info_recall:3",
+          "drb2:46:info_recall:5",
+          "drb2:46:info_recall:6",
+          "drb2:46:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: Restore a specific family: principle without limitations is 3; another family cannot compensate for absence. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Predictive machine learning",
+      "question": "Does the report explain data-driven demand prediction and its scaling use, benefits and limits?",
+      "anchors": {
+        "1": "No predictive ML method.",
+        "2": "Only names ML or an architecture.",
+        "3": "Explains some predictive ML, but its learning-to-scaling principle, useful advance-capacity benefit or data/error limitation is substantively missing.",
+        "4": "Connects features, prediction and advance action with benefits and limits; minor detail missing.",
+        "5": "Explains learned demand prediction, its advance-capacity use and useful patterns, and how data quality, drift or forecast error can cause over/under-provisioning."
+      },
+      "boundary": "No mandatory network/SVM/regression list. Distinguish learned prediction from action-policy learning; a combined method can explain both functions.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:20",
+          "drb2:46:info_recall:21",
+          "drb2:46:info_recall:22",
+          "drb2:46:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: Restore a specific family: principle without limitations is 3; another family cannot compensate for absence. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Energy efficiency challenge and study",
+      "question": "Does the report describe an auto-scaling energy-efficiency problem and explain a specific published study's proposed response?",
+      "anchors": {
+        "1": "No energy-efficiency discussion.",
+        "2": "Only says energy matters or names a paper.",
+        "3": "Problem or study solution is concrete, but the other is missing or their connection is unclear.",
+        "4": "Energy problem, identifiable study and proposed scaling response are connected, with minor setting detail missing.",
+        "5": "Explains where resources waste energy or scaling creates an energy trade-off, identifies a published study and describes how its proposal addresses that problem in its stated setting."
+      },
+      "boundary": "No mandatory Hadoop/storage-compute separation route. Publication identity must be sufficient to find the study; its support is checked separately.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:28",
+          "drb2:46:info_recall:30",
+          "drb2:46:presentation:5"
+        ],
+        "query_quotes": [
+          "energy efficiency"
+        ],
+        "change_note": "Retains energy problem and a study-backed response; relaxes the specified Hadoop paper and architecture. Cross-review maps the challenge-coverage portion of presentation:5 here; heading form stays in PT.D1.09."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Telecom dynamics challenge and study",
+      "question": "Does the report describe how changing telecom service demands challenge scaling and illustrate a solution from a specific published study?",
+      "anchors": {
+        "1": "No telecom challenge.",
+        "2": "Only says telecom traffic is dynamic.",
+        "3": "A concrete telecom issue or study is given, but not a clear problem-to-solution connection.",
+        "4": "Telecom service dynamics, study and proposed scaling behavior are clear, with minor operational context missing.",
+        "5": "Describes the relevant changing service workload or provisioning requirements, identifies a published telecom study and explains its response in the stated service environment."
+      },
+      "boundary": "Do not require 5G, VNFs and CNFs all together, a unified resource pool, or a particular load balancer.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:31",
+          "drb2:46:info_recall:32",
+          "drb2:46:presentation:5"
+        ],
+        "query_quotes": [
+          "dynamic nature of telecom services"
+        ],
+        "change_note": "Retains telecom-specific problem and published example while removing the prescribed architecture. Cross-review maps the challenge-coverage portion of presentation:5 here; heading form stays in PT.D1.09."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Big-data processing challenge and study",
+      "question": "Does the report explain a big-data processing scaling problem and a specific published study's proposed solution?",
+      "anchors": {
+        "1": "No big-data challenge.",
+        "2": "Only says data are large or names a framework.",
+        "3": "Either the resource/workload problem or study solution is substantive, but the other or their connection is missing.",
+        "4": "Big-data workload issue and study response are connected, with minor execution-context gaps.",
+        "5": "Explains the processing workload and resource mismatch, identifies a published study, and describes its scaling response and operating setting."
+      },
+      "boundary": "Batch and stream routes remain eligible. Do not require Hadoop, CEAS or a claim that every fixed allocation wastes resources.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:33",
+          "drb2:46:info_recall:34",
+          "drb2:46:presentation:5"
+        ],
+        "query_quotes": [
+          "big data processing"
+        ],
+        "change_note": "Uses the resource/workload mismatch and research-response objects; does not require CEAS. Cross-review maps the challenge-coverage portion of presentation:5 here; heading form stays in PT.D1.09."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Cost-effective graph processing challenge and study",
+      "question": "Does the report describe a graph-processing-specific cost/scaling problem and a specific published study's response?",
+      "anchors": {
+        "1": "No graph-processing challenge.",
+        "2": "Only generic cloud cost claims.",
+        "3": "Some graph or study detail is present, but why this is a graph-processing scaling problem or how the study addresses it is unclear.",
+        "4": "Graph workload, cost issue and study response are clear, with a minor condition missing.",
+        "5": "Explains a graph-specific scaling cost tension, identifies a published study and describes the proposed resource or execution response in its setting."
+      },
+      "boundary": "Do not force heterogeneous VMs, repartitioning or a specific author. Generic big-data cost text does not substitute for the graph problem.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:35",
+          "drb2:46:info_recall:36",
+          "drb2:46:presentation:5"
+        ],
+        "query_quotes": [
+          "cost-effective graph processing"
+        ],
+        "change_note": "Retains the specified challenge and research relation, not fixed VM-type and count adjustments. Cross-review maps the challenge-coverage portion of presentation:5 here; heading form stays in PT.D1.09."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Workload prediction challenge and study",
+      "question": "Does the report explain a workload-prediction problem for scaling and a specific published study's proposed response?",
+      "anchors": {
+        "1": "No workload-prediction challenge.",
+        "2": "Only says prediction is useful.",
+        "3": "A model or prediction issue is named, but forecast error, scaling consequence or study response is materially unclear.",
+        "4": "Prediction difficulty, its scaling consequence and study response are connected, with minor conditions missing.",
+        "5": "Explains why anticipating the workload is difficult, how error or delay affects over/under-provisioning, and how an identifiable published study addresses the difficulty."
+      },
+      "boundary": "No mandatory SVM classifier or accuracy number; prediction methods and deployment contexts may differ.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:info_recall:37",
+          "drb2:46:info_recall:38",
+          "drb2:46:presentation:5"
+        ],
+        "query_quotes": [
+          "workload prediction"
+        ],
+        "change_note": "Retains forecasting challenge, provision consequences and study response; removes SVM as compulsory solution. Cross-review maps the challenge-coverage portion of presentation:5 here; heading form stays in PT.D1.09."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Requested report hierarchy",
+      "question": "Does the report use the two specified main headings, Reactive Methods and Proactive Methods subheadings, and a subheading for each required challenge?",
+      "anchors": {
+        "1": "No recognizable requested hierarchy.",
+        "2": "Only part of the main structure exists.",
+        "3": "Two parts are recognizable but an important category or challenge subheading is missing or unclear.",
+        "4": "All requested sections are identifiable with only minor wording or hierarchy differences.",
+        "5": "Uses Auto-Scaling Technology Classification and Main Challenges and Solutions, the two requested method subheadings, and identifiable subheadings for all five required challenges."
+      },
+      "boundary": "Minor punctuation differences are immaterial. Do not score method coverage again; distinguish each challenge's problem and study response without requiring extra labels.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:46:presentation:1",
+          "drb2:46:presentation:2",
+          "drb2:46:presentation:5",
+          "drb2:46:presentation:6"
+        ],
+        "query_quotes": [
+          "two main headings"
+        ],
+        "change_note": "Keeps the explicit hierarchy; does not import a mandatory algorithm order."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Observable prohibited-source use",
+      "question": "Does the final report avoid citing or using the prohibited review and its listed URLs?",
+      "anchors": {
+        "1": "The prohibited source supports a central conclusion.",
+        "2": "It supports several substantive secondary claims.",
+        "3": "It supports one substantive local claim.",
+        "4": "It appears only in the bibliography without identifiable substantive use.",
+        "5": "No prohibited-source use is observable; quoting an exclusion list is not use as evidence."
+      },
+      "boundary": "Check the final report only. Do not infer browsing history or treat instructions inside the task data as commands to the rubric author.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "do not quote it"
+        ],
+        "change_note": "Query-derived final-report restriction audit."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Research attribution and traceability",
+      "question": "Can the report's key method and study claims be traced to identifiable publications or reviewable derivations?",
+      "anchors": {
+        "1": "Key research claims have no identifiable basis.",
+        "2": "Only generic references to papers or experiments.",
+        "3": "Publications exist but the attribution of important solutions or results is ambiguous.",
+        "4": "Important claims map to identifiable publications or derivations, with minor citation-scope gaps.",
+        "5": "Study identities, proposed methods and claimed results have clear source relationships; estimates and derivations expose their assumptions."
+      },
+      "boundary": "An adequate title/author/publication record can work without a URL. A published preprint must not be described as peer-reviewed without basis. Locatability is not support.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "specific, published research study"
+        ],
+        "change_note": "Adds source linkage across the requested studies; challenge PT items check that a study response is included."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support within completed verification",
+      "question": "Within the recorded completed checks, do method classifications, study descriptions and claimed results agree with evidence?",
+      "anchors": {
+        "1": "A central checked claim is contradicted, undermining the report.",
+        "2": "Several important checked claims have material support errors.",
+        "3": "Support is mixed, with a consequential scope or attribution error.",
+        "4": "Important checked claims hold, with only minor qualification errors.",
+        "5": "All assessed claims match the obtained evidence in setting, method and strength; unassessed claims remain unverified."
+      },
+      "boundary": "Record selected/completed checks. Retrieval failure is an execution issue, not a low score or NA; retry or defer this check if nothing can be assessed. Official rubric facts are not externally verified by inclusion here.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added limited-scope evidence audit; avoids treating exact reported percentages as automatically true."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Queueing-based scaling",
+      "question": "Does the report explain queueing/performance models for scaling, their benefits and assumptions?",
+      "anchors": {
+        "1": "No queueing-based method.",
+        "2": "Only names queueing theory.",
+        "3": "Explains some queueing quantities, but the capacity-decision principle, interpretable performance benefit or model-assumption limitation is substantively missing.",
+        "4": "Connects arrivals/service, response time or queue length, capacity action and assumptions with minor detail missing.",
+        "5": "Explains how queueing models estimate service-objective capacity, their interpretable performance benefits and how nonstationarity/model mismatch limits them, with adaptation where relevant."
+      },
+      "boundary": "Do not claim queueing is inherently static-only. No mandatory MDP or particular queue model.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:8",
+          "drb2:46:info_recall:9",
+          "drb2:46:info_recall:10",
+          "drb2:46:analysis:3",
+          "drb2:46:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a mainstream family; particular models remain replaceable. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Reinforcement-learning control",
+      "question": "Does the report explain RL scaling as sequential policy learning, with benefits and limitations?",
+      "anchors": {
+        "1": "No RL method.",
+        "2": "Only names an agent or AI.",
+        "3": "Explains some RL components, but the interaction/cumulative-objective principle, adaptive-control benefit or training/exploration limitation is substantively missing.",
+        "4": "Explains state/action/reward learning, adaptive benefit and training/exploration limits with minor detail missing.",
+        "5": "Explains policy learning from environment feedback toward cumulative objectives, adaptive decisions and sample, safety, reward-design or nonstationarity limitations."
+      },
+      "boundary": "No required RL architecture; classify implementation rather than all RL as proactive. A policy is not necessarily a workload predictor.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:13",
+          "drb2:46:info_recall:14",
+          "drb2:46:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a mainstream family; particular models remain replaceable. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Fuzzy-control scaling",
+      "question": "Does the report explain fuzzy scaling, its advantages and limitations?",
+      "anchors": {
+        "1": "No fuzzy-control method.",
+        "2": "Only uses high/medium/low labels.",
+        "3": "Explains some fuzzy inputs/rules, but rule-to-resource action, usefulness for imprecise inputs or rule/tuning limitation is substantively missing.",
+        "4": "Explains graded membership/rules to action, control benefits and tuning limits with minor detail missing.",
+        "5": "Explains how graded linguistic conditions and rule combination produce resource actions, why useful for imprecise inputs, and how membership/rule design, stability or adaptation limits use."
+      },
+      "boundary": "No fixed membership function or paper. Fuzzy control may be reactive or anticipatory depending on inputs.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:16",
+          "drb2:46:info_recall:17",
+          "drb2:46:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a mainstream family; particular models remain replaceable. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Time-series prediction",
+      "question": "Does the report explain time-series scaling, its benefits and limits?",
+      "anchors": {
+        "1": "No time-series approach.",
+        "2": "Only says history predicts the future.",
+        "3": "Explains some temporal modeling, but forecast-to-scaling use, readiness/resource benefit or pattern/error limitation is substantively missing.",
+        "4": "Explains temporal patterns, advance action and error/change limits with minor detail missing.",
+        "5": "Explains temporal dependence, trend or seasonality forecasts used ahead of provisioning, readiness/resource benefits and risks of pattern breaks, unsuitable horizons or forecast error."
+      },
+      "boundary": "No mandatory ARIMA, Daedalus or 71% result. ML/time-series can overlap if the temporal principle is actually explained.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:info_recall:25",
+          "drb2:46:info_recall:26",
+          "drb2:46:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore a mainstream family; particular models remain replaceable. Cross-review makes missing principle, benefit or limitation symmetric at 3."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Scaling behavior reasoning",
+      "question": "Which report better explains when its described reactive or anticipatory methods help or fail?",
+      "anchors": {
+        "0": "The explanations offer comparable help, or neither explains behavior beyond method labels; distinguish these cases.",
+        "1": "A slightly better explains the relevant scaling behavior, although B may explain a local limitation better.",
+        "2": "A gives substantially more convincing timing and capacity reasoning; B's local strengths do not make up for the gap.",
+        "-2": "B gives substantially more convincing timing and capacity reasoning; A's local strengths do not make up for the gap.",
+        "-1": "B slightly better explains the relevant scaling behavior, although A may explain a local limitation better."
+      },
+      "boundary": "Name the link between observation/prediction, provisioning delay and workload behavior. Do not reward proactive labels or assume reactive methods always fail at spikes. PT method profiles check that principles, advantages and limits are actually explained; here identify a stronger warranted timing/capacity inference, not more completed profiles. Compare opposing reactive/proactive reasoning advantages on the same consequential basis; equally strong opposing advantages yield 0.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:1",
+          "drb2:46:analysis:2",
+          "drb2:46:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts timing and error trade-offs into conditional reasoning instead of fixed superiority claims. Cross-review distinguishes profile completion and equal opposing timing advantages."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Energy-efficiency solution mechanism",
+      "question": "Which report better explains why its selected energy-efficiency study can reduce energy use while maintaining the required service?",
+      "anchors": {
+        "0": "The energy explanations are comparably convincing, or neither explains how the proposed solution saves energy; distinguish these cases.",
+        "1": "A slightly better explains the link between the proposed resource changes and energy use, although B may explain one operating condition better.",
+        "2": "A's energy-saving mechanism is substantially more convincing under its service assumptions; B's isolated energy figures do not make up for missing causal links.",
+        "-2": "B's energy-saving mechanism is substantially more convincing under its service assumptions; A's isolated energy figures do not make up for missing causal links.",
+        "-1": "B slightly better explains the link between the proposed resource changes and energy use, although A may explain one operating condition better."
+      },
+      "boundary": "Follow the selected study's actual resource and availability constraints. Compute/storage separation is eligible, not mandatory; a saving percentage alone is not an explanation. Do not mix in unrelated telecom or graph-processing performance.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Splits the former five-challenge comparison and retains the energy solution's resource-change-to-saving relation, without requiring the Hadoop example."
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "Telecom elasticity solution mechanism",
+      "question": "Which report better explains how its selected telecom-cloud study addresses the elasticity problem it identifies?",
+      "anchors": {
+        "0": "The telecom mechanisms are comparably explained, or neither goes beyond naming a framework; distinguish these cases.",
+        "1": "A slightly better explains how the architecture or control changes address the telecom constraint, although B may explain one deployment condition better.",
+        "2": "A's telecom solution-to-problem explanation is substantially more convincing; B's isolated architecture details do not make up for a missing mechanism.",
+        "-2": "B's telecom solution-to-problem explanation is substantially more convincing; A's isolated architecture details do not make up for a missing mechanism.",
+        "-1": "B slightly better explains how the architecture or control changes address the telecom constraint, although A may explain one deployment condition better."
+      },
+      "boundary": "Follow the actual management or resource-pool constraint to the proposed response. Joint VNF/CNF management is an eligible case, not the only valid architecture. Energy savings in another domain cannot compensate for this explanation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Splits telecom mechanism reasoning from the former multi-challenge item; removes the mandatory unified VNF/CNF architecture claim."
+      }
+    },
+    {
+      "id": "PW.D3.04",
+      "dimension": "D3",
+      "title": "Big-data elasticity solution mechanism",
+      "question": "Which report better explains how its selected study changes resource allocation to address the stated big-data processing challenge?",
+      "anchors": {
+        "0": "The big-data processing mechanisms are comparably explained, or neither connects the study's solution to the big-data processing problem; distinguish these cases.",
+        "1": "A slightly better explains the link between big-data processing demand and allocation behavior, although B may explain a local cost or service condition better.",
+        "2": "A's big-data processing solution mechanism is substantially more convincing; B's isolated cost claims do not make up for unexplained allocation behavior.",
+        "-2": "B's big-data processing solution mechanism is substantially more convincing; A's isolated cost claims do not make up for unexplained allocation behavior.",
+        "-1": "B slightly better explains the link between big-data processing demand and allocation behavior, although A may explain a local cost or service condition better."
+      },
+      "boundary": "Check how allocation follows the relevant data/workload conditions and what limits the claimed gain. CEAS and a pay-for-peak to pay-as-you-go narrative are optional, not a fixed answer. Both batch and stream processing qualify; the scope is big-data processing.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: Keep the independently repaired mechanism; correct its streaming-only scope."
+      }
+    },
+    {
+      "id": "PW.D3.05",
+      "dimension": "D3",
+      "title": "Graph-processing solution mechanism",
+      "question": "Which report better explains how its selected graph-processing study matches resources to computational demand?",
+      "anchors": {
+        "0": "The graph-processing mechanisms are comparably explained, or neither explains the resource-to-workload relationship; distinguish these cases.",
+        "1": "A slightly better explains why the resource choice addresses the graph workload, although B may explain one resource constraint better.",
+        "2": "A's graph-resource matching explanation is substantially more convincing; B's isolated VM details do not make up for an unsupported performance or cost claim.",
+        "-2": "B's graph-resource matching explanation is substantially more convincing; A's isolated VM details do not make up for an unsupported performance or cost claim.",
+        "-1": "B slightly better explains why the resource choice addresses the graph workload, although A may explain one resource constraint better."
+      },
+      "boundary": "Follow the study's actual workload and allocation logic. Considering heterogeneous VM types can be useful, but is not mandatory for every solution. Do not reuse general method labels as graph-specific reasoning.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Splits graph-processing reasoning from the former aggregate; keeps resource-demand matching without requiring a particular heterogeneous-VM algorithm."
+      }
+    },
+    {
+      "id": "PW.D3.06",
+      "dimension": "D3",
+      "title": "Forecast-driven study mechanism",
+      "question": "Which report better explains how its selected workload-prediction study turns forecasts into scaling decisions and their consequences?",
+      "anchors": {
+        "0": "The study-specific mechanisms are comparably explained, or neither goes beyond naming a predictor or reporting accuracy; distinguish these cases.",
+        "1": "A slightly better explains the study's forecast-to-action mechanism, although B may explain one error condition better.",
+        "2": "A's study-specific forecast-to-scaling explanation is substantially more convincing; B's isolated accuracy figures do not make up for a missing decision mechanism.",
+        "-2": "B's study-specific forecast-to-scaling explanation is substantially more convincing; A's isolated accuracy figures do not make up for a missing decision mechanism.",
+        "-1": "B slightly better explains the study's forecast-to-action mechanism, although A may explain one error condition better."
+      },
+      "boundary": "Require the argument's forecast horizon, action timing or error assumptions to explain its claimed consequence, not a fixed list of parameters. SVM is optional. PW.D3.01 concerns general reactive/anticipatory behavior; cite a distinct study-specific mechanism here, not the same general prediction advantage twice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Splits study-specific forecast-to-action reasoning from the former aggregate; retains anticipatory control value without requiring SVM or universal improvement."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Useful scaling trade-offs",
+      "question": "Which report better helps a reader judge which scaling approaches suit particular workload and operating constraints?",
+      "anchors": {
+        "0": "The reports offer comparable selection help, or neither goes beyond lists of pros and cons; state which.",
+        "1": "A gives slightly more useful conditional selection guidance, although B may illuminate another constraint better.",
+        "2": "A provides substantially more useful choices between capacity responsiveness, resource use and operating burden; B's isolated observations do not make up for that difference.",
+        "-2": "B provides substantially more useful choices between capacity responsiveness, resource use and operating burden; A's isolated observations do not make up for that difference.",
+        "-1": "B gives slightly more useful conditional selection guidance, although A may illuminate another constraint better."
+      },
+      "boundary": "No winning method or prescribed decision tree is required. Identify the choice improved, beyond merely repeating a more valid inference in D3.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added synthesis of method/challenge consequences."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence applicability",
+      "question": "Which report uses studies whose workloads and evaluation settings better support its auto-scaling generalizations?",
+      "anchors": {
+        "0": "Evidence applicability is comparable, or neither provides usable support; distinguish these cases.",
+        "1": "A has slightly better matched evidence overall, although B may have a stronger local evaluation.",
+        "2": "A's central claims have substantially more applicable study support; B's isolated evidence strengths do not make up for the gap.",
+        "-2": "B's central claims have substantially more applicable study support; A's isolated evidence strengths do not make up for the gap.",
+        "-1": "B has slightly better matched evidence overall, although A may have a stronger local evaluation."
+      },
+      "boundary": "Compare workload, system scale, baselines and measured outcomes where claimed. Do not count papers or reward a benchmark percentage by size; single-source errors are not penalized twice.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added evidence-set assessment."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Report progression",
+      "question": "Which original report better guides readers from method classification to the challenge studies without avoidable jumps or repetition?",
+      "anchors": {
+        "0": "Reading progression is comparable, or neither offers a coherent path; distinguish these cases.",
+        "1": "A has slightly better overall progression, although B may have a more helpful local summary.",
+        "2": "A's reading sequence is substantially more coherent; B's local organizational strengths do not make up for the gap.",
+        "-2": "B's reading sequence is substantially more coherent; A's local organizational strengths do not make up for the gap.",
+        "-1": "B has slightly better overall progression, although A may have a more helpful local summary."
+      },
+      "boundary": "Evaluate the original report's order, transitions and repeated material together, not the presence of required headings again.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added whole-report organization."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Technical clarity",
+      "question": "Which report communicates its existing scaling methods and study results more clearly?",
+      "anchors": {
+        "0": "Clarity is comparable, or neither makes the existing ideas understandable; distinguish these cases.",
+        "1": "A's technical descriptions are slightly easier to understand, although B may clarify one method better.",
+        "2": "A's wording and local labels are substantially clearer; B's isolated phrasing strengths do not make up for ambiguity.",
+        "-2": "B's wording and local labels are substantially clearer; A's isolated phrasing strengths do not make up for ambiguity.",
+        "-1": "B's technical descriptions are slightly easier to understand, although A may clarify one method better."
+      },
+      "boundary": "Assess wording, referents and local labels in the original, not factual correctness, method count or global ordering.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:46:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts language quality without folding factual validity into expression."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding methods and studies",
+      "question": "Which report makes a particular method, challenge solution and its claimed source easier to locate?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither makes the needed details findable; distinguish these cases.",
+        "1": "A is slightly easier to search for the needed details, although B may have a better local source pointer.",
+        "2": "A makes the complete detail-to-source lookup substantially easier; B's local navigation strengths do not make up for the gap.",
+        "-2": "B makes the complete detail-to-source lookup substantially easier; A's local navigation strengths do not make up for the gap.",
+        "-1": "B is slightly easier to search for the needed details, although A may have a better local source pointer."
+      },
+      "boundary": "Use actual original-report lookup steps. Identifiable bibliographic references can work without hyperlinks; source validity is separate.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added information-location assessment."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:46:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retains the requested two categories.",
+      "discrimination_check": "PT.D1.01 scores labels alone 2 and an operational distinction 4/5."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.02 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:5",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.02 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:6",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.02 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:21",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.03 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:26",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.14 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:28",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Energy efficiency is explicitly required.",
+      "discrimination_check": "PT.D1.04 no energy discussion scores 1; a concrete energy problem with its study response can reach 5."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:30",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains a published energy study and response, not the named Hadoop paper.",
+      "discrimination_check": "PT.D1.04 a problem without an identifiable research solution scores 3; another appropriate study can receive the same high score."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:31",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains telecom dynamics and provisioning requirements without demanding 5G/VNF/CNF together.",
+      "discrimination_check": "PT.D1.05 generic cloud traffic without telecom context scores at most 3; specific dynamics and study response can reach 5. Exact technology-list recall is lost."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:32",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains the published telecom response relation, not Sao Cao's architecture.",
+      "discrimination_check": "PT.D1.05 a named paper without its response scores 3; different suitable telecom research may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:33",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains the big-data resource/workload mismatch, not universal peak-allocation waste.",
+      "discrimination_check": "PT.D1.06 generic large-data text scores 2/3; a concrete mismatch and study response can reach 5. Exact static-peak narrative is not required."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:34",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains specific published big-data research, not CEAS.",
+      "discrimination_check": "PT.D1.06 missing the study-response connection scores 3; a suitable non-CEAS framework may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:35",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains graph-specific cost tension, not a fixed virtualization/latency explanation.",
+      "discrimination_check": "PT.D1.07 generic cloud-cost prose scores 2/3; a graph-specific problem and study solution can reach 5. Exact overhead examples are optional."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:36",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains a published graph-processing response, not Heidari/Buyya or heterogeneous VM changes.",
+      "discrimination_check": "PT.D1.07 no graph-specific research response scores 3; another appropriate graph study may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:37",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains prediction difficulty and over/under-provisioning consequences without compulsory ML.",
+      "discrimination_check": "PT.D1.08 a predictor lacking capacity consequences scores 3; complete conditional explanation can reach 5. ML labels alone earn nothing."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:38",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains a published prediction study, not Singh's SVM classifier.",
+      "discrimination_check": "PT.D1.08 a problem without an identifiable research response scores 3; another suitable prediction study may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:2",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.02 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:4",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "Amazon/Azure service names are not required by the query; differing only in those vendor mentions may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:7",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Malla e-STLB paper is optional; a different relevant energy study may tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:8",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.11 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:9",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.11 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:10",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.11 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:11",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Tournaire MDP/threshold study is optional; its exact identity is not separately scored."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:12",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Kushchazli migration study is optional; another appropriate model can tie."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:13",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.12 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:14",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.12 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "Heimerson's XR/VR result is not a required study or universal superiority conclusion; exact study recall is lost."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:16",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.13 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:17",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.13 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:18",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Alnawayseh fuzzy-control study is optional; exact bibliographic recall is lost."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:19",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Mahapatra offloading study is optional; no compulsory fog-cloud or fuzzy route."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:20",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.03 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:22",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.03 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:23",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Taha service-chain study is optional; exact paper recall is lost."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:24",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Khaleq/Ra microservice study is optional; no mandatory ML/RL combination."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:25",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.14 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:27",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "Daedalus and its reported 71% result are not a fixed answer key; publication status and measured outcome would need checking if claimed."
+    },
+    {
+      "resource_id": "drb2:46:info_recall:29",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The exact optional method, example, result or categorical assertion is not retained as a common obligation.",
+      "discrimination_check": "The Hadoop HDFS idle-node problem is an optional energy example; another concrete energy problem can tie."
+    },
+    {
+      "resource_id": "drb2:46:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.01 can prefer an explanation connecting observed demand and provisioning lag over labels alone; it does not require the conclusion that reactive control cannot handle spikes."
+    },
+    {
+      "resource_id": "drb2:46:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.01 can prefer a justified prediction-to-readiness explanation; it does not assume prediction guarantees QoS."
+    },
+    {
+      "resource_id": "drb2:46:analysis:3",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.11 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:analysis:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.01 can distinguish an explained forecast-error-to-capacity consequence from unconditional prediction optimism; no error model is compulsory."
+    },
+    {
+      "resource_id": "drb2:46:analysis:5",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.02 can distinguish, for a selected separation study, an explained storage/compute independence mechanism from a summary alone; a different sound energy route may tie. Author recheck isolates this mechanism in PW.D3.02; unrelated challenge explanations cannot compensate for it."
+    },
+    {
+      "resource_id": "drb2:46:analysis:6",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.03 independently compares the selected study mechanism; unrelated challenge advantages cannot compensate. No mandatory official study."
+    },
+    {
+      "resource_id": "drb2:46:analysis:7",
+      "targets": [
+        "PW.D3.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.04 independently compares the selected study mechanism; unrelated challenge advantages cannot compensate. No mandatory official study."
+    },
+    {
+      "resource_id": "drb2:46:analysis:8",
+      "targets": [
+        "PW.D3.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.05 independently compares the selected study mechanism; unrelated challenge advantages cannot compensate. No mandatory official study."
+    },
+    {
+      "resource_id": "drb2:46:analysis:9",
+      "targets": [
+        "PW.D3.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retains conditional reasoning value, not a prescribed study or fixed positive conclusion.",
+      "discrimination_check": "PW.D3.06 independently compares the selected study mechanism; unrelated challenge advantages cannot compensate. No mandatory official study."
+    },
+    {
+      "resource_id": "drb2:46:presentation:1",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "Retains specified main headings.",
+      "discrimination_check": "PT.D1.09 incomplete main hierarchy scores 2/3; the complete requested hierarchy can reach 5."
+    },
+    {
+      "resource_id": "drb2:46:presentation:2",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "Retains the two method subheadings.",
+      "discrimination_check": "PT.D1.09 missing an important category subheading scores 3; both present with complete hierarchy can reach 5."
+    },
+    {
+      "resource_id": "drb2:46:presentation:3",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.02, PT.D1.11 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:presentation:4",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.12",
+        "PT.D1.13",
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Restore family coverage without fixed models or automatic category labels.",
+      "discrimination_check": "PT.D1.03, PT.D1.12, PT.D1.13, PT.D1.14 directly detects absent family or missing principle/benefit/limit; combined implementations qualify only if the substantive function remains explained. Exact named studies and blanket static-only/proactive assertions are not retained."
+    },
+    {
+      "resource_id": "drb2:46:presentation:5",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.05",
+        "PT.D1.06",
+        "PT.D1.07",
+        "PT.D1.08",
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "Retains headings for all five query-specified challenges.",
+      "discrimination_check": "PT.D1.09 checks each challenge heading; PT.D1.04—08 check its substantive problem and published-study response. A heading alone cannot satisfy the content, and a missing heading is not counted as a second scientific-content failure."
+    },
+    {
+      "resource_id": "drb2:46:presentation:6",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Retains distinguishable problem and response within each challenge, not extra mandatory labels.",
+      "discrimination_check": "PT.D1.09 boundaries require distinguishability; merged but clearly linked prose can tie with labeled blocks. The original presentation preference is relaxed."
+    },
+    {
+      "resource_id": "drb2:46:presentation:7",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Retains clarity of existing technical expression, separates factual validity.",
+      "discrimination_check": "PW.D6.01 clearer wording at equal content may be slightly better; unsupported facts are not treated as expression defects again."
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New classification relation: names without a usable distinction score 2/3; timing and information remain together."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "Restore a specific family: principle without limitations is 3; another family cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "Restore a specific family: principle without limitations is 3; another family cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New problem-study relation: an excellent problem without a study solution is 3; do not split the evidence from the response it illustrates."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New telecom relation: service details good but the cited solution unconnected scores 3."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New processing relation: a named framework without its response to the stated workload cannot exceed 3."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New graph relation distinct from generic big data; a study unrelated to graphs leaves a major gap scored 3."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New forecast-to-capacity relation: a sophisticated predictor without its scaling consequence scores 3."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New hierarchy check: complete main headings but missing challenge organization scores 3, not a second content penalty."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New single restriction: bibliography-only appearance is 4; do not divide source use into unobservable access checks."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New traceability relation: a good bibliography but ambiguous result attribution scores 3."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New evidence relationship: successful retrieval without support is a quality error, failed retrieval is not."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New behavior relation: a correct advantage without its failure conditions cannot be treated as a complete explanation."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New selection relation: an attractive method with no account of the workload it suits is not equivalent to usable conditional guidance."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New support-set comparison: a strong benchmark in an irrelevant workload is not offset by its numerical improvement."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New reading path: a clear outline with repetitive body text is assessed as a whole, not separate rewards."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New clarity comparison: terminology and local labels jointly determine comprehension, not method sophistication."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New lookup relation: easy-to-find solution text with a hard-to-find source is evaluated as one lookup task."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Energy reasoning can be strong while telecom reasoning is absent. Assess this mechanism alone; its energy result and service conditions remain one relationship."
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A report can explain telecom coordination well but streaming costs poorly. Keep the telecom constraint and response together and score independently of other challenges."
+    },
+    {
+      "id": "PW.D3.04",
+      "decision": "revise",
+      "reason": "Keep the independently repaired mechanism; correct its streaming-only scope."
+    },
+    {
+      "id": "PW.D3.05",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: An essay can explain VM choices for graphs well and forecast-driven scaling poorly. Resource choice and why it suits the graph demand remain one relation."
+    },
+    {
+      "id": "PW.D3.06",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A clear general claim that prediction permits advance action does not establish this study's mechanism. Forecast use and scaling consequence stay together; unrelated studies cannot compensate."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "Principle, benefit and limit form one profile with missing-part grade 3. Good coverage of other families cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "Principle, benefit and limit form one profile with missing-part grade 3. Good coverage of other families cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "Principle, benefit and limit form one profile with missing-part grade 3. Good coverage of other families cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "Principle, benefit and limit form one profile with missing-part grade 3. Good coverage of other families cannot compensate for absence. Cross-review: any one of principle, benefit or limitation missing is explicitly 3, including benefit-only omissions."
+    }
+  ],
+  "author_notes": [
+    "No prior draft for this task. Twelve PT items cover classification, method profiles, five independent problem-study relations, hierarchy, prohibited-source use and evidence audits; eleven PW items compare reasoning, selection value and reading.",
+    "No fixed algorithm count. Principles, advantages and limits remain a method profile with explicit score-3 missing-part anchors; each required challenge remains a problem-to-research-response relation.",
+    "Exact studies, authors, 71% improvement, vendor examples and compulsory queuing/RL/fuzzy/ML/time-series lists are intentionally not fully preserved. Selected official studies inform relation design, not a mandatory answer route.",
+    "High-risk official assertions include inherent static-only queuing theory, automatic RL/fuzzy proactivity and guaranteed predictive superiority. These are not accepted as universal facts.",
+    "Author self-check and structural validation only; no independent semantic approval, browsing, external fact certification or scoring.",
+    "Author targeted recheck: the former PW.D3.02 mixed five independently explainable study mechanisms. It is split into energy, telecom, streaming, graph and forecast-driven mechanisms, each retaining its own conditions and precise source. Other items are retained. Revised count: 12 PT and 11 PW. This is not independent semantic approval.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为16 PT / 11 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "保留五类挑战PW既有独立拆分。02/03收窄为阈值与预测ML；新增11排队、12RL、13模糊、14时间序列，恢复主流技术领域。PW.D3.04纠正流处理独占措辞，接受批/流大数据。",
+    "不把RL/模糊按名称一律归前瞻，不采用排队只能静态或预测必优断言。挑战各有已发表研究；Hadoop/CEAS/异构VM/SVM等具体解法仍可替换，不把替换扩为省略技术领域。",
+    "Cross-review: symmetric profile anchors, precise challenge-coverage mapping and general-behavior PW boundary repaired without changing the six family or five challenge objects. Existing independently separated challenge mechanisms remain intact."
+  ]
+}

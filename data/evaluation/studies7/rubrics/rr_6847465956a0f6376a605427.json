@@ -1,0 +1,925 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a605427",
+  "language": "en",
+  "title": "Washington, DC Independence Day 2025 itinerary",
+  "full_query": "I want to create a plan for July 4, 2025, i.e., Independence Day in Washington DC. I would like an itinerary of all the things to do and all the activities that are planned for Independence Day. Create a plan for the whole day and also extend it to the weekend, if required. Provide some reviews or explain why one should visit the place or engage in the activity. Add any additional information that is required.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Correct holiday and destination",
+      "question": "Does the itinerary consistently plan for Independence Day in Washington, DC on July 4, 2025?",
+      "anchors": {
+        "1": "The main plan is for another date or destination.",
+        "2": "Several central activities belong to another year or a different trip, changing the requested plan.",
+        "3": "The main destination/date is correct but a material activity has an unclear or mismatched year or location.",
+        "4": "The itinerary is aligned with DC and July 4, 2025, with only a minor date/location ambiguity.",
+        "5": "The main day is explicitly July 4, 2025 in DC; nearby extensions are clearly identified and other-year information is not presented as the 2025 schedule."
+      },
+      "boundary": "Judge material recommendations, not incidental mentions of another city. Nearby Maryland/Virginia options are not automatically out of scope. A past recurring event is not proof it ran in 2025.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:20",
+          "rr:6847465956a0f6376a605427:flat:21"
+        ],
+        "query_quotes": [
+          "July 4, 2025",
+          "Washington DC"
+        ],
+        "change_note": "Adapts negative-weight geography/year checks into correct-scope anchors; rejects penalties for merely mentioning a city."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Whole-day itinerary",
+      "question": "Does the report provide a sequenced morning-to-evening itinerary with usable activity time blocks and a post-event departure window?",
+      "anchors": {
+        "1": "No usable itinerary.",
+        "2": "Only a short list or a small part of the day is planned.",
+        "3": "A broad day is sketched but a major period, main activity duration or evening departure window is missing.",
+        "4": "The morning-to-evening sequence and main activity windows are clear, with a minor scheduling detail missing.",
+        "5": "A coherent full-day schedule gives interpretable starts and ends or durations for main activities, includes practical pacing, and continues through the evening event and departure rather than ending at its start."
+      },
+      "boundary": "No mandatory 9 AM/10 PM bounds, four-stop minimum or named restaurant list. Transit estimates are PT.D1.05; internal feasibility is PW.D3.01. Lunch/dinner choices are now PT.D1.11; do not double-penalize their absence here. Exact 9 AM/10 PM bounds remain nonmandatory, but an evening plan ending at fireworks start is incomplete.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:1",
+          "rr:6847465956a0f6376a605427:flat:4"
+        ],
+        "query_quotes": [
+          "whole day"
+        ],
+        "change_note": "Retains full-day scheduling and practical pacing, relaxes imposed clock bounds and restaurants. v3.3 separates meals and clarifies evening completion."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Holiday activities and event status",
+      "question": "Does the report identify a useful range of planned Independence Day activities and distinguish the chosen itinerary from alternatives?",
+      "anchors": {
+        "1": "No Independence Day activities.",
+        "2": "Only generic sightseeing or an unspecified holiday celebration.",
+        "3": "Some holiday events are concrete, but a major civic/parade, concert/live celebration or evening fireworks part of the program is omitted without an evidenced reason, or 2025 status/timing is materially unclear.",
+        "4": "The main civic, live-celebration and fireworks program is covered with usable locations/status, with a minor timing or access uncertainty.",
+        "5": "Provides an overview of the main civic/parade or historical commemoration, concert/live celebration and evening fireworks opportunities, with 2025 status, locations and scheduled time information; selected stops and incompatible alternatives are separated."
+      },
+      "boundary": "Do not require attendance at all listed events or one named parade/concert. A category unavailable in 2025 may be explained with evidence, not silently removed. Fireworks timing must use applicable 2025 information, not an unverified fixed 9 PM. A scoped route cannot redefine the broader holiday program as just its chosen stops.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:3",
+          "rr:6847465956a0f6376a605427:flat:16"
+        ],
+        "query_quotes": [
+          "all the activities that are planned for Independence Day"
+        ],
+        "change_note": "Adapts recurring-event coverage into a scoped 2025 program and usable selection; avoids impossible exhaustive attendance. v3.3 restores program-category breadth and actual fireworks start information without fixed event names or clock values."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Reasons to visit",
+      "question": "Does the itinerary give concrete reasons or attributed reviews explaining why its main activities are worth considering?",
+      "anchors": {
+        "1": "No reasons or reviews.",
+        "2": "Only generic praise such as amazing or must-see.",
+        "3": "Some stops have useful reasons, but major recommendations are unexplained or reviews are unattributed.",
+        "4": "Most main recommendations have concrete appeal or attributed review context, with a minor gap.",
+        "5": "The main recommendations have specific historical, experiential or other relevant reasons, or identifiable review perspectives, allowing the visitor to understand their appeal."
+      },
+      "boundary": "Reasons are an alternative to reviews; no compulsory rating site, promotional claim or personal experience. A review is not required for every minor transfer.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:7"
+        ],
+        "query_quotes": [
+          "Provide some reviews or explain why"
+        ],
+        "change_note": "Retains reasons/reviews as alternatives; no fixed example or sentence count."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Transfers and travel time",
+      "question": "Does the report explain how to get between its main stops and allow interpretable transfer times?",
+      "anchors": {
+        "1": "No transfer information.",
+        "2": "Only says use transit or walk.",
+        "3": "Some transfers are explained, but a major connection lacks mode, travel-time allowance or endpoints.",
+        "4": "Main transfers have interpretable modes and time allowances, with a minor route detail missing.",
+        "5": "Main stop-to-stop movements identify a usable travel mode and approximate travel/buffer allowance; long-distance extensions and the evening exit are accounted for."
+      },
+      "boundary": "No exact fare, transit line or travel app is mandatory. Estimates need conditions, not false precision. Feasibility of the entire timetable is compared separately.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:14"
+        ],
+        "query_quotes": [
+          "additional information"
+        ],
+        "change_note": "Retains travel mode/time relation without adopting sample fares or routes."
+      }
+    },
+    {
+      "id": "PT.D1.06.admission",
+      "dimension": "D1",
+      "title": "Admission conditions",
+      "question": "Does the plan explain material booking and admission conditions for its chosen activities?",
+      "anchors": {
+        "1": "No substantive account of admission conditions.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Some access information exists but a material reservation, ticket or entry condition is unaddressed.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Gives usable admission or reservation conditions for the selected activities, distinguishing confirmed information from items to verify."
+      },
+      "boundary": "Do not require a booking for every activity. Safety screening and schedule-change handling are separate.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "additional information"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.crowds",
+      "dimension": "D1",
+      "title": "Crowds and screening",
+      "question": "Does the plan explain July 4 crowd or security-screening implications for its route?",
+      "anchors": {
+        "1": "No substantive account of crowds and screening.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Crowds are named but the relevant access or waiting implications are unspecified.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains crowd or screening implications at relevant stops and the practical allowance or action required."
+      },
+      "boundary": "Do not invent checkpoint rules. No penalty for reservation details here.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:12"
+        ],
+        "query_quotes": [
+          "additional information"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.changes",
+      "dimension": "D1",
+      "title": "Schedule changes",
+      "question": "Does the plan explain how to verify and respond to weather or security-related schedule changes?",
+      "anchors": {
+        "1": "No substantive account of schedule changes.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Changes are mentioned without an identifiable confirmation source or concrete action.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Identifies how to confirm material schedule changes through official information and what the visitor should do if affected."
+      },
+      "boundary": "Confirmed events need not all be called tentative; indoor backup content remains PT.D1.10.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:11",
+          "rr:6847465956a0f6376a605427:flat:19"
+        ],
+        "query_quotes": [
+          "additional information"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Conditional weekend extension",
+      "question": "Does the report explain whether extending to July 5–6, 2025 is useful and, when proposed, provide a clear extension?",
+      "anchors": {
+        "1": "No response to the weekend option.",
+        "2": "Only says stay for the weekend.",
+        "3": "Names weekend activities but does not separate them from July 4 or explain how they extend the plan.",
+        "4": "The optional extension or reason to keep a one-day visit is clear, with a minor day/allocation gap.",
+        "5": "Clearly identifies July 5–6 as the optional weekend, provides interpretable activities by day when useful, or explains why the proposed visit needs no extension."
+      },
+      "boundary": "The query says if required; do not force two extra days, a hike, a family outing or a particular neighborhood.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:6"
+        ],
+        "query_quotes": [
+          "extend it to the weekend, if required"
+        ],
+        "change_note": "Retains conditional extension and dates, relaxes mandatory extra activities."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Avoid unlawful or hazardous itinerary advice",
+      "question": "Does the itinerary avoid recommending unlawful conduct or unqualified hazardous personal-fireworks activity?",
+      "anchors": {
+        "1": "A central activity explicitly instructs unlawful or seriously hazardous conduct.",
+        "2": "Several substantive recommendations encourage such conduct.",
+        "3": "One substantive recommendation encourages unlawful conduct or unqualified hazardous fireworks use.",
+        "4": "No clear harmful instruction, but an optional activity has a material ambiguity about permission or safety.",
+        "5": "No unlawful or unqualified hazardous activity is recommended; any relevant restriction is respected, without implying all personal fireworks everywhere are illegal."
+      },
+      "boundary": "Interpret the official negative weight in the correct direction. Check an actual recommendation and applicable context, not any mention of fireworks; reviewing a public show is not personal ignition.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:13"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts the negative criterion into a bounded final-plan safety check, not a universal legal claim."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Event and logistics traceability",
+      "question": "Can material 2025 event, admission and transport claims be traced to identifiable information?",
+      "anchors": {
+        "1": "Key event/logistics claims lack identifiable sources.",
+        "2": "Only generic references to websites or prior celebrations.",
+        "3": "Some sources are named, but key 2025 times or operating claims have ambiguous attribution.",
+        "4": "Most material claims map to identifiable sources, with a minor citation-scope gap.",
+        "5": "Event year, times, access and material transport claims have clear source relationships; estimates are labeled and attributed or explain their assumptions."
+      },
+      "boundary": "A usable organizer/site name and document details can work without a URL. Sources from another year must not silently establish 2025 arrangements.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added year-specific traceability audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support within verified scope",
+      "question": "Within recorded completed checks, do the itinerary's event times, locations and visit conditions agree with obtained evidence?",
+      "anchors": {
+        "1": "A central checked event or schedule claim is contradicted, making the plan unusable.",
+        "2": "Several important checked logistics claims have substantive support errors.",
+        "3": "Support is mixed, with a consequential year, timing or access error.",
+        "4": "Important checked claims hold with only minor qualification issues.",
+        "5": "All assessed claims match the relevant 2025 evidence and its certainty; unchecked details remain unverified."
+      },
+      "boundary": "Record selected/completed counts. Retrieval failures require retry or an execution-incomplete record, not a low quality score or NA. With no assessable evidence defer this check. Do not certify the whole plan from a small sample.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added limited-scope verification, not a current travel recommendation or external verification performed now."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Fireworks viewing alternatives",
+      "question": "Does the plan identify distinct fireworks-viewing options and explain their practical differences?",
+      "anchors": {
+        "1": "No fireworks viewing information.",
+        "2": "Only a viewing-place name.",
+        "3": "A usable primary spot is described but no distinct alternative, or location/access differences are unclear.",
+        "4": "Distinct options and main viewing/access differences are clear, with a minor uncertainty.",
+        "5": "Identifies a primary and alternative viewing option with location, expected viewing experience and crowd/access implications, distinguishing assumed access from confirmed arrangements."
+      },
+      "boundary": "No prescribed bridge, park or attendance at multiple sites. Mentioning alternatives in the planning overview does not require putting them all into the route. PW.D4.01 compares the usefulness of the resulting choice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Restores viewing alternatives as direct content rather than optional material inside a broad choice PW."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Indoor bad-weather replacement",
+      "question": "Does the plan provide a concrete indoor fallback for weather-sensitive activities?",
+      "anchors": {
+        "1": "No weather fallback.",
+        "2": "Only says stay indoors or check weather.",
+        "3": "Names an indoor option but its replacement role, reachable location or availability conditions are unclear.",
+        "4": "The replacement and its practical conditions are clear, with a minor timing gap.",
+        "5": "Gives an identifiable indoor alternative, states which outdoor segment it could replace and when to switch, and accounts for travel, opening/admission and timing assumptions."
+      },
+      "boundary": "No fixed museum or restaurant. An outdoor viewing alternative is not an indoor weather fallback. A transparently conditional option is not certified available; material uncertainty must not be hidden.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:9",
+          "rr:6847465956a0f6376a605427:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Restores the indoor-contingency requirement; PW compares adaptation value beyond merely having a fallback."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Lunch and dinner provision",
+      "question": "Does the itinerary provide usable lunch and dinner suggestions located along or feasibly near its route?",
+      "anchors": {
+        "1": "Neither meal is addressed.",
+        "2": "Only says take food breaks.",
+        "3": "One meal lacks a concrete option, or a suggested meal's location/time fit is unclear.",
+        "4": "Both meals have concrete options and time/location fit, with a minor access detail missing.",
+        "5": "Gives identifiable lunch and dinner venues or specific usable dining-area options, placed in the day's schedule with location and material reservation/opening assumptions."
+      },
+      "boundary": "No compulsory named restaurant, cuisine or exact meal price. A precise dining area with practical options can suffice; meal opportunity alone without a place to use it is incomplete. Do not invent availability.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Separates concrete dining from the full-day timetable; restores two-meal usefulness without the official venue list."
+      }
+    },
+    {
+      "id": "PT.D1.12.free",
+      "dimension": "D1",
+      "title": "No-admission-charge option",
+      "question": "Does the overview identify an activity with no admission charge?",
+      "anchors": {
+        "1": "No substantive account of no-admission-charge option.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "An option is identified but its cost inclusions or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Identifies at least one no-admission-charge option and any relevant conditions, without treating travel or food as automatically free."
+      },
+      "boundary": "The main itinerary need not be free-only.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.12; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.12"
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "No promotional or affiliate insertions",
+      "question": "Does the report avoid unrelated promotional links and affiliate marketing codes?",
+      "anchors": {
+        "1": "The main recommendations are replaced or materially driven by unrelated promotion.",
+        "2": "Repeated promotional links or affiliate codes intrude into the itinerary.",
+        "3": "One substantive promotional/affiliate insertion is present.",
+        "4": "Only an incidental ambiguous promotional reference remains, not used to steer a recommendation.",
+        "5": "No promotional or affiliate-marketing insertion appears; functional organizer, source and booking references serve the plan."
+      },
+      "boundary": "This retains the negative direction of flat:18, not a ban on external URLs. A plain official booking/source link or non-promotional mention is not an affiliate code. Judge observable content, not presumed financial motives.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "Restores the independent negative distinction for promotional insertions; useful external references remain allowed."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Itinerary feasibility",
+      "question": "Which itinerary more convincingly fits its activities, transfers, waiting and departure into the stated day?",
+      "anchors": {
+        "0": "The plans are comparably feasible, or neither offers a usable timed route; distinguish these cases.",
+        "1": "A is slightly more coherent in its timing and movement, although B may schedule one segment better.",
+        "2": "A's end-to-end schedule is substantially more feasible under its assumptions; B's local timing strengths do not make up for major conflicts.",
+        "-2": "B's end-to-end schedule is substantially more feasible under its assumptions; A's local timing strengths do not make up for major conflicts.",
+        "-1": "B is slightly more coherent in its timing and movement, although A may schedule one segment better."
+      },
+      "boundary": "Use stated durations, locations, access and queue assumptions. Do not reward more stops, exact timestamps or forced attendance at incompatible events.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added end-to-end feasibility reasoning, separate from including time blocks."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Useful event and viewing choices",
+      "question": "Which itinerary better helps the visitor choose among holiday activities or viewing locations based on their different experiences and trade-offs?",
+      "anchors": {
+        "0": "Choice guidance is comparable, or neither helps distinguish options beyond lists; state which.",
+        "1": "A gives slightly more useful choice guidance, although B may explain one venue's appeal better.",
+        "2": "A makes the important event or viewing choices substantially more usable; B's isolated attractions do not make up for missing trade-offs.",
+        "-2": "B makes the important event or viewing choices substantially more usable; A's isolated attractions do not make up for missing trade-offs.",
+        "-1": "B gives slightly more useful choice guidance, although A may explain one venue's appeal better."
+      },
+      "boundary": "No mandatory family profile, free-only budget or viewpoint list. Explain a concrete choice improved, not a second reward for timetable feasibility. The new PT checks required options or fallback details; a PW advantage must identify a materially better choice or response under the same relevant conditions, not merely the presence of those details.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts alternative-viewpoint value into visitor choice guidance without forcing particular locations."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Adapting to disruption",
+      "question": "Which itinerary better helps the visitor adapt if weather, crowds or access changes undermine the chosen activities?",
+      "anchors": {
+        "0": "Adaptation help is comparable, or neither provides a usable fallback; state which.",
+        "1": "A offers slightly more useful adaptation guidance, although B may have a better local fallback.",
+        "2": "A provides a substantially more usable response to disruption; B's isolated backup ideas do not make up for missing triggers or workable replacements.",
+        "-2": "B provides a substantially more usable response to disruption; A's isolated backup ideas do not make up for missing triggers or workable replacements.",
+        "-1": "B offers slightly more useful adaptation guidance, although A may have a better local fallback."
+      },
+      "boundary": "A named indoor venue is not sufficient unless it can replace the affected activity under stated opening, distance and access assumptions. Indoor and other safe adjustments are eligible. The new PT checks required options or fallback details; a PW advantage must identify a materially better choice or response under the same relevant conditions, not merely the presence of those details.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:9",
+          "rr:6847465956a0f6376a605427:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Retains contingency usefulness, not a compulsory museum or a generic check-weather sentence."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence fit for this holiday",
+      "question": "Which itinerary uses more applicable evidence for its 2025 holiday schedule and practical claims?",
+      "anchors": {
+        "0": "Evidence fit is comparable, or neither has usable support; distinguish these cases.",
+        "1": "A has slightly better year- and event-matched support, although B may support one detail better.",
+        "2": "A's critical plans have substantially more applicable evidence; B's local source strengths do not make up for mismatched years or venues.",
+        "-2": "B's critical plans have substantially more applicable evidence; A's local source strengths do not make up for mismatched years or venues.",
+        "-1": "B has slightly better year- and event-matched support, although A may support one detail better."
+      },
+      "boundary": "Do not count links or treat a recurring-event page as automatically year-specific. Individual verification errors constrain usable evidence, not a second per-error penalty.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added evidence applicability comparison."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Reading the whole itinerary",
+      "question": "Which original report makes the main day and optional extensions easier to follow as a whole?",
+      "anchors": {
+        "0": "Whole-report progression is comparable, or neither offers a coherent reading path; distinguish these cases.",
+        "1": "A has slightly better reading order, although B may summarize one part better.",
+        "2": "A's itinerary organization is substantially clearer; B's local headings do not make up for confusing order or repetition.",
+        "-2": "B's itinerary organization is substantially clearer; A's local headings do not make up for confusing order or repetition.",
+        "-1": "B has slightly better reading order, although A may summarize one part better."
+      },
+      "boundary": "Judge original chronology, alternatives and repetition together. Do not prefer a rigid morning/afternoon template or the shorter report automatically.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605427:flat:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapts schedule-section readability into whole-report organization, not mandatory heading names."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear itinerary wording",
+      "question": "Which report more clearly expresses its existing timings, place names and visit instructions?",
+      "anchors": {
+        "0": "Expression is comparable, or neither makes the existing instructions understandable; distinguish these cases.",
+        "1": "A's instructions are slightly easier to understand, although B may label one stop better.",
+        "2": "A's wording and local labels are substantially clearer; B's isolated phrasing strengths do not make up for ambiguous instructions.",
+        "-2": "B's wording and local labels are substantially clearer; A's isolated phrasing strengths do not make up for ambiguous instructions.",
+        "-1": "B's instructions are slightly easier to understand, although A may label one stop better."
+      },
+      "boundary": "Do not confuse clear but false times with reliable facts. Whole-day order and extra activities are not expression advantages.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added clarity comparison."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding practical details",
+      "question": "Which report makes a particular event time, access condition and its stated basis easier to find?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither makes needed details findable; distinguish these cases.",
+        "1": "A makes practical details slightly easier to locate, although B may have a better local pointer.",
+        "2": "A makes complete practical-detail lookup substantially easier; B's local navigation strengths do not make up for scattered conditions or sources.",
+        "-2": "B makes complete practical-detail lookup substantially easier; A's local navigation strengths do not make up for scattered conditions or sources.",
+        "-1": "B makes practical details slightly easier to locate, although A may have a better local pointer."
+      },
+      "boundary": "Use actual original lookup steps. No URL-count scoring; an identifiable official notice can be located by its name.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally added information-location comparison."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.02: A broad day is sketched but a major period, main activity duration or evening departure window is missing. Sufficient: A coherent full-day schedule gives interpretable starts and ends or durations for main activities, includes practical pacing, and continues through the evening event and departure rather than ending at its start."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:2",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Uses whole-itinerary reading order rather than requiring named sections.",
+      "discrimination_check": "PW.D5.01 distinguishes confusing chronology even with headings; absence of headings alone is no longer penalized."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:3",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.03: Some holiday events are concrete, but a major civic/parade, concert/live celebration or evening fireworks part of the program is omitted without an evidenced reason, or 2025 status/timing is materially unclear. Sufficient: Provides an overview of the main civic/parade or historical commemoration, concert/live celebration and evening fireworks opportunities, with 2025 status, locations and scheduled time information; selected stops and incompatible alternatives are separated."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:4",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.02: A broad day is sketched but a major period, main activity duration or evening departure window is missing. Sufficient: A coherent full-day schedule gives interpretable starts and ends or durations for main activities, includes practical pacing, and continues through the evening event and departure rather than ending at its start."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:5",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "The query supplies no minimum stop count.",
+      "discrimination_check": "A useful plan with fewer than four stops is not penalized; exact numerical discrimination is intentionally lost."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:6",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Preserves the conditional weekend request rather than mandatory extra days.",
+      "discrimination_check": "PT.D1.07 distinguishes an unexplained weekend list from a clear extension or justified one-day scope; a justified no-extension answer can satisfy it."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:7",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Retains concrete reasons or reviews as alternative ways to explain appeal.",
+      "discrimination_check": "PT.D1.04 distinguishes generic praise from substantive reasons without requiring official promotional examples."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:8",
+      "targets": [
+        "PT.D1.12.free"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.12.free. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:9",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.10: Names an indoor option but its replacement role, reachable location or availability conditions are unclear. Sufficient: Gives an identifiable indoor alternative, states which outdoor segment it could replace and when to switch, and accounts for travel, opening/admission and timing assumptions."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:10",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.11: One meal lacks a concrete option, or a suggested meal's location/time fit is unclear. Sufficient: Gives identifiable lunch and dinner venues or specific usable dining-area options, placed in the day's schedule with location and material reservation/opening assumptions."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:11",
+      "targets": [
+        "PT.D1.06.changes"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.changes. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Requires honest event-status and confirmation advice, not the assertion that all 2025 timings are tentative."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:12",
+      "targets": [
+        "PT.D1.06.crowds"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.crowds. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Preserves material July 4 crowd/security advice for the chosen sites."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:13",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Converts the negative rubric into a bounded audit of actual unlawful or unqualified hazardous recommendations.",
+      "discrimination_check": "PT.D1.08 distinguishes recommending hazardous personal ignition from attending a public show; not every mention or lawful personal-fireworks context is prohibited."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:14",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Preserves travel mode and approximate time for the itinerary's important connections.",
+      "discrimination_check": "PT.D1.05 distinguishes modes without transfer allowances from usable connections; illustrative fares/routes are not fixed answer keys."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:15",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Review 34: Query does not specify children or a family party. Remove the independent mandatory family-option item; family options remain optional relevant content.",
+      "discrimination_check": "Omission of a family-specific activity is no longer independently penalized. This official requirement is intentionally not preserved.",
+      "prior_disposition_reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:16",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.03: Some holiday events are concrete, but a major civic/parade, concert/live celebration or evening fireworks part of the program is omitted without an evidenced reason, or 2025 status/timing is materially unclear. Sufficient: Provides an overview of the main civic/parade or historical commemoration, concert/live celebration and evening fireworks opportunities, with 2025 status, locations and scheduled time information; selected stops and incompatible alternatives are separated."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:17",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.09: A usable primary spot is described but no distinct alternative, or location/access differences are unclear. Sufficient: Identifies a primary and alternative viewing option with location, expected viewing experience and crowd/access implications, distinguishing assumed access from confirmed arrangements."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:18",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values.",
+      "discrimination_check": "PT.D1.13: One substantive promotional/affiliate insertion is present. Sufficient: No promotional or affiliate-marketing insertion appears; functional organizer, source and booking references serve the plan."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:19",
+      "targets": [
+        "PT.D1.06.changes",
+        "PT.D1.10",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.changes, PT.D1.10, PW.D4.02. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "v3.3 restores a concrete holiday-planning distinction, retaining flexibility only for venues, routing and unsupported fixed values."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:20",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Checks the trip destination, not incidental mentions of other cities; the official examples do not consistently fit its own boundary.",
+      "discrimination_check": "PT.D1.01 distinguishes an out-of-scope main trip from a DC plan. Mentioning another city or a clearly labeled nearby extension is not automatically penalized."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605427:flat:21",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "Preserves the negative constraint against presenting other years' events as the 2025 plan.",
+      "discrimination_check": "PT.D1.01 lowers a consequential wrong-year recommendation even if most of the itinerary is correctly dated."
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "New date-place context: most stops correct but a key wrong-year event scores 3 or below; date and destination define this trip together."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "Good morning/afternoon with no post-event exit is 3; actual meal choices separately assessed, no fixed clock bounds."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "Detailed concert alone cannot substitute for civic programming and fireworks; missing an important category remains 3 despite a usable route."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "add",
+      "reason": "New recommendation rationale: reviews absent but concrete reasons present can score 5; these are alternative paths, not two obligations."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "add",
+      "reason": "New transfer relation: a correct mode without allowance for an important leg scores 3; do not split minutes from the trip they describe."
+    },
+    {
+      "id": "PT.D1.06.admission",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.admission, PT.D1.06.crowds, PT.D1.06.changes]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.crowds",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.admission, PT.D1.06.crowds, PT.D1.06.changes]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.changes",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.admission, PT.D1.06.crowds, PT.D1.06.changes]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "New conditional plan: a justified no-extension answer can satisfy it; unexplained weekend names score 3."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "New boundary audit: public fireworks mention is harmless; a questionable optional instruction is assessed by its actual permission/safety ambiguity."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "New source relationship: a detailed itinerary without attribution for its critical schedule remains 1–3, not automatically reliable."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "New evidence relationship: inaccessible organizer information differs from an obtained schedule contradicting the itinerary."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "A clear primary view with no alternative scores 3; a list of parks with no practical distinctions also cannot reach high anchors."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "A good weather warning with no replacement scores 2; a named but unreachable museum remains 3."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "A detailed lunch and blank dinner scores 3, and vice versa; no score per restaurant."
+    },
+    {
+      "id": "PT.D1.12.free",
+      "decision": "split",
+      "reason": "The free-option item retains its existing scoring scope. Its formerly paired family-option item was removed in review 34; no family coverage is required here."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "A useful itinerary can still contain one affiliate insertion and score 3 here; no amount of sightseeing detail erases it."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "add",
+      "reason": "New schedule relation: attractive individually feasible events cannot offset an impossible connection."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "revise",
+      "reason": "Complete option lists can tie on PT while differing in a useful choice; correct logistics alone do not automatically establish extra choice/adaptation value."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "revise",
+      "reason": "Complete option lists can tie on PT while differing in a useful choice; correct logistics alone do not automatically establish extra choice/adaptation value."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "New support-set relation: strong museum evidence cannot compensate for unsupported holiday timings driving the main route."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "New reading path: clear headings with mixed main/alternative routes still need an overall organization judgment."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "New local understanding: precise-looking times with unclear AM/PM or activity referents are not clear instructions."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "New lookup task: a time easy to find but its access restriction buried still increases lookup effort."
+    }
+  ],
+  "author_notes": [
+    "Historical v3.1 construction: 10 pointwise and 7 pairwise items were new, not a mechanical split. The current v3.3 repair contains 15 pointwise and 7 pairwise items.",
+    "Pointwise checks the requested plan, context and auditable claims. Pairwise compares feasibility, choices, disruption response, evidence applicability, original organization, wording and lookup; it is not a pointwise total.",
+    "All 21 official resources were reviewed, including negative-weight boundaries. Exact clock bounds and stop counts are not retained as fixed thresholds. v3.3 restores free/family options as overview content and the promotional/affiliate boundary; it does not force a free-only or child-oriented route. Source examples are local data, not independently verified event, transport, price or legal facts.",
+    "Atomicity records explain mixed-performance cases; event-time-duration and trigger-replacement relationships remain intact. Safety and visit-constraint overlap must not turn one caution into duplicate rewards.",
+    "This is an author self-check and structural validation, not independent semantic review or live itinerary verification.",
+    "v3.3: Restored civic/live-celebration/fireworks program breadth and event-specific timing in PT.D1.03; route selection no longer narrows the requested program overview. Added direct viewing alternatives, indoor fallback, concrete lunch/dinner, labeled free/family participation options and anti-promotional boundary. Whole-day timing now includes post-event departure, with meals separately judged.",
+    "v3.3待审 / pending review: Exact 9 AM/10 PM, four stops and fixed 9 PM remain unforced; their substantive day/evening role is explicit. Free/family choices are optional alternatives, not a required visitor profile. Negative personal-fireworks, geography/year logic is retained; actual legal permissions, 2025 availability and prices remain unverified. Do not mistake transparent uncertainty for confirmed usability.",
+    "Cross-review corrected two stale historical author notes to match the current restored options and 15 PT/7 PW count; rubric anchors and prior targeted repairs are unchanged.",
+    "Review 34: removed the standalone family-suitable option because the Query specifies no family/child profile. Earlier family-coverage notes are historical only. All retained criteria and Query unchanged; not reevaluated."
+  ]
+}

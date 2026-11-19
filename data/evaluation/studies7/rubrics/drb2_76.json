@@ -1,0 +1,1533 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:76",
+  "language": "en",
+  "title": "International organizations and decolonization",
+  "full_query": "Hello, I am researching the complex relationship between international organizations and decolonization in the 20th century. I hope you can help me compile a detailed report, with a deadline until early 2022. The report needs to clearly outline this history and be divided into three main parts:\n\nPart One, regarding the period from after World War I until the end of World War II. Please focus on the dual role of the League of Nations in decolonization. On the one hand, please explain how the League maintained imperial interests through the Mandates System; on the other hand, also explain how it inadvertently provided a stage for international oversight of colonial affairs. Additionally, please introduce anti-imperialist organizations that emerged during the same period and stood in opposition to the League, especially the \"League Against Imperialism\", detailing its founding background, main activities, and impact.\n\nPart Two, regarding the period of the United Nations after World War II. Please outline the role of the United Nations in the process of decolonization. This section needs to include: the United Nations' initial stance on colonial issues at its founding, the evolution from the League of Nations' Mandates System to the United Nations' Trusteeship System, and the provisions in the UN Charter concerning non-self-governing territories. Please explain in particular detail how the United Nations General Assembly and its subsidiary committees (e.g., the \"Committee on Information from Non-Self-Governing Territories\") became the main arena for anti-colonial struggles, and explain the historical significance and main content of the 1960 \"Declaration on the Granting of Independence to Colonial Countries and Peoples.\"\n\nPart Three, regarding the impact of decolonization on international organizations themselves. Please analyze how the large number of former colonial states joining the United Nations changed the agenda and power dynamics of the UN and other international organizations. Specifically, explain how international issues shifted from an \"East-West confrontation\" to a \"North-South divide\", and introduce the rise of the \"Non-Alignment Movement\" and the \"Group of 77\", as well as the background and objectives of their promotion of a \"New International Economic Order\" (NIEO). At the same time, also briefly mention how decolonization spurred new functions for the United Nations, such as peacekeeping operations.\n\nThroughout the report, please use clear language, avoid simplistic dichotomies of praise or condemnation, and demonstrate the complexity of the relationship between the two. Thank you!\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Special issue introduction: Towards a global history of international organizations and decolonization', 'authors': ['Eva-Maria Muschik'], 'urls': ['https://www.cambridge.org/core/journals/journal-of-global-history/article/special-issue-introduction-towards-a-global-history-of-international-organizations-and-decolonization/066AFEF8CEA16E7F776CC7CFF72927CC', 'https://ideas.repec.org/a/cup/jglhis/v17y2022i2p173-190_1.html', 'https://www.researchgate.net/publication/359174525_Special_issue_introduction_Towards_a_global_history_of_international_organizations_and_decolonization', 'https://ucrisportal.univie.ac.at/en/publications/towards-a-global-history-of-international-organizations-and-decol']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "The League's dual role",
+      "question": "Does the report describe both the Mandates System's protection of imperial interests and the opening it created for international scrutiny?",
+      "anchors": {
+        "1": "Neither role is described.",
+        "2": "Only praises or condemns the League without a concrete institutional account.",
+        "3": "One role is concrete but the other is absent or merely asserted, or the mandates' welfare/development justification is omitted despite describing administration and scrutiny.",
+        "4": "Both roles and their institutions are clear, with a minor territorial or procedural gap.",
+        "5": "Identifies imperial administration under mandates, its stated welfare/development obligations and international reporting/review through the Permanent Mandates Commission, with territorial scope and limits clear."
+      },
+      "boundary": "The two sides define the requested dual role; one strong side with the other missing scores 3. Explain the mandates' stated welfare/development obligations alongside imperial administration; identifying scrutiny alone does not explain that legitimating framework. Do not require named historians, British India or a fixed Article 22 quotation. Causal force is compared in PW.D3.01.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:3",
+          "drb2:76:info_recall:7",
+          "drb2:76:info_recall:9",
+          "drb2:76:info_recall:10",
+          "drb2:76:info_recall:11"
+        ],
+        "query_quotes": [
+          "dual role of the League of Nations"
+        ],
+        "change_note": "Retain the institutional dual-role content, allowing explained qualifications; remove expert-name and exact-word requirements. Cross-review makes the already-required welfare/development framework explicit in 3/5 anchors."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "League Against Imperialism",
+      "question": "Does the report describe the LAI's founding context, activities and impact as an anti-imperialist organization?",
+      "anchors": {
+        "1": "The LAI is absent.",
+        "2": "Only names the LAI or calls it anti-imperialist.",
+        "3": "Founding context, activities or impact is missing, or organizational alliances/control tensions are omitted from the impact account.",
+        "4": "All three are identifiable, with a minor date, actor or scope gap.",
+        "5": "Explains founding setting, concrete international anti-imperialist organizing and impact, including how communist/Comintern support and organizational tensions affected reach and limitations without imposing a single cause of decline."
+      },
+      "boundary": "Brussels 1927 and Comintern-linked organization are official checking leads, not authority to ignore better-supported qualifications. Do not require Berlin, Münzenberg or a predetermined single cause of decline. The LAI alone can satisfy the emphasized organization request without a fixed count of other groups.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:13",
+          "drb2:76:info_recall:14",
+          "drb2:76:info_recall:15",
+          "drb2:76:info_recall:17"
+        ],
+        "query_quotes": [
+          "founding background, main activities, and impact"
+        ],
+        "change_note": "v3.3 targeted revision: A strong founding and congress account cannot mask entirely missing organizational impact/tensions; retain one organization profile with explicit mixed grade."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "UN founding stance",
+      "question": "Does the report describe the UN's initial position on colonial rule at its founding?",
+      "anchors": {
+        "1": "No founding stance is described.",
+        "2": "Only says the UN supported freedom or replaced the League.",
+        "3": "Gives some founding context but does not identify the stance or compromises on colonial rule.",
+        "4": "The initial stance and relevant compromise are clear, with minor context gaps.",
+        "5": "The report explains the 1945 founding settlement's position on colonial rule and its institutional continuities with the League, distinguishing self-determination or welfare commitments from immediate universal independence and identifying the colonial-power context."
+      },
+      "boundary": "No specific founding-city sentence is required. This checks an initial position, not the later evolution or a claim that the UN was wholly emancipatory or imperial.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:18"
+        ],
+        "query_quotes": [
+          "the United Nations' initial stance on colonial issues at its founding"
+        ],
+        "change_note": "Use official founding context; query adds explicit colonial stance rather than merely date/place and institutional ancestry."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Mandates to trusteeship",
+      "question": "Does the report describe the transition from League mandates to UN trusteeship and the relevant procedural changes?",
+      "anchors": {
+        "1": "No transition is described.",
+        "2": "Only says trusteeship replaced mandates.",
+        "3": "Names both systems but leaves their relationship or an important procedural difference unclear.",
+        "4": "The relationship and oversight differences are clear with a minor territorial or procedural gap.",
+        "5": "The report explains the institutional transition and the roles of petitions and visits in trusteeship, with territorial coverage and limits clear rather than implying every colony automatically became a trust territory."
+      },
+      "boundary": "The relationship is one comparison, not separate name scores. Do not require an exhaustive trust-territory list or treat procedure as proof of inevitable independence.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:19",
+          "drb2:76:info_recall:20"
+        ],
+        "query_quotes": [
+          "the evolution from the League of Nations' Mandates System to the United Nations' Trusteeship System"
+        ],
+        "change_note": "Preserve transition and procedural distinction; locally guard against automatic all-colony transfer."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Non-self-governing territory provisions",
+      "question": "Does the report explain the UN Charter provisions concerning non-self-governing territories?",
+      "anchors": {
+        "1": "No relevant Charter provisions.",
+        "2": "Only names the Charter or colonial territories.",
+        "3": "Identifies provisions but leaves their obligations, self-government objective or territory category unclear.",
+        "4": "The provisions and category distinction are mostly clear.",
+        "5": "Chapter XI's non-self-governing territory framework, administering-power responsibilities and information obligations are explained, distinguishing self-government from a blanket promise of immediate independence and from the trusteeship framework."
+      },
+      "boundary": "Do not merge Chapter XI and trusteeship. Article numbers alone do not satisfy the item, and accurate paraphrase is acceptable.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:21",
+          "drb2:76:info_recall:22"
+        ],
+        "query_quotes": [
+          "provisions in the UN Charter concerning non-self-governing territories"
+        ],
+        "change_note": "Retain Charter substance while qualifying the official wording that blends non-self-governing territories with all trusteeships."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "General Assembly and committee arena",
+      "question": "Does the report explain in detail how the General Assembly and its subsidiary committees provided an arena for anti-colonial struggle?",
+      "anchors": {
+        "1": "No Assembly or committee role is described.",
+        "2": "Only states that the UN opposed colonialism.",
+        "3": "Assembly politics or information-committee review is absent or merely named, or the account omits how colonial information became open to international scrutiny.",
+        "4": "Both Assembly politics and concrete committee procedures are described, with a minor institutional gap.",
+        "5": "Explains Assembly coalition politics and the information committee's review of administering powers' economic, social and educational reporting, showing how this opened scrutiny and identifying institutional limits."
+      },
+      "boundary": "No obligation to quote Pearson or force the Security Council deadlock as the sole cause. Distinguish the information committee and later declaration-implementation bodies; exact committee labels and dates require evidence, not blind reuse. Declaration-follow-up bodies are now checked separately in PT.D1.16; general committee detail cannot substitute for information scrutiny.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:23",
+          "drb2:76:info_recall:24",
+          "drb2:76:info_recall:25",
+          "drb2:76:info_recall:26",
+          "drb2:76:info_recall:27",
+          "drb2:76:analysis:5"
+        ],
+        "query_quotes": [
+          "main arena for anti-colonial struggles"
+        ],
+        "change_note": "v3.3 targeted revision: Information flow and Assembly leverage stay connected, but separate declaration-follow-up function cannot be masked by good information review."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "The 1960 Declaration",
+      "question": "Does the report describe the 1960 Declaration's main content and historical significance?",
+      "anchors": {
+        "1": "The Declaration is absent.",
+        "2": "Only names a 1960 resolution.",
+        "3": "Describes either content or significance, but the other is absent or only a slogan.",
+        "4": "Both are clear, with a minor ambiguity about scope or force.",
+        "5": "Identifies the Declaration and explains self-determination, ending colonial subjection and transfer of authority, together with its historical political/normative significance and the distinction between declaration and implementation."
+      },
+      "boundary": "Do not demand exact quotation or equate declaration with automatic enforcement. Only content/significance coverage here; the persuasiveness of institutional-change reasoning is compared separately.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:28",
+          "drb2:76:info_recall:29"
+        ],
+        "query_quotes": [
+          "historical significance and main content of the 1960"
+        ],
+        "change_note": "Retain the central declaration and transfer-of-power content; add coverage anchors and implementation boundary."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "New members and institutional power",
+      "question": "Does the report describe how former colonies' entry changed agendas and power dynamics in the UN and other international organizations?",
+      "anchors": {
+        "1": "No reverse impact on organizations.",
+        "2": "Only says membership increased.",
+        "3": "Describes membership growth but agenda or power consequences are missing, or discusses only the UN with no broader institutional connection.",
+        "4": "Agenda and power changes are explicit, with a relevant broader organizational connection and a minor scope gap.",
+        "5": "The report connects former colonies' entry with identifiable agenda and coalition/voting changes, distinguishes formal representation from other sources of power, and identifies effects beyond the UN alone."
+      },
+      "boundary": "Do not require 51, 119 or nearly 50 as fixed numerical keys. A grounded UNCTAD or other relevant organizational connection is eligible; no prescribed list of agencies.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:32",
+          "drb2:76:info_recall:33"
+        ],
+        "query_quotes": [
+          "changed the agenda and power dynamics of the UN and other international organizations"
+        ],
+        "change_note": "Use official membership-growth object; the query supplies the explicit agenda, power and broader-organization coverage, not just count recital."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "East–West and North–South agendas",
+      "question": "Does the report describe the rise of North–South issues relative to East–West confrontation?",
+      "anchors": {
+        "1": "No change in international issues is discussed.",
+        "2": "Only repeats the two axis labels.",
+        "3": "Identifies economic inequality but not its relation to earlier Cold War priorities, or describes complete replacement without qualification.",
+        "4": "The changing prominence of inequality and development is clear with a minor period or scope gap.",
+        "5": "Explains the increased prominence of development, economic inequality and trade relations relative to East–West conflict, identifying the actors and historical context without implying the Cold War simply ceased."
+      },
+      "boundary": "The query's shift is not a demand for a total or uniform replacement thesis. Do not require the 1976 UNCTAD claim.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:40",
+          "drb2:76:info_recall:42"
+        ],
+        "query_quotes": [
+          "\"East-West confrontation\" to a \"North-South divide\""
+        ],
+        "change_note": "Retain agenda change and structural trade issues while making coexistence and scope explicit."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "NAM and G77",
+      "question": "Does the report introduce the rise and distinct roles of the Non-Aligned Movement and the Group of 77?",
+      "anchors": {
+        "1": "Neither grouping is introduced.",
+        "2": "Only gives both names, or only mentions one without context.",
+        "3": "One is substantively introduced while the other is absent, or their identities and formation are conflated.",
+        "4": "Both formation contexts and roles are clear, with a minor chronological or institutional gap.",
+        "5": "Both groupings' emergence and political/economic roles are explained, with identifiable formation contexts and their relationship without treating them as the same organization."
+      },
+      "boundary": "Belgrade 1961 and the first UNCTAD/G77 setting in 1964 are checking leads; accurate explanation rather than exact wording is required. Bandung can provide context but is not a third compulsory profile.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:35",
+          "drb2:76:info_recall:36",
+          "drb2:76:info_recall:37"
+        ],
+        "query_quotes": [
+          "\"Non-Alignment Movement\" and the \"Group of 77\""
+        ],
+        "change_note": "Keep both named groupings and formation context, using explicit uneven-coverage anchors instead of separate overlapping coalition scores."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "NIEO background and objectives",
+      "question": "Does the report explain the background, objectives and coalition promotion of the NIEO?",
+      "anchors": {
+        "1": "NIEO is absent.",
+        "2": "Only expands the acronym.",
+        "3": "Background, collective promotion or substantive objectives are missing, or the objectives remain generic aid requests without trade/structural inequality content.",
+        "4": "Background, aims and promotion are clear, with a minor chronology or scope gap.",
+        "5": "Explains economic grievances, collective promotion and concrete objectives for changing unequal international trade/economic relations, distinguishing national aid/development needs from structural reform claims and proposals from achieved outcomes."
+      },
+      "boundary": "Do not require a named structuralist economist or accept the official 1973 date as a fixed key without checking the specific event meant. No exhaustive policy plank list.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:43",
+          "drb2:76:analysis:10"
+        ],
+        "query_quotes": [
+          "background and objectives of their promotion of a \"New International Economic Order\""
+        ],
+        "change_note": "v3.3 targeted revision: Generic aid goals cannot stand for structural economic reform; background and policy objectives form one program profile."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "New UN functions",
+      "question": "Does the report briefly explain how decolonization helped spur UN functions such as peacekeeping?",
+      "anchors": {
+        "1": "No new function is mentioned.",
+        "2": "Only names peacekeeping.",
+        "3": "Names a mission or function but not its connection to decolonization.",
+        "4": "The function and post-colonial conflict context are clear, with a minor gap.",
+        "5": "Briefly explains the link between decolonization-related conflicts and new UN operational roles, using a concrete function or episode without making decolonization the sole cause of all peacekeeping."
+      },
+      "boundary": "Do not require all Palestine, Kashmir, Suez and Congo cases or a contested first-mission chronology. No operational survey is required.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:info_recall:44"
+        ],
+        "query_quotes": [
+          "such as peacekeeping operations"
+        ],
+        "change_note": "Preserve the query's brief functional connection; do not force an exhaustive mission history."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Requested three-part structure",
+      "question": "Does the report clearly separate the interwar League period, the postwar UN period and decolonization's impact on organizations?",
+      "anchors": {
+        "1": "No recognizable three-part structure.",
+        "2": "Only one requested part is clearly separated.",
+        "3": "All three themes are discernible, but one part lacks a clear boundary or is merged into another.",
+        "4": "Three parts and their scope are clear, with a minor heading or placement issue.",
+        "5": "Three clearly headed parts follow the requested historical and analytical division, with content placed accordingly."
+      },
+      "boundary": "Checks the requested division only, not the relative quality of whole-report progression.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:presentation:1",
+          "drb2:76:presentation:2",
+          "drb2:76:presentation:3",
+          "drb2:76:presentation:4"
+        ],
+        "query_quotes": [
+          "three main parts"
+        ],
+        "change_note": "Combine repeated structure requirements; preserve each part's specified focus."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Historical cutoff",
+      "question": "Does the report keep its historical account within the twentieth-century topic and the early-2022 cutoff?",
+      "anchors": {
+        "1": "The report chiefly answers a later-period question.",
+        "2": "Later developments repeatedly substitute for the requested history.",
+        "3": "The main history is relevant but important later material is unmarked or the scope drifts substantially.",
+        "4": "The historical focus and cutoff are clear apart from minor dating ambiguity.",
+        "5": "The requested twentieth-century history is central and the early-2022 boundary is explicit; later material, if mentioned solely as a labelled retrospective source, is not presented as an event within the period."
+      },
+      "boundary": "No obligation to narrate every year through 2022 or add unrelated recent cases.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:76:presentation:6"
+        ],
+        "query_quotes": [
+          "with a deadline until early 2022"
+        ],
+        "change_note": "Treat cutoff as a scope limit, not a requirement to invent early-2022 events."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Observable use of the prohibited source",
+      "question": "Does the final report avoid citing or using the specified Muschik introduction?",
+      "anchors": {
+        "1": "The prohibited source supports central conclusions.",
+        "2": "It supports multiple substantive secondary conclusions.",
+        "3": "It supports one local substantive claim.",
+        "4": "It appears only in the reference list without identifiable substantive use.",
+        "5": "No citation or use is observable in the complete final report; quoting an exclusion list is not use."
+      },
+      "boundary": "Judge observable final-report use only; shared historical facts or similar terminology do not establish access or use.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Special issue introduction: Towards a global history of international organizations and decolonization"
+        ],
+        "change_note": "Query-derived source restriction, not a claim about browsing history."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceable historical claims",
+      "question": "Can important dates, institutional provisions and attributed interpretations be traced to identifiable sources?",
+      "anchors": {
+        "1": "Central historical claims have no identifiable basis.",
+        "2": "Only generic references to historians or UN documents.",
+        "3": "Relevant sources exist but important claim-to-source links remain ambiguous.",
+        "4": "Most important claims are traceable, with small attribution gaps.",
+        "5": "Key dates, provisions and interpretations have identifiable sources or reviewable textual reasoning, distinguishing document content from historians' interpretations."
+      },
+      "boundary": "A source need not have a URL; traceability does not verify accuracy or legal force.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local historical attribution audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support in the assessed historical sample",
+      "question": "Within the recorded verification sample, does obtained evidence support the report's institutional and chronological claims?",
+      "anchors": {
+        "1": "Central assessed claims are contradicted or lack their claimed basis.",
+        "2": "Several important assessed claims have substantial support errors.",
+        "3": "Evidence supports some claims but an important date, institution or textual-meaning mismatch remains.",
+        "4": "Important assessed claims hold, apart from minor attribution or scope issues.",
+        "5": "All assessed claims match obtained evidence in institution, date, meaning and strength; this does not certify all historical assertions."
+      },
+      "boundary": "Report selected and completed counts. Retrieval failure or an empty assessed sample is an execution problem, not a low score, automatic 5 or NA. No external checks are performed while authoring this batch.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local bounded evidence audit, important for disputed official chronology and institutional conflations."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Consistent institutional terminology",
+      "question": "Are institutional categories, dates and descriptions consistent within the report?",
+      "anchors": {
+        "1": "Core institutions or chronology contradict one another so the history cannot be followed.",
+        "2": "A major unresolved institutional or chronological conflict undermines the central account.",
+        "3": "A substantive local contradiction remains but the main history is identifiable.",
+        "4": "Core descriptions agree with only minor ambiguity.",
+        "5": "Checked terms, territorial categories, dates and body responsibilities are used consistently; renaming, changing mandates and period differences are explained."
+      },
+      "boundary": "Internal consistency is not external correctness. Do not require a particular historian's terminology.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Narrow official accurate-terms item to internal usage; external meaning is handled only within assessed support."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "Declaration implementation machinery",
+      "question": "Does the report explain the post-Declaration committee machinery for following up decolonization?",
+      "anchors": {
+        "1": "No implementation machinery.",
+        "2": "Only says the UN implemented the Declaration.",
+        "3": "Names a committee but not its remit or political composition, or confuses it with the information committee.",
+        "4": "Explains the implementation body's remit and anti-colonial political role with minor lineage detail missing.",
+        "5": "Identifies the Special Committee/Committee of Twenty-Four lineage and explains follow-up work, anti-colonial membership influence and limits, distinguishing oversight from direct enforcement."
+      },
+      "boundary": "Do not freeze membership arithmetic or conflate the body's original size/date with its later name. This is distinct from information reporting under Chapter XI.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:info_recall:30",
+          "drb2:76:info_recall:31"
+        ],
+        "query_quotes": [],
+        "change_note": "Recover an independently omissible implementation institution from the broad Assembly/committee profile."
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "Unequal international participation",
+      "question": "Does the report explain institutional inequalities in participation and authority within the League's imperial setting?",
+      "anchors": {
+        "1": "No institutional inequality account.",
+        "2": "Only calls the League imperialist.",
+        "3": "Explains participation/status inequality or administrative/knowledge authority, but the other is absent, or gives imbalances without their institutional consequence.",
+        "4": "Explains both unequal participation/status and administrative/knowledge authority in imperial context, with only minor qualification gaps.",
+        "5": "Explains how membership/status inequalities and imperial influence over administrative expertise shaped whose claims and knowledge carried authority, without equating formal participation with equal sovereignty."
+      },
+      "boundary": "No required British India sentence or Getachew quotation; membership inequality and administrative influence must both be addressed or their limits specifically explained.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:info_recall:4",
+          "drb2:76:info_recall:5",
+          "drb2:76:info_recall:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore unequal integration as substantive content, not only an optional historian/example. Cross-review fixes the one-sided 4 anchor so either missing side remains 3."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Imperial institutions and contestation",
+      "question": "Which report more convincingly explains how League institutions could sustain imperial rule while creating openings for scrutiny or opposition?",
+      "anchors": {
+        "0": "The explanations of the League's duality provide similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better explains an important institutional opening or limitation; B may still have local strengths.",
+        "2": "A provides a substantially stronger explanation of how imperial administration, scrutiny and contestation interacted; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially stronger explanation of how imperial administration, scrutiny and contestation interacted; A's local strengths do not close this gap.",
+        "-1": "On balance, B better explains an important institutional opening or limitation; A may still have local strengths."
+      },
+      "boundary": "Judge concrete causal links, not a balanced number of positive and negative claims. LAI opposition may clarify alternatives without making Comintern influence the sole explanation. Compare core inferences with the same importance criteria for both reports; state opposite strengths. Equally consequential offsetting advantages score 0, not a selectively chosen mechanism win.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:analysis:1",
+          "drb2:76:analysis:2",
+          "drb2:76:info_recall:12"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: Imperial maintenance and oversight interact within one causal account; a broken link is not repaired by unrelated historical detail."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "From procedures to anti-colonial leverage",
+      "question": "Which report more convincingly explains how UN rules and political forums became usable anti-colonial leverage?",
+      "anchors": {
+        "0": "The institutional-leverage explanations provide similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better justifies a consequential link from a procedure or coalition to political leverage; B may still have local strengths.",
+        "2": "A offers a substantially stronger account of how oversight, Assembly politics and normative change affected colonial authority; B's local strengths do not close this gap.",
+        "-2": "B offers a substantially stronger account of how oversight, Assembly politics and normative change affected colonial authority; A's local strengths do not close this gap.",
+        "-1": "On balance, B better justifies a consequential link from a procedure or coalition to political leverage; A may still have local strengths."
+      },
+      "boundary": "Petitions, visits, information review, Assembly coalitions and declaration effects are possible links, not a required method checklist. Distinguish procedural opportunity, political pressure and enforcement; no mandatory Security Council deadlock thesis or Pearson quote. Compare core inferences with the same importance criteria for both reports; state opposite strengths. Equally consequential offsetting advantages score 0, not a selectively chosen mechanism win.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:analysis:3",
+          "drb2:76:analysis:4",
+          "drb2:76:analysis:5",
+          "drb2:76:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: A procedure's existence without political consequence is an incomplete leverage argument; no separate procedure-count reward."
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "Membership and economic agenda change",
+      "question": "Which report better explains how post-colonial collective action changed international priorities and the limits of that change?",
+      "anchors": {
+        "0": "The explanations of coalition and agenda change give similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better explains an important coalition-to-agenda step; B may still have local strengths.",
+        "2": "A provides a substantially more convincing account of membership, coalition action and changing economic priorities under their constraints; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially more convincing account of membership, coalition action and changing economic priorities under their constraints; A's local strengths do not close this gap.",
+        "-1": "On balance, B better explains an important coalition-to-agenda step; A may still have local strengths."
+      },
+      "boundary": "Do not infer that more votes erased all institutional power asymmetries or replaced every East–West issue. NAM/G77 cooperation, trade critiques or organizational forums are eligible routes without mandatory economists. Compare core inferences with the same importance criteria for both reports; state opposite strengths. Equally consequential offsetting advantages score 0, not a selectively chosen mechanism win.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:analysis:7",
+          "drb2:76:analysis:8",
+          "drb2:76:analysis:9",
+          "drb2:76:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: Membership, coalition and agenda are a conditional causal chain; uncertainty limits the same inference, not another criterion."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Understanding institutional transformation",
+      "question": "Which report gives the reader a more useful understanding of what decolonization changed, and what it did not change, in international organizations?",
+      "anchors": {
+        "0": "The syntheses provide similar help in understanding institutional transformation; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A more usefully distinguishes an important institutional gain from a continuing constraint; B may still have local strengths.",
+        "2": "A provides a substantially more useful synthesis of political independence, institutional agency and continuing limitations; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially more useful synthesis of political independence, institutional agency and continuing limitations; A's local strengths do not close this gap.",
+        "-1": "On balance, B more usefully distinguishes an important institutional gain from a continuing constraint; A may still have local strengths."
+      },
+      "boundary": "Use established or explicitly conditional interpretations. An account of new peacekeeping roles can show changed responsibilities without proving all missions emancipatory; no mandatory success-versus-failure verdict. Do not rescore an inference merely because it was stronger in D3; identify the changed historical understanding.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:analysis:11",
+          "drb2:76:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve the new-function and non-binary relationship insights; move from prescribed interpretation to comparative historical synthesis."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Historical evidence fit",
+      "question": "Which report uses evidence better suited to the historical scale and institutional claims it makes?",
+      "anchors": {
+        "0": "The evidence offers comparable support for the historical interpretation; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has somewhat more appropriate document or historical evidence for an important interpretation; B may still have local strengths.",
+        "2": "A has substantially more fitting and complementary evidence for the account of institutions and decolonization; B's local strengths do not close this gap.",
+        "-2": "B has substantially more fitting and complementary evidence for the account of institutions and decolonization; A's local strengths do not close this gap.",
+        "-1": "On balance, B has somewhat more appropriate document or historical evidence for an important interpretation; A may still have local strengths."
+      },
+      "boundary": "Distinguish charter text, political speech, institutional records and retrospective interpretation by the claims they can support. No required historian list or citation count.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local evidence-applicability comparison for a complex historical account."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Historical progression",
+      "question": "Which original report makes the chronology and the turn toward decolonization's impact on organizations easier to follow?",
+      "anchors": {
+        "0": "The original reports offer comparable overall reading paths; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has a somewhat more helpful chronological and analytical progression; B may still have local strengths.",
+        "2": "A has substantially clearer progression through the history and reverse institutional effects, with useful transitions and repetition; B's local strengths do not close this gap.",
+        "-2": "B has substantially clearer progression through the history and reverse institutional effects, with useful transitions and repetition; A's local strengths do not close this gap.",
+        "-1": "On balance, B has a somewhat more helpful chronological and analytical progression; A may still have local strengths."
+      },
+      "boundary": "The mandated three-part form is PT; compare actual order, transitions and useful recaps here, not shorter length by default.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local whole-report progression comparison beyond format compliance."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear historical language",
+      "question": "Which report expresses its existing institutional distinctions and historical claims more clearly?",
+      "anchors": {
+        "0": "The existing historical language offers similar clarity; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes an important institutional distinction or causal sentence somewhat easier to understand; B may still have local strengths.",
+        "2": "A makes the existing historical account substantially clearer through precise wording, referents and local labels; B's local strengths do not close this gap.",
+        "-2": "B makes the existing historical account substantially clearer through precise wording, referents and local labels; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes an important institutional distinction or causal sentence somewhat easier to understand; A may still have local strengths."
+      },
+      "boundary": "Do not confuse neutral tone with accuracy or reward superficial both-sides wording. Score comprehension, not causal truth or extra facts.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:76:presentation:5",
+          "drb2:76:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Use language and term-clarity aspects only; neutrality does not replace meaningful historical complexity."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding episodes and documents",
+      "question": "Which original report makes it easier to locate a requested episode, institutional provision and its stated source?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes an important episode-to-source lookup somewhat easier; B may still have local strengths.",
+        "2": "A substantially reduces the search needed to connect requested episodes or provisions to their stated bases; B's local strengths do not close this gap.",
+        "-2": "B substantially reduces the search needed to connect requested episodes or provisions to their stated bases; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes an important episode-to-source lookup somewhat easier; A may still have local strengths."
+      },
+      "boundary": "Test lookup paths in the original report; no URL count or repeated source-validity credit.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local historical lookup comparison."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:76:info_recall:1",
+      "targets": [],
+      "reason": "The general growth in IO numbers is background, not a required part of the relationship account; no exact unprecedented-growth distinction remains.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "The general growth in IO numbers is background, not a required part of the relationship account; no exact unprecedented-growth distinction remains.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:2",
+      "targets": [],
+      "reason": "The Wilsonian moment is an optional historical framing; the 1919 named interpretation is not compulsory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "The Wilsonian moment is an optional historical framing; the 1919 named interpretation is not compulsory.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 detects imperial protection through mandates, but not an exclusive design intention attributed to every victorious power.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 detects imperial protection through mandates, but not an exclusive design intention attributed to every victorious power.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:4",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "Restore institutional inequality beyond optional names and examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17 directly distinguishes absent participation/administrative inequality. British India, Getachew and a fixed national staffing profile are not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:5",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "Restore institutional inequality beyond optional names and examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17 directly distinguishes absent participation/administrative inequality. British India, Getachew and a fixed national staffing profile are not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:6",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "Restore institutional inequality beyond optional names and examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17 directly distinguishes absent participation/administrative inequality. British India, Getachew and a fixed national staffing profile are not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:7",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 requires relevant territorial scope and international oversight; it does not force a recital of all former Ottoman/German territory categories.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 requires relevant territorial scope and international oversight; it does not force a recital of all former Ottoman/German territory categories.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:8",
+      "targets": [],
+      "reason": "Pedersen and The Guardians are optional sources; the specified attribution is not required.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Pedersen and The Guardians are optional sources; the specified attribution is not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:9",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 retains welfare/oversight context where it explains the dual role, without requiring Article 22 wording or a universal future-self-government implication.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 retains welfare/oversight context where it explains the dual role, without requiring Article 22 wording or a universal future-self-government implication.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:10",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 explicitly requires the PMC role; the precise label colonial experts is not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 explicitly requires the PMC role; the precise label colonial experts is not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:11",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 explicitly requires reporting and review as international scrutiny, distinguishing it from simply praising League oversight.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 explicitly requires reporting and review as international scrutiny, distinguishing it from simply praising League oversight.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:info_recall:12",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01 can distinguish an explained governance burden from assumed effects; increased burden is not an unconditional required outcome.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 can distinguish an explained governance burden from assumed effects; increased burden is not an unconditional required outcome.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:13",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02 requires identifiable founding setting with Brussels 1927 as a checking lead; exact recital without substantive context is not sufficient.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 requires identifiable founding setting with Brussels 1927 as a checking lead; exact recital without substantive context is not sufficient.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:14",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02 requires anti-imperialist purpose and activities; the metaphor antidote is not mandatory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 requires anti-imperialist purpose and activities; the metaphor antidote is not mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:15",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Restore communist/Comintern support as founding/organizational context.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 requires its relevance and limitations, not simply a name; unsupported qualifications cannot replace the historical account.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:16",
+      "targets": [],
+      "reason": "Berlin and Münzenberg are optional details beyond a substantive LAI profile; precise organizer/location omissions are not separately scored.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Berlin and Münzenberg are optional details beyond a substantive LAI profile; precise organizer/location omissions are not separately scored.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:17",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Restore organizational tensions/limitations without requiring an unverified termination date or sole cause.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 detects impact without internal constraint discussion; early-1930s disintegration formula remains unconfirmed.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:18",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03 requires the colonial founding settlement rather than merely San Francisco 1945 and institutional ancestry; the exact official sentence is not preserved.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03 requires the colonial founding settlement rather than merely San Francisco 1945 and institutional ancestry; the exact official sentence is not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:19",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "PT.D1.04 directly distinguishes a described institutional transition from a vague replacement claim, adding territorial limits.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 directly distinguishes a described institutional transition from a vague replacement claim, adding territorial limits.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:20",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "PT.D1.04 explicitly checks petitions and visits as procedural differences, not a bare change of institutional name.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.04 explicitly checks petitions and visits as procedural differences, not a bare change of institutional name.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:info_recall:21",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05 explicitly requires Chapter XI's non-self-governing-territory framework and its obligations.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 explicitly requires Chapter XI's non-self-governing-territory framework and its obligations.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:info_recall:22",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05 separates Chapter XI from trusteeship rather than reproducing the original conflation; the original blanket category statement is not preserved.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 separates Chapter XI from trusteeship rather than reproducing the original conflation; the original blanket category statement is not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:23",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 requires the Assembly and committee arena; it does not imply the Trusteeship Council had no significant role.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 requires the Assembly and committee arena; it does not imply the Trusteeship Council had no significant role.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:24",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 requires an identifiable information-committee account or explained institutional lineage; a fixed 1946 establishment under that exact later name is not a key.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 requires an identifiable information-committee account or explained institutional lineage; a fixed 1946 establishment under that exact later name is not a key.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:25",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 requires relevant actors but not equal-number membership arithmetic or a binary label for every state.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 requires relevant actors but not equal-number membership arithmetic or a binary label for every state.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:26",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 requires concrete information/review work; the economic-social-educational list is a checking lead, not a mandatory verbatim inventory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 requires concrete information/review work; the economic-social-educational list is a checking lead, not a mandatory verbatim inventory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:27",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 checks actor participation in Assembly politics but does not force one geopolitical coalition narrative or saltwater terminology.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 checks actor participation in Assembly politics but does not force one geopolitical coalition narrative or saltwater terminology.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:28",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07 requires the identifiable 1960 Declaration and its significance; a sole causal attribution to a specified movement is not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 requires the identifiable 1960 Declaration and its significance; a sole causal attribution to a specified movement is not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:29",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07 requires transfer of authority and ending colonial subjection, without a fixed quotation or ignoring the document's scope.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 requires transfer of authority and ending colonial subjection, without a fixed quotation or ignoring the document's scope.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:30",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "Recover declaration-follow-up machinery as a separate content object.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.16 detects missing implementation remit or political role even with excellent information-committee coverage; exact membership counts remain optional.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:31",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "Recover declaration-follow-up machinery as a separate content object.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.16 detects missing implementation remit or political role even with excellent information-committee coverage; exact membership counts remain optional.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:32",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 requires meaningful membership change, not the exact founding count of 51.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08 requires meaningful membership change, not the exact founding count of 51.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:33",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 detects missing agenda/power consequences, not the exact 119/nearly-50/20-year numerical formulation.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08 detects missing agenda/power consequences, not the exact 119/nearly-50/20-year numerical formulation.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:34",
+      "targets": [],
+      "reason": "No mandatory Luard attribution or claim that all Western dominance ended; that precise interpretive distinction is lost.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No mandatory Luard attribution or claim that all Western dominance ended; that precise interpretive distinction is lost.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:35",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10 allows Bandung as formation context but not a mandatory separate turning-point judgment.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 allows Bandung as formation context but not a mandatory separate turning-point judgment.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:36",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10 requires an identifiable NAM formation context and role; Belgrade 1961 is a checking lead, not a standalone numeric score.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 requires an identifiable NAM formation context and role; Belgrade 1961 is a checking lead, not a standalone numeric score.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:37",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10 requires G77's distinct emergence and role; first UNCTAD/1964 are checking leads rather than a stand-alone date score.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 requires G77's distinct emergence and role; first UNCTAD/1964 are checking leads rather than a stand-alone date score.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:38",
+      "targets": [],
+      "reason": "The 1976 UNCTAD peak and ideological-indifference thesis is not compulsory; it could overstate a complex coexistence of axes and needs evidence.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "The 1976 UNCTAD peak and ideological-indifference thesis is not compulsory; it could overstate a complex coexistence of axes and needs evidence.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:39",
+      "targets": [],
+      "reason": "A claim that most post-1955 conflicts had one connection requires a defined corpus. Specific Algeria/Congo/Suez examples are optional, not a compulsory majority assertion.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "A claim that most post-1955 conflicts had one connection requires a defined corpus. Specific Algeria/Congo/Suez examples are optional, not a compulsory majority assertion.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:40",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09 explicitly distinguishes economic inequality/development issues from a bare North–South label.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 explicitly distinguishes economic inequality/development issues from a bare North–South label.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:info_recall:41",
+      "targets": [],
+      "reason": "Singer and Prebisch are optional intellectual-history routes; no required named-economist attribution.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Singer and Prebisch are optional intellectual-history routes; no required named-economist attribution.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:42",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09 includes trade relations and changing priorities; it does not force a total replacement of aid thinking by trade critique.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 includes trade relations and changing priorities; it does not force a total replacement of aid thinking by trade critique.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:43",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "PT.D1.11 requires NIEO background and objectives but deliberately does not adopt 1973 as an unverified fixed declaration date.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 requires NIEO background and objectives but deliberately does not adopt 1973 as an unverified fixed declaration date.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:44",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "PT.D1.12 directly detects whether a new function is related to decolonization rather than simply mentioned.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.12 directly detects whether a new function is related to decolonization rather than simply mentioned.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:info_recall:45",
+      "targets": [],
+      "reason": "The first-mission chronology combines distinct missions and needs independent checking; the exact 1948 Palestine/Kashmir pairing is not required.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "The first-mission chronology combines distinct missions and needs independent checking; the exact 1948 Palestine/Kashmir pairing is not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:46",
+      "targets": [],
+      "reason": "UNEF/Suez is an eligible episode but not the only acceptable explanation of new functions; its first-armed label is not a mandatory key.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "UNEF/Suez is an eligible episode but not the only acceptable explanation of new functions; its first-armed label is not a mandatory key.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:info_recall:47",
+      "targets": [],
+      "reason": "Congo is an optional episode; omission alone does not fail a brief new-function account.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Congo is an optional episode; omission alone does not fail a brief new-function account.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01 directly compares the League's dual institutional effects, without requiring that oversight always undermined legitimacy or increased costs.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 directly compares the League's dual institutional effects, without requiring that oversight always undermined legitimacy or increased costs.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01 can distinguish explained anti-imperialist opposition from a bare organization label, without treating the LAI as caused only by the League.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 can distinguish explained anti-imperialist opposition from a bare organization label, without treating the LAI as caused only by the League.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:3",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02 compares procedural changes as leverage, but does not presume every trusteeship procedure necessarily produced stronger anti-imperial outcomes.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02 compares procedural changes as leverage, but does not presume every trusteeship procedure necessarily produced stronger anti-imperial outcomes.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:4",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02 can assess the Security Council deadlock explanation if used; does not require it as the unique explanation of Assembly politics.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02 can assess the Security Council deadlock explanation if used; does not require it as the unique explanation of Assembly politics.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:5",
+      "targets": [
+        "PT.D1.06",
+        "PW.D3.02"
+      ],
+      "reason": "Information review's effect on colonial information control now has direct content coverage.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 rejects mere committee naming; PW.D3.02 compares the causal justification. Pearson's exact quotation remains optional.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:6",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02 distinguishes political/normative change from enforcement; it does not turn the Declaration into an unqualified automatic legal result.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02 distinguishes political/normative change from enforcement; it does not turn the Declaration into an unqualified automatic legal result.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:7",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03 explicitly checks membership/coalition-to-agenda reasoning but permits continued institutional inequalities.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03 explicitly checks membership/coalition-to-agenda reasoning but permits continued institutional inequalities.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:8",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03 compares the logic of changed economic priorities while allowing East–West issues to coexist.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03 compares the logic of changed economic priorities while allowing East–West issues to coexist.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:9",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03 can assess NAM/G77 collective action advancing agendas, without making every proposed reform successful.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03 can assess NAM/G77 collective action advancing agendas, without making every proposed reform successful.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:10",
+      "targets": [
+        "PT.D1.11",
+        "PW.D3.03"
+      ],
+      "reason": "Restore the aid-versus-structural reform distinction directly in NIEO objectives.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 caps generic aid-only objectives at 3; PW.D3.03 separately assesses the reasoning about agenda change. No compulsory Prebisch attribution or total replacement claim.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:analysis:11",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01 uses peacekeeping to examine changed responsibilities and limits; it does not force all peacekeeping to originate solely in decolonization or require Suez and Congo.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 uses peacekeeping to examine changed responsibilities and limits; it does not force all peacekeeping to originate solely in decolonization or require Suez and Congo.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:presentation:1",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 explicitly checks three headed parts.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.13 explicitly checks three headed parts.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:presentation:2",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 checks the interwar League part; substantive League and LAI coverage is separately required.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.13 checks the interwar League part; substantive League and LAI coverage is separately required.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:presentation:3",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 checks the postwar UN part and its placement.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.13 checks the postwar UN part and its placement.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:presentation:4",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 checks the reverse-impact part rather than mixing it into the previous chronology.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.13 checks the reverse-impact part rather than mixing it into the previous chronology.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:76:presentation:5",
+      "targets": [
+        "PW.D4.01",
+        "PW.D6.01"
+      ],
+      "reason": "PW.D4.01 compares a non-binary historical synthesis and PW.D6.01 clear language; neutral tone alone is not a correctness test or an obligatory midpoint verdict.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 compares a non-binary historical synthesis and PW.D6.01 clear language; neutral tone alone is not a correctness test or an obligatory midpoint verdict.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:presentation:6",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "PT.D1.14 preserves the early-2022 cutoff but does not require a narrative event at the endpoint.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14 preserves the early-2022 cutoff but does not require a narrative event at the endpoint.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:76:presentation:7",
+      "targets": [
+        "PT.D2.03",
+        "PW.D6.01"
+      ],
+      "reason": "PT.D2.03 checks internal terminology and PW.D6.01 comprehension. External term correctness requires actual evidence checks; this is not an unconditional accuracy guarantee.",
+      "status": "adapted",
+      "discrimination_check": "PT.D2.03 checks internal terminology and PW.D6.01 comprehension. External term correctness requires actual evidence checks; this is not an unconditional accuracy guarantee.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "Batch6 mechanical checks passed for unchanged queries, unique IDs, five-level anchors, D1–D6 coverage, per-item atomicity records and complete bidirectional official mappings. This is not independent semantic review or external verification of official facts.",
+    "No earlier draft for this assigned task was present. PT covers the named historical accounts, institutions, groupings and scope; PW compares actual mechanisms, historical synthesis, evidence and reading value without a fixed theory route.",
+    "Mixed coverage is explicitly anchored: one League role, one grouping, or only declaration content/significance scores 3. Transitions, provisions with territorial scope, and causal chains are kept together.",
+    "Official chronology and categories require care: Chapter XI versus trusteeship, information-committee institutional lineage, NIEO event dates, LAI decline versus termination and first peacekeeping missions. The original precise claims are not externally verified here; losses are recorded individually rather than described as fully covered.",
+    "Author atomicity and official-discrimination checks only, with bounded mechanical validation. No browser, reports, scores or independent reviewer was used; independent semantic review remains pending.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为20 PT / 8 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "新增16宣言执行委员会、17不平等参与；06恢复信息控制被打开的具体机制并移出执行机构。02补组织控制张力，11补援助与结构性经济改革区别。既有双重角色、两制度、两组织等关系项保留明确缺面3分，不机械分裂。",
+    "信息委员会沿革、NIEO年代、LAI衰落与终止、维和首次任务仍需外部史料核对。新入口不等于确认官方具体年份；反简化不要求正反评价机械对半。",
+    "Cross-review repairs only PT.D1.01 and .17 anchor-boundary mismatches; no fixed dates, historians or new criteria imposed."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A strong imperial account with scrutiny absent is explicitly 3. The two sides define the requested dual role, not independent unrelated tasks. Cross-review synchronizes the actual anchors with the boundary: a missing substantive side cannot be treated as a minor detail."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "A strong founding and congress account cannot mask entirely missing organizational impact/tensions; retain one organization profile with explicit mixed grade."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Founding context without a colonial stance is 3; context gives the stance meaning rather than earning a separate score."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Naming both systems without their relationship is 3. Transition and procedural differences form one institutional comparison."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Naming a Charter chapter without obligations/category clarity is 3; do not split a provision from its territorial scope."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "revise",
+      "reason": "Information flow and Assembly leverage stay connected, but separate declaration-follow-up function cannot be masked by good information review."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Content without significance, or the reverse, is explicitly 3; declaration and historical meaning remain one requested profile."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Membership growth without agenda/power effects or a broader organizational connection is 3; mixed coverage is explicit."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: North–South terminology without relation to Cold War priorities is 3; a shift is inherently relational."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: One grouping introduced well with the other absent is 3; both names without context are 2. No additional formation-date score."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "revise",
+      "reason": "Generic aid goals cannot stand for structural economic reform; background and policy objectives form one program profile."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A mission named without a decolonization connection is 3; the function–context link is the object."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: All themes present but one part unseparated is 3; this is format, not another content average."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Relevant history with important unmarked later material is 3; only the scope boundary is judged."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Bibliography-only versus substantive use has explicit levels; no separate access-history inference."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Sources present but poorly attributed score 3; keep source and claim as one traceability relation."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Findable sources can fail support, so external support remains separate from traceability and internal consistency."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Consistent core with a local substantive conflict is 3; institutional category and date jointly identify the same statement."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Imperial maintenance and oversight interact within one causal account; a broken link is not repaired by unrelated historical detail."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: A procedure's existence without political consequence is an incomplete leverage argument; no separate procedure-count reward."
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Membership, coalition and agenda are a conditional causal chain; uncertainty limits the same inference, not another criterion."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Institutional gain and continuing constraint form one synthesis; a valid D3 inference helps here only if it changes historical understanding."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Good document evidence for law but weak support for a broad political thesis is a mixed applicability result, judged by consequential claims."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Clear chronology with a weak transition to reverse institutional effects is a mixed reading path; ±1 permits local strengths."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Precise terms with unclear referents can coexist; compare resulting comprehension, excluding historical truth."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: Locating a provision but not its stated source is an incomplete retrieval path, not two independently compensating benefits."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "add",
+      "reason": "Excellent economic/social information review does not answer follow-up of the Declaration; no committee lineage/function is 1/2 here."
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "add",
+      "reason": "Membership differences explained but bureaucracy/knowledge authority omitted is 3, and vice versa; do not split into staff nationality counts. Cross-review synchronizes the actual anchors with the boundary: a missing substantive side cannot be treated as a minor detail."
+    }
+  ]
+}

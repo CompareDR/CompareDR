@@ -1,0 +1,502 @@
+{
+  "transformations": [
+    {
+      "file": "materials/controlled_revisions/P043/degrade.md",
+      "evaluation_input_sha256": "6126a72db863d9d1754a282adc4bd5729097be6c0382662350d5afe5e29078a8",
+      "distributed_file_sha256": "1bed8b1555cf650fffbc3bd8611275ce5ddaa2c382790c2286e200c381e0abf7",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 20
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P043/improve.md",
+      "evaluation_input_sha256": "8281e427f6cc30f3df2b96eab93ee60cb342eeb50b09a05933b20c3e0109379b",
+      "distributed_file_sha256": "deae205d28720e3866cebf2b24274559165f8672ab1496ab3b2658fff68ed6ab",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 20
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P043/base.md",
+      "evaluation_input_sha256": "fec0923abe9665794b5c383d958eed0236d1344924706536842a207f11d2dd63",
+      "distributed_file_sha256": "bbbfcd2d115a2ba390e5464d3a62fb03285cbe8415707961249f6c20a00c02fd",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 20
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P043/equivalent.md",
+      "evaluation_input_sha256": "83d067628f528f5ce3eaf8f34a0a2182bcea8d6ab6f0a317616e009685cb8873",
+      "distributed_file_sha256": "68503869d9a871f3f891c4a32d6436631b2e9735e79f840ab44de9803f2f6e03",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 20
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P059/degrade.md",
+      "evaluation_input_sha256": "326189a1c552d353fdffe4b641696734b33409ff63de22f63b39d17b8b523880",
+      "distributed_file_sha256": "213c66cd936f1a5c75a9258ecae7540bb1d61943cce11518739806c495db7bab",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P059/improve.md",
+      "evaluation_input_sha256": "a0588748140aebcf2d7b844566cb1c23667e9de1f5ee2b568d36419ced59b664",
+      "distributed_file_sha256": "7cf3583e9c412663b86a2a8c07e25c749969db002d20a9a7fdf826dba4a02551",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P059/base.md",
+      "evaluation_input_sha256": "2c1834446b53327efccc0ebb0f9187369ab6c94a373c8ad3dfa1f2ea074ece46",
+      "distributed_file_sha256": "8eb5bfc2363477c1abf02c11e4db9d8435f97509f3443ae7e5189db8c513e40d",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P059/equivalent.md",
+      "evaluation_input_sha256": "ac02c84f5e997fdc8eb204e30b63b55bc524e9ff4e5c7ac0d37c8091453b3f35",
+      "distributed_file_sha256": "7495ba29777db5cdbd9fc827d2dd84baf834d801b45f0766259875583b4fea66",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P061/degrade.md",
+      "evaluation_input_sha256": "7bda109809bcb5bd55b38563dd0c94b1a9323d876333781a9ee11e6eddfec333",
+      "distributed_file_sha256": "b5751d6c0d9d3a7900d685952090983e2d40a403175830b446ff089a4760c215",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 9
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P061/improve.md",
+      "evaluation_input_sha256": "85be7799510924ff9b000c7c535d163d3afebf906b553f3657b26d4960b374cd",
+      "distributed_file_sha256": "e2fdb95a71a0b7abf8e76fd753d4fc48cae8ffcd544bcffcc03becbbe6dbe841",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 9
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P061/base.md",
+      "evaluation_input_sha256": "611a14aca6697f72e8ae68740e9673166a12c6ec18f057132e8ac4ef78c1f698",
+      "distributed_file_sha256": "26821623d1191196346a099525cc7faa355d75cc24decee3f557dc16ba698ba7",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 9
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P061/equivalent.md",
+      "evaluation_input_sha256": "3bc0c887bffb828b5d94069a457a0e8d0b902419f741b3eb656b9a68754a12e0",
+      "distributed_file_sha256": "9b574ddcfc44a2efce939d5df0249636b94fe3cd1eca280822847a6d1592e41f",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 9
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P057/degrade.md",
+      "evaluation_input_sha256": "2d002e2d6a36bacd87f01c3cf7350b583b5cd1e01f5cf29a5932c041271d8731",
+      "distributed_file_sha256": "b050d041a2ca1c01b7ff513d4d8ce9282aceb9d81c90e03d845c72a4117358f2",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 10
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P057/improve.md",
+      "evaluation_input_sha256": "427e5fbd262d2f9073558bce762829f9e3b64148537c721807a807ee192764c2",
+      "distributed_file_sha256": "76ad2e526d89b7c99515a604011a2aeb8f5811fc2e0a02f07af17623b26e5bde",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 10
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P057/base.md",
+      "evaluation_input_sha256": "ddebdf517c6b2a181fc4e8c6699c9c9dc2b51ef73b14416d7c15018019fe34ed",
+      "distributed_file_sha256": "3a280e026af067c716c8abb8c622664865578ddc898b15a1bcb71e9a41541e01",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 10
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P057/equivalent.md",
+      "evaluation_input_sha256": "cb4a887bc278f7ff9fcc06503d639b9f5066754a81893edc48e4129fb8cba303",
+      "distributed_file_sha256": "cde1ded53c1c90ddbabb7ee2f6a2cc8f71388e2a52f1427b0cadf813d087c4d1",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 10
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P032/degrade.md",
+      "evaluation_input_sha256": "dff524db0fa4eda6348ee008d953319f2411793fca268a5c6daa614b232bf016",
+      "distributed_file_sha256": "8da8c0b3d670218c0e2e853048450375e8cf1466674bddd4a590e3c28f8a4773",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P032/improve.md",
+      "evaluation_input_sha256": "93b00dabb17ee8fba72594a408027178bfe3bf508e4d77dced4f7d60dd0622cf",
+      "distributed_file_sha256": "335d484f43d6130e766bdcca7a3860e0c6c23d36e999ef2bae22f1a3c4d7c9a6",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P032/base.md",
+      "evaluation_input_sha256": "93fd187c9efa3fe81899f8db8453b7b8984cc2e988633ae05629532e7ae68e75",
+      "distributed_file_sha256": "e80761575bd967f5aa45981c42fd8da93b274c5cf57e8f8c7baf2253b03cf74a",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P032/equivalent.md",
+      "evaluation_input_sha256": "3181c4af4593f9d7267d524bdc9cd9af34f4bbf9c10f1040f31bb12ba08c42a5",
+      "distributed_file_sha256": "8b67c39f204b0c1d492537fe5b769fe51bf8e7e86dc4d4e7e570585229a8bd8a",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P060/degrade.md",
+      "evaluation_input_sha256": "14731cecc3c48d37bee9f9d8036c4d7bf9c710278dc65fa50fe18dd61c1339f9",
+      "distributed_file_sha256": "c665b65ddedc59f01153ecf83604f1538977217e618c4ced24c4bcd348b816ef",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 27
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P060/improve.md",
+      "evaluation_input_sha256": "f51b2986312a219059c03d903e830330cfcaa64a9f462dae00955ce0134c3e9e",
+      "distributed_file_sha256": "79669bb0d884ef9475e2ad4e5dbe1fb227ab6d29d0aadbaa20c30765909c33b7",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 27
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P060/base.md",
+      "evaluation_input_sha256": "f7e2cd8e38de9c85c50447eddc70111d44e916825e82750ac3a98e28fcba81ee",
+      "distributed_file_sha256": "045f7e03245ecb41388ae8d1c09fbaf055e9d32c087b8c21c975174019eed48b",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 27
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P060/equivalent.md",
+      "evaluation_input_sha256": "436605988d093a8cec98dd7c6500072c9624e043b8d4a9b8ca6f0e13363fc349",
+      "distributed_file_sha256": "e99545d9a2dc2e0ff3b5a34d1c42b1f7ed8d80c58316783b8c96408cd8b3831b",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 27
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P058/degrade.md",
+      "evaluation_input_sha256": "d65ac883d4268b2bfc1244c23c26740faa397eaad72c90041aeacae32c56b50b",
+      "distributed_file_sha256": "24f57c630fe78771247ab210af367f4050a15b5993e3bca2050ca88c0f9d6eef",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 22
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P058/improve.md",
+      "evaluation_input_sha256": "5b5127daa5b500d50449c7a769dc3e5c82741427eed81e429e1387ebb37a2f84",
+      "distributed_file_sha256": "be7dbf9c79d330fb8a22242747cf536599e6acde1b80709b00e320db502aa4cf",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 22
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P058/base.md",
+      "evaluation_input_sha256": "7692485cb07f5d03b348e15fb73f4d17abca8b2ee52e2e8f29819a9aac828d9f",
+      "distributed_file_sha256": "4f411ddb2a8b2fc3e7ad321e79d68719e31c27f8656e64c19682fc8b398c9ed6",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 22
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P058/equivalent.md",
+      "evaluation_input_sha256": "e200702812856e575a881c24030363019fa75b191b4d9d02c75ed296590f2109",
+      "distributed_file_sha256": "3a99c424a35a0669371b910892593ee26587d53b53ea4abc567e61bb3e904e97",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 22
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P013/degrade.md",
+      "evaluation_input_sha256": "6835206257bfe40aeb56ec6c003236d0793fa8d09dfd32e357627fe8e66ae9e8",
+      "distributed_file_sha256": "c0f77a66cfd8715e2110c01e9f15aacf505db89a0d5e146d8f133101c78d8719",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 13
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P013/improve.md",
+      "evaluation_input_sha256": "8e478c672c1f5fdd97ad0cca7472635bbdcc56d1ba4b74232f04f253376ace4c",
+      "distributed_file_sha256": "86a0224cb5294bee05048307c3db8a2de34b44c998af4d2620605a8fbba70fcb",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 13
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P013/base.md",
+      "evaluation_input_sha256": "4ee2704e0daf29b3b01a0495129675b18e454d6c547646421302b3fc0e0bbc65",
+      "distributed_file_sha256": "4562e3c2327e543c712821ca4a0fb67834c0385aeca0121e310db45c01a96063",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 13
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P013/equivalent.md",
+      "evaluation_input_sha256": "ba16093425b9277c69b1739b4f13c183aea0b65f02ef87a8ca84e8d57e4d5e7a",
+      "distributed_file_sha256": "2d951a9854e66b08650a02385ced3498ecca08f5f6ffbd41f05bcd3bb6c62ac4",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 13
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P062/degrade.md",
+      "evaluation_input_sha256": "19828805beb6edd8e53d2e51737e5cb71e91775f76ce5e128a985338087da4b3",
+      "distributed_file_sha256": "aa0cbfee521416f981c915d969dc71bfaabb9d6b042daa188576113579a7056c",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P062/improve.md",
+      "evaluation_input_sha256": "0dc41ed482d12a414bb0d55d70cf0ae3bb0003c84bbb9356128fbd38ce924c95",
+      "distributed_file_sha256": "e5e48b4f9bd35f484013c72854992aba1d872b00e155af207665d373a18bfc02",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P062/base.md",
+      "evaluation_input_sha256": "9e0e288349ac1ffbdf8c617e968caf584b8f2daf41fecb4ba6b905cde95d3e21",
+      "distributed_file_sha256": "0090a6fa50fdeffa3a68958cd9cd897eecc9d7b79400b40e851d44e726f68b2e",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P062/equivalent.md",
+      "evaluation_input_sha256": "1304c7f4d7659fc002ddfb0b9830522ba585f3261a6be6a99e410bf9b58c2317",
+      "distributed_file_sha256": "8de0c89bf5f6e8b4ce77c11aacd5dc5824278b98ae33ed62b0d0492b94e576e8",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 7
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P065/degrade.md",
+      "evaluation_input_sha256": "0ad8ae481f5971a29150883a7dee5c9c12fe79f53f4df0fd1843133378f65f41",
+      "distributed_file_sha256": "11c0db121b2f775f5642ea68a902ec97c8360eefb12e7b0b38946f621be04efe",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 247
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P065/improve.md",
+      "evaluation_input_sha256": "db1367b886269077e36d0473cf0c1a8984b52145baf928181884e9a8a458fb1a",
+      "distributed_file_sha256": "9bb1cfc1066c8ac4469600b34be263550ce21de289ab7d188d9bacf784aeff72",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 247
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P065/base.md",
+      "evaluation_input_sha256": "d67262ab9f9e2bcd0654a35df82324a07d497a39b242d9857c91871f932b83a1",
+      "distributed_file_sha256": "bde015ab4e09ff8f62ba2121fde09ce2c65e2c4532ac35617c128c0b473b785a",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 247
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P065/equivalent.md",
+      "evaluation_input_sha256": "6c557c80581ba647ddc3d5ab44ede1d2e87f3162a3cfd8996e07f21ba6c28983",
+      "distributed_file_sha256": "2ff57d0bb7be6fa79ac2bbadef22afd25975890e6b18197ea6129963f9e56a6c",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 247
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P055/degrade.md",
+      "evaluation_input_sha256": "ffca728e10442c3e0c9a547485e7dea894b0ad03112831ae26afd4c047f0af34",
+      "distributed_file_sha256": "1bf453a9754894a3c541fecb0c5f00a84a41552bd376fa0b8ed660b745b94284",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P055/improve.md",
+      "evaluation_input_sha256": "b4e66f38488c4d8ac66057e26e8fc8779beff663c23a0f50d7f20bd1f3046117",
+      "distributed_file_sha256": "8f77c00783a1b5ce69c178744c614242ab104709729d3dcc9dbafaffecfade76",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P055/base.md",
+      "evaluation_input_sha256": "42cdbcbfe84f51f493729c127bc4a2715069072633230dd696d526c3d9ec83b6",
+      "distributed_file_sha256": "1967ec642964d49b64006544f04fd952b5b39017a0302893c9bb584118d4ccee",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P055/equivalent.md",
+      "evaluation_input_sha256": "9f846677bf41b636e53814a247eb2bfae99f757b205af87ed934634308ef20fa",
+      "distributed_file_sha256": "99db54c21e2a23a876636d827a193bc1331b2dbc8d9673596804eb956760ac29",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 23
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P064/degrade.md",
+      "evaluation_input_sha256": "9be5e9a15cc56cfbd735ec2e4370f79bdc7dff3f8ef4d9caeb766eef867ab64c",
+      "distributed_file_sha256": "ae6e7fb240c674a468653a4fbf8105df1401765ad728c27d797766a32518d9c2",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "srsltid": 1,
+        "utm_source": 3
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P064/improve.md",
+      "evaluation_input_sha256": "a075644c589ac7863a464dddabdf61dfc296d1593d86d903e811287e2247f87f",
+      "distributed_file_sha256": "8110114b51e8afba6ea608d337e6c3952f764d39b9447fe7d78c53c63b461708",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "srsltid": 1,
+        "utm_source": 3
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P064/base.md",
+      "evaluation_input_sha256": "709060cd96333e02d676bb5d69a02cfcc88e92d42afecce2806efcf63b942467",
+      "distributed_file_sha256": "f4c6801c8579780873cec8d86304d24e5703c959a122c748dbbc060f57edeb55",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "srsltid": 1,
+        "utm_source": 3
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P064/equivalent.md",
+      "evaluation_input_sha256": "68d11a1edd8754e162b6f57cc2aff6acb01be1ba87690252e6e22e9caa71c4b3",
+      "distributed_file_sha256": "071fdb515a46aeba3fc952b6a67501e84d8c79a4bd6501c1428bf7854fe848cf",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "srsltid": 1,
+        "utm_source": 3
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P063/degrade.md",
+      "evaluation_input_sha256": "ee539ccb227b73d82a27c46a7c85db803dca063905a81c85044b214c494c3fb7",
+      "distributed_file_sha256": "2d61a88fedc85c544f5546048acdac50f36d205165d51d7a7cc7670c67994b87",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 6
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P063/improve.md",
+      "evaluation_input_sha256": "05458876b62e5dae7da30264f2207943fe9cbb64541b16e0b033971f83b05738",
+      "distributed_file_sha256": "a713ad0239d2182bb27921644d32763f5047ddcaa0785281c06a04acd3229e0e",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 6
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P063/base.md",
+      "evaluation_input_sha256": "6a166e8c8378b26e87dc4d8815f8e731b9f8577f218b937aa6f82b03de1d3da2",
+      "distributed_file_sha256": "fbc8b794f0fb492711353950cb88f0543d288e2a70773033ab69257b478dc246",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 6
+      }
+    },
+    {
+      "file": "materials/controlled_revisions/P063/equivalent.md",
+      "evaluation_input_sha256": "f6d2b3af390e12e979f1a4363381489c1b03f8482f24956132141396e19554f2",
+      "distributed_file_sha256": "75dea7b2029944b3e48910deaf8a2b7c355f55fd049d694683818bd985a159ea",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "utm_source": 6
+      }
+    },
+    {
+      "file": "offline/data/benchmark.json",
+      "evaluation_input_sha256": "eab6c736bfa0ead6520d81050681b5aa6209aa37ad968bdedba4c4bc072e3080",
+      "distributed_file_sha256": "7942c92fc22141f348b30f481bfd9ba4168f5d7724dcfed62b22a8637c11a44f",
+      "transformation": "Remove citation URL tracking parameters only.",
+      "parameters_removed": {
+        "srsltid": 1
+      }
+    },
+    {
+      "file": "offline/data/query_characteristics.json",
+      "evaluation_input_sha256": "141659e04dc997b0d4468ac947f55ec80f752f3a965c641fcf6c939c2f514715",
+      "distributed_file_sha256": "9a6bff2e1b7a3849449c548e423f878d496a057ff176e6ffc9eb88eb2910eb5d",
+      "transformation": "Record original and distributed query hashes; classification labels unchanged.",
+      "parameters_removed": {}
+    }
+  ],
+  "parameter_counts": {
+    "utm_source": 1668,
+    "srsltid": 5
+  },
+  "query_ids_with_url_tracking_removed": [
+    "drb2_75"
+  ],
+  "query_changes_other_than_url_tracking": 0,
+  "labels_unchanged": true,
+  "numeric_inputs_unchanged": true
+}

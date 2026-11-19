@@ -1,0 +1,923 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:683a58c9a7e7fe4e76958488",
+  "language": "en",
+  "title": "记忆痕迹与预测编码模型",
+  "full_query": "Propose a biologically plausible model that integrates the neuroscience concepts of engrams and predictive coding into one network capable of performing classification tasks.",
+  "pointwise": [
+    {
+      "id": "PT.D1.engram",
+      "dimension": "D1",
+      "title": "Engram representation",
+      "question": "Does the model specify a persistent memory trace and how reactivating it retrieves relevant stored information?",
+      "anchors": {
+        "1": "No memory trace is specified.",
+        "2": "Engram is only a label for an arbitrary activation or class output.",
+        "3": "A trace is described but what persists or how it is reactivated is materially unclear.",
+        "4": "Persistent storage and reactivation of a specific memory are clear, and the trace's functional contribution is explained, with a minor gap in the causal account.",
+        "5": "The model specifies what neuronal/assembly or synaptic state stores a specific memory, what persists, and how reactivation retrieves it; it explains the trace's functional contribution through an expected selective effect of perturbing it or an equivalent causal account, and distinguishes it from a transient prediction error."
+      },
+      "boundary": "Evaluate an operational memory representation, not a mandatory sparse-assembly density, memory-system theory or one-assembly-per-class design. Persistent storage and retrieval alone, without explaining the trace's functional contribution to a specific memory, remain at 3 rather than 4/5. A predicted selective effect on that memory's retrieval, or an equivalent causal account, is sufficient; no executed perturbation experiment is required. Distributed or redundant traces are eligible: disrupting one cell need not abolish recall, and the explanation may concern a graded contribution or an appropriately scoped ensemble perturbation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:3",
+          "rr:683a58c9a7e7fe4e76958488:flat:9"
+        ],
+        "query_quotes": [
+          "engrams"
+        ],
+        "change_note": "Adapt flat:3 to persistent encoding, reactivation and a trace's functional contribution to a specific memory. High anchors require a predicted selective perturbation effect or an equivalent causal explanation, not an executed experiment, fixed sparsity or nonredundant one-cell necessity. The five anchors and boundary are locally designed. For flat:9 (raw weight -3), retain the distinction between memory traces and transient errors without requiring error-controlled engram formation."
+      }
+    },
+    {
+      "id": "PT.D1.pc",
+      "dimension": "D1",
+      "title": "Predictive-coding computation",
+      "question": "Does the model specify predictions, the mismatches they are compared with, and how those errors update its inferred state?",
+      "anchors": {
+        "1": "No predictive-coding computation is specified.",
+        "2": "Predictive coding is named without a prediction–mismatch operation.",
+        "3": "Predictions or errors are concrete, but their comparison or effect on inferred state is missing.",
+        "4": "Prediction, mismatch and state-update roles are clear, with a minor signal detail missing.",
+        "5": "Specifies the generative/hierarchical levels, downward predictions and upward/local mismatches, their repeated message-passing effect on inferred states, and the distinction from any global label or reward signal used."
+      },
+      "boundary": "Equations, pseudocode or precise prose may specify the computation. Dedicated error neurons, layers or dendritic implementations are alternatives, not a checklist. Predictive coding is not satisfied by merely renaming a classifier's global loss. Levels may be populations or representational stages rather than anatomical layers; a generic one-step reconstruction loss alone does not specify iterative predictive inference.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:4",
+          "rr:683a58c9a7e7fe4e76958488:flat:5",
+          "rr:683a58c9a7e7fe4e76958488:flat:7",
+          "rr:683a58c9a7e7fe4e76958488:flat:17"
+        ],
+        "query_quotes": [
+          "predictive coding"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Predictive-coding computation': Does the model specify predictions, the mismatches they are compared with, and how those errors update its inferred state? Locally design the five anchors and boundaries. Concrete changes: Retain predictions, mismatch and error-driven inference, allowing different biological implementations. Explicitly distinguish local mismatch from any task/reward signal actually used. Retain the actual prediction/error computation rather than a specific dedicated-neuron implementation. Retain inference/state computation without equation-only format. v3.3 makes directional and iterative inference content explicit."
+      }
+    },
+    {
+      "id": "PT.D1.integration",
+      "dimension": "D1",
+      "title": "One integrated network",
+      "question": "Does the proposal specify how the engram and predictive-coding processes interact within the same classification network?",
+      "anchors": {
+        "1": "Only one concept is implemented, or the two are unrelated systems.",
+        "2": "Both concepts are named but no functional connection is specified.",
+        "3": "Both processes have roles, but memory-to-prediction information, mismatch-driven correction, or routing/timing in the same network is unclear.",
+        "4": "The principal interaction and component roles are explicit, with one minor handoff gap.",
+        "5": "Shows how reactivated or completed memory shapes predictions, and how mismatch-driven inference or learning corrects the active prediction/memory use; routing or phase conditions keep the signals interpretable in one network."
+      },
+      "boundary": "Functional integration does not require a single cell type, shared synapses or direct error-gating of engram formation. Modular subsystems in one connected network are eligible. Merely presenting two independent classifiers is not integration. Error modulation can act on retrieval/inferred state rather than the trace-forming synapse, but a disconnected memory lookup attached after classification is not functional integration.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:8",
+          "rr:683a58c9a7e7fe4e76958488:flat:9",
+          "rr:683a58c9a7e7fe4e76958488:flat:18"
+        ],
+        "query_quotes": [
+          "into one network"
+        ],
+        "change_note": "Adapt the official material to the specific object 'One integrated network': Does the proposal specify how the engram and predictive-coding processes interact within the same classification network? Locally design the five anchors and boundaries. Concrete changes: Retain the functional single-network coupling, not same-synapse error gating or neuromodulatory phase routing. Raw weight is -3. Preserve the concern about conflating traces with errors or failing to integrate, but do not mandate error-controlled engram formation. Map connections to integration, update specification to learning, and class interface to classification; do not copy the entire architecture checklist into each child. v3.3 restores memory-conditioned predictions, correction and routing without requiring shared-synapse error gating."
+      }
+    },
+    {
+      "id": "PT.D1.classify",
+      "dimension": "D1",
+      "title": "Class output procedure",
+      "question": "Does the model specify how a new input produces a class decision?",
+      "anchors": {
+        "1": "No class decision procedure.",
+        "2": "It states that the model classifies but gives no readout.",
+        "3": "A readout is identified but the path from inferred/retrieved state to a label is unclear, or test-time supervision is not distinguished.",
+        "4": "Input-to-class decision is explicit, with a minor readout or stopping detail missing.",
+        "5": "The proposal specifies input encoding, the usable inference/retrieval state and how a class decision is read from it; training labels are not implicitly required for an unseen input's answer."
+      },
+      "boundary": "No fixed decoder, confidence metric, dataset or accuracy target is mandatory. This is a proposal, not a demand for an executed benchmark. Class readout detail is distinct from the memory–prediction interface.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:12",
+          "rr:683a58c9a7e7fe4e76958488:flat:18"
+        ],
+        "query_quotes": [
+          "classification tasks"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Class output procedure': Does the model specify how a new input produces a class decision? Locally design the five anchors and boundaries. Concrete changes: Retain an explicit class decision path, not a prescribed decoder. Map connections to integration, update specification to learning, and class interface to classification; do not copy the entire architecture checklist into each child."
+      }
+    },
+    {
+      "id": "PT.D1.learning",
+      "dimension": "D1",
+      "title": "Memory formation and learning updates",
+      "question": "Does the model specify how experience forms/updates memory and the learned quantities needed for predictive classification?",
+      "anchors": {
+        "1": "No formation or learning process is described.",
+        "2": "Only a named learning rule is given.",
+        "3": "Updates are partly specified, but trace allocation/diversity, maintenance of persistent memory, or a necessary predictive-learning signal/phase is missing.",
+        "4": "Required formation and updates are specified, with only a minor signal/phase gap.",
+        "5": "Specifies update targets, driving signals and learning versus inference phases; explains how traces are initially or online allocated, how distinct memories avoid collapse onto the same state, and how required persistent traces survive subsequent updates."
+      },
+      "boundary": "Learning equations and precise procedural descriptions are equally eligible. Engrams need not all be fixed at initialization; Hebbian, three-factor or other justified rules are not universally required. Specify a necessary update rather than invoke its name. Online allocation is allowed but does not excuse unspecified initialization/allocation, diversity or retention. No mandatory k-WTA, replay or tagging recipe.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:16",
+          "rr:683a58c9a7e7fe4e76958488:flat:18",
+          "rr:683a58c9a7e7fe4e76958488:flat:22"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Memory formation and learning updates': Does the model specify how experience forms/updates memory and the learned quantities needed for predictive classification? Locally design the five anchors and boundaries. Concrete changes: Retain explicit learning operations without equation-only format. Map connections to integration, update specification to learning, and class interface to classification; do not copy the entire architecture checklist into each child. Retain acquisition of usable memory, not compulsory full initialization allocation. v3.3 restores allocation, diversity and retention as explicit operational requirements."
+      }
+    },
+    {
+      "id": "PT.D1.bio",
+      "dimension": "D1",
+      "title": "Local biological computation and signal access",
+      "question": "Does the proposal explain how each essential computation and learning update can use signals biologically available at its location and time?",
+      "anchors": {
+        "1": "No neural implementation of the computations.",
+        "2": "Only biological rule or neuromodulator names.",
+        "3": "Some computations are mapped, but a central update requires an unexplained nonlocal signal, timing or learning-phase access.",
+        "4": "Essential signals, access and timing are explained, with a minor implementation qualification missing.",
+        "5": "Maps comparison and plasticity operations to neural/synaptic processes, specifies which signals are locally available and when, and gives a credible account of any broadcast/modulatory signal or phase separation actually required."
+      },
+      "boundary": "No universal ban or endorsement of backpropagation. A required global quantity needs a concrete biological access account, not merely an acknowledged idealization. Wiring and activity regulation are checked separately; no fixed neuromodulator or gating architecture is imposed.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:18",
+          "rr:683a58c9a7e7fe4e76958488:flat:20"
+        ],
+        "query_quotes": [
+          "biologically plausible model"
+        ],
+        "change_note": "v3.3 narrows broad biological mapping to computational signal access; wiring, dynamics and limitations have separate direct entries."
+      }
+    },
+    {
+      "id": "PT.D1.scope",
+      "dimension": "D1",
+      "title": "Relevance to the integrated classifier",
+      "question": "Does included material contribute to the engram–predictive-coding classifier or its necessary explanation?",
+      "anchors": {
+        "1": "The main answer concerns a different problem.",
+        "2": "Several major sections introduce unrelated mechanisms or applications.",
+        "3": "The model is central but obvious digressions have no justified role.",
+        "4": "Almost all content has a justified model/explanatory role, with a minor detour.",
+        "5": "Main content contributes to the proposed classifier, its biological interpretation or a necessary limitation/test; unfamiliar concepts have an explained role."
+      },
+      "boundary": "A justified extra concept is not penalized by its name. This checks irrelevant inclusion, not compulsory use of every official concept.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:13"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Relevance to the integrated classifier': Does included material contribute to the engram–predictive-coding classifier or its necessary explanation? Locally design the five anchors and boundaries. Concrete changes: Raw weight is -3: unjustified irrelevant concepts are a negative, not required content."
+      }
+    },
+    {
+      "id": "PT.D2.trace.sources",
+      "dimension": "D2",
+      "title": "Foundational source traceability",
+      "question": "Can key neuroscience claims be traced to identifiable supporting sources?",
+      "anchors": {
+        "1": "No substantive account of foundational source traceability.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Some sources exist but engram or predictive-coding foundations, or a consequential implementation claim, lack an identifiable basis.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Both foundations and key implementation claims map to identifiable relevant sources; no compulsory author or URL."
+      },
+      "boundary": "This checks location, not whether sources support the claims.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:15"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D2.trace; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D2.trace"
+    },
+    {
+      "id": "PT.D2.trace.status",
+      "dimension": "D2",
+      "title": "Proposal versus established evidence",
+      "question": "Does the report distinguish proposed mechanisms and untested predictions from established findings?",
+      "anchors": {
+        "1": "No substantive account of proposal versus established evidence.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The overall proposal is labelled, but important novel mechanisms or performance claims are presented with ambiguous evidential status.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Marks the status of consequential proposed mechanisms, biological assumptions and untested predictions; a proposal is not described as experimentally demonstrated."
+      },
+      "boundary": "A novel assumption need not have a paper proving it. Missing citation alone does not prove misrepresentation.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D2.trace; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D2.trace"
+    },
+    {
+      "id": "PT.D2.support",
+      "dimension": "D2",
+      "title": "Support in the verified sample",
+      "question": "Within the recorded verification sample, do neuroscience and performance assertions match their obtained evidence?",
+      "anchors": {
+        "1": "A central assessed assertion is contradicted or lacks its claimed basis.",
+        "2": "Several important assessed assertions misstate a biological result or measured performance.",
+        "3": "Support is mixed, with material scope or attribution errors remaining.",
+        "4": "Assessed assertions are supported with only minor imprecision.",
+        "5": "All assessed assertions match the evidence's organism, preparation, computational setting and strength; this does not certify the full report."
+      },
+      "boundary": "Record selected/assessed counts and locations. Retrieval failures are execution issues to retry/report, not low scores or proof of absence. Proposed benchmark outcomes must not masquerade as measurements. No external checking is performed during this authoring task.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Support in the verified sample' for this query: Within the recorded verification sample, do neuroscience and performance assertions match their obtained evidence? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D2.consistency",
+      "dimension": "D2",
+      "title": "Internal model consistency",
+      "question": "Are the report's states, signals, update rules and readout consistent across its descriptions?",
+      "anchors": {
+        "1": "Contradictory core descriptions prevent identifying one model.",
+        "2": "A central unexplained contradiction changes the learning or inference process.",
+        "3": "A substantive local contradiction remains but the main model is identifiable.",
+        "4": "Core descriptions agree, with minor easy-to-resolve ambiguity.",
+        "5": "The same model's states, signal meanings, phase conditions and readout agree across prose, equations or diagrams."
+      },
+      "boundary": "Different phases can legitimately use different rules when stated. This does not prove convergence or biological accuracy.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Internal model consistency' for this query: Are the report's states, signals, update rules and readout consistent across its descriptions? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D1.wiring",
+      "dimension": "D1",
+      "title": "Circuit wiring constraints",
+      "question": "Does the proposal specify its neural populations and essential connections, and explain the biological wiring assumptions its chosen implementation actually depends on?",
+      "anchors": {
+        "1": "No circuit structure is specified.",
+        "2": "Only brain-region or neuron names are provided.",
+        "3": "Population roles or pathways are described, but an essential connection or a wiring assumption required by the proposed computation is unexplained.",
+        "4": "Essential population roles, pathways and relevant wiring assumptions are clear, with a minor implementation gap.",
+        "5": "Specifies how the chosen populations and connections carry the required signals, and explains the biological implementation or bounded approximation of the wiring assumptions on which this model depends."
+      },
+      "boundary": "Do not require every model to enumerate connection density, weight symmetry, long-range projections or a particular circuit architecture. Check such constraints when the proposed computation actually depends on them. Calling an essential implausible connection an idealization is not a sufficient explanation; specifying its implementation or a bounded approximation remains necessary. No numerical sparsity target or named neuron model is required.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:18",
+          "rr:683a58c9a7e7fe4e76958488:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 29: remove universal implementation/test/limitation checklists; retain concrete requirements relevant to the proposed model. Exact official checklist coverage is not guaranteed."
+      }
+    },
+    {
+      "id": "PT.D1.dynamics",
+      "dimension": "D1",
+      "title": "Activity stability and operating regime",
+      "question": "Does the proposal explain how neural activity remains usable during inference and memory retrieval?",
+      "anchors": {
+        "1": "No activity dynamics or regulation is described.",
+        "2": "Only attractor, sparsity or balance labels are given.",
+        "3": "State dynamics are given but settling/termination, activity regulation or relevant time/energy constraints are unexplained.",
+        "4": "Inference regime and activity regulation are explicit, with a minor timescale or resource assumption missing.",
+        "5": "Explains how activity evolves, settles or is stopped, and how firing/activity levels avoid uncontrolled growth or interference, with plausible timescale and resource assumptions for the selected implementation."
+      },
+      "boundary": "No compulsory oscillation, attractor theorem or exact energy figure. Rate and spiking implementations are eligible but cannot omit how their activity is regulated. Empirical truth is not certified here.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:2",
+          "rr:683a58c9a7e7fe4e76958488:flat:18",
+          "rr:683a58c9a7e7fe4e76958488:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Restores operating dynamics, regulation and timescale constraints outside a generic biological-label check."
+      }
+    },
+    {
+      "id": "PT.D1.taskplan",
+      "dimension": "D1",
+      "title": "Computational evaluation specification",
+      "question": "Does the proposal describe a concrete way to check whether its integrated network performs classification, with an interpretable task, procedure and outcome?",
+      "anchors": {
+        "1": "No way to assess classification is described.",
+        "2": "Only names a benchmark or says to measure accuracy, without explaining what would be tested.",
+        "3": "A classification task or demonstration is specified, but the procedure or criterion for interpreting the outcome is materially unclear.",
+        "4": "The classification task, procedure and outcome criterion are clear, with a minor detail needed to interpret the proposed check.",
+        "5": "Describes a suitable classification task or worked test, how the model would be applied and how the resulting class decisions would be assessed, with enough context to delimit what the check can and cannot establish."
+      },
+      "boundary": "A proposed experiment or concrete worked test is sufficient; completed results are not required. Train/test partitioning, ablations, uncertainty statistics and biological experiments are not universal checklist requirements. If a proposed claim relies on generalization, component attribution or a particular comparison, the supporting test must explain the corresponding conditions; a worked example alone does not establish generalization. PW.D4.tasktest compares the discriminating value of tests, including suitable ablations when offered. Optional biological testing is compared in PW.D4.biotest, not required as a separate pointwise deliverable.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:10",
+          "rr:683a58c9a7e7fe4e76958488:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 29: remove universal implementation/test/limitation checklists; retain concrete requirements relevant to the proposed model. Exact official checklist coverage is not guaranteed."
+      }
+    },
+    {
+      "id": "PT.D1.limits",
+      "dimension": "D1",
+      "title": "Limitations and concrete next steps",
+      "question": "Does the proposal explain important limitations of its model and identify a relevant direction for further work?",
+      "anchors": {
+        "1": "No model limitation or direction for further work is identified.",
+        "2": "Only states generic needs for more research, without a model-specific issue.",
+        "3": "Identifies a model-specific limitation, but its consequence or the relevance of the suggested next step is unclear.",
+        "4": "Explains a material limitation and its consequence, with a relevant next step whose intended contribution remains partly unclear.",
+        "5": "Explains a material limitation of this model, how it restricts a computational or biological claim, and a concrete next step directed at that issue, without claiming that the remaining uncertainties are resolved."
+      },
+      "boundary": "Do not require every proposal to cover a fixed set of learning, capacity, scaling and biological issues, or provide a separate test for every unresolved issue. A well-explained material issue and a matched next step can satisfy this item; generic caveats cannot. This does not excuse an unexplained essential mechanism under its specification item or a false claim of established plausibility. Detailed test discriminating power is compared in PW.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:1",
+          "rr:683a58c9a7e7fe4e76958488:flat:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 29: remove universal implementation/test/limitation checklists; retain concrete requirements relevant to the proposed model. Exact official checklist coverage is not guaranteed."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.inference",
+      "dimension": "D3",
+      "title": "Integrated inference reasoning",
+      "question": "Which proposal more convincingly explains how its memory–prediction interaction leads to the stated class decision?",
+      "anchors": {
+        "0": "The proposals provide comparable inference-reasoning help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A has a slightly more defensible inference-to-readout explanation; B may still be better locally.",
+        "2": "A gives a substantially more coherent explanation of how memory-conditioned predictive inference yields the class decision; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent explanation of how memory-conditioned predictive inference yields the class decision; A's local strengths do not make up for the difference.",
+        "-1": "B has a slightly more defensible inference-to-readout explanation; A may still be better locally."
+      },
+      "boundary": "Compare the actual chain, not a list of mechanisms. A claimed settling or stopping behavior must follow from stated conditions; do not require a proof of global convergence or a particular energy function.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Integrated inference reasoning' for this query: Which proposal more convincingly explains how its memory–prediction interaction leads to the stated class decision? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D3.plasticity",
+      "dimension": "D3",
+      "title": "Learning and memory stability reasoning",
+      "question": "Which proposal better explains how its learning process creates usable traces without undermining the memory it relies on?",
+      "anchors": {
+        "0": "The learning/stability explanations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A more convincingly explains an important update-to-memory consequence; B may still be better locally.",
+        "2": "A gives a substantially better justified account of how updates and persistence coexist under its stated conditions; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially better justified account of how updates and persistence coexist under its stated conditions; A's local strengths do not make up for the difference.",
+        "-1": "B more convincingly explains an important update-to-memory consequence; A may still be better locally."
+      },
+      "boundary": "The object is the update's effect on persistent memory, not separate bonuses for learning-rule and consolidation names. No particular replay, tagging or error-gating mechanism is mandatory; an unexplained stability claim remains a gap.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Learning and memory stability reasoning' for this query: Which proposal better explains how its learning process creates usable traces without undermining the memory it relies on? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D4.tasktest",
+      "dimension": "D4",
+      "title": "Testing classification and integration",
+      "question": "Which proposal gives a more useful way to determine whether the integrated model actually classifies and whether integration contributes to that result?",
+      "anchors": {
+        "0": "The proposed computational tests provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more informative classification/integration test; B may still be better locally.",
+        "2": "A gives a substantially more discriminating test of the classifier and the claimed contribution of integration; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more discriminating test of the classifier and the claimed contribution of integration; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more informative classification/integration test; A may still be better locally."
+      },
+      "boundary": "A dataset/task, controls and outcome metric matter through what claim they can test, not checklist presence. Suitable ablations or alternative discriminating tests are eligible. An executable experiment is not required, and imagined numbers are not measurements.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:10",
+          "rr:683a58c9a7e7fe4e76958488:flat:14",
+          "rr:683a58c9a7e7fe4e76958488:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Testing classification and integration': Which proposal gives a more useful way to determine whether the integrated model actually classifies and whether integration contributes to that result? Locally design the five anchors and boundaries. Concrete changes: Retain useful test design without demanding an already executed experiment or any fixed metric. Map biological idealization disclosure to PT and concrete research directions to the test that can address them. Map methodological detail to the particular experimental question it makes interpretable."
+      }
+    },
+    {
+      "id": "PW.D4.biotest",
+      "dimension": "D4",
+      "title": "Testing the biological interpretation",
+      "question": "Which proposal provides a more useful way to test an important biological assumption of its model?",
+      "anchors": {
+        "0": "The biological tests provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A offers a slightly more informative test of a biological assumption; B may still be better locally.",
+        "2": "A offers a substantially more discriminating biological prediction or perturbation test; B's local strengths do not make up for the difference.",
+        "-2": "B offers a substantially more discriminating biological prediction or perturbation test; A's local strengths do not make up for the difference.",
+        "-1": "B offers a slightly more informative test of a biological assumption; A may still be better locally."
+      },
+      "boundary": "Compare the value of any biological test or prediction actually offered, identifying the assumption, observable or perturbation, and what its result would imply. A biological experiment is not a mandatory Query deliverable. Neither report offering one gives no comparative advantage on this item, not an absolute failure. A test earns an advantage through its informative value, not mere presence. No particular measurement or executed experiment is required; classification accuracy alone does not establish biological plausibility.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:11",
+          "rr:683a58c9a7e7fe4e76958488:flat:14",
+          "rr:683a58c9a7e7fe4e76958488:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Testing the biological interpretation': Which proposal provides a more useful way to test an important biological assumption of its model? Locally design the five anchors and boundaries. Concrete changes: Retain biologically informative testing as a separate judgment from classification benchmarks. Map biological idealization disclosure to PT and concrete research directions to the test that can address them. Map methodological detail to the particular experimental question it makes interpretable."
+      }
+    },
+    {
+      "id": "PW.D2.fit",
+      "dimension": "D2",
+      "title": "Evidence fit for biological interpretation",
+      "question": "Which proposal's evidence is more applicable to its particular engram and predictive-coding implementation claims?",
+      "anchors": {
+        "0": "The evidence bases provide comparable applicable support; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A uses slightly more applicable evidence for an important model assumption; B may still be better locally.",
+        "2": "A uses substantially more applicable evidence for its central neural implementation claims; B's local strengths do not make up for the difference.",
+        "-2": "B uses substantially more applicable evidence for its central neural implementation claims; A's local strengths do not make up for the difference.",
+        "-1": "B uses slightly more applicable evidence for an important model assumption; A may still be better locally."
+      },
+      "boundary": "Do not rank by citations to famous authors or by source count. A biological finding must address the stated implementation scale or be explicitly used as analogy.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:15",
+          "rr:683a58c9a7e7fe4e76958488:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Evidence fit for biological interpretation': Which proposal's evidence is more applicable to its particular engram and predictive-coding implementation claims? Locally design the five anchors and boundaries. Concrete changes: Retain traceable empirical claims and applicable support; remove mandatory seminal-author citations. Retain an explained biological mapping and applicable neuroscience support, not a list of accepted dynamics."
+      }
+    },
+    {
+      "id": "PW.D5.flow",
+      "dimension": "D5",
+      "title": "Organization of the proposal",
+      "question": "Which original report more effectively builds a coherent explanation from model components to learning and classification?",
+      "anchors": {
+        "0": "The reports provide comparable organizational help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A organizes the component-to-behavior account slightly more effectively; B may still be better locally.",
+        "2": "A organizes the model, learning and classification explanation substantially more coherently; B's local strengths do not make up for the difference.",
+        "-2": "B organizes the model, learning and classification explanation substantially more coherently; A's local strengths do not make up for the difference.",
+        "-1": "B organizes the component-to-behavior account slightly more effectively; A may still be better locally."
+      },
+      "boundary": "Judge original order, transitions and repetition together; no six-section outline is mandatory. Do not reward a second time for having a complete model.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:1"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Organization of the proposal': Which original report more effectively builds a coherent explanation from model components to learning and classification? Locally design the five anchors and boundaries. Concrete changes: Retain explanatory organization, not the prescribed six-section outline."
+      }
+    },
+    {
+      "id": "PW.D6.clear",
+      "dimension": "D6",
+      "title": "Clarity of model concepts",
+      "question": "Which report more clearly expresses its states, memory traces, prediction errors and class readout?",
+      "anchors": {
+        "0": "The reports provide comparable clarity; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A expresses an important signal or update relationship slightly more clearly; B may still be better locally.",
+        "2": "A makes the model's states and computations substantially easier to understand; B's local strengths do not make up for the difference.",
+        "-2": "B makes the model's states and computations substantially easier to understand; A's local strengths do not make up for the difference.",
+        "-1": "B expresses an important signal or update relationship slightly more clearly; A may still be better locally."
+      },
+      "boundary": "Score wording, notation and local labels, not biological truth or mathematical complexity. Trace versus error must be understandable, even in a simple model.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Clarity of model concepts' for this query: Which report more clearly expresses its states, memory traces, prediction errors and class readout? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D6.find",
+      "dimension": "D6",
+      "title": "Finding model rules and evidence",
+      "question": "Which report makes a needed architecture, learning or inference detail and its stated basis easier to locate?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A makes an important model-detail lookup slightly easier; B may still be better locally.",
+        "2": "A makes model rules and their stated bases substantially easier to locate; B's local strengths do not make up for the difference.",
+        "-2": "B makes model rules and their stated bases substantially easier to locate; A's local strengths do not make up for the difference.",
+        "-1": "B makes an important model-detail lookup slightly easier; A may still be better locally."
+      },
+      "boundary": "Use the original report; diagrams and named citations are valid routes, not required formats. Source validity is separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:683a58c9a7e7fe4e76958488:flat:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Finding model rules and evidence': Which report makes a needed architecture, learning or inference detail and its stated basis easier to locate? Locally design the five anchors and boundaries. Concrete changes: Retain navigability of technical parts without fixed labels or implementation lists."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:1",
+      "targets": [
+        "PT.D1.limits",
+        "PW.D5.flow"
+      ],
+      "status": "adapted",
+      "reason": "Review 29: affected criteria evaluate model-relevant wiring, an interpretable classification check, or a material limitation with a matched next step; no universal detailed checklist. Other mapped criteria are unchanged.",
+      "discrimination_check": "PT.D1.limits: Identifies a model-specific limitation, but its consequence or the relevance of the suggested next step is unclear. Sufficient: Explains a material limitation of this model, how it restricts a computational or biological claim, and a concrete next step directed at that issue, without claiming that the remaining uncertainties are resolved.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:2",
+      "targets": [
+        "PT.D1.dynamics",
+        "PW.D6.find"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.dynamics: State dynamics are given but settling/termination, activity regulation or relevant time/energy constraints are unexplained. Sufficient: Explains how activity evolves, settles or is stopped, and how firing/activity levels avoid uncontrolled growth or interference, with plausible timescale and resource assumptions for the selected implementation.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:3",
+      "targets": [
+        "PT.D1.engram"
+      ],
+      "status": "adapted",
+      "reason": "Retain persistent encoding/reactivation and the functional contribution of a trace to a specific memory. Accept a predicted selective perturbation effect or equivalent causal explanation, including distributed/redundant traces; do not require fixed sparsity or an executed experiment.",
+      "discrimination_check": "Persistent storage and retrieval without a memory-specific functional contribution remain at 3; an explained contribution with a minor causal gap permits 4, and an explicit selective perturbation prediction or equivalent causal account permits 5. This distinguishes an engram from merely renamed generic storage. Exact sparse-distributed phrasing and an executed disruption demonstration are not retained; no single-cell necessity or total recall abolition is required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:4",
+      "targets": [
+        "PT.D1.pc"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.pc: Predictions or errors are concrete, but their comparison or effect on inferred state is missing. Sufficient: Specifies the generative/hierarchical levels, downward predictions and upward/local mismatches, their repeated message-passing effect on inferred states, and the distinction from any global label or reward signal used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:5",
+      "targets": [
+        "PT.D1.pc"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.pc: Predictions or errors are concrete, but their comparison or effect on inferred state is missing. Sufficient: Specifies the generative/hierarchical levels, downward predictions and upward/local mismatches, their repeated message-passing effect on inferred states, and the distinction from any global label or reward signal used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:6",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "Raw weight is -4 for calling global backpropagation biologically implausible. The wording/sign is problematic as a compulsory judgment; it is not silently reversed into a ban on backpropagation.",
+      "discrimination_check": "Merely criticizing global backpropagation does not lower a score, nor does endorsing it earn credit. This exact negative criterion is deliberately not retained; the proposal must instead explain its own biological assumptions.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:7",
+      "targets": [
+        "PT.D1.pc"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.pc: Predictions or errors are concrete, but their comparison or effect on inferred state is missing. Sufficient: Specifies the generative/hierarchical levels, downward predictions and upward/local mismatches, their repeated message-passing effect on inferred states, and the distinction from any global label or reward signal used.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:8",
+      "targets": [
+        "PT.D1.integration"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.integration: Both processes have roles, but memory-to-prediction information, mismatch-driven correction, or routing/timing in the same network is unclear. Sufficient: Shows how reactivated or completed memory shapes predictions, and how mismatch-driven inference or learning corrects the active prediction/memory use; routing or phase conditions keep the signals interpretable in one network.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:9",
+      "targets": [
+        "PT.D1.engram",
+        "PT.D1.integration"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.integration: Both processes have roles, but memory-to-prediction information, mismatch-driven correction, or routing/timing in the same network is unclear. Sufficient: Shows how reactivated or completed memory shapes predictions, and how mismatch-driven inference or learning corrects the active prediction/memory use; routing or phase conditions keep the signals interpretable in one network.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:10",
+      "targets": [
+        "PT.D1.taskplan",
+        "PW.D4.tasktest"
+      ],
+      "status": "adapted",
+      "reason": "Review 29: affected criteria evaluate model-relevant wiring, an interpretable classification check, or a material limitation with a matched next step; no universal detailed checklist. Other mapped criteria are unchanged.",
+      "discrimination_check": "PT.D1.taskplan: A classification task or demonstration is specified, but the procedure or criterion for interpreting the outcome is materially unclear. Sufficient: Describes a suitable classification task or worked test, how the model would be applied and how the resulting class decisions would be assessed, with enough context to delimit what the check can and cannot establish.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:11",
+      "targets": [
+        "PW.D4.biotest"
+      ],
+      "status": "adapted",
+      "reason": "User-authorized follow-up: the Query requires a biologically plausible classifier, not a separate biological experiment. Retain comparative test value in PW.D4.biotest; remove the standalone mandatory biological-test pointwise item.",
+      "discrimination_check": "Optional testing is compared for its informative value; absence alone is not a Query-compliance failure. Remaining mapped criteria retain their own anchors.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:12",
+      "targets": [
+        "PT.D1.classify"
+      ],
+      "status": "adapted",
+      "reason": "Retain an explicit class decision path, not a prescribed decoder.",
+      "discrimination_check": "No readout is 1/2; a well-defined state-to-label procedure can reach 5. Merely naming winner-take-all is insufficient.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:13",
+      "targets": [
+        "PT.D1.scope"
+      ],
+      "status": "adapted",
+      "reason": "Raw weight is -3: unjustified irrelevant concepts are a negative, not required content.",
+      "discrimination_check": "Adding an unconnected clinical or oscillatory digression can move relevance from 5 to 4/3; a justified explanatory role is allowed. The absolute ban on concepts without a direct computation role is softened to allow necessary context.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:14",
+      "targets": [
+        "PT.D1.limits",
+        "PW.D4.tasktest",
+        "PW.D4.biotest"
+      ],
+      "status": "adapted",
+      "reason": "Review 29: affected criteria evaluate model-relevant wiring, an interpretable classification check, or a material limitation with a matched next step; no universal detailed checklist. Other mapped criteria are unchanged.",
+      "discrimination_check": "PT.D1.limits: Identifies a model-specific limitation, but its consequence or the relevance of the suggested next step is unclear. Sufficient: Explains a material limitation of this model, how it restricts a computational or biological claim, and a concrete next step directed at that issue, without claiming that the remaining uncertainties are resolved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:15",
+      "targets": [
+        "PT.D2.trace.sources",
+        "PW.D2.fit"
+      ],
+      "status": "adapted",
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D2.trace.sources, PW.D2.fit. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments."
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:16",
+      "targets": [
+        "PT.D1.learning"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.learning: Updates are partly specified, but trace allocation/diversity, maintenance of persistent memory, or a necessary predictive-learning signal/phase is missing. Sufficient: Specifies update targets, driving signals and learning versus inference phases; explains how traces are initially or online allocated, how distinct memories avoid collapse onto the same state, and how required persistent traces survive subsequent updates.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:17",
+      "targets": [
+        "PT.D1.pc"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.pc: Predictions or errors are concrete, but their comparison or effect on inferred state is missing. Sufficient: Specifies the generative/hierarchical levels, downward predictions and upward/local mismatches, their repeated message-passing effect on inferred states, and the distinction from any global label or reward signal used.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:18",
+      "targets": [
+        "PT.D1.integration",
+        "PT.D1.classify",
+        "PT.D1.learning",
+        "PT.D1.bio",
+        "PT.D1.wiring",
+        "PT.D1.dynamics"
+      ],
+      "status": "adapted",
+      "reason": "Review 29: affected criteria evaluate model-relevant wiring, an interpretable classification check, or a material limitation with a matched next step; no universal detailed checklist. Other mapped criteria are unchanged.",
+      "discrimination_check": "PT.D1.integration: Both processes have roles, but memory-to-prediction information, mismatch-driven correction, or routing/timing in the same network is unclear. Sufficient: Shows how reactivated or completed memory shapes predictions, and how mismatch-driven inference or learning corrects the active prediction/memory use; routing or phase conditions keep the signals interpretable in one network. PT.D1.learning: Updates are partly specified, but trace allocation/diversity, maintenance of persistent memory, or a necessary predictive-learning signal/phase is missing. Sufficient: Specifies update targets, driving signals and learning versus inference phases; explains how traces are initially or online allocated, how distinct memories avoid collapse onto the same state, and how required persistent traces survive subsequent updates. PT.D1.bio: Some computations are mapped, but a central update requires an unexplained nonlocal signal, timing or learning-phase access. Sufficient: Maps comparison and plasticity operations to neural/synaptic processes, specifies which signals are locally available and when, and gives a credible account of any broadcast/modulatory signal or phase separation actually required. PT.D1.wiring: Population roles or pathways are described, but an essential connection or a wiring assumption required by the proposed computation is unexplained. Sufficient: Specifies how the chosen populations and connections carry the required signals, and explains the biological implementation or bounded approximation of the wiring assumptions on which this model depends. PT.D1.dynamics: State dynamics are given but settling/termination, activity regulation or relevant time/energy constraints are unexplained. Sufficient: Explains how activity evolves, settles or is stopped, and how firing/activity levels avoid uncontrolled growth or interference, with plausible timescale and resource assumptions for the selected implementation.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:19",
+      "targets": [
+        "PT.D1.taskplan",
+        "PW.D4.tasktest",
+        "PW.D4.biotest"
+      ],
+      "status": "adapted",
+      "reason": "User-authorized follow-up: the Query requires a biologically plausible classifier, not a separate biological experiment. Retain comparative test value in PW.D4.biotest; remove the standalone mandatory biological-test pointwise item.",
+      "discrimination_check": "Optional testing is compared for its informative value; absence alone is not a Query-compliance failure. Remaining mapped criteria retain their own anchors.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:20",
+      "targets": [
+        "PT.D1.bio",
+        "PT.D1.dynamics",
+        "PW.D2.fit"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.bio: Some computations are mapped, but a central update requires an unexplained nonlocal signal, timing or learning-phase access. Sufficient: Maps comparison and plasticity operations to neural/synaptic processes, specifies which signals are locally available and when, and gives a credible account of any broadcast/modulatory signal or phase separation actually required. PT.D1.dynamics: State dynamics are given but settling/termination, activity regulation or relevant time/energy constraints are unexplained. Sufficient: Explains how activity evolves, settles or is stopped, and how firing/activity levels avoid uncontrolled growth or interference, with plausible timescale and resource assumptions for the selected implementation.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:21",
+      "targets": [
+        "PT.D1.wiring"
+      ],
+      "status": "adapted",
+      "reason": "Review 29: affected criteria evaluate model-relevant wiring, an interpretable classification check, or a material limitation with a matched next step; no universal detailed checklist. Other mapped criteria are unchanged.",
+      "discrimination_check": "PT.D1.wiring: Population roles or pathways are described, but an essential connection or a wiring assumption required by the proposed computation is unexplained. Sufficient: Specifies how the chosen populations and connections carry the required signals, and explains the biological implementation or bounded approximation of the wiring assumptions on which this model depends.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:22",
+      "targets": [
+        "PT.D1.learning"
+      ],
+      "status": "adapted",
+      "reason": "v3.3 restores the substantive implementation or test-design requirement while allowing equivalent mechanisms and proposed rather than executed experiments.",
+      "discrimination_check": "PT.D1.learning: Updates are partly specified, but trace allocation/diversity, maintenance of persistent memory, or a necessary predictive-learning signal/phase is missing. Sufficient: Specifies update targets, driving signals and learning versus inference phases; explains how traces are initially or online allocated, how distinct memories avoid collapse onto the same state, and how required persistent traces survive subsequent updates.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.engram",
+      "decision": "rewrite",
+      "reason": "Minimal S2 revision: persistence/reactivation and their contribution to a specific memory define one memory relation. Good storage/retrieval without that functional contribution remains at 3; an explained contribution with a minor causal gap is 4, and a clear selective perturbation prediction or equivalent causal account is 5. Allow redundancy and predicted effects without an executed experiment; no split or added item."
+    },
+    {
+      "id": "PT.D1.pc",
+      "decision": "revise",
+      "reason": "Predictions and residuals without message passing/state updates remain 3; no mandatory anatomical neuron class."
+    },
+    {
+      "id": "PT.D1.integration",
+      "decision": "revise",
+      "reason": "A memory influences a label but never predictive inference: coupling is incomplete; specifying the exchange without routing/timing remains 3."
+    },
+    {
+      "id": "PT.D1.classify",
+      "decision": "add",
+      "reason": "Added: state-to-label mapping and its input conditions are one classification relation, not separate metric requirements."
+    },
+    {
+      "id": "PT.D1.learning",
+      "decision": "revise",
+      "reason": "A precise plasticity equation with no way to allocate distinguishable stable traces remains 3; the memory-acquisition procedure is not satisfied by the rule name."
+    },
+    {
+      "id": "PT.D1.bio",
+      "decision": "revise",
+      "reason": "Many biological labels cannot compensate for a required inaccessible teaching signal. Mechanism and its local information access remain one relation."
+    },
+    {
+      "id": "PT.D1.scope",
+      "decision": "add",
+      "reason": "Added: relevance is judged for included material; the ladder explicitly grades detours rather than rewarding more biology."
+    },
+    {
+      "id": "PT.D2.trace.sources",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D2.trace.sources, PT.D2.trace.status]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D2.trace.status",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D2.trace.sources, PT.D2.trace.status]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D2.support",
+      "decision": "add",
+      "reason": "Added: evidence and assertion form one support relation; mixed correctness has a defined 3."
+    },
+    {
+      "id": "PT.D2.consistency",
+      "decision": "add",
+      "reason": "Added: different representations of one model are the consistency object; a local contradiction has an explicit middle anchor."
+    },
+    {
+      "id": "PT.D1.wiring",
+      "decision": "revise",
+      "reason": "Assess the model-relevant relationship described in the current criterion, not completion of a fixed technical checklist."
+    },
+    {
+      "id": "PT.D1.dynamics",
+      "decision": "add",
+      "reason": "A stable learning rule does not explain stable fast inference. A stated update with no regulation or stopping condition scores 3."
+    },
+    {
+      "id": "PT.D1.taskplan",
+      "decision": "revise",
+      "reason": "Assess the model-relevant relationship described in the current criterion, not completion of a fixed technical checklist."
+    },
+    {
+      "id": "PT.D1.limits",
+      "decision": "revise",
+      "reason": "Assess the model-relevant relationship described in the current criterion, not completion of a fixed technical checklist."
+    },
+    {
+      "id": "PW.D3.inference",
+      "decision": "add",
+      "reason": "Added: memory-to-inference-to-decision is one reasoning chain; a decoder name cannot fill an upstream inference gap."
+    },
+    {
+      "id": "PW.D3.plasticity",
+      "decision": "add",
+      "reason": "Added: formation and persistence are conditions of the same usable-memory update; separate inference strengths cannot compensate here."
+    },
+    {
+      "id": "PW.D4.tasktest",
+      "decision": "add",
+      "reason": "Added: task setup, comparison and metric form one test-to-claim relation; an accuracy number without a relevant control does not establish the integration contribution."
+    },
+    {
+      "id": "PW.D4.biotest",
+      "decision": "add",
+      "reason": "Added: a prediction/perturbation and its implication form one falsification relation; computational utility is separately scored."
+    },
+    {
+      "id": "PW.D2.fit",
+      "decision": "add",
+      "reason": "Added: support and model assumption form one fit relation, distinct from source existence."
+    },
+    {
+      "id": "PW.D5.flow",
+      "decision": "add",
+      "reason": "Added: one explanatory reading progression, not a checklist of sections."
+    },
+    {
+      "id": "PW.D6.clear",
+      "decision": "add",
+      "reason": "Added: symbols and their referents define the same computational statement; more equations do not compensate for undefined signals."
+    },
+    {
+      "id": "PW.D6.find",
+      "decision": "add",
+      "reason": "Added: model detail and its basis are one lookup target, not independent rewards."
+    }
+  ],
+  "author_notes": [
+    "No prior draft for this task. Content specification is pointwise; inference, plasticity, computational testing and biological testing are distinct comparisons.",
+    "Counterexamples were checked: an accurate classifier does not compensate for missing biological test value, and many neuron names do not fill an unexplained signal/update relation.",
+    "Negative weights checked from input: 6=-4, 9=-3, 13=-3. Item 6's literal negative judgement is deliberately not retained, not inverted; item 9's prescribed error-gating route is only partially retained.",
+    "No experiments or scores were run, no sources externally verified. These are author and structural checks, not independent semantic review.",
+    "v3.3: Memory-specific engram item and its S2 high anchors/boundary are preserved verbatim. Added direct wiring, regulated dynamics, computational test, biological test and limitations/next-step checks. Local signal access, bidirectional functional interaction, trace allocation/diversity/retention and both evidence foundations are explicit. Existing PW test items compare discriminating value rather than absorbing missing methods.",
+    "v3.3待审 / pending review: No executed experiment, fixed sparsity or same-synapse gating required. Negative flat:6 remains deliberately unretained, not inverted; flat:9 keeps error/trace and disconnection failures but permits retrieval-time coupling. Plausibility is not established merely by naming an idealization. Added methods should be reviewed for sufficiency without turning a proposal into a demand for measured results.",
+    "Review 29: revised wiring, taskplan and limits only, plus corresponding metadata. Earlier mandatory checklist descriptions for these items are historical. PT.D1.bioplan remains unchanged: the reviewer mentioned biological controls under taskplan, but taskplan did not require them; any broader change to the separate biological-test item needs confirmation. Not reevaluated.",
+    "Follow-up 28–29: resolves the previously pending scope note. PT.D1.bioplan removed as a mandatory item; related references updated. Earlier author notes requiring a biological-test pointwise item are historical and superseded. No evaluation performed."
+  ]
+}

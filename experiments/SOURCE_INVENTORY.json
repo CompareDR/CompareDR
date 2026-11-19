@@ -1,0 +1,20 @@
+{
+  "sparse_math.py": {
+    "source_sha256": "8141aae9fd3a92bff3fa5bc2282569cff21ae09750327ea82e4d6c8c9019a542",
+    "function_names": [
+      "display",
+      "vector",
+      "select",
+      "objective",
+      "fit",
+      "scores",
+      "ranks",
+      "relations",
+      "init",
+      "job",
+      "stats",
+      "totalcost"
+    ],
+    "changes": "Functions unchanged; imports now resolve in this repository. O.combine uses the final paper weights; display already recomputes its own weighted total."
+  }
+}

@@ -1,0 +1,679 @@
+{
+  "rows": [
+    {
+      "query_id": "drb1_19",
+      "language": "zh",
+      "full_query_sha256": "9f4c31075c5c2342dad1782d8fc9d6d628159ec017f799d1a60dd4fc2625c4c1",
+      "record_sha256": "f4084581b3940a25f8246444b55df35c36f9898e6c9f9cb019cb009e03db07dd",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb1_25",
+      "language": "zh",
+      "full_query_sha256": "232bda0568bb6cc8a5f447a1489e78aaa953ff28a2aea1e5789299a7db1a2201",
+      "record_sha256": "144199c5674b43e7f8c310511fab950971c6499db0d23e60a8ed47df89e6d826",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb1_27",
+      "language": "zh",
+      "full_query_sha256": "154c0f3a5bfc35488d3a87e643b8b7ea91b1383c39e9e49bf81fa1ef80c5c4e9",
+      "record_sha256": "aa4f9d9561a9b8586c77f96d76929adccff4b8e494b916ce1fe95aa3a5eed940",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb1_47",
+      "language": "zh",
+      "full_query_sha256": "237ac8dc4096012a80927e90f8ed950e982e86a7abd2578338f5c001facef6e9",
+      "record_sha256": "46e7547d54bbb9767db8ce6f396b51a5463f9a00821ae778588f47eded3ac5ae",
+      "complexity": {
+        "breadth": "high",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb1_48",
+      "language": "zh",
+      "full_query_sha256": "6c6f7cda1ffd07092e6a7015e322741356bb35359c33efa8b7cab8ba36840014",
+      "record_sha256": "aa0b457d117a9543e4351fc2f33095b0ed568d33813016b09f6799b08ce73999",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb1_51",
+      "language": "en",
+      "full_query_sha256": "be9662c3e1b98085586521b65a3aea9289cf715abf27f6df439975cb132c9fe0",
+      "record_sha256": "d8bfdd7222ae8da3ccf22b14df6ea64393ffbb75d5ab3494a954269338ebee66",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_11",
+      "language": "zh",
+      "full_query_sha256": "29da943ef4875383da5ddf747f2d6adec8332b1ed4c4c263ce2ce3c0ce391419",
+      "record_sha256": "1b20dbc2f42e10e8ce9d584f92df9e0b083c781cd03259441037000421f20113",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_117",
+      "language": "zh",
+      "full_query_sha256": "bf61a4f626abede5e466afd8e7bbd52cb1c8ff86c02649a215e8817c3128b91c",
+      "record_sha256": "459900ef70242e01304486765d3c050c636bea91c75a4b97dcbeb75b31b4086b",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_119",
+      "language": "zh",
+      "full_query_sha256": "c06cc0be698cb4e4fd9708ca93dbe5c08a4151a003312a98a32bb7c26f96cdde",
+      "record_sha256": "3ef0a746e70b361480c76dc42d1cda8401abe124945d690bcab14bbc70f8f4c8",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_123",
+      "language": "zh",
+      "full_query_sha256": "3fb0c4d5931251af7954501daa0218d3dac66545bb8196c9ee141b3dbfc73bd2",
+      "record_sha256": "ccfb858bfd28b4c0ab09761e2f20a968285bfc900064c159920b45dd94f9ad64",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_125",
+      "language": "zh",
+      "full_query_sha256": "6df2a5be972f411ab60d07d236f8829384cf85b9e491bfe5f353152501782f43",
+      "record_sha256": "d82b38dcb9544ed28097607c8c1b14d2bf71458f864eb4570417938d0cb0c16f",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_129",
+      "language": "zh",
+      "full_query_sha256": "f98d7f04321170324856842c84cd492a6d39f0da50d60290d30870381454c3c1",
+      "record_sha256": "373c35844b62b58f61ed4d1109ee1a12bf91d6ff3f3fb8a54f40ac6573657805",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_15",
+      "language": "zh",
+      "full_query_sha256": "f51897cc624053c307cc5abe241f70d76f5761076998a2a16c9831cd65856ded",
+      "record_sha256": "6cd31ab29e3ba70db519c2b4707b4e21555562fbde57329da94a54ddca6ccb4a",
+      "complexity": {
+        "breadth": "high",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_18",
+      "language": "en",
+      "full_query_sha256": "a3175f58f2a3aa81e5c61873eac9a31ccb8e30e33a5a9ca59ba7945629a1fd46",
+      "record_sha256": "f5c6a18ad9416ee8de8faea4e55b2a87af8381cc206c9948a5477e4dad7fdcfd",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_21",
+      "language": "zh",
+      "full_query_sha256": "02201d4fbf8411c6fe00578b07d907e078cb219c54ceda6aa4d28ba5ace73d8f",
+      "record_sha256": "79e174988de3a94e6adb2f2da3bd01a0b08edc671ade66fcac1c0c56d8b6c1be",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "low",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_28",
+      "language": "en",
+      "full_query_sha256": "32f2b358ea35e284d91924b823fd8967dd08b1b323f9eb96e7171ba785a4e40b",
+      "record_sha256": "f61c1839f4522a886bad77d9b03f60fa343aaed62d8a62325a890432b3e26000",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_3",
+      "language": "zh",
+      "full_query_sha256": "b039ab1315d1695bbe11ce9d78bd3976e001e6ecec21b9f8748641c7f645ee7a",
+      "record_sha256": "351af25541448c27bedaf77023553c0bcf2b693fe542d76cf247ea9b178e9be1",
+      "complexity": {
+        "breadth": "high",
+        "depth": "medium",
+        "exploration": "low",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_41",
+      "language": "zh",
+      "full_query_sha256": "a4ac5c57f65076797635c315f19f68e66638d10668ff0f81a1b3210c0b714f9c",
+      "record_sha256": "3be6a05a3be6cfa5f1a4d3eb274d464a43af6e48d2954dbe563739de4b65cb3f",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_46",
+      "language": "en",
+      "full_query_sha256": "f49fa415593a58fc0e2e0aaac4fbd4cffc436d8e95bdd959122be910088d849f",
+      "record_sha256": "df201f9dfd9b0b5e36287505cc2e9006d5c69cdc10b8fe752c8f8672732f2efd",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "low",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_58",
+      "language": "en",
+      "full_query_sha256": "ea3b2458f14c5951b036091c8bd1d42414f6381de4af8b7b6100286706a594f2",
+      "record_sha256": "04d295ee4bb6cba9102c0832e0ecda254697b4d3d76bdbbe9002c3d3185a771f",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_66",
+      "language": "en",
+      "full_query_sha256": "2b106441d4d8d681b2da177fdc3ef02265da23785e7e24828ce87235b8c50dce",
+      "record_sha256": "f2d9b93f66b97c032471b4d4d1a50fbd8c009bc8f8eb3996af23ef8bd2cbdd39",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_71",
+      "language": "zh",
+      "full_query_sha256": "cf17e1d4171d71a5bf1a17a3a79c091acf0bc760f4b842881f36e721e8cb9348",
+      "record_sha256": "45e07b76382b78d21dde818f6b9e5f73628d6507bf2c2d7468cc1ac6fa039b4c",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_75",
+      "language": "zh",
+      "full_query_sha256": "15742144bd70c197675140a43d222c5c4487921c9a1f2382cebb6d81c46309f0",
+      "record_sha256": "0547f984dde1d714f3de5e322a35479f0d22015feaa74a3ee5395babfd9e0258",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations",
+      "evaluation_query_sha256": "358deb2515a97f8a67b58b5da16f9ebefb678db578ba8e93ab212820b811a14a"
+    },
+    {
+      "query_id": "drb2_76",
+      "language": "en",
+      "full_query_sha256": "1a800fe7114e4aea3b080e7be8a0f8342a6c5b70d121327b7d4d09eb7b42979c",
+      "record_sha256": "a9d6c8a9d0cf8a77d4b8e83516f3940442351253f2a6090055d6ba3366e7f556",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_79",
+      "language": "zh",
+      "full_query_sha256": "044310a2514d4ddecc2d1811ab87ca166519106e9d74122f3c7719149e09a448",
+      "record_sha256": "4e4dec53bdcf8c72b10a5aebd42ef924840979d4c60fd15e563ec3062b8dd20d",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_84",
+      "language": "en",
+      "full_query_sha256": "b24587f8fbc9ea13b70487839c3a8e8c61e2c79074e69c8ed221923a85d2e12f",
+      "record_sha256": "781ca3af5b5823aa0da69e32e2b6bd2e471522e225c51634fee0d57a8d63d4b3",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_95",
+      "language": "zh",
+      "full_query_sha256": "14e0c6a5a374b475307758a9401cb292f309aa92920a11aa6649f0b2c7ccc557",
+      "record_sha256": "9d311c453aa1a95ded81b481fdcae5b73f32323792d59e3c8e3a4ee93ff3bbe0",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "drb2_97",
+      "language": "zh",
+      "full_query_sha256": "4aac166167896e38274a97fa8678a38fea64f14065d74573888c2da05c814971",
+      "record_sha256": "93e8db68ee7552ffbaa6b270201a3abde79020ac882170e2b862de7c48a76ebf",
+      "complexity": {
+        "breadth": "high",
+        "depth": "medium",
+        "exploration": "high",
+        "origin": "agent_estimate"
+      },
+      "source_official_complexity": null,
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "language": "en",
+      "full_query_sha256": "01de79b97279a37688fbcea282aa5cfdfe89727c079bb26916add533e97c02c3",
+      "record_sha256": "2dfb9e35f38da32f7a2a455b31e5b4b71305de98e149232d5e1ca3fb172ecace",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "low",
+        "exploration": "low",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Moderate",
+        "logical_nesting": "Shallow",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "language": "en",
+      "full_query_sha256": "65f3dac3d9fe22ee0115a4907bb6471e13d734513c72a182d7eb16cc61320552",
+      "record_sha256": "4be4d456e81061643ada102898ed56d218967b4f50592e8ed20028a21add80e9",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "low",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Moderate",
+        "logical_nesting": "Intermediate",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "language": "en",
+      "full_query_sha256": "760836f1af563c98f01656273e270e6b549c24692dd1be31c2705c0144b78529",
+      "record_sha256": "57d7691a81787a6cec665cd74b6dee1df491d4f3941dbb93ad9f135857067b37",
+      "complexity": {
+        "breadth": "low",
+        "depth": "low",
+        "exploration": "low",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Shallow",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "language": "en",
+      "full_query_sha256": "f0f19e94d5e7dfaa5a9f75d96756a6507955776c8d384e5c72e316eb6cbd34ce",
+      "record_sha256": "3c74cca1189ec73edf66941249813e14f3ac85e33b52fe85e75bc98ee8a8698d",
+      "complexity": {
+        "breadth": "low",
+        "depth": "low",
+        "exploration": "low",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Shallow",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "language": "en",
+      "full_query_sha256": "3943d04eb2f7f0afe0f2ee39bd0c9e68ae4a756abcea64089970458382b69018",
+      "record_sha256": "787038d1f056f984c23e06223b0c4c4b2f26361a0c13b8a603a11ed479962b8f",
+      "complexity": {
+        "breadth": "low",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Intermediate",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "language": "en",
+      "full_query_sha256": "d152d6718623d0ec405ad279a65b4cab8c1ee48a4c1f8175e54c84ede8a13a69",
+      "record_sha256": "6153541191c2b224ba7ab2f957b480998b59c751302cc1d8f89de338138d75c4",
+      "complexity": {
+        "breadth": "low",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Intermediate",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "language": "en",
+      "full_query_sha256": "b70bb918d5028ead16e34ac2a19c96de002b9123aa19ede079e7d1360dff5438",
+      "record_sha256": "9fd29edb95b82936cf46104b33d170ff4205ee5e28a03b8a88799a1cdc58b9b5",
+      "complexity": {
+        "breadth": "low",
+        "depth": "medium",
+        "exploration": "low",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Intermediate",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "language": "en",
+      "full_query_sha256": "36433ac76df35efeee3d3948a3f26e316eb0c8566562917b5f7a238538085800",
+      "record_sha256": "4787ca28b5672e4102724c22eab828cf01e29340ae068795615f9d1064ce649b",
+      "complexity": {
+        "breadth": "low",
+        "depth": "high",
+        "exploration": "medium",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Simple",
+        "logical_nesting": "Deep",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "language": "en",
+      "full_query_sha256": "eda01de27c9e03ab20c56fbd38d013be91f0fc468de433fdb07a0c3e78a72599",
+      "record_sha256": "613024a0c10d6e5d68968e8e90f583fe59308fbf8c730f796aac99f7fc31e934",
+      "complexity": {
+        "breadth": "high",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "old_frozen"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "High",
+        "logical_nesting": "Intermediate",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "language": "en",
+      "full_query_sha256": "d9261568532af6f3841c061e01395138a0adf24a7de969621fc99ece4b170b29",
+      "record_sha256": "53f6d3df32e6a6a61c48b45f111f438a47f62f993a99f793a7a67134a5f49e9f",
+      "complexity": {
+        "breadth": "high",
+        "depth": "high",
+        "exploration": "low",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "High",
+        "logical_nesting": "Deep",
+        "exploration": "Low"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "language": "en",
+      "full_query_sha256": "3f92cc1b359416c9af7905fe6d24f7755b4bcf92f91915f95bec505dd6f8df7f",
+      "record_sha256": "2a10016cde6fd58497b43f5a6d90d1da38bde3bdd576129a6b84a59ae082d4f8",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Moderate",
+        "logical_nesting": "Intermediate",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "language": "en",
+      "full_query_sha256": "ee7628cb3df02f6f0301076a1c4f1e6a7ee73f1626770beb45d4d40017a0e019",
+      "record_sha256": "c487cdcf433bae10d233312e3184a046df6483344c771a46a4e9279d0490a9e5",
+      "complexity": {
+        "breadth": "medium",
+        "depth": "medium",
+        "exploration": "medium",
+        "origin": "rr_official"
+      },
+      "source_official_complexity": {
+        "conceptual_breadth": "Moderate",
+        "logical_nesting": "Intermediate",
+        "exploration": "Medium"
+      },
+      "label_type": "agent/source-benchmark metadata; not human annotations"
+    }
+  ],
+  "archived_distribution": {
+    "en": {
+      "source": {
+        "drb2": 7,
+        "rr": 12,
+        "drb1": 1
+      },
+      "domain": {
+        "计算机、AI与数字系统": 2,
+        "工程与自然科学": 3,
+        "医学、健康与行为科学": 3,
+        "经济、金融、商业与治理": 3,
+        "教育、劳动与社会系统": 3,
+        "人文、历史与创意实践": 3,
+        "消费、旅行与生活决策": 3
+      },
+      "complexity": {
+        "depth": {
+          "medium": 8,
+          "high": 9,
+          "low": 3
+        },
+        "breadth": {
+          "medium": 7,
+          "low": 6,
+          "high": 7
+        },
+        "exploration": {
+          "low": 7,
+          "medium": 11,
+          "high": 2
+        }
+      }
+    },
+    "zh": {
+      "source": {
+        "drb2": 15,
+        "drb1": 5
+      },
+      "domain": {
+        "计算机、AI与数字系统": 2,
+        "工程与自然科学": 3,
+        "医学、健康与行为科学": 3,
+        "经济、金融、商业与治理": 3,
+        "教育、劳动与社会系统": 3,
+        "人文、历史与创意实践": 3,
+        "消费、旅行与生活决策": 3
+      },
+      "complexity": {
+        "depth": {
+          "medium": 7,
+          "high": 13
+        },
+        "breadth": {
+          "medium": 10,
+          "high": 10
+        },
+        "exploration": {
+          "medium": 12,
+          "low": 2,
+          "high": 6
+        }
+      }
+    }
+  },
+  "identity_check": "All 40 original evaluation queries matched the source records; distributed query hashes account only for URL tracking removal."
+}

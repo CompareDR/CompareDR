@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "files": {
+    "assets/app.mjs": "0a977bf8df04d2eadf001d12fd6c7d658965ddad1ba25ad6b30ceef4cc6d51d2",
+    "assets/authors.js": "16ea795bc1c3be160b2cba8e3d7b5abed8e7b6ae33e9369eaa539ac8e7ced03c",
+    "assets/blog.css": "2e9c85c4c744b4fd5361be5451c7b58872da0cdeb736bd77e0a261d947fb0a53",
+    "assets/config.js": "d5439567dedd7cd4f1689e16287855fb99ee3757d1ffc8775ac83d20923878a4",
+    "assets/content.mjs": "b9b091f4c99264239de24678bbe8ed37c648d47763832a09684ced7b2cb6e188",
+    "assets/feed.mjs": "2fb53332eab07bd6c7596338c16ef6301e3326794706738c6555cd094f827f7c",
+    "assets/framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
+    "assets/harness_overview.png": "e0d8f218466a8595122b4ba9f42deabb9d159acd4d653c4c2f9cb1d02678712b",
+    "assets/longcat_logo.png": "badde453d6e1f57dc52bd3781d94b7461e7181ff9eba02037aa1b9aa2e546bc3",
+    "assets/snapshot.js": "e777f303a6385da28e1ffb9a41a20a7d1ca586c5c166a317e269a5e02d7aed94",
+    "data/leaderboard.snapshot.json": "11a7a68059ba4cf1b737bd8da998c11983b8f1447f87c59925943cceef120619",
+    "index.html": "d71e414ecf71307ade0f300d0bf030c8dd8bacaeed5a5dfbd1159b34862eccfa",
+    "licenses/LONGCAT_MIT_LICENSE.txt": "eb09fa9ea85b06d066fda22108d72d3acb0e08c71cb0f414abc08160e697bd56",
+    "licenses/THIRD_PARTY_NOTICES.md": "1c4447f9d767962dbf5f98f8ff00a234928ce4eb64ce09aa70b1984d6c854568"
+  },
+  "snapshot_revision": "paper-2026-11-16-main9-v1",
+  "remote_configured": true
+}

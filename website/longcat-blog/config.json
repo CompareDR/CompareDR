@@ -1,0 +1,23 @@
+{
+  "feedUrl": "https://raw.githubusercontent.com/CompareDR/CompareDR/main/website/longcat-blog/feed/v1/leaderboard.json",
+  "allowedFeedOrigins": ["https://raw.githubusercontent.com", "https://comparedr.github.io"],
+  "timeoutMs": 6000,
+  "links": {
+    "technicalCode": "https://github.com/meituan-longcat/LongCat-DeepResearch",
+    "technicalPaper": "https://arxiv.org/abs/2609.36071",
+    "technicalProject": "https://meituan-longcat.github.io/LongCat-DeepResearch/",
+    "benchmarkOrganization": "https://github.com/CompareDR",
+    "benchmarkCode": "https://github.com/CompareDR/CompareDR",
+    "benchmarkPaper": null,
+    "benchmarkData": null,
+    "benchmarkExplorer": null,
+    "benchmarkSubmission": "https://github.com/CompareDR/CompareDR/issues/new?template=submit-system.yml"
+  },
+  "release": {
+    "companyApprovalConfirmed": true,
+    "copyrightHolder": "LongCat",
+    "codeLicense": "Apache-2.0",
+    "originalDataLicense": "CC-BY-4.0",
+    "thirdPartyExceptions": true
+  }
+}

@@ -1,0 +1,1159 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a605371",
+  "language": "en",
+  "title": "Three relocation cities for a remote engineer",
+  "full_query": "i'm a remote software engineer in SF. its getting too expensive. i make $120k. i want to relocate somewhere else in the US. i need you to do the research for me and give me a ranked list of your top 3 cities.\n\nhere are my non-negotaibles:\n- the cost of living HAS to be at least 30% lower than sf. especially rent and healthcare\n- since i'm remote, I need high speed and reliable internet connection\n- i really don't want to be stuck in a car. i need a walkable neighborhood (like a walk score over 60?) and easy access to green spaces or nature for hiking\n- I also need a major airport within about 90 minutes\n\ncan you write up a detailed report for me? i need them ranked with good justifications. please also include the trade-offs like what's the weather really like, what are the state tax implications (huge for me coming from CA), diversity, amenities, that kind of stuff\n\nit's important this is backed by real data, not just vibes. like use actual cost of living indexes, real estate data, internet speed rankings, ect",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Three ranked US destinations",
+      "question": "Does the report give an identifiable top three US cities with reasons for their order?",
+      "anchors": {
+        "1": "No usable US relocation shortlist.",
+        "2": "Only one city, or an unranked collection with no usable recommendation.",
+        "3": "Only two US cities are substantively ranked, or three are ranked or discussed but an important ranking reason or a concrete user-relevant downside for any city is missing.",
+        "4": "Three US cities are ranked with clear reasons and concrete user-relevant trade-offs for each, with only minor explanation gaps.",
+        "5": "Three US cities are explicitly ranked by suitability, with grounded reasons and concrete user-relevant trade-offs for each that explain the recommendation rather than claiming universal superiority."
+      },
+      "boundary": "Any cities may qualify; no geographic-spread requirement and no preference for Austin, Raleigh or Salt Lake City. If fewer than three can be substantiated, an honest shortfall remains incomplete coverage, not a reason to invent a third. Reason persuasiveness is PW.D4.01.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:10",
+          "rr:6847465956a0f6376a605371:flat:11",
+          "rr:6847465956a0f6376a605371:flat:12",
+          "rr:6847465956a0f6376a605371:flat:19",
+          "rr:6847465956a0f6376a605371:flat:22",
+          "rr:6847465956a0f6376a605371:flat:13",
+          "rr:6847465956a0f6376a605371:flat:26"
+        ],
+        "query_quotes": [
+          "a ranked list of your top 3 cities"
+        ],
+        "change_note": "Merge ranking, reasons and negative missing-city check; preserve US scope but drop example cities and regional diversity."
+      }
+    },
+    {
+      "id": "PT.D1.02.total",
+      "dimension": "D1",
+      "title": "Thirty-percent total-cost constraint",
+      "question": "Does the report demonstrate at least 30% lower total cost of living for each of its three recommendations versus SF?",
+      "anchors": {
+        "1": "No substantive account of thirty-percent total-cost constraint.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "A city lacks a comparable total-cost result or the reduction threshold is not established.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Uses an explicit SF baseline and comparable city totals or indexes to establish at least 30% reduction for every recommendation; dates and scope are clear."
+      },
+      "boundary": "Below-threshold or merely conditional options cannot earn 4/5. A city-by-city diagnostic record is required; rent alone does not establish total reduction.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:1",
+          "rr:6847465956a0f6376a605371:flat:2",
+          "rr:6847465956a0f6376a605371:flat:3"
+        ],
+        "query_quotes": [
+          "at least 30% lower than sf"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.02; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.rent",
+      "dimension": "D1",
+      "title": "Comparable housing costs",
+      "question": "Does the report provide comparable rent data for SF and each proposed city or neighborhood?",
+      "anchors": {
+        "1": "No substantive account of comparable housing costs.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Some rent data exist but a location, period or housing specification is materially missing.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Provides interpretable rent amounts with comparable housing basis, period and geographic scope for SF and all three destinations."
+      },
+      "boundary": "Actual data accuracy is D2; healthcare remains PT.D1.03. Record each city separately in the rationale, without inventing fixed recommended cities.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:1",
+          "rr:6847465956a0f6376a605371:flat:2",
+          "rr:6847465956a0f6376a605371:flat:4",
+          "rr:6847465956a0f6376a605371:flat:31"
+        ],
+        "query_quotes": [
+          "at least 30% lower than sf"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.02; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Healthcare cost comparison",
+      "question": "Does the report compare healthcare costs relevant to the user across SF and each destination?",
+      "anchors": {
+        "1": "Healthcare costs are absent.",
+        "2": "Only says healthcare is affordable or hospitals are good.",
+        "3": "Some costs appear, but one city's comparison is absent or insurance premiums, out-of-pocket costs and price indexes are conflated.",
+        "4": "SF and each city's healthcare cost basis is clear, with a minor coverage or household-assumption gap.",
+        "5": "Provides healthcare cost comparisons on a stated basis for SF and all destinations, separating insurance/coverage assumptions from service prices or out-of-pocket exposure and explaining material uncertainty."
+      },
+      "boundary": "No invented age, insurance plan or employer benefit. An explicitly bounded comparable proxy is allowed; a bare data-gap statement is not a comparison. Healthcare does not individually have to be 30% lower if the total meets the user's overall constraint.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:1",
+          "rr:6847465956a0f6376a605371:flat:4"
+        ],
+        "query_quotes": [
+          "especially rent and healthcare"
+        ],
+        "change_note": "Separate healthcare from general affordability because low rent and healthcare exposure can differ independently; retain its SF comparison without sample premiums."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Internet for remote work",
+      "question": "Does the report establish high-speed internet availability and discuss reliability for each recommended location?",
+      "anchors": {
+        "1": "No internet assessment.",
+        "2": "Only says fast internet exists or names a provider.",
+        "3": "Speed or coverage is described but reliability is unaddressed, or at least one destination lacks a usable assessment.",
+        "4": "Speed, service availability and reliability evidence or concrete limitations are described for all destinations, with a minor local-scope gap.",
+        "5": "For each destination, identifies usable service availability and speeds and addresses reliability through relevant evidence or explicitly stated limits and an address-level verification need; citywide rankings are not treated as a service guarantee."
+      },
+      "boundary": "No fixed gigabit target or named provider; advertised peak speed is not evidence of uptime. A reliability-data limitation with a concrete verification route can be an adequate bounded assessment, not an invented guarantee.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:6",
+          "rr:6847465956a0f6376a605371:flat:27",
+          "rr:6847465956a0f6376a605371:flat:23"
+        ],
+        "query_quotes": [
+          "high speed and reliable internet connection"
+        ],
+        "change_note": "Retain remote-work broadband assessment, explicitly distinguish speed from reliability and remove 5Gbps/provider examples."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "A walkable neighborhood",
+      "question": "Does the report identify a credible walkable neighborhood in each recommended city?",
+      "anchors": {
+        "1": "No neighborhood walkability information.",
+        "2": "Only describes citywide lifestyle or says walkable.",
+        "3": "Some neighborhoods or scores appear, but one city lacks a usable neighborhood assessment or the score's area is unclear.",
+        "4": "Each city has a named neighborhood and concrete walkability evidence, with a minor local-boundary gap.",
+        "5": "Each city has an identifiable neighborhood supported by an appropriately scoped Walk Score around the user's suggested level or equivalent concrete evidence of daily life without constant car use."
+      },
+      "boundary": "The question mark makes over 60 a suggested benchmark, not an invented exact hard cutoff. Do not substitute a city's highest-scoring block for the area whose rent is quoted. Cross-constraint feasibility is PW.D3.01.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:7",
+          "rr:6847465956a0f6376a605371:flat:23"
+        ],
+        "query_quotes": [
+          "a walkable neighborhood (like a walk score over 60?)"
+        ],
+        "change_note": "Retain neighborhood walkability, allow equivalent evidence rather than a mandatory source brand or strict numeric cutoff."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Access to nature",
+      "question": "Does the report explain access to green space or hiking from the proposed neighborhoods?",
+      "anchors": {
+        "1": "No nature access information.",
+        "2": "Only says parks or mountains are nearby.",
+        "3": "Names destinations but not practical access, or one city lacks usable information.",
+        "4": "All cities have identifiable nature options and access details, with a small transport or distance ambiguity.",
+        "5": "Identifies usable green spaces or hiking options for each destination and describes how the proposed living area reaches them, distinguishing walkable parks from trips requiring transport."
+      },
+      "boundary": "No mandated park or hiking mileage. Do not require every trail to be reachable without a car, but do not describe remote attractions as neighborhood walking access.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:8",
+          "rr:6847465956a0f6376a605371:flat:23"
+        ],
+        "query_quotes": [
+          "easy access to green spaces or nature for hiking"
+        ],
+        "change_note": "Retain destination-to-nature access, removing Austin-specific parks and mileage."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Major airport access",
+      "question": "Does the report identify a major airport within about 90 minutes for each destination and explain travel conditions?",
+      "anchors": {
+        "1": "No airport assessment.",
+        "2": "Only states there is an airport nearby.",
+        "3": "Airport names appear, but a destination lacks travel-time evidence, uses a non-major airfield without justification or has unclear starting area.",
+        "4": "Each destination has a relevant major airport and approximately qualifying travel time, with minor route/traffic ambiguity.",
+        "5": "Each destination identifies a major airport and travel-time basis from the proposed living area, including mode and material traffic variability, showing why access is within about 90 minutes."
+      },
+      "boundary": "No claim that all departure times must be under precisely 90 minutes. A typical-time estimate must not conceal a material peak-time problem; specify uncertainty.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:5",
+          "rr:6847465956a0f6376a605371:flat:23"
+        ],
+        "query_quotes": [
+          "a major airport within about 90 minutes"
+        ],
+        "change_note": "Retain the airport constraint and add origin/mode conditions needed to interpret travel time."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Tax implications at the stated income",
+      "question": "Does the report describe relevant state and local tax implications of leaving California at a $120k salary?",
+      "anchors": {
+        "1": "No tax discussion.",
+        "2": "Only names a headline tax rate or says no income tax.",
+        "3": "Gives some state differences but leaves one destination or material residency/filing assumptions unexplained.",
+        "4": "Destination and California comparisons are clear under stated assumptions, with a minor local-tax or scope gap.",
+        "5": "Explains relevant state/local tax consequences for the stated income under explicit filing/residency assumptions, distinguishing headline rates from personal liability and noting material other taxes or unresolved remote-work sourcing issues when relevant."
+      },
+      "boundary": "No requirement for individualized tax advice or a complete return; do not invent the user's filing status. Conditional estimates and clear unresolved dependencies are allowed.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:14"
+        ],
+        "query_quotes": [
+          "i make $120k"
+        ],
+        "change_note": "Retain tax implications, grounding interpretation in the user's salary without a fixed disposable-income amount."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Weather trade-offs",
+      "question": "Does the report describe realistic climate and seasonal trade-offs for each city?",
+      "anchors": {
+        "1": "No weather information.",
+        "2": "Only pleasant weather or similar vague descriptions.",
+        "3": "Some seasonal detail appears, but one city is absent or important conditions are reduced to vague labels.",
+        "4": "Each city has concrete seasonal conditions and livability implications, with minor context gaps.",
+        "5": "Each city's weather is described through concrete seasonal conditions and their implications for daily life or outdoor use, with extremes or risks included when materially relevant."
+      },
+      "boundary": "No mandatory disaster model or exact temperature threshold. Unqualified nice weather does not satisfy concrete description.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:16",
+          "rr:6847465956a0f6376a605371:flat:20"
+        ],
+        "query_quotes": [
+          "what's the weather really like"
+        ],
+        "change_note": "Keep weather coverage and negative vagueness distinction; remove sample cities and universal climate preferences."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Diversity and daily amenities",
+      "question": "Does the report describe diversity and amenities relevant to daily life in each destination?",
+      "anchors": {
+        "1": "Neither diversity nor amenities is addressed.",
+        "2": "Only generic vibe or culture labels.",
+        "3": "Only one topic is concrete, or at least one city lacks a usable account.",
+        "4": "Both topics are concrete across the shortlist with a minor neighborhood or measurement ambiguity.",
+        "5": "For each destination, describes diversity on an identifiable basis and concrete daily amenities such as services, culture or transit, distinguishing citywide patterns from the proposed neighborhood experience."
+      },
+      "boundary": "The user states no preferred demographic composition; do not infer one. No fixed cuisine, venue count or amenity list. Good amenities cannot hide an absent diversity account above 3.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:15"
+        ],
+        "query_quotes": [
+          "diversity, amenities"
+        ],
+        "change_note": "Official amenities object retained; query adds explicit diversity, with local mixed-coverage anchors and no demographic preference assumptions."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceable relocation data",
+      "question": "Can the report's important city comparisons be traced to specific data sources and periods?",
+      "anchors": {
+        "1": "Important data have no identifiable sources.",
+        "2": "Only generic claims about rankings or research.",
+        "3": "Sources are listed but important city statistics cannot be clearly linked to them.",
+        "4": "Most key statistics are traceable with minor period or attribution ambiguity.",
+        "5": "Important cost, housing, healthcare, connectivity, walkability and access claims have identifiable sources and periods or reviewable derivations; estimates are labelled."
+      },
+      "boundary": "No mandatory URLs or source brands; this checks attribution, not whether the data support the recommendation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:9",
+          "rr:6847465956a0f6376a605371:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain positive sourcing and negative missing-citation objects as one traceability audit, not duplicate penalties."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support in the verified data sample",
+      "question": "Within the actually checked sample, does evidence support the report's city data?",
+      "anchors": {
+        "1": "Central assessed statistics are fabricated, contradicted or lack the claimed basis.",
+        "2": "Several important checked comparisons have substantial support errors.",
+        "3": "Some support holds but an important geography, period or metric mismatch remains.",
+        "4": "Important checked data are supported apart from minor attribution or scope issues.",
+        "5": "All assessed city claims match obtained evidence in place, period, metric and strength; unexamined data are not certified."
+      },
+      "boundary": "Record selected and assessed counts; failed retrieval is an execution failure, not a quality score, automatic 5 or NA. This batch does not perform such verification.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve the negative hallucinated-data concern, limited to actual verification rather than guessed truth."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Consistent comparisons and calculations",
+      "question": "Are city names, costs, units and constraint conclusions internally consistent?",
+      "anchors": {
+        "1": "Core comparisons conflict so the recommendations cannot be interpreted.",
+        "2": "A central arithmetic or scope contradiction materially changes qualification.",
+        "3": "A local substantive inconsistency remains but the shortlist is identifiable.",
+        "4": "Core comparisons agree with minor labelling ambiguity.",
+        "5": "Checked currencies, periods, location scopes and calculations agree; rent is not double counted in a rent-inclusive index and percentage comparisons use a consistent SF baseline."
+      },
+      "boundary": "Internal agreement does not establish external validity; do not require a personal-budget model if comparable indexes suffice.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local consistency audit tailored to total-cost and neighborhood comparisons."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Personal affordability comparison",
+      "question": "Does the report explain what the cost, housing and tax differences between SF and each recommended city mean for this worker earning $120,000?",
+      "anchors": {
+        "1": "No comparison connects the relocation costs to the user’s financial situation.",
+        "2": "Only says the salary goes further or lists cost figures without explaining their relevance to the user.",
+        "3": "A personal affordability comparison is offered, but a destination, SF baseline, or material housing/tax implication is missing or unclear.",
+        "4": "SF and all three destinations are compared on a consistent basis, explaining the housing and tax implications for the user, with a minor assumption or scope gap.",
+        "5": "A reviewable comparison relates costs, housing and tax differences across SF and all three destinations to the $120,000 salary, states the assumptions relevant to the chosen method, and clearly distinguishes relative affordability from any estimated after-tax spending balance."
+      },
+      "boundary": "A disposable-income calculation, comparable index analysis or explicit conditional budget is eligible; no full personal tax-and-housing model or fixed sample balance is required. An index must be connected to the user’s housing and tax situation rather than merely repeated. Do not call an index a post-tax cash balance or double-count rent already included. Unknown household facts may be handled with explicit conditions, not invented details. PT.D1.02.total/rent check cost constraints/data and PT.D1.08 checks tax implications; this item checks their combined personal-finance interpretation, not a second reward for listing them. PT.D2.03 checks internal consistency; PW.D3.02 compares the reasoning quality of that interpretation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:30"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 32: accept comparable indexes and conditional budgets as well as disposable-income calculations, consistent with PT.D2.03 and PW.D3.02. Retain personal relevance and housing/tax implications without mandatory residual-dollar outputs."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Population and housing-market pressure",
+      "question": "Does the report assess whether population context and housing-market change could affect the durability of affordability in each recommended city?",
+      "anchors": {
+        "1": "No population or housing-market context.",
+        "2": "Only labels a city growing or affordable without concrete context.",
+        "3": "Some population size/growth and housing trends are described, but an important city or either side is missing, or a forecast is presented as certain.",
+        "4": "Each city has concrete population context and housing-market change linked to affordability, with minor time or uncertainty gaps.",
+        "5": "Each city has scoped population size or growth evidence and relevant housing-market trends; the report explains their implications for future rental affordability or housing availability and distinguishes observed changes from uncertain projections."
+      },
+      "boundary": "No fixed growth rate, forecasting model or house purchase required. Rental trends, supply/vacancy or sale-market evidence relevant to renting are eligible; current rent alone does not show change. If a projection cannot be supported, explain observed trends and conditional outlook instead of inventing one.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:17",
+          "rr:6847465956a0f6376a605371:flat:28"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore demographic and housing-change context, not prescribed cities, numbers or forecast precision."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Environmental and disaster exposure",
+      "question": "Does the report assess material environmental or disaster risks affecting the proposed living areas?",
+      "anchors": {
+        "1": "No environmental or disaster assessment.",
+        "2": "Only calls places safe or risky without identifying exposure.",
+        "3": "Concrete risks appear, but a recommended city or the consequence for the proposed area is missing, or seasonal comfort substitutes for hazard exposure.",
+        "4": "Material risks and practical implications are described for each city, with minor geographic or uncertainty gaps.",
+        "5": "The report identifies material environmental or disaster exposures for each proposed area, grounds their geographic scope and explains consequences for housing, health, mobility or work continuity; low exposure is supported rather than equated with no risk."
+      },
+      "boundary": "No mandatory flood, wildfire or heat checklist or formal hazard model. Distinguish seasonal comfort in PT.D1.09 from consequential hazard exposure; the same temperature fact does not earn two identical judgments.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:33"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore risk assessment as content without imposing Austin's example."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Neighborhood variation",
+      "question": "Does the report explain meaningful within-city differences affecting where this user could actually live?",
+      "anchors": {
+        "1": "No neighborhood-level account.",
+        "2": "Only names a desirable area or uses city averages.",
+        "3": "Some differences are explained, but an important city lacks a meaningful comparison or affordability and daily access are not both addressed.",
+        "4": "Each city has concrete within-city differences in affordability and relevant access, with minor scope or basis gaps.",
+        "5": "For each city the report compares a proposed living area with a meaningful local alternative or citywide context, explaining rent/affordability and amenities or travel-access differences on compatible geographic terms."
+      },
+      "boundary": "No three-neighborhood quota or fixed neighborhoods. A scoped contrast with surrounding areas can suffice; a walk score for one neighborhood alone is not variation. PT checks actual contrast; PW.D3.01 compares the argument that constraints hold together.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:34"
+        ],
+        "query_quotes": [],
+        "change_note": "Give local variation a direct content entry, not only reward when used."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Joint feasibility in one living area",
+      "question": "Which report better establishes that affordability, connectivity, walkability, nature and airport access can hold together for its proposed living locations?",
+      "anchors": {
+        "0": "The joint-feasibility reasoning offers similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better justifies an important link between a proposed neighborhood and the combined constraints; B may still have local strengths.",
+        "2": "A provides a substantially stronger case that the proposed living locations jointly satisfy the user's constraints; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially stronger case that the proposed living locations jointly satisfy the user's constraints; A's local strengths do not close this gap.",
+        "-1": "On balance, B better justifies an important link between a proposed neighborhood and the combined constraints; A may still have local strengths."
+      },
+      "boundary": "A cheap suburb's rent, a downtown walk score and a different address's fiber cannot simply be combined. Compare how evidence applies to the same living option, not a sum of PT pass counts or a forced scoring formula.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:34"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt neighborhood variation to actual joint feasibility rather than requiring three named Austin neighborhoods or fixed rents."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "From cost data to personal affordability",
+      "question": "Which report more convincingly interprets what the cost and tax comparisons mean for this $120k remote worker?",
+      "anchors": {
+        "0": "The affordability reasoning offers similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better explains an important adjustment from published costs to the user's likely situation; B may still have local strengths.",
+        "2": "A provides a substantially stronger, transparent interpretation of affordability under stated housing, healthcare and tax assumptions; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially stronger, transparent interpretation of affordability under stated housing, healthcare and tax assumptions; A's local strengths do not close this gap.",
+        "-1": "On balance, B better explains an important adjustment from published costs to the user's likely situation; A may still have local strengths."
+      },
+      "boundary": "A disposable-income calculation, comparable index analysis or explicit conditional budget can work. Do not require official sample residual incomes, precise household facts or a full tax model; avoid double-counting internal arithmetic defects.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:30"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain affordability synthesis but drop a compulsory exact disposable-income model and example totals."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Useful ranking trade-offs",
+      "question": "Which report's ranking better helps this user choose among plausible destinations given the stated priorities?",
+      "anchors": {
+        "0": "The rankings provide comparable decision help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A offers somewhat more useful reasons for an important rank or trade-off; B may still have local strengths.",
+        "2": "A offers a substantially more useful ranking that makes the consequences of prioritizing affordability and low-car remote living clear; B's local strengths do not close this gap.",
+        "-2": "B offers a substantially more useful ranking that makes the consequences of prioritizing affordability and low-car remote living clear; A's local strengths do not close this gap.",
+        "-1": "On balance, B offers somewhat more useful reasons for an important rank or trade-off; A may still have local strengths."
+      },
+      "boundary": "An option not substantiated against a non-negotiable cannot be presented as qualified merely because its culture or weather is attractive. No fixed preference weights, city names or trade-off count. Identify the choice affected rather than rewarding a sound D3 inference twice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:12",
+          "rr:6847465956a0f6376a605371:flat:13",
+          "rr:6847465956a0f6376a605371:flat:26"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep ranking trade-offs and negative unsupported-benefit concern, removing two-per-city quota and universal-best language."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Resolving relocation uncertainty",
+      "question": "Which report gives more useful guidance on what to verify before committing to its suggested living option?",
+      "anchors": {
+        "0": "The reports provide comparable help with remaining relocation uncertainty; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better identifies a consequential check that could change the relocation decision; B may still have local strengths.",
+        "2": "A provides substantially more useful, prioritized checks linked to remaining address-level or personal uncertainties; B's local strengths do not close this gap.",
+        "-2": "B provides substantially more useful, prioritized checks linked to remaining address-level or personal uncertainties; A's local strengths do not close this gap.",
+        "-1": "On balance, B better identifies a consequential check that could change the relocation decision; A may still have local strengths."
+      },
+      "boundary": "Compare a concrete uncertainty-to-decision link, not a moving checklist or number of warnings. An ISP address check or healthcare-coverage check helps only when it resolves a stated dependency. Do not reward absence of qualifying evidence as if this guidance supplied it.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local optional decision-value comparison, not a mandatory relocation plan."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence applicability to the choice",
+      "question": "Which report uses evidence better suited to the actual neighborhoods and personal comparisons it makes?",
+      "anchors": {
+        "0": "The evidence supports the comparisons similarly; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has somewhat more applicable place, time or metric evidence for an important choice; B may still have local strengths.",
+        "2": "A has substantially better matched and complementary evidence for the key relocation comparisons; B's local strengths do not close this gap.",
+        "-2": "B has substantially better matched and complementary evidence for the key relocation comparisons; A's local strengths do not close this gap.",
+        "-1": "On balance, B has somewhat more applicable place, time or metric evidence for an important choice; A may still have local strengths."
+      },
+      "boundary": "A national quality-of-life index need not beat neighborhood data. Compare actual scope and uncertainty, not source brand or number of citations.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local evidence-fit comparison distinct from traceability and checked factual errors."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Readable comparison and recommendation",
+      "question": "Which original report offers a more helpful route through city profiles, comparisons and the final recommendation?",
+      "anchors": {
+        "0": "The reports provide comparable overall reading paths; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has a somewhat clearer comparison-to-recommendation progression; B may still have local strengths.",
+        "2": "A has substantially clearer overall progression with useful summaries and no disruptive repetition; B's local strengths do not close this gap.",
+        "-2": "B has substantially clearer overall progression with useful summaries and no disruptive repetition; A's local strengths do not close this gap.",
+        "-1": "On balance, B has a somewhat clearer comparison-to-recommendation progression; A may still have local strengths."
+      },
+      "boundary": "Read the originals. No compulsory executive summary, table or section order; assess how organization serves this relocation decision.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:18",
+          "rr:6847465956a0f6376a605371:flat:25",
+          "rr:6847465956a0f6376a605371:flat:32"
+        ],
+        "query_quotes": [],
+        "change_note": "Use structure, negative disorganization and summary-help objects without forcing a format."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear city comparisons",
+      "question": "Which report makes its existing city statistics, assumptions and trade-offs easier to understand?",
+      "anchors": {
+        "0": "The existing comparisons offer similar clarity; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes important numbers or trade-off statements somewhat clearer; B may still have local strengths.",
+        "2": "A makes existing costs, location labels and conditional claims substantially easier to understand; B's local strengths do not close this gap.",
+        "-2": "B makes existing costs, location labels and conditional claims substantially easier to understand; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes important numbers or trade-off statements somewhat clearer; A may still have local strengths."
+      },
+      "boundary": "Judge local wording, units and referents, not source truth, city count or whole-report order. Subjective preferences can be labelled rather than forbidden.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605371:flat:20",
+          "rr:6847465956a0f6376a605371:flat:25"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain negative vague-description and technical-clarity concerns, not a ban on all subjective judgments."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding a constraint and its basis",
+      "question": "Which original report makes a city's constraint result and its stated evidence easier to locate?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes an important city-constraint lookup somewhat easier; B may still have local strengths.",
+        "2": "A substantially reduces the search for city-specific qualification evidence and assumptions; B's local strengths do not close this gap.",
+        "-2": "B substantially reduces the search for city-specific qualification evidence and assumptions; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes an important city-constraint lookup somewhat easier; A may still have local strengths."
+      },
+      "boundary": "Traceability is D2; this compares navigation steps in the original. Tables and hyperlinks are options, not automatic advantages.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local lookup comparison tailored to city/constraint questions."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:1",
+      "targets": [
+        "PT.D1.02.total",
+        "PT.D1.02.rent",
+        "PT.D1.03"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.total, PT.D1.02.rent, PT.D1.03. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.02 and .03 preserve SF total/rent and healthcare baselines respectively; the illustrative 2025 prices, insurance plan assumptions and total are not fixed keys."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:2",
+      "targets": [
+        "PT.D1.02.total",
+        "PT.D1.02.rent"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.total, PT.D1.02.rent. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.02 requires comparable city cost data; the Austin example, price and percentage are not mandatory. Traceability is checked separately."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:3",
+      "targets": [
+        "PT.D1.02.total"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.total. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.02 explicitly withholds 4/5 if any recommendation lacks demonstrated overall cost at least 30% below SF."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:4",
+      "targets": [
+        "PT.D1.02.rent",
+        "PT.D1.03"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.rent, PT.D1.03. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.02 requires rent and PT.D1.03 requires healthcare comparisons. Good housing data cannot conceal absent healthcare above 3 in that item."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:5",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07 requires a major airport and about-90-minute access for each destination, with interpretable travel conditions.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.07 requires a major airport and about-90-minute access for each destination, with interpretable travel conditions.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:6",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "PT.D1.04 requires speed and availability and adds reliability; no fixed data source or city-ranking method is compulsory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 requires speed and availability and adds reliability; no fixed data source or city-ranking method is compulsory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:7",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05 accepts a scoped Walk Score or equivalent daily-life evidence; the suggested over-60 benchmark and named provider are not mandatory exact keys.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 accepts a scoped Walk Score or equivalent daily-life evidence; the suggested over-60 benchmark and named provider are not mandatory exact keys.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:8",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 checks named nature access and practical reachability; Austin parks and ten-mile example are not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 checks named nature access and practical reachability; Austin parks and ten-mile example are not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:9",
+      "targets": [
+        "PT.D2.01"
+      ],
+      "reason": "PT.D2.01 checks clear data-to-source attribution without forcing example source brands or URLs.",
+      "status": "retained",
+      "discrimination_check": "PT.D2.01 checks clear data-to-source attribution without forcing example source brands or URLs.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:10",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 requires three US destinations; geographic diversity and the three example cities are deliberately not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 requires three US destinations; geographic diversity and the three example cities are deliberately not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:11",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 explicitly distinguishes three ranked cities from an unranked or underspecified shortlist.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 explicitly distinguishes three ranked cities from an unranked or underspecified shortlist.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:12",
+      "targets": [
+        "PT.D1.01",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.01 checks ranking reasons and PW.D4.01 compares their decision value; the official example ranking and exact claimed benefits are not preserved.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 checks ranking reasons and PW.D4.01 compares their decision value; the official example ranking and exact claimed benefits are not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:13",
+      "targets": [
+        "PT.D1.01",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.01 requires concrete per-city trade-offs and user-specific rather than universal superiority; PW.D4.01 compares decision value. Negative direction of 26 preserved.",
+      "status": "adapted",
+      "discrimination_check": "An all-benefits city profile cannot receive 4/5 on PT.D1.01. No fixed two-per-city count or official city ranking.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:14",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 requires relevant state/local tax implications with personal assumptions; no specific tax result is forced.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08 requires relevant state/local tax implications with personal assumptions; no specific tax result is forced.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:15",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10 requires concrete local amenities for the shortlist, not only city-vibe labels.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.10 requires concrete local amenities for the shortlist, not only city-vibe labels.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:16",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09 requires realistic seasonal weather for each destination; the illustrative cities' climate sentences are not mandatory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 requires realistic seasonal weather for each destination; the illustrative cities' climate sentences are not mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:17",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "Population size or growth is actual context for housing-pressure durability.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12 has explicit missing-side/city 3 and substantive high anchors; illustrative numbers and examples are not fixed keys.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:18",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01 compares organization that helps comparison; no required bullet/table syntax.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 compares organization that helps comparison; no required bullet/table syntax.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:19",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 retains a clear recommendation with reasons, but does not require a second final summary in a fixed location.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 retains a clear recommendation with reasons, but does not require a second final summary in a fixed location.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:20",
+      "targets": [
+        "PT.D1.09",
+        "PW.D6.01"
+      ],
+      "reason": "Original weight is negative. Vague weather is explicitly weak in PT.D1.09 and vague wording is compared in PW.D6.01; labelled subjective preference is not automatically penalized.",
+      "status": "adapted",
+      "discrimination_check": "Original weight is negative. Vague weather is explicitly weak in PT.D1.09 and vague wording is compared in PW.D6.01; labelled subjective preference is not automatically penalized.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:21",
+      "targets": [
+        "PT.D2.02"
+      ],
+      "reason": "Original weight is negative. PT.D2.02 identifies unsupported or fabricated data only within obtained evidence, not by guessing at unverified facts.",
+      "status": "adapted",
+      "discrimination_check": "Original weight is negative. PT.D2.02 identifies unsupported or fabricated data only within obtained evidence, not by guessing at unverified facts.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:22",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Original negative direction is preserved: fewer than three cities lowers PT.D1.01. Do not reverse it into a request to omit cities.",
+      "status": "retained",
+      "discrimination_check": "Original negative direction is preserved: fewer than three cities lowers PT.D1.01. Do not reverse it into a request to omit cities.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:23",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.05",
+        "PT.D1.06",
+        "PT.D1.07"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.04, PT.D1.05, PT.D1.06, PT.D1.07. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "Core constraint items explicitly identify missing affordability, internet, walkability, nature and airport evidence. The original single blanket omission penalty is distributed, not duplicated as an extra score."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:24",
+      "targets": [
+        "PT.D2.01"
+      ],
+      "reason": "Original negative direction is preserved in PT.D2.01; missing attribution lowers traceability rather than encouraging uncited claims.",
+      "status": "retained",
+      "discrimination_check": "Original negative direction is preserved in PT.D2.01; missing attribution lowers traceability rather than encouraging uncited claims.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:25",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "Original negative direction is preserved: PW.D5.01 assesses disorganization and PW.D6.01 local technical ambiguity. The source-error part is D2, not another duplicated penalty here.",
+      "status": "adapted",
+      "discrimination_check": "Original negative direction is preserved: PW.D5.01 assesses disorganization and PW.D6.01 local technical ambiguity. The source-error part is D2, not another duplicated penalty here.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:26",
+      "targets": [
+        "PT.D1.01",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.01 requires concrete per-city trade-offs and user-specific rather than universal superiority; PW.D4.01 compares decision value. Negative direction of 26 preserved.",
+      "status": "adapted",
+      "discrimination_check": "An all-benefits city profile cannot receive 4/5 on PT.D1.01. No fixed two-per-city count or official city ranking.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:27",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "PT.D1.04 preserves usable remote-work internet assessment, not Google/AT&T Fiber or 5Gbps as a requirement.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 preserves usable remote-work internet assessment, not Google/AT&T Fiber or 5Gbps as a requirement.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:28",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "Real-estate change and conditional outlook restored; unsupported exact forecasts not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12 has explicit missing-side/city 3 and substantive high anchors; illustrative numbers and examples are not fixed keys.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:29",
+      "targets": [],
+      "reason": "A branded aggregate quality-of-life index is not mandatory: direct cost, health, access, amenities and risk evidence assesses the user's criteria without opaque aggregate weights.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "The recognized-index presence distinction remains unretained; this is an evidence-format loss, not permission to omit livability domains. Aggregate cross-city context remains a review consideration.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:30",
+      "targets": [
+        "PT.D1.11",
+        "PW.D3.02"
+      ],
+      "reason": "Preserve a user-relevant affordability comparison but allow index analysis or conditional budgets instead of a mandatory disposable-income model.",
+      "status": "adapted",
+      "discrimination_check": "A missing city, baseline or material housing/tax implication still affects PT. No residual-dollar calculation is mandatory; omitting the official exact disposable-income comparison is no longer independently penalized. PW compares supported interpretations, not method choice.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:31",
+      "targets": [
+        "PT.D1.02.rent"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.rent. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.02 requires real rent metrics on a defined housing basis; home-price and vacancy metrics are not all compulsory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:32",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01 assesses whether summaries help the reading path; no fixed executive-summary or visual requirement.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 assesses whether summaries help the reading path; no fixed executive-summary or visual requirement.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:33",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "Environmental/disaster exposure restored separately from weather comfort.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13 has explicit missing-side/city 3 and substantive high anchors; illustrative numbers and examples are not fixed keys.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605371:flat:34",
+      "targets": [
+        "PT.D1.14",
+        "PW.D3.01"
+      ],
+      "reason": "Concrete within-city affordability/access differences required; PW remains joint-feasibility argument.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14 has explicit missing-side/city 3 and substantive high anchors; illustrative numbers and examples are not fixed keys.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "Batch6 mechanical checks passed for unchanged queries, unique IDs, five-level anchors, D1–D6 coverage, per-item atomicity records and complete bidirectional official mappings. This is not independent semantic review or external verification of official facts.",
+    "No earlier assigned draft was available. PT covers the requested shortlist and constraints, with healthcare separated from rent/total costs; PW compares joint feasibility, personal affordability reasoning, choice value and reading/evidence fit.",
+    "The 30% total-cost threshold, three ranked cities and roughly 90-minute airport access come from the query. No fixed city list, region distribution, strict walk-score cutoff, provider, salary filing status or additional rubric quota is imposed.",
+    "Official negative weights 20–26 were read with their original direction. They were not converted to positive content demands. Official numerical examples and forecasts are not externally verified facts or fixed keys.",
+    "Author atomicity and official-discrimination checks completed; machine validation is not independent semantic review. No browser, candidate reports, scoring or personal tax advice was used.",
+    "v3.3：补回个人结余、人口/住房趋势、环境灾害与社区差异四个直接入口；排名须真实代价。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。",
+    "Review 32: only PT.D1.11 and its associated notes revised; earlier mandatory after-tax-and-housing residual wording is historical. PT.D2.03 and PW.D3.02 unchanged. No new tax/economic factual claims, external verification or reevaluation."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "rewritten",
+      "reason": "Reasons and trade-offs form the recommendation; a two-city partial shortlist or benefits with any city's downsides absent is 3. Three cities comes from the query, not an added quota."
+    },
+    {
+      "id": "PT.D1.02.total",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.02.total, PT.D1.02.rent]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.02.rent",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.02.total, PT.D1.02.rent]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "Affordable rent can coexist with unsuitable healthcare costs, so healthcare gets a separate item. Missing one city or unclear coverage basis scores 3."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "High advertised speed with reliability unaddressed explicitly scores 3; availability, speed and reliability characterize the same usable connection."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "A citywide label without a usable neighborhood assessment scores 3; score and geographic scope jointly identify the claim."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "A named park without practical access scores 3; destination and access form one reachable-nature assessment."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "Airport name without travel basis scores 3; time, origin and mode cannot be detached from the access claim."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "A tax rate without interpretable personal assumptions scores 3; rate and application conditions are one tax account."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "Concrete weather for two cities with the third missing scores 3; weather and its livability context remain together."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "Amenities good but diversity absent, or vice versa, is explicitly 3; mixed coverage is resolved without forcing demographic preferences or extra items."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "Source lists with unclear claim mappings score 3; traceability is one relationship."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "A findable city statistic can be unsupported; separate bounded support from traceability rather than assume the same outcome."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "Core and local accounting contradictions have separate anchors; total and included rent are inseparable accounting relationships."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "revise",
+      "reason": "Assess one integrated affordability comparison relevant to the stated salary, allowing alternative methods while requiring clear scope and housing/tax implications; do not repeat the standalone cost/tax data checks."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "Population and housing changes are linked in a durability judgment; either missing side is explicitly 3."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "Pleasant weather can coexist with omitted flood exposure; a weather PW cannot repair this."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "A named walkable block is not a contrast; affordability or daily-access side missing is 3."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "added",
+      "reason": "Individually good features from different locations do not establish joint feasibility; the relationship itself is the comparison, not several compensating checkboxes."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "Published costs must be interpreted under personal assumptions; extra precision without justified adjustments cannot substitute for the inference."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "Rank and trade-offs form one choice judgment; attractive amenities cannot compensate for a non-negotiable failure."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "added",
+      "reason": "A check without an unresolved dependency, or uncertainty without a decision-changing check, is an incomplete action path."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "Good city data but wrong-neighborhood application is mixed evidence fit; compare consequential claims instead of counting sources."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "Useful city profiles with poor cross-city progression are mixed whole-report organization, expressible at 0 or ±1."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "Clear prose with ambiguous cost units is mixed comprehension, not a second arithmetic score."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "Finding the city result but not its stated basis is an incomplete lookup path; keep the relationship together."
+    }
+  ]
+}

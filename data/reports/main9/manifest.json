@@ -1,0 +1,3364 @@
+{
+  "cohort": "main9",
+  "queries": 40,
+  "reports": 360,
+  "identity": "cohort + query_id + report_id + evaluation_sha256",
+  "distribution": "Only known tracking parameters are removed; original and distributed hashes are separate.",
+  "items": [
+    {
+      "query_id": "drb1_19",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_19/R1.md",
+      "evaluation_sha256": "001af2092eda5ede57d5d86580ecee337af605a44082e0958f09a6bf1b1946b3",
+      "file_sha256": "73881df2e385d4111d3eda2ae8adf65d62e0106bd37248c076057ed9b5ab3394",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 191
+      }
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_19/R2.md",
+      "evaluation_sha256": "05ac3aabf2c3a0388f4c2614c7e82c4e70ea186f3144095fd4c544eb0de2d8cb",
+      "file_sha256": "05ac3aabf2c3a0388f4c2614c7e82c4e70ea186f3144095fd4c544eb0de2d8cb",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_19/R3.md",
+      "evaluation_sha256": "ff8406faf14f3cfddf93a6e0ca5b6fbedf03d3e5e82daa26d4a30ab71619e677",
+      "file_sha256": "ff8406faf14f3cfddf93a6e0ca5b6fbedf03d3e5e82daa26d4a30ab71619e677",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_19/R4.md",
+      "evaluation_sha256": "e55b27cd01f5d9a18894aad6aa7084b072423b4a1f4894617e63aeee765b8d27",
+      "file_sha256": "e55b27cd01f5d9a18894aad6aa7084b072423b4a1f4894617e63aeee765b8d27",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_19/R5.md",
+      "evaluation_sha256": "d29cbb6407c4c7c3639c8420003bff11fcffb396eb0daead6928aee23db0dd61",
+      "file_sha256": "d29cbb6407c4c7c3639c8420003bff11fcffb396eb0daead6928aee23db0dd61",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_19/R6.md",
+      "evaluation_sha256": "1cbc9ad4f808376dfbb30189e2a38a1508dc696d1e9a17ea35a3641d4d6eed14",
+      "file_sha256": "1cbc9ad4f808376dfbb30189e2a38a1508dc696d1e9a17ea35a3641d4d6eed14",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_19/R7.md",
+      "evaluation_sha256": "c141527a7c5c0b6be7b4edb10b5b046fb2d4e664129efd27ad08bb6156dfaa56",
+      "file_sha256": "c141527a7c5c0b6be7b4edb10b5b046fb2d4e664129efd27ad08bb6156dfaa56",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_19/R9.md",
+      "evaluation_sha256": "8c1b36aae8d1c01eb27a45ac851cfb4746f69d9e5e3970210032647ab9aa38ca",
+      "file_sha256": "8c1b36aae8d1c01eb27a45ac851cfb4746f69d9e5e3970210032647ab9aa38ca",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_19",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_19/R10.md",
+      "evaluation_sha256": "79f4afc696dc946cf8c3926a7a1fec4f8b0baff1c2f6fa13ff761ec108bb3e52",
+      "file_sha256": "79f4afc696dc946cf8c3926a7a1fec4f8b0baff1c2f6fa13ff761ec108bb3e52",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_25/R1.md",
+      "evaluation_sha256": "6c6b0ba26db68bfbb197bd70e1285b02461c897acd31b165586056d51b1f4ff1",
+      "file_sha256": "37ec16bcc65779b381286f14c0805747f67c6ac44fa593048214e55061de02cb",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 268
+      }
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_25/R2.md",
+      "evaluation_sha256": "a89421eea7ecbfe404c83654ef409f8a728686b0ef82d0914ffb9b367357f31f",
+      "file_sha256": "a89421eea7ecbfe404c83654ef409f8a728686b0ef82d0914ffb9b367357f31f",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_25/R3.md",
+      "evaluation_sha256": "9afdc3f743ddcf8750b246eccf14afcde8c018f302fa6c3d5b4890928671ff9d",
+      "file_sha256": "9afdc3f743ddcf8750b246eccf14afcde8c018f302fa6c3d5b4890928671ff9d",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_25/R4.md",
+      "evaluation_sha256": "5f7993035be2c2a33adba1eb42c7c95b6ada5ec36701ad0614e833fa4fb11d5d",
+      "file_sha256": "5f7993035be2c2a33adba1eb42c7c95b6ada5ec36701ad0614e833fa4fb11d5d",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_25/R5.md",
+      "evaluation_sha256": "6104d14ee6c97a5b68b70bc0e2d3c1955bd9042bbdd88ee67f297bcbe73f929e",
+      "file_sha256": "6104d14ee6c97a5b68b70bc0e2d3c1955bd9042bbdd88ee67f297bcbe73f929e",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_25/R6.md",
+      "evaluation_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d",
+      "file_sha256": "d29635d133a9d30dc75c822d629f48c63f99ffe1ab72f23cb9ee09875e6d398d",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_25/R7.md",
+      "evaluation_sha256": "cde0c8055e72ceb08a7b8b6042c70300a08657459a8b456d5babd9a4d2b4b24c",
+      "file_sha256": "cde0c8055e72ceb08a7b8b6042c70300a08657459a8b456d5babd9a4d2b4b24c",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_25/R9.md",
+      "evaluation_sha256": "984a2f0e55d7aa661743bc54071b94d467572927950981709f675ae09bc311f5",
+      "file_sha256": "984a2f0e55d7aa661743bc54071b94d467572927950981709f675ae09bc311f5",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_25",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_25/R10.md",
+      "evaluation_sha256": "33bcc3e3161b3aaf5147a8899da66ec784057110bacf4313371e1cf16d47a4b0",
+      "file_sha256": "33bcc3e3161b3aaf5147a8899da66ec784057110bacf4313371e1cf16d47a4b0",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_27/R1.md",
+      "evaluation_sha256": "5aaa203bb9464fc2b7ad1da5891d0081be2c569bb28ade988a34c0f5f25fc679",
+      "file_sha256": "5f781fc4dbf74734c437fa04a4f3fcffab19f1d92c45c5f7f4945a5ecbee3b2c",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 77
+      }
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_27/R2.md",
+      "evaluation_sha256": "5173777666ae110f56da0c3349c1e090e31155d92d09335f9529eb74e8d0716f",
+      "file_sha256": "5173777666ae110f56da0c3349c1e090e31155d92d09335f9529eb74e8d0716f",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_27/R3.md",
+      "evaluation_sha256": "f9e5b76904db05f1b26d06d3223c5e8a17304de78f11c9ae9c8e2c9bbc98d191",
+      "file_sha256": "f9e5b76904db05f1b26d06d3223c5e8a17304de78f11c9ae9c8e2c9bbc98d191",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_27/R4.md",
+      "evaluation_sha256": "2f5cd7bf24f8e63e853ee06dd28e2260aad92c2f25a1aa5555c9b6716892a8a3",
+      "file_sha256": "2f5cd7bf24f8e63e853ee06dd28e2260aad92c2f25a1aa5555c9b6716892a8a3",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_27/R5.md",
+      "evaluation_sha256": "9d294a736f99fbde433343a38368568fc542169697e244dc88d2a43d05655551",
+      "file_sha256": "9d294a736f99fbde433343a38368568fc542169697e244dc88d2a43d05655551",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_27/R6.md",
+      "evaluation_sha256": "a7791ae3cfe7f886781cc88631a22e38ad001aa3ec95bc39025909b57f2de28f",
+      "file_sha256": "a7791ae3cfe7f886781cc88631a22e38ad001aa3ec95bc39025909b57f2de28f",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_27/R7.md",
+      "evaluation_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04",
+      "file_sha256": "00bc2ceb46e59820ebd8afbd1f3936e856966a623d1265f36e283bbb8b77ff04",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_27/R9.md",
+      "evaluation_sha256": "0b25f75a78887a7d78259d775262bb8b0732654a498aa1df490c255d118dd864",
+      "file_sha256": "e1469a62483b0b7033cb3edd1089de71a47e47f4ae05c8fbfe221992e20da1c3",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {
+        "srsltid": 2
+      }
+    },
+    {
+      "query_id": "drb1_27",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_27/R10.md",
+      "evaluation_sha256": "b06c0fb246075d15528602e948489ca7e5056897deb7d69d61542898f796dd6f",
+      "file_sha256": "b06c0fb246075d15528602e948489ca7e5056897deb7d69d61542898f796dd6f",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_47/R1.md",
+      "evaluation_sha256": "b3a9f122aa35d8b0369ae3b4be02a67b479f225316756c5bd0def3637ffc6b8c",
+      "file_sha256": "e5d80141ac7abc80d8e855d87b9d2fd9c8ab9d641fefe2d647c3d19cb1fc53b6",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 66
+      }
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_47/R2.md",
+      "evaluation_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31",
+      "file_sha256": "95306c92f132b170149f2368204e73c6d65dea2e3ff11ab435476ce8c1292d31",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_47/R3.md",
+      "evaluation_sha256": "62767198e132a3c7c2f04c29752c03b9c49ad2db19067ae9e9ab669eafba7425",
+      "file_sha256": "62767198e132a3c7c2f04c29752c03b9c49ad2db19067ae9e9ab669eafba7425",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_47/R4.md",
+      "evaluation_sha256": "d05084021ecfafaf4063aed401c9917ebba56c4384aa3172a6a7889dfa99c14b",
+      "file_sha256": "d05084021ecfafaf4063aed401c9917ebba56c4384aa3172a6a7889dfa99c14b",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_47/R5.md",
+      "evaluation_sha256": "719dca207faaee3f412fdda94beca8e939adb9545baee40b66bed792b2cf9943",
+      "file_sha256": "719dca207faaee3f412fdda94beca8e939adb9545baee40b66bed792b2cf9943",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_47/R6.md",
+      "evaluation_sha256": "df44261b7df1e90acb6e2c53e8822d8147d0168edf7749fea0cba7bc8adf9af7",
+      "file_sha256": "df44261b7df1e90acb6e2c53e8822d8147d0168edf7749fea0cba7bc8adf9af7",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_47/R7.md",
+      "evaluation_sha256": "53970fcecf480bf61c4d3c1fcdb3f3c7f1119158aeb11c369728b83583b2a451",
+      "file_sha256": "53970fcecf480bf61c4d3c1fcdb3f3c7f1119158aeb11c369728b83583b2a451",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_47/R9.md",
+      "evaluation_sha256": "3a32a4d93500eed549df193caddf5b427cce8c969083fb54f1325c0667f9c7ed",
+      "file_sha256": "3a32a4d93500eed549df193caddf5b427cce8c969083fb54f1325c0667f9c7ed",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_47",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_47/R10.md",
+      "evaluation_sha256": "66e53f0d742fca942432973d411c8a1428337bf8818d8bdd85cadc6ab0fe9dd3",
+      "file_sha256": "66e53f0d742fca942432973d411c8a1428337bf8818d8bdd85cadc6ab0fe9dd3",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_48/R1.md",
+      "evaluation_sha256": "14b36841c33be9e89c97910564cdd1d83fbd1b2122148652d681baf49d980a0e",
+      "file_sha256": "3dda2d88c82c8e69dd13e6b88f3690511e406a3f75a1f1430ccd870e66335e1b",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 29
+      }
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_48/R2.md",
+      "evaluation_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff",
+      "file_sha256": "ded21ea970ce31849ae94e995dbe7590e067963db28095df637cccc2857677ff",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_48/R3.md",
+      "evaluation_sha256": "df1197dd7b8b05b725c6b7988b5f5ed246056ce3730ffa1396e72c2ed4c87266",
+      "file_sha256": "df1197dd7b8b05b725c6b7988b5f5ed246056ce3730ffa1396e72c2ed4c87266",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_48/R4.md",
+      "evaluation_sha256": "c8b6c2b9e8e105d22fecefa6bb57069ffc63c6035c8d3badcc8a318618d4ce0e",
+      "file_sha256": "c8b6c2b9e8e105d22fecefa6bb57069ffc63c6035c8d3badcc8a318618d4ce0e",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_48/R5.md",
+      "evaluation_sha256": "1a58f697be4442608d9bcc67cd04fc7dcc9f23161c7e87035e09e8e4ac8bd55f",
+      "file_sha256": "1a58f697be4442608d9bcc67cd04fc7dcc9f23161c7e87035e09e8e4ac8bd55f",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_48/R6.md",
+      "evaluation_sha256": "db7c15f38dc850bb1e35b88a1e0f54486097ed791e00b38f26b3865f805efe5a",
+      "file_sha256": "db7c15f38dc850bb1e35b88a1e0f54486097ed791e00b38f26b3865f805efe5a",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_48/R7.md",
+      "evaluation_sha256": "16c6d8a92a917d258872ac5aa5f03c43338d5ae1c7dda0decf15b674272b79a8",
+      "file_sha256": "6189d735a29b69a8f73d2ca849ffd8bdb2e0252f527e9fd98775f0eb95c05f5c",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 1
+      }
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_48/R9.md",
+      "evaluation_sha256": "e4ebcf4e72b09b54dfe7a9cb21146c4f7397800ee8458194be80e5068871c284",
+      "file_sha256": "e4ebcf4e72b09b54dfe7a9cb21146c4f7397800ee8458194be80e5068871c284",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_48",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_48/R10.md",
+      "evaluation_sha256": "e13b89c180c941d6db67c0448d9d6c971b16732204c1bcc088859e94c9357d4c",
+      "file_sha256": "e13b89c180c941d6db67c0448d9d6c971b16732204c1bcc088859e94c9357d4c",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb1_51/R1.md",
+      "evaluation_sha256": "a9b599c2c8dc4cf6a0de3c359030144d09b59b48f70e87840b03a1e4752477d6",
+      "file_sha256": "eb3ce31b79a0dfbc9899c88724cc622684d321344cefa33325ea71a742bbac88",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 45
+      }
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb1_51/R2.md",
+      "evaluation_sha256": "4acb60739cd40c70b83c9b5a1087150784ce91f6733ddd5b802791f5ec242909",
+      "file_sha256": "4acb60739cd40c70b83c9b5a1087150784ce91f6733ddd5b802791f5ec242909",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb1_51/R3.md",
+      "evaluation_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36",
+      "file_sha256": "4adf79d63c954e6d56e7938e913b06ba1d76af0261aff96f58758a524304ef36",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb1_51/R4.md",
+      "evaluation_sha256": "792cba0eac13d28f4f08397001bd230a553279d07b0fde7ffa9f53a4a7293a86",
+      "file_sha256": "792cba0eac13d28f4f08397001bd230a553279d07b0fde7ffa9f53a4a7293a86",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb1_51/R5.md",
+      "evaluation_sha256": "cf443a9f6a798b17a9667149c37a9b27c36157e623f1d5853766f3d1fa2b5e36",
+      "file_sha256": "cf443a9f6a798b17a9667149c37a9b27c36157e623f1d5853766f3d1fa2b5e36",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb1_51/R6.md",
+      "evaluation_sha256": "e257f4dd060431b235cce0cf7d7a5e35831e95f9fc2e78e43fecec8dce820250",
+      "file_sha256": "e257f4dd060431b235cce0cf7d7a5e35831e95f9fc2e78e43fecec8dce820250",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb1_51/R7.md",
+      "evaluation_sha256": "be5d2c4e540da039324a7e1dd2cbd6295c4bb19b2fbe0fbf9d4dd9e34dbc409f",
+      "file_sha256": "e872110cbba15f7ba28f37962eb38d2cac6bcd36778a6030673d3b9546d9c7ab",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 2
+      }
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb1_51/R9.md",
+      "evaluation_sha256": "d1e3df47a0d2989fb19f6b6701f4ffb45d4915cb26ca24589218f5db21471b72",
+      "file_sha256": "d1e3df47a0d2989fb19f6b6701f4ffb45d4915cb26ca24589218f5db21471b72",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb1_51",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb1_51/R10.md",
+      "evaluation_sha256": "3026fd16d6f3f12d59e07b4926dfc692c69256fae6f3e9280894d93b92c4f3df",
+      "file_sha256": "3026fd16d6f3f12d59e07b4926dfc692c69256fae6f3e9280894d93b92c4f3df",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_11/R1.md",
+      "evaluation_sha256": "2fc2accbc2b1e67c575bee67b21b20579865fb530423ce259a0a9c4ca9a5bfba",
+      "file_sha256": "0c412d149d5a687bf79b43c2efce5c55b6f2f9c90f882c219924ecb03b494ecf",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 149
+      }
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_11/R2.md",
+      "evaluation_sha256": "a6d2fd8eab866fea1d683f35e0bc980336c00a4177aac1e678f1a69b21ac2ab5",
+      "file_sha256": "a6d2fd8eab866fea1d683f35e0bc980336c00a4177aac1e678f1a69b21ac2ab5",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_11/R3.md",
+      "evaluation_sha256": "b607174d7858b8dfd772b7db59fe7f4c6370f8f1794a82be856156de8b6ee59d",
+      "file_sha256": "b607174d7858b8dfd772b7db59fe7f4c6370f8f1794a82be856156de8b6ee59d",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_11/R4.md",
+      "evaluation_sha256": "895bb3d503933e1b109e36304360b192f8db00a4a1057f08735c6edd5130e95b",
+      "file_sha256": "895bb3d503933e1b109e36304360b192f8db00a4a1057f08735c6edd5130e95b",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_11/R5.md",
+      "evaluation_sha256": "6b090ac30e78b02fff1f5a89831f5dc01dfa4bec8ee9c2a17750509c55f743e3",
+      "file_sha256": "6b090ac30e78b02fff1f5a89831f5dc01dfa4bec8ee9c2a17750509c55f743e3",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_11/R6.md",
+      "evaluation_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923",
+      "file_sha256": "571526cb4807cfabf2c28fffb2bd2005a5b3fa05cf721365dd0219ff93e7c923",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_11/R7.md",
+      "evaluation_sha256": "c6c1643d6617063eac811eb01e73e9c62955c68f2af1ad102e7862b2c2260632",
+      "file_sha256": "d055b1e34c8a435d3cd16a3df1177af1b3c023a3e5873e7d484d2b1c66ea902f",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 5
+      }
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_11/R9.md",
+      "evaluation_sha256": "9fb794b12688cdb298e46da36d63c75923f468912747cdf240f0ff555e1478d4",
+      "file_sha256": "9fb794b12688cdb298e46da36d63c75923f468912747cdf240f0ff555e1478d4",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_11",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_11/R10.md",
+      "evaluation_sha256": "09d7a9576c6bfa9ddb76d1214ad9c39fab61afbc900ffb3ff57b45f6376217e4",
+      "file_sha256": "09d7a9576c6bfa9ddb76d1214ad9c39fab61afbc900ffb3ff57b45f6376217e4",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_117/R1.md",
+      "evaluation_sha256": "1897e448da97b29c9044522f4df56f56aa88e8997b27bcd120830e886620a78c",
+      "file_sha256": "e1e589ae3432b15f825496c1c11e977c9f22c2fb9af3a0eef2750e766c686f1f",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 9
+      }
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_117/R2.md",
+      "evaluation_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff",
+      "file_sha256": "6f61449eabaaa9e673e2c036dc3c49265c433c59ae3922b568721ea6cdeb8dff",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_117/R3.md",
+      "evaluation_sha256": "f720b4f0887aca1549e0b5237e4b774b2cf5aacdb51868ca2a58fd056ff4e45a",
+      "file_sha256": "f720b4f0887aca1549e0b5237e4b774b2cf5aacdb51868ca2a58fd056ff4e45a",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_117/R4.md",
+      "evaluation_sha256": "f32c76363f58e84e67d7d7694532eab3391600ca76abd958547d3026adbdd236",
+      "file_sha256": "f32c76363f58e84e67d7d7694532eab3391600ca76abd958547d3026adbdd236",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_117/R5.md",
+      "evaluation_sha256": "94bd1d67d9cc56f2e28609a1c1fce00ef5e4ec42e3aded602392f7d0fb75c58d",
+      "file_sha256": "94bd1d67d9cc56f2e28609a1c1fce00ef5e4ec42e3aded602392f7d0fb75c58d",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_117/R6.md",
+      "evaluation_sha256": "15649d6effd6991c4a7e5727b61cfe0b06e64309a456dcb04190ac0dcd83022a",
+      "file_sha256": "15649d6effd6991c4a7e5727b61cfe0b06e64309a456dcb04190ac0dcd83022a",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_117/R7.md",
+      "evaluation_sha256": "77e32acc7ba8b0254eef2cc2ad4accdbacd568e5d8135954e6bc2747c711d5a8",
+      "file_sha256": "77e32acc7ba8b0254eef2cc2ad4accdbacd568e5d8135954e6bc2747c711d5a8",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_117/R9.md",
+      "evaluation_sha256": "f3225073ed04a20d3d46305d34b6620a02f00caf4ce9ad6a4e200babf5206e77",
+      "file_sha256": "f3225073ed04a20d3d46305d34b6620a02f00caf4ce9ad6a4e200babf5206e77",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_117",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_117/R10.md",
+      "evaluation_sha256": "62506f391c799aecea4b0bd13cf93eed7fc69b0c9c3c1f3ebe790e7f34e9e880",
+      "file_sha256": "62506f391c799aecea4b0bd13cf93eed7fc69b0c9c3c1f3ebe790e7f34e9e880",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_119/R1.md",
+      "evaluation_sha256": "be69f8a9f23485840abc62e13c5831d6010ee3c750f46798cf9c4f0e441ce626",
+      "file_sha256": "e25bf34a41a4feee170ce356c5ec9b41f8963d879cc19224e078d0862f8a148a",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 25
+      }
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_119/R2.md",
+      "evaluation_sha256": "32f76813b8dfe37a56b0e75049a3cbc2ff0f29bfab36effb014049b7431aa40b",
+      "file_sha256": "32f76813b8dfe37a56b0e75049a3cbc2ff0f29bfab36effb014049b7431aa40b",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_119/R3.md",
+      "evaluation_sha256": "6334d6bc864d8a76f11fb02cfa9581ea0bcf09b601c7bcf05d892786783bf5b4",
+      "file_sha256": "6334d6bc864d8a76f11fb02cfa9581ea0bcf09b601c7bcf05d892786783bf5b4",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_119/R4.md",
+      "evaluation_sha256": "d14f29c4faa726d5b84065cf3a42b3ee30aef76753c7fd4c39e7dc5d44e5ac8c",
+      "file_sha256": "d14f29c4faa726d5b84065cf3a42b3ee30aef76753c7fd4c39e7dc5d44e5ac8c",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_119/R5.md",
+      "evaluation_sha256": "d9f0c49258072c82579642ad17014d5b595983ca32545244803c4dab5ebcbaf4",
+      "file_sha256": "d9f0c49258072c82579642ad17014d5b595983ca32545244803c4dab5ebcbaf4",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_119/R6.md",
+      "evaluation_sha256": "11de80fc78a9a000d83f78a7cedad22e1f69396424f8166b2da27db0386e1d4a",
+      "file_sha256": "11de80fc78a9a000d83f78a7cedad22e1f69396424f8166b2da27db0386e1d4a",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_119/R7.md",
+      "evaluation_sha256": "5453dfeb89f03fcce06257cb1eac6bc3c5b8963832fd37bdab3de6f4ed9f3543",
+      "file_sha256": "5453dfeb89f03fcce06257cb1eac6bc3c5b8963832fd37bdab3de6f4ed9f3543",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_119/R9.md",
+      "evaluation_sha256": "0bd7741e437ce16a9dd16efa839de3aa9fb3f4e19702db3e9f5de8d3f345fe26",
+      "file_sha256": "0bd7741e437ce16a9dd16efa839de3aa9fb3f4e19702db3e9f5de8d3f345fe26",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_119",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_119/R10.md",
+      "evaluation_sha256": "0351de8925281585bd50ea2a9969a3982283aa4d5734e64ec446eeb409be7d1d",
+      "file_sha256": "0351de8925281585bd50ea2a9969a3982283aa4d5734e64ec446eeb409be7d1d",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_123/R1.md",
+      "evaluation_sha256": "cb2d063c1c6645a64477fb4175ca818b341d974b4dc59a11d3c6c2f030d1dd99",
+      "file_sha256": "100796d0e91f8e4b6d2deb87dcd5c2abb02c565cb73f5d2ccd210805fe292fce",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 73
+      }
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_123/R2.md",
+      "evaluation_sha256": "87109f70d07eee2c7952faf14ec455f8288d3449b74af6aab376473999a82943",
+      "file_sha256": "87109f70d07eee2c7952faf14ec455f8288d3449b74af6aab376473999a82943",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_123/R3.md",
+      "evaluation_sha256": "73d8c4d1e5b2cce7bd27ed2f4c8593fc5b3f03652995bdc32a552d546c5bb7be",
+      "file_sha256": "73d8c4d1e5b2cce7bd27ed2f4c8593fc5b3f03652995bdc32a552d546c5bb7be",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_123/R4.md",
+      "evaluation_sha256": "f3bfa9725a29bd770bc50fd3e2ea8cb5cae972cbe9767bc1ee19141a3396e596",
+      "file_sha256": "f3bfa9725a29bd770bc50fd3e2ea8cb5cae972cbe9767bc1ee19141a3396e596",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_123/R5.md",
+      "evaluation_sha256": "d407c787d056dae252261d0d6389cd9c4c14682367d92a342d4ae10e92170c1c",
+      "file_sha256": "d407c787d056dae252261d0d6389cd9c4c14682367d92a342d4ae10e92170c1c",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_123/R6.md",
+      "evaluation_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490",
+      "file_sha256": "5c29abca3807d1d48c0d510f79410befac7174f92fb95eba5b8f9b8d9ce29490",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_123/R7.md",
+      "evaluation_sha256": "3d6db195837861deca91539bf1be4ced122814f6cec6052606f84622e271d547",
+      "file_sha256": "3d6db195837861deca91539bf1be4ced122814f6cec6052606f84622e271d547",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_123/R9.md",
+      "evaluation_sha256": "ddba00387d481cc21c36affd5cae26c045dd6cd7a70b873af168e908e3b409df",
+      "file_sha256": "ddba00387d481cc21c36affd5cae26c045dd6cd7a70b873af168e908e3b409df",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_123",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_123/R10.md",
+      "evaluation_sha256": "e58a203a75ebd766741f292d355670c0cfa3e63589f9e68953840a5dc30d0f0c",
+      "file_sha256": "e58a203a75ebd766741f292d355670c0cfa3e63589f9e68953840a5dc30d0f0c",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_125/R1.md",
+      "evaluation_sha256": "dd875a2fd8de8f0ba75bb3e96ca88f925b4f2a3582be9651214a5ae918ebfaf7",
+      "file_sha256": "1e048627974eaf0c979ff0772ea74e61bff84ef924b5bc49575d12080054745b",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 22
+      }
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_125/R2.md",
+      "evaluation_sha256": "e2088666db99a78d069ca4003f80631338464bddac71b41f35711f6d7eef6940",
+      "file_sha256": "e2088666db99a78d069ca4003f80631338464bddac71b41f35711f6d7eef6940",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_125/R3.md",
+      "evaluation_sha256": "7e436d74c3bc1fc305e865c9dbe9daf5732ff2f1378579bdd37406031cf9d0a4",
+      "file_sha256": "7e436d74c3bc1fc305e865c9dbe9daf5732ff2f1378579bdd37406031cf9d0a4",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_125/R4.md",
+      "evaluation_sha256": "adc11ae8f7089eb135d6952f812ac9ef029666456bf8232692fef5ed2a4162cb",
+      "file_sha256": "adc11ae8f7089eb135d6952f812ac9ef029666456bf8232692fef5ed2a4162cb",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_125/R5.md",
+      "evaluation_sha256": "5848f4ad8a15fe045a4a79c4d856bfecc40db90ff160e065abe95ed1773a927d",
+      "file_sha256": "5848f4ad8a15fe045a4a79c4d856bfecc40db90ff160e065abe95ed1773a927d",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_125/R6.md",
+      "evaluation_sha256": "81e497a2117c69af6c54dbed874bfc4a2faa87b2342def62ded2f66d8b19d3bc",
+      "file_sha256": "81e497a2117c69af6c54dbed874bfc4a2faa87b2342def62ded2f66d8b19d3bc",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_125/R7.md",
+      "evaluation_sha256": "bf5f21a0e358fd1ae222435b771102756b74ee878648c8e4fe6986a35820b2b2",
+      "file_sha256": "297b72af4ea26477748dcd466d1652a44504338c0747b109fcac3181e8f1a1c4",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "fbclid": 2
+      }
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_125/R9.md",
+      "evaluation_sha256": "2b46e8a38309320d82ba25db0057b2805183d1ea8046a9d039b76d6dca564870",
+      "file_sha256": "2b46e8a38309320d82ba25db0057b2805183d1ea8046a9d039b76d6dca564870",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_125",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_125/R10.md",
+      "evaluation_sha256": "5d3698631ab78fe51d7ff72d2ca3d4e1b9b341d3b7aae4d8d7798d86624f6b58",
+      "file_sha256": "5d3698631ab78fe51d7ff72d2ca3d4e1b9b341d3b7aae4d8d7798d86624f6b58",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_129/R1.md",
+      "evaluation_sha256": "962e04750a6a454a09e9099560952e216bc702c2f5c368cdb903fea29a385f2a",
+      "file_sha256": "fdeb2872803d72e9926b888664a6e14fe22042673e26570828530da5b14935f4",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 57
+      }
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_129/R2.md",
+      "evaluation_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e",
+      "file_sha256": "447a968cf3a39898e75d2d7231395f32170b1658fff82a57c81b931e9f0caa6e",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_129/R3.md",
+      "evaluation_sha256": "2e4df197889a8402acdd6cc20b1855d87697b4e5ea3020d9044b34c85fa23957",
+      "file_sha256": "2e4df197889a8402acdd6cc20b1855d87697b4e5ea3020d9044b34c85fa23957",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_129/R4.md",
+      "evaluation_sha256": "be4794e934126b098181b7bde455b511174463d3b0fdd5e1e1c40b404cb56901",
+      "file_sha256": "be4794e934126b098181b7bde455b511174463d3b0fdd5e1e1c40b404cb56901",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_129/R5.md",
+      "evaluation_sha256": "66105ba2939b785b3fcb2f5f82278db4ce647ffccfb437feed617169c19b47c0",
+      "file_sha256": "66105ba2939b785b3fcb2f5f82278db4ce647ffccfb437feed617169c19b47c0",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_129/R6.md",
+      "evaluation_sha256": "27e0a673cd996043848c085e6659c4af671c1bc8d2ffcd9f425582aceb14769d",
+      "file_sha256": "27e0a673cd996043848c085e6659c4af671c1bc8d2ffcd9f425582aceb14769d",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_129/R7.md",
+      "evaluation_sha256": "b3df48e95ab7e827d62d19e5832e287d37749187847d26ce1c699b876ff236e8",
+      "file_sha256": "659df81e2800273dc85150acb62315910dccbed9e843cd119999bb32bb343b0f",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "fbclid": 2,
+        "srsltid": 2
+      }
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_129/R9.md",
+      "evaluation_sha256": "51826adec6772bd2a5fd7e67c390b8548b0504405016191260d092e3be6af1d5",
+      "file_sha256": "51826adec6772bd2a5fd7e67c390b8548b0504405016191260d092e3be6af1d5",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_129",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_129/R10.md",
+      "evaluation_sha256": "0cda906c2d92da3640e861a02fec427de80c3818bf1deba035efaa0d6a673924",
+      "file_sha256": "0cda906c2d92da3640e861a02fec427de80c3818bf1deba035efaa0d6a673924",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_15/R1.md",
+      "evaluation_sha256": "e81796ba166957280a9a60b55d95a7b517b906f1d06efcd55cad9f2407185206",
+      "file_sha256": "d3618060676d309da8f53f7389167b2af5702ee09c664e0a5714c185a3ed9bb5",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 100
+      }
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_15/R2.md",
+      "evaluation_sha256": "ba775311a4e6d1c28d369e3127aa276f1cf88b34e6048c0fb0b7b90de54b8c33",
+      "file_sha256": "7edd0634951e5ad044882160f18fb793533f500ec57b21d6e127af0d15606bfe",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 9
+      }
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_15/R3.md",
+      "evaluation_sha256": "66a6f58a03544141606fcf5781708d4b08f7bb481c6e30d2075d847cd88ee26f",
+      "file_sha256": "66a6f58a03544141606fcf5781708d4b08f7bb481c6e30d2075d847cd88ee26f",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_15/R4.md",
+      "evaluation_sha256": "3b607b823c79b5cf87af15c26ebe81338e454b21d579789c3969877f4d60cd44",
+      "file_sha256": "3b607b823c79b5cf87af15c26ebe81338e454b21d579789c3969877f4d60cd44",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_15/R5.md",
+      "evaluation_sha256": "995bbad457109a431f47e46b7f4c78533966196b28c56cf4b2452f764ab321c5",
+      "file_sha256": "995bbad457109a431f47e46b7f4c78533966196b28c56cf4b2452f764ab321c5",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_15/R6.md",
+      "evaluation_sha256": "f35ffbebbedcba3ccf7bed6223891bb21f54ceba78b051dab14b0fba0a2f4a88",
+      "file_sha256": "f35ffbebbedcba3ccf7bed6223891bb21f54ceba78b051dab14b0fba0a2f4a88",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_15/R7.md",
+      "evaluation_sha256": "f6a255cea0fcc6c471c9c69e27637c49fe23df189891df9b466f65e0c63b67ee",
+      "file_sha256": "f6a255cea0fcc6c471c9c69e27637c49fe23df189891df9b466f65e0c63b67ee",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_15/R9.md",
+      "evaluation_sha256": "b2f1072f0bc5b2bd7a7b0c470ee9a7c3e942c30a6ae0177b4806753ba1a18378",
+      "file_sha256": "b2f1072f0bc5b2bd7a7b0c470ee9a7c3e942c30a6ae0177b4806753ba1a18378",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_15",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_15/R10.md",
+      "evaluation_sha256": "1614e7199563334e3de5294392ca12a63192db4be7a07622281933d19b210721",
+      "file_sha256": "1614e7199563334e3de5294392ca12a63192db4be7a07622281933d19b210721",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_18/R1.md",
+      "evaluation_sha256": "9fd4da86f221e270c1412ca1f346f6707855acd7af21a1f7a0d442be998ab2dd",
+      "file_sha256": "87d323832bbd78854fce88223efa0f38d3ab13ddd46a7cd4aa04e4aa84738be5",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 29
+      }
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_18/R2.md",
+      "evaluation_sha256": "cf2faf0a2527b431972a88de0d9cf1204eba0fcef36d7a1a3caf92601cdc707f",
+      "file_sha256": "cf2faf0a2527b431972a88de0d9cf1204eba0fcef36d7a1a3caf92601cdc707f",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_18/R3.md",
+      "evaluation_sha256": "f870ddd6c4c70b75a19d91b77646be8ebae2eef9f28a4acce1b0a4cfee959269",
+      "file_sha256": "f870ddd6c4c70b75a19d91b77646be8ebae2eef9f28a4acce1b0a4cfee959269",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_18/R4.md",
+      "evaluation_sha256": "5b9c3a3454db2c10ad63dfd8cd53d2cec0551a0461958b6ca3c98dae2c9d6ffe",
+      "file_sha256": "5b9c3a3454db2c10ad63dfd8cd53d2cec0551a0461958b6ca3c98dae2c9d6ffe",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_18/R5.md",
+      "evaluation_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006",
+      "file_sha256": "2002dfe86729a037097a15253692dc4fa66fb73ac8f184385cc6d6c5250c9006",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_18/R6.md",
+      "evaluation_sha256": "155c2ebc9c16938b76d32ed0868160c6f28116bdf0090dcb3bf5482ba491e4a7",
+      "file_sha256": "155c2ebc9c16938b76d32ed0868160c6f28116bdf0090dcb3bf5482ba491e4a7",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_18/R7.md",
+      "evaluation_sha256": "415d21f5599e2c114ff3d1dccb073bcd25c0d175496f1018dca4a16cfac40ee3",
+      "file_sha256": "415d21f5599e2c114ff3d1dccb073bcd25c0d175496f1018dca4a16cfac40ee3",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_18/R9.md",
+      "evaluation_sha256": "bee9923ce75a86a2ba08a627ee0a17015f3144a8c2ed8fe9baf67574bba54e94",
+      "file_sha256": "bee9923ce75a86a2ba08a627ee0a17015f3144a8c2ed8fe9baf67574bba54e94",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_18",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_18/R10.md",
+      "evaluation_sha256": "fd777e48a55da9fe572fc024d7dd19026ab7c6f6f9e147d07682a5673fe8c404",
+      "file_sha256": "fd777e48a55da9fe572fc024d7dd19026ab7c6f6f9e147d07682a5673fe8c404",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_21/R1.md",
+      "evaluation_sha256": "c398c7ea7d74b9b40263ae86842e8876f18cb6302f61df17d6991f2a4ff84b43",
+      "file_sha256": "ba11a6d190b65082f7fd94afc38bbc7606b071ed8231f3bac34473d16ac51dc9",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 101
+      }
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_21/R2.md",
+      "evaluation_sha256": "77a0216102355521ac69bd5b70f4cd3974cfcdef08626beb87edc8ab6892aaec",
+      "file_sha256": "77a0216102355521ac69bd5b70f4cd3974cfcdef08626beb87edc8ab6892aaec",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_21/R3.md",
+      "evaluation_sha256": "927f1bf679aff5d0e493aac14369d564bce4a11f96d0cd293e8e9d150a2f3296",
+      "file_sha256": "927f1bf679aff5d0e493aac14369d564bce4a11f96d0cd293e8e9d150a2f3296",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_21/R4.md",
+      "evaluation_sha256": "566d060395f0590924c61a1c9a72b06932aec6ecf214c45a460e8a89d40a9076",
+      "file_sha256": "566d060395f0590924c61a1c9a72b06932aec6ecf214c45a460e8a89d40a9076",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_21/R5.md",
+      "evaluation_sha256": "71d07b349cad0433e02d2164164865f40398e3d81426b0d5ced729af1b415f43",
+      "file_sha256": "71d07b349cad0433e02d2164164865f40398e3d81426b0d5ced729af1b415f43",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_21/R6.md",
+      "evaluation_sha256": "4df6a07a6967dd9aed55ffe519426105382d90cd799ecaad4f83ca2e4d433352",
+      "file_sha256": "4df6a07a6967dd9aed55ffe519426105382d90cd799ecaad4f83ca2e4d433352",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_21/R7.md",
+      "evaluation_sha256": "76db8b5e3af2a6179eec3be3ffe91b4ddfb0e67e71558584bd3f1c289e68c643",
+      "file_sha256": "76db8b5e3af2a6179eec3be3ffe91b4ddfb0e67e71558584bd3f1c289e68c643",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_21/R9.md",
+      "evaluation_sha256": "164c5b4bec392e043483faff7b75ffb339e4016ead79cfc99d15a244f426efdd",
+      "file_sha256": "164c5b4bec392e043483faff7b75ffb339e4016ead79cfc99d15a244f426efdd",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_21",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_21/R10.md",
+      "evaluation_sha256": "40cf962868d8a20603388a66376f05031638bb1c6aa951448de7245156c0d64c",
+      "file_sha256": "40cf962868d8a20603388a66376f05031638bb1c6aa951448de7245156c0d64c",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_28/R1.md",
+      "evaluation_sha256": "b8ef8edcdc43b6f210e43c5c1beb31e9ea0a54e1cecab8d09b8b939e86c4460e",
+      "file_sha256": "5a55b4fc71403d56b4c038aba7336002904975222141b6aed63371aefbdb3c80",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 20
+      }
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_28/R2.md",
+      "evaluation_sha256": "0981acfeac236cb9184a8a0a7117ea7182a6c68a0049424770bb1ae090cf7628",
+      "file_sha256": "0981acfeac236cb9184a8a0a7117ea7182a6c68a0049424770bb1ae090cf7628",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_28/R3.md",
+      "evaluation_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884",
+      "file_sha256": "a1568a2388bafc21c6eec3e57dee8f45ab7925a99df5952618bb2bd2fc331884",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_28/R4.md",
+      "evaluation_sha256": "0dfe48ba8613cd3009f1b0d57060b13168e703eb6053f05dc5f90b8dd556ae60",
+      "file_sha256": "0dfe48ba8613cd3009f1b0d57060b13168e703eb6053f05dc5f90b8dd556ae60",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_28/R5.md",
+      "evaluation_sha256": "81703c8f1108c9902696333297fc8dc32de58bb093f2d7235ff9f88ff66b30a7",
+      "file_sha256": "81703c8f1108c9902696333297fc8dc32de58bb093f2d7235ff9f88ff66b30a7",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_28/R6.md",
+      "evaluation_sha256": "f24459db37b63d6076179e779597e81f7ce0a32fa9c5379891569d02293ebee5",
+      "file_sha256": "f24459db37b63d6076179e779597e81f7ce0a32fa9c5379891569d02293ebee5",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_28/R7.md",
+      "evaluation_sha256": "49d50ba9c6a156fffedcfcd8b67a9d29cc8e07fa40f5d9e61d6ed4f7649e86e4",
+      "file_sha256": "49d50ba9c6a156fffedcfcd8b67a9d29cc8e07fa40f5d9e61d6ed4f7649e86e4",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_28/R9.md",
+      "evaluation_sha256": "048612a2167d44a7cfb8a38b045e61a72c5b8a15953e759b5e9b7fe9ce8617c3",
+      "file_sha256": "048612a2167d44a7cfb8a38b045e61a72c5b8a15953e759b5e9b7fe9ce8617c3",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_28",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_28/R10.md",
+      "evaluation_sha256": "a3dce605ae54b59c0dafbb044b73d200c53f886c12e8db2d5146f9d75259680d",
+      "file_sha256": "a3dce605ae54b59c0dafbb044b73d200c53f886c12e8db2d5146f9d75259680d",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_3/R1.md",
+      "evaluation_sha256": "351465dcc69ec3ce61562abc5a1711d2846acd8db5e54d93850b8472f9de1100",
+      "file_sha256": "276b021f902ab170ac438951a92dbad782e24a9c4ad8bb8a475632f3f055c02c",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 34
+      }
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_3/R2.md",
+      "evaluation_sha256": "0d8e38d92f0c2843bb430a3297c8e43b26a446446b39a06a9324abb7ae2ad9f3",
+      "file_sha256": "0d8e38d92f0c2843bb430a3297c8e43b26a446446b39a06a9324abb7ae2ad9f3",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_3/R3.md",
+      "evaluation_sha256": "2e8260885f93250822dfd796893c04cc7c7f54f96b2ed19109d48ea6c58debc7",
+      "file_sha256": "2e8260885f93250822dfd796893c04cc7c7f54f96b2ed19109d48ea6c58debc7",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_3/R4.md",
+      "evaluation_sha256": "a19e3b19795e62ba97712c71abf505fe7eee49972d36697aacb789bd22e0ed5a",
+      "file_sha256": "a19e3b19795e62ba97712c71abf505fe7eee49972d36697aacb789bd22e0ed5a",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_3/R5.md",
+      "evaluation_sha256": "50a5a047bdf0bc1762ac12a67d17cbd1e3284ccdc1fa19cddfcedb7f889c8159",
+      "file_sha256": "50a5a047bdf0bc1762ac12a67d17cbd1e3284ccdc1fa19cddfcedb7f889c8159",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_3/R6.md",
+      "evaluation_sha256": "66c0f67e37aa689cd0a089a01a0f3651ad7b4258c33fbad44c9e6316af6a0967",
+      "file_sha256": "66c0f67e37aa689cd0a089a01a0f3651ad7b4258c33fbad44c9e6316af6a0967",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_3/R7.md",
+      "evaluation_sha256": "b8e5ae9ba8fabfd3834b7444b74c48507c70d5445b7c65ba6f161a899e7ccd8e",
+      "file_sha256": "b8e5ae9ba8fabfd3834b7444b74c48507c70d5445b7c65ba6f161a899e7ccd8e",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_3/R9.md",
+      "evaluation_sha256": "19acbfdcb14f7e003d982f8c23356853f8a68bbaab93c7625ce1964f49fd3174",
+      "file_sha256": "19acbfdcb14f7e003d982f8c23356853f8a68bbaab93c7625ce1964f49fd3174",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_3",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_3/R10.md",
+      "evaluation_sha256": "8af542805ccc78ef2159d33f28380675d51ba92c1a7345e12d7423f4db81e246",
+      "file_sha256": "8af542805ccc78ef2159d33f28380675d51ba92c1a7345e12d7423f4db81e246",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_41/R1.md",
+      "evaluation_sha256": "c2417036089bfab387ffaa9acc8a5b37cdd8a2c09d2989d99e6b18bf08c55ff8",
+      "file_sha256": "a717455085a381e655a9d0c0d95727b1403caf60e025275738f0d6222191be00",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 29
+      }
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_41/R2.md",
+      "evaluation_sha256": "3e5aecf7837a09ce14ec93116353b1bb48a714dbdf1b1b4dee08f0e21e6b8d90",
+      "file_sha256": "3e5aecf7837a09ce14ec93116353b1bb48a714dbdf1b1b4dee08f0e21e6b8d90",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_41/R3.md",
+      "evaluation_sha256": "0580e02bf438a8206deb70604138b70d6fd8f7af31630c88664e8776b4bbaae0",
+      "file_sha256": "0580e02bf438a8206deb70604138b70d6fd8f7af31630c88664e8776b4bbaae0",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_41/R4.md",
+      "evaluation_sha256": "1e0b39bbb67726d18556e1f8294f7b669a951834987ba569e5f079f628aec7ff",
+      "file_sha256": "1e0b39bbb67726d18556e1f8294f7b669a951834987ba569e5f079f628aec7ff",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_41/R5.md",
+      "evaluation_sha256": "3d9eb02b30dc725217528377960b29a91189606f024c8ca7063a9a0cd6735913",
+      "file_sha256": "3d9eb02b30dc725217528377960b29a91189606f024c8ca7063a9a0cd6735913",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_41/R6.md",
+      "evaluation_sha256": "c21baf2da019579314a3288b8e9177170d830be581c80120b84fffc449a985fe",
+      "file_sha256": "c21baf2da019579314a3288b8e9177170d830be581c80120b84fffc449a985fe",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_41/R7.md",
+      "evaluation_sha256": "48c2a05e30b23154cf25606027ce27f3a413f444bb0537c8c3e5087925dc754b",
+      "file_sha256": "e1c831f94546a007a2815045259fc77a4abbfd088e47736498010642473aff86",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "utm_campaign": 42
+      }
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_41/R9.md",
+      "evaluation_sha256": "839754e94f03ce4831363568ef2af9135c13f36119daa31e04c32b5736e9ac21",
+      "file_sha256": "839754e94f03ce4831363568ef2af9135c13f36119daa31e04c32b5736e9ac21",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_41",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_41/R10.md",
+      "evaluation_sha256": "bd86e4cb274cd5264e6bcb2eeec1443f82e720d29c915f8cf4e6cb3239983968",
+      "file_sha256": "bd86e4cb274cd5264e6bcb2eeec1443f82e720d29c915f8cf4e6cb3239983968",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_46/R1.md",
+      "evaluation_sha256": "094366c35d2015071c1779b5f1382fa3b9a47a03078e5d8c1e1aefae026e364b",
+      "file_sha256": "a36a85ac82e2fc4b0719fb99f9850a143fea6132b1f102388f5a0eeffff6026d",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 33
+      }
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_46/R2.md",
+      "evaluation_sha256": "89144bdeb090e69eb6ea1d2f68836c29809c69573df69509034ec71b3479f64a",
+      "file_sha256": "89144bdeb090e69eb6ea1d2f68836c29809c69573df69509034ec71b3479f64a",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_46/R3.md",
+      "evaluation_sha256": "2303fc1faec7f1dd10a2e9c24fcf2891fd8ece803947b749794e778c51cf7a03",
+      "file_sha256": "2303fc1faec7f1dd10a2e9c24fcf2891fd8ece803947b749794e778c51cf7a03",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_46/R4.md",
+      "evaluation_sha256": "404b2e640b682d44e7e4e4f729c8f72a238cf58a3d6d0d604734a7b0f33d7dcc",
+      "file_sha256": "404b2e640b682d44e7e4e4f729c8f72a238cf58a3d6d0d604734a7b0f33d7dcc",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_46/R5.md",
+      "evaluation_sha256": "815e2c7ad5330eb3c992e8b6822d9a5035935193f4f33bac3e020fc990d9a4ce",
+      "file_sha256": "815e2c7ad5330eb3c992e8b6822d9a5035935193f4f33bac3e020fc990d9a4ce",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_46/R6.md",
+      "evaluation_sha256": "b1962ca2057e53a6b376d218ced6f0076208ff3415eb27dbb55fb9a2ff7a0dfc",
+      "file_sha256": "b1962ca2057e53a6b376d218ced6f0076208ff3415eb27dbb55fb9a2ff7a0dfc",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_46/R7.md",
+      "evaluation_sha256": "5e77c6f38ebd03afbe209a5475ee3813ec6fa333a02a185fe5c86fe83eba2c7f",
+      "file_sha256": "5e77c6f38ebd03afbe209a5475ee3813ec6fa333a02a185fe5c86fe83eba2c7f",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_46/R9.md",
+      "evaluation_sha256": "33e1014f6821295dd750d4214bcacac7e3af14d397d9a8e5c5b8ecff876763cb",
+      "file_sha256": "33e1014f6821295dd750d4214bcacac7e3af14d397d9a8e5c5b8ecff876763cb",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_46",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_46/R10.md",
+      "evaluation_sha256": "f820150b0ba04f518c7e9d484ca004b219a34a92abe345886f3aa420fda87651",
+      "file_sha256": "f820150b0ba04f518c7e9d484ca004b219a34a92abe345886f3aa420fda87651",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_58/R1.md",
+      "evaluation_sha256": "d75e33b06925f3301857164b7cec74c9a2a1dcd7dcc44fbffbcab868b4aa04bf",
+      "file_sha256": "f23e235b3a3694d4740a47390497e3d18d8c26fd13e6a2a384e9179fadcc8552",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 46
+      }
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_58/R2.md",
+      "evaluation_sha256": "a6b3fdbc9d776843245cdc2ff43949d7d21d5c81653a7f4ba13d60d2e63fa8f8",
+      "file_sha256": "a6b3fdbc9d776843245cdc2ff43949d7d21d5c81653a7f4ba13d60d2e63fa8f8",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_58/R3.md",
+      "evaluation_sha256": "c18b8b519804c6b6b4eb7561fc8458ef37ac3a88cc4d4a35a07aecad72d98ffb",
+      "file_sha256": "c18b8b519804c6b6b4eb7561fc8458ef37ac3a88cc4d4a35a07aecad72d98ffb",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_58/R4.md",
+      "evaluation_sha256": "c5a4fb065c8ab49c6603e4d5ab02daaf0d1c17b6b384bb70f3d65b2daed3758f",
+      "file_sha256": "c5a4fb065c8ab49c6603e4d5ab02daaf0d1c17b6b384bb70f3d65b2daed3758f",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_58/R5.md",
+      "evaluation_sha256": "e46ebd17fccf0264156ddae5dc7d22055e8e1a20443709c954ec5187883fa8fe",
+      "file_sha256": "e46ebd17fccf0264156ddae5dc7d22055e8e1a20443709c954ec5187883fa8fe",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_58/R6.md",
+      "evaluation_sha256": "6d096bea2cf582534faf769e7d63409cfb2ea44d4c2d8d8926bea94f97162744",
+      "file_sha256": "6d096bea2cf582534faf769e7d63409cfb2ea44d4c2d8d8926bea94f97162744",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_58/R7.md",
+      "evaluation_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655",
+      "file_sha256": "092981677c4b314bd5db545b9e41c71a531d3d49e4a5b8797c396c33b8e59655",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_58/R9.md",
+      "evaluation_sha256": "761527bef67443e56324acf4e4a6e52c25b64cb0f2e6119427545c583cebbbde",
+      "file_sha256": "761527bef67443e56324acf4e4a6e52c25b64cb0f2e6119427545c583cebbbde",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_58",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_58/R10.md",
+      "evaluation_sha256": "73546ae6093610f72345e12496467f99c3326a736a52c3a10e958e38b133e307",
+      "file_sha256": "73546ae6093610f72345e12496467f99c3326a736a52c3a10e958e38b133e307",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_66/R1.md",
+      "evaluation_sha256": "cc5b6e7b66dd1117f63eea736e8417bd02f72e28802128828beabf31df033f7f",
+      "file_sha256": "d0d417a421ddd53bbf8927fbb68b6645f6ce00ba14d5aa04534cdaae14786b14",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 67
+      }
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_66/R2.md",
+      "evaluation_sha256": "86893c641ccaf196004cba459917ea323ff93e3f394811ae3bdc6e8dde815588",
+      "file_sha256": "86893c641ccaf196004cba459917ea323ff93e3f394811ae3bdc6e8dde815588",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_66/R3.md",
+      "evaluation_sha256": "23bacee79a658fb5e5b0b28ef17a0a21d5c7c4d988f905339e6715d2a59ece0f",
+      "file_sha256": "23bacee79a658fb5e5b0b28ef17a0a21d5c7c4d988f905339e6715d2a59ece0f",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_66/R4.md",
+      "evaluation_sha256": "67b7c4b89a5aa49f9a9a9cd93a45dfb5ea13f74a71bdda3166f34f8e008c08c3",
+      "file_sha256": "67b7c4b89a5aa49f9a9a9cd93a45dfb5ea13f74a71bdda3166f34f8e008c08c3",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_66/R5.md",
+      "evaluation_sha256": "7a4ea5dcf11f18e042f72829c6eec8418dbbf8c2ffe671a4c52496cef0ff98d4",
+      "file_sha256": "7a4ea5dcf11f18e042f72829c6eec8418dbbf8c2ffe671a4c52496cef0ff98d4",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_66/R6.md",
+      "evaluation_sha256": "276388a244c645b05e0077ae619b35fd945dc17bebafae4cad24dd34141a8816",
+      "file_sha256": "276388a244c645b05e0077ae619b35fd945dc17bebafae4cad24dd34141a8816",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_66/R7.md",
+      "evaluation_sha256": "56aa86483183b0ff4a2cd0a9b5af1abaf7243dd332055f9ff2a70ebd121820aa",
+      "file_sha256": "70e6e5153dfa05e449fcb5b35dfe6198c589a507694ab933ec8885ecb34a0592",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 7
+      }
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_66/R9.md",
+      "evaluation_sha256": "73fa91bfe56b348df4696a7c4c81d51ba1305f3299f49b2bf086ff43b46b292a",
+      "file_sha256": "73fa91bfe56b348df4696a7c4c81d51ba1305f3299f49b2bf086ff43b46b292a",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_66",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_66/R10.md",
+      "evaluation_sha256": "047da807602262158f4c607d025436f527fbb2360e8a9e4980bb35b057ddfcdc",
+      "file_sha256": "047da807602262158f4c607d025436f527fbb2360e8a9e4980bb35b057ddfcdc",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_71/R1.md",
+      "evaluation_sha256": "fdb44938d01dcf3ec7d9a44f6fa85c4f19279b56c6bbba0c24a918e7e7f1eabd",
+      "file_sha256": "a4464918412579c9dd6eb3323d4514f781851f57a88e5a42d6dd996aa1786e18",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 44
+      }
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_71/R2.md",
+      "evaluation_sha256": "bc7e6aef83cd8a01ad9f487279728e3c8746cd09c29e8829094582bb22958c9e",
+      "file_sha256": "bc7e6aef83cd8a01ad9f487279728e3c8746cd09c29e8829094582bb22958c9e",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_71/R3.md",
+      "evaluation_sha256": "3135263e046397ea7a4918e21bee9f4a4e80b35c0c240906ab1cfe39ba189695",
+      "file_sha256": "3135263e046397ea7a4918e21bee9f4a4e80b35c0c240906ab1cfe39ba189695",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_71/R4.md",
+      "evaluation_sha256": "9c34f82d3bbb7d443bc18c0a8c48b3297a0b39924a0dfe706737488ee740d574",
+      "file_sha256": "9c34f82d3bbb7d443bc18c0a8c48b3297a0b39924a0dfe706737488ee740d574",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_71/R5.md",
+      "evaluation_sha256": "afad85cb3b676c2c0b99d17fb4a29c5037a58dc769e50a9d6130bca4cd52cdcc",
+      "file_sha256": "afad85cb3b676c2c0b99d17fb4a29c5037a58dc769e50a9d6130bca4cd52cdcc",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_71/R6.md",
+      "evaluation_sha256": "0ca5e3df2f90ca4f1c87dab5665d702c1cdc84f4624fd74a9d5f273c4c698706",
+      "file_sha256": "0ca5e3df2f90ca4f1c87dab5665d702c1cdc84f4624fd74a9d5f273c4c698706",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_71/R7.md",
+      "evaluation_sha256": "df69cf7a93f82bcc71bc50db5422de02f237371b60a9ab92c391097a3a19087a",
+      "file_sha256": "df69cf7a93f82bcc71bc50db5422de02f237371b60a9ab92c391097a3a19087a",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_71/R9.md",
+      "evaluation_sha256": "098d7cf608fa981c3b67e63a93641d9412fe15f26e4ede8f8c854ce417e86bfa",
+      "file_sha256": "098d7cf608fa981c3b67e63a93641d9412fe15f26e4ede8f8c854ce417e86bfa",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_71",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_71/R10.md",
+      "evaluation_sha256": "2923ef435055e144e3eb4f2a69410a0f5e30450eab8e54ed221708bcb5d479e0",
+      "file_sha256": "2923ef435055e144e3eb4f2a69410a0f5e30450eab8e54ed221708bcb5d479e0",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_75/R1.md",
+      "evaluation_sha256": "3802e0afa5b22e34ae3f1f1a2a30ad99be490e2d76e0c7fd7f041e8b620140ae",
+      "file_sha256": "ce1a8467c4af8436eff7de0a37630b421f7789887ed1b748aa5e798f31fa03a1",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 54
+      }
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_75/R2.md",
+      "evaluation_sha256": "c45a84a82b49a15cda151ab7857aa28a3579daac2ecab293ad5174e5cec9d5ec",
+      "file_sha256": "c45a84a82b49a15cda151ab7857aa28a3579daac2ecab293ad5174e5cec9d5ec",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_75/R3.md",
+      "evaluation_sha256": "84a32d9172f716b38c5c7778aab4775b3316ea01e9da223cfa342d93745f2a02",
+      "file_sha256": "84a32d9172f716b38c5c7778aab4775b3316ea01e9da223cfa342d93745f2a02",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_75/R4.md",
+      "evaluation_sha256": "9b0a32408b7072eae70b5219cf96c6fa53dc585aa8c4c6215f6a725ebc42ddc2",
+      "file_sha256": "9b0a32408b7072eae70b5219cf96c6fa53dc585aa8c4c6215f6a725ebc42ddc2",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_75/R5.md",
+      "evaluation_sha256": "157f3b3fa6e981299cb0312c210fb7d2ca4945417170056ae6998e9813894359",
+      "file_sha256": "157f3b3fa6e981299cb0312c210fb7d2ca4945417170056ae6998e9813894359",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_75/R6.md",
+      "evaluation_sha256": "fffceaa0eb63e3d8f961bd08cff7098ab923da73b9ac97aa46d7eb0bf215f126",
+      "file_sha256": "fffceaa0eb63e3d8f961bd08cff7098ab923da73b9ac97aa46d7eb0bf215f126",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_75/R7.md",
+      "evaluation_sha256": "674457edd2b62135ee80b997694422244cfcdba9f23fec772f5debd41db053c9",
+      "file_sha256": "6a8d70b0e1f45c35a89103c42f2ca752a5005ce1d45fb225f406411d3227b816",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 20
+      }
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_75/R9.md",
+      "evaluation_sha256": "2a66dd533da064e92a8f4aa685891e096ff9f1c74251d4e86f54a3b9351539fe",
+      "file_sha256": "2a66dd533da064e92a8f4aa685891e096ff9f1c74251d4e86f54a3b9351539fe",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_75",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_75/R10.md",
+      "evaluation_sha256": "94e1140a58334b8ea632a1ebfd4f05da79e9b96bf5731bbc08fd464915385051",
+      "file_sha256": "94e1140a58334b8ea632a1ebfd4f05da79e9b96bf5731bbc08fd464915385051",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_76/R1.md",
+      "evaluation_sha256": "934af630b7df65271030e58194321fd2e0e3cddbfd17d8d484b0bc432a21dbe3",
+      "file_sha256": "2f0460c895e9cabcc94c69eaeb8d0aa5f24cf85214b1a258ff028bc88f279273",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 47
+      }
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_76/R2.md",
+      "evaluation_sha256": "999875b762d00a45c5cb1c4d95fd783f2a0a7174d7a76737a9ce4688a79bf960",
+      "file_sha256": "999875b762d00a45c5cb1c4d95fd783f2a0a7174d7a76737a9ce4688a79bf960",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_76/R3.md",
+      "evaluation_sha256": "a038c68e04a790c6cfa534395af77fc8181cf6bbfabdb40569ef8fb300acb47c",
+      "file_sha256": "a038c68e04a790c6cfa534395af77fc8181cf6bbfabdb40569ef8fb300acb47c",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_76/R4.md",
+      "evaluation_sha256": "9708cd8e230b05eec17e637dedb9b4426c6c21ab822eb217e8ba3d1c78f24e3a",
+      "file_sha256": "9708cd8e230b05eec17e637dedb9b4426c6c21ab822eb217e8ba3d1c78f24e3a",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_76/R5.md",
+      "evaluation_sha256": "10ce7d506c99d916b552ff81fdd82cfe67fdd8f28b950d2121953da14fdb7806",
+      "file_sha256": "10ce7d506c99d916b552ff81fdd82cfe67fdd8f28b950d2121953da14fdb7806",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_76/R6.md",
+      "evaluation_sha256": "2aff62888bf5f5730b0b5aff4dc4a98babfa4a866a1eda5c43da270e32959c57",
+      "file_sha256": "2aff62888bf5f5730b0b5aff4dc4a98babfa4a866a1eda5c43da270e32959c57",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_76/R7.md",
+      "evaluation_sha256": "db4b475894acdce059f85b1c4d117aa1591e5b25856ae60bb0743aca72629366",
+      "file_sha256": "fa6b144eea58dce9e3fa977ad9ae3b882429a972e70cec8395c191925dc3d15c",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 2
+      }
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_76/R9.md",
+      "evaluation_sha256": "d06bb230e12449b8575ffdae673c475d8f47ec62f22bc7fb435eaaeb55b36aab",
+      "file_sha256": "d06bb230e12449b8575ffdae673c475d8f47ec62f22bc7fb435eaaeb55b36aab",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_76",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_76/R10.md",
+      "evaluation_sha256": "af581157d98d8177be13e12e566711a254494cd4186a41778e8004cbb6c6bd2b",
+      "file_sha256": "af581157d98d8177be13e12e566711a254494cd4186a41778e8004cbb6c6bd2b",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_79/R1.md",
+      "evaluation_sha256": "63150ef96c324b24ed476daaabfa05a9f0a9f60dbc2228c12e5c45380f7e6686",
+      "file_sha256": "3b7e6f3fef1bb1de7e22df634f670212c443e9932d8dafcce4db88d7ca65f27b",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 23
+      }
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_79/R2.md",
+      "evaluation_sha256": "413208eb5d0199fd82d8609cd5d5545cff6806d6fa4c8fb8c5e688b475d5192f",
+      "file_sha256": "413208eb5d0199fd82d8609cd5d5545cff6806d6fa4c8fb8c5e688b475d5192f",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_79/R3.md",
+      "evaluation_sha256": "d0d94822eee94ff3fb4fa3fd8f374cb725694e77b9220075f1526db45380cb2f",
+      "file_sha256": "d0d94822eee94ff3fb4fa3fd8f374cb725694e77b9220075f1526db45380cb2f",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_79/R4.md",
+      "evaluation_sha256": "93caeb53cdd7c2a7e4572cd7a02702c1a5f48ab0e7a10d14db89524ed3720063",
+      "file_sha256": "93caeb53cdd7c2a7e4572cd7a02702c1a5f48ab0e7a10d14db89524ed3720063",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_79/R5.md",
+      "evaluation_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171",
+      "file_sha256": "138825db7f95608f1b6d5f48b77cdf6de552768fc6ffc7ce98ba5bd5ea672171",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_79/R6.md",
+      "evaluation_sha256": "9c3c7836301b916ebe91d4a3f9ae66437640422547492ec50adf3a67698988bd",
+      "file_sha256": "9c3c7836301b916ebe91d4a3f9ae66437640422547492ec50adf3a67698988bd",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_79/R7.md",
+      "evaluation_sha256": "cff7390851f559036f8f87531fd65fd0a0d51c5b3dd7de99229a2847a3250c77",
+      "file_sha256": "cff7390851f559036f8f87531fd65fd0a0d51c5b3dd7de99229a2847a3250c77",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_79/R9.md",
+      "evaluation_sha256": "aad902c7ad652a6f444a39036b845f6e46c70248140d4893961be513edeee81a",
+      "file_sha256": "aad902c7ad652a6f444a39036b845f6e46c70248140d4893961be513edeee81a",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_79",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_79/R10.md",
+      "evaluation_sha256": "60e62ecac7acdb3a8ca7ec1147db1d3faf612affff79320741ec3b8bb07e5c2d",
+      "file_sha256": "60e62ecac7acdb3a8ca7ec1147db1d3faf612affff79320741ec3b8bb07e5c2d",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_84/R1.md",
+      "evaluation_sha256": "b6e437515e2c5aa75ea93b5c91748ad3efb2a6899fbe8df83cbcc0aa9bf1db27",
+      "file_sha256": "e6200fe22e91c1d6234666a3a224f44ee66e7c2e9822dd94fa51f313693b4fa5",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 171
+      }
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_84/R2.md",
+      "evaluation_sha256": "fba9c0b29b7ef66566f5a99020b629bf06917fbd82cd31e08b8b5cf5d6f70ed4",
+      "file_sha256": "fba9c0b29b7ef66566f5a99020b629bf06917fbd82cd31e08b8b5cf5d6f70ed4",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_84/R3.md",
+      "evaluation_sha256": "b2f7abb28ee642e50cf1b5bbd07c1f84879d57106313e87dba0e8171d585f1da",
+      "file_sha256": "b2f7abb28ee642e50cf1b5bbd07c1f84879d57106313e87dba0e8171d585f1da",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_84/R4.md",
+      "evaluation_sha256": "db48fa52edfa0c20472f2c508ece05c99dbbf49bab744b22a9e9f3a4eba9b586",
+      "file_sha256": "db48fa52edfa0c20472f2c508ece05c99dbbf49bab744b22a9e9f3a4eba9b586",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_84/R5.md",
+      "evaluation_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a",
+      "file_sha256": "cc1d470bffc0610ab45ced596f7fd3c8da3122928f39cadd4a2e2b787751233a",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_84/R6.md",
+      "evaluation_sha256": "93748fe51b464999d5d2eecb5df362941bb072eaa5e9bcf2fc36505d9611f873",
+      "file_sha256": "93748fe51b464999d5d2eecb5df362941bb072eaa5e9bcf2fc36505d9611f873",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_84/R7.md",
+      "evaluation_sha256": "01539800a5407229d2c0f43a2c81915430e38e959483981bfa2afb77c5e661ea",
+      "file_sha256": "01539800a5407229d2c0f43a2c81915430e38e959483981bfa2afb77c5e661ea",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_84/R9.md",
+      "evaluation_sha256": "002237ec992f28e753f0182f68a57f92452602f8f9ccf46091b3bd7eca722172",
+      "file_sha256": "002237ec992f28e753f0182f68a57f92452602f8f9ccf46091b3bd7eca722172",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_84",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_84/R10.md",
+      "evaluation_sha256": "35dce2e9cef1cf77038601daebeb3f285a54a72fada4ff9063ecc598f65a05e9",
+      "file_sha256": "35dce2e9cef1cf77038601daebeb3f285a54a72fada4ff9063ecc598f65a05e9",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_95/R1.md",
+      "evaluation_sha256": "16a730c9cf5a63364e833579aacdf0de5b3833974c6b9cf8d13364ab7634309d",
+      "file_sha256": "f97416c68e16c96317f7c80564f7eb43e72cf36b9749636441f3bdf631193271",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 109
+      }
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_95/R2.md",
+      "evaluation_sha256": "4b41c3986154e976ece4541a014008f7c48668f072e386b4ff4b3fc0efd1e62b",
+      "file_sha256": "4b41c3986154e976ece4541a014008f7c48668f072e386b4ff4b3fc0efd1e62b",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_95/R3.md",
+      "evaluation_sha256": "edda6a80b8b263ec28bd59604d9dff2080559e2f7d81cfd4087ae4698968533d",
+      "file_sha256": "edda6a80b8b263ec28bd59604d9dff2080559e2f7d81cfd4087ae4698968533d",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_95/R4.md",
+      "evaluation_sha256": "335b841ea5d75262d5634ef3502da3a55a851b5846b8a00c6e4fd50b11a04197",
+      "file_sha256": "335b841ea5d75262d5634ef3502da3a55a851b5846b8a00c6e4fd50b11a04197",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_95/R5.md",
+      "evaluation_sha256": "dc1655a6ef06eff96b71af8016b5bcb22c7cd18bc0fa20ff0952bc07bfe91779",
+      "file_sha256": "dd60fce631620fac74bd17a72058c1683c025ac9fb40a48ac4db4fb1dbe71485",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {
+        "srsltid": 3
+      }
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_95/R6.md",
+      "evaluation_sha256": "cfa17792063970fabef14d402970a84d49736ca2e625a804b9e9dbac0657b1e6",
+      "file_sha256": "cfa17792063970fabef14d402970a84d49736ca2e625a804b9e9dbac0657b1e6",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_95/R7.md",
+      "evaluation_sha256": "48683c6d3b628d9908ea5186456c3f9c9794869e5020494689a3eb536162bcf0",
+      "file_sha256": "2b0c04a2bcd0f475b09710c53143b348f054964e14b8b3d05c698c995d05f0b0",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 3
+      }
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_95/R9.md",
+      "evaluation_sha256": "5663f82a5300e6b77430b40034760a0d2a043415306f32abcda9b24cd5ac626d",
+      "file_sha256": "5663f82a5300e6b77430b40034760a0d2a043415306f32abcda9b24cd5ac626d",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_95",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_95/R10.md",
+      "evaluation_sha256": "b0bb16474db6135633a3bb1be13f6bc725ec7ed37b1d70cfdbb08b2c4f3257a6",
+      "file_sha256": "b0bb16474db6135633a3bb1be13f6bc725ec7ed37b1d70cfdbb08b2c4f3257a6",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R1",
+      "path": "data/reports/main9/drb2_97/R1.md",
+      "evaluation_sha256": "111fa36d9b25674ea25764c0f21fc4750bebe0cf4d165c580d543df65b860121",
+      "file_sha256": "4cbe9321ccb8de2e68b98c2533ac10d32a28d4b82432ead20ed01f4195f95089",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 43
+      }
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R2",
+      "path": "data/reports/main9/drb2_97/R2.md",
+      "evaluation_sha256": "757b6485bf20fe93047fccd5d8d398553c51fc586e17dae7aebeeb298d6f67d9",
+      "file_sha256": "757b6485bf20fe93047fccd5d8d398553c51fc586e17dae7aebeeb298d6f67d9",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R3",
+      "path": "data/reports/main9/drb2_97/R3.md",
+      "evaluation_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9",
+      "file_sha256": "10dbb834bb55e8bb26a19e1a5884f2b55a561ab7eea577fe50709fefda19c6f9",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R4",
+      "path": "data/reports/main9/drb2_97/R4.md",
+      "evaluation_sha256": "57623ee6ed056140cb2d190853927875ed7fc1200cbbb902700abf1bea3bc88e",
+      "file_sha256": "57623ee6ed056140cb2d190853927875ed7fc1200cbbb902700abf1bea3bc88e",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R5",
+      "path": "data/reports/main9/drb2_97/R5.md",
+      "evaluation_sha256": "a5388bb73d6f14b04185e829ed6e6202e5cca7811d0868bc2fa357665d0ec174",
+      "file_sha256": "a5388bb73d6f14b04185e829ed6e6202e5cca7811d0868bc2fa357665d0ec174",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R6",
+      "path": "data/reports/main9/drb2_97/R6.md",
+      "evaluation_sha256": "96b2600bd3155ad1d4c64486afc9b325364759f3962341a7dc81c7cf55bf4a41",
+      "file_sha256": "96b2600bd3155ad1d4c64486afc9b325364759f3962341a7dc81c7cf55bf4a41",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R7",
+      "path": "data/reports/main9/drb2_97/R7.md",
+      "evaluation_sha256": "80a0d0a0fbe395e44e2d834901f6341a64f40553d7ffadf6e19865204fffc354",
+      "file_sha256": "80a0d0a0fbe395e44e2d834901f6341a64f40553d7ffadf6e19865204fffc354",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R9",
+      "path": "data/reports/main9/drb2_97/R9.md",
+      "evaluation_sha256": "9d638c277b87a26ec2452a3dc753611d830439e36a0eb80fa823aafdfd2c7341",
+      "file_sha256": "9d638c277b87a26ec2452a3dc753611d830439e36a0eb80fa823aafdfd2c7341",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "drb2_97",
+      "report_id": "R10",
+      "path": "data/reports/main9/drb2_97/R10.md",
+      "evaluation_sha256": "1fde8d1b6de7a73ae6c8c001f62efc41ac36c9781e069721bd71c386096e265d",
+      "file_sha256": "1fde8d1b6de7a73ae6c8c001f62efc41ac36c9781e069721bd71c386096e265d",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R1.md",
+      "evaluation_sha256": "25b3b071e9d91e49ea362bdfa80bc22e0b5f185b1fe755948d1223036255bd13",
+      "file_sha256": "ea2ea98df4932a42087e79c5b922f6d0e34b9e14837995f891f2a2689db880ad",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 156
+      }
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R2.md",
+      "evaluation_sha256": "a61dacd92a4f22420d6007c81bb05d023f7ae48eecc16ac09af66aeed53ec6ca",
+      "file_sha256": "a61dacd92a4f22420d6007c81bb05d023f7ae48eecc16ac09af66aeed53ec6ca",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R3.md",
+      "evaluation_sha256": "a8756053df1ffcc7e017f09d884f3d400444b48ea00ad03ae6debbe251ca840e",
+      "file_sha256": "a8756053df1ffcc7e017f09d884f3d400444b48ea00ad03ae6debbe251ca840e",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R4.md",
+      "evaluation_sha256": "f3c35841b530591dc16656f9ada66a9e1c9c587b94b0bf57db736083b37b1772",
+      "file_sha256": "f3c35841b530591dc16656f9ada66a9e1c9c587b94b0bf57db736083b37b1772",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R5.md",
+      "evaluation_sha256": "fb1cf2f5e58747beae464699e555f2e71e99ec9fcfe057fa666134644926ab62",
+      "file_sha256": "fb1cf2f5e58747beae464699e555f2e71e99ec9fcfe057fa666134644926ab62",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R6.md",
+      "evaluation_sha256": "e4a8bc7d404206f73aeef1b9c7954d7c7639806c75c1ae93a032e61f60e456d1",
+      "file_sha256": "e4a8bc7d404206f73aeef1b9c7954d7c7639806c75c1ae93a032e61f60e456d1",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R7.md",
+      "evaluation_sha256": "c8806e1989d702a2a7bd6b84bcc8beebfb7d5e3fcfdcc528820f12655086fe57",
+      "file_sha256": "c8806e1989d702a2a7bd6b84bcc8beebfb7d5e3fcfdcc528820f12655086fe57",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R9.md",
+      "evaluation_sha256": "8af2b8b66e9d01069d80284310389d318f936c7767d1609815300b9984b700ec",
+      "file_sha256": "8af2b8b66e9d01069d80284310389d318f936c7767d1609815300b9984b700ec",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_683a58c9a7e7fe4e76958488",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_683a58c9a7e7fe4e76958488/R10.md",
+      "evaluation_sha256": "e48af38f4fed73bbf269804bb10f9fb2dbae599e4d5ee62d591e952aa774b5ab",
+      "file_sha256": "e48af38f4fed73bbf269804bb10f9fb2dbae599e4d5ee62d591e952aa774b5ab",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R1.md",
+      "evaluation_sha256": "c0efd11736f8d72e87af146b1aaa260efb725adf8a6574ff424d8fbc9b22fab9",
+      "file_sha256": "e5aa86d6bca77b6ac8225b45afcc2c95dae9d11a1cf7d9b4b3be75915101199a",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 46
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R2.md",
+      "evaluation_sha256": "ca32315512a7cf9f9d7771364bf8b3ae8ec51a93449f9f8d55c61a24c8f9ae1f",
+      "file_sha256": "ca32315512a7cf9f9d7771364bf8b3ae8ec51a93449f9f8d55c61a24c8f9ae1f",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R3.md",
+      "evaluation_sha256": "6aa69bac0742948f4148f21b5d734c8d11aaf8b26a56195ba505ae1db1748c05",
+      "file_sha256": "6aa69bac0742948f4148f21b5d734c8d11aaf8b26a56195ba505ae1db1748c05",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R4.md",
+      "evaluation_sha256": "fbc17153278b0daf720c10d84935d52a30e33380f009085f549d38d8ca11b4ff",
+      "file_sha256": "fbc17153278b0daf720c10d84935d52a30e33380f009085f549d38d8ca11b4ff",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R5.md",
+      "evaluation_sha256": "aa198d80ff8e6b62c756c2e3074245bed62e791023acdbe36981bf2eda03866a",
+      "file_sha256": "aa198d80ff8e6b62c756c2e3074245bed62e791023acdbe36981bf2eda03866a",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R6.md",
+      "evaluation_sha256": "3d866ea2b30f4c39ab366a2cf77f98be38e5123b4a39e3ed7eaabbc49fcea2f5",
+      "file_sha256": "3d866ea2b30f4c39ab366a2cf77f98be38e5123b4a39e3ed7eaabbc49fcea2f5",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R7.md",
+      "evaluation_sha256": "948e05a5bd549db11e135f7e7eb9b9c164ba712f1177df85818b04bd6ad33735",
+      "file_sha256": "948e05a5bd549db11e135f7e7eb9b9c164ba712f1177df85818b04bd6ad33735",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R9.md",
+      "evaluation_sha256": "bb9d6320b14634c187320f089ff69633332f5f09f77457ba4825c1997070dc91",
+      "file_sha256": "bb9d6320b14634c187320f089ff69633332f5f09f77457ba4825c1997070dc91",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605343",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605343/R10.md",
+      "evaluation_sha256": "5ae23e45e668dda6e7224eacbffd83c37aa2db6737459068954f8b6775949fc0",
+      "file_sha256": "5ae23e45e668dda6e7224eacbffd83c37aa2db6737459068954f8b6775949fc0",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R1.md",
+      "evaluation_sha256": "41c4facfaa079e94582a907832575a37a3f6d85c60c400ec062fab6404c5e949",
+      "file_sha256": "5f3af5631b75700ae5d182057ad4a53f8cc35e31e5ed3b6c85134e4cba71c169",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 51
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R2.md",
+      "evaluation_sha256": "006208763331a2ef710b6eb2015a76e4a058f6ecd7d1e5480851b51f8670ac5b",
+      "file_sha256": "006208763331a2ef710b6eb2015a76e4a058f6ecd7d1e5480851b51f8670ac5b",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R3.md",
+      "evaluation_sha256": "09a1d1ce5460e96e098ab580ce52e351b0c720ad1933e41fc2572d732ddc043c",
+      "file_sha256": "09a1d1ce5460e96e098ab580ce52e351b0c720ad1933e41fc2572d732ddc043c",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R4.md",
+      "evaluation_sha256": "58d94a471118245b3e8e7f53927a693a27efe56538f3d5c9e9037765716e244b",
+      "file_sha256": "58d94a471118245b3e8e7f53927a693a27efe56538f3d5c9e9037765716e244b",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R5.md",
+      "evaluation_sha256": "e3d8bef0f6bc5446e20d8ed42bb30adede94c4df8028f48ce475208ef307cdd5",
+      "file_sha256": "e3d8bef0f6bc5446e20d8ed42bb30adede94c4df8028f48ce475208ef307cdd5",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R6.md",
+      "evaluation_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660",
+      "file_sha256": "d692767d5e69cf7437ab28c9d33b19fa1055fa797a8f3586302c7a1217f80660",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R7.md",
+      "evaluation_sha256": "52cbd04a2a792c3292d89ab0494a2ad3c580bfc122c615ba7d8806ef97fb3827",
+      "file_sha256": "52cbd04a2a792c3292d89ab0494a2ad3c580bfc122c615ba7d8806ef97fb3827",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R9.md",
+      "evaluation_sha256": "2f37caaa59008397ed4fafbe1f1fbff7c3f85d6499d065304cc47acbd64e7d22",
+      "file_sha256": "2f37caaa59008397ed4fafbe1f1fbff7c3f85d6499d065304cc47acbd64e7d22",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605363",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605363/R10.md",
+      "evaluation_sha256": "df4c1e78524d2761ed0c4eae0e1a8b965c9216c59bb258ea6d3d8f5883a20c90",
+      "file_sha256": "df4c1e78524d2761ed0c4eae0e1a8b965c9216c59bb258ea6d3d8f5883a20c90",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R1.md",
+      "evaluation_sha256": "e77422305c5bf0faaf7f7673f0aa000400b5c1ae63cd6a4aed873da08338c5a5",
+      "file_sha256": "2263e6a6f97a0fa41ed9a0779e01122ff65350df3e77899e704a8f3e356f6a97",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 51,
+        "utm_campaign": 1,
+        "utm_medium": 1
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R2.md",
+      "evaluation_sha256": "ca1feea030e695caf09db5087390f4e3c5091effbd3e279b3f38d105d69b00be",
+      "file_sha256": "ca1feea030e695caf09db5087390f4e3c5091effbd3e279b3f38d105d69b00be",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R3.md",
+      "evaluation_sha256": "3eea0fa2007e320ca523a031fe020ebf56d5c5be0e65f1caa0643d2e442fffc1",
+      "file_sha256": "3eea0fa2007e320ca523a031fe020ebf56d5c5be0e65f1caa0643d2e442fffc1",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R4.md",
+      "evaluation_sha256": "fe66627c9d0070fe0e043ef13eb55d48ea85e093003a214613d5fcaf5e611229",
+      "file_sha256": "fe66627c9d0070fe0e043ef13eb55d48ea85e093003a214613d5fcaf5e611229",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R5.md",
+      "evaluation_sha256": "238303c8ac4df090805674584558a732418ce62662cf2544a8baf0b57646a55f",
+      "file_sha256": "238303c8ac4df090805674584558a732418ce62662cf2544a8baf0b57646a55f",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R6.md",
+      "evaluation_sha256": "88d8f38cdd5d0e08a3f4aaacdea88ffcd2c95c0890948eaf2da9424ca2e0a7a4",
+      "file_sha256": "88d8f38cdd5d0e08a3f4aaacdea88ffcd2c95c0890948eaf2da9424ca2e0a7a4",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R7.md",
+      "evaluation_sha256": "0668cc21fb814a62cafa20782f4379d894ca9c688dd0ce2754a8a1c7d216b4fb",
+      "file_sha256": "0668cc21fb814a62cafa20782f4379d894ca9c688dd0ce2754a8a1c7d216b4fb",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R9.md",
+      "evaluation_sha256": "298eadf51c0dff03b33974543f30469c9cb334cdf31d6d2c28b41212d307540a",
+      "file_sha256": "85b1954327046370bc169ca87070c39b717134c01cd9e91d19c37fcf089cf537",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {
+        "srsltid": 1
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605371",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605371/R10.md",
+      "evaluation_sha256": "89c601bbcc59020b4df33b76306db45c478814994bda4a7e86371e92ef056bce",
+      "file_sha256": "89c601bbcc59020b4df33b76306db45c478814994bda4a7e86371e92ef056bce",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R1.md",
+      "evaluation_sha256": "02dd2497cae692a6c9e8f8b27eb38a746350d5dbf0cbc7233feffa04e4d2c701",
+      "file_sha256": "cb668367169649e53cf81f3f46231a7d3b6619762c0a187cb3ae8e41f4da897d",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 233
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R2.md",
+      "evaluation_sha256": "4147614e099ec9d4c2869e6380d2360730a9a47099fbba69ca316a0e0b49f74e",
+      "file_sha256": "4147614e099ec9d4c2869e6380d2360730a9a47099fbba69ca316a0e0b49f74e",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R3.md",
+      "evaluation_sha256": "e3ace4313a5fc93ac2afb45cbf388c14f353409c121bccb1b8af612887da940d",
+      "file_sha256": "e3ace4313a5fc93ac2afb45cbf388c14f353409c121bccb1b8af612887da940d",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R4.md",
+      "evaluation_sha256": "e36cda4ace9a657a0672a1ca901a23eb244b3e82479d08d0c34f63ca7f3608dc",
+      "file_sha256": "e36cda4ace9a657a0672a1ca901a23eb244b3e82479d08d0c34f63ca7f3608dc",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R5.md",
+      "evaluation_sha256": "ed89e50af4eabe4ecad82d9286e99cd4c47d4b0c40c5a6b58c123d3ea4e9b454",
+      "file_sha256": "ed89e50af4eabe4ecad82d9286e99cd4c47d4b0c40c5a6b58c123d3ea4e9b454",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R6.md",
+      "evaluation_sha256": "eb2ee3d40f901a340c1a0b63b91092ff44075bf44df0f1753dfcf54127ea77be",
+      "file_sha256": "eb2ee3d40f901a340c1a0b63b91092ff44075bf44df0f1753dfcf54127ea77be",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R7.md",
+      "evaluation_sha256": "06f76b2b2df7bed0cc3e812456848b92991a8419f0f76ee70c571be372f1b854",
+      "file_sha256": "06f76b2b2df7bed0cc3e812456848b92991a8419f0f76ee70c571be372f1b854",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R9.md",
+      "evaluation_sha256": "72a66a9b51ecdd1569e398efe19c8e19f35367641b2f124012c426a06ade27d0",
+      "file_sha256": "72a66a9b51ecdd1569e398efe19c8e19f35367641b2f124012c426a06ade27d0",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6053a0",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6053a0/R10.md",
+      "evaluation_sha256": "9782df2ccb7ebc67fb87cb9527c1553f957ef0510b82b1d5d8a709b4dd343089",
+      "file_sha256": "9782df2ccb7ebc67fb87cb9527c1553f957ef0510b82b1d5d8a709b4dd343089",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R1.md",
+      "evaluation_sha256": "2e903f3eb6fb66d46a1b70bc5b7d730b3cc67de410e59384fca2188f3b41a263",
+      "file_sha256": "ad80f5161ee7ee441cf8cb579a740a31912118585964b44ea758441b62e32932",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 75
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R2.md",
+      "evaluation_sha256": "65f72414f37cd47c8723567e0c3982c2d0bc9bb98155af94bd65cb25092ecf03",
+      "file_sha256": "65f72414f37cd47c8723567e0c3982c2d0bc9bb98155af94bd65cb25092ecf03",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R3.md",
+      "evaluation_sha256": "5393b1b7c23d3b3e6e43ae7c426a16d8da9fa520bb49e6e4c8ebf54e4ef40e5b",
+      "file_sha256": "5393b1b7c23d3b3e6e43ae7c426a16d8da9fa520bb49e6e4c8ebf54e4ef40e5b",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R4.md",
+      "evaluation_sha256": "bd89f3c15efaad55912af732d0619b88725159aa08cd42ae87e300222d9e085a",
+      "file_sha256": "bd89f3c15efaad55912af732d0619b88725159aa08cd42ae87e300222d9e085a",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R5.md",
+      "evaluation_sha256": "946552da9b79179db9902efde8e67a1c90159a0a4bc3c80ace53db69f6159941",
+      "file_sha256": "946552da9b79179db9902efde8e67a1c90159a0a4bc3c80ace53db69f6159941",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R6.md",
+      "evaluation_sha256": "3d01f04851c98c29703987d31ad634a6b72ad8e7bc3043b569e3b3ea0bd0f9e9",
+      "file_sha256": "3d01f04851c98c29703987d31ad634a6b72ad8e7bc3043b569e3b3ea0bd0f9e9",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R7.md",
+      "evaluation_sha256": "12f1edcede9756ccb5cbb82285594c354ccf4267b7004b6b659765e7ebfe5333",
+      "file_sha256": "12f1edcede9756ccb5cbb82285594c354ccf4267b7004b6b659765e7ebfe5333",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R9.md",
+      "evaluation_sha256": "f1966ae45e44585d62ba5c2c9e2266e16bb256ad0d3b46edd635181722dd870c",
+      "file_sha256": "f1966ae45e44585d62ba5c2c9e2266e16bb256ad0d3b46edd635181722dd870c",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605427",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605427/R10.md",
+      "evaluation_sha256": "e6d42d6d7d95cf22dee3b5add99d5a3b0c942595164486894c78dec3c445d4e1",
+      "file_sha256": "e6d42d6d7d95cf22dee3b5add99d5a3b0c942595164486894c78dec3c445d4e1",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R1.md",
+      "evaluation_sha256": "272d8a0327baf4bb2bd5a68b144460550811506d1013f731f1a7e8ba525a71f8",
+      "file_sha256": "c5b0f170ae89fcf343c4964d85277ef80c4bb8f05b7d90a8907d29d28c3ce059",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 14
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R2.md",
+      "evaluation_sha256": "b98de91468ec04e7c065744a66ab6eb36a86cbe1d0b0904e58f1dd0043b6eaff",
+      "file_sha256": "b98de91468ec04e7c065744a66ab6eb36a86cbe1d0b0904e58f1dd0043b6eaff",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R3.md",
+      "evaluation_sha256": "57223189ca61b41238a56a91133913f4f7db402ad1f062b95597d9c39f1bbacf",
+      "file_sha256": "57223189ca61b41238a56a91133913f4f7db402ad1f062b95597d9c39f1bbacf",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R4.md",
+      "evaluation_sha256": "ecc001647a323dc4407574e7617ae56909853f47582ba2c07e8491cf2d68e6e4",
+      "file_sha256": "ecc001647a323dc4407574e7617ae56909853f47582ba2c07e8491cf2d68e6e4",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R5.md",
+      "evaluation_sha256": "29631cea39985cb71623bc6351722bcd73ad6d81184173ad80d26615b5bb6007",
+      "file_sha256": "29631cea39985cb71623bc6351722bcd73ad6d81184173ad80d26615b5bb6007",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R6.md",
+      "evaluation_sha256": "ccb69c6c8f46a851797723235ac36950822f1eab580108112ab7d7903d279513",
+      "file_sha256": "ccb69c6c8f46a851797723235ac36950822f1eab580108112ab7d7903d279513",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R7.md",
+      "evaluation_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9",
+      "file_sha256": "d43ebaa28b33b444af8604384dc385b0ce7711568467ad3408e01713674ba1c9",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R9.md",
+      "evaluation_sha256": "39a1fc69a0dcb12bac6028b23f49779e74e9428594bef662075fd2ea471f4915",
+      "file_sha256": "39a1fc69a0dcb12bac6028b23f49779e74e9428594bef662075fd2ea471f4915",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605434",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605434/R10.md",
+      "evaluation_sha256": "d03397dfa4797a4e0047dfdc28b5f3d547c657eb6b5734949e759e30a726f81f",
+      "file_sha256": "d03397dfa4797a4e0047dfdc28b5f3d547c657eb6b5734949e759e30a726f81f",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R1.md",
+      "evaluation_sha256": "d0fbc5fb1da9c534e3e69ade47b64ebbed67715e4086f0ce54bd52d6a48dc8cf",
+      "file_sha256": "44c83080e61fbff28b617b00d254069f900ab155d4280d78891f11abd9292a94",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 118
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R2.md",
+      "evaluation_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048",
+      "file_sha256": "f11178dca7be68ed18b96ceb09d31c8c08172502fe47e1a4d3518e634228d048",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R3.md",
+      "evaluation_sha256": "7f4d32c6326ec296de577042653ed5dc980814feb8fc0732cbcd1fd31ad94554",
+      "file_sha256": "7f4d32c6326ec296de577042653ed5dc980814feb8fc0732cbcd1fd31ad94554",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R4.md",
+      "evaluation_sha256": "6b8d9ff0ed3d9f23d921cbfb2ad6b38c473a4dcb3fe5942f096e3f60dd45d154",
+      "file_sha256": "6b8d9ff0ed3d9f23d921cbfb2ad6b38c473a4dcb3fe5942f096e3f60dd45d154",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R5.md",
+      "evaluation_sha256": "dda63ad4978297d943712eb4ac75d4f79f235a80454cccbf32132e1049ed0b3c",
+      "file_sha256": "dda63ad4978297d943712eb4ac75d4f79f235a80454cccbf32132e1049ed0b3c",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R6.md",
+      "evaluation_sha256": "518554612f34e5061ee3efbfbf9d97c5bd39e716972dc5ad2864c312d9553803",
+      "file_sha256": "518554612f34e5061ee3efbfbf9d97c5bd39e716972dc5ad2864c312d9553803",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R7.md",
+      "evaluation_sha256": "33fcb8305c1826f82e54296b3caa9ad197e7aee43a84055efba2248715a2122d",
+      "file_sha256": "33fcb8305c1826f82e54296b3caa9ad197e7aee43a84055efba2248715a2122d",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R9.md",
+      "evaluation_sha256": "731732851f9ea34b899afd65655fdb93b7f3c7035e753b4a9b92b23b3a64ff46",
+      "file_sha256": "731732851f9ea34b899afd65655fdb93b7f3c7035e753b4a9b92b23b3a64ff46",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605443",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605443/R10.md",
+      "evaluation_sha256": "865882d71898e2be5e32f505028cb710a803570cfe8ad17d2e5576e92133c50e",
+      "file_sha256": "865882d71898e2be5e32f505028cb710a803570cfe8ad17d2e5576e92133c50e",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R1.md",
+      "evaluation_sha256": "33029d8e93862d00aef64d0fc64cac797a313031dfd918cf126542f8bc72f11f",
+      "file_sha256": "5bf1ac5dd1d76fc0fd24f716b385b2312388fb3ee53da22583112c92288c2fd0",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 151
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R2.md",
+      "evaluation_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258",
+      "file_sha256": "3465b4ff2517d8b13042db3a53edb5f142c22647a89ffe09d37ad52f5cf09258",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R3.md",
+      "evaluation_sha256": "d19111f0c28183a219355e9a9a31c794292847f62fc2672f8861cd8affc20b4d",
+      "file_sha256": "d19111f0c28183a219355e9a9a31c794292847f62fc2672f8861cd8affc20b4d",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R4.md",
+      "evaluation_sha256": "c1e91642a75a903311254691de3c107245851fb84f68878c1d254574cf9bba3d",
+      "file_sha256": "c1e91642a75a903311254691de3c107245851fb84f68878c1d254574cf9bba3d",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R5.md",
+      "evaluation_sha256": "8977eb6118ef0cf8cf728c6a9328c5858e2d75ce5bb9be3358dc0f0e18e76f20",
+      "file_sha256": "8977eb6118ef0cf8cf728c6a9328c5858e2d75ce5bb9be3358dc0f0e18e76f20",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R6.md",
+      "evaluation_sha256": "58d902278b2c4ae18122aa27e66f8db4b0077f0763cc0ec9b868667d7c06fede",
+      "file_sha256": "58d902278b2c4ae18122aa27e66f8db4b0077f0763cc0ec9b868667d7c06fede",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R7.md",
+      "evaluation_sha256": "6c77abb1b8f7857da44ee1e6940a62c31d36bc023e755a015e97d003d56f32fc",
+      "file_sha256": "e6506073e57ab8b8c45f3b0e8fdd03e7c54b91f03df7803839d14dd643b5d708",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 4
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R9.md",
+      "evaluation_sha256": "2065cc1aff93b3d3c5b0cbe2f391eeae847b940c45300f284197f7663be3cd23",
+      "file_sha256": "2065cc1aff93b3d3c5b0cbe2f391eeae847b940c45300f284197f7663be3cd23",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a60545c",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a60545c/R10.md",
+      "evaluation_sha256": "90e0a33bd794a18a6380d88b75a537b49b19f40772833981dff53345acf7bcbe",
+      "file_sha256": "90e0a33bd794a18a6380d88b75a537b49b19f40772833981dff53345acf7bcbe",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R1.md",
+      "evaluation_sha256": "ac83a9910a1648335cce1a6c751337cedbae6f42bffab03b9a9ed1da4f4b6434",
+      "file_sha256": "4784abdd8a18986106801d2559b0cb608a096792ef4da46af0645b75ec4df51d",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 130
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R2.md",
+      "evaluation_sha256": "17ab73f167a96e7ce007d6e8a1881b742535c7f3bc915fa0c00d7e189d945385",
+      "file_sha256": "17ab73f167a96e7ce007d6e8a1881b742535c7f3bc915fa0c00d7e189d945385",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R3.md",
+      "evaluation_sha256": "6049a1a38d87f6c6c5b88a3fc2336af0751179db1730b691cb31ff133e1f63a0",
+      "file_sha256": "6049a1a38d87f6c6c5b88a3fc2336af0751179db1730b691cb31ff133e1f63a0",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R4.md",
+      "evaluation_sha256": "4883f896303a0d0b66912041297d7716e320cd6d204c4062a1e356b39c94bf91",
+      "file_sha256": "4883f896303a0d0b66912041297d7716e320cd6d204c4062a1e356b39c94bf91",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R5.md",
+      "evaluation_sha256": "4ea1f18285baa812eacc2b5e018edb7f5e046523f8da37218057e026e358a64e",
+      "file_sha256": "4ea1f18285baa812eacc2b5e018edb7f5e046523f8da37218057e026e358a64e",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R6.md",
+      "evaluation_sha256": "033e97ff11e3b061bcb1773cf512ab96e460373ac56d19b66e7299195f8a7679",
+      "file_sha256": "033e97ff11e3b061bcb1773cf512ab96e460373ac56d19b66e7299195f8a7679",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R7.md",
+      "evaluation_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f",
+      "file_sha256": "6b170bcb3383dc6fd0004bb78c55bbd8b6ba1a3e1a52d808fff7e450b6d7db5f",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R9.md",
+      "evaluation_sha256": "20c5afd2d4aa6aee8dbdb1c2aeacc3f2fd11cba013e93c1e5e93a6d0b9b7dcba",
+      "file_sha256": "20c5afd2d4aa6aee8dbdb1c2aeacc3f2fd11cba013e93c1e5e93a6d0b9b7dcba",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a605492",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a605492/R10.md",
+      "evaluation_sha256": "eff49d7fded791035d40cca838a089580ebfea8d8b0147b4bf9d2b32fca4ec8f",
+      "file_sha256": "eff49d7fded791035d40cca838a089580ebfea8d8b0147b4bf9d2b32fca4ec8f",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R1.md",
+      "evaluation_sha256": "c61a9636f4bb59c468af21ebd94f33476027123cab0f6bbe9488b182e9d5d8b5",
+      "file_sha256": "b742f9fdd66a49984cc9e1a707f202cbb6f6ab2544165c71c58dbe5d6f9c5e4f",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 100
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R2.md",
+      "evaluation_sha256": "de050e323718fd773044f99adf9b56cfe8a51411d8e5c04e930ac816d8d67db0",
+      "file_sha256": "de050e323718fd773044f99adf9b56cfe8a51411d8e5c04e930ac816d8d67db0",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R3.md",
+      "evaluation_sha256": "49181d5bd818f797f861dfc3d95d24550b3c5908a26921496c495276418fe2ce",
+      "file_sha256": "49181d5bd818f797f861dfc3d95d24550b3c5908a26921496c495276418fe2ce",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R4.md",
+      "evaluation_sha256": "b8d6fa43232f8ec44520423346d32dcea44047cdbfcc094ea5de8fc30535afe1",
+      "file_sha256": "b8d6fa43232f8ec44520423346d32dcea44047cdbfcc094ea5de8fc30535afe1",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R5.md",
+      "evaluation_sha256": "9fad43f16f543d57dc4ac9da6ba8215dce0398fa30f8f3ef5728b3a0a431e9ef",
+      "file_sha256": "9fad43f16f543d57dc4ac9da6ba8215dce0398fa30f8f3ef5728b3a0a431e9ef",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R6.md",
+      "evaluation_sha256": "c67c4595f83bcd47e0d53c6b6bc2ebdf9a58e169396f58aa7bdcb6408e46139f",
+      "file_sha256": "c67c4595f83bcd47e0d53c6b6bc2ebdf9a58e169396f58aa7bdcb6408e46139f",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R7.md",
+      "evaluation_sha256": "0729a478bc15354fe24ef64e1cea93db2229c35eac128d60466e4d15430cd7c6",
+      "file_sha256": "5e2fb35f05a1df264a8e3a498074769fc9362e3f2b7b08bacc124e8b02bbc9c2",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {
+        "srsltid": 5
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R9.md",
+      "evaluation_sha256": "f943499ea90cbd5807eca49d7d26f8b2cb054ca113d592b669b7b1bad0f4b7de",
+      "file_sha256": "f943499ea90cbd5807eca49d7d26f8b2cb054ca113d592b669b7b1bad0f4b7de",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054a7",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054a7/R10.md",
+      "evaluation_sha256": "ca7c06072be89b80ea6271dd730d4fa6180b0572b28edf55ad4c03ae079e12d5",
+      "file_sha256": "ca7c06072be89b80ea6271dd730d4fa6180b0572b28edf55ad4c03ae079e12d5",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R1",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R1.md",
+      "evaluation_sha256": "1ead13398ba866e1423782a71bc4fded095e98bfb2bf3822db3bd99c40baec8f",
+      "file_sha256": "d18552aebd29b5ead04baf5dfd82871e37a8703c1052cc1db25e739e696a5b4d",
+      "system": "ChatGPT Deep Research",
+      "removed_tracking_parameters": {
+        "utm_source": 81
+      }
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R2",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R2.md",
+      "evaluation_sha256": "918a2437c89565868825430544e548f0b25ae65f42105d0843bf11577824e86a",
+      "file_sha256": "918a2437c89565868825430544e548f0b25ae65f42105d0843bf11577824e86a",
+      "system": "Gemini Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R3",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R3.md",
+      "evaluation_sha256": "b70f42e68164f2ae5ede67c985b0b1a513901830c982dff2ec46674c077e806a",
+      "file_sha256": "b70f42e68164f2ae5ede67c985b0b1a513901830c982dff2ec46674c077e806a",
+      "system": "Claude Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R4",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R4.md",
+      "evaluation_sha256": "b701be2163ab2fd8b5c449038d41a5b6bfe46018fd3a84fecab5bc0db2e7a5b1",
+      "file_sha256": "b701be2163ab2fd8b5c449038d41a5b6bfe46018fd3a84fecab5bc0db2e7a5b1",
+      "system": "LongCat-DeepResearch",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R5",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R5.md",
+      "evaluation_sha256": "9f745f4deb63e3ea80e6b0227242b7af68d23de19942da2c7e1f4b0477dcd85d",
+      "file_sha256": "9f745f4deb63e3ea80e6b0227242b7af68d23de19942da2c7e1f4b0477dcd85d",
+      "system": "Kimi Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R6",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R6.md",
+      "evaluation_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86",
+      "file_sha256": "51d40ce3f526d0dfc4e6c3e4120af88072d6543079b6ec76d9b8f2696d2e0c86",
+      "system": "DuMate Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R7",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R7.md",
+      "evaluation_sha256": "56494d7d286bebf1301385b462949e1cc77c3dc8aa2efa29803d6c9bc31a3ffb",
+      "file_sha256": "56494d7d286bebf1301385b462949e1cc77c3dc8aa2efa29803d6c9bc31a3ffb",
+      "system": "Qwen Deep Research",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R9",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R9.md",
+      "evaluation_sha256": "a8a23f2f53d4ebb68d533972e8de86703c33045cea4ac8832ffe40d59b8924c9",
+      "file_sha256": "a8a23f2f53d4ebb68d533972e8de86703c33045cea4ac8832ffe40d59b8924c9",
+      "system": "GPT Researcher",
+      "removed_tracking_parameters": {}
+    },
+    {
+      "query_id": "rr_6847465956a0f6376a6054d0",
+      "report_id": "R10",
+      "path": "data/reports/main9/rr_6847465956a0f6376a6054d0/R10.md",
+      "evaluation_sha256": "ca3f876b7e098a229c264c6357ae3216004bedb32ce1dfbb3d87ae30b3447da1",
+      "file_sha256": "ca3f876b7e098a229c264c6357ae3216004bedb32ce1dfbb3d87ae30b3447da1",
+      "system": "MiniMax Agent",
+      "removed_tracking_parameters": {}
+    }
+  ]
+}

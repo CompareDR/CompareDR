@@ -1,0 +1,1135 @@
+{
+  "manuscript": {
+    "version": "public-v8-nine-systems",
+    "date": "2026-11-16",
+    "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
+    "pdf_sha256": "9601062a42df499ad3688a1f7bcf5b51635bd5b8c6272debedc61d54eaee96d5",
+    "tables": {
+      "tab:benchmark_resources": [
+        [
+          "Chinese queries",
+          "5",
+          "15",
+          "0",
+          "20"
+        ],
+        [
+          "English queries",
+          "1",
+          "7",
+          "12",
+          "20"
+        ],
+        [
+          "All queries",
+          "6",
+          "22",
+          "12",
+          "40"
+        ],
+        [
+          "Share of queries (%)",
+          "15",
+          "55",
+          "30",
+          "100"
+        ],
+        [
+          "Collected reports",
+          "54",
+          "198",
+          "108",
+          "360"
+        ],
+        [
+          "Human-annotated report pairs",
+          "12",
+          "44",
+          "24",
+          "80"
+        ]
+      ],
+      "tab:rubric_distribution": [
+        [
+          "Responsiveness",
+          "Fulfillment of the query, required coverage, and task constraints.",
+          "669",
+          "0",
+          "669"
+        ],
+        [
+          "Evidence",
+          "Source quality and evidential support for the report's claims.",
+          "106",
+          "38",
+          "144"
+        ],
+        [
+          "Reasoning",
+          "Analytical depth, stated assumptions, and validity of inferences.",
+          "0",
+          "98",
+          "98"
+        ],
+        [
+          "Synthesis",
+          "Integration of findings and their value for answering the research task.",
+          "0",
+          "67",
+          "67"
+        ],
+        [
+          "Readability",
+          "Global organization, clarity, and efficiency of reading the report.",
+          "1",
+          "120",
+          "121"
+        ],
+        [
+          "Total",
+          "Frozen task-specific evaluation criteria.",
+          "776",
+          "323",
+          "1,099"
+        ]
+      ],
+      "tab:system_results": [
+        [
+          "GPT-6",
+          "ChatGPT Deep Research",
+          "93.07",
+          "86.09",
+          "74.83",
+          "73.74",
+          "72.35",
+          "83.08"
+        ],
+        [
+          "LongCat",
+          "LongCat-DeepResearch",
+          "93.59",
+          "83.60",
+          "82.64",
+          "78.79",
+          "66.61",
+          "82.62"
+        ],
+        [
+          "Kimi K3",
+          "Kimi Researcher",
+          "90.88",
+          "76.55",
+          "70.19",
+          "67.04",
+          "74.52",
+          "78.86"
+        ],
+        [
+          "Claude Opus 5",
+          "Claude Research",
+          "86.74",
+          "69.58",
+          "52.03",
+          "57.61",
+          "45.33",
+          "66.93"
+        ],
+        [
+          "MiniMax M3",
+          "MiniMax Agent",
+          "84.41",
+          "60.85",
+          "47.33",
+          "46.19",
+          "57.63",
+          "64.46"
+        ],
+        [
+          "GPT-5.5",
+          "GPT Researcher",
+          "78.86",
+          "59.11",
+          "36.35",
+          "46.75",
+          "46.30",
+          "58.96"
+        ],
+        [
+          "---",
+          "DuMate Deep Research",
+          "82.92",
+          "50.24",
+          "35.08",
+          "37.93",
+          "44.05",
+          "56.06"
+        ],
+        [
+          "Gemini 3.7 Flash",
+          "Gemini Deep Research",
+          "81.25",
+          "46.11",
+          "35.51",
+          "27.73",
+          "33.42",
+          "51.22"
+        ],
+        [
+          "Qwen 3.8 Max",
+          "Qwen Deep Research",
+          "70.18",
+          "39.60",
+          "16.05",
+          "14.22",
+          "12.44",
+          "38.45"
+        ]
+      ],
+      "tab:human_agreement": [
+        [
+          "Hybrid framework",
+          "86.25",
+          ".746",
+          ".602",
+          "77.50--93.75"
+        ],
+        [
+          "Direct",
+          "83.75",
+          ".709",
+          ".596",
+          "76.25--91.25"
+        ],
+        [
+          "OpenRS",
+          "78.75",
+          ".634",
+          ".614",
+          "68.75--87.50"
+        ],
+        [
+          "Source protocols",
+          "63.75",
+          ".368",
+          ".589",
+          "52.50--73.75"
+        ]
+      ],
+      "tab:controlled_response": [
+        [
+          "Full framework",
+          "1.70",
+          "32/40 (80.0)",
+          "19/40 (47.5)",
+          "26/39 (66.7)",
+          "64.7",
+          "64.2"
+        ],
+        [
+          "Same-coverage PT",
+          "3.34",
+          "6/40 (15.0)",
+          "14/40 (35.0)",
+          "29/39 (74.4)",
+          "41.2",
+          "37.8"
+        ],
+        [
+          "RACE",
+          "0.3044",
+          "12/40 (30.0)",
+          "20/40 (50.0)",
+          "17/39 (43.6)",
+          "41.2",
+          "40.8"
+        ],
+        [
+          "Source protocols",
+          "0.10",
+          "21/40 (52.5)",
+          "16/40 (40.0)",
+          "6/39 (15.4)",
+          "36.1",
+          "34.1"
+        ]
+      ],
+      "tab:ablations": [
+        [
+          "Full framework",
+          "86.25",
+          ".746",
+          ".602",
+          "---"
+        ],
+        [
+          "PT-only",
+          "77.50",
+          ".601",
+          ".555",
+          "-8.75"
+        ],
+        [
+          "PW-only",
+          "82.50",
+          ".679",
+          ".579",
+          "-3.75"
+        ],
+        [
+          "No verification scoring feedback",
+          "86.25",
+          ".746",
+          ".601",
+          "0.00"
+        ],
+        [
+          "Summary representation",
+          "83.75",
+          ".702",
+          ".588",
+          "-2.50"
+        ]
+      ],
+      "tab:judge-selection": [
+        [
+          "GPT-5.5",
+          "91.81",
+          "6.31",
+          "--"
+        ],
+        [
+          "DeepSeek-v4.1f",
+          "86.09",
+          "13.02",
+          "1.000"
+        ],
+        [
+          "Gemini 2.5 Pro",
+          "82.94",
+          "15.29",
+          "0.400"
+        ]
+      ],
+      "tab:cross-judge-robustness": [
+        [
+          "GPT-5.5 (Primary)",
+          "--",
+          "--",
+          "--",
+          "--",
+          "--"
+        ],
+        [
+          "DeepSeek-v4.1f",
+          "0.950",
+          "1.000",
+          "1.000",
+          "0.800",
+          "+0.065"
+        ],
+        [
+          "Gemini 2.5 Pro",
+          "0.685",
+          "0.400",
+          "0.333",
+          "0.640",
+          "+4.420"
+        ]
+      ],
+      "tab:judge-stability": [
+        [
+          "GPT-5.5 (Primary)",
+          "91.81%",
+          "6.31%",
+          "0.18%"
+        ],
+        [
+          "DeepSeek-v4.1f",
+          "86.09%",
+          "13.02%",
+          "0.62%"
+        ],
+        [
+          "Gemini 2.5 Pro",
+          "82.94%",
+          "15.29%",
+          "1.18%"
+        ]
+      ],
+      "tab:judge_pilot": [
+        [
+          "Valid requests",
+          "300/300",
+          "290/300",
+          "298/300"
+        ],
+        [
+          "PW repeat: direction",
+          "94.44",
+          "92.64",
+          "92.13"
+        ],
+        [
+          "PW repeat: exact level",
+          "85.00",
+          "74.85",
+          "82.02"
+        ],
+        [
+          "PW order: direction",
+          "89.44",
+          "86.96",
+          "83.15"
+        ],
+        [
+          "PT repeat: exact score",
+          "93.33",
+          "80.83",
+          "87.50"
+        ],
+        [
+          "Content PW order: direction",
+          "91.67",
+          "93.14",
+          "92.50"
+        ],
+        [
+          "Readability PW order: direction",
+          "85.00",
+          "76.27",
+          "63.79"
+        ]
+      ],
+      "tab:new_system_sampling": [
+        [
+          "1",
+          "40",
+          "80.25%",
+          "0.730",
+          "1.731",
+          "90.71%"
+        ],
+        [
+          "2",
+          "80",
+          "64.23%",
+          "0.318",
+          "0.786",
+          "93.14%"
+        ],
+        [
+          "3",
+          "120",
+          "48.17%",
+          "0.194",
+          "0.497",
+          "96.14%"
+        ],
+        [
+          "6 (full)",
+          "240",
+          "0%",
+          "0",
+          "0",
+          "100%"
+        ]
+      ],
+      "tab:token_usage": [
+        [
+          "GPT-5.5",
+          "13,345",
+          "525.41",
+          "55.11",
+          "580.52"
+        ],
+        [
+          "DeepSeek-v4.1f",
+          "15,917",
+          "97.82",
+          "10.13",
+          "107.95"
+        ],
+        [
+          "Total",
+          "29,262",
+          "623.24",
+          "65.24",
+          "688.47"
+        ]
+      ],
+      "tab:controlled_dimensions": [
+        [
+          "Responsiveness",
+          "2",
+          "1/2 (50.0)",
+          "1/2 (50.0)"
+        ],
+        [
+          "Evidence",
+          "18",
+          "8/18 (44.4)",
+          "9/18 (50.0)"
+        ],
+        [
+          "Reasoning",
+          "56",
+          "32/56 (57.1)",
+          "27/56 (48.2)"
+        ],
+        [
+          "Synthesis",
+          "22",
+          "8/22 (36.4)",
+          "7/22 (31.8)"
+        ],
+        [
+          "Readability",
+          "25",
+          "21/25 (84.0)",
+          "6/25 (24.0)"
+        ],
+        [
+          "Overall",
+          "123",
+          "70/123 (56.9)",
+          "50/123 (40.7)"
+        ]
+      ],
+      "tab:controlled_thresholds": [
+        [
+          "Full framework",
+          "64.7 (1.70)",
+          "64.2 (1.70)",
+          "63.9 (2.00)",
+          "63.4 (2.00)"
+        ],
+        [
+          "Same-coverage PT",
+          "41.2 (3.34)",
+          "37.8 (3.34)",
+          "41.2 (4.68)",
+          "37.5 (4.68)"
+        ],
+        [
+          "RACE",
+          "42.0 (0.135)",
+          "40.8 (0.3044)",
+          "42.9 (0.12)",
+          "40.8 (0.51584)"
+        ],
+        [
+          "Source protocols",
+          "36.1 (0.10)",
+          "34.1 (0.10)",
+          "36.1 (0.19)",
+          "34.1 (0.19)"
+        ]
+      ]
+    }
+  },
+  "benchmark_resources": [
+    {
+      "component": "Chinese queries",
+      "drb1": 5,
+      "drb2": 15,
+      "researchrubrics": 0,
+      "total": 20
+    },
+    {
+      "component": "English queries",
+      "drb1": 1,
+      "drb2": 7,
+      "researchrubrics": 12,
+      "total": 20
+    },
+    {
+      "component": "All queries",
+      "drb1": 6,
+      "drb2": 22,
+      "researchrubrics": 12,
+      "total": 40
+    },
+    {
+      "component": "Share of queries (%)",
+      "drb1": 15,
+      "drb2": 55,
+      "researchrubrics": 30,
+      "total": 100
+    },
+    {
+      "component": "Collected reports",
+      "drb1": 54,
+      "drb2": 198,
+      "researchrubrics": 108,
+      "total": 360
+    },
+    {
+      "component": "Human-annotated report pairs",
+      "drb1": 12,
+      "drb2": 44,
+      "researchrubrics": 24,
+      "total": 80
+    }
+  ],
+  "rubric_distribution": [
+    {
+      "dimension": "Responsiveness",
+      "focus": "Fulfillment of the query, required coverage, and task constraints.",
+      "pointwise": 669,
+      "pairwise": 0,
+      "total": 669
+    },
+    {
+      "dimension": "Evidence",
+      "focus": "Source quality and evidential support for the report's claims.",
+      "pointwise": 106,
+      "pairwise": 38,
+      "total": 144
+    },
+    {
+      "dimension": "Reasoning",
+      "focus": "Analytical depth, stated assumptions, and validity of inferences.",
+      "pointwise": 0,
+      "pairwise": 98,
+      "total": 98
+    },
+    {
+      "dimension": "Synthesis",
+      "focus": "Integration of findings and their value for answering the research task.",
+      "pointwise": 0,
+      "pairwise": 67,
+      "total": 67
+    },
+    {
+      "dimension": "Readability",
+      "focus": "Global organization, clarity, and efficiency of reading the report.",
+      "pointwise": 1,
+      "pairwise": 120,
+      "total": 121
+    },
+    {
+      "dimension": "Total",
+      "focus": "Frozen task-specific evaluation criteria.",
+      "pointwise": 776,
+      "pairwise": 323,
+      "total": 1099
+    }
+  ],
+  "model_settings": {
+    "primary_judge": "GPT-5.5",
+    "primary_reasoning": "medium",
+    "component_judge": "GPT-5.5",
+    "component_reasoning": "medium",
+    "alternative_judge": "deepseek-v4.1-flash",
+    "alternative_reasoning": "max",
+    "alternative_display": "DeepSeek-v4.1f",
+    "gemini_judge": "Gemini 2.5 Pro",
+    "gemini_reasoning": "provider default",
+    "kimi_generation_setting": "Kimi K3 Max"
+  },
+  "human_alignment": [
+    {
+      "method": "Hybrid framework",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.602,
+      "ci": [
+        77.5,
+        93.75
+      ]
+    },
+    {
+      "method": "Direct",
+      "agreement": 83.75,
+      "kappa": 0.709,
+      "macro_f1": 0.596,
+      "ci": [
+        76.25,
+        91.25
+      ]
+    },
+    {
+      "method": "OpenRS",
+      "agreement": 78.75,
+      "kappa": 0.634,
+      "macro_f1": 0.614,
+      "ci": [
+        68.75,
+        87.5
+      ]
+    },
+    {
+      "method": "Source protocols",
+      "agreement": 63.75,
+      "kappa": 0.368,
+      "macro_f1": 0.589,
+      "ci": [
+        52.5,
+        73.75
+      ]
+    }
+  ],
+  "human_dimension_agreement": {
+    "Responsiveness": 65.0,
+    "Evidence": 58.75,
+    "Reasoning": 78.75,
+    "Synthesis": 72.5,
+    "Readability": 67.5
+  },
+  "ablations": [
+    {
+      "method": "Full framework",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.602,
+      "delta": null
+    },
+    {
+      "method": "PT-only",
+      "agreement": 77.5,
+      "kappa": 0.601,
+      "macro_f1": 0.555,
+      "delta": -8.75
+    },
+    {
+      "method": "PW-only",
+      "agreement": 82.5,
+      "kappa": 0.679,
+      "macro_f1": 0.579,
+      "delta": -3.75
+    },
+    {
+      "method": "No verification scoring feedback",
+      "agreement": 86.25,
+      "kappa": 0.746,
+      "macro_f1": 0.601,
+      "delta": 0.0
+    },
+    {
+      "method": "Summary representation",
+      "agreement": 83.75,
+      "kappa": 0.702,
+      "macro_f1": 0.588,
+      "delta": -2.5
+    }
+  ],
+  "cross_judge": [
+    {
+      "judge": "GPT-5.5",
+      "order_agreement": 91.81,
+      "reversals": 6.31,
+      "rho": null,
+      "icc": null,
+      "tau": null,
+      "mean_query_rho": null,
+      "bias": null,
+      "cycles": 0.18
+    },
+    {
+      "judge": "DeepSeek-v4.1f",
+      "order_agreement": 86.09,
+      "reversals": 13.02,
+      "rho": 1.0,
+      "icc": 0.95,
+      "tau": 1.0,
+      "mean_query_rho": 0.8,
+      "bias": 0.065,
+      "cycles": 0.62
+    },
+    {
+      "judge": "Gemini 2.5 Pro",
+      "order_agreement": 82.94,
+      "reversals": 15.29,
+      "rho": 0.4,
+      "icc": 0.685,
+      "tau": 0.333,
+      "mean_query_rho": 0.64,
+      "bias": 4.42,
+      "cycles": 1.18
+    }
+  ],
+  "judge_pilot": [
+    {
+      "metric": "Valid requests",
+      "values": [
+        "300/300",
+        "290/300",
+        "298/300"
+      ]
+    },
+    {
+      "metric": "PW repeat: direction",
+      "values": [
+        94.44,
+        92.64,
+        92.13
+      ]
+    },
+    {
+      "metric": "PW repeat: exact level",
+      "values": [
+        85.0,
+        74.85,
+        82.02
+      ]
+    },
+    {
+      "metric": "PW order: direction",
+      "values": [
+        89.44,
+        86.96,
+        83.15
+      ]
+    },
+    {
+      "metric": "PT repeat: exact score",
+      "values": [
+        93.33,
+        80.83,
+        87.5
+      ]
+    },
+    {
+      "metric": "Content PW order: direction",
+      "values": [
+        91.67,
+        93.14,
+        92.5
+      ]
+    },
+    {
+      "metric": "Readability PW order: direction",
+      "values": [
+        85.0,
+        76.27,
+        63.79
+      ]
+    }
+  ],
+  "controlled_revisions": {
+    "queries": 40,
+    "constructed": 120,
+    "evaluated": 119,
+    "excluded": 1,
+    "label_type": "Human-confirmed quality directions and target dimensions",
+    "calibration": "Method-specific absolute thresholds optimized for macro-F1 on the same 119 revisions; not held-out performance.",
+    "framework_judge": "deepseek-v4.1-flash",
+    "framework_reasoning": "max",
+    "same_coverage_pt_judge": "deepseek-v4.1-flash",
+    "same_coverage_pt_reasoning": "max",
+    "race_judge": "GPT-5.5",
+    "race_reasoning": "medium",
+    "source_protocol_judges": {
+      "DRB-I": "GPT-5.5 medium",
+      "DRB-II": "Gemini 2.5 Pro provider default",
+      "ResearchRubrics": "Gemini 2.5 Pro provider default"
+    },
+    "rows": [
+      {
+        "method": "Full framework",
+        "threshold": 1.7,
+        "improvement": {
+          "correct": 32,
+          "total": 40,
+          "percent": 80.0
+        },
+        "degradation": {
+          "correct": 19,
+          "total": 40,
+          "percent": 47.5
+        },
+        "equivalent": {
+          "correct": 26,
+          "total": 39,
+          "percent": 66.7
+        },
+        "accuracy": 64.7,
+        "macro_f1": 64.2
+      },
+      {
+        "method": "Same-coverage PT",
+        "threshold": 3.34,
+        "improvement": {
+          "correct": 6,
+          "total": 40,
+          "percent": 15.0
+        },
+        "degradation": {
+          "correct": 14,
+          "total": 40,
+          "percent": 35.0
+        },
+        "equivalent": {
+          "correct": 29,
+          "total": 39,
+          "percent": 74.4
+        },
+        "accuracy": 41.2,
+        "macro_f1": 37.8
+      },
+      {
+        "method": "RACE",
+        "threshold": 0.3044,
+        "improvement": {
+          "correct": 12,
+          "total": 40,
+          "percent": 30.0
+        },
+        "degradation": {
+          "correct": 20,
+          "total": 40,
+          "percent": 50.0
+        },
+        "equivalent": {
+          "correct": 17,
+          "total": 39,
+          "percent": 43.6
+        },
+        "accuracy": 41.2,
+        "macro_f1": 40.8
+      },
+      {
+        "method": "Source protocols",
+        "threshold": 0.1,
+        "improvement": {
+          "correct": 21,
+          "total": 40,
+          "percent": 52.5
+        },
+        "degradation": {
+          "correct": 16,
+          "total": 40,
+          "percent": 40.0
+        },
+        "equivalent": {
+          "correct": 6,
+          "total": 39,
+          "percent": 15.4
+        },
+        "accuracy": 36.1,
+        "macro_f1": 34.1
+      }
+    ]
+  },
+  "controlled_thresholds": [
+    {
+      "method": "Full framework",
+      "absolute_acc": {
+        "value": 64.7,
+        "threshold": 1.7
+      },
+      "absolute_f1": {
+        "value": 64.2,
+        "threshold": 1.7
+      },
+      "percentage_acc": {
+        "value": 63.9,
+        "threshold": 2.0
+      },
+      "percentage_f1": {
+        "value": 63.4,
+        "threshold": 2.0
+      }
+    },
+    {
+      "method": "Same-coverage PT",
+      "absolute_acc": {
+        "value": 41.2,
+        "threshold": 3.34
+      },
+      "absolute_f1": {
+        "value": 37.8,
+        "threshold": 3.34
+      },
+      "percentage_acc": {
+        "value": 41.2,
+        "threshold": 4.68
+      },
+      "percentage_f1": {
+        "value": 37.5,
+        "threshold": 4.68
+      }
+    },
+    {
+      "method": "RACE",
+      "absolute_acc": {
+        "value": 42.0,
+        "threshold": 0.135
+      },
+      "absolute_f1": {
+        "value": 40.8,
+        "threshold": 0.3044
+      },
+      "percentage_acc": {
+        "value": 42.9,
+        "threshold": 0.12
+      },
+      "percentage_f1": {
+        "value": 40.8,
+        "threshold": 0.51584
+      }
+    },
+    {
+      "method": "Source protocols",
+      "absolute_acc": {
+        "value": 36.1,
+        "threshold": 0.1
+      },
+      "absolute_f1": {
+        "value": 34.1,
+        "threshold": 0.1
+      },
+      "percentage_acc": {
+        "value": 36.1,
+        "threshold": 0.19
+      },
+      "percentage_f1": {
+        "value": 34.1,
+        "threshold": 0.19
+      }
+    }
+  ],
+  "controlled_dimensions": [
+    {
+      "dimension": "Responsiveness",
+      "n": 2,
+      "hybrid": {
+        "correct": 1,
+        "total": 2,
+        "percent": 50.0
+      },
+      "pointwise": {
+        "correct": 1,
+        "total": 2,
+        "percent": 50.0
+      }
+    },
+    {
+      "dimension": "Evidence",
+      "n": 18,
+      "hybrid": {
+        "correct": 8,
+        "total": 18,
+        "percent": 44.4
+      },
+      "pointwise": {
+        "correct": 9,
+        "total": 18,
+        "percent": 50.0
+      }
+    },
+    {
+      "dimension": "Reasoning",
+      "n": 56,
+      "hybrid": {
+        "correct": 32,
+        "total": 56,
+        "percent": 57.1
+      },
+      "pointwise": {
+        "correct": 27,
+        "total": 56,
+        "percent": 48.2
+      }
+    },
+    {
+      "dimension": "Synthesis",
+      "n": 22,
+      "hybrid": {
+        "correct": 8,
+        "total": 22,
+        "percent": 36.4
+      },
+      "pointwise": {
+        "correct": 7,
+        "total": 22,
+        "percent": 31.8
+      }
+    },
+    {
+      "dimension": "Readability",
+      "n": 25,
+      "hybrid": {
+        "correct": 21,
+        "total": 25,
+        "percent": 84.0
+      },
+      "pointwise": {
+        "correct": 6,
+        "total": 25,
+        "percent": 24.0
+      }
+    },
+    {
+      "dimension": "Overall",
+      "n": 123,
+      "hybrid": {
+        "correct": 70,
+        "total": 123,
+        "percent": 56.9
+      },
+      "pointwise": {
+        "correct": 50,
+        "total": 123,
+        "percent": 40.7
+      }
+    }
+  ],
+  "new_system_entry": [
+    {
+      "opponents": "1",
+      "new_pairs": 40,
+      "token_savings": 80.25,
+      "mae": 0.73,
+      "p95": 1.731,
+      "rank_accuracy": 90.71
+    },
+    {
+      "opponents": "2",
+      "new_pairs": 80,
+      "token_savings": 64.23,
+      "mae": 0.318,
+      "p95": 0.786,
+      "rank_accuracy": 93.14
+    },
+    {
+      "opponents": "3",
+      "new_pairs": 120,
+      "token_savings": 48.17,
+      "mae": 0.194,
+      "p95": 0.497,
+      "rank_accuracy": 96.14
+    },
+    {
+      "opponents": "6 (full)",
+      "new_pairs": 240,
+      "token_savings": 0.0,
+      "mae": 0.0,
+      "p95": 0.0,
+      "rank_accuracy": 100.0
+    }
+  ],
+  "token_usage": [
+    {
+      "model": "GPT-5.5",
+      "responses": 13345,
+      "input_m": 525.41,
+      "output_m": 55.11,
+      "total_m": 580.52
+    },
+    {
+      "model": "DeepSeek-v4.1f",
+      "responses": 15917,
+      "input_m": 97.82,
+      "output_m": 10.13,
+      "total_m": 107.95
+    },
+    {
+      "model": "Total",
+      "responses": 29262,
+      "input_m": 623.24,
+      "output_m": 65.24,
+      "total_m": 688.47
+    }
+  ]
+}

@@ -1,0 +1,1367 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "rr:6847465956a0f6376a60545c",
+  "language": "en",
+  "title": "Comparative revolutionary dynamics: France, Russia and Iran",
+  "full_query": "Conduct a comprehensive comparative analysis of the causes, processes, and outcomes of the French Revolution (1789), Russian Revolution (1917), and Iranian Revolution (1979). Your analysis should examine: socioeconomic preconditions, ideological frameworks, revolutionary leadership structures, international influences, counter-revolutionary responses, institutional transformations, and long-term societal impacts. Develop a theoretical framework for understanding revolutionary dynamics and apply it to predict potential future revolutionary scenarios.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Three revolutions and their processes",
+      "question": "Does the report address the French Revolution of 1789, Russian Revolution of 1917 and Iranian Revolution of 1979 as historical processes, not isolated labels?",
+      "anchors": {
+        "1": "The requested revolutions are not identifiable.",
+        "2": "Only one revolution is developed, or all three are merely named.",
+        "3": "Two revolutions have substantive process accounts but the third is absent or only named, or all three are identifiable with a material phase conflation.",
+        "4": "All three have recognizable trajectories, with a minor phase or temporal-boundary gap.",
+        "5": "Each revolution has a clear historical trajectory from crisis through political change, with the relevant period and major turning points identified; different starting dates and longer aftermaths are distinguished."
+      },
+      "boundary": "Do not restrict outcomes to the named start year or impose identical phase lengths. In Russia, a process account must not silently collapse the distinct 1917 regime changes. Historical correctness is audited in D2.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:15"
+        ],
+        "query_quotes": [
+          "causes, processes, and outcomes"
+        ],
+        "change_note": "Expand date labels into the query's required process account; do not treat named dates as complete narratives."
+      }
+    },
+    {
+      "id": "PT.D1.02.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): socioeconomic preconditions",
+      "question": "Does the report explain socioeconomic preconditions for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): socioeconomic preconditions.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but economic or social pressures and affected groups is only partly specified, or background conditions versus immediate triggers is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains economic or social pressures and affected groups; makes clear background conditions versus immediate triggers."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:1"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.02; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): socioeconomic preconditions",
+      "question": "Does the report explain socioeconomic preconditions for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): socioeconomic preconditions.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but economic or social pressures and affected groups is only partly specified, or background conditions versus immediate triggers is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains economic or social pressures and affected groups; makes clear background conditions versus immediate triggers."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.02; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): socioeconomic preconditions",
+      "question": "Does the report explain socioeconomic preconditions for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): socioeconomic preconditions.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but economic or social pressures and affected groups is only partly specified, or background conditions versus immediate triggers is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains economic or social pressures and affected groups; makes clear background conditions versus immediate triggers."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.02; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.03.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): ideological frameworks",
+      "question": "Does the report explain ideological frameworks for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): ideological frameworks.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but main ideological currents and political aims is only partly specified, or coalition and phase differences; the final dominant ideology is not the whole initial movement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains main ideological currents and political aims; makes clear coalition and phase differences; the final dominant ideology is not the whole initial movement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "ideological frameworks"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): ideological frameworks",
+      "question": "Does the report explain ideological frameworks for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): ideological frameworks.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but main ideological currents and political aims is only partly specified, or coalition and phase differences; the final dominant ideology is not the whole initial movement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains main ideological currents and political aims; makes clear coalition and phase differences; the final dominant ideology is not the whole initial movement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:4"
+        ],
+        "query_quotes": [
+          "ideological frameworks"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): ideological frameworks",
+      "question": "Does the report explain ideological frameworks for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): ideological frameworks.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but main ideological currents and political aims is only partly specified, or coalition and phase differences; the final dominant ideology is not the whole initial movement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains main ideological currents and political aims; makes clear coalition and phase differences; the final dominant ideology is not the whole initial movement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:5"
+        ],
+        "query_quotes": [
+          "ideological frameworks"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.04.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): leadership structures",
+      "question": "Does the report explain leadership structures for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): leadership structures.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but leaders or bodies and their organizational relationships is only partly specified, or how authority or coordination operated is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains leaders or bodies and their organizational relationships; makes clear how authority or coordination operated."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.04; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.04.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): leadership structures",
+      "question": "Does the report explain leadership structures for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): leadership structures.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but leaders or bodies and their organizational relationships is only partly specified, or how authority or coordination operated is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains leaders or bodies and their organizational relationships; makes clear how authority or coordination operated."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.04; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.04.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): leadership structures",
+      "question": "Does the report explain leadership structures for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): leadership structures.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but leaders or bodies and their organizational relationships is only partly specified, or how authority or coordination operated is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains leaders or bodies and their organizational relationships; makes clear how authority or coordination operated."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.04; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.04"
+    },
+    {
+      "id": "PT.D1.05.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): international influences",
+      "question": "Does the report explain international influences for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): international influences.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but external actors, pressures, ideas or wars and their role is only partly specified, or prior influences versus later interventions is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains external actors, pressures, ideas or wars and their role; makes clear prior influences versus later interventions."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): international influences",
+      "question": "Does the report explain international influences for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): international influences.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but external actors, pressures, ideas or wars and their role is only partly specified, or prior influences versus later interventions is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains external actors, pressures, ideas or wars and their role; makes clear prior influences versus later interventions."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.05.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): international influences",
+      "question": "Does the report explain international influences for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): international influences.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but external actors, pressures, ideas or wars and their role is only partly specified, or prior influences versus later interventions is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains external actors, pressures, ideas or wars and their role; makes clear prior influences versus later interventions."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.05; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.05"
+    },
+    {
+      "id": "PT.D1.06.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): counter-revolutionary responses",
+      "question": "Does the report explain counter-revolutionary responses for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): counter-revolutionary responses.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but actors resisting or containing revolutionary change and their actions is only partly specified, or counter-revolution versus internal rivalry, with any contested category explained is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains actors resisting or containing revolutionary change and their actions; makes clear counter-revolution versus internal rivalry, with any contested category explained."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): counter-revolutionary responses",
+      "question": "Does the report explain counter-revolutionary responses for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): counter-revolutionary responses.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but actors resisting or containing revolutionary change and their actions is only partly specified, or counter-revolution versus internal rivalry, with any contested category explained is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains actors resisting or containing revolutionary change and their actions; makes clear counter-revolution versus internal rivalry, with any contested category explained."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): counter-revolutionary responses",
+      "question": "Does the report explain counter-revolutionary responses for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): counter-revolutionary responses.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but actors resisting or containing revolutionary change and their actions is only partly specified, or counter-revolution versus internal rivalry, with any contested category explained is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains actors resisting or containing revolutionary change and their actions; makes clear counter-revolution versus internal rivalry, with any contested category explained."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.07.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): institutional transformations",
+      "question": "Does the report explain institutional transformations for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): institutional transformations.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but concrete changes in authority, law or other institutions is only partly specified, or proclamation versus implementation and the relevant time horizon is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains concrete changes in authority, law or other institutions; makes clear proclamation versus implementation and the relevant time horizon."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): institutional transformations",
+      "question": "Does the report explain institutional transformations for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): institutional transformations.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but concrete changes in authority, law or other institutions is only partly specified, or proclamation versus implementation and the relevant time horizon is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains concrete changes in authority, law or other institutions; makes clear proclamation versus implementation and the relevant time horizon."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): institutional transformations",
+      "question": "Does the report explain institutional transformations for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): institutional transformations.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but concrete changes in authority, law or other institutions is only partly specified, or proclamation versus implementation and the relevant time horizon is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains concrete changes in authority, law or other institutions; makes clear proclamation versus implementation and the relevant time horizon."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08.france",
+      "dimension": "D1",
+      "title": "French Revolution (1789): long-term societal impacts",
+      "question": "Does the report explain long-term societal impacts for the French Revolution (1789)?",
+      "anchors": {
+        "1": "No substantive account of french revolution (1789): long-term societal impacts.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but enduring changes in social relations, rights or culture and affected groups is only partly specified, or long-term consequences versus immediate regime replacement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains enduring changes in social relations, rights or culture and affected groups; makes clear long-term consequences versus immediate regime replacement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.08; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.russia",
+      "dimension": "D1",
+      "title": "Russian Revolution (1917): long-term societal impacts",
+      "question": "Does the report explain long-term societal impacts for the Russian Revolution (1917)?",
+      "anchors": {
+        "1": "No substantive account of russian revolution (1917): long-term societal impacts.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but enduring changes in social relations, rights or culture and affected groups is only partly specified, or long-term consequences versus immediate regime replacement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains enduring changes in social relations, rights or culture and affected groups; makes clear long-term consequences versus immediate regime replacement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.08; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.iran",
+      "dimension": "D1",
+      "title": "Iranian Revolution (1979): long-term societal impacts",
+      "question": "Does the report explain long-term societal impacts for the Iranian Revolution (1979)?",
+      "anchors": {
+        "1": "No substantive account of iranian revolution (1979): long-term societal impacts.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The case is discussed but enduring changes in social relations, rights or culture and affected groups is only partly specified, or long-term consequences versus immediate regime replacement is materially unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "For this case, explains enduring changes in social relations, rights or culture and affected groups; makes clear long-term consequences versus immediate regime replacement."
+      },
+      "boundary": "No prescribed historical example or leader list. Other revolutions cannot compensate. Causal validity remains a PW judgment; the original optional five/ten-year cutoffs are not reinstated.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.08; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Explicit comparative analysis",
+      "question": "Does the report explicitly compare similarities and differences across the three revolutions rather than provide three unrelated histories?",
+      "anchors": {
+        "1": "No comparison or usable case accounts.",
+        "2": "Cases are juxtaposed with only a generic claim that they are similar.",
+        "3": "Some direct comparison exists, but only similarities or differences are developed, or a case is excluded from the comparison.",
+        "4": "Both similarities and differences are compared across the cases with a minor scope imbalance.",
+        "5": "The report makes concrete, case-linked comparisons of both shared dynamics and important differences across the requested causes, processes and outcomes."
+      },
+      "boundary": "No fixed count of similarities/differences, no compulsory matrix. Comparison must identify what is being compared; depth is a separate PW judgment.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:11",
+          "rr:6847465956a0f6376a60545c:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain actual comparison, remove two-similarity/two-difference quotas."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Theoretical framework",
+      "question": "Does the report develop an intelligible framework explaining revolutionary dynamics?",
+      "anchors": {
+        "1": "No framework.",
+        "2": "Only a theory name, metaphor or list of factors.",
+        "3": "A framework is outlined, but relationships, mechanisms or what outcome it explains are materially unclear.",
+        "4": "The components and explanatory relationships are clear, with a minor scope condition missing.",
+        "5": "The report specifies a framework's explanatory factors or processes, their relationships and the conditions under which it expects revolution or particular trajectories."
+      },
+      "boundary": "No minimum three stages, mandatory named theory, quantitative model or novelty requirement. Combining or adapting existing theory is eligible if the framework is actually explained.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:13"
+        ],
+        "query_quotes": [
+          "Develop a theoretical framework"
+        ],
+        "change_note": "Retain an explanatory framework, remove fixed component count."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Applied future scenarios",
+      "question": "Does the report apply its framework to concrete contemporary contexts to derive potential future revolutionary scenarios?",
+      "anchors": {
+        "1": "No future application.",
+        "2": "Only vague predictions unrelated to the framework.",
+        "3": "A scenario is named, but a concrete contemporary application, the framework-to-scenario link, conditions or predicted outcome is materially missing.",
+        "4": "The framework is applied to grounded contemporary contexts with interpretable conditions and outcomes, with a minor uncertainty or boundary gap.",
+        "5": "Using concrete contemporary state or movement contexts, the report derives conditional future scenarios from its framework, identifying conditions, predicted dynamics and uncertainty; hypothetical future developments are distinguished from observed present conditions."
+      },
+      "boundary": "No prescribed countries, forecast dates, probability figures or several-country quota. Hypothetical future developments are eligible, but an entirely context-free imaginary society does not replace contemporary application. A failure-to-revolt or alternative pathway is eligible; no certain revolution prediction required.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:14",
+          "rr:6847465956a0f6376a60545c:flat:22"
+        ],
+        "query_quotes": [
+          "apply it to predict potential future revolutionary scenarios"
+        ],
+        "change_note": "Restore contemporary grounding; drop only prescribed state lists and counts, not the application domain."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of key claims",
+      "question": "Can key historical claims, disputed statistics and any contemporary facts used for scenarios be traced to specific sources or transparent derivations?",
+      "anchors": {
+        "1": "Key claims have no identifiable source or derivation.",
+        "2": "Only generic references to research or data are given.",
+        "3": "Relevant sources exist, but important claim-to-source links are unclear.",
+        "4": "Main claims are traceable, with minor attribution ambiguity.",
+        "5": "Key claims have identifiable sources or reviewable derivations; assumptions are marked."
+      },
+      "boundary": "Assess traceability only. Bibliographic details can suffice without URLs; actual support belongs to PT.D2.02.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplar's traceability audit to this task's key claims; anchors locally specified."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support within the verification sample",
+      "question": "Within completed checks, do sources support the report's revolution dates, leaders' roles, causal evidence, institutional changes and disputed numerical claims?",
+      "anchors": {
+        "1": "Verified central claims are contradicted or lack their claimed basis, undermining the answer.",
+        "2": "Several important checked claims have material support errors.",
+        "3": "Support is mixed, with material scope or attribution errors remaining.",
+        "4": "Important checked claims hold, with only minor overstatement or attribution problems.",
+        "5": "All assessed claims match the obtained evidence in object, scope and strength; this is not a full-report guarantee."
+      },
+      "boundary": "Record selected and assessed claims, scope and counts. Retrieval failure is an execution issue: retry and report it, not a low score or NA. Without completed checks, no quality conclusion is available. No external verification is performed in this authoring run.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:16",
+          "rr:6847465956a0f6376a60545c:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's bounded verification audit; official rubric content is not an external fact guarantee."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Internal consistency",
+      "question": "Are chronology, actors' roles, case definitions, framework terms and conditional scenario conclusions internally compatible?",
+      "anchors": {
+        "1": "Core statements conflict so extensively that the answer cannot be determined.",
+        "2": "An unexplained conflict in a key object, value or condition materially harms use.",
+        "3": "A local substantive conflict remains, but the main answer is identifiable.",
+        "4": "Core statements agree, with minor ambiguity that is easy to clarify.",
+        "5": "Checked prose, tables and conclusions agree; differences under different conditions are explained."
+      },
+      "boundary": "Assess internal compatibility, not external truth. Different conditions need not yield identical results.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add a task-specific consistency audit, separate from external verification."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Ideology in historical-to-modern transfer",
+      "question": "Does the report explain how the historical ideological frameworks inform its reading of modern movements and future scenarios?",
+      "anchors": {
+        "1": "No historical-to-modern ideological connection.",
+        "2": "Only equates modern labels or slogans with a past revolution.",
+        "3": "An ideological analogy or contrast is described, but its connection to modern mobilization or the future-scenario conclusion is unclear.",
+        "4": "Relevant historical ideological experience informs a concrete modern context and scenario implication, with minor applicability limits left unclear.",
+        "5": "Uses relevant historical ideological experience to explain what transfers or does not transfer to a concrete modern movement context or specified future scenario, making the implications for mobilization, coalition building or legitimacy and the conditions of that transfer clear."
+      },
+      "boundary": "No requirement to predict recurrence of a particular ideology, endorse it or treat it as sufficient for revolution. A reasoned contrast or limited applicability counts; mere omission of ideology does not. Modern contexts may be grounded illustrative movements rather than a fixed country list. This item does not require a separate modern counterpart for each of the three revolutions. A relevant case, contrast or cross-case synthesis can satisfy it when the transfer and its limits are explained. This does not waive the separate requirement to cover all three historical cases in PT.D1.03.france/russia/iran, or excuse ignoring contrary evidence relevant to the claimed transfer.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 37: remove the three-case modern-transfer quota from levels 3–5 while retaining concrete ideological transfer and its limits. Separate three-case historical coverage remains unchanged."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Observable conditions for prediction",
+      "question": "Does the framework identify specific observable conditions that would support or weaken its revolutionary scenarios?",
+      "anchors": {
+        "1": "No observable conditions.",
+        "2": "Only vague instability or discontent labels.",
+        "3": "Some indicators are identifiable, but their observation basis, expected direction or link to a scenario is materially unclear.",
+        "4": "Concrete indicators and their expected scenario implications are explained, with minor measurement or uncertainty gaps.",
+        "5": "The framework specifies observable indicators, how they could be measured or assessed, and how their changes or combinations alter expectations; limitations prevent treating an illustrative threshold as a validated forecasting rule."
+      },
+      "boundary": "No fixed two-metric count, model or numerical probability. Quantitative measures or concretely operationalized qualitative observations are eligible; generic words such as repression without observable meaning are not. PT.D1.10 checks explanatory relations; this item checks how expectations meet observations.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore operational specificity while dropping fixed metric count and mandatory numeric method."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Modern communication and revolutionary dynamics",
+      "question": "Does the report explain how modern communication's speed and scale can change revolutionary mobilization?",
+      "anchors": {
+        "1": "No modern-communication account.",
+        "2": "Only says social media matters or technology is faster.",
+        "3": "A mechanism is sketched, but either speed or reach is unexplained, or faster communication is equated with inevitable revolution.",
+        "4": "The report explains speed and scale effects on mobilization and a relevant limitation, with minor application gaps.",
+        "5": "The report explains how faster information diffusion and wider reach can change coordination, participation or escalation in modern scenarios, while identifying conditions that limit or reverse those effects."
+      },
+      "boundary": "No specific platform or algorithm required. Surveillance, shutdowns, weak ties or countermobilization can qualify the claim without every limitation being mandatory. A supported explanation of weak or negative net effects is eligible; mention of the Internet alone is not.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:23"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore modern communication mechanism without prescribing a platform or positive outcome."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Historical causal explanation",
+      "question": "Which report explains more convincingly how the stated conditions and actors produced the revolutionary trajectories and outcomes?",
+      "anchors": {
+        "0": "Historical causal reasoning is comparable, or neither goes beyond chronology and labels. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes an important historical causal link slightly more convincingly; B may still be better in some respects.",
+        "2": "A provides substantially more coherent causal explanations across the selected revolutionary trajectories; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more coherent causal explanations across the selected revolutionary trajectories; A's local strengths do not make up for this difference.",
+        "-1": "B makes an important historical causal link slightly more convincingly; A may still be better in some respects."
+      },
+      "boundary": "Do not equate sequence with causation, structural pressure with inevitability or leaders' intentions with actual outcomes. Counter-revolution and international influences should matter through actual arguments, not a compulsory theory checklist. Compare the central causal accounts across all three requested revolutions using the same importance standard for both reports; record opposing strengths and use 0 if equally consequential advantages balance. Do not select only the strongest case or sum PT coverage.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add open causal evaluation beyond required case coverage."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Framework-to-forecast reasoning",
+      "question": "Which report more convincingly uses historical comparisons to justify the framework and its conditional future applications?",
+      "anchors": {
+        "0": "Inferential transfer is comparable, or neither offers a defensible historical-to-future link. State whether both offer comparable help or neither offers relevant help.",
+        "1": "On balance A justifies the historical-to-framework-to-scenario transfer somewhat better; B may have stronger local links, which must be considered.",
+        "2": "A provides substantially more defensible transfer from historical cases to conditional future scenarios; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more defensible transfer from historical cases to conditional future scenarios; A's local strengths do not make up for this difference.",
+        "-1": "On balance B justifies the historical-to-framework-to-scenario transfer somewhat better; A may have stronger local links, which must be considered."
+      },
+      "boundary": "Compare the whole historical-to-framework-to-scenario chain, including countervailing strengths at either link. Three successful revolutions alone do not establish sufficient conditions. Do not sum PT coverage or reward one clever analogy while ignoring a serious transfer failure.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Compare the defensibility of transfer across the complete historical-framework-scenario chain; official content obligations now have PT entries."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Comparative historical insight",
+      "question": "Which report makes the shared patterns and consequential differences between the three revolutions more useful for understanding revolutionary dynamics?",
+      "anchors": {
+        "0": "Comparative insight is comparable, or neither moves beyond parallel descriptions. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly more useful insight into an important shared pattern or difference; B may still be better in some respects.",
+        "2": "A turns the comparison into substantially more useful understanding of why revolutionary trajectories converge or diverge; B's local strengths do not make up for this difference.",
+        "-2": "B turns the comparison into substantially more useful understanding of why revolutionary trajectories converge or diverge; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly more useful insight into an important shared pattern or difference; A may still be better in some respects."
+      },
+      "boundary": "Do not reward a longer similarities table. Identify what understanding changes beyond PT.D1.09's existence of comparison and D3's causal validity; no predetermined common root or inevitable authoritarian outcome.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add synthesis value beyond coverage and causal inference."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Usefulness of conditional scenarios",
+      "question": "Which report's scenarios better help readers distinguish plausible revolutionary pathways from conditions favoring resilience or other change?",
+      "anchors": {
+        "0": "Scenario usefulness is comparable, or neither gives actionable interpretive distinctions. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A gives slightly more useful distinctions among consequential future conditions or pathways; B may still be better in some respects.",
+        "2": "A provides substantially more useful conditional distinctions that clarify what would change the expected trajectory; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more useful conditional distinctions that clarify what would change the expected trajectory; A's local strengths do not make up for this difference.",
+        "-1": "B gives slightly more useful distinctions among consequential future conditions or pathways; A may still be better in some respects."
+      },
+      "boundary": "A qualitative warning sign, scope limit or contrasting nonrevolution outcome can be useful. Do not demand named countries, policy advice or numerical forecasts. Inferential validity limits usable content but is not itself a second reward.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add scenario interpretation value without a forecasting method mandate."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Historical and contemporary evidence fit",
+      "question": "Which report's evidence combination better supports its historical comparisons and the scope of its future claims?",
+      "anchors": {
+        "0": "Evidence-fit benefits are comparable, or neither supplies applicable support. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A uses slightly more appropriate evidence for an important comparative or scenario claim; B may still be better in some respects.",
+        "2": "A uses substantially better matched evidence for its core comparisons and transfer claims; B's local strengths do not make up for this difference.",
+        "-2": "B uses substantially better matched evidence for its core comparisons and transfer claims; A's local strengths do not make up for this difference.",
+        "-1": "B uses slightly more appropriate evidence for an important comparative or scenario claim; A may still be better in some respects."
+      },
+      "boundary": "Primary sources, specialist histories and comparative research serve different purposes; do not mechanically prefer one type. Current factual assertions require an appropriate time basis, while labeled hypothetical scenarios need transparent assumptions.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add evidence-set fit, separate from individual verified fact checks."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Whole-report progression",
+      "question": "Which original report more effectively moves between the three historical cases, comparison, framework and future applications?",
+      "anchors": {
+        "0": "The reports offer comparable organizational help, or neither supplies a usable reading path. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly better ordering and transitions for the whole argument; B may still be better in some respects.",
+        "2": "A provides a substantially clearer path through this task's material and conclusions; B's local strengths do not make up for this difference.",
+        "-2": "B provides a substantially clearer path through this task's material and conclusions; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly better ordering and transitions for the whole argument; A may still be better in some respects."
+      },
+      "boundary": "Read the original report. Judge order, transitions, summaries and avoidable repetition together, once. Neither brevity nor a fixed outline wins by default; sentence clarity and lookup are separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' whole-report comparison to this audience; no extra outline requirement."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clarity of existing content",
+      "question": "Which report more clearly explains historical actors, ideological terms, causal claims and uncertainty without obscuring meaning?",
+      "anchors": {
+        "0": "Comprehensibility is comparable, or neither explains relevant content intelligibly. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A is slightly clearer in important terminology, referents or local explanations; B may still be better in some respects.",
+        "2": "A makes the key concepts and statements substantially easier to understand; B's local strengths do not make up for this difference.",
+        "-2": "B makes the key concepts and statements substantially easier to understand; A's local strengths do not make up for this difference.",
+        "-1": "B is slightly clearer in important terminology, referents or local explanations; A may still be better in some respects."
+      },
+      "boundary": "Judge original wording, terms and local table labels, not factual truth, breadth, whole-report repetition or organization. Formal vocabulary is not a requirement.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a60545c:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's clarity comparison without rewarding formal style or jargon count."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding details and their basis",
+      "question": "Which report makes a particular revolution's requested dimension, supporting source, framework relation or scenario condition easier to find?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither offers usable lookup help. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes important details and their stated basis slightly easier to find; B may still be better in some respects.",
+        "2": "A makes locating this task's key details and stated sources substantially more direct; B's local strengths do not make up for this difference.",
+        "-2": "B makes locating this task's key details and stated sources substantially more direct; A's local strengths do not make up for this difference.",
+        "-1": "B makes important details and their stated basis slightly easier to find; A may still be better in some respects."
+      },
+      "boundary": "Compare actual lookup steps in the original report. Do not count charts or URLs, treat internal segmentation as original formatting, or rescore source validity.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' information-retrieval comparison to concrete task details."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:1",
+      "targets": [
+        "PT.D1.02.france"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.france. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep concrete socioeconomic preconditions for each revolution; examples are not mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:2",
+      "targets": [
+        "PT.D1.02.russia"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.russia. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep concrete socioeconomic preconditions for each revolution; examples are not mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:3",
+      "targets": [
+        "PT.D1.02.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.02.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep concrete socioeconomic preconditions for each revolution; examples are not mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:4",
+      "targets": [
+        "PT.D1.03.russia"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.russia. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep the Russia/Iran ideology object and explain its meaning; France is separately query-derived within the same item."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:5",
+      "targets": [
+        "PT.D1.03.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep the Russia/Iran ideology object and explain its meaning; France is separately query-derived within the same item."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:6",
+      "targets": [
+        "PT.D1.04.france",
+        "PT.D1.04.russia",
+        "PT.D1.04.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.04.france, PT.D1.04.russia, PT.D1.04.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep leaders/bodies and require the query's leadership structure."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:7",
+      "targets": [
+        "PT.D1.05.france",
+        "PT.D1.05.russia",
+        "PT.D1.05.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.05.france, PT.D1.05.russia, PT.D1.05.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep international influence and counter-revolutionary response for every case."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:8",
+      "targets": [
+        "PT.D1.06.france",
+        "PT.D1.06.russia",
+        "PT.D1.06.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.france, PT.D1.06.russia, PT.D1.06.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep international influence and counter-revolutionary response for every case."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:9",
+      "targets": [
+        "PT.D1.07.france",
+        "PT.D1.07.russia",
+        "PT.D1.07.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.07.france, PT.D1.07.russia, PT.D1.07.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep institutional and long-term social outcomes, not arbitrary five- or ten-year cutoffs."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:10",
+      "targets": [
+        "PT.D1.08.france",
+        "PT.D1.08.russia",
+        "PT.D1.08.iran"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.08.france, PT.D1.08.russia, PT.D1.08.iran. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "prior_disposition_reason": "Keep institutional and long-term social outcomes, not arbitrary five- or ten-year cutoffs."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:11",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep explicit similarities and differences, remove numerical quotas.",
+      "discrimination_check": "Original: The response includes at least two explicitly marked similarities comparing any two of the revolutions (e.g., inequality, wealth concentration, wartime pressures, rise of a new ruling class). PT.D1.09 detects one-sided or merely parallel histories; exact at-least-two counts are deliberately not preserved."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:12",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep explicit similarities and differences, remove numerical quotas.",
+      "discrimination_check": "Original: The response includes at least two explicitly marked differences contrasting any two of the revolutions (e.g., Islamism, socialism, Christianity, communism). PT.D1.09 detects one-sided or merely parallel histories; exact at-least-two counts are deliberately not preserved."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:13",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep an explanatory framework, not a minimum of three labels.",
+      "discrimination_check": "Original: The response proposes a theoretical framework with a minimum of three clearly labeled components or stages explaining revolutionary dynamics. PT.D1.10 differentiates a factor list from explained relationships; three-component-count discrimination is lost."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:14",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Concrete contemporary application restored; hypothetical future developments remain eligible.",
+      "discrimination_check": "PT.D1.11 explicitly distinguishes content omission or an unexplained connection at 2/3 from a concrete explained account at 4/5; a generic PW cannot supply the missing content."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:15",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Use the named dates to identify the requested revolutions and trajectories.",
+      "discrimination_check": "Original: The response states all revolution dates correctly (1789 for the French Revolution, 1917 for the Russian Revolution, 1979 for the Iranian Revolution). PT.D1.01 anchors the three requested cases but is a coverage item, not a complete date-accuracy certification; D2 verifies claims only within its actual sample. The original unconditional exact-date check is not claimed fully preserved."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:16",
+      "targets": [
+        "PT.D2.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Respect the original negative meaning of factual leader errors.",
+      "discrimination_check": "Original: The response contains factual errors regarding principal leaders’ names or positions (e.g., Robespierre, Lenin, Khomeini). PT.D2.02 can identify incorrect names/roles in the completed sample; it does not guarantee all leaders were checked or replicate a standalone negative penalty."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:17",
+      "targets": [
+        "PT.D2.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Evaluate the support and scope of disputed numerical claims, not hedging words alone.",
+      "discrimination_check": "Original: The response qualifies uncertain or disputed statistics (e.g., death tolls) with phrases such as \"approximately\" or \"estimates vary\". PT.D2.02 can distinguish justified uncertainty from misleading precision within checked claims; 'approximately' is not automatically sufficient and no fixed phrase is required."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:18",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Retain intelligibility, not an academic-vocabulary rule.",
+      "discrimination_check": "Original: The response uses formal and academic vocabulary, avoiding contractions or slang. PW.D6.01 detects obscurity and unclear terms; contractions or accessible wording are not penalized by themselves."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:19",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Keep organization serving comparative reading; permit case-based and thematic structures.",
+      "discrimination_check": "Original: The response includes distinct sections for internal factors such as socioeconomic preconditions, ideological frameworks, leadership structures, counter-revolutionary responses, institutional transformations, and long-term societal impacts. PW.D5.01 distinguishes helpful progression from scattered argument, without requiring a separate heading for each internal factor."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:20",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Retain an explained historical-to-scenario ideological connection without requiring all three cases to receive separate modern applications.",
+      "discrimination_check": "A mere slogan analogy or an unexplained scenario implication remains insufficient. A relevant case, contrast or synthesis can satisfy the item; omission of an individual modern parallel is no longer independently penalized. Three historical ideology items still apply."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:21",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Observable predictive conditions restored; fixed two numeric metrics not required.",
+      "discrimination_check": "PT.D1.13 explicitly distinguishes content omission or an unexplained connection at 2/3 from a concrete explained account at 4/5; a generic PW cannot supply the missing content."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:22",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Current state/movement context is required, not a prescribed country list or count.",
+      "discrimination_check": "PT.D1.11 explicitly distinguishes content omission or an unexplained connection at 2/3 from a concrete explained account at 4/5; a generic PW cannot supply the missing content."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a60545c:flat:23",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "Communication speed and reach mechanisms restored; no required platform or inevitable positive effect.",
+      "discrimination_check": "PT.D1.14 explicitly distinguishes content omission or an unexplained connection at 2/3 from a concrete explained account at 4/5; a generic PW cannot supply the missing content."
+    }
+  ],
+  "author_notes": [
+    "No batch4 old draft exists. New items preserve required case/dimension coverage without a mechanical 3-by-7 split; missing-case mixtures are explicitly scored.",
+    "Leadership structure, institutions and long-term social effects remain distinct. Framework and future application are separate PT requirements; their transfer relation is compared in PW.D3.02.",
+    "France ideology coverage is query-derived in a mixed-source item; Russia/Iran official IDs are not presented as sources for the added French requirement.",
+    "Author atomicity and official comparison only; no external fact verification, scoring, browsing, candidate-report reading or independent-review claim.",
+    "v3.3：保留历史七方面及混合缺案锚点，恢复当代应用、意识形态承接、可观察预测条件和现代传播机制。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。",
+    "Review 37: only PT.D1.12 levels 3–5, boundary and related notes revised. Earlier three-case modern-transfer requirements are historical; all three historical-case requirements remain. No reevaluation."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "Case identity and process belong together; two substantive trajectories with the third missing or merely named is 3. Strong detail in one case alone remains 2."
+    },
+    {
+      "id": "PT.D1.02.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.02.france, PT.D1.02.russia, PT.D1.02.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.02.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.02.france, PT.D1.02.russia, PT.D1.02.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.02.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.02.france, PT.D1.02.russia, PT.D1.02.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.france, PT.D1.03.russia, PT.D1.03.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.france, PT.D1.03.russia, PT.D1.03.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.france, PT.D1.03.russia, PT.D1.03.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.04.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.04.france, PT.D1.04.russia, PT.D1.04.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.04.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.04.france, PT.D1.04.russia, PT.D1.04.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.04.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.04.france, PT.D1.04.russia, PT.D1.04.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.05.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.france, PT.D1.05.russia, PT.D1.05.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.05.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.france, PT.D1.05.russia, PT.D1.05.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.05.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.05.france, PT.D1.05.russia, PT.D1.05.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.france, PT.D1.06.russia, PT.D1.06.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.france, PT.D1.06.russia, PT.D1.06.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.france, PT.D1.06.russia, PT.D1.06.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.france, PT.D1.07.russia, PT.D1.07.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.france, PT.D1.07.russia, PT.D1.07.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.france, PT.D1.07.russia, PT.D1.07.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08.france",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.08.france, PT.D1.08.russia, PT.D1.08.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08.russia",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.08.france, PT.D1.08.russia, PT.D1.08.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08.iran",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.08.france, PT.D1.08.russia, PT.D1.08.iran]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "New: similarity and contrast jointly define comparison; only one side developed is explicitly 3."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "New: components and relations define the framework; an excellent factor list without relations is at most 3."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "rewritten",
+      "reason": "Detailed abstract scenarios cannot offset no concrete contemporary context; application and conditional outcome remain one relation."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "One attribution relation: a bibliography without a clear link to important claims scores 3."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "Support and scope define one check; mixed support scores 3, central contradiction 1, and retrieval failures are outside quality judgments."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "Compatibility across statements is one relation; local substantive versus minor conflicts are distinguished by 3 and 4."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "revise",
+      "reason": "Assess ideological transfer and its scope, not a quota of three modern analogies. Historical coverage is scored in the separate case items."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "A clear theory can lack observable tests; measurement or direction absent is 3."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "Communication speed and reach jointly define the changed mechanism; either missing is 3, technology alone cannot imply revolution."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "added",
+      "reason": "New: causes, intervening processes and outcomes form one historical explanation; rich background does not repair a causal leap."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "rewritten",
+      "reason": "Two links form one transfer chain; comparative judgment must consider opposing strengths rather than select either link."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "New: commonality and divergence define a comparative insight, not independent fact counts."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "added",
+      "reason": "New: conditions and the judgment they alter are one scenario-use relation; dramatic predictions alone offer no advantage."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "New: evidence and claim scope are one relation; many national histories alone do not validate universal predictive coverage."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "One reading path: a good summary does not automatically offset a broken main progression."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "Terms and sentences are manifestations of comprehensibility; the anchors allow local countervailing strengths."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "A detail and its stated basis form one lookup task; easy prose with awkward reference navigation can be slightly worse."
+    }
+  ]
+}

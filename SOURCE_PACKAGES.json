@@ -1,0 +1,15 @@
+{
+  "date":"2026-11-16",
+  "purpose":"Internal review of the verified offline reproduction and website payloads; not a public release.",
+  "payloads":[
+    {"repository_directory":"reproduction","archive":"CompareDR_offline_project_20261116_v6.zip","sha256":"0e7e77a44bdb01d2432af890a1bba2bf17e311c10ab72364fa4d87870a18972c","files":208,"payload_preserved_byte_for_byte":true},
+    {"repository_directory":"website","archive":"CompareDR_website_project_20261116_v5.zip","sha256":"5133eeb3f64381151ce319f36acaffb26d52be390cc75da600470bc6461e2c99","files":26,"payload_preserved_byte_for_byte":true},
+    {"repository_directory":"website/dist","archive":"CompareDR_website_local_20261116_v4.zip","sha256":"fe04415f56ba837157be9028f96e414694e7858f1728f52c211fa0924a6396f1","files":8,"payload_preserved_byte_for_byte":true}
+  ],
+  "main_leaderboard_synchronized":true,
+  "fixed_study_results_unchanged":true,
+  "tests":{"offline":26,"distribution":7,"website":17,"numerical_tables":16,"numerical_checks":44897},
+  "private_review_logs_included":false,
+  "public_release":false,
+  "website_deployment":false
+}

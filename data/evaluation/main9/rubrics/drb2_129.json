@@ -1,0 +1,1535 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:129",
+  "language": "zh",
+  "title": "降低葡萄酒酒精度技术",
+  "full_query": "我想请你扮演一位食品科学领域的研究员，帮我整理一份关于降低葡萄酒酒精度的技术报告。这份报告需要清晰、有条理地介绍目前主流的技术方法及其对葡萄酒风味和品质的具体影响。\n\n报告需要包含两个部分：\n1. 技术方法概述：请将各种技术按照“发酵前策略”、“发酵中策略”和“发酵后策略”进行分类。在每个分类下，逐一介绍具体的技术方法，并简要说明该技术是如何实现降低酒精度的（即其核心工作原理）。\n2. 技术影响对比表：请制作一个表格，总结不同技术对葡萄酒最终品质的影响。表格需要包含三列：“技术名称”、“对葡萄酒成分的主要改变”和“对感官属性的影响”。表格中应至少覆盖以下技术：叶面积减少法、提早采收、葡萄汁稀释、葡萄糖氧化酶添加法、非酿酒酵母、营养限制与温度控制、纳滤（NF）、反渗透（RO）、渗透蒸馏（OD）、渗透汽化（Pervaporation）、旋转锥柱（SCC）、真空蒸馏（VD）以及多级膜系统。\n\n请确保报告内容专业、信息准确，并严格按照上述两部分结构进行输出。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Low-Alcohol and Nonalcoholic Wines: From Production to Cardiovascular Health, along with Their Economic Effects', 'authors': ['Paula Silva'], 'urls': ['https://www.mdpi.com/2306-5710/10/3/49', 'https://www.researchgate.net/publication/381766531_Low-Alcohol_and_Nonalcoholic_Wines_From_Production_to_Cardiovascular_Health_along_with_Their_Economic_Effects', 'https://www.ciencia-e-vinho.com/2024/07/07/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascular-health-along-with-their-economic-effects/', 'https://novaresearch.unl.pt/en/publications/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascu', 'https://news.sciencenet.cn/htmlpaper/2025/8/2025822154821467138669.shtm', 'https://ouci.dntb.gov.ua/works/7AJqKPJ4/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "两部分与三阶段分类",
+      "question": "报告是否按技术方法概述、技术影响对比表两部分组织，并在概述中分清发酵前、中、后策略？",
+      "anchors": {
+        "1": "两部分和三阶段均无法辨认。",
+        "2": "只有两部分或三阶段中的一种结构，另一种缺失。",
+        "3": "两部分均有，但三阶段缺一类或分类边界明显混乱。",
+        "4": "两部分和三阶段齐全，只有少量标题或跨阶段技术归属欠清。",
+        "5": "两部分清楚，概述按发酵前、中、后分类；跨阶段技术说明所处理的是葡萄、葡萄汁还是成酒。"
+      },
+      "boundary": "只评规定结构和分类，不重复评技术内容质量。分类可解释跨阶段用途，不把NF永远锁定在发酵后。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:1",
+          "drb2:129:presentation:1",
+          "drb2:129:presentation:2"
+        ],
+        "query_quotes": [
+          "报告需要包含两个部分："
+        ],
+        "change_note": "合并重复结构资源，保留两部分与三阶段的对应关系；本地锚点明确只满足一层结构的情况。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "发酵前技术原理",
+      "question": "报告是否说明发酵前策略的减糖原理，包括葡萄汁膜处理，并区分其与成酒脱醇的作用对象？",
+      "anchors": {
+        "1": "未介绍发酵前原理。",
+        "2": "主要只列方法名称或说能降酒精，没有可辨的减糖原理。",
+        "3": "部分方法有原理，但叶面积减少、提早采收、稀释、葡萄糖氧化酶、葡萄汁膜处理中任一类缺失或缺少减糖机制；或用成酒分离乙醇替代葡萄汁处理。",
+        "4": "五类方法均说明糖积累、糖浓度、葡萄糖转化或含糖物流处理如何降低潜在乙醇，葡萄汁处理与成酒分离已区分；仅少量适用条件欠清。",
+        "5": "说明叶面积调整对光合作用和糖积累、采收时机对糖成熟、稀释对糖浓度、葡萄糖氧化酶对葡萄糖转为葡萄糖酸的作用；葡萄汁膜处理说明含糖物流如何分离及如何处理或重组以减少进入发酵的糖，而非直接从成酒移除乙醇；各法必要适用条件明确。"
+      },
+      "boundary": "表格的至少清单不是概述范围上限。不要求双重采收、澳大利亚配水比例、REDUX品牌、UF+NF固定组合、OIV决议或特定处理比例/降幅；不能因此省略葡萄汁膜处理类别。允许有据限定或修正其适用范围，不预设所有膜过滤都能减糖。任一上述类别缺失或机制缺失最高3，若主要仅列名称按2；不以其他方法细节补偿。葡萄汁减糖只在本项检查，成酒分离在PT.D1.04检查；不在此比较解释深度。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:2",
+          "drb2:129:info_recall:3",
+          "drb2:129:info_recall:4",
+          "drb2:129:info_recall:5",
+          "drb2:129:info_recall:8"
+        ],
+        "query_quotes": [
+          "简要说明该技术是如何实现降低酒精度的"
+        ],
+        "change_note": "保留原四类机制；从官方5补回葡萄汁膜处理类别，结合题面概述范围补作用对象及减糖物流边界。本地五档明确任一类缺失；决议、品牌、参数不作为共同要求。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "发酵中技术原理",
+      "question": "报告是否说明非酿酒酵母、营养限制和温度控制的降醇机制，并说明酵母代谢工程的机制及其纳入或限定于当前技术范围的依据？",
+      "anchors": {
+        "1": "未介绍发酵中降醇方法。",
+        "2": "主要只称换酵母、控制发酵或改造代谢，没有可辨的机制。",
+        "3": "有具体机制，但非酿酒酵母、营养限制、温度控制任一面缺少实质说明，或混淆乙醇产率与减慢、停止发酵；或完全略过代谢工程、缺少机制或范围依据，或无据把它断言为当前主流。",
+        "4": "非酿酒酵母、营养和温度均有机制说明，且区分发酵速度与最终降醇；代谢工程说明通过干预代谢改变乙醇生成，并结合材料说明纳入概述或限定为研究/未定应用地位的理由，只有少量过程条件或范围界限欠清。",
+        "5": "说明所选非酿酒酵母如何改变糖利用及乙醇生成、营养可用性和温度如何影响发酵进程，不把减慢发酵等同于最终酒精一定减少；代谢工程简要说明干预代谢与降低乙醇生成的关系，并依据材料的研究或应用范围说明其地位与不确定性，明确不把实验可行性当作当前主流应用已获证实。"
+      },
+      "boundary": "至少表格清单不封闭概述范围。不得因不强制ADH靶点而整类省略代谢工程；不要求指定菌株、改造靶点、固定降幅、实做实验或额外独立表行。要求的是机制及有据范围说明，不预设代谢工程已属或必不属当前主流；有依据地限定为研究路线，或说明现有材料不足以确定应用地位，均可满足高档。仅无依据写‘可选’不算范围说明。任一已承诺面缺失最高3，主要只有名称按2，其他面不能补偿；不强迫同时实施所有参数。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:9",
+          "drb2:129:info_recall:10",
+          "drb2:129:info_recall:11"
+        ],
+        "query_quotes": [
+          "非酿酒酵母、营养限制与温度控制"
+        ],
+        "change_note": "保留官方9/11的酵母与营养机制及题面温度要求；从官方10恢复代谢工程类别的机制入口，但不强制ADH示例。依题面当前技术概述要求本地增加范围依据和未定地位可满足高档的边界，不将官方提及当作当前主流认证。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "发酵后分离原理",
+      "question": "报告是否逐一说明所列膜法和蒸馏法如何从葡萄酒中降低乙醇？",
+      "anchors": {
+        "1": "未说明发酵后原理。",
+        "2": "只有NF、RO等缩写或设备名单。",
+        "3": "有部分原理，但题面所列分离技术有主要遗漏，或把所有膜法、蒸馏法说成同一过程。",
+        "4": "NF、RO、OD、渗透汽化、SCC、VD和多级膜均有可辨原理，仅少量物流或阶段交代不足。",
+        "5": "各法的驱动力、分离或挥发过程及降醇物流可辨：分清压力驱动膜分离、跨膜挥发/汽化、锥柱接触分离、减压挥发及组合系统各阶段的作用。"
+      },
+      "boundary": "不要求固定孔径、压力、温度或NF-PV/RO-EP组合。SCC的香气处理与脱醇阶段须能辨认；多级系统须说明组合怎样完成降醇而非仅多写缩写。有一项原理缺失判3，不靠其他技术细节填补。 本项只检查成酒分离乙醇，不能用葡萄汁减糖替代；不在本项重复扣葡萄汁膜处理缺失。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:12",
+          "drb2:129:info_recall:13",
+          "drb2:129:info_recall:14",
+          "drb2:129:info_recall:15",
+          "drb2:129:info_recall:16",
+          "drb2:129:info_recall:17",
+          "drb2:129:info_recall:18"
+        ],
+        "query_quotes": [
+          "即其核心工作原理"
+        ],
+        "change_note": "保留各指定分离技术的机制差异；去掉固定膜材料、操作参数及组合实例，明确缺一个方法的档位。 本轮仅澄清成酒与葡萄汁的评分分界。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "三列表格形式",
+      "question": "报告第二部分是否以表格列出技术名称、成分改变、感官影响三个字段？",
+      "anchors": {
+        "1": "没有表格。",
+        "2": "有表格但只有名称或没有区分成分与感官。",
+        "3": "三类字段可辨，但缺一个列标题或多处错列。",
+        "4": "三列标题和对应关系基本符合要求，只有轻微标签或对齐问题。",
+        "5": "表格完整使用“技术名称”“对葡萄酒成分的主要改变”“对感官属性的影响”三类列标题，技术与两类影响的对应清楚。"
+      },
+      "boundary": "这里只评表格字段，不按行数评分；各技术影响的内容在其对应条目检查。实质同义表头可判4，不以排版美观加分。 题面的‘至少’是表格最低覆盖，不是概述范围上限；概述类别与机制由PT.D1.02–04检查，本项不重复扣类别缺失，也不因补充概述类别自动要求增加表行。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:presentation:3"
+        ],
+        "query_quotes": [
+          "表格需要包含三列"
+        ],
+        "change_note": "直接保留指定表格字段，锚点本地设计，与行内内容分开。 本轮只澄清最低表格清单不封闭概述范围，不增加表格形式评分要求。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "叶面积减少法：品质影响",
+      "question": "报告的对比表是否具体说明叶面积减少法对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列叶面积减少法的品质影响。",
+        "2": "仅说品质改善或下降。",
+        "3": "只清楚说明成分或感官一面，或把品种不同的结果说成同一趋势。",
+        "4": "成分与香气等感官影响均具体，少量品种或管理条件未说明。",
+        "5": "说明糖及相关酚类、色素等成分变化与香气等感官变化，并标明所述结果的品种或管理条件；不把所有去叶处理都说成改善品质。"
+      },
+      "boundary": "叶面积减少法品质表述可能随时期、部位和品种不同；不要求列齐五种化合物或两个官方品种。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:19",
+          "drb2:129:info_recall:20"
+        ],
+        "query_quotes": [
+          "叶面积减少法"
+        ],
+        "change_note": "保留该技术成分、感官双字段，去掉化合物全集和指定品种香气增强结论。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "提早采收：品质影响",
+      "question": "报告的对比表是否具体说明提早采收对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列提早采收的品质影响。",
+        "2": "只称不够成熟或酒精低。",
+        "3": "只说明糖酸、酚类等成分或风味一面，或未交代成熟度背景。",
+        "4": "两类影响具体，少量成熟度或品种条件欠清。",
+        "5": "成分变化与风味成熟度、植物性气息等感官表现均具体且有适用范围；允许不同品种或采收方案产生不同方向。"
+      },
+      "boundary": "不把官方局部植物性气息减少与未成熟草本味风险当作无条件冲突。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:21",
+          "drb2:129:info_recall:22"
+        ],
+        "query_quotes": [
+          "提早采收"
+        ],
+        "change_note": "保留成熟度相关品质内容，不强制指定化合物或植物性气息固定下降。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "葡萄汁稀释：品质影响",
+      "question": "报告的对比表是否具体说明葡萄汁稀释对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列稀释的品质影响。",
+        "2": "只说味淡或改善平衡。",
+        "3": "只有成分稀释或感官描述一面具体，或不清楚讨论何种稀释程度。",
+        "4": "成分浓度与感官表现均清楚，少量对象条件省略。",
+        "5": "说明稀释对相关成分浓度及风味、酒体或草本感的影响，区分适量调整与过度稀释，并注明条件性变化。"
+      },
+      "boundary": "不要求C6化合物固定增加；不能只以乙醇降低替代其他品质成分讨论。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:23",
+          "drb2:129:info_recall:24"
+        ],
+        "query_quotes": [
+          "葡萄汁稀释"
+        ],
+        "change_note": "保留稀释对成分与味觉的具体作用，去掉固定化合物方向。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "葡萄糖氧化酶添加法：品质影响",
+      "question": "报告的对比表是否具体说明葡萄糖氧化酶添加法对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列酶法品质影响。",
+        "2": "只说能降醇或影响品质。",
+        "3": "只说明葡萄糖酸等成分或酸味、果香一面，另一面缺失。",
+        "4": "葡萄糖酸形成及感官影响均清楚，少量处理条件欠清。",
+        "5": "交代葡萄糖酸及所述色素、单宁或挥发物变化，并说明酸感、果味/果香等品质影响的条件和不确定性。"
+      },
+      "boundary": "必须具体说明成分和感官，不要求所有色泽与单宁变化方向一致；机理覆盖另评。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:25",
+          "drb2:129:info_recall:26"
+        ],
+        "query_quotes": [
+          "葡萄糖氧化酶添加法"
+        ],
+        "change_note": "保留葡萄糖酸与酸感等检查线索，允许有据条件修正，不完整复制官方效果清单。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "非酿酒酵母：品质影响",
+      "question": "报告的对比表是否具体说明非酿酒酵母对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列非酿酒酵母的品质影响。",
+        "2": "只称香气好或乙醇少。",
+        "3": "只有成分或感官一面具体，或把所有菌种当作同一种效果。",
+        "4": "成分与香气等影响均具体，少量菌种/接种条件欠清。",
+        "5": "说明所用酵母对相关酚类、色泽或发酵代谢物的变化及香气、果味或复杂性影响，区分菌种和发酵条件。"
+      },
+      "boundary": "不强制所有菌种改善香气或减少发酵气味。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:27",
+          "drb2:129:info_recall:28"
+        ],
+        "query_quotes": [
+          "非酿酒酵母"
+        ],
+        "change_note": "保留菌种影响成分与感官的评价对象，去掉固定正向结果。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "营养限制与温度控制：品质影响",
+      "question": "报告的对比表是否具体说明营养限制与温度控制对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列营养与温度策略的品质影响。",
+        "2": "只说发酵受控或品质改变。",
+        "3": "只介绍营养或温度一种控制，或只有成分、感官一个字段具体。",
+        "4": "两种控制及其成分和感官影响均可辨，少量条件欠清。",
+        "5": "分别说明营养限制和温度控制对残糖、相关酚类或香气代谢物及甜度、平衡或香气的影响；不把低温清新、高温花香写成普遍保证。"
+      },
+      "boundary": "两控制可同一行分述；缺一控制或一实质字段判3。不要求具体温度、YAN值。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:29",
+          "drb2:129:info_recall:30"
+        ],
+        "query_quotes": [
+          "营养限制与温度控制"
+        ],
+        "change_note": "由题面补清两种控制都须说明；官方温度—香气方向改为条件性检查。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "纳滤（NF）：品质影响",
+      "question": "报告的对比表是否具体说明纳滤（NF）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列NF品质影响。",
+        "2": "只称膜法保留品质。",
+        "3": "成分截留/浓缩或感官影响仅一面具体，或把浓缩误写成已证明合成增加而无说明。",
+        "4": "成分和香气、涩感等影响均清楚，少量膜/酒种条件不明。",
+        "5": "成分变化及感官影响均具体，说明相关色素、酚类的保留或浓度变化，并区分所评酒种、处理条件和浓缩口径。"
+      },
+      "boundary": "不强制花青素与白藜芦醇增加，也不强制特定红白酒感官方向。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:31",
+          "drb2:129:info_recall:32"
+        ],
+        "query_quotes": [
+          "纳滤（NF）"
+        ],
+        "change_note": "保留NF品质和浓度口径，去掉固定含量和感官方向。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "反渗透（RO）：品质影响",
+      "question": "报告的对比表是否具体说明反渗透（RO）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列RO品质影响。",
+        "2": "只称高保留率或低温处理。",
+        "3": "只有酚类/色泽或口感一面具体，或未区分原酒与处理后的比较对象。",
+        "4": "成分和感官影响均具体，原酒与处理后酒可区分；但未说明所比较的最终样品是否经过补水、恢复体积或后续处理。",
+        "5": "成分和感官影响均具体，原酒与处理后酒及其样品处理状态明确，能判断效果属于哪一步之后的酒。只需交代影响所述比较的条件，不强制列出无关酒种或全部操作参数。"
+      },
+      "boundary": "不预设色素稳定、颜色增强或涩味必然增加；不能用膜原理代替品质描述。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:33",
+          "drb2:129:info_recall:34"
+        ],
+        "query_quotes": [
+          "反渗透（RO）"
+        ],
+        "change_note": "保留RO成分与感官对象，不强制三种固定效果。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "渗透蒸馏（OD）：品质影响",
+      "question": "报告的对比表是否具体说明渗透蒸馏（OD）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列OD品质影响。",
+        "2": "只说温和或香气损失。",
+        "3": "成分或感官只有一面具体，或不说明影响的对象。",
+        "4": "成分变化和感官影响均具体，但未在报告中说明这些结果对应何种酒样或处理情境；仅给文献编号不算条件已交代。",
+        "5": "达到4档的两类影响说明，且报告给出对应酒样或处理情境，使读者知道结果适用范围。无需完整实验参数，也不强制某种固定成分或风味结果。"
+      },
+      "boundary": "不要求蜂蜜味、颜色强度必然按官方方向变化。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:35",
+          "drb2:129:info_recall:36"
+        ],
+        "query_quotes": [
+          "渗透蒸馏（OD）"
+        ],
+        "change_note": "保留OD两类品质影响，舍弃特定风味描述的必答性。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "渗透汽化（Pervaporation）：品质影响",
+      "question": "报告的对比表是否具体说明渗透汽化（Pervaporation）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列渗透汽化品质影响。",
+        "2": "只称香气损失或香气改善。",
+        "3": "只说成分损失或感官变化一面，或把香气回收液的表现当成最终酒。",
+        "4": "成分变化和感官影响均具体，也说明是否回收或回添香气；但至少一项效果未说清指最终酒、透过物还是回收液。",
+        "5": "成分变化及感官效果的对象均明确，且回收、回添是否发生清楚；能分辨直接脱醇的损失与回添后最终酒的表现。所述工艺未回收或回添时说明即可，无需补不存在的步骤。"
+      },
+      "boundary": "不要求99.9%损失值；最终酒、透过物和回收香气必须区分。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:37",
+          "drb2:129:info_recall:38"
+        ],
+        "query_quotes": [
+          "渗透汽化（Pervaporation）"
+        ],
+        "change_note": "保留原资源中损失与改善的条件差别，不强制定值或结果方向。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "旋转锥柱（SCC）：品质影响",
+      "question": "报告的对比表是否具体说明旋转锥柱（SCC）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列SCC品质影响。",
+        "2": "只称高效脱醇或品质好。",
+        "3": "只有成分或灼热感等感官一面具体。",
+        "4": "两类影响具体，少量香气回添或浓缩条件未说明。",
+        "5": "说明处理对相关酚类、色素或挥发物的变化及酒精灼热感、香气或口感影响，并交代香气处理与最终酒的条件。"
+      },
+      "boundary": "不要求白藜芦醇、花青素、类黄酮全部增加；乙醇灼热感不等于所有品质。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:39",
+          "drb2:129:info_recall:40"
+        ],
+        "query_quotes": [
+          "旋转锥柱（SCC）"
+        ],
+        "change_note": "保留SCC成分与热口感检查，不复制固定化合物增加清单。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "真空蒸馏（VD）：品质影响",
+      "question": "报告的对比表是否具体说明真空蒸馏（VD）对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列VD品质影响。",
+        "2": "只说低温所以无损或有损。",
+        "3": "成分或香气、口感只说明一面，或将减压等同于完全无香气损失。",
+        "4": "两类品质影响明确，少量温度/压力或香气处理条件欠清。",
+        "5": "说明色泽、酚类或挥发物变化及果香、花香等感官影响，区分减轻热损伤与仍可能挥发损失的条件。"
+      },
+      "boundary": "不要求总酚固定增加或固定操作温度；原理不替代品质结果。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:41",
+          "drb2:129:info_recall:42"
+        ],
+        "query_quotes": [
+          "真空蒸馏（VD）"
+        ],
+        "change_note": "保留VD挥发损失及品质条件，不强制全部色泽与酚类方向。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "多级膜系统：品质影响",
+      "question": "报告的对比表是否具体说明多级膜系统对成分及感官属性的影响？",
+      "anchors": {
+        "1": "未列多级膜品质影响。",
+        "2": "只说组合后效果更好。",
+        "3": "只说明成分或风味一面，或未说明对应何种组合。",
+        "4": "组合对象及两类影响大体清楚，少量阶段/回添条件不明。",
+        "5": "说明所讨论组合的成分变化及香气、风味等感官结果，并辨明组合和回收条件；不把所有多级系统看成相同配方。"
+      },
+      "boundary": "不强制NF-PV或RO-EP，也不规定花青素下降和酚类改善方向。 成分和感官均为本行所需字段；一面清楚而另一面缺失或仅有标签判3，不能由丰富的一面抵补。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:129:info_recall:43",
+          "drb2:129:info_recall:44"
+        ],
+        "query_quotes": [
+          "多级膜系统"
+        ],
+        "change_note": "保留多级系统品质对象及组合条件，取消固定系统和化合物方向。 五档锚点由本地撰写。"
+      }
+    },
+    {
+      "id": "PT.D1.19",
+      "dimension": "D1",
+      "title": "最终报告禁源使用",
+      "question": "最终报告是否避免引用或取用题面指定的Paula Silva文章及其列出版本？",
+      "anchors": {
+        "1": "明确用指定禁源支撑核心技术或品质结论。",
+        "2": "用于多个实质次要结论。",
+        "3": "用于一个局部实质结论。",
+        "4": "只列在文献表，未能确认正文实质使用。",
+        "5": "完整最终报告未见指定禁源引用或取用；复述排除清单不算使用。"
+      },
+      "boundary": "仅评最终报告可观察内容，不推断访问历史；同领域相同事实或另文引用相同术语不构成禁源使用证据。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Low-Alcohol and Nonalcoholic Wines: From Production to Cardiovascular Health, along with Their Economic Effects"
+        ],
+        "change_note": "题面派生的可观察禁源检查，非官方事实资源。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "技术效果的依据可追溯",
+      "question": "报告的重要机制、定量效果和感官结论能否找到所指来源或报告内推导？",
+      "anchors": {
+        "1": "关键结论无可辨依据。",
+        "2": "只有研究表明等泛称。",
+        "3": "有文献表但若干主要效果无法明确对应出处。",
+        "4": "主要结论可定位，少量出处范围含糊。",
+        "5": "主要机制和品质主张对应具体来源或可检查推导，实验观察、解释与假设的身份明确。"
+      },
+      "boundary": "无URL但可据书目信息定位不扣分；可定位不等于支持。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增技术效果追溯审计，不将官方效果列表当引用证明。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验样本内支持",
+      "question": "在实际完成的核验范围内，来源是否支持报告的降醇和品质主张？",
+      "anchors": {
+        "1": "已取得证据否定核心主张或核心依据不成立。",
+        "2": "多个重要主张有实质支持错误。",
+        "3": "部分主张获支持，但存在重要酒种、条件、成分或感官归属错误。",
+        "4": "重要已核验主张获支持，只有轻微夸张或归属问题。",
+        "5": "已判断主张的对象、处理条件和强度均符合取得的证据；不代表全文全数核实。"
+      },
+      "boundary": "记录选中数和完成数；无法取得材料是执行失败，须重试或报告未完成，不能转低分、默认5分或NA。本轮只写Rubrics，不执行外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增受范围限制的支持审计，防止将条件性研究效果泛化。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "正文与表格一致",
+      "question": "报告的技术名称、处理对象、效果方向和单位是否在正文与表格中一致？",
+      "anchors": {
+        "1": "核心方法与效果相互冲突，无法理解报告结论。",
+        "2": "有关键未经解释的正文—表格或单位冲突。",
+        "3": "有局部实质冲突，但主线仍可辨。",
+        "4": "核心内容一致，仅有容易澄清的小歧义。",
+        "5": "检查的名称、物流、变化方向及单位一致；不同品种、处理条件或回添步骤导致的差异有解释。"
+      },
+      "boundary": "内部一致不代表外部真实；下降百分比与酒精体积分数百分点须区分，不要求必须报告数值。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增同技术跨正文与表格的一致性审计。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "发酵前处理为何影响品质",
+      "question": "哪篇更能解释降低糖负荷与成熟度、酸度和风味之间的联系及条件？",
+      "anchors": {
+        "0": "两篇对发酵前处理的因果解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A对一处重要的减糖—品质联系解释略好；B仍可能在局部更好。",
+        "2": "A对发酵前降醇如何改变品质的因果链明显更成立；B的局部优点不足以弥补这一差距。",
+        "-2": "B对发酵前降醇如何改变品质的因果链明显更成立；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一处重要的减糖—品质联系解释略好；A仍可能在局部更好。"
+      },
+      "boundary": "比较实际解释，可关注叶面积的品种环境差异、早采的成熟度代价、稀释的浓度损失或酶法的酸形成，但不要求四条完整分析路线都出现。指出链中缺哪步，不重评表格字段。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:129:analysis:1",
+          "drb2:129:analysis:2",
+          "drb2:129:analysis:3",
+          "drb2:129:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "把官方条件性机理保留为实际推理比较线索，不将其全部变成共同必答结论。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "发酵变化与感官后果",
+      "question": "哪篇更能解释改变酵母或发酵进程为什么同时改变乙醇和感官表现？",
+      "anchors": {
+        "0": "两篇对发酵路径与品质关系的解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A对一处乙醇生成与感官变化的关系解释略好；B仍可能在局部更好。",
+        "2": "A对发酵路径、残留成分及感官后果的联系明显更成立；B的局部优点不足以弥补这一差距。",
+        "-2": "B对发酵路径、残留成分及感官后果的联系明显更成立；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一处乙醇生成与感官变化的关系解释略好；A仍可能在局部更好。"
+      },
+      "boundary": "可辨菌种代谢改变与停止发酵留下残糖的不同后果；不要求指定菌株或所有香气都增强。分析残糖必须说明其对甜度或平衡的关系，而非只提名词。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:129:analysis:5",
+          "drb2:129:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "保留双重效果与残糖风险的因果对象，允许有据条件性结论。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "分离与香气保留的因果链",
+      "question": "哪篇更能解释脱醇分离条件、香气损失和回收处理之间的联系？",
+      "anchors": {
+        "0": "两篇对分离与保香的解释帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A对一处重要分离—香气联系解释略好；B仍可能在局部更好。",
+        "2": "A对分离驱动力、损失及回收结果的因果解释明显更完整可靠；B的局部优点不足以弥补这一差距。",
+        "-2": "B对分离驱动力、损失及回收结果的因果解释明显更完整可靠；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一处重要分离—香气联系解释略好；A仍可能在局部更好。"
+      },
+      "boundary": "OD温度、渗透汽化回收、VD热损伤和挥发损失、多级组合可作为实际检查线索，不规定每篇都展开所有路径。局部原理正确但最终酒推论不成立，不能靠别处技术名词弥补。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:129:analysis:8",
+          "drb2:129:analysis:9",
+          "drb2:129:analysis:11",
+          "drb2:129:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "保留分离—品质关系及条件，去掉无条件优点判断和强制技术清单。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "降醇技术的实际权衡",
+      "question": "哪篇更帮助读者判断不同降醇目标和品质要求下技术的适合范围？",
+      "anchors": {
+        "0": "两篇对技术适用范围的判断帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A对一项重要品质或操作负担权衡提供略有更多的判断帮助；B仍可能在局部更好。",
+        "2": "A明显更能把品质保持与降醇程度、操作负担连成有用的适用范围判断；B的局部优点不足以弥补这一差距。",
+        "-2": "B明显更能把品质保持与降醇程度、操作负担连成有用的适用范围判断；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B对一项重要品质或操作负担权衡提供略有更多的判断帮助；A仍可能在局部更好。"
+      },
+      "boundary": "NF/RO的通量、压力和选择性须在可比条件下理解；SCC的香气处理与设备负担可改变适用判断，不预设某法总优。无需成本模型、唯一推荐或固定方法排名；须指出对适用选择的新增影响，不能重复奖励因果成立性。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:129:analysis:7",
+          "drb2:129:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "保留膜法性能与SCC负担的权衡对象，不固化官方NF更优结论或强迫做经济模型。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据与处理条件适配",
+      "question": "哪篇的证据更适合支持其对最终葡萄酒品质的概括？",
+      "anchors": {
+        "0": "两篇证据对最终酒品质概括的帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在一处重要品质概括上有略更匹配的酒种、处理或感官证据；B仍可能在局部更好。",
+        "2": "A对关键品质概括有明显更适配且相互补充的实验或感官证据；B的局部优点不足以弥补这一差距。",
+        "-2": "B对关键品质概括有明显更适配且相互补充的实验或感官证据；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在一处重要品质概括上有略更匹配的酒种、处理或感官证据；A仍可能在局部更好。"
+      },
+      "boundary": "比较酒种、目标酒精度、体积恢复、香气回添及感官测试与实际主张的匹配，不按引用数量排名；不把某一错引再逐次扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增证据集合适配比较，区分成分测量与感官结论。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "概述与对照表的阅读推进",
+      "question": "哪篇原报告更便于从原理概述读到品质对比，且避免无助理解的重复？",
+      "anchors": {
+        "0": "两篇整体阅读推进帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在概述与对照表的衔接上略好；B仍可能在局部更好。",
+        "2": "A在原理到品质的整体阅读顺序和摘要、重复安排上明显更好；B的局部优点不足以弥补这一差距。",
+        "-2": "B在原理到品质的整体阅读顺序和摘要、重复安排上明显更好；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在概述与对照表的衔接上略好；A仍可能在局部更好。"
+      },
+      "boundary": "只读原报告；两部分是否存在归PT.D1.01，本项不再按同一格式缺失奖惩，不默认短文更优。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增全文阅读推进比较，与固定结构检查分工。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "术语和品质表述清楚",
+      "question": "哪篇更清楚地表达已写的成分变化和感官意思？",
+      "anchors": {
+        "0": "两篇对已写品质内容的表达帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A在重要术语、效果方向或局部表格标注上略易理解；B仍可能在局部更好。",
+        "2": "A对成分、感官和条件的已有表述明显更清楚易懂；B的局部优点不足以弥补这一差距。",
+        "-2": "B对成分、感官和条件的已有表述明显更清楚易懂；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B在重要术语、效果方向或局部表格标注上略易理解；A仍可能在局部更好。"
+      },
+      "boundary": "只评措辞、指代、缩写和局部标签，不把化学事实正确、方法更多或全篇顺序算在这里。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增食品科学表述清晰度比较。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "定位技术及其依据",
+      "question": "哪篇原报告更方便查到某种技术的品质影响及其所指依据？",
+      "anchors": {
+        "0": "两篇查找所需技术信息的帮助相近；理由须区分双方帮助相近与双方均无相关帮助。",
+        "1": "综合比较，A查找一项重要技术效果与出处的步骤略少；B仍可能在局部更好。",
+        "2": "A查找指定技术、相应条件和声称出处明显更顺畅；B的局部优点不足以弥补这一差距。",
+        "-2": "B查找指定技术、相应条件和声称出处明显更顺畅；A的局部优点不足以弥补这一差距。",
+        "-1": "综合比较，B查找一项重要技术效果与出处的步骤略少；A仍可能在局部更好。"
+      },
+      "boundary": "表格不自动获胜；测试实际查找路径，不重评来源支持或表头是否齐全。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增按技术查找效果和依据的阅读效率比较。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:129:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01直接识别三阶段分类是否齐全。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01直接识别三阶段分类是否齐全。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:129:info_recall:2",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02要求说明光合作用、糖积累和潜在乙醇的关系，不能只列叶面积名称。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02要求说明光合作用、糖积累和潜在乙醇的关系，不能只列叶面积名称。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:129:info_recall:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "保留早采与糖成熟的原理；双重采收不是共同要求，无法保证识别仅缺该实例的差异。",
+      "status": "adapted",
+      "discrimination_check": "保留早采与糖成熟的原理；双重采收不是共同要求，无法保证识别仅缺该实例的差异。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:4",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "保留加水降低糖浓度；不强制澳大利亚7%及1%降幅，失去该法规/定值复述区分。",
+      "status": "adapted",
+      "discrimination_check": "保留加水降低糖浓度；不强制澳大利亚7%及1%降幅，失去该法规/定值复述区分。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:5",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02的3/4/5档直接识别葡萄汁膜处理类别、减糖物流及与成酒脱醇的区别；仅列成酒NF/RO仍不能补缺。OIV年份和决议号不强制，故非完整原样保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02的3/4/5档直接识别葡萄汁膜处理类别、减糖物流及与成酒脱醇的区别；仅列成酒NF/RO仍不能补缺。OIV年份和决议号不强制，故非完整原样保留。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:6",
+      "targets": [],
+      "reason": "REDUX品牌及UF+NF具体组合仍不强制，不能识别仅缺品牌或指定组合的差异；所属葡萄汁膜处理类别已由官方5→PT.D1.02直接承接，不再以实例可选为由省略类别。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "REDUX品牌及UF+NF具体组合仍不强制，不能识别仅缺品牌或指定组合的差异；所属葡萄汁膜处理类别已由官方5→PT.D1.02直接承接，不再以实例可选为由省略类别。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:7",
+      "targets": [],
+      "reason": "20–25%处理比例和1–2%v/v降幅仍不强制，精确数值差异不保留；所属葡萄汁膜处理与潜在乙醇关系由官方5→PT.D1.02承接，不能把参数可选扩大为类别可删。",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "20–25%处理比例和1–2%v/v降幅仍不强制，精确数值差异不保留；所属葡萄汁膜处理与潜在乙醇关系由官方5→PT.D1.02承接，不能把参数可选扩大为类别可删。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:8",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02明确要求葡萄糖转化为葡萄糖酸并联系潜在乙醇，不能以泛称酶处理替代。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02明确要求葡萄糖转化为葡萄糖酸并联系潜在乙醇，不能以泛称酶处理替代。",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:129:info_recall:9",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "保留酵母对乙醇生成的影响；0.2–2%区间不强制，单缺区间不识别。",
+      "status": "adapted",
+      "discrimination_check": "保留酵母对乙醇生成的影响；0.2–2%区间不强制，单缺区间不识别。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:10",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "PT.D1.03的3/4/5档识别代谢工程类别是否有机制及范围依据；完全省略、只称可选或无据强称主流不能达高档。有据限定为研究/应用地位未定可达高档。不强制ADH靶点，也未认证该类别当前主流身份，故非完整复现官方具体路线。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03的3/4/5档识别代谢工程类别是否有机制及范围依据；完全省略、只称可选或无据强称主流不能达高档。有据限定为研究/应用地位未定可达高档。不强制ADH靶点，也未认证该类别当前主流身份，故非完整复现官方具体路线。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:11",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "要求营养可用性与发酵进程关系，但不强制YAN术语，保留实质机制而非原词复现。",
+      "status": "adapted",
+      "discrimination_check": "要求营养可用性与发酵进程关系，但不强制YAN术语，保留实质机制而非原词复现。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:12",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "NF分离机制保留；1–10nm孔径不要求，不把单一孔径范围作唯一正确原理。",
+      "status": "adapted",
+      "discrimination_check": "NF分离机制保留；1–10nm孔径不要求，不把单一孔径范围作唯一正确原理。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:13",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "RO压力驱动及降醇物流须可辨；不将指定膜描述的逐词复现作为判断条件。",
+      "status": "adapted",
+      "discrimination_check": "RO压力驱动及降醇物流须可辨；不将指定膜描述的逐词复现作为判断条件。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:14",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "OD跨膜挥发驱动力可区分于RO；特定膜材料、常温常压实例不必全部出现。",
+      "status": "adapted",
+      "discrimination_check": "OD跨膜挥发驱动力可区分于RO；特定膜材料、常温常压实例不必全部出现。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:15",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "渗透汽化的分离和汽化物流保留；亲有机膜及乙醇优先通透的具体实现不设无条件唯一答案。",
+      "status": "adapted",
+      "discrimination_check": "渗透汽化的分离和汽化物流保留；亲有机膜及乙醇优先通透的具体实现不设无条件唯一答案。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:16",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "要求SCC香气处理与脱醇阶段可辨，但不强制28/38°C。",
+      "status": "adapted",
+      "discrimination_check": "要求SCC香气处理与脱醇阶段可辨，但不强制28/38°C。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:17",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "减压挥发原理保留；0.1bar和15–20°C不强制，固定参数区分丢失。",
+      "status": "adapted",
+      "discrimination_check": "减压挥发原理保留；0.1bar和15–20°C不强制，固定参数区分丢失。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:18",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "多级系统须说明阶段分工，NF-PV/RO-EP实例不必出现。",
+      "status": "adapted",
+      "discrimination_check": "多级系统须说明阶段分工，NF-PV/RO-EP实例不必出现。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:19",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06检查成分具体变化，但五种色素/酚类及全部上升的精确差异不保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06检查成分具体变化，但五种色素/酚类及全部上升的精确差异不保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:20",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06检查香气与品种条件；两指定品种增强的实例区分不保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06检查香气与品种条件；两指定品种增强的实例区分不保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:21",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07检查成熟度相关成分变化；列齐指定黄酮及C13化合物的区分不保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07检查成熟度相关成分变化；列齐指定黄酮及C13化合物的区分不保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:22",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "PT.D1.07要求感官与品种/采收条件；不强制植物性气息减少，允许有据不同结果。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07要求感官与品种/采收条件；不强制植物性气息减少，允许有据不同结果。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:23",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08识别成分浓度信息缺失；不要求C6增加及每种具体化合物。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08识别成分浓度信息缺失；不要求C6增加及每种具体化合物。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:24",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08识别稀释感官信息缺失；草本风味增加不是唯一可满足结果。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08识别稀释感官信息缺失；草本风味增加不是唯一可满足结果。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:25",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09保留葡萄糖酸及其他品质成分具体性；颜色稳定性、单宁、挥发物的全套方向不强制。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09保留葡萄糖酸及其他品质成分具体性；颜色稳定性、单宁、挥发物的全套方向不强制。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:26",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09检查酸感及果味/果香影响和条件；不要求每个感官指标都下降或上升。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09检查酸感及果味/果香影响和条件；不要求每个感官指标都下降或上升。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:27",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10检查菌种影响成分；酚类、颜色不是唯一合格指标，原清单全量区分不保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10检查菌种影响成分；酚类、颜色不是唯一合格指标，原清单全量区分不保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:28",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.10检查菌种感官影响，不要求全部呈现复杂性增加、果味增加及发酵气味减少。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10检查菌种感官影响，不要求全部呈现复杂性增加、果味增加及发酵气味减少。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:29",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "PT.D1.11明确两控制的成分和感官字段；酚类与香气合成是线索而非唯一指标。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11明确两控制的成分和感官字段；酚类与香气合成是线索而非唯一指标。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:30",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "PT.D1.11不认可低温果香/高温花香的普遍保证，不完整保留固定方向判分。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11不认可低温果香/高温花香的普遍保证，不完整保留固定方向判分。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:31",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "PT.D1.12检查NF成分及浓缩口径；花青素和白藜芦醇增加不是必答结论。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12检查NF成分及浓缩口径；花青素和白藜芦醇增加不是必答结论。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:32",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "PT.D1.12检查NF酒种与感官条件；指定白酒香气下降/红酒涩味下降组合不强制。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.12检查NF酒种与感官条件；指定白酒香气下降/红酒涩味下降组合不强制。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:33",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13要求具体成分/色泽变化，不强制指数稳定和颜色增强同时成立。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13要求具体成分/色泽变化，不强制指数稳定和颜色增强同时成立。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:34",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13要求口感等感官表现；三种官方负向效果非固定清单。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13要求口感等感官表现；三种官方负向效果非固定清单。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:35",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "PT.D1.14保留酚类/色泽具体性，但允许其他相关成分，原对象不逐一强制。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14保留酚类/色泽具体性，但允许其他相关成分，原对象不逐一强制。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:36",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "PT.D1.14检查OD感官；蜂蜜味、持久性和颜色的特定结果不必逐项出现。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14检查OD感官；蜂蜜味、持久性和颜色的特定结果不必逐项出现。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:37",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "PT.D1.15检查挥发物损失及物流条件；不保留99.9%及酚类增加的精确要求。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15检查挥发物损失及物流条件；不保留99.9%及酚类增加的精确要求。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:38",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "reason": "PT.D1.15明确回收/回添与最终酒区别；不无条件要求气味味道增强。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15明确回收/回添与最终酒区别；不无条件要求气味味道增强。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:39",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "PT.D1.16检查SCC成分影响，但不把三类酚类增加视为共同结论。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.16检查SCC成分影响，但不把三类酚类增加视为共同结论。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:40",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "reason": "PT.D1.16明确灼热感作为检查线索；允许有据条件变化，不把降低酒精等同于所有感官改善。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.16明确灼热感作为检查线索；允许有据条件变化，不把降低酒精等同于所有感官改善。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:41",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "PT.D1.17要求VD成分与色泽等具体性；总酚增加非必答方向。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17要求VD成分与色泽等具体性；总酚增加非必答方向。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:42",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "reason": "PT.D1.17明确低温不等于没有挥发/香气损失；不强制花香与果香逐项下降。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17明确低温不等于没有挥发/香气损失；不强制花香与果香逐项下降。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:43",
+      "targets": [
+        "PT.D1.18"
+      ],
+      "reason": "PT.D1.18要求明确组合对应的成分变化，不强制花青素减少和总酚改善。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18要求明确组合对应的成分变化，不强制花青素减少和总酚改善。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:info_recall:44",
+      "targets": [
+        "PT.D1.18"
+      ],
+      "reason": "PT.D1.18检查组合系统风味变化，特定酯类减少的精确区分不保留。",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18检查组合系统风味变化，特定酯类减少的精确区分不保留。",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "叶面积的品种、环境与管理条件在PW.D3.01为实际因果检查线索；不要求某套管理建议。",
+      "status": "adapted",
+      "discrimination_check": "叶面积的品种、环境与管理条件在PW.D3.01为实际因果检查线索；不要求某套管理建议。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "早采糖成熟与风味代价可在PW.D3.01区分；不要求所有案例同时草本味和高酸。",
+      "status": "adapted",
+      "discrimination_check": "早采糖成熟与风味代价可在PW.D3.01区分；不要求所有案例同时草本味和高酸。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:3",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "稀释程度、浓度损失及品质后果在PW.D3.01可识别；不强制每种成分均下降。",
+      "status": "adapted",
+      "discrimination_check": "稀释程度、浓度损失及品质后果在PW.D3.01可识别；不强制每种成分均下降。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "酶法酸形成及口感关系在PW.D3.01可识别；果香强度和持久性不逐项强制。",
+      "status": "adapted",
+      "discrimination_check": "酶法酸形成及口感关系在PW.D3.01可识别；果香强度和持久性不逐项强制。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:5",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02区分乙醇与感官双重变化的解释；不预设非酿酒酵母总改善感官。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02区分乙醇与感官双重变化的解释；不预设非酿酒酵母总改善感官。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:6",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02明确残糖—甜度/平衡的解释线索，能区分只提残糖与说明后果；不要求固定停止方法。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02明确残糖—甜度/平衡的解释线索，能区分只提残糖与说明后果；不要求固定停止方法。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:7",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01识别NF/RO性能条件对适用判断的作用；不完整保留NF通量、截留、压力、成本总优的排序。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01识别NF/RO性能条件对适用判断的作用；不完整保留NF通量、截留、压力、成本总优的排序。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:8",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03可识别OD加温与香气损失的权衡解释；不把温度提升在所有装置中视作同效。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03可识别OD加温与香气损失的权衡解释；不把温度提升在所有装置中视作同效。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:9",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03可识别渗透汽化损失与回收条件；不把所有膜的乙醇选择性写成相同。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03可识别渗透汽化损失与回收条件；不把所有膜的乙醇选择性写成相同。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:10",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01明确SCC香气收益与操作负担对适用性的影响；不强制定价或一概高成本。",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01明确SCC香气收益与操作负担对适用性的影响；不强制定价或一概高成本。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:11",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03区分低温减轻热损伤与仍有挥发损失；不将VD优点写成无条件最大限度保香。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03区分低温减轻热损伤与仍有挥发损失；不将VD优点写成无条件最大限度保香。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:analysis:12",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "reason": "PW.D3.03可识别组合为何改善单膜局限；不要求指定组合或保证改善。",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.03可识别组合为何改善单膜局限；不要求指定组合或保证改善。",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:129:presentation:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01保留两部分结构，不另重复设结构分。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01保留两部分结构，不另重复设结构分。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:129:presentation:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01明确三阶段分类及跨阶段技术归属；缺一阶段会降档。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01明确三阶段分类及跨阶段技术归属；缺一阶段会降档。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:129:presentation:3",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05保留三列表格和指定字段；行内内容由各技术项检查。",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05保留三列表格和指定字段；行内内容由各技术项检查。",
+      "importance": "format",
+      "original_requirement_preserved": true
+    }
+  ],
+  "author_notes": [
+    "本题没有本批旧稿，按最新三题范式新建。PT区分指定结构、机制、13技术的品质字段、禁源和共同审计；PW比较实际因果、适用权衡、证据适配及原报告阅读价值，不求固定数量。",
+    "逐条原子化自检采用明确的混合缺失档位：成分好而感官缺失仍为3；发酵中只写营养不写温度也为3。保留原理—作用对象、处理—条件等关系，不为条数拆散。",
+    "官方效果大量缺酒种、膜型、回添、浓缩口径及试验条件。本稿未外部核实；尤其早采植物味、渗透汽化损失与回收改善、NF/RO排序不可直接当无条件事实。每项未保留精确结果均已记录，adapted不等于完全等价。",
+    "只有作者逐项自检和机械校验；没有评分、浏览器、候选报告或独立语义审核。可读内容及逐项来源表信息内嵌于JSON，未越出分配文件另写其他产物。",
+    "v3.3定向修复基线为drafts_v3_1/drb2_129.json，保留原文件。依据cross_reviews_v3_3/drb2_129.json的CR129-01，改PT.D1.02/03并同步04/05边界、来源与自检；22 PT/8 PW不变。至少13项表格清单不是概述范围上限，品牌、决议、靶点可选不等于类别可删。",
+    "代谢工程当前主流身份未外核，保留domain_review事实限制；评分只要求机制与基于材料的范围说明，允许研究/应用地位未定，不强制已主流结论。此轮为作者定向修复及程序自检，不自称独立审核通过。旧稿既有条件性结果和PW相对解释入口不等于官方全部精确区别均已保留。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "两部分完整但分类缺失判2；分类缺一阶段判3。两层是题面规定结构，混合档位已明确，不另拆重复结构项。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "保留阶段机制关系，补葡萄汁膜处理；四类完整但膜法缺失、只讲成酒去乙醇或无减糖物流均最高3；五类均有机制仅条件略缺为4。品牌/决议/参数缺失不扣分，未增项。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "rewritten",
+      "reason": "保留发酵机制组并补代谢工程范围说明。酵母/营养/温度任一机制缺失，或工程机制/范围依据任一缺失均最高3；有据说明工程应用地位未定而机制完整可达5，不因结论方向扣分。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "rewritten",
+      "reason": "保留旧锚点，明确只检查成酒分离；前处理写好但成酒方法缺失仍3，反向缺葡萄汁仅在02处理。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "rewritten",
+      "reason": "保留表格形式锚点，仅澄清至少清单不是概述上限；表格形式完好而概述漏类别不在此重复降档。"
+    },
+    {
+      "id": "PT.D1.19",
+      "decision": "added",
+      "reason": "仅列文献与实质取用有不同档位；同一禁源使用程度，不推测过程。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "有来源但不能对应效果判3；来源与主张是一条追溯关系。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "来源可找与实际支持可独立好坏，故与追溯分开；支持程度按实际核验样本判断。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "同一技术正文表格不一致按冲突重要性分档，不把条件性相反结果机械当冲突。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "added",
+      "reason": "减糖效果与品质代价是同一因果链；链断不能以独立技术优点补偿，±1保留局部长处。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "乙醇变化与感官后果是发酵路径关系；不拆残糖及甜度的前因后果。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "added",
+      "reason": "驱动力、损失与回收结果共同构成分离解释；回收存在但最终酒推论不明仍是链缺口。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "品质收益与操作代价是同一适用判断；必须说明改变什么选择，不以正确因果再获一次优势。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "成分研究充分但感官主张无适配材料是证据适配的混合表现；按关键概括贡献判断，而非按源数量。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "概述易读但对照表衔接混乱是同一全文阅读路径的混合表现，可±1或0，不拆顺序和重复。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "术语清楚但方向标注模糊是已有意思表达的混合表现；按实际理解影响权衡。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "找到技术但找不到声称出处是查找路径未完成，不拆成两个便利分。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "叶面积减少法：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "提早采收：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "葡萄汁稀释：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "葡萄糖氧化酶添加法：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "非酿酒酵母：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "added",
+      "reason": "营养限制与温度控制：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "纳滤（NF）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "反渗透（RO）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "渗透蒸馏（OD）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "added",
+      "reason": "渗透汽化（Pervaporation）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "added",
+      "reason": "旋转锥柱（SCC）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "added",
+      "reason": "真空蒸馏（VD）：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "added",
+      "reason": "多级膜系统：品质影响：两字段可独立好坏，但3分明确覆盖仅一面具体的情形；4/5要求两面均具体并区分条件。按最小修改范式保留技术品质一行，不再拆分成分与感官。"
+    }
+  ]
+}

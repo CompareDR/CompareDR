@@ -1,0 +1,1529 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:84",
+  "language": "en",
+  "title": "石油财富管理与资源诅咒",
+  "full_query": "I am researching how oil-dependent countries manage their wealth to avoid the 'resource curse'. Please help me compile a research report, primarily focusing on public information and academic views up to and including 2020. The report needs to include the following sections:\n1.  **Core Challenges**: First, please explain what 'resource curse' and 'Dutch disease' are, and what specific negative impacts they have on the economies of oil-producing countries.\n2.  **Fiscal Policy Strategies**: Outline and explain the three main fiscal policy rules discussed in academia and policy practice for managing oil revenues. Please describe the core logic of each rule and representative countries (if any).\n3.  **Revenue Management Tools**: Provide a detailed introduction to two key revenue management tools: (1) Natural Resource Funds (NRFs), please explain their main functions, and list and explain their three main types; (2) Public Investment Management Systems, please explain why they are important for these countries, and what stages an effective system should include.\n4.  **Benchmark Case Study**: Using Norway as an example, analyze its key policies and institutional arrangements for successful oil wealth management, particularly how its fiscal rules and sovereign wealth fund operate.\nPlease ensure your answer is well-structured, and each section is detailed and accurate.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Policy Framework of Natural Resource Management in Oil-Dependence Countries', 'authors': ['Basem Ertimi', 'Tamat Sarmidi', 'Norlin Khalid', 'Mohd Helmi Ali'], 'urls': ['https://www.mdpi.com/2227-7099/9/1/25', 'https://www.researchgate.net/publication/347057845_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries', 'https://www.researchgate.net/publication/349562167_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries', 'https://ideas.repec.org/a/gam/jecomi/v9y2021i1p25-d504509.html', 'https://www.econstor.eu/handle/10419/257183', 'https://scispace.com/papers/the-policy-framework-of-natural-resource-management-in-oil-20jx4xk9e5', 'https://ouci.dntb.gov.ua/en/works/loow31El/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Resource curse and oil dependence",
+      "question": "Does the report define the resource curse and explain concrete economic vulnerabilities of oil dependence?",
+      "anchors": {
+        "1": "No meaningful definition or oil-country challenges.",
+        "2": "Names the curse but treats resource abundance itself as an inevitable cause of poverty.",
+        "3": "Defines adverse development outcomes and explains a relevant vulnerability, but the account is narrow.",
+        "4": "Explains oil-price boom-bust exposure and revenue dependence, with a limited account of governance risks.",
+        "5": "Defines the conditional development problem and connects oil-price volatility, fiscal dependence and rent-seeking or accountability risks to economic consequences."
+      },
+      "boundary": "Dutch-disease transmission has a separate item. Do not require every historical theory or imply that all oil exporters grow poorly.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:1",
+          "drb2:84:info_recall:5",
+          "drb2:84:info_recall:6",
+          "drb2:84:info_recall:7",
+          "drb2:84:analysis:10"
+        ],
+        "query_quotes": [
+          "Core Challenges"
+        ],
+        "change_note": "Retain distinct economic vulnerabilities without a deterministic curse."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Dutch-disease transmission",
+      "question": "Does the report explain Dutch disease as a resource-boom transmission mechanism affecting other tradable sectors?",
+      "anchors": {
+        "1": "Absent or reverses the central mechanism.",
+        "2": "Gives only the label or a generic claim that oil hurts manufacturing.",
+        "3": "Resource inflows and appreciation are linked, but the consequences for non-oil export competitiveness or import demand are absent or materially unclear.",
+        "4": "Explains inflows, real appreciation, non-resource competitiveness and conditional import-demand effects, with only a minor missing qualification.",
+        "5": "The account explains real appreciation and/or resource-cost movement, its pressure on non-resource exports and diversification, and how higher purchasing power or relative prices can increase imports under stated conditions."
+      },
+      "boundary": "Do not require every country's imports to rise or nominal appreciation; a qualified spending/resource-movement explanation is eligible, but conditional trade effects must actually be discussed.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:2",
+          "drb2:84:info_recall:3",
+          "drb2:84:info_recall:4",
+          "drb2:84:analysis:1"
+        ],
+        "query_quotes": [
+          "Dutch disease"
+        ],
+        "change_note": "Keep the causal relationship intact rather than split definition from its consequence."
+      }
+    },
+    {
+      "id": "PT.D1.03.pih",
+      "dimension": "D1",
+      "title": "Permanent-income rule",
+      "question": "Does the report explain the spending basis of the permanent-income approach?",
+      "anchors": {
+        "1": "No substantive account of permanent-income rule.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Wealth or permanent income is named but its relation to sustainable spending is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains how expected long-run resource wealth informs a spending flow, with country attribution scoped if used."
+      },
+      "boundary": "No fixed equation, estimate or compulsory country; rule risks remain PT.D1.04.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:8",
+          "drb2:84:info_recall:9",
+          "drb2:84:presentation:3"
+        ],
+        "query_quotes": [
+          "the three main fiscal policy rules",
+          "representative countries (if any)"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.precaution",
+      "dimension": "D1",
+      "title": "Precautionary fiscal rule",
+      "question": "Does the report explain precautionary limits on spending from accumulated assets or buffers?",
+      "anchors": {
+        "1": "No substantive account of precautionary fiscal rule.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "A buffer is named but its role in spending or drawdowns is unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains how accumulated assets, uncertain revenues and drawdown limits enter the precautionary rule, with qualified country examples if any."
+      },
+      "boundary": "Do not force Norway into an exclusive universal category; fund types are a separate object.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:11",
+          "drb2:84:info_recall:12",
+          "drb2:84:info_recall:13",
+          "drb2:84:presentation:3"
+        ],
+        "query_quotes": [
+          "the three main fiscal policy rules",
+          "representative countries (if any)"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.current",
+      "dimension": "D1",
+      "title": "Current-receipt spending",
+      "question": "Does the report explain spending tied to current oil receipts?",
+      "anchors": {
+        "1": "No substantive account of current-receipt spending.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Current revenues are mentioned without explaining how they determine spending.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains current-receipt spending, its budget link and any country example with a defensible period and scope."
+      },
+      "boundary": "No compulsory Nigeria label; sustainability reasoning remains PT.D1.04 and PW.D3.01.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:14",
+          "drb2:84:info_recall:15",
+          "drb2:84:info_recall:16",
+          "drb2:84:presentation:3"
+        ],
+        "query_quotes": [
+          "the three main fiscal policy rules",
+          "representative countries (if any)"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.03; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Fiscal-rule limitations",
+      "question": "Does the report explain the implementation risks and sustainability tradeoffs of the rules it presents?",
+      "anchors": {
+        "1": "No limits, or claims a rule automatically guarantees sustainability.",
+        "2": "Uses generic warnings unrelated to rule operation.",
+        "3": "Explains a consequential limitation of some rules but leaves the comparison incomplete.",
+        "4": "Relates uncertainty and procyclical spending exposure to the relevant rules, with a small gap in the buffer or implementation discussion.",
+        "5": "Explains how wealth/revenue estimation, drawdown or buffer choices, and exposure to current oil receipts affect sustainable spending under the selected rules."
+      },
+      "boundary": "Accept corresponding limits under a justified taxonomy; do not force an unconditional claim that every use of current revenue is unsustainable.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:10",
+          "drb2:84:info_recall:17",
+          "drb2:84:analysis:2",
+          "drb2:84:analysis:3",
+          "drb2:84:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Make differences in rule risk inspectable rather than hiding them in a broad fiscal title."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "What resource funds do",
+      "question": "Does the report explain how NRF cash-flow and investment arrangements stabilize spending, preserve wealth and affect domestic boom pressures?",
+      "anchors": {
+        "1": "Funds absent or described as automatic solutions.",
+        "2": "Only names benefits without money-flow explanation.",
+        "3": "Stabilization or long-term saving is explained but the other, deposit/withdrawal mechanism or domestic demand/exchange-pressure link is missing.",
+        "4": "Cash flows, both horizons and the domestic-pressure link are clear with a minor implementation condition missing.",
+        "5": "Explains deposits, withdrawals and investment location/timing as means of smoothing receipts, preserving post-oil wealth and limiting domestic boom pressure, with limits to these effects."
+      },
+      "boundary": "Fund governance is separately PT.D1.14; no automatic Dutch-disease cure. Functions are not a substitute for the classification requested in06.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:19",
+          "drb2:84:info_recall:20",
+          "drb2:84:info_recall:21",
+          "drb2:84:analysis:5",
+          "drb2:84:presentation:4"
+        ],
+        "query_quotes": [
+          "their main functions"
+        ],
+        "change_note": "Retain operational benefits and failure conditions as one conditional tool account."
+      }
+    },
+    {
+      "id": "PT.D1.06.stabilization",
+      "dimension": "D1",
+      "title": "Stabilization",
+      "question": "Does the report explain stabilization as a resource-fund function?",
+      "anchors": {
+        "1": "No substantive account of stabilization.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Smoothing is named but deposits, withdrawals or the short-term objective are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains how deposits and withdrawals buffer short-term revenue or budget volatility."
+      },
+      "boundary": "Equivalent labels are accepted. Functions may coexist in one legal vehicle; do not invent separate funds or let another function compensate for this one.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:22",
+          "drb2:84:info_recall:23",
+          "drb2:84:presentation:5"
+        ],
+        "query_quotes": [
+          "their three main types"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.saving",
+      "dimension": "D1",
+      "title": "Intergenerational saving",
+      "question": "Does the report explain intergenerational saving as a resource-fund function?",
+      "anchors": {
+        "1": "No substantive account of intergenerational saving.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Saving is named without explaining wealth preservation or the long-term horizon.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains retaining resource wealth for future consumption or generations and its horizon relative to short-term stabilization."
+      },
+      "boundary": "Equivalent labels are accepted. Functions may coexist in one legal vehicle; do not invent separate funds or let another function compensate for this one.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:24",
+          "drb2:84:info_recall:25",
+          "drb2:84:presentation:5"
+        ],
+        "query_quotes": [
+          "their three main types"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.precaution",
+      "dimension": "D1",
+      "title": "Precautionary accumulation",
+      "question": "Does the report explain precautionary accumulation as a resource-fund function?",
+      "anchors": {
+        "1": "No substantive account of precautionary accumulation.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "Precaution is named without explaining accumulation against uncertain revenues.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Explains accumulating a reserve against uncertainty, including early revenue-development exposure where relevant, and distinguishes overlapping stabilization/saving purposes."
+      },
+      "boundary": "Equivalent labels are accepted. Functions may coexist in one legal vehicle; do not invent separate funds or let another function compensate for this one.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:26",
+          "drb2:84:info_recall:27",
+          "drb2:84:presentation:5"
+        ],
+        "query_quotes": [
+          "their three main types"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.06; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Why public investment management matters",
+      "question": "Does the report explain why effective public investment management is important for converting oil wealth into development?",
+      "anchors": {
+        "1": "Absent or equates spending more with creating value.",
+        "2": "Says infrastructure is important without a revenue-to-benefit explanation.",
+        "3": "Links oil revenues to productive public assets but gives little account of implementation constraints.",
+        "4": "Explains productive-capital benefits and the risk of waste or capacity limits.",
+        "5": "Explains why capital-scarce economies may benefit from public investment while appraisal, implementation capacity and continuing costs determine whether spending actually creates durable social value."
+      },
+      "boundary": "No mandated return percentage or universal preference for domestic investment over financial saving.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:28",
+          "drb2:84:analysis:7",
+          "drb2:84:presentation:6"
+        ],
+        "query_quotes": [
+          "why they are important for these countries"
+        ],
+        "change_note": "Preserve development rationale with conditional returns, not unsupported quantitative promises."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Investment-management lifecycle",
+      "question": "Does the report describe the stages of an effective public investment management system?",
+      "anchors": {
+        "1": "No stages or only a construction slogan.",
+        "2": "Names a few disconnected activities.",
+        "3": "A selection-to-execution sequence exists, but evaluation, maintenance or the incentives that can bias selection and upkeep are unexplained.",
+        "4": "Explains appraisal/selection, budgeting, implementation and monitoring, with only a minor lifecycle gap.",
+        "5": "Explains strategy, appraisal/selection, budgeting, procurement/execution, monitoring/evaluation and operation/maintenance, including how incentives favoring visible new projects over upkeep can waste resources and how lifecycle controls respond."
+      },
+      "boundary": "Equivalent stage groupings accepted; no named framework or country anecdote. Political incentive versus maintenance allocation is content, not merely an optional story.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:analysis:8",
+          "drb2:84:presentation:6"
+        ],
+        "query_quotes": [
+          "what stages an effective system should include"
+        ],
+        "change_note": "Separate stages from the independently answerable importance question; include maintenance without mandating a political anecdote."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Norway's operating policy mix",
+      "question": "Does the Norway case explain how its fiscal rule and sovereign fund operate together within its institutions?",
+      "anchors": {
+        "1": "No Norway case or fundamentally misdescribes the fund as an unrestricted spending account.",
+        "2": "Praises Norway or names its fund without explaining operations.",
+        "3": "The rule or fund is described but petroleum inflows, the non-oil budget transfer/spending limit, asset management or oversight is materially unclear.",
+        "4": "Explains the rule/fund budget relationship and responsible institutions with a minor operational or historical qualification missing.",
+        "5": "Explains petroleum inflows to the relevant Government Pension Fund vehicle, investment of accumulated assets and transfers financing the structural/non-oil budget under an expected-return-based fiscal guideline, with historical flexibility, oversight and post-oil purpose clear."
+      },
+      "boundary": "Non-oil budget meaning and expected-return basis are required operating content, not merely optional terminology. No separate savings/stabilization vehicles are assumed. Any numerical rate must be dated; do not impose an undated rate or exclusive precautionary label.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:31",
+          "drb2:84:info_recall:32",
+          "drb2:84:info_recall:33",
+          "drb2:84:info_recall:34",
+          "drb2:84:info_recall:35",
+          "drb2:84:info_recall:42",
+          "drb2:84:analysis:9",
+          "drb2:84:presentation:7"
+        ],
+        "query_quotes": [
+          "how its fiscal rules and sovereign wealth fund operate"
+        ],
+        "change_note": "Replace labels with the operational rule-fund-institution relationship; include non-oil budget connection without imposing terminology."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Historical scope",
+      "question": "Does the report primarily use public information and academic views available through 2020?",
+      "anchors": {
+        "1": "The report is primarily about later developments or gives no usable historical scope.",
+        "2": "Later policies dominate the account without being separated.",
+        "3": "Mostly within scope, but important later claims are mixed into the pre-2021 account.",
+        "4": "Maintains the requested period with a minor ambiguous date.",
+        "5": "Keeps the main account within information and views through 2020; any later context is clearly separated and does not substitute for the historical account."
+      },
+      "boundary": "Do not penalize an undated stable definition alone. Date-sensitive country policies need period attribution.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "up to and including 2020"
+        ],
+        "change_note": "Query-derived historical boundary."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Four requested sections",
+      "question": "Does the report provide distinct, clearly headed sections matching the four requested functions?",
+      "anchors": {
+        "1": "No recognizable requested structure.",
+        "2": "Only scattered content or a single undifferentiated section.",
+        "3": "Most functions are identifiable but one is not separately organized.",
+        "4": "All four functions have clear sections with minor heading/content mismatch.",
+        "5": "Four clearly headed sections cover challenges, fiscal strategies, revenue tools and Norway, with content placed under the appropriate function."
+      },
+      "boundary": "Equivalent heading wording accepted; section depth is scored in substantive items, not twice here.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:presentation:1",
+          "drb2:84:presentation:2"
+        ],
+        "query_quotes": [
+          "well-structured"
+        ],
+        "change_note": "Retain section organization as explicit compliance, leaving flow to PW."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Observable banned-source use",
+      "question": "Does the final report avoid observable use of the excluded Ertimi and colleagues article?",
+      "anchors": {
+        "1": "Explicitly relies on the excluded article for central claims.",
+        "2": "Uses it for substantial supporting evidence.",
+        "3": "Contains an identifiable substantive reliance with otherwise independent sourcing.",
+        "4": "No substantive reliance is apparent, but an ambiguous reference needs clarification.",
+        "5": "No observable citation, quotation or attribution uses the excluded article as evidence; mentioning it solely to state exclusion is allowed."
+      },
+      "boundary": "Judge final text only, not inferred browsing history. Shared facts or wording alone do not prove use.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "The Policy Framework of Natural Resource Management in Oil-Dependence Countries"
+        ],
+        "change_note": "Convert process prohibition into observable report audit only."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Policy and claim traceability",
+      "question": "Can readers identify the sources and periods behind consequential policy descriptions and empirical claims?",
+      "anchors": {
+        "1": "No consequential claims can be traced.",
+        "2": "Most policy claims have only vague source gestures.",
+        "3": "Main claims have identifiable sources but important country/date attributions are missing.",
+        "4": "Consequential claims are traceable with minor mapping gaps.",
+        "5": "Rule descriptions, Norway operations and any quantitative claims are tied to identifiable sources and relevant periods; descriptive facts and the author's synthesis are distinguishable."
+      },
+      "boundary": "A URL is not necessary; traceability is not verification. Do not require a citation for every ordinary definition.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local audit suited to historically variable policy descriptions."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Verified support in the actual sample",
+      "question": "Do the sources actually checked support the sampled policy, numerical and institutional claims?",
+      "anchors": {
+        "1": "Checked evidence contradicts the main sampled claims or sources are materially fabricated.",
+        "2": "Several consequential sampled claims are unsupported or misleading.",
+        "3": "Support is mixed, with a material limitation requiring correction.",
+        "4": "The checked claims are supported apart from minor imprecision.",
+        "5": "All claims in the stated verification sample are supported at the claimed scope, period and certainty, including numerical conditions when present."
+      },
+      "boundary": "Apply only to a documented actual sample. Retrieval failure is an execution issue, not a low score or NA; disclose incomplete verification without implying all claims were checked.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local source-support audit separate from locating references."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Oil rents and political accountability",
+      "question": "Does the report explain how resource-revenue dependence can affect accountability, rent seeking and policy quality?",
+      "anchors": {
+        "1": "No governance mechanism discussed.",
+        "2": "Only lists corruption or weak institutions.",
+        "3": "A governance risk is concrete but the resource-revenue/accountability link is unexplained.",
+        "4": "Explains rent dependence and governance consequences with a minor institutional condition missing.",
+        "5": "Explains how externally obtained oil rents can weaken tax-citizen accountability and create rent-seeking incentives, while institutional constraints can alter these outcomes."
+      },
+      "boundary": "No mandatory Rentier State or Institutional Model label. Do not assume oil abundance inevitably causes bad governance.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:36",
+          "drb2:84:info_recall:37",
+          "drb2:84:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore tax-citizen and institutional mechanisms without forcing named theories."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "NRF governance and misuse safeguards",
+      "question": "Does the report explain how fund governance prevents oil revenues from becoming an opaque or misused parallel budget?",
+      "anchors": {
+        "1": "No governance or safeguard discussion.",
+        "2": "Only says transparency is important.",
+        "3": "A safeguard is described but oversight, accountability or integration with budget decisions is missing.",
+        "4": "Roles, reporting and budget integration are clear with a minor enforcement gap.",
+        "5": "Explains who authorizes deposits/withdrawals and investment, how reporting and oversight constrain misuse, and why fund existence alone cannot ensure accountable budget management."
+      },
+      "boundary": "No fixed legal charter or audit model; identify functional accountability rather than a checklist of agency names.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:info_recall:18",
+          "drb2:84:analysis:6",
+          "drb2:84:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Split governance from fund cash-flow benefits, preserving the official failure-condition domain."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Fiscal-rule mechanism comparison",
+      "question": "Which report more reliably explains how spending rules change sustainable consumption and exposure to oil-revenue shocks?",
+      "anchors": {
+        "0": "Comparable useful fiscal-rule reasoning, or neither provides it; state which.",
+        "1": "A explains the central fiscal-rule trade-offs slightly more soundly; B may be better locally.",
+        "2": "A provides substantially more coherent rule-to-risk reasoning; B's local strengths do not offset the difference.",
+        "-1": "B explains the central fiscal-rule trade-offs slightly more soundly; A may be better locally.",
+        "-2": "B provides substantially more coherent rule-to-risk reasoning; A's local strengths do not offset the difference."
+      },
+      "boundary": "Compare the actual rule mechanisms, not coverage counts. Evaluate countervailing strengths across rules by the same risk/affordability criterion; balanced opposite advantages mean0. Fund-specific mechanisms are separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:analysis:2",
+          "drb2:84:analysis:3",
+          "drb2:84:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Move depth of mechanism comparison to PW while PT retains coverage."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence matched to policy claims",
+      "question": "Compared with B, how well does A select evidence appropriate to its oil-management claims?",
+      "anchors": {
+        "0": "Evidence fit is comparable, or neither provides useful evidence for its policy conclusions. State which situation applies.",
+        "1": "A better matches institutional descriptions and broader conclusions to suitable sources, while B may have a local evidence advantage.",
+        "2": "A materially improves the basis for interpretation by using relevant institutional and analytical evidence with counterexamples or scope limits where consequential; B's isolated strengths do not offset this.",
+        "-2": "A relies much more on mismatched periods, promotional success stories or unrepresentative cases; local citation strengths do not offset the mismatch.",
+        "-1": "A's evidence is somewhat less well matched to the claim's scope, despite some useful sources."
+      },
+      "boundary": "Not a count of sources or a preference for one institution; sampled truth is PT.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local evidence-fit comparison."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Transferable policy understanding",
+      "question": "Compared with B, how much does A help readers understand which lessons from Norway transfer to other oil-dependent countries?",
+      "anchors": {
+        "0": "Both offer comparable conditional insight, or neither goes beyond describing policies. State which situation applies.",
+        "1": "A more usefully relates policy choices to governance, capital needs or volatility, despite B's local strengths.",
+        "2": "A produces a substantially clearer, evidence-bounded account of what can transfer and what depends on institutions or development conditions; B's local insights do not offset the overall value.",
+        "-2": "A offers substantially more misleading copy-Norway prescriptions or deterministic curse claims, outweighing local useful observations.",
+        "-1": "A is somewhat more generic about institutional capacity, resource dependence or development needs."
+      },
+      "boundary": "No mandatory new policy proposal or named institutional theory; exposing limits can be valuable.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:analysis:7",
+          "drb2:84:analysis:9",
+          "drb2:84:analysis:10",
+          "drb2:84:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Reward conditional application rather than more Norway facts."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Policy report progression",
+      "question": "Compared with B, how effectively does A connect challenges, strategies, tools and the Norway case?",
+      "anchors": {
+        "0": "Both have similarly followable organization, or neither establishes a useful progression. State which situation applies.",
+        "1": "A more clearly builds from problems to policy responses and the case, with some local organizational strengths in B.",
+        "2": "A's substantially better structure makes the relationships easy to follow with little duplication; isolated strengths in B do not offset this gain.",
+        "-2": "A's structure is substantially more fragmented or repetitive, obscuring the policy argument despite local good passages.",
+        "-1": "A's progression is somewhat harder to follow, though individual sections may be better."
+      },
+      "boundary": "Judge original report organization; four-heading presence is PT.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:presentation:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate progression from sentence clarity."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Economic and institutional clarity",
+      "question": "Compared with B, how clearly does A express fiscal and fund concepts?",
+      "anchors": {
+        "0": "Both are similarly understandable, or neither clarifies the concepts. State which situation applies.",
+        "1": "A explains consequential concepts more plainly and precisely, while B may have clearer local passages.",
+        "2": "A makes difficult stock-flow and institutional distinctions substantially easier to understand without false simplification; B's local strengths do not offset this.",
+        "-2": "A's language is substantially more confusing about flows, stocks, returns or institutional roles; local clarity does not repair it.",
+        "-1": "A is somewhat less precise or more jargon-heavy on consequential concepts."
+      },
+      "boundary": "No preferred academic register, equations or glossary. Accuracy of verified facts remains PT.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:presentation:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain clear economic expression as its own comparison."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Policy comparison lookup",
+      "question": "Compared with B, how easily can readers find and compare a rule's spending basis, objective and country evidence in A?",
+      "anchors": {
+        "0": "Lookup effort is similar, or neither provides usable comparison cues. State which situation applies.",
+        "1": "A makes the important policy/source connections easier to locate, though B may have a local advantage.",
+        "2": "A substantially reduces lookup effort through consistent labels and well-placed comparisons or references; B's isolated conveniences do not offset the benefit.",
+        "-2": "A makes relevant policy details substantially harder to find or associate, despite isolated convenient elements.",
+        "-1": "A requires somewhat more hunting or reconstruction than B."
+      },
+      "boundary": "Tables and hyperlinks are optional. Judge access effort, not whether sources are true or whether more details exist.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local navigational comparison for multiple policy instruments."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Fund mechanisms and constraints",
+      "question": "Which report more reliably explains when fund flows and governance can achieve stabilization and durable wealth preservation?",
+      "anchors": {
+        "0": "Comparable useful fund explanations, or neither offers a causal account; state which.",
+        "1": "A's fund mechanism explanation is slightly more convincing; B may be stronger locally.",
+        "2": "A's causal account of fund flows and constraints is substantially more convincing; B's local strengths cannot offset the difference.",
+        "-1": "B's fund mechanism explanation is slightly more convincing; A may be stronger locally.",
+        "-2": "B's causal account of fund flows and constraints is substantially more convincing; A's local strengths cannot offset the difference."
+      },
+      "boundary": "Compare actual links, not the presence of fund types or governance labels. Good short-term smoothing but weak long-term reasoning must be considered together using the same objectives; balanced advantages mean0.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:84:analysis:5",
+          "drb2:84:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate the actual operation of fund vehicles from fiscal rule formulas."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:84:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Define adverse development outcomes without claiming inevitability.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 distinguishes no curse definition from a meaningful conditional definition.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:2",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Retain real appreciation and other-tradables competitiveness.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02 identifies a missing or reversed transmission relationship.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Retain harm to non-resource tradables rather than requiring observed exports always fall.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 distinguishes competitiveness effects; the exact export-decline assertion is not compulsory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:4",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "PT.D1.02 restores the substantive economic/institutional mechanism without mandatory theory naming or unconditional outcomes.",
+      "status": "adapted",
+      "discrimination_check": "A generic theme label is insufficient; its specified relationship must be explained. The original exact naming or unqualified outcome remains adapted.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:5",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain oil-price boom-bust exposure.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 cannot reach the top anchor with volatility omitted.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain fiscal revenue dependence.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 distinguishes a broad growth label from fiscal exposure.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:7",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain governance/rent-seeking risks, allowing equivalent accountability mechanisms.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 requires a governance consequence at 5, but not the exact rent-seeking phrase.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:8",
+      "targets": [
+        "PT.D1.03.pih"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.pih. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:9",
+      "targets": [
+        "PT.D1.03.pih"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.pih. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:10",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Retain estimation uncertainty as a substantive rule limitation.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 tests uncertainty in the relevant spending basis; no demand for the exact permanent-income phrase.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:11",
+      "targets": [
+        "PT.D1.03.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:12",
+      "targets": [
+        "PT.D1.03.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:13",
+      "targets": [
+        "PT.D1.03.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "Require grounded country examples where available; Norway is covered operationally."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:14",
+      "targets": [
+        "PT.D1.03.current"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.current. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:15",
+      "targets": [
+        "PT.D1.03.current"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.current. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.03 explicitly requires the wealth, precautionary-buffer and current-receipt spending logics; alternative labels must map to them."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:16",
+      "targets": [
+        "PT.D1.03.current"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.current. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "Preserve representative examples without freezing Nigeria's policy across time."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:17",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Retain procyclicality and sustainability risks rather than an unconditional verdict.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 rejects missing risks; it does not require calling every current-revenue use unsustainable.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:18",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "reason": "PT.D1.14 independently checks transparency and accountable budget operation.",
+      "status": "adapted",
+      "discrimination_check": "Good wealth management cannot compensate for absent reporting/authority; specific governance forms are open.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:19",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Retain decoupling receipts and spending.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 explicitly tests the receipt-spending mechanism.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:20",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "PT.D1.05 restores the substantive economic/institutional mechanism without mandatory theory naming or unconditional outcomes.",
+      "status": "adapted",
+      "discrimination_check": "A generic theme label is insufficient; its specified relationship must be explained. The original exact naming or unqualified outcome remains adapted.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:21",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Retain stabilization against volatile resource markets.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 distinguishes savings-only discussion from both stabilization and wealth management.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:22",
+      "targets": [
+        "PT.D1.06.stabilization"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.stabilization. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:23",
+      "targets": [
+        "PT.D1.06.stabilization"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.stabilization. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:24",
+      "targets": [
+        "PT.D1.06.saving"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.saving. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:25",
+      "targets": [
+        "PT.D1.06.saving"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.saving. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:26",
+      "targets": [
+        "PT.D1.06.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:27",
+      "targets": [
+        "PT.D1.06.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.06 explicitly retains smoothing, intergenerational saving and precautionary accumulation functions and their overlap."
+    },
+    {
+      "resource_id": "drb2:84:info_recall:28",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain converting revenues to effective public assets, especially under capital scarcity.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.07 distinguishes a spending slogan from the investment-management rationale.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:29",
+      "targets": [],
+      "reason": "The 15–20% return is an optional context-sensitive quantitative claim, not requested.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No omission penalty for this number; if used it is subject to sampled evidence verification.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:30",
+      "targets": [],
+      "reason": "The World Bank ≥2% annual growth claim is optional and requires scope verification.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No exact-number recall credit; generic investment importance is not counted as preserving it.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:31",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Keep Norway as the required central case.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 detects no Norway case or merely naming it.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:32",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Retain stabilization/savings functions without asserting distinct Norwegian vehicles.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 tests operations, not a potentially misleading plural-fund formula.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:33",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Retain the fiscal strategy operationally rather than its exclusive label.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 distinguishes absent rule operation but does not require precautionary terminology.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:34",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Require identification of the relevant Government Pension Fund component.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 distinguishes a generic sovereign fund mention from the relevant vehicle, without equating all pension-fund components.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:35",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Retain the post-oil sustainability objective.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 requires connecting the operating arrangement to that objective.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:info_recall:36",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 restores the substantive economic/institutional mechanism without mandatory theory naming or unconditional outcomes.",
+      "status": "adapted",
+      "discrimination_check": "A generic theme label is insufficient; its specified relationship must be explained. The original exact naming or unqualified outcome remains adapted.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:37",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "reason": "PT.D1.13 restores the substantive economic/institutional mechanism without mandatory theory naming or unconditional outcomes.",
+      "status": "adapted",
+      "discrimination_check": "A generic theme label is insufficient; its specified relationship must be explained. The original exact naming or unqualified outcome remains adapted.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:38",
+      "targets": [],
+      "reason": "Gray's 1913 history is optional.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Neither the scholar nor year is required; a related sustainability discussion does not preserve them.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:39",
+      "targets": [],
+      "reason": "Hotelling's 1931 extraction theory is optional.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Omission of this theorist, date and extraction model is intentionally not penalized.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:40",
+      "targets": [],
+      "reason": "Hartwick's 1977 attribution is optional.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact name/date recall is not preserved by general intergenerational discussion.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:41",
+      "targets": [],
+      "reason": "Hartwick's all-rents reinvestment rule is an optional theoretical route.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "A sound fiscal report can omit this theorem; broad saving coverage is not exact preservation.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:info_recall:42",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09 restores the substantive economic/institutional mechanism without mandatory theory naming or unconditional outcomes.",
+      "status": "adapted",
+      "discrimination_check": "A generic theme label is insufficient; its specified relationship must be explained. The original exact naming or unqualified outcome remains adapted.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Preserve Dutch-disease transmission.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02 detects a broken wealth-inflow/appreciation/competitiveness explanation.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:analysis:2",
+      "targets": [
+        "PT.D1.04",
+        "PW.D3.01"
+      ],
+      "reason": "Preserve procyclical planning and sustainability risks without an unconditional verdict.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 and PW.D3.01 distinguish explanation from a bad-policy label; exact waste wording is not compulsory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:3",
+      "targets": [
+        "PT.D1.04",
+        "PW.D3.01"
+      ],
+      "reason": "Preserve the receipt-spending procyclicality problem.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.04 and PW.D3.01 require risk explanation rather than three labels alone.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:analysis:4",
+      "targets": [
+        "PT.D1.04",
+        "PW.D3.01"
+      ],
+      "reason": "Retain sustainable-spending versus buffer distinctions across a defensible taxonomy.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 and PW.D3.01 detect blurred policy roles; exact PIH/precautionary naming is optional.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:5",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.02"
+      ],
+      "reason": "Preserve short-run smoothing and long-run wealth objectives.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 and PW.D3.02 distinguish single-purpose accounts from the dual relationship.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:analysis:6",
+      "targets": [
+        "PT.D1.14",
+        "PW.D3.02"
+      ],
+      "reason": "PT.D1.14 directly checks governance conditions; relative fund reasoning or transfer value is separately compared.",
+      "status": "adapted",
+      "discrimination_check": "Misuse/accountability mechanisms must be explained, not merely praise transparency.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:7",
+      "targets": [
+        "PT.D1.07",
+        "PW.D4.01"
+      ],
+      "reason": "Preserve conditional capital-scarcity investment logic.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 and PW.D4.01 distinguish more spending from productive value; domestic returns are not assumed always higher.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:8",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 retains selection/maintenance incentives within lifecycle management.",
+      "status": "adapted",
+      "discrimination_check": "A stage list without explaining bias toward visible projects and continuing asset needs cannot reach5; no particular politician anecdote.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:9",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.01"
+      ],
+      "reason": "Preserve the combined rule/fund/institution explanation of Norway.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 requires operational linkage; PW.D4.01 compares what readers learn about transfer conditions.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:analysis:10",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.13",
+        "PW.D4.01"
+      ],
+      "reason": "Preserve non-inevitability and institutional moderation.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 rejects deterministic definitions; PW.D4.01 compares conditional implications.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:analysis:11",
+      "targets": [],
+      "reason": "A Hartwick-to-Norway theoretical bridge is optional.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No exact theory-application distinction is preserved by generic sustainability items.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:analysis:12",
+      "targets": [
+        "PT.D1.14",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.14 directly checks governance conditions; relative fund reasoning or transfer value is separately compared.",
+      "status": "adapted",
+      "discrimination_check": "Misuse/accountability mechanisms must be explained, not merely praise transparency.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:presentation:1",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "Keep four distinct requested functions.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.11 detects missing or unseparated sections.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:presentation:2",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "Keep clear headings with matching content.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.11 detects mismatched headings independent of prose fluency.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:presentation:3",
+      "targets": [
+        "PT.D1.03.pih",
+        "PT.D1.03.precaution",
+        "PT.D1.03.current"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.03.pih, PT.D1.03.precaution, PT.D1.03.current. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "Keep exactly the requested three distinct rules, not a rubric quota."
+    },
+    {
+      "resource_id": "drb2:84:presentation:4",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Keep a substantive NRF introduction.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 tests mechanisms and conditions rather than a heading alone.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:presentation:5",
+      "targets": [
+        "PT.D1.06.stabilization",
+        "PT.D1.06.saving",
+        "PT.D1.06.precaution"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.06.stabilization, PT.D1.06.saving, PT.D1.06.precaution. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "Keep three explained fund types but accept a justified taxonomy."
+    },
+    {
+      "resource_id": "drb2:84:presentation:6",
+      "targets": [
+        "PT.D1.07",
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.07 and08 separately preserve importance and operational lifecycle.",
+      "status": "adapted",
+      "discrimination_check": "Good rationale with no stages and a stage list with no rationale are independently identifiable.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:84:presentation:7",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Keep Norway central with an operating policy mix.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 distinguishes named-country praise from analysis.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:84:presentation:8",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "Separate coherent structure from clear economic wording; sampled accuracy is separately audited.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 and PW.D6.01 permit opposite scores for organization and expression; they do not certify factual correctness.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "Author self-check only; independent semantic review and external verification remain pending.",
+    "No old draft for this assigned task. Separate investment importance from stages because either can be present without the other; keep rule comparisons and Norway's coupled operations intact.",
+    "Do not impose a universal NRF taxonomy, timeless Nigeria label, or exclusive precautionary classification of Norway. These exact official distinctions are recorded as adapted, not fully retained.",
+    "Optional historical theories and unsupported generic return/growth numbers are not answer keys. Norway's historical policy parameters and fund-component descriptions remain source-sensitive review risks.",
+    "Historical baseline author-check record: 14 PT, 6 PW and 62 official records; the v3.3 repair now contains 16 PT and 7 PW. This historical record is not independent semantic approval or verification of official factual claims.",
+    "v3.3：防止任意三规则/基金分类替代实质功能，恢复进口、租税问责、基金治理和投资维护激励，明确挪威非油预算机制。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "New item: a good definition with only one vulnerability is 3; definition plus fiscal exposure but weak governance account is 4."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "Restore import-side content without a universal import-growth assertion; export detail cannot replace it."
+    },
+    {
+      "id": "PT.D1.03.pih",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.pih, PT.D1.03.precaution, PT.D1.03.current]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03.precaution",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.pih, PT.D1.03.precaution, PT.D1.03.current]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.03.current",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.03.pih, PT.D1.03.precaution, PT.D1.03.current]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "add",
+      "reason": "New comparison requirement: explaining PIH well but ignoring the other rules' risks is 3; one generic risk cannot stand for all."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "rewritten",
+      "reason": "Separate cash-flow functions from governance; explicitly restore domestic absorption channel without guaranteeing mitigation."
+    },
+    {
+      "id": "PT.D1.06.stabilization",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.stabilization, PT.D1.06.saving, PT.D1.06.precaution]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.saving",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.stabilization, PT.D1.06.saving, PT.D1.06.precaution]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.06.precaution",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.06.stabilization, PT.D1.06.saving, PT.D1.06.precaution]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "New relation item: benefits without conversion constraints are 3; constraints without the development rationale are at most 3."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "rewritten",
+      "reason": "Restore incentive mechanism alongside stages; stages named without functions/incentive response do not reach5."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "rewritten",
+      "reason": "Strengthen operational chain, including non-oil/return basis; fund praise or generic budget linkage cannot substitute."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "New scope item: accurate later information can still fail this historical request."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "New format item: strong content scattered throughout can score low here; headings alone do not prove substantive coverage."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "New audit: many permitted references cannot offset confirmed prohibited reliance."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "New audit: accurate-looking detail with unidentifiable attribution remains low; clear attribution does not certify truth."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "New audit: a correct number with the wrong period or denominator is not fully supported; no inference from unchecked claims."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "Price volatility detail does not fill accountability; corruption label without rents-to-incentives mechanism is2/3."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "Good smoothing cannot compensate for opaque authorization; reporting without accountability is3."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "Separate rule comparisons from fund mechanisms; explicit symmetric net-advantage ladder."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "New item: many traceable sources need not justify generalizing Norway to all exporters."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "add",
+      "reason": "New item: an accurate case description can have little transfer value; this is not another completeness score."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "New item: four correct headings can hide disconnected reasoning; polished sentences cannot fix that."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "New item: clear organization and unclear stock-flow wording can legitimately receive different scores."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "New item: traceable sources can still be cumbersome to locate; missing content itself is scored in PT."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "A strong PIH discussion cannot hide fund reasoning gaps; cash flows and failure conditions remain one conditional operation."
+    }
+  ]
+}

@@ -1,0 +1,1572 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:15",
+  "language": "zh",
+  "title": "政府AI应用与监管",
+  "full_query": "请对人工智能（AI）在政府决策中的应用进行全面综述，重点关注过去五年（2019-2023年）的信息。您的报告应涵盖三个主要领域：\n\n1.  **人工智能在政府运作中的作用**：描述人工智能在公共管理中提升效率和效能的具体方式。这应包括人工智能如何改善数据处理、服务提供和政策制定。请提供人工智能应用的具体示例，例如用于公共服务的聊天机器人、用于安防的面部识别以及用于公共交通的自动驾驶汽车。\n\n2.  **政府中人工智能的监管框架**：分析并比较欧盟、美国和中国在人工智能监管方面采取的不同方法。对于每个地区，描述其战略的核心原则，提及关键的政策文件或指南，并解释其主要优先事项。\n\n3.  **挑战与伦理考量**：识别并解释在政府中实施人工智能的主要挑战。您必须将这些挑战分为三个不同类型：a）技术挑战（例如，与遗留系统的集成、数据质量问题），b）社会挑战（例如，工作岗位流失、公众接受度与信任），以及 c）伦理挑战（例如，“黑箱”问题、算法偏见、问责制）。\n\n您的最终产出应为一份报告，其中包含针对上述三个领域的清晰章节。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': \"Navigating Governmental Choices: A Comprehensive Review of Artificial Intelligence's Impact on Decision-Making\", 'authors': ['Gustavo Caiza', 'Verónica Sanguña', 'Natalia Tusa', 'Violeta Masaquiza', 'Alexandra Ortiz', 'Marcelo V. Garcia'], 'urls': ['https://www.mdpi.com/2227-9709/11/3/64', 'https://doi.org/10.3390/informatics11030064', 'https://text2fa.ir/wp-content/uploads/Text2fa.ir-Navigating-Governmental-Choices-A-Comprehensive-R.pdf', 'https://pure.ups.edu.ec/en/publications/navigating-governmental-choices-a-comprehensive-review-of-artific', 'https://www.semanticscholar.org/paper/Navigating-Governmental-Choices%3A-A-Comprehensive-of-Caiza-Sangu%C3%B1a/ef838c9723caeba6042168ec17c02358b5a50721', 'https://ouci.dntb.gov.ua/en/works/lxdPJKEl/', 'https://www.researchgate.net/publication/348933222_Artificial_Intelligence_in_Public_Governance']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "数据处理用途",
+      "question": "报告是否具体说明AI怎样用于政府数据处理，并指出相应效率或质量目标？",
+      "anchors": {
+        "1": "未答数据处理。",
+        "2": "只说更快更智能。",
+        "3": "有处理任务，但数据、处理动作或预期改善不清。",
+        "4": "数据处理任务和改善目标清楚，少量适用条件遗漏。",
+        "5": "说明处理什么政府数据、用AI做什么及希望改善什么，区分预期作用与已证实效果。"
+      },
+      "boundary": "不要求某模型，预测能力不自动证明决策公平。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:6"
+        ],
+        "query_quotes": [
+          "数据处理"
+        ],
+        "change_note": "将官方速度准确率断言改为任务与效果说明，不预设实际成效。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "服务提供及实例",
+      "question": "报告是否具体说明AI怎样改善公共服务，并给出可辨的政府应用实例？",
+      "anchors": {
+        "1": "无服务应用。",
+        "2": "只有智慧政府等口号。",
+        "3": "有具体服务，但咨询/办事与社会支持任一内容面未实质交代，或政府主体、应用动作、服务对象不清；另一面的丰富例子不能补偿。",
+        "4": "具体说明咨询/办事服务和社会支持服务中的AI作用、政府主体与服务对象；主要内容面齐全，但实施状态或资格/可及性细节略有欠缺。",
+        "5": "说明公众获取咨询或办事服务，以及社会支持服务的具体流程与AI作用，明确服务对象及资格/可及性、政府主体和实施状态；同一案例若确实承接两类功能即可，不要求两个指定案例。"
+      },
+      "boundary": "题面“例如”不是固定案例名单；不得将商业演示自动当政府实际部署。 公众服务入口与安全、交通、医疗及内部管理分别判断；不强制聊天机器人或福利申请技术。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:2",
+          "drb2:15:info_recall:32"
+        ],
+        "query_quotes": [
+          "服务提供",
+          "具体示例"
+        ],
+        "change_note": "保留服务改进和案例具体性，不固定医疗/移民/福利例子；加入实施状态。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "政策制定作用",
+      "question": "报告是否说明AI在政策制定中的具体作用及政府决策者的角色？",
+      "anchors": {
+        "1": "未答政策制定。",
+        "2": "只说支持决策。",
+        "3": "有分析用途，但分析结果如何进入政策判断或谁作决定不明。",
+        "4": "分析输入、政策用途和决策角色大体清楚，少量条件欠缺。",
+        "5": "说明AI输出怎样用于政策设计、预测或评估，政府人员的判断角色及使用边界可辨。"
+      },
+      "boundary": "不强制某政策模型，不把自动化行政办理等同政策制定。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "政策制定"
+        ],
+        "change_note": "本地按题面补政策用途，防止数据处理和服务案例代替这一要求。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "欧盟监管",
+      "question": "报告是否说明2019—2023年欧盟AI监管的核心原则、关键文件和优先事项？",
+      "anchors": {
+        "1": "无欧盟内容。",
+        "2": "只有以人为本标签。",
+        "3": "有原则或文件但缺一主要方面，或文件与优先事项无对应。 所列主要内容面任一未实质交代均不能进入4/5档。",
+        "4": "权利、监督、公平、透明、问责及数据保护的主要作用均对应可辨文件，仅次要状态说明不清。",
+        "5": "结合期间关键政策/指南说明以人为本的监督、公平、透明、问责要求，并说明数据保护约束及其与AI使用的关系，区分指南与法律地位。"
+      },
+      "boundary": "不要求指定文件全列；不把草案、伦理指南和已生效法律混为同一约束。 不强制全部文件名，但重要原则或数据保护领域不可省略；对所选关键文件不能只挑一个原则充当全部框架。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:7",
+          "drb2:15:info_recall:9",
+          "drb2:15:info_recall:8",
+          "drb2:15:info_recall:10"
+        ],
+        "query_quotes": [
+          "欧盟"
+        ],
+        "change_note": "保留原则—文件—优先事项关系，具体指南为可选证据，不强制完整制度清单。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "美国监管",
+      "question": "报告是否说明2019—2023年美国AI监管的核心原则、关键文件和优先事项？",
+      "anchors": {
+        "1": "无美国内容。",
+        "2": "只有创新导向标签。",
+        "3": "有原则或文件但缺主要方面，或无法分辨机构与适用范围。 所列主要内容面任一未实质交代均不能进入4/5档。",
+        "4": "创新导向、负责任使用与风险管理均有可辨政策工具对应，仅次要机构/地位不清。",
+        "5": "说明促进创新、行政层面负责任使用指引与风险管理工具的作用和关系，联系时期内关键文件、发布机构、适用范围及约束地位。"
+      },
+      "boundary": "不要求NIST、OSTP文件全列；不能把美国视为单一不变立场。 不强制OSTP和NIST名称全列，但行政指导与风险管理两个政策工具层面均须实质交代，不能一个创新口号代替。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:11",
+          "drb2:15:info_recall:13",
+          "drb2:15:info_recall:12",
+          "drb2:15:info_recall:14"
+        ],
+        "query_quotes": [
+          "美国"
+        ],
+        "change_note": "保留监管取向，扩展到政策差异与文件地位，去除单一创新结论。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "中国监管",
+      "question": "报告是否说明2019—2023年中国AI监管的核心原则、关键文件和优先事项？",
+      "anchors": {
+        "1": "无中国内容。",
+        "2": "只有国家主导标签。",
+        "3": "有集中治理或文件名，但原则、优先事项或文件范围明显缺失。 所列主要内容面任一未实质交代均不能进入4/5档。",
+        "4": "政府主导、发展安全及伦理目标与关键文件对应，少量阶段欠缺。",
+        "5": "说明政府主导下发展/竞争力、安全和伦理目标怎样对应关键政策及战略行业应用导向，限定对象和当时阶段。"
+      },
+      "boundary": "不要求某唯一文件或把国家安全视作唯一目的。 不预设安全压倒其它目标，也不强制某唯一文件；上述优先事项不能互相代替。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:15",
+          "drb2:15:info_recall:16",
+          "drb2:15:info_recall:17"
+        ],
+        "query_quotes": [
+          "中国"
+        ],
+        "change_note": "保留治理与目标关系，不照搬集中化为全部制度事实。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "三地区直接比较",
+      "question": "报告是否在可比维度上比较欧盟、美国和中国的方法，而非仅平行罗列？",
+      "anchors": {
+        "1": "没有比较。",
+        "2": "仅列三个地区名称或口号。",
+        "3": "有两地比较或比较维度不一致，另一地无法参与判断。",
+        "4": "三地以原则、政策工具或实施方式作直接比较，少量范围不明。",
+        "5": "三地比较维度一致，说明共同关注和实质差异，并交代所比较政策的时间与层级。"
+      },
+      "boundary": "不要求三种单一标签，不重复逐地区文件覆盖；这里只检查直接比较。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:presentation:2"
+        ],
+        "query_quotes": [
+          "分析并比较"
+        ],
+        "change_note": "采用三地比较要求，新增可比维度和时间层级边界。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "技术挑战",
+      "question": "报告是否具体解释政府实施AI的技术挑战及其发生环节？",
+      "anchors": {
+        "1": "无技术挑战。",
+        "2": "只有技术困难标签。",
+        "3": "有具体技术问题，但数据适用性或系统集成等主要方面缺失，或发生环节和影响不清。 所列主要内容面任一未实质交代均不能进入4/5档。",
+        "4": "数据和集成障碍均具体，少量流程条件未明。",
+        "5": "说明数据完整性、时效性和代表性/历史偏差的质量问题，以及遗留系统/异构数据集成的技术障碍，交代影响环节与条件。"
+      },
+      "boundary": "不要求统一架构或绝对无偏训练数据；覆盖关键问题不是保证全部数据缺陷全列。 不强制某数据库或所有数据皆有缺陷；数据质量的主要维度不可仅用偏见一个词替代。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:18",
+          "drb2:15:info_recall:19",
+          "drb2:15:info_recall:20"
+        ],
+        "query_quotes": [
+          "技术挑战"
+        ],
+        "change_note": "官方数据/集成对象保留，去除理想无偏要求；五档检查具体挑战。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "社会挑战",
+      "question": "报告是否说明政府AI实施对工作人员和公众接受、信任的挑战？",
+      "anchors": {
+        "1": "无社会挑战。",
+        "2": "只称影响社会。",
+        "3": "只谈人员变化或公众接受一面，或两者均只有标签。 所列主要内容面任一未实质交代均不能进入4/5档。",
+        "4": "岗位与技能转型、公众接受障碍具体，少量群体条件欠缺。",
+        "5": "说明岗位替代/职责改变风险与相应技能提升或再培训需要，以及公众接受信任障碍，限定群体和条件。"
+      },
+      "boundary": "不要求断言必然失业或所有公众反对，不强制某再培训方案。 不强制某培训方案或必然失业，但必须解释劳动变化与能力补足需要，不能只说工作人员受影响。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:21",
+          "drb2:15:info_recall:22",
+          "drb2:15:info_recall:23",
+          "drb2:15:analysis:12"
+        ],
+        "query_quotes": [
+          "社会挑战"
+        ],
+        "change_note": "保留两类社会对象并明确混合档，避免把必然替代作为事实。 v3.3明确重要内容面不能因案例或文件可替换而省略。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "伦理挑战",
+      "question": "报告是否解释决策不透明、偏见歧视和责任归属等伦理问题在政府应用中的具体表现？",
+      "anchors": {
+        "1": "无伦理讨论。",
+        "2": "只说AI有伦理风险。",
+        "3": "有具体问题但主要方面缺失，或不知道谁受影响和谁负责。",
+        "4": "透明度、歧视与问责问题可辨，少量使用条件或主体不清。",
+        "5": "说明不透明对理解/质疑决定的影响、偏见对不同群体的潜在后果及错误决定的责任归属困难，应用情境清楚。"
+      },
+      "boundary": "不预设所有模型黑箱或所有数据导致歧视；不要求刑事司法等固定领域。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:24",
+          "drb2:15:info_recall:25",
+          "drb2:15:info_recall:26",
+          "drb2:15:info_recall:27",
+          "drb2:15:info_recall:28",
+          "drb2:15:info_recall:29"
+        ],
+        "query_quotes": [
+          "伦理挑战"
+        ],
+        "change_note": "合并相近伦理资源为明确类别覆盖，缺任何主要方面3分而非含糊平均。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "三部分和挑战分类",
+      "question": "报告是否有作用、监管、挑战三个清楚章节，并明确分辨技术、社会和伦理挑战？",
+      "anchors": {
+        "1": "无可辨章节或分类。",
+        "2": "仅部分领域成节，大多数混排。",
+        "3": "三个领域可辨但挑战分类或章节分界不清。",
+        "4": "三领域和三类挑战清楚，少量内容归属不明。",
+        "5": "三领域各有清楚章节，挑战按三种类型明确分类；跨类问题交代各自角度。"
+      },
+      "boundary": "不强制标题逐字和章节内顺序；内容有无由对应PT评，不重复数缺点。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:presentation:1",
+          "drb2:15:presentation:3"
+        ],
+        "query_quotes": [
+          "清晰章节"
+        ],
+        "change_note": "保留题面结构和分类，允许同义标题。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "2019—2023范围",
+      "question": "报告是否以2019—2023年的政府AI应用、政策和研究为重点，并标明政策阶段？",
+      "anchors": {
+        "1": "主体是其他时期。",
+        "2": "多处把2024年以后政策或部署当作期间事实。",
+        "3": "重点时期基本正确但有重要后续成果混入或阶段不清。",
+        "4": "总体符合时期，少量日期或提案/生效阶段不明确。",
+        "5": "核心案例和政策状态对应2019—2023；早期背景与后发回顾明确标注，不以新法代替当时框架。"
+      },
+      "boundary": "原题年份优先于相对“过去五年”；不要求后来政策更新。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:15:info_recall:35",
+          "drb2:15:presentation:5"
+        ],
+        "query_quotes": [
+          "2019-2023年"
+        ],
+        "change_note": "保留绝对时段，补政策阶段，允许必要历史背景。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "禁源终稿检查",
+      "question": "报告是否避免引用或使用题面指定的禁源？",
+      "anchors": {
+        "1": "禁源支撑核心结论。",
+        "2": "禁源用于多个实质次要论点。",
+        "3": "禁源用于一个局部实质论点。",
+        "4": "只在书目列入，没有明确正文使用。",
+        "5": "最终报告未见禁源使用，排除清单复述不算引用。"
+      },
+      "boundary": "仅查最终文本的可观察使用，不推断历史浏览。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "do not quote it"
+        ],
+        "change_note": "由题面限制新增终稿审计。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "案例政策可追溯",
+      "question": "报告的关键案例、政策地位和效果判断是否对应可定位依据？",
+      "anchors": {
+        "1": "主要断言无依据。",
+        "2": "仅称研究或政府指出。",
+        "3": "有文献但关键案例、时期或政策归属对应模糊。",
+        "4": "主要判断与依据可对应，仅少量引用边界不明。",
+        "5": "案例、文件及效果主张有明确出处或可检查推导，估计与观察有区分。"
+      },
+      "boundary": "无URL但文献/文件信息足以查找不扣分；可定位不是内容已证实。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增案例和政策出处审计。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内可靠性",
+      "question": "在记录的已核验范围内，政府案例、政策状态及效果主张是否符合证据？",
+      "anchors": {
+        "1": "核心核验案例或政策断言被否定。",
+        "2": "多个重要核验点有实质支持错误。",
+        "3": "部分获支持但重要范围或归属错误影响综述。",
+        "4": "重要核验点得到支持，仅次要限定问题。",
+        "5": "已核验对象、日期、法律地位及效果强度与证据相符；不代表全文已证实。"
+      },
+      "boundary": "记录选中/完成数；访问失败记执行未完成并重试，不给低分或NA。没有样本可判断时不启动此项评分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地有限范围事实支持审计；不把本地官方结论当认证。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "公共安全应用",
+      "question": "报告是否用具体政府公共安全应用说明AI的识别、预警或辅助处置作用？",
+      "anchors": {
+        "1": "未讨论公共安全。",
+        "2": "只说AI保安全。",
+        "3": "有例子但政府角色、任务或技术输出如何使用不明。",
+        "4": "安全任务、AI动作与使用状态清楚，少量条件缺失。",
+        "5": "以可辨实例说明政府安全任务、AI输出及使用方式、预期效能和部署状态，不把识别结果直接等同犯罪事实。"
+      },
+      "boundary": "面部识别可替换为其它安全应用，公共安全领域本身不能由客服实例替代。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:info_recall:3"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复安防内容领域，不强制人脸技术。"
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "公共交通与城市运行",
+      "question": "报告是否具体说明AI怎样用于公共交通或城市交通运行管理？",
+      "anchors": {
+        "1": "没有交通运行内容。",
+        "2": "仅智慧城市标签。",
+        "3": "有应用但运行任务、政府角色或作用不清。",
+        "4": "应用、运行目标及状态清楚，少量限制欠缺。",
+        "5": "以具体实例说明AI怎样参与交通服务或流量/运力管理，交代政府角色、效率目标和实施状态。"
+      },
+      "boundary": "自动驾驶、信号优化等可替换；不强制某城市、车辆或都已部署。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:info_recall:4",
+          "drb2:15:info_recall:33"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复交通/城市运行领域，取消唯一自动驾驶路线。"
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "公共医疗服务",
+      "question": "报告是否说明政府或公共医疗体系中AI改善医疗服务的具体用途？",
+      "anchors": {
+        "1": "无公共医疗内容。",
+        "2": "仅称AI改善健康。",
+        "3": "有医疗技术但公共服务归属、任务或效果目标不明。",
+        "4": "公共医疗用途及状态明确，少量适用条件缺失。",
+        "5": "以可辨实例说明AI在公共医疗的具体流程和效能目标，限定政府/公共体系角色及试点或使用状态。"
+      },
+      "boundary": "不强制影像诊断、医院品牌或已证实提速数字；商业产品宣传不能直接冒充公共部署。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:info_recall:2",
+          "drb2:15:info_recall:5"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复医疗服务领域，不锁定诊断技术。"
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "行政流程与资源管理",
+      "question": "报告是否说明AI对政府内部行政流程和资源管理的具体改进方式？",
+      "anchors": {
+        "1": "无内部运作。",
+        "2": "只称办公智能化。",
+        "3": "常规行政任务与内部资源配置/管理任一面未实质交代，或虽有动作但流程、资源目标、人员分工不清；另一面充分不能补偿。",
+        "4": "行政任务、资源管理与人员角色具体，少量边界未明。",
+        "5": "说明AI如何处理常规行政任务并辅助资源配置/管理，交代人员承接、预期改善及实施状态，不将自动化等同必然减少岗位。"
+      },
+      "boundary": "采购优化、反欺诈可以替换为其它资源管理例子；面对公众的咨询不自动回答内部流程。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:info_recall:1",
+          "drb2:15:info_recall:34",
+          "drb2:15:analysis:1"
+        ],
+        "query_quotes": [],
+        "change_note": "补回内部行政与资源管理范围，不规定采购算法。"
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "偏见治理的技术与组织条件",
+      "question": "报告是否解释控制政府AI偏见为何同时涉及技术处理和组织/社会条件？",
+      "anchors": {
+        "1": "未说明偏见治理条件。",
+        "2": "只说应公平。",
+        "3": "仅技术或组织一侧具体，另一侧缺失，或措施与偏差来源不对应。",
+        "4": "两侧作用与偏差来源对应，少量实施条件缺失。",
+        "5": "说明技术检测/改进与人员、审查或参与机制怎样各自处理偏差来源及盲点，解释互补关系及局限。"
+      },
+      "boundary": "不强制多元团队或具体算法、完整实施方案；可有据限定某手段不适用，但不能用调模型代替组织条件。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "从采用条件综合PW补回技术—组织互补说明的直接判别。"
+      }
+    },
+    {
+      "id": "PT.D1.19",
+      "dimension": "D1",
+      "title": "监管共同原则与跨国协调",
+      "question": "报告是否说明地区监管差异之外，国际对话怎样推动负责任AI的共同原则及其协调边界？",
+      "anchors": {
+        "1": "没有监管协调内容。",
+        "2": "仅说国际合作重要，或只列组织名。",
+        "3": "有国际对话或共同原则，但二者如何联系、参与主体或地区差异下的限制不清。",
+        "4": "对话主体、共同原则及协调作用明确，少量时期或约束范围不清。",
+        "5": "结合2019—2023年可辨的国际组织/跨国机制，说明其怎样促进负责任AI共同原则及监管对话，并解释共同原则不等于各地法律和优先事项完全一致。"
+      },
+      "boundary": "不强制OECD、联合国、WEF全部出现，不要求超过60国数字，也不预设国际协调已成功。至少一个可辨协调机制及其原则作用不能被三地各说各话替代。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:info_recall:30",
+          "drb2:15:analysis:15"
+        ],
+        "query_quotes": [],
+        "change_note": "补回国际监管对话与共同原则的机制范围；组织名单仍是可选实例。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "政府流程改善的机制",
+      "question": "哪篇更合理地解释AI改变处理流程后，为什么可能提高公共管理效率或决策质量？",
+      "anchors": {
+        "0": "双方流程改善的解释相近，或都只声称AI更快更好；须说明是哪种。",
+        "1": "A对流程变化到管理改善的解释略好，B仍可在某项应用条件上解释更清楚。",
+        "2": "A对主要流程改善的因果解释明显更成立，B局部应用优点不足以弥补关键缺环。",
+        "-2": "B对主要流程改善的因果解释明显更成立，A局部应用优点不足以弥补关键缺环。",
+        "-1": "B对流程变化到管理改善的解释略好，A仍可在某项应用条件上解释更清楚。"
+      },
+      "boundary": "沿实际任务、人员分工和输出使用关系检查；不强制交通、安防、医疗全集。速度或准确性改善不能自动证明公平与公众信任，后两者不与本项混合计分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:1",
+          "drb2:15:analysis:2",
+          "drb2:15:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出流程改善解释；保留官方自动化/数据/公共服务的作用关系，删除与五种风险机制的混合判断。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "偏差传导与歧视结果",
+      "question": "哪篇更合理地解释数据或模型偏差如何在政府服务中转化为群体差异或歧视性结果？",
+      "anchors": {
+        "0": "双方偏差传导解释相近，或都只列偏见风险而没有传导解释；须区分。",
+        "1": "A对偏差到服务结果的传导解释略好，B仍可在某个环节说明更充分。",
+        "2": "A的偏差传导解释明显更有条件和依据，B局部偏见例子不足以弥补缺失的作用环节。",
+        "-2": "B的偏差传导解释明显更有条件和依据，A局部偏见例子不足以弥补缺失的作用环节。",
+        "-1": "B对偏差到服务结果的传导解释略好，A仍可在某个环节说明更充分。"
+      },
+      "boundary": "比较数据/模型、决定使用方式和受影响群体之间的实际链条，不预设任何差异都属歧视，不要求唯一技术模型；不混评不透明或责任归属。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出偏差到歧视结果的解释，官方分析7只关联该机制。"
+      }
+    },
+    {
+      "id": "PW.D3.04",
+      "dimension": "D3",
+      "title": "遗留系统集成障碍",
+      "question": "哪篇更合理地解释新AI系统为何在既有政府IT环境中遇到集成障碍？",
+      "anchors": {
+        "0": "双方集成机制解释相近，或都只说旧系统难接入；须说明。",
+        "1": "A对接口、数据或运维约束怎样造成集成困难的解释略好，B可在某个成本条件上更清楚。",
+        "2": "A对集成障碍的关键因果解释明显更成立，B零散成本或技术名词不足以弥补。",
+        "-2": "B对集成障碍的关键因果解释明显更成立，A零散成本或技术名词不足以弥补。",
+        "-1": "B对接口、数据或运维约束怎样造成集成困难的解释略好，A可在某个成本条件上更清楚。"
+      },
+      "boundary": "追踪实际架构约束如何形成工作量、专业要求或成本；不以障碍数量计分，不要求所有遗留系统都昂贵或不可集成。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出集成困难解释，不再以其它社会伦理风险的优点抵消技术机制缺环。"
+      }
+    },
+    {
+      "id": "PW.D3.05",
+      "dimension": "D3",
+      "title": "不透明与解释质疑权",
+      "question": "哪篇更合理地解释AI决定不透明怎样影响公民理解、质疑决定和治理监督？",
+      "anchors": {
+        "0": "双方对不透明后果的解释相近，或都只有黑箱标签；须说明。",
+        "1": "A对不透明到理解或质疑障碍的解释略好，B可在某项监督条件上更有说服力。",
+        "2": "A对这条治理影响链的解释明显更成立，B局部黑箱描述不足以弥补关键推理缺口。",
+        "-2": "B对这条治理影响链的解释明显更成立，A局部黑箱描述不足以弥补关键推理缺口。",
+        "-1": "B对不透明到理解或质疑障碍的解释略好，A可在某项监督条件上更有说服力。"
+      },
+      "boundary": "检查谁缺少什么解释、怎样影响质疑或监督，不强制所有AI都是黑箱；这里不决定错误责任应由谁承担，也不直接评分公众是否信任。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出不透明到公民理解/质疑的机制，区分责任分配与态度接受。"
+      }
+    },
+    {
+      "id": "PW.D3.06",
+      "dimension": "D3",
+      "title": "错误决定的责任分配",
+      "question": "哪篇更合理地解释AI辅助政府决定出错时，为什么会出现责任归属困难？",
+      "anchors": {
+        "0": "双方责任机制解释相近，或都只说无人负责而没有说明主体关系；须区分。",
+        "1": "A对参与主体及其控制、贡献关系的解释略好，B可在某一角色边界上更清楚。",
+        "2": "A对责任归属困难的机制解释明显更成立，B局部责任主体名单不足以弥补缺失的关系分析。",
+        "-2": "B对责任归属困难的机制解释明显更成立，A局部责任主体名单不足以弥补缺失的关系分析。",
+        "-1": "B对参与主体及其控制、贡献关系的解释略好，A可在某一角色边界上更清楚。"
+      },
+      "boundary": "沿开发、数据提供和政府使用等实际角色及控制关系判断，不要求固定责任结论或认定所有参与者同责；公民不理解决定不自动证明无法分责。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出主体关系与责任分配解释，仅继承官方分析10。"
+      }
+    },
+    {
+      "id": "PW.D3.07",
+      "dimension": "D3",
+      "title": "公众接受与信任的条件",
+      "question": "哪篇更合理地解释公众为什么可能接受或怀疑算法治理，以及这种态度如何影响政府实施？",
+      "anchors": {
+        "0": "双方公众接受解释相近，或都只断言增强信任/遭到怀疑；须说明。",
+        "1": "A对公众态度形成及实施后果的解释略好，B可在某个群体条件上更充分。",
+        "2": "A的公众接受机制解释明显更有依据和条件，B局部信任口号或实例不足以弥补。",
+        "-2": "B的公众接受机制解释明显更有依据和条件，A局部信任口号或实例不足以弥补。",
+        "-1": "B对公众态度形成及实施后果的解释略好，A可在某个群体条件上更充分。"
+      },
+      "boundary": "检查透明度、人的判断、公平感等报告实际采用的理由如何联系公众态度；不要求所有理由出现，不把更快更准确直接等同更公平更可信。公众态度不是透明度权利分析的重复得分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:2",
+          "drb2:15:analysis:11"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出公众接受机制；分析2只保留效果到信任需要论证的部分，分析11保留怀疑态度的条件关系。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "监管比较的解释",
+      "question": "哪篇更合理地解释三地原则和政策工具为何形成不同治理侧重？",
+      "anchors": {
+        "0": "三地解释相近，或均仅贴地区标签；注明情况。 同等重要的交叉优势抵销亦为0。",
+        "1": "A的政策—治理解释略好，B可对一地说明更充分。",
+        "2": "A的跨地区解释明显更有依据和条件，B局部政策描述不足以弥补。",
+        "-2": "B的跨地区解释明显更有依据和条件，A局部政策描述不足以弥补。",
+        "-1": "B的政策—治理解释略好，A可对一地说明更充分。"
+      },
+      "boundary": "比较条件下的实际解释，不强制欧洲只权利、美国只创新、中国只国家目标。 按同一三地比较结论列出双方正反推理差异，用相同重要性依据判断净优势；同等重要的相反优势抵销为0，不按某地更强任意挑胜者。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:4",
+          "drb2:15:analysis:5",
+          "drb2:15:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "保留比较推理而非三套固定价值判断。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "负责任应用的综合认识",
+      "question": "哪篇更帮助读者判断政府AI的潜在收益何时值得采用、需要怎样的治理条件？",
+      "anchors": {
+        "0": "采用条件的判断帮助相近，或双方无可用综合；注明情况。",
+        "1": "A对采用条件的综合略有帮助，B可在某个保护措施上更有价值。",
+        "2": "A明显更能把收益、实施限制和公民权益连成可用判断，B零散建议不足以弥补。",
+        "-2": "B明显更能把收益、实施限制和公民权益连成可用判断，A零散建议不足以弥补。",
+        "-1": "B对采用条件的综合略有帮助，A可在某个保护措施上更有价值。"
+      },
+      "boundary": "不要求完整落地方案；须指明对采用或治理的额外判断帮助，不把D3成立性再奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:analysis:12",
+          "drb2:15:analysis:13",
+          "drb2:15:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "保留人员转型与技术社会治理条件的价值，不强制再培训或多元团队单一路线。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "政府证据适配",
+      "question": "哪篇的案例和政策材料更适合支持其时期内政府AI概括？",
+      "anchors": {
+        "0": "证据适配相近，或双方均无可用支持；注明区别。",
+        "1": "A的证据适配略好，B可有更强的局部政策材料。",
+        "2": "A的重要概括有明显更适用的时期与政府情境证据，B局部证据不足以弥补。",
+        "-2": "B的重要概括有明显更适用的时期与政府情境证据，A局部证据不足以弥补。",
+        "-1": "B的证据适配略好，A可有更强的局部政策材料。"
+      },
+      "boundary": "不按国家数、链接数或文件名气排名；区分政府部署与商业宣传，单个错引不重复罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增证据代表性与应用状态适配比较。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "综述推进",
+      "question": "哪篇原报告更便于从政府用途读到监管和挑战并理解它们的关系？",
+      "anchors": {
+        "0": "全文推进相近，或都无连贯阅读路径；注明情况。",
+        "1": "A的全文推进略好，B可有更清楚的局部摘要。",
+        "2": "A的组织明显更连贯，B局部标题优点不足以弥补重复或跳跃。",
+        "-2": "B的组织明显更连贯，A局部标题优点不足以弥补重复或跳跃。",
+        "-1": "B的全文推进略好，A可有更清楚的局部摘要。"
+      },
+      "boundary": "按原文承接和重复合评，不重复奖励三章格式达标。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增全文组织。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "政策与技术表述",
+      "question": "哪篇更清楚地表达已写的政府AI用途、政策和挑战？",
+      "anchors": {
+        "0": "局部表达相近，或都难以理解；注明情况。",
+        "1": "A的措辞与解释略易懂，B可在某技术词上更清楚。",
+        "2": "A的政策技术表述明显更可理解，B局部文字优点不足以弥补歧义。",
+        "-2": "B的政策技术表述明显更可理解，A局部文字优点不足以弥补歧义。",
+        "-1": "B的措辞与解释略易懂，A可在某技术词上更清楚。"
+      },
+      "boundary": "不把更多政策事实或漂亮排版当清楚；按原文已有意思判断。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:15:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留必要术语解释的表达对象。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "政策案例查找",
+      "question": "哪篇更容易查到某地区政策、应用状态及相应依据？",
+      "anchors": {
+        "0": "查找帮助相近，或都无法定位所需材料；注明情况。",
+        "1": "A的查找路径略方便，B可有个别更好的索引。",
+        "2": "A定位政策案例和依据明显更省步骤，B局部入口不足以弥补。",
+        "-2": "B定位政策案例和依据明显更省步骤，A局部入口不足以弥补。",
+        "-1": "B的查找路径略方便，A可有个别更好的索引。"
+      },
+      "boundary": "比较原报告查找步骤，无URL不直接扣分，证据真假另评。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增定位成本比较。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:15:info_recall:1",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.17常规行政与资源管理任一面缺失均3，两者动作及人员关系具体可5；不强制采购反欺诈。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:2",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.16"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.02咨询/办事与社会支持任一面缺失均3，两类功能、主体、对象及状态具体可5；不强制两个案例或固定算法。医疗用途另由PT.D1.16承接。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "将效果主张改为需区分预期与观察的用途描述。",
+      "discrimination_check": "PT.D1.01只称更快为2分，数据处理动作和目标具体可5分；未保留无条件更准确更明智断言。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:7",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.04：有原则或文件但缺一主要方面，或文件与优先事项无对应。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：结合期间关键政策/指南说明以人为本的监督、公平、透明、问责要求，并说明数据保护约束及其与AI使用的关系，区分指南与法律地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:9",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.04：有原则或文件但缺一主要方面，或文件与优先事项无对应。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：结合期间关键政策/指南说明以人为本的监督、公平、透明、问责要求，并说明数据保护约束及其与AI使用的关系，区分指南与法律地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:11",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.05：有原则或文件但缺主要方面，或无法分辨机构与适用范围。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明促进创新、行政层面负责任使用指引与风险管理工具的作用和关系，联系时期内关键文件、发布机构、适用范围及约束地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:13",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.05：有原则或文件但缺主要方面，或无法分辨机构与适用范围。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明促进创新、行政层面负责任使用指引与风险管理工具的作用和关系，联系时期内关键文件、发布机构、适用范围及约束地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:15",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.06：有集中治理或文件名，但原则、优先事项或文件范围明显缺失。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明政府主导下发展/竞争力、安全和伦理目标怎样对应关键政策及战略行业应用导向，限定对象和当时阶段。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:16",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.06：有集中治理或文件名，但原则、优先事项或文件范围明显缺失。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明政府主导下发展/竞争力、安全和伦理目标怎样对应关键政策及战略行业应用导向，限定对象和当时阶段。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:17",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.06：有集中治理或文件名，但原则、优先事项或文件范围明显缺失。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明政府主导下发展/竞争力、安全和伦理目标怎样对应关键政策及战略行业应用导向，限定对象和当时阶段。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:18",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.08：有具体技术问题，但数据适用性或系统集成等主要方面缺失，或发生环节和影响不清。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明数据完整性、时效性和代表性/历史偏差的质量问题，以及遗留系统/异构数据集成的技术障碍，交代影响环节与条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:19",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.08：有具体技术问题，但数据适用性或系统集成等主要方面缺失，或发生环节和影响不清。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明数据完整性、时效性和代表性/历史偏差的质量问题，以及遗留系统/异构数据集成的技术障碍，交代影响环节与条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:20",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.08：有具体技术问题，但数据适用性或系统集成等主要方面缺失，或发生环节和影响不清。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明数据完整性、时效性和代表性/历史偏差的质量问题，以及遗留系统/异构数据集成的技术障碍，交代影响环节与条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:21",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.09：只谈人员变化或公众接受一面，或两者均只有标签。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明岗位替代/职责改变风险与相应技能提升或再培训需要，以及公众接受信任障碍，限定群体和条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:22",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.09：只谈人员变化或公众接受一面，或两者均只有标签。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明岗位替代/职责改变风险与相应技能提升或再培训需要，以及公众接受信任障碍，限定群体和条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:23",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.09：只谈人员变化或公众接受一面，或两者均只有标签。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明岗位替代/职责改变风险与相应技能提升或再培训需要，以及公众接受信任障碍，限定群体和条件。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:24",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用不透明挑战并保留条件。",
+      "discrimination_check": "PT.D1.10漏不透明方面为3分，具体影响可5分；不要求所有先进算法都是黑箱。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:25",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "不透明对理解的关系直接要求，未设普遍不透明断言。",
+      "discrimination_check": "PT.D1.10只列黑箱不说明理解/质疑决定的影响为3分，具体关系可5分。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:26",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留问责这一明确伦理方面。",
+      "discrimination_check": "PT.D1.10漏问责为3分，责任归属困难具体可5分。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:27",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留错误决定责任关系，放宽例子。",
+      "discrimination_check": "PT.D1.10未说明谁负责的困难为3分，场景和责任关系清楚可5分；不强制刑事司法或福利案例。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:28",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留潜在歧视问题，不预设所有AI必然歧视。",
+      "discrimination_check": "PT.D1.10漏偏见歧视为3分，相关群体后果清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:29",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留社会不平等风险，具体训练数据路径可选。",
+      "discrimination_check": "PT.D1.10只称不平等而未说明偏见后果为3分；具体风险可5分；不要求必须用历史数据这一原因解释。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:32",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.02咨询/办事与社会支持任一面缺失均3，两类功能、主体、对象及状态具体可5；不强制两个案例或固定算法。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:35",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面时期而不是源文章自述审查期。",
+      "discrimination_check": "PT.D1.12用当前过去五年替代2019—2023会降档，明确绝对时段可5分。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:3",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.14：有例子但政府角色、任务或技术输出如何使用不明。；充分：以可辨实例说明政府安全任务、AI输出及使用方式、预期效能和部署状态，不把识别结果直接等同犯罪事实。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:4",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.15：有应用但运行任务、政府角色或作用不清。；充分：以具体实例说明AI怎样参与交通服务或流量/运力管理，交代政府角色、效率目标和实施状态。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:5",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.16：有医疗技术但公共服务归属、任务或效果目标不明。；充分：以可辨实例说明AI在公共医疗的具体流程和效能目标，限定政府/公共体系角色及试点或使用状态。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:8",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.04：有原则或文件但缺一主要方面，或文件与优先事项无对应。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：结合期间关键政策/指南说明以人为本的监督、公平、透明、问责要求，并说明数据保护约束及其与AI使用的关系，区分指南与法律地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:10",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.04：有原则或文件但缺一主要方面，或文件与优先事项无对应。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：结合期间关键政策/指南说明以人为本的监督、公平、透明、问责要求，并说明数据保护约束及其与AI使用的关系，区分指南与法律地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:12",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.05：有原则或文件但缺主要方面，或无法分辨机构与适用范围。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明促进创新、行政层面负责任使用指引与风险管理工具的作用和关系，联系时期内关键文件、发布机构、适用范围及约束地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:14",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.05：有原则或文件但缺主要方面，或无法分辨机构与适用范围。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明促进创新、行政层面负责任使用指引与风险管理工具的作用和关系，联系时期内关键文件、发布机构、适用范围及约束地位。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:30",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "补回PT.D1.19的国际对话—共同原则具体机制；不将示例组织名单或全球必然趋同的结论定为答案。",
+      "discrimination_check": "仅列组织或合作口号为2；有对话但未解释如何形成共同原则及差异下边界为3；有期间可辨机制与作用限定为5。允许有证据指出协调有限，丢失的是固定组织名单及无条件全球趋同判断，不是监管协调领域。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:31",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "不将可选例子、政策或统计数字变为共同义务。",
+      "discrimination_check": "超过60国是时点敏感的题外数量，不设固定答案；只有无此数字可同分。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:33",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.15：有应用但运行任务、政府角色或作用不清。；充分：以具体实例说明AI怎样参与交通服务或流量/运力管理，交代政府角色、效率目标和实施状态。"
+    },
+    {
+      "resource_id": "drb2:15:info_recall:34",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.17常规行政与资源管理任一面缺失均3，两者动作及人员关系具体可5；不强制采购反欺诈。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:1",
+      "targets": [
+        "PT.D1.17",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.17常规行政与资源管理任一面缺失均3，两者动作及人员关系具体可5；不强制采购反欺诈。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:2",
+      "targets": [
+        "PW.D3.01",
+        "PW.D3.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.01可判“处理快因此公平”推理缺环不如有条件解释；官方单向正面结论未保留。 作者复查后细化为PW.D3.01、PW.D3.07；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:3",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.01把实际应用与政府效率目标的因果联系讲清可略好；不强制交通、安防、医疗三例全数。 作者复查后细化为PW.D3.01；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。 公共安全、交通、医疗覆盖分别由PT.D1.14—16承接；本PW不重复计领域数量。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:4",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.02有无权利原则如何影响具体政策工具的解释可判略好；不预设权利总优先经济。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:5",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.02将美国取向与风险治理工具联系的成立解释可略好；不强制美国只有灵活环境而无规定。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:6",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.02政府指导与制度工具、目标的有条件联系可略好；不强制国家目标单一化。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:7",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.03可区别仅列偏见和说明数据到决策歧视的条件路径，后者可略好；不要求每报告同一路径。 作者复查后细化为PW.D3.03；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:8",
+      "targets": [
+        "PW.D3.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.04解释集成障碍为何增加成本/技能需求可略好；不强制所有系统都昂贵。 作者复查后细化为PW.D3.04；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:9",
+      "targets": [
+        "PW.D3.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.05解释不透明如何阻碍质疑和问责可略好；不把任何不透明一概视为破坏民主。 作者复查后细化为PW.D3.05；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:10",
+      "targets": [
+        "PW.D3.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.06明确某错误决定中责任分配为何困难可略好；不强制开发者、机构、数据方三者都存在。 作者复查后细化为PW.D3.06；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:11",
+      "targets": [
+        "PW.D3.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D3.07有依据说明不透明与公众信任之间的作用条件可略好；不预设所有公众怀疑。 作者复查后细化为PW.D3.07；这些目标分别检查所述具体机制，不再用其它机制的解释优势抵消本机制缺环。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:12",
+      "targets": [
+        "PT.D1.09",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.09：只谈人员变化或公众接受一面，或两者均只有标签。 所列主要内容面任一未实质交代均不能进入4/5档。；充分：说明岗位替代/职责改变风险与相应技能提升或再培训需要，以及公众接受信任障碍，限定群体和条件。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:13",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "采用实际解释或治理判断对象，不预设官方单一路径和固定效果。",
+      "discrimination_check": "PW.D4.01说明何种条件下收益值得采用或需保护措施可略好；只说创新与伦理平衡不加分。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:14",
+      "targets": [
+        "PT.D1.18",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复具体内容领域或政策工具，不要求官方唯一实例。",
+      "discrimination_check": "PT.D1.18：仅技术或组织一侧具体，另一侧缺失，或措施与偏差来源不对应。；充分：说明技术检测/改进与人员、审查或参与机制怎样各自处理偏差来源及盲点，解释互补关系及局限。"
+    },
+    {
+      "resource_id": "drb2:15:analysis:15",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "补回PT.D1.19的国际对话—共同原则具体机制；不将示例组织名单或全球必然趋同的结论定为答案。",
+      "discrimination_check": "仅列组织或合作口号为2；有对话但未解释如何形成共同原则及差异下边界为3；有期间可辨机制与作用限定为5。允许有证据指出协调有限，丢失的是固定组织名单及无条件全球趋同判断，不是监管协调领域。"
+    },
+    {
+      "resource_id": "drb2:15:presentation:1",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题面可观察的结构、语言或时段约束；必要背景可有明确标签。",
+      "discrimination_check": "PT.D1.11无三领域章节为2/3分，三章清楚可5分；同义标题允许。"
+    },
+    {
+      "resource_id": "drb2:15:presentation:2",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题面可观察的结构、语言或时段约束；必要背景可有明确标签。",
+      "discrimination_check": "PT.D1.07只罗列或只比两地为2/3分，三地直接可比可5分。"
+    },
+    {
+      "resource_id": "drb2:15:presentation:3",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题面可观察的结构、语言或时段约束；必要背景可有明确标签。",
+      "discrimination_check": "PT.D1.11外层三章清楚但三类挑战混排为3分，分类明确可5分。"
+    },
+    {
+      "resource_id": "drb2:15:presentation:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题面可观察的结构、语言或时段约束；必要背景可有明确标签。",
+      "discrimination_check": "PW.D6.01同内容必要术语解释更易懂可略好，不按术语多或少机械奖励。"
+    },
+    {
+      "resource_id": "drb2:15:presentation:5",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "保留题面可观察的结构、语言或时段约束；必要背景可有明确标签。",
+      "discrimination_check": "PT.D1.12关键后发政策混入降3分或更低；主体在2019—2023且阶段清楚可5分。"
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "新增独立用途；动作具体但目标不明3分，数据与动作关系不拆。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "咨询/办事与社会支持任一面缺失均3；两类服务功能是同一范围判断，不按案例数拆分。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "add",
+      "reason": "新增独立政策用途；分析好而决策接口不清3分。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "revise",
+      "reason": "已选案例/文件有具体内容，但另一重要内容面缺失仍3；高档要求全部主要面相应说明，不为逐专名拆分。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "已选案例/文件有具体内容，但另一重要内容面缺失仍3；高档要求全部主要面相应说明，不为逐专名拆分。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "revise",
+      "reason": "已选案例/文件有具体内容，但另一重要内容面缺失仍3；高档要求全部主要面相应说明，不为逐专名拆分。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "新增对比关系；两地强第三地缺席3分，比较本身不拆三对。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "revise",
+      "reason": "已选案例/文件有具体内容，但另一重要内容面缺失仍3；高档要求全部主要面相应说明，不为逐专名拆分。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "已选案例/文件有具体内容，但另一重要内容面缺失仍3；高档要求全部主要面相应说明，不为逐专名拆分。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "新增伦理范围；具体偏见分析不能抵消完全缺问责，3分明确。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "新增组织规范；外层好而内层分类混乱3分，不拆格式收益。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "新增时间条件；核心正确局部越界3/4分。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "新增单一合规对象；书目有正文无为4分。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "新增追溯关系；文献好而主张对应不明3分。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "新增支持关系；证据可读但结论过强按错误程度，不拆访问与质量。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "A欧盟解释强、B美国解释强时同时评估其对三地比较结论的作用；相抵为0，不能任取一地区。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "add",
+      "reason": "新增综合条件；一个好措施不能抵消整体无采用边界。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "新增集合关系；政策来源强但部署外推弱按实际概括范围判断。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "新增阅读关系；摘要好正文重复仍综合比较。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "新增理解成本；术语好而指代不清按整体表达比较。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "新增查找任务；政策好找来源难找仍看完整步骤。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "split",
+      "reason": "流程收益解释好而风险解释差可以独立出现；本项只看任务变化到管理效果，不用风险优劣决定其分数。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "split",
+      "reason": "正确解释偏差与结果但未解释黑箱仍能在本项得优势；源头、决策环节与后果为一条不可拆散的传导关系。"
+    },
+    {
+      "id": "PW.D3.04",
+      "decision": "split",
+      "reason": "集成机制可解释充分而公众信任机制缺失，两者单独判断；约束与成本是关系而非两个评分任务。"
+    },
+    {
+      "id": "PW.D3.05",
+      "decision": "split",
+      "reason": "不透明后果可以解释好但责任分配解释差；本项保持信息缺口到治理后果的连续关系。"
+    },
+    {
+      "id": "PW.D3.06",
+      "decision": "split",
+      "reason": "列出完整黑箱原因不能替代对谁控制什么的分析；角色及其责任联系保留为一个关系判断。"
+    },
+    {
+      "id": "PW.D3.07",
+      "decision": "split",
+      "reason": "更好地解释公民质疑权不必然说明公众态度；本项单独比较理由到接受/怀疑及实施影响的连贯关系。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "客服充分但没有安全应用为1；技术名具体而政府用途不明为3。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "add",
+      "reason": "汽车技术介绍而无公共运行关系为3；其它服务再丰富也不能填本领域。"
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "add",
+      "reason": "医疗名词充分而无公共服务关系为3；与其它办事服务独立。"
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "add",
+      "reason": "常规行政与内部资源管理任一面缺失均3；流程及人员承接属于同一内部运营关系。"
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "add",
+      "reason": "技术去偏很强但没有组织条件为3；互补机制而非措施数量。"
+    },
+    {
+      "id": "PT.D1.19",
+      "decision": "add",
+      "reason": "三地比较完善但国际协调缺失为1；仅组织名单为2，对话与共同原则联系或限制不清为3，不按组织数加分。"
+    }
+  ],
+  "author_notes": [
+    "无本题旧稿，依据三题分工新建15 PT/12 PW；按政府数据、服务、政策用途及三地监管独立对象组织，不套固定条数。",
+    "PT必要覆盖与PW因果、治理价值分工；地区原则—文件关系、观点—条件和证据—结论不机械拆。每项混合表现另有自检。",
+    "未强制面部识别、自动驾驶、影像诊断、公共采购、智慧城市实例，或NIST/OSTP/GDPR等指定文件全数。超过60国与国际合作结论未保留。",
+    "官方将更快更准确推向公平和信任的结论须有机制与证据，不照搬为必然收益。法律状态和2019—2023截止为高风险核验点。",
+    "仅作者草稿与自检；没有独立审核、外部事实核验或评分。",
+    "作者定向复查：原PW.D3.01将流程改善、偏差、集成、不透明、分责和公众接受混评，交叉优劣难以稳定落档，最小拆为六项，各保留一条机制关系；其余条目保留。修订后15 PT、12 PW。不是独立审核通过。",
+    "v3.3: 保留六个已拆机制PW。恢复安全、交通/城市运行、公共医疗、内部行政资源管理领域，修正任一服务例子即足够的范围缩减；补具体偏见治理互补条件。欧盟隐私与主要原则、美国指导/风险管理工具、中国多目标、数据质量及人员转型在原项高档明确。修正旧处置中已拆PW的残留错误ID。",
+    "v3.3待审 / pending review: 仍不恢复60国数字和国际组织名单：本题核心是三地比较而非全球扩散统计；各地关键文件可换但不得删重要工具与原则。新增领域与现服务入口要按服务功能区分，非重复按实例数量奖励。政策历史状态未外核，需复审。",
+    "v3.3终检修正：逐项复查后再补回国际监管对话与共同原则这一内容领域（PT.D1.19）：可选的是组织名单，不是整个协调机制。最终21PT/12PW，官方仅超过60国的时点数量不设固定答案；较早说明中将国际合作整体视为可选的表述作废。",
+    "交叉审核二次恢复：恢复咨询/办事与社会支持两类功能及内部行政/资源管理任一缺失的对称档位。保留后续新增国际协调PT.D1.19及映射；其自检的仅列组织名统一为2，与实际锚点一致。现21PT/12PW。"
+  ]
+}

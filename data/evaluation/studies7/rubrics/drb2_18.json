@@ -1,0 +1,1290 @@
+{
+  "version": "route-value-rubrics-three-v3.4-main-revision",
+  "task_key": "drb2:18",
+  "language": "en",
+  "title": "植物水平基因转移",
+  "full_query": "I want to investigate 'Horizontal Gene Transfer (HGT)' in the plant world, especially transfers occurring through parasitic relationships. Could you please help me systematically compile the findings, focusing primarily on discoveries before 2021, and organize them into a clear report?\n\nThe report should include the following four sections:\n1.  **Between Parasitic Plants**: How do parasitic plants exchange genes with their host plants? For example, through what structures? What type of genetic material is transferred? Please provide specific species examples, such as studies involving 'Cuscuta' or 'Striga'.\n2.  **Between Fungi and Plants**: Is this gene transfer unidirectional or bidirectional? Please provide examples of transfer from fungi to plants (e.g., transfer of disease resistance genes) and from plants to fungi, respectively.\n3.  **Between Bacteria and Plants**: Please focus on how 'Agrobacterium' transfers its T-DNA to plants. Are there examples of plants in nature that have already integrated these bacterial genes? You can elaborate on the case of sweet potato.\n4.  **Between Viruses and Plants**: Do viruses leave their genes inside plants after infection? Additionally, can viruses act as 'carriers' or 'vectors' to facilitate gene transfer between different plants?\n\nPlease ensure each section is supported by specific species names and gene names, with clear language and bulleted discussions.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Horizontal Gene Transfers in Plants', 'authors': ['Emilie Aubin', 'Moaine El Baidouri', 'Olivier Panaud'], 'urls': ['https://www.mdpi.com/2075-1729/11/8/857', 'https://www.researchgate.net/publication/354068358_Horizontal_Gene_Transfers_in_Plants', 'https://www.mdpi.com/2075-1729/11/8/857/review_report', 'https://ouci.dntb.gov.ua/en/works/961KBDJl/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Host–parasite transfer route",
+      "question": "Does the report describe the host–parasite connection, the genetic material involved and concrete species/gene examples?",
+      "anchors": {
+        "1": "No host–parasite transfer account.",
+        "2": "Names parasites or HGT without a route or identifiable example.",
+        "3": "A route or example is concrete, but the connection, material, mitochondrial/nuclear acquisition context or donor–recipient/gene identity has a major gap.",
+        "4": "Connection, material and an identifiable example are clear, with a minor directional or context detail missing.",
+        "5": "Explains the haustorial connection, distinguishes mobile material from inherited gene acquisition and identifies mitochondrial versus nuclear acquisition contexts, with species, gene identities and transfer direction explicit in its examples."
+      },
+      "boundary": "Cuscuta and Striga are suggested examples, not a compulsory pair. Do not require atp1, a protein length or a fixed number of studies. A transfer example and its identities form one check. Mitochondrial HGT must not disappear merely because atp1 or a universal frequency claim is optional; discuss its acquisition context with an evidenced example or explicitly qualified evidence basis. This item checks material/compartment coverage; PT.D1.10 checks the RNA-to-DNA versus genomic-DNA mechanism, not a second penalty for the same missing example.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:1",
+          "drb2:18:info_recall:2",
+          "drb2:18:info_recall:3",
+          "drb2:18:info_recall:7"
+        ],
+        "query_quotes": [
+          "What type of genetic material is transferred?"
+        ],
+        "change_note": "Retain connection/material specificity; remove the exhaustive transported-substance list. Anchors locally designed. Cross-review restores the mitochondrial material domain without imposing a frequency claim."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Fungi-to-plant transfer",
+      "question": "Does the report give a specific fungi-to-plant transfer example with species, gene identity and the claimed effect or evidence status?",
+      "anchors": {
+        "1": "No fungi-to-plant example.",
+        "2": "Says fungi donate genes without an identifiable case.",
+        "3": "A case is named but gene, direction or recipient identity is unclear.",
+        "4": "The case, direction and gene are explicit, with a minor effect/status gap.",
+        "5": "An identifiable fungal donor and plant recipient, gene and reported effect or unresolved function are clear; any later breeding transfer is distinguished from the original proposed HGT."
+      },
+      "boundary": "Disease resistance is a suggested function, not a compulsory Fhb7 case. A cautiously described proposed transfer can satisfy this item; factual support is separately verified.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:19",
+          "drb2:18:info_recall:22",
+          "drb2:18:info_recall:24"
+        ],
+        "query_quotes": [
+          "examples of transfer from fungi to plants"
+        ],
+        "change_note": "Adapt case-specific resources to the requested direction and trace any intermediate recipient without fixing Fhb7."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Plant-to-fungus transfer",
+      "question": "Does the report give a concrete plant-to-fungus example and make the reverse direction identifiable?",
+      "anchors": {
+        "1": "No plant-to-fungus transfer account.",
+        "2": "Only states that transfer is bidirectional.",
+        "3": "Names a case but plant donor, fungal recipient or gene is missing or ambiguous.",
+        "4": "Species/gene and direction are clear, with minor context missing.",
+        "5": "Gives a species- and gene-specific plant-to-fungus account with reported function or uncertainty, making clear that both directions can occur across the literature."
+      },
+      "boundary": "Do not demand Subtilisin and LRR simultaneously or evidence that the same pair exchanges genes both ways.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:19",
+          "drb2:18:info_recall:26",
+          "drb2:18:info_recall:27"
+        ],
+        "query_quotes": [
+          "from plants to fungi, respectively"
+        ],
+        "change_note": "Retain the separately requested reverse direction; permit equivalent evidenced cases."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Agrobacterium T-DNA mechanism",
+      "question": "Does the report explain how Agrobacterium transfers T-DNA from its bacterial context into plant cells and genomes?",
+      "anchors": {
+        "1": "No T-DNA mechanism.",
+        "2": "Only names Agrobacterium or transformation.",
+        "3": "Describes part of the route but leaves a major plasmid-to-cell or cell-to-genome handoff unexplained.",
+        "4": "T-DNA origin, transfer and integration are clear with a minor mechanism detail omitted.",
+        "5": "Explains the T-DNA-bearing plasmid context, delivery to plant cells and nuclear-genome integration, distinguishing the transferred segment from the entire bacterial genome."
+      },
+      "boundary": "No required vir-gene catalogue, plasmid diagram or laboratory protocol. Distinguish pathogenic transformation from evidence of inherited natural integration.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:28",
+          "drb2:18:info_recall:29"
+        ],
+        "query_quotes": [
+          "how 'Agrobacterium' transfers its T-DNA to plants"
+        ],
+        "change_note": "Retain Ti/Ri/T-DNA mechanism but do not demand both bacterial species or every molecular component."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Natural bacterial integration",
+      "question": "Does the report provide a natural plant integration example with species and bacterial gene identities and explain what establishes persistence or inheritance?",
+      "anchors": {
+        "1": "No natural example.",
+        "2": "Only says natural GM plants exist.",
+        "3": "A plant is named but genes, natural origin, integration or persistence/inheritance evidence status is absent or materially unclear.",
+        "4": "Natural example and genes are clear, with a minor persistence/inheritance qualifier missing.",
+        "5": "Identifies the plant and integrated bacterial genes, distinguishes natural integration from engineered transformation, and states the evidence or limit for stable inheritance."
+      },
+      "boundary": "Sweet potato is invited, not obligatory. If chosen, distinguish integrated genes from an assumed adaptive or domestication benefit. Do not require all six official gene names.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:30",
+          "drb2:18:info_recall:34",
+          "drb2:18:info_recall:35",
+          "drb2:18:analysis:7"
+        ],
+        "query_quotes": [
+          "plants in nature that have already integrated these bacterial genes"
+        ],
+        "change_note": "Preserve natural integration and gene specificity; relax the fixed sweet-potato gene list. Cross-review makes absent inheritance status explicitly 3 rather than the minor qualifier gap at 4."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Viral sequences in plant genomes",
+      "question": "Does the report explain whether viral sequences remain in plants, with a species/gene-specific example and a distinction between genomic remnants and demonstrated function?",
+      "anchors": {
+        "1": "No account of viral remnants.",
+        "2": "Only states viruses infect plants.",
+        "3": "Provides a case but genomic integration, gene identity or function/remnant status is unclear.",
+        "4": "Integration and a concrete case are clear, with a minor function-status qualification missing.",
+        "5": "Explains retained viral sequences with a plant species and identifiable gene or viral coding sequence, separating integrated remnants, expression and demonstrated function."
+      },
+      "boundary": "A named viral coding region may satisfy gene identity where a standard gene symbol is unavailable. Do not infer adaptation from sequence presence or expression alone.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:42",
+          "drb2:18:info_recall:44",
+          "drb2:18:info_recall:45",
+          "drb2:18:analysis:10"
+        ],
+        "query_quotes": [
+          "Do viruses leave their genes inside plants after infection?"
+        ],
+        "change_note": "Retain remnants versus function distinction, without mandatory rice/florendovirus/capsid cases."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Viruses as interplant vectors",
+      "question": "Does the report address viruses carrying plant genetic material between plants, with concrete organism/material evidence and its limits?",
+      "anchors": {
+        "1": "Does not address vector-mediated transfer.",
+        "2": "Only calls viruses gene bridges.",
+        "3": "Gives a carrier example but cargo, organism or the distinction from completed interplant HGT is unclear.",
+        "4": "Carrier evidence and its limitations are clear, with minor gene/cargo identification detail absent.",
+        "5": "Describes concrete plant/virus and gene or sequence cargo evidence, clearly stating whether packaging, delivery, integration or inheritance was demonstrated and what remains hypothetical."
+      },
+      "boundary": "Host cargo in a virus is not by itself proof of stable interplant HGT. Negative or incomplete evidence is a valid answer; an insect-only example cannot substitute for addressing plants.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:47",
+          "drb2:18:info_recall:48",
+          "drb2:18:analysis:11"
+        ],
+        "query_quotes": [
+          "can viruses act as 'carriers' or 'vectors'"
+        ],
+        "change_note": "Keep vector question but remove the mandated inference from packaging to successful interplant HGT."
+      }
+    },
+    {
+      "id": "PT.D1.08.period",
+      "dimension": "D1",
+      "title": "Historical research scope",
+      "question": "Does the report focus primarily on discoveries before 2021 and clearly distinguish later context?",
+      "anchors": {
+        "1": "The review has no recognizable pre-2021 research focus.",
+        "2": "Post-2020 findings dominate the answer or are presented as if they satisfy the requested historical scope.",
+        "3": "The intended historical focus is recognizable, but an important discovery has an unclear date or later context is materially mixed into it.",
+        "4": "Pre-2021 discoveries form the main account and later context is distinguished, with only minor dating ambiguity.",
+        "5": "The main findings are situated before 2021; any later material is explicitly identified as context rather than substituted for the requested historical account."
+      },
+      "boundary": "The query says primarily, not an absolute ban on later context. Do not score headings or bullet formatting here. Actual publication/date accuracy is checked in D2; a false date is not counted again solely as a formatting or scope omission.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:presentation:4"
+        ],
+        "query_quotes": [
+          "focusing primarily on discoveries before 2021",
+          "bulleted discussions"
+        ],
+        "change_note": "v3.4 split: Historical scope can be correct with poor formatting and vice versa; score it separately."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.format",
+      "dimension": "D1",
+      "title": "Requested sections and bullets",
+      "question": "Does the report use four clearly headed, bulleted discussions corresponding to the requested relationships?",
+      "anchors": {
+        "1": "No recognizable structure for the four requested relationships.",
+        "2": "Several requested sections are not identifiable or the answer is an undifferentiated block.",
+        "3": "The four-part intent is recognizable, but an important section boundary or the requested bulleted organization is missing.",
+        "4": "The four discussions have clear headings and bullets, with only minor labeling or formatting inconsistency.",
+        "5": "Four identifiable, headed and bulleted discussions correspond to parasitic plants, fungi, bacteria and viruses; formatting makes the required divisions clear."
+      },
+      "boundary": "This checks explicit format only, not scientific completeness or research dates. Missing substantive answers are scored in their content items, not penalized twice as scientific omissions here. Original prose clarity and navigation remain PW objects.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:presentation:1",
+          "drb2:18:presentation:2"
+        ],
+        "query_quotes": [
+          "focusing primarily on discoveries before 2021",
+          "bulleted discussions"
+        ],
+        "change_note": "v3.4 split: Headings and bullets jointly implement the requested format; do not split them into per-section points."
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Excluded article",
+      "question": "Does the final report avoid observable use of the prohibited Aubin–El Baidouri–Panaud review?",
+      "anchors": {
+        "1": "The excluded review explicitly supports a central conclusion.",
+        "2": "It explicitly supports several substantive secondary claims.",
+        "3": "It explicitly supports one local substantive claim.",
+        "4": "It appears only in the bibliography without confirmable substantive use.",
+        "5": "No observable citation or use in the complete report; restating an exclusion list is not use."
+      },
+      "boundary": "Do not infer browsing history from wording similarity; judge only the final report.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Horizontal Gene Transfers in Plants"
+        ],
+        "change_note": "Query-derived restriction, with the same observable-use boundary as the examples."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Transfer claim traceability",
+      "question": "Can the report's key transfer cases and directions be traced to identifiable studies or explicit in-report reasoning?",
+      "anchors": {
+        "1": "Key transfer claims have no identifiable basis.",
+        "2": "Mostly generic references to studies without case attribution.",
+        "3": "Main sources can be found, but important gene/direction attributions remain ambiguous.",
+        "4": "Key cases map to sources with only minor attribution gaps.",
+        "5": "Key species, genes, directions and claimed evidence stages map clearly to identifiable studies or reviewable reasoning."
+      },
+      "boundary": "Bibliographic information can suffice without URLs; traceability is not proof. Distinguish the report's hypothesis from what a study established.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local case-specific traceability audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Verified transfer evidence",
+      "question": "Within the recorded verification sample, are gene identities, directions, dates and evidence strengths supported?",
+      "anchors": {
+        "1": "Central assessed transfer claims are contradicted or have no claimed basis.",
+        "2": "Several important assessed cases reverse direction or misstate organism/material evidence.",
+        "3": "Support is mixed, with a substantive scope or evidence-strength error.",
+        "4": "Assessed important claims hold, with only minor attribution qualifications.",
+        "5": "All assessed claims match obtained evidence in identity, direction and strength; this does not certify unassessed cases."
+      },
+      "boundary": "Publish selected/completed counts. Retrieval failure is incomplete execution, not low quality or NA. No verification is performed in this drafting task; official resources are not independent factual proof.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local sampled support audit emphasizes direction and evidence stage."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "RNA and genomic-DNA routes",
+      "question": "Does the report explain and contrast RNA-mediated hypotheses and genomic-DNA transfer in host–parasite HGT?",
+      "anchors": {
+        "1": "Neither material route is explained.",
+        "2": "Only mentions mobile RNA or DNA without an inheritance mechanism.",
+        "3": "Explains one route but omits the other, or confuses RNA movement with genomic integration.",
+        "4": "Explains both routes and the main evidential distinction, with a minor integration or expression qualification missing.",
+        "5": "Explains RNA movement and the reverse-transcription/integration requirements of an RNA-mediated hypothesis, including how expression could be enabled, and contrasts evidence for transfer of genomic DNA or larger segments; distinguishes observations from hypotheses."
+      },
+      "boundary": "A review of alternative mechanisms is not a demand to endorse RNA-mediated HGT. Intron/promoter patterns are evidence to interpret, not universal consequences; no mandatory Yang/Kado citation, fragment-size threshold or fixed frequency.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:info_recall:8",
+          "drb2:18:info_recall:9",
+          "drb2:18:info_recall:10",
+          "drb2:18:info_recall:14",
+          "drb2:18:info_recall:15",
+          "drb2:18:info_recall:18",
+          "drb2:18:analysis:2",
+          "drb2:18:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore the material/mechanism comparison that was incorrectly made optional along with named studies."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Fungal contact and transfer opportunity",
+      "question": "Does the report explain how fungal symbiotic or parasitic associations create opportunities for transfer with plants?",
+      "anchors": {
+        "1": "No explanation of fungal–plant transfer opportunity.",
+        "2": "Only says fungi are heterotrophs or HGT happens.",
+        "3": "Describes contact but leaves its relevance to genetic exchange unclear, or treats lifestyle as proof of transfer.",
+        "4": "Connects intimate association to transfer opportunity, with a minor limit missing.",
+        "5": "Explains how fungal–plant association can bring biological material into contact while distinguishing opportunity from evidence of integration and inherited HGT."
+      },
+      "boundary": "No mandatory lifestyle census, universal claim that heterotrophy causes HGT, or particular fungus; the named directional examples remain in PT.D1.02/03.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore ecological-mechanistic context without making a general propensity claim a factual key."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "From contact to inherited transfer",
+      "question": "Which report more convincingly explains how contact or mobile material could become an inherited plant gene, distinguishing demonstrated steps from hypotheses?",
+      "anchors": {
+        "0": "The reasoning offers comparable help, or neither explains a usable chain; state which.",
+        "1": "A is slightly stronger overall in connecting material movement to integration or inheritance; B may explain another step better.",
+        "2": "A's contact-to-inheritance reasoning is substantially stronger; B's local mechanism detail does not offset its key unsupported jump.",
+        "-2": "B's contact-to-inheritance reasoning is substantially stronger; A's local mechanism detail does not offset its key unsupported jump.",
+        "-1": "B is slightly stronger overall in connecting material movement to integration or inheritance; A may explain another step better."
+      },
+      "boundary": "Compare the report's core contact-to-inheritance inferences using the same importance criteria for both reports; document opposite strengths, and score 0 when equally consequential advantages offset. PT.D1.10 checks that RNA/DNA alternatives are actually addressed; do not use mechanism counts as reasoning quality. Good contact reasoning does not repair an unsupported inheritance leap.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:analysis:1",
+          "drb2:18:analysis:2",
+          "drb2:18:analysis:3",
+          "drb2:18:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New inferential chain; good contact explanation cannot offset an unsupported inheritance leap."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence suited to HGT claims",
+      "question": "Which report uses evidence better suited to distinguishing true transfer, its direction and its functional status?",
+      "anchors": {
+        "0": "Evidence suitability is comparable, or neither has useful support; state which.",
+        "1": "A's support is slightly more appropriate overall; B may have stronger evidence for a particular case.",
+        "2": "A's evidence materially better supports its central HGT claims; B's local strong citation cannot offset the main identification gaps.",
+        "-2": "B's evidence materially better supports its central HGT claims; A's local strong citation cannot offset the main identification gaps.",
+        "-1": "B's support is slightly more appropriate overall; A may have stronger evidence for a particular case."
+      },
+      "boundary": "Compare suitability to the report's claims, including alternative explanations where relevant, not paper count or journal prestige. Do not require one phylogenetic or experimental workflow.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local synthesis-level evidence-fit check, separate from sampled citation correctness."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Biological significance without overclaiming",
+      "question": "Which report better helps the reader understand what the transfer findings change about plant evolution or biological function?",
+      "anchors": {
+        "0": "The interpretations offer similar help, or neither goes beyond case listing; state which.",
+        "1": "A clarifies an important functional or evolutionary consequence slightly better overall; B may illuminate another case better.",
+        "2": "A offers substantially more useful, bounded interpretation of transfer consequences; B's local applications cannot offset unsupported generalization.",
+        "-2": "B offers substantially more useful, bounded interpretation of transfer consequences; A's local applications cannot offset unsupported generalization.",
+        "-1": "B clarifies an important functional or evolutionary consequence slightly better overall; A may illuminate another case better."
+      },
+      "boundary": "Identify a concrete change in understanding beyond listing a gene: reported resistance, inheritance or viral sequence reuse can be useful; none is mandatory. Do not automatically infer selected advantage, domestication or pathogenicity. Compare opposing consequence insights using the same importance basis; equally consequential opposite strengths yield 0. A named effect alone is PT case description, not an automatic PW advantage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:analysis:5",
+          "drb2:18:analysis:6",
+          "drb2:18:analysis:8",
+          "drb2:18:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain consequence-oriented insight while removing prescribed genes and fixed evolutionary conclusions. Cross-review clarifies cancellation of opposing insights and non-duplication of case-effect coverage."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Progression across transfer relationships",
+      "question": "Which original report better guides the reader across the four relationships without obscuring comparisons through repetition or disconnected case lists?",
+      "anchors": {
+        "0": "Organization provides similar help, or neither has a usable progression; state which.",
+        "1": "A is slightly better organized overall; B may have a better transition or summary.",
+        "2": "A's report has substantially clearer progression; B's local summaries do not offset major disconnection.",
+        "-2": "B's report has substantially clearer progression; A's local summaries do not offset major disconnection.",
+        "-1": "B is slightly better organized overall; A may have a better transition or summary."
+      },
+      "boundary": "Judge the original report, not extracted spans. Do not rescore required headings or prefer shorter text automatically.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate whole-report progression from local clarity."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Direction and gene terminology",
+      "question": "Which report makes its written donor–recipient relations, gene names and evidence qualifications easier to understand?",
+      "anchors": {
+        "0": "Comprehensibility is similar, or neither communicates usable meanings; state which.",
+        "1": "A is slightly clearer overall, although B may explain some terminology better.",
+        "2": "A is substantially clearer about direction and terminology; B's locally fluent prose does not offset core ambiguity.",
+        "-2": "B is substantially clearer about direction and terminology; A's locally fluent prose does not offset core ambiguity.",
+        "-1": "B is slightly clearer overall, although A may explain some terminology better."
+      },
+      "boundary": "Judge wording and table labels, not whether the underlying transfer is true or how many cases appear.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:18:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Local terminology/readability portion only."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Case-to-source lookup",
+      "question": "Which report makes it easier to locate a named transfer case and its claimed source?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither provides a usable path; state which.",
+        "1": "A is slightly easier to search overall; B may index some cases better.",
+        "2": "A offers substantially more direct case-to-source lookup; B's local links do not offset the main search burden.",
+        "-2": "B offers substantially more direct case-to-source lookup; A's local links do not offset the main search burden.",
+        "-1": "B is slightly easier to search overall; A may index some cases better."
+      },
+      "boundary": "Traceability existence is PT.D2.01; compare actual navigation effort here, not URL counts or factual support.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local source-lookup comparison adapted to transfer case records."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:18:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain the physical connection and material identity; do not require an exhaustive list of water, nutrients, proteins or pathogens.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 vague contact/material descriptions score 2/3; a haustorial account with identifiable genetic material and a case can score 5. Exact non-genetic cargo recall is lost.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain the physical connection and material identity; do not require an exhaustive list of water, nutrients, proteins or pathogens.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 vague contact/material descriptions score 2/3; a haustorial account with identifiable genetic material and a case can score 5. Exact non-genetic cargo recall is lost.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain the physical connection and material identity; do not require an exhaustive list of water, nutrients, proteins or pathogens.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 vague contact/material descriptions score 2/3; a haustorial account with identifiable genetic material and a case can score 5. Exact non-genetic cargo recall is lost.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:4",
+      "targets": [],
+      "reason": "The atp1 priority claim, named Cuscuta/Bartsia/Plantago combination and Mower citation are optional historical examples. Official detail: Clearly state that the first reported HGT case between parasitic plants and hosts was the transfer of the mitochondrial `atp1` gene.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:5",
+      "targets": [],
+      "reason": "The atp1 priority claim, named Cuscuta/Bartsia/Plantago combination and Mower citation are optional historical examples. Official detail: Clearly state the species involved in `atp1` gene transfer: parasitic plants `Cuscuta` and `Bartsia`, and host plant `Plantago`.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:6",
+      "targets": [],
+      "reason": "The atp1 priority claim, named Cuscuta/Bartsia/Plantago combination and Mower citation are optional historical examples. Official detail: Clearly cite the study 'Plant genetics: Gene transfer from parasitic to host plants' published by Mower et al. in Nature in 2004.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:7",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Retain mitochondrial acquisition as a material/compartment context, not an unqualified universal frequency conclusion.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 has a material gap at 3 if mitochondrial acquisition is absent; a clear mitochondrial/nuclear context can reach 5. The exact claim that transfer is frequent is not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:8",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:9",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:10",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:11",
+      "targets": [],
+      "reason": "The supplied Striga-to-Sorghum direction and associated protein-length claim require review; they are not installed as factual answer keys. Official detail: Clearly provide an example of a gene of unknown function transferred from the parasitic plant `Striga` to `Sorghum`.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:12",
+      "targets": [],
+      "reason": "The Yoshida 2010 citation is a useful candidate source but not the only permissible parasite example. Official detail: Clearly cite the study 'Horizontal Gene Transfer by the Parasitic Plant Striga hermonthica' published by Yoshida et al. in Science in 2010.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:13",
+      "targets": [],
+      "reason": "The supplied Striga-to-Sorghum direction and associated protein-length claim require review; they are not installed as factual answer keys. Official detail: Clearly state that the gene transferred from `Striga` to `Sorghum` encodes a 448 amino acid protein.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:14",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:15",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:16",
+      "targets": [],
+      "reason": "Yang/Kado citations, their exact interpretation, percentage and >100 kbp size are not compulsory recall targets. Official detail: Clearly cite the study 'Horizontal Gene Transfer in Five Parasite Plant Species in Orobanchaceae' published by Kado and Innan in Genome Biology and Evolution in 2018.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:17",
+      "targets": [],
+      "reason": "Yang/Kado citations, their exact interpretation, percentage and >100 kbp size are not compulsory recall targets. Official detail: Clearly state that Kado and Innan's study estimated that 0.1-0.2% of genes in obligate parasitic plants originated from HGTs from their hosts.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:18",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:19",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.03"
+      ],
+      "reason": "Both directions are explicitly assessed, without assuming reciprocal transfer within each pair.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02 and .03 independently score an absent direction 1; merely saying bidirectional scores 2 for the reverse case, while concrete cases can score 5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:18:info_recall:20",
+      "targets": [],
+      "reason": "Cox1/group I intron and Richards five-case counts are optional fungal examples. Official detail: Clearly provide an example of fungi-to-plant HGT: the group I intron of the mitochondrial `Cox1` gene.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:21",
+      "targets": [],
+      "reason": "Cox1/group I intron and Richards five-case counts are optional fungal examples. Official detail: Clearly cite the study 'Phylogenomic Analysis Demonstrates a Pattern of Rare and Ancient Horizontal Gene Transfer between Plants and Fungi' published by Richards et al. in The Plant Cell in 2009, noting that this study found 5 cases of fungi-to-plant HGT.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:22",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Retain direction, effect and distinction between original HGT and later breeding/recipient steps, not a mandatory Fhb7 route.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 unclear recipient or direction scores 3, a specific qualified case scores 5; equivalent alternative genes may tie, so Fhb7/Thinopyrum exact recall is not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:23",
+      "targets": [],
+      "reason": "Epichloe and the Wang 2020 citation are only relevant when that optional Fhb7 case is used. Official detail: Clearly state that the donor of the `Fhb7` gene is `Epichloe` (endophytic fungus).",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:24",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Retain direction, effect and distinction between original HGT and later breeding/recipient steps, not a mandatory Fhb7 route.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.02 unclear recipient or direction scores 3, a specific qualified case scores 5; equivalent alternative genes may tie, so Fhb7/Thinopyrum exact recall is not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:25",
+      "targets": [],
+      "reason": "Epichloe and the Wang 2020 citation are only relevant when that optional Fhb7 case is used. Official detail: Clearly cite the study 'Horizontal gene transfer of Fhb7 from fungus underlies Fusarium head blight resistance in wheat' published by Wang et al. in Science in 2020.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:26",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "Retain a plant-to-fungus species/gene example, not both official genes.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03 a label without a reverse-direction example scores 2; identifiable donor/recipient/gene scores 5. Subtilisin/LRR substitution by a sound example may tie.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:27",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "Retain a plant-to-fungus species/gene example, not both official genes.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.03 a label without a reverse-direction example scores 2; identifiable donor/recipient/gene scores 5. Subtilisin/LRR substitution by a sound example may tie.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:28",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Keep Agrobacterium plasmid/T-DNA delivery and integration, without demanding both species or all Ti/Ri detail.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 missing a major plasmid-to-plant handoff scores 3; an explicit path scores 5. Both bacterial names are not individually mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:29",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "Keep Agrobacterium plasmid/T-DNA delivery and integration, without demanding both species or all Ti/Ri detail.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.04 missing a major plasmid-to-plant handoff scores 3; an explicit path scores 5. Both bacterial names are not individually mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:30",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Stable natural integration and inheritance are explicitly distinguished from transient transformation.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 missing persistence/inheritance status scores 3, explicit evidence or limits scores 5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:18:info_recall:31",
+      "targets": [],
+      "reason": "Nicotiana/Linaria and mis/rolC are alternative natural-integration examples, not additional mandatory cases. Official detail: Clearly state that `Nicotiana glauca` is a plant example whose genome carries regions homologous to Agrobacterium's Ri plasmid.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:32",
+      "targets": [],
+      "reason": "Nicotiana/Linaria and mis/rolC are alternative natural-integration examples, not additional mandatory cases. Official detail: Clearly state that `Linaria vulgaris` is a plant example whose genome contains sequences homologous to Agrobacterium `A. rhizogenes` T-DNA.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:33",
+      "targets": [],
+      "reason": "Nicotiana/Linaria and mis/rolC are alternative natural-integration examples, not additional mandatory cases. Official detail: Clearly state that transferred genes found in `Linaria vulgaris` include `mikimopine synthase` (`mis`) and `rolC`.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:34",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Retain natural integration with plant and bacterial gene identities; sweet potato is invited rather than compulsory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 only saying natural GM scores 2, named integration/gene evidence scores 5. All six sweet-potato genes need not appear; their exact recall is lost.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:35",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Retain natural integration with plant and bacterial gene identities; sweet potato is invited rather than compulsory.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 only saying natural GM scores 2, named integration/gene evidence scores 5. All six sweet-potato genes need not appear; their exact recall is lost.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:36",
+      "targets": [],
+      "reason": "Kyndt 2015 is an optional sweet-potato source, not a required citation. Official detail: Clearly cite the study 'The genome of cultivated sweet potato contains Agrobacterium T-DNAs with expressed genes: An example of a naturally transgenic food crop' published by Kyndt et al. in PNAS in 2015.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:37",
+      "targets": [],
+      "reason": "Ancient TAL, ferritin/diatom and GH25 cases are outside the compulsory Agrobacterium focus; exact case recall is omitted. Official detail: Clearly mention an ancient HGT case: `TAL-type Transaldolase` gene transfer from actinobacteria to land plants.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:38",
+      "targets": [],
+      "reason": "Ancient TAL, ferritin/diatom and GH25 cases are outside the compulsory Agrobacterium focus; exact case recall is omitted. Official detail: Clearly cite the study 'Ancient horizontal transfer of transaldolase-like protein gene and its role in plant vascular development' published by Yang et al. in New Phytologist in 2014.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:39",
+      "targets": [],
+      "reason": "Ancient TAL, ferritin/diatom and GH25 cases are outside the compulsory Agrobacterium focus; exact case recall is omitted. Official detail: Clearly mention the case of `Ferritin` gene transfer from archaebacteria to marine pennate diatoms (e.g., `Pseudo-nitzschia`).",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:40",
+      "targets": [],
+      "reason": "Ancient TAL, ferritin/diatom and GH25 cases are outside the compulsory Agrobacterium focus; exact case recall is omitted. Official detail: Clearly mention the case of the antibacterial gene `Glycosyl hydrolase 25 muramidase` being transferred multiple times from bacteria to plants.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:41",
+      "targets": [],
+      "reason": "Ancient TAL, ferritin/diatom and GH25 cases are outside the compulsory Agrobacterium focus; exact case recall is omitted. Official detail: Clearly cite the study 'Antibacterial gene transfer across the tree of life' published by Metcalf et al. in eLife in 2014.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:42",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Retain identifiable endogenous viral sequences and remnant versus function status, not the specific rice/florendovirus/protein examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 unclear integration or function status scores 3; explicitly distinguished evidence stages score 5. Equivalent viral cases may tie; named examples are not fully preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:43",
+      "targets": [],
+      "reason": "The rice-tungro homology and Arabidopsis/Festuca functional-gene pairing are optional specific viral details. Official detail: Clearly state that these sequences are homologous to rice tungro virus.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:44",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Retain identifiable endogenous viral sequences and remnant versus function status, not the specific rice/florendovirus/protein examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 unclear integration or function status scores 3; explicitly distinguished evidence stages score 5. Equivalent viral cases may tie; named examples are not fully preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:45",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Retain identifiable endogenous viral sequences and remnant versus function status, not the specific rice/florendovirus/protein examples.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 unclear integration or function status scores 3; explicitly distinguished evidence stages score 5. Equivalent viral cases may tie; named examples are not fully preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:46",
+      "targets": [],
+      "reason": "The rice-tungro homology and Arabidopsis/Festuca functional-gene pairing are optional specific viral details. Official detail: Clearly state that the plant species that received the aforementioned functional viral genes are `Arabidopsis thaliana` and `Festuca pratensis`.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:47",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain concrete packaging/carrier evidence and plant/cargo identities, not compulsory cucumber necrosis virus or Ghoshal citation.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 calling a carrier proven inherited transfer without distinction scores 3; evidence stages and limits clear score 5. A different sound carrier case may tie.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:48",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain concrete packaging/carrier evidence and plant/cargo identities, not compulsory cucumber necrosis virus or Ghoshal citation.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 calling a carrier proven inherited transfer without distinction scores 3; evidence stages and limits clear score 5. A different sound carrier case may tie.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:49",
+      "targets": [],
+      "reason": "Insect baculovirus host DNA and the 4.8% value cannot be compulsory plant-transfer evidence. Official detail: Clearly mention that deep sequencing of moth baculovirus showed it carried host DNA sequences.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:info_recall:50",
+      "targets": [],
+      "reason": "Insect baculovirus host DNA and the 4.8% value cannot be compulsory plant-transfer evidence. Official detail: Clearly cite the study 'Continuous Influx of Genetic Material from Host to Virus Populations' published by Gilbert et al. in PLoS Genetics in 2016, noting that 4.8% of the viruses contained host sequences.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "If two otherwise adequate reports differ only in this exact example, number or citation, they may tie. Factual errors in an actually used claim can be sampled under PT.D2.02, but that does not preserve omission-sensitive recall of this official item.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:1",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "Compare the inferential route from contact/material to inheritance; do not force RNA, promoter-loss claims or Yang/Kado citations.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 a justified integration/inheritance link can be slightly better than an unsupported jump; if RNA is used, omitted DNA/function steps count. Other routes can tie, so exact hypothesis comparison is not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:2",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:3",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "reason": "Restore the RNA-versus-genomic-DNA mechanism domain, separating it from optional authors and numerical results.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 limits a one-route account to 3 and requires integration/expression distinctions. Exact study conclusions, universal promoter loss and >100 kbp are not mandated.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:4",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "Restore association-to-transfer opportunity as direct content.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 distinguishes an ecological mechanism from a bare heterotrophy label and from claiming contact proves HGT.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:5",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "Retain biological consequence interpretation, not fixed Fhb7/LRR/TAL/GH25 examples or assumed adaptive benefit.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 a supported or explicitly conditional consequence beats a bare case list when it changes understanding; equally useful other cases may tie. Original gene-specific consequences are not obligatory.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:6",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "Retain biological consequence interpretation, not fixed Fhb7/LRR/TAL/GH25 examples or assumed adaptive benefit.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 a supported or explicitly conditional consequence beats a bare case list when it changes understanding; equally useful other cases may tie. Original gene-specific consequences are not obligatory.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:7",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.01"
+      ],
+      "reason": "Pathogenic transformation and stable inherited acquisition have a direct distinction in PT.D1.04/05 and a separate inferential comparison.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.05 requires evidence/status for natural inheritance; clear infection alone cannot satisfy it. PW.D3.01 compares the justification, not the presence count.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:18:analysis:8",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "Retain biological consequence interpretation, not fixed Fhb7/LRR/TAL/GH25 examples or assumed adaptive benefit.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 a supported or explicitly conditional consequence beats a bare case list when it changes understanding; equally useful other cases may tie. Original gene-specific consequences are not obligatory.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:9",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "Retain biological consequence interpretation, not fixed Fhb7/LRR/TAL/GH25 examples or assumed adaptive benefit.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 a supported or explicitly conditional consequence beats a bare case list when it changes understanding; equally useful other cases may tie. Original gene-specific consequences are not obligatory.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:10",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Make remnant/expression/function distinctions explicit, without requiring the word exaptation or inferring it automatically.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 conflating retained sequence with function scores 3; distinguishing evidence stages scores 5. Exaptation terminology itself need not change score.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:analysis:11",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain the vector question but reject obligatory proof of interplant HGT from insect/packaging evidence alone.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 packaging called completed inherited plant transfer cannot score 4/5; concrete limited evidence can score 5. The original affirmative conclusion and paired-study recipe are not preserved.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:presentation:1",
+      "targets": [
+        "PT.D1.08.format"
+      ],
+      "reason": "The format child checks the four headed, bulleted discussions requested by the query. Exact heading wording is not required; this is an adaptation, not literal preservation of all official formatting details.",
+      "status": "adapted",
+      "discrimination_check": "Score only PT.D1.08.format using its anchors. Missing headings or bullets affect this check; dates do not. The period child cannot compensate for missing organization.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:presentation:2",
+      "targets": [
+        "PT.D1.08.format"
+      ],
+      "reason": "The format child checks the four headed, bulleted discussions requested by the query. Exact heading wording is not required; this is an adaptation, not literal preservation of all official formatting details.",
+      "status": "adapted",
+      "discrimination_check": "Score only PT.D1.08.format using its anchors. Missing headings or bullets affect this check; dates do not. The period child cannot compensate for missing organization.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:presentation:3",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "Separate original-report progression from wording clarity.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 better transitions can be slightly better; PW.D6.01 clearer donor/recipient labels can be slightly better. No absolute zero-error prose threshold.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:18:presentation:4",
+      "targets": [
+        "PT.D1.08.period"
+      ],
+      "reason": "The period child follows the query: primarily pre-2021 discoveries, rather than a complete ban on clearly labelled later context. This relaxes the stricter official criterion explicitly.",
+      "status": "adapted",
+      "discrimination_check": "Score only PT.D1.08.period using its anchors. Predominantly later discoveries and uncertain dates differ from a clearly historical focus; headings and bullets do not affect this check.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "New draft: 11 PT and 6 PW; no earlier per-task draft existed. Content identities remain attached to transfer cases, and the two explicitly requested fungal directions are separately assessed.",
+    "Author atomicity and all-resource checks are not independent review or external factual verification.",
+    "High-priority source risk: official Striga direction/448-aa claims, Fhb7 transfer versus later breeding, and viral packaging versus completed plant HGT. These are not treated as externally verified keys.",
+    "Deliberate losses include fixed genes, studies, percentages, protein length, and the insect-virus shortcut. Species/gene specificity and concrete evidence stages remain required; no fixed example count.",
+    "Batch author program checks: 11 PT, 6 PW and 65 official records. Exact query, five-level anchors, IDs, verbatim query quotes, bidirectional provenance and complete atomicity records checked. This is not independent semantic approval or verification of official factual claims.",
+    "v3.3作者修复：此前版本计数和校验说明仅作历史记录；本稿为13 PT / 6 PW。仅作者自检与程序检查，未独立复审、未外核、未评分。",
+    "新增PT.D1.10 RNA与基因组DNA路径对照、11真菌接触机制；保留双向真菌例子、农杆菌自然整合与病毒残留/载体的独立入口。PW.D3.01收紧比较范围，不再允许选一条路径省略另一类材料问题。",
+    "Striga方向、448 aa及Fhb7最初受体仍未外核；不恢复为硬答案。固定基因/物种名单继续可替换，但每节具体物种基因及遗传状态不可省略。TAL/GH25等额外细菌案例非题面农杆菌重点的共同清单，其精确召回损失逐项保留。",
+    "Cross-review restores mitochondrial acquisition context and explicit missing-inheritance anchors; fixed frequency, Striga direction and named-paper claims remain unverified rather than imposed."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New required transfer account; an excellent route with an unidentified example scores 3, so no separate name-count item. Cross-review: a missing essential context named in anchor 3 cannot be treated as a minor qualifier at 4; identity and its acquisition context stay together."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New direction explicitly requested; names without directional identity score 3, not several independent species points."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New independent required direction; good fungi-to-plant content cannot compensate for its absence."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New required mechanism; detailed plasmids but no delivery/integration scores 3; do not split the transfer path."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New evidence-bearing example; species clear but inheritance unexplained scores 3; identity and integration status stay together. Cross-review: a missing essential context named in anchor 3 cannot be treated as a minor qualifier at 4; identity and its acquisition context stay together."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New viral retention requirement; example good but function confused scores 3; status is part of the example, not a second reward."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New separate vector question; retention does not answer interplant transport, while cargo and evidence stage must remain one relationship."
+    },
+    {
+      "id": "PT.D1.08.period",
+      "decision": "split",
+      "reason": "Historical scope can be correct with poor formatting and vice versa; score it separately."
+    },
+    {
+      "id": "PT.D1.08.format",
+      "decision": "split",
+      "reason": "Headings and bullets jointly implement the requested format; do not split them into per-section points."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New one-source restriction; central/local/bibliographic use supplies the complete gradient."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New claim-source relation; a good bibliography with unclear direction attribution scores 3, not two independent scores."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New coupled evidence test; partial support has grade 3 and inaccessible evidence is not assigned a quality grade."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "A good genomic-DNA account with no RNA hypothesis is 3; the reverse also scores 3. Each route's intermediate requirements stay attached to that route."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "Excellent donor/recipient examples do not explain why the association matters. Conversely contact alone cannot substitute for either direction's example."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New inferential chain; good contact explanation cannot offset an unsupported inheritance leap."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New evidence-claim match; a strong case alongside unsupported broad direction claims is handled by overall importance."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New synthesis object; plausible mechanism alone does not earn another reward unless it changes biological understanding."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New organization judgment; good order and bad repetition can be weighed without splitting techniques."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New local comprehension; a clear paragraph and ambiguous directional table remain one understanding cost."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "v3.3 retains this judgment object. Baseline mixed-performance check: New single lookup path; a case easy to find but its source buried lowers the path's utility."
+    }
+  ],
+  "revision_origin": {
+    "path": "drb2_18.json",
+    "sha256": "7c18bf00eef4a202efc034f53d0e1fee09df96072d94954dd639f962bce3ba93",
+    "replaced_ids": {
+      "PT.D1.08": [
+        "PT.D1.08.period",
+        "PT.D1.08.format"
+      ]
+    }
+  }
+}

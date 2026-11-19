@@ -1,0 +1,1092 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb1:19",
+  "language": "zh",
+  "title": "Prometheus高流失率治理",
+  "full_query": "prometheus 的高流失率会造成什么影响，有什么系统的方案可以解决？各家云厂商有没有现有方案？",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "高流失率的定义",
+      "question": "报告是否正确说明高流失率指时间序列频繁新建和停止活跃，而非同一序列持续产生新样本？",
+      "anchors": {
+        "1": "未解释高流失率，或把流失对象误解为样本数量、采样频率等其他对象。",
+        "2": "提到序列变化或流失，但没有说明具体是什么变化。",
+        "3": "明确说明新序列出现或原序列停止活跃中的一面，另一面未说明。",
+        "4": "说明时间序列频繁新建和停止活跃，但未明确区分序列更替与同一序列持续产生样本。",
+        "5": "两种更替过程清楚，并明确区分序列更替与同一序列持续产生样本；定义或例子均可，不要求固定观察时长或物理删除机制。"
+      },
+      "boundary": "只检查序列更替的定义及其与样本产生的区别。停止活跃不等于数据已被物理删除。与高基数的关系由下一项检查；成因、指标公式及场景不在本项要求。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:1"
+        ],
+        "query_quotes": [
+          "prometheus 的高流失率"
+        ],
+        "change_note": "保留定义与场景对象，纠正官方将Cardinality / Churn并列造成的混用风险；五档本地设计。 交叉审核恢复：定义不再重复要求成因场景。 v1.2：按用户要求拆为定义与基数关系两个独立判项；档位为本地修订，来源ID为继承关系，不表示官方原文。"
+      },
+      "split_from": "PT.D1.01"
+    },
+    {
+      "id": "PT.D1.01.distinction",
+      "dimension": "D1",
+      "title": "高流失率与高基数的区别",
+      "question": "报告是否区分时间序列更替的快慢与序列集合的大小，并说明二者可以独立变化？",
+      "anchors": {
+        "1": "未区分两者，或明确认为序列数量多就必然是高流失率。",
+        "2": "只说两者不同，没有解释分别衡量什么。",
+        "3": "说明流失率描述序列更替快慢、基数描述指定集合中的不同序列数量，但未解释二者可独立变化。",
+        "4": "两种量的区别清楚，并说明数量大但更替少、数量相对稳定但更替快中的一种情况。",
+        "5": "两种量的区别清楚，并说明上述两种情况均可成立；关系说明或例子均可，无需固定数值。"
+      },
+      "boundary": "仅检查更替速率与集合大小的区别及独立变化。基数应结合所述时间范围和序列集合理解，不强制只有一种统计口径。不重复要求新建/停止活跃的完整定义，不要求成因和性能后果。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:1"
+        ],
+        "query_quotes": [
+          "prometheus 的高流失率"
+        ],
+        "change_note": "保留定义与场景对象，纠正官方将Cardinality / Churn并列造成的混用风险；五档本地设计。 交叉审核恢复：定义不再重复要求成因场景。 v1.2：按用户要求拆为定义与基数关系两个独立判项；档位为本地修订，来源ID为继承关系，不表示官方原文。"
+      },
+      "split_from": "PT.D1.01"
+    },
+    {
+      "id": "PT.D1.02.memory",
+      "dimension": "D1",
+      "title": "内存压力",
+      "question": "报告是否说明高流失率对内存压力的影响及条件？",
+      "anchors": {
+        "1": "未回答内存压力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "提到内存压力但具体开销环节或负载条件不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将序列更替与活动序列及相关内存管理开销相连，说明何时明显、何时受限，不预设所有负载必定恶化。"
+      },
+      "boundary": "只查该资源压力；写入/查询性能、故障和运维成本分别评分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:insight:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.compute",
+      "dimension": "D1",
+      "title": "计算压力",
+      "question": "报告是否说明高流失率对计算压力的影响及条件？",
+      "anchors": {
+        "1": "未回答计算压力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "提到计算压力但具体开销环节或负载条件不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将序列更替与序列创建、索引或回收处理开销相连，说明何时明显、何时受限，不预设所有负载必定恶化。"
+      },
+      "boundary": "只查该资源压力；写入/查询性能、故障和运维成本分别评分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:insight:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.storage",
+      "dimension": "D1",
+      "title": "存储压力",
+      "question": "报告是否说明高流失率对存储压力的影响及条件？",
+      "anchors": {
+        "1": "未回答存储压力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "提到存储压力但具体开销环节或负载条件不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将序列更替与日志、索引、数据块或清理等存储开销相连，说明何时明显、何时受限，不预设所有负载必定恶化。"
+      },
+      "boundary": "只查该资源压力；写入/查询性能、故障和运维成本分别评分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:insight:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "系统治理方案",
+      "question": "报告是否提出与高流失率问题相连的成体系治理方案，说明处理对象、动作和效果检查方式？",
+      "anchors": {
+        "1": "未提出方案。",
+        "2": "只有扩容或优化标签等口号。",
+        "3": "有具体措施，但彼此孤立，未说明如何发现问题或检查改善。",
+        "4": "问题定位、处理动作与检查方式基本连贯，少量责任或实施条件未说明。",
+        "5": "方案能从问题定位推进到处理和效果检查，交代关键实施条件；所选技术可以不同。"
+      },
+      "boundary": "不要求联邦、分片、聚合、远程存储全出现，不强制配置代码。 PT.D1.10—12另查措施类别；本项只查定位—行动—检查工作流程，不重复按类别缺项扣分。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:3",
+          "drb1:19:instruction_following:2",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [
+          "有什么系统的方案可以解决"
+        ],
+        "change_note": "将多样性清单改为治理环节的完整性；检查方式是对系统方案的本地操作化。 v3.3终检补齐官方三问总覆盖的分布式来源映射，不新增总覆盖分。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "云厂商现有能力",
+      "question": "报告是否调研不同云厂商并说明相应产品、与高流失率的关系和服务边界？",
+      "anchors": {
+        "1": "未答云厂商方案。",
+        "2": "仅给厂商或产品名。",
+        "3": "只有一家厂商的实质信息，或虽有跨厂商信息但主要产品不能看出缓解什么问题及仍需自行治理的边界。",
+        "4": "不同厂商的相关能力与边界大体清楚，少量版本或可用范围未说明。",
+        "5": "所选主流厂商覆盖范围有交代，产品及实际缓解环节明确；未发现能力时如实说明依据和缺口。"
+      },
+      "boundary": "不限厂商名单与数量；托管不自动等于消除流失。这里检查说明是否存在，不比较哪家最好。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:4",
+          "drb1:19:comprehensiveness:5",
+          "drb1:19:instruction_following:3",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [
+          "各家云厂商有没有现有方案"
+        ],
+        "change_note": "合并覆盖与产品具体性；去除示例厂商强制性，新增产品时点和能力边界。 v3.1只补明单厂商不足以回答“各家”的混合档位，不固定名单。 v3.3终检补齐官方三问总覆盖的分布式来源映射，不新增总覆盖分。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "内容切题",
+      "question": "报告是否围绕Prometheus高流失率的影响、治理和云方案展开？",
+      "anchors": {
+        "1": "主体答成其他监控问题。",
+        "2": "大量转向一般云采购或监控部署。",
+        "3": "主要切题，但明显旁支无助于解释流失问题。",
+        "4": "基本切题，仅个别背景过长或联系不明。",
+        "5": "主体与补充均直接回答问题或提供必要背景。"
+      },
+      "boundary": "高基数背景只要解释与流失的关系即可；不按篇幅长短评分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:instruction_following:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留范围审计，允许必要背景，五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "技术与产品依据可定位",
+      "question": "报告中的关键性能判断和云能力说明是否对应可定位的资料或可检查推导？",
+      "anchors": {
+        "1": "关键判断没有可识别依据。",
+        "2": "只称官方文档或测试表明，无法找到材料。",
+        "3": "有资料但重要产品能力或性能数值与出处的对应模糊。",
+        "4": "主要主张能对应资料或推导，少数引用范围不清。",
+        "5": "关键性能、版本和产品能力均有明确资料对应；自建估算的前提可检查。"
+      },
+      "boundary": "可定位不等于支持；无URL但文档名、版本等足以查找不扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增技术决策的出处审计，不假称来自官方完整性条目。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "已核验证据支持",
+      "question": "在记录的实际核验范围内，产品能力和技术效果是否获得所称证据支持？",
+      "anchors": {
+        "1": "已核验核心能力或效果被证据否定，治理结论失去基础。",
+        "2": "多个重要核验点错误归属版本或超出证据效果。",
+        "3": "有支持也有实质范围错误，影响方案使用。",
+        "4": "重要核验点得到支持，仅次要限定或归属瑕疵。",
+        "5": "已完成核验的对象、版本、负载条件与主张强度相符。"
+      },
+      "boundary": "记录选中/完成数及获取材料。检索失败须重试或记执行未完成，不能给低分或NA；无可判断样本时暂停此项评分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增有限范围证据审计，避免把来源定位或官方条目当事实认证。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "内部技术一致性",
+      "question": "报告内的序列统计口径、资源单位、架构角色和前后结论是否一致？",
+      "anchors": {
+        "1": "核心口径互相冲突，无法辨认方案。",
+        "2": "关键统计或架构矛盾直接影响治理选择。",
+        "3": "局部实质矛盾未解释，但主方案可辨。",
+        "4": "主体一致，少量单位或条件歧义容易澄清。",
+        "5": "检查范围内口径、角色与结论一致；不同负载条件的差异已说明。"
+      },
+      "boundary": "不把不同条件下的效果差异判为矛盾；不替代外部事实核验。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增面向时序统计和架构的自洽检查。"
+      }
+    },
+    {
+      "id": "PT.D1.06.ingest",
+      "dimension": "D1",
+      "title": "采集写入性能",
+      "question": "报告是否说明高流失率对采集或写入路径的性能影响？",
+      "anchors": {
+        "1": "未回答采集写入性能。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "仅说变慢，没有路径或条件。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明摄入延迟、吞吐等相关性能后果及负载条件，不把资源多等同所有写入必慢。"
+      },
+      "boundary": "查询性能另查；不要求固定架构或数值。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:insight:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.query",
+      "dimension": "D1",
+      "title": "查询响应性能",
+      "question": "报告是否说明高流失率对查询路径的性能影响？",
+      "anchors": {
+        "1": "未回答查询响应性能。",
+        "2": "只说查询变慢或性能下降，没有指出受影响的查询处理环节。",
+        "3": "指出索引扫描、序列匹配等查询环节，但未解释序列更替怎样增加该环节的负担。",
+        "4": "解释了序列更替怎样增加具体查询环节的负担，但未说明什么情况下该影响较小或不发生。",
+        "5": "在4档的机制说明之外，至少说明一种影响较小或不发生的条件，并解释原因；只说“流失越高，查询越慢”不满足这一条件。"
+      },
+      "boundary": "资源用量与查询响应不是同一结果；不强制所有查询退化。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:insight:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "稳定性与数据可用性",
+      "question": "报告是否说明高流失率带来的故障、恢复和监控数据可用性风险？",
+      "anchors": {
+        "1": "没有稳定性风险。",
+        "2": "只说不稳定。",
+        "3": "故障发生条件、恢复/启动或数据可用性任一重要面未实质交代，或风险条件不清；另一面充分不能补偿。",
+        "4": "故障、恢复与数据后果清楚，少量条件遗漏。",
+        "5": "说明资源压力何时可能转为故障，以及恢复/启动和监控数据可用性的后果或保障边界，不将潜在风险写成必然。"
+      },
+      "boundary": "OOM、启动延迟、数据丢失不要求全部必发生。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:1",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复运行失效及恢复后果。 v3.3终检补齐官方三问总覆盖的分布式来源映射，不新增总覆盖分。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "运维与费用负担",
+      "question": "报告是否说明高流失率如何增加容量、排障维护或托管计费负担？",
+      "anchors": {
+        "1": "未讨论成本。",
+        "2": "仅说成本高。",
+        "3": "只谈机器价格或人力一面，另一重要负担未说明。",
+        "4": "资源/服务费用与维护负担均具体，少量条件不清。",
+        "5": "说明容量或服务费用、排障维护工作如何受影响，并限定部署与计费环境。"
+      },
+      "boundary": "无须账单或固定云价格；不存在某费用须说明情境，不能静默删去维护负担。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:2",
+          "drb1:19:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "补回遗漏的运维成本范围。 v3.3终检补齐官方三问总覆盖的分布式来源映射，不新增总覆盖分。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "序列更替的成因",
+      "question": "报告是否说明标签变化与实例/作业生命周期怎样造成序列新建和消失？",
+      "anchors": {
+        "1": "无成因。",
+        "2": "只列动态环境。",
+        "3": "仅标签或生命周期一面具体，另一面缺失，或没有联系序列身份。",
+        "4": "标签、生命周期与序列更替关系清楚，少量条件遗漏。",
+        "5": "解释标签取值及实例/作业更替怎样改变序列身份和存续；涉及服务发现时交代作用，区分更替与静态高基数。"
+      },
+      "boundary": "容器、指定标签不是必写例子；定义不能替代成因。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:1",
+          "drb1:19:insight:2"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复定义之外的成因判断。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "源头预防",
+      "question": "报告是否说明从指标设计和标签使用减少不必要序列更替的措施及观测代价？",
+      "anchors": {
+        "1": "无源头预防。",
+        "2": "仅优化标签口号。",
+        "3": "有动作，但针对的来源或保留观测信息的边界不清。",
+        "4": "动作、来源和观测边界清楚，少量实施条件缺失。",
+        "5": "说明在指标/标签产生环节如何减少无用更替、保留必要监控语义，并给出实施或验证条件。"
+      },
+      "boundary": "不强制标签名单、删除全部动态标签或唯一聚合方法。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:3",
+          "drb1:19:insight:3"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复预防类别，不以扩容替代。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "架构与补充后端",
+      "question": "报告是否说明分担或转移时序处理负载的架构选择，以及外部/替代组件能与不能解决的环节？",
+      "anchors": {
+        "1": "无架构讨论。",
+        "2": "只列架构或后端名字。",
+        "3": "有动作，但本地与外部职责、补充后端作用或残留瓶颈不明。",
+        "4": "处理职责、扩展/补充选择与边界清楚，少量条件遗漏。",
+        "5": "说明采集、处理与存储职责怎样分配，讨论扩展及补充/替代组件适用性；明确仍在源端或本地的更替开销。"
+      },
+      "boundary": "须讨论架构及补充选项，允许有据不采用；不强制联邦、分片、某后端同时入选。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:3",
+          "drb1:19:insight:3"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复架构及补充范围，品牌开放不等于范围可删。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "配置调优的作用边界",
+      "question": "报告是否说明配置层面可调节的运行行为、预期作用与不能根治的限制？",
+      "anchors": {
+        "1": "无配置层讨论。",
+        "2": "只说调参数。",
+        "3": "有参数/行为，但适用条件、作用或副作用不清。",
+        "4": "行为、作用和限制清楚，少量验证条件不明。",
+        "5": "说明可调行为怎样缓解压力及代价或限制，并有效果检查；若不宜调优则说明具体约束。"
+      },
+      "boundary": "不强制内存/压缩参数全列，不采用未支持的参数为答案键；源头改标签不替代配置讨论。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:comprehensiveness:3",
+          "drb1:19:insight:3"
+        ],
+        "query_quotes": [],
+        "change_note": "补回配置类别，不规定参数。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "方案代价与适用差异",
+      "question": "报告是否比较自建及云方案的成本、维护复杂度与观测信息保留方面的差异？",
+      "anchors": {
+        "1": "无权衡。",
+        "2": "只称各有优缺点。",
+        "3": "有对比但成本、维护或信息损失主要一面缺失，或自建与云不可比。",
+        "4": "主要代价和适用条件可比较，少量口径不清。",
+        "5": "以相容部署条件说明费用、维护复杂度、信息粒度差异及适用性；有据说明无额外损失也可。"
+      },
+      "boundary": "不强制报价表或迁移计划；本项检查对比说明，PW.D4.01需另指出改变的治理决定。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:insight:4",
+          "drb1:19:insight:5"
+        ],
+        "query_quotes": [],
+        "change_note": "将基本代价比较从PW补回直接检查。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "流失影响的因果解释",
+      "question": "哪篇更清楚且合理地从序列变化解释资源压力和运行后果？",
+      "anchors": {
+        "0": "双方因果解释帮助相近，或都只有现象清单；须说明是哪种。 同等重要的交叉优势相抵也为0，需另说明。",
+        "1": "A对序列变化到运行后果的解释略好，B可能有局部更清楚的环节。",
+        "2": "A的关键因果链明显更成立，B的局部解释优点不足以弥补缺环。",
+        "-2": "B的关键因果链明显更成立，A的局部解释优点不足以弥补缺环。",
+        "-1": "B对序列变化到运行后果的解释略好，A可能有局部更清楚的环节。"
+      },
+      "boundary": "指出实际前提和传导环节；不要求特定TSDB内部实现，不重数PT影响种类。 比较全文实际关键链条，按对题目结论的作用采用一致重要性标准，同时列双方正反差异；同等重要的相反优势抵销为0，净优势才±1，关键净优势且局部不足以抵销才±2。不能挑各自最强的一条定胜负或按PT缺项数定优。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:insight:1",
+          "drb1:19:insight:2"
+        ],
+        "query_quotes": [],
+        "change_note": "将根源与影响合并比较因果链，避免同一解释重复奖励。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "治理机制与限度",
+      "question": "哪篇更合理地解释所选自建或云措施为什么有效、在哪些环节仍无效？",
+      "anchors": {
+        "0": "双方机制解释相近，或都未解释措施为何有效；注明区别。 同等重要的交叉优势相抵也为0，需另说明。",
+        "1": "A整体略能解释治理效果与限制，B某项措施仍可能讲得更好。",
+        "2": "A对措施作用环节及失效条件的推导明显更强，B局部优点不足以弥补。",
+        "-2": "B对措施作用环节及失效条件的推导明显更强，A局部优点不足以弥补。",
+        "-1": "B整体略能解释治理效果与限制，A某项措施仍可能讲得更好。"
+      },
+      "boundary": "不因出现分片或远程写入加分；比较承诺是否能由架构和条件推出。 比较全文实际关键链条，按对题目结论的作用采用一致重要性标准，同时列双方正反差异；同等重要的相反优势抵销为0，净优势才±1，关键净优势且局部不足以抵销才±2。不能挑各自最强的一条定胜负或按PT缺项数定优。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:insight:3",
+          "drb1:19:insight:5"
+        ],
+        "query_quotes": [],
+        "change_note": "将自建及云效果的推导放入同一对象，不锁定聚合等路线。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "治理选择与优先级",
+      "question": "哪篇更能帮助团队在保留监控信息、运行负担与迁移代价之间作出治理选择？",
+      "anchors": {
+        "0": "双方对治理取舍的帮助相近，或均无可用选择依据；注明情况。",
+        "1": "A的取舍建议整体略有帮助，B在某种团队条件下仍可能更适用。",
+        "2": "A形成明显更可用的选择依据和优先级，B零散建议不足以弥补。",
+        "-2": "B形成明显更可用的选择依据和优先级，A零散建议不足以弥补。",
+        "-1": "B的取舍建议整体略有帮助，A在某种团队条件下仍可能更适用。"
+      },
+      "boundary": "必须指出帮助了什么决定；不以方法数量或一个更正确的因果链再奖励。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:insight:4",
+          "drb1:19:insight:6"
+        ],
+        "query_quotes": [],
+        "change_note": "合并权衡与实践总结，比较实际选择帮助而非复述方案清单。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据与负载适配",
+      "question": "哪篇所用证据更适合其声称的流失负载和产品能力范围？",
+      "anchors": {
+        "0": "证据对各自主张的适配相近，或双方均无可用支持；分别说明。",
+        "1": "A整体证据适配略好，B可在某项产品上更充分。",
+        "2": "A的关键判断有明显更适配的版本与负载证据，B局部证据优势不足以弥补。",
+        "-2": "B的关键判断有明显更适配的版本与负载证据，A局部证据优势不足以弥补。",
+        "-1": "B整体证据适配略好，A可在某项产品上更充分。"
+      },
+      "boundary": "比较集合适用范围，不按URL或厂商名气排名，不逐个重复处罚错引。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增针对高流失负载的证据适配比较。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "治理报告的阅读推进",
+      "question": "哪篇原报告更便于从问题理解推进到自建与云治理选择？",
+      "anchors": {
+        "0": "双方全文推进相近，或都无法形成连贯阅读路径；注明区别。",
+        "1": "A组织整体略好，B可有更有效的局部摘要。",
+        "2": "A全文推进明显更顺畅，B个别清楚章节不足以弥补跳跃和重复。",
+        "-2": "B全文推进明显更顺畅，A个别清楚章节不足以弥补跳跃和重复。",
+        "-1": "B组织整体略好，A可有更有效的局部摘要。"
+      },
+      "boundary": "读原报告；顺序、过渡和重复合评一次，不强制影响—方案—厂商顺序。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:readability:1",
+          "drb1:19:readability:6"
+        ],
+        "query_quotes": [],
+        "change_note": "合并章节与段落推进，去除唯一顺序偏好。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "技术表述可理解性",
+      "question": "哪篇更清楚地表达流失概念、治理动作、产品对比及所用性能/成本数据的含义？",
+      "anchors": {
+        "0": "双方已写意思同样易懂，或都难以理解；注明情况。",
+        "1": "A对术语、对比口径或数据含义的表达整体略清楚，B局部仍可更好。",
+        "2": "A的术语指代和局部说明明显更易懂，B局部文字优点不足以弥补。",
+        "-2": "B的术语指代和局部说明明显更易懂，A局部文字优点不足以弥补。",
+        "-1": "B对术语、对比口径或数据含义的表达整体略清楚，A局部仍可更好。"
+      },
+      "boundary": "只看已写意思，不把事实正确性、内容量和全文排序再计入。 数据若出现，应能读懂单位、条件和对比标签，不是只要容易找到。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:readability:2",
+          "drb1:19:readability:3",
+          "drb1:19:readability:4",
+          "drb1:19:readability:7"
+        ],
+        "query_quotes": [],
+        "change_note": "合并措辞、术语及对比标注，仅保留表达对象，技术真假另核验。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "方案信息查找",
+      "question": "哪篇更方便查到特定云能力、配置限制及其声称依据？",
+      "anchors": {
+        "0": "定位成本相近，或都找不到相关信息及依据；注明区别。",
+        "1": "A整体略易定位，B可有个别更好查的配置说明。",
+        "2": "A查找关键能力与依据明显更省步骤，B局部入口不足以弥补。",
+        "-2": "B查找关键能力与依据明显更省步骤，A局部入口不足以弥补。",
+        "-1": "B整体略易定位，A可有个别更好查的配置说明。"
+      },
+      "boundary": "按原报告实际查找路径判断；具名文献可有效，无链接不直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:19:readability:5"
+        ],
+        "query_quotes": [],
+        "change_note": "将要点突出改为特定信息查找；不要求表格或列表。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb1:19:comprehensiveness:1",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.09"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.09：仅标签或生命周期一面具体，另一面缺失，或没有联系序列身份。；高档：解释标签取值及实例/作业更替怎样改变序列身份和存续；涉及服务发现时交代作用，区分更替与静态高基数。"
+    },
+    {
+      "resource_id": "drb1:19:comprehensiveness:2",
+      "targets": [
+        "PT.D1.02.memory",
+        "PT.D1.02.compute",
+        "PT.D1.02.storage",
+        "PT.D1.06.ingest",
+        "PT.D1.06.query",
+        "PT.D1.07",
+        "PT.D1.08"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.memory, PT.D1.02.compute, PT.D1.02.storage, PT.D1.06.ingest, PT.D1.06.query, PT.D1.07, PT.D1.08。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。"
+    },
+    {
+      "resource_id": "drb1:19:comprehensiveness:3",
+      "targets": [
+        "PT.D1.03",
+        "PT.D1.10",
+        "PT.D1.11",
+        "PT.D1.12"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.10：有动作，但针对的来源或保留观测信息的边界不清。；高档：说明在指标/标签产生环节如何减少无用更替、保留必要监控语义，并给出实施或验证条件。 PT.D1.11：有动作，但本地与外部职责、补充后端作用或残留瓶颈不明。；高档：说明采集、处理与存储职责怎样分配，讨论扩展及补充/替代组件适用性；明确仍在源端或本地的更替开销。 PT.D1.12：有参数/行为，但适用条件、作用或副作用不清。；高档：说明可调行为怎样缓解压力及代价或限制，并有效果检查；若不宜调优则说明具体约束。"
+    },
+    {
+      "resource_id": "drb1:19:comprehensiveness:4",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "合并到跨厂商能力说明；不固定厂商清单。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只有单厂商实质信息为3分，跨厂商范围有说明可5分；同样充分的不同厂商集合可以同分，不保留指定公司全集。"
+    },
+    {
+      "resource_id": "drb1:19:comprehensiveness:5",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "合并到跨厂商能力说明；不固定厂商清单。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "只有产品名为2分，产品缓解环节及服务边界具体可4/5分，直接识别名称与实际能力说明之别。"
+    },
+    {
+      "resource_id": "drb1:19:insight:1",
+      "targets": [
+        "PT.D1.02.memory",
+        "PT.D1.02.compute",
+        "PT.D1.02.storage",
+        "PT.D1.06.ingest",
+        "PT.D1.06.query",
+        "PW.D3.01"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.memory, PT.D1.02.compute, PT.D1.02.storage, PT.D1.06.ingest, PT.D1.06.query, PW.D3.01。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。"
+    },
+    {
+      "resource_id": "drb1:19:insight:2",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.01"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.09：仅标签或生命周期一面具体，另一面缺失，或没有联系序列身份。；高档：解释标签取值及实例/作业更替怎样改变序列身份和存续；涉及服务发现时交代作用，区分更替与静态高基数。"
+    },
+    {
+      "resource_id": "drb1:19:insight:3",
+      "targets": [
+        "PT.D1.10",
+        "PT.D1.11",
+        "PT.D1.12",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.10：有动作，但针对的来源或保留观测信息的边界不清。；高档：说明在指标/标签产生环节如何减少无用更替、保留必要监控语义，并给出实施或验证条件。 PT.D1.11：有动作，但本地与外部职责、补充后端作用或残留瓶颈不明。；高档：说明采集、处理与存储职责怎样分配，讨论扩展及补充/替代组件适用性；明确仍在源端或本地的更替开销。 PT.D1.12：有参数/行为，但适用条件、作用或副作用不清。；高档：说明可调行为怎样缓解压力及代价或限制，并有效果检查；若不宜调优则说明具体约束。"
+    },
+    {
+      "resource_id": "drb1:19:insight:4",
+      "targets": [
+        "PT.D1.13",
+        "PW.D4.01"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13：有对比但成本、维护或信息损失主要一面缺失，或自建与云不可比。；高档：以相容部署条件说明费用、维护复杂度、信息粒度差异及适用性；有据说明无额外损失也可。"
+    },
+    {
+      "resource_id": "drb1:19:insight:5",
+      "targets": [
+        "PT.D1.13",
+        "PW.D3.02"
+      ],
+      "reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13：有对比但成本、维护或信息损失主要一面缺失，或自建与云不可比。；高档：以相容部署条件说明费用、维护复杂度、信息粒度差异及适用性；有据说明无额外损失也可。"
+    },
+    {
+      "resource_id": "drb1:19:insight:6",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "合并到实际治理取舍与优先级，不将总结本身加分。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "有基于条件的治理选择而非重复措施名称，可在PW.D4.01形成略好；不要求专门结论段。"
+    },
+    {
+      "resource_id": "drb1:19:instruction_following:1",
+      "targets": [
+        "PT.D1.02.memory",
+        "PT.D1.02.compute",
+        "PT.D1.02.storage",
+        "PT.D1.06.ingest",
+        "PT.D1.06.query",
+        "PT.D1.07"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.memory, PT.D1.02.compute, PT.D1.02.storage, PT.D1.06.ingest, PT.D1.06.query, PT.D1.07。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "v3.3恢复具体内容判断，技术实例不作唯一答案。"
+    },
+    {
+      "resource_id": "drb1:19:instruction_following:2",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "reason": "合并到系统治理方案；示例架构不是共同义务。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "只说优化为2分，有贯通定位/处理/检查的治理方案可5分；不要求“系统性”字样。"
+    },
+    {
+      "resource_id": "drb1:19:instruction_following:3",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "reason": "合并到跨厂商能力说明；不固定厂商清单。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "无云方案为1分，仅名字为2分，有跨厂商能力可升档；单厂商不再满足题面“各家”的充分回答。"
+    },
+    {
+      "resource_id": "drb1:19:instruction_following:4",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "保留切题审计并容纳必要背景。",
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "与流失无关的一般采购主体可2分，必要背景与切题主体可5分，按内容功能而非长度。"
+    },
+    {
+      "resource_id": "drb1:19:instruction_following:5",
+      "targets": [
+        "PT.D1.02.memory",
+        "PT.D1.02.compute",
+        "PT.D1.02.storage",
+        "PT.D1.03",
+        "PT.D1.04",
+        "PT.D1.06.ingest",
+        "PT.D1.06.query",
+        "PT.D1.07",
+        "PT.D1.08"
+      ],
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.memory, PT.D1.02.compute, PT.D1.02.storage, PT.D1.03, PT.D1.04, PT.D1.06.ingest, PT.D1.06.query, PT.D1.07, PT.D1.08。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "三问完整性由影响、治理流程及云方案的实际条目分布承接，不另设重复总分。"
+    },
+    {
+      "resource_id": "drb1:19:readability:1",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "保留全文及段落推进对象，改为原报告开放比较。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "仅改变承接与章节阅读推进可在PW.D5.01形成分差；换成同样合理顺序不会扣分，固定顺序未保留。"
+    },
+    {
+      "resource_id": "drb1:19:readability:2",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "合并到局部表达；剥离事实真假与内容覆盖。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "技术内容相同时减少歧义可由PW.D6.01判更易懂；事实准确性不在表达项重评。"
+    },
+    {
+      "resource_id": "drb1:19:readability:3",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "合并到局部表达；剥离事实真假与内容覆盖。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "原文某个已用关键术语补上必要上下文可更易懂；未使用的TSDB等术语不强制解释。"
+    },
+    {
+      "resource_id": "drb1:19:readability:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "合并到局部表达；剥离事实真假与内容覆盖。",
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "同一复杂成因或方案意思由术语堆砌变为可理解说明，PW.D6.01可识别，内容新增本身不加分。"
+    },
+    {
+      "resource_id": "drb1:19:readability:5",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "reason": "用于实际查找能力和依据，不固定展示形式。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "更少步骤查到特定云能力和依据可由PW.D6.02识别；只添加列表样式而无查找帮助可同分。"
+    },
+    {
+      "resource_id": "drb1:19:readability:6",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "保留全文及段落推进对象，改为原报告开放比较。",
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "同样信息的段落失焦和跳跃，与自然推进在PW.D5.01中比较；不为同一重复再给表达罚分。"
+    },
+    {
+      "resource_id": "drb1:19:readability:7",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "合并到局部表达；剥离事实真假与内容覆盖。",
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "相同方案数据若比较标签、单位含义更清楚，PW.D6.01可识别；不强制表格，单位真假另核。"
+    },
+    {
+      "resource_id": "drb1:19:readability:8",
+      "targets": [],
+      "reason": "未选：字体字号受载体影响，不单设审美或格式奖励。",
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只变字体字号而无理解或查找收益可以同分；不保留纯审美格式评分。"
+    }
+  ],
+  "author_notes": [
+    "PT检查三问的必要内容与可审计性；PW分别评价因果、机制、治理取舍、证据适配和原报告阅读。",
+    "D3机制成立不自动构成D4收益，D4须指出改变了何种治理决定；D5与D6不重复评分。",
+    "官方条目不是外部技术事实保证；Cardinality/Churn、托管能力、性能和版本均需后续独立核验。",
+    "作者草稿；已进行写作自检，未声称独立审核通过。",
+    "v3.1保留旧15条，2条仅补明混合覆盖档位；全部24资源逐项记录，未承诺固定厂商、方法、故障或格式全集。原子化为作者自检，非独立审核。",
+    "v3.3: 资源、性能、稳定性、运维影响分别判别；恢复标签/生命周期成因、源头预防、架构及补充后端、配置调优和基本代价对比。保留系统流程与跨厂商能力；两个机制PW补对称交叉优劣规则，表达项补数据含义。",
+    "v3.3待审 / pending review: 配置与云能力未外核；资源/性能分别需占用和响应信息。允许有据排除具体方法，不允许删除整个治理层次。纯字体审美仍不恢复。",
+    "v3.3终检修正：纠正官方instruction_following:5误标未保留：三问已经分别有直接入口，现补齐分布式双向映射并标记保留，未增加重复条目。",
+    "交叉审核二次恢复：后续终检覆盖了原交叉修复，现恢复定义/成因边界及稳定性对称中档；保留新增instruction_following:5分布式映射，不回退作者终检。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "keep",
+      "reason": "定义和流失/基数关系属于同一概念辨认，混用为3分，不拆。"
+    },
+    {
+      "id": "PT.D1.02.memory",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.compute",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.storage",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "措施明确但无效果检查仍3；类别范围由10—12检查，不用覆盖数代替系统性。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "revise",
+      "reason": "一家详尽而其它无实质信息按新3分；跨厂商范围与能力对应不机械拆分。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "keep",
+      "reason": "主体切题而背景跑题按原3/4分，不另计主体与补充。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "keep",
+      "reason": "资料可找到但主张对应不清按3分，来源和推导是可选追溯路径。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "keep",
+      "reason": "证据范围与主张构成支持关系；支持混合按3分，访问失败不是评分。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "keep",
+      "reason": "单位好而架构角色冲突按原关键/局部冲突档位，不拆陈述组成。"
+    },
+    {
+      "id": "PT.D1.06.ingest",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.06.query",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "故障、恢复和数据可用性任一重要面缺失均3；不要求每种故障必然发生，风险与发生条件保持关系。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "扩容费用充分但维护未答为3；不能以性能内容替代。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "定义正确而成因仅名词为2；只讲标签漏生命周期为3。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "删除动作清楚但不交代丢失什么为3；保持动作与代价关系。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "详述远端而不交代本地职责为3；不按组件数量拆。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "知道调什么却不知缓解何种压力为3；云方案不能补足。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "成本强但信息代价未答为3；各重要代价缺面规则相同。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "revise",
+      "reason": "内存链A强、存储链B强时同时处理；若重要性相当而相抵为0，不以局部链代全文净优。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "revise",
+      "reason": "内存链A强、存储链B强时同时处理；若重要性相当而相抵为0，不以局部链代全文净优。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "keep",
+      "reason": "有成本判断而粒度取舍弱，须按实际治理决定比较，原±1允许局部优点。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "keep",
+      "reason": "一个版本证据强而负载不适配按整体适配比较，不按引用数分解。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "keep",
+      "reason": "摘要好而全文重复按原边界合评一次。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "revise",
+      "reason": "术语易懂但数据含义不清仍影响理解；查找快不替代表达清楚。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "keep",
+      "reason": "能力好找而依据难找按完成查找任务所需步骤判断，不把依据正确性混入。"
+    }
+  ]
+}

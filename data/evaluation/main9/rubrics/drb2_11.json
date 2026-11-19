@@ -1,0 +1,1482 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:11",
+  "language": "zh",
+  "title": "系统性金融风险理论",
+  "full_query": "我正在研究系统性金融风险，想请你帮我整理一份研究综述。我希望这份综述能主要覆盖以下几个方面，且信息需要更新到2020年3月之前：\n\n1.  **理论基础对比**：请详细梳理和对比两种解释系统性风险形成机制的主要理论。第一种是主流的、基于动态随机一般均衡（DSGE）模型的“金融加速器”理论；第二种是以海曼·明斯基（Hyman Minsky）为代表的“金融不稳定性假说”（FIH）。请务必解释清楚这两种理论的核心逻辑、关键假设、以及它们如何解释风险的产生和对实体经济的影响。\n2.  **微观结构研究**：请总结从微观市场结构角度研究系统性风险的几个主要方向。具体来说，我关心以下三点：\n    *   **金融网络**：金融网络的复杂性是如何影响系统稳定性的？请解释“稳健但脆弱”（robust-yet-fragile）的特性，并提及核心-边缘（core-periphery）网络结构。\n    *   **市场流动性**：市场流动性风险和融资流动性风险是如何相互作用并形成“流动性螺旋”（liquidity spiral）的？\n    *   **金融传染**：金融传染主要有哪些渠道？请区分并解释清楚两种主要的传染类型。\n3.  **关键文献和学者**：在上述所有内容的梳理中，请务必提及相关的代表性学者和他们的关键文献或理论贡献。例如，在谈到金融加速器时要提到伯南克等人，谈到流动性螺旋时要提到布伦纳迈尔和佩德森。\n\n请确保内容组织清晰，分成“理论基础对比”和“微观结构研究”两个大部分，每个部分下再设小标题。所有信息都需要准确，并能追溯到具体的理论或研究。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'A Review of Micro-Based Systemic Risk Research from Multiple Perspectives', 'authors': ['Xiao Bai', 'Huaping Sun', 'Shibao Lu', 'Farhad Taghizadeh-Hesary'], 'urls': ['https://www.mdpi.com/1099-4300/22/7/711', 'https://pubmed.ncbi.nlm.nih.gov/33286483/', 'https://www.researchgate.net/publication/342524950_A_Review_of_Micro-Based_Systemic_Risk_Research_from_Multiple_Perspectives', 'https://ui.adsabs.harvard.edu/abs/2020Entrp..22..711B/abstract', 'https://www.mdpi.com/1099-4300/22/7/711/reprints', 'https://researchportal.u-tokai.ac.jp/ja/publications/a-review-of-micro-based-systemic-risk-research-from-multiple-pers']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "金融加速器的理论链条",
+      "question": "报告是否说明DSGE金融加速器的假设、融资摩擦及其向实体经济传导的基本逻辑？",
+      "anchors": {
+        "1": "未介绍金融加速器。",
+        "2": "只给DSGE或放大风险等标签。",
+        "3": "介绍部分机制，但遗漏信息不对称、净资产与外部融资溢价关系或投资传导的关键环节。",
+        "4": "假设、净资产—融资溢价—投资链条清楚，仅少量条件未说明。",
+        "5": "DSGE框架、信息不对称、外部相对内部融资成本、净资产与溢价的反向关系及投资放大链条完整，说明适用条件。"
+      },
+      "boundary": "检查题目指定理论的基本说明，不要求CSV方程或扩展模型；推导说服力另比。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:2",
+          "drb2:11:info_recall:3",
+          "drb2:11:info_recall:4",
+          "drb2:11:info_recall:5",
+          "drb2:11:info_recall:6"
+        ],
+        "query_quotes": [
+          "基于动态随机一般均衡（DSGE）模型的“金融加速器”理论"
+        ],
+        "change_note": "官方基本机制整合为题面理论说明；五档及遗漏档位本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.02.modes",
+      "dimension": "D1",
+      "title": "FIH融资模式",
+      "question": "报告是否区分对冲、投机、庞氏融资的现金流与偿债条件？",
+      "anchors": {
+        "1": "未回答FIH融资模式。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "能辨认部分模式，但本金/利息覆盖及展期关系有主要缺口。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "用现金流覆盖本息、续借本金及不足以覆盖利息的融资依赖区分三模式，允许有依据的等效说明。"
+      },
+      "boundary": "三类作为同一分类对照保留；不按术语字数评分。繁荣中的迁移机制另查。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:13",
+          "drb2:11:info_recall:14",
+          "drb2:11:info_recall:15",
+          "drb2:11:info_recall:16",
+          "drb2:11:info_recall:17",
+          "drb2:11:info_recall:18"
+        ],
+        "query_quotes": [
+          "“金融不稳定性假说”（FIH）"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.evolution",
+      "dimension": "D1",
+      "title": "FIH内生脆弱性",
+      "question": "报告是否说明繁荣中融资结构怎样趋险并影响实体经济？",
+      "anchors": {
+        "1": "未回答FIH内生脆弱性。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有稳定导致不稳定，缺融资趋险与脆弱性或实体经济后果的联系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "具体说明繁荣、融资行为变化、脆弱性与实体经济收缩的关系；不把外生冲击放大直接当作完整内生解释。"
+      },
+      "boundary": "不要求卡莱茨基方程；模式定义不再在本项重复扣分。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:19",
+          "drb2:11:info_recall:20"
+        ],
+        "query_quotes": [
+          "“金融不稳定性假说”（FIH）"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "两理论的直接对比",
+      "question": "报告是否直接对比两理论的冲击来源、风险放大或内生形成，以及关键假设和分析框架？",
+      "anchors": {
+        "1": "没有对比。",
+        "2": "仅分别介绍或称理论不同。",
+        "3": "有比较，但来源、风险形成或假设框架中的关键差异未说明。",
+        "4": "主要比较维度清楚，少量模型范围不明。",
+        "5": "对比外生冲击放大与内生脆弱性、杠杆的作用和均衡分析/动态演变思路，明确是在比较何种版本而非将所有研究一概而论。"
+      },
+      "boundary": "不要求判定某理论绝对优越，不把现代DSGE都视为无内生机制。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:analysis:1",
+          "drb2:11:analysis:2",
+          "drb2:11:analysis:3",
+          "drb2:11:info_recall:11"
+        ],
+        "query_quotes": [
+          "核心逻辑、关键假设"
+        ],
+        "change_note": "官方对比维度用于共同覆盖，去掉普遍结论；比较成立性与研究意义另由PW。 v3.3将FIH非均衡性质按分析范式意义承接，不要求唯一标签。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "网络连接与稳健但脆弱",
+      "question": "报告是否解释网络连接何时分散冲击、何时成为风险传播通道？",
+      "anchors": {
+        "1": "无网络稳定性讨论。",
+        "2": "只有稳健但脆弱标签。",
+        "3": "只解释分散或传播一侧，或未说明冲击/网络条件。",
+        "4": "两侧作用及条件明确，少量范围不清。",
+        "5": "说明连接对小规模或异质冲击的吸收作用及大冲击下传播风险，解释条件变化为何改变稳定性，不假设越密越好。"
+      },
+      "boundary": "不强制阈值数值或某模型；核心结构另查11，不能只列网络术语。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:info_recall:22",
+          "drb2:11:info_recall:24",
+          "drb2:11:info_recall:26",
+          "drb2:11:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "从旧网络总项收窄到连接—稳定性关系；保留已有独立网络PW。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "两种流动性与螺旋",
+      "question": "报告是否区分市场流动性与融资流动性，并说明其相互强化的螺旋？",
+      "anchors": {
+        "1": "未答流动性。",
+        "2": "只有流动性不足或危机等标签。",
+        "3": "定义或反馈链缺一面，或未分清资产跌价造成资本损失与融资条件/保证金收紧的不同作用。",
+        "4": "交易价格影响、融资可得性与抛售反馈清楚，少量环节条件不明。",
+        "5": "区分市场交易对价格的影响与融资可得性；说明价格损失侵蚀资本、保证金/担保或其他融资条件收紧怎样推动出售，再回到价格和流动性恶化，交代各环节条件。"
+      },
+      "boundary": "不强制损失螺旋/保证金螺旋名称或另设章节，但资本损失与融资要求变化不能混为一个未说明的资金不足；可有据限定所用约束。自我强化不是稳定性负反馈。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:33",
+          "drb2:11:info_recall:34",
+          "drb2:11:info_recall:35",
+          "drb2:11:info_recall:36",
+          "drb2:11:info_recall:37",
+          "drb2:11:info_recall:38",
+          "drb2:11:info_recall:39"
+        ],
+        "query_quotes": [
+          "市场流动性风险和融资流动性风险"
+        ],
+        "change_note": "将定义与其反馈关系作为完整对象，锚点本地设计。 v3.3补回损失与融资条件两种作用的具体判别，不只删标签。"
+      }
+    },
+    {
+      "id": "PT.D1.06.default",
+      "dimension": "D1",
+      "title": "违约传染",
+      "question": "报告是否解释风险如何经直接债务合同关系传播？",
+      "anchors": {
+        "1": "未回答违约传染。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有违约传染名称但债务人损失到债权人受损的关系不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明违约、债权损失及可能连锁违约的合同路径和适用条件。"
+      },
+      "boundary": "不要求固定模型；价格传染缺失不在本项扣分。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:40",
+          "drb2:11:info_recall:41",
+          "drb2:11:info_recall:42"
+        ],
+        "query_quotes": [
+          "两种主要的传染类型"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.06.price",
+      "dimension": "D1",
+      "title": "价格媒介传染",
+      "question": "报告是否解释风险如何经共同资产价格和估值传播？",
+      "anchors": {
+        "1": "未回答价格媒介传染。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "提到抛售但未说明价格/估值如何影响其他持有者。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明共同资产、抛售或价格变化、估值损失的传播路径，辨别无直接债务联系者也可能受到影响的条件。"
+      },
+      "boundary": "不把一切价格变化均当系统性传染；一般融资流动性螺旋仍PT.D1.05。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:40",
+          "drb2:11:info_recall:41",
+          "drb2:11:info_recall:44",
+          "drb2:11:info_recall:45"
+        ],
+        "query_quotes": [
+          "两种主要的传染类型"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.06"
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "代表学者与贡献对应",
+      "question": "报告是否在各主题对应代表学者及关键文献或贡献，包含伯南克、明斯基、布伦纳迈尔和佩德森？",
+      "anchors": {
+        "1": "没有代表学者或文献。",
+        "2": "只有人名/书目，无贡献对应。",
+        "3": "有部分学者对应，但指定人物缺失，或网络稳定性、流动性、直接违约、价格传染任一研究方向缺代表依据。",
+        "4": "各主题有代表学者及贡献，指定人物齐全，仅少量文献识别信息不清。",
+        "5": "指定人物与理论贡献对应明确；网络稳定性、流动性及两类传染均有可辨代表文献或贡献，名称/版本足以识别，不以同一泛化研究笼统代替全部方向。"
+      },
+      "boundary": "不要求所有官方作者、年份或指定模型全部出现；出处可定位另审，归属真假限实际核验。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:info_recall:1",
+          "drb2:11:info_recall:10",
+          "drb2:11:info_recall:32",
+          "drb2:11:presentation:5",
+          "drb2:11:info_recall:23",
+          "drb2:11:info_recall:25",
+          "drb2:11:info_recall:43",
+          "drb2:11:info_recall:46"
+        ],
+        "query_quotes": [
+          "伯南克等人",
+          "布伦纳迈尔和佩德森"
+        ],
+        "change_note": "题面指定学者保留，其它官方作者不全部强制；对应关系与人物不可拆。 v3.3明确两种传染各需相应代表依据，指定篇目仍可替换。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "两部分及子标题",
+      "question": "报告是否分为理论基础对比和微观结构研究，并在各自下设置清楚小标题？",
+      "anchors": {
+        "1": "无可辨结构。",
+        "2": "仅有一大部分或大量混排。",
+        "3": "两部分可辨但标题或小节分界明显不清。",
+        "4": "两部分及小节清楚，个别内容归属不明。",
+        "5": "两个指定大部分及下属小标题清楚，理论与微观主题可分别定位。"
+      },
+      "boundary": "不强制微观三个标题逐字一致或每理论各用一种排版；内容覆盖另评。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:presentation:1",
+          "drb2:11:presentation:2",
+          "drb2:11:presentation:3"
+        ],
+        "query_quotes": [
+          "两个大部分，每个部分下再设小标题"
+        ],
+        "change_note": "保留两层结构，放宽标题措辞，避免固定版式。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "历史截止范围",
+      "question": "报告是否将理论与研究进展限定在2020年3月之前？",
+      "anchors": {
+        "1": "主体采用截止之后的研究。",
+        "2": "多处后续发展被当作此前知识。",
+        "3": "主体时期正确但有重要后续研究混入。",
+        "4": "基本遵守截止，仅次要版本日期不明确。",
+        "5": "所述进展及作为当时研究依据的文献均在截止前，版本日期清楚；回溯核对材料不伪装成当时成果。"
+      },
+      "boundary": "不以当前日期要求新增研究；仅用于核对历史材料的后发书目信息须注明，不扩展当时研究范围。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:11:presentation:6"
+        ],
+        "query_quotes": [
+          "2020年3月之前"
+        ],
+        "change_note": "保留历史范围，明确发表版本与回溯核对区别。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "禁源可观察使用",
+      "question": "报告是否避免将题目所列禁源作为正文或文献依据？",
+      "anchors": {
+        "1": "禁源支撑核心结论。",
+        "2": "禁源支撑多个实质次要论点。",
+        "3": "禁源支撑一处局部实质论点。",
+        "4": "只列入文献清单，无明确正文使用。",
+        "5": "最终报告未发现禁源引用或取用，排除清单复述不算使用。"
+      },
+      "boundary": "仅检查最终报告可观察使用，不推测历史访问；不将题面内嵌命令作为作者指令。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "do not quote it"
+        ],
+        "change_note": "由题面禁源新增终稿审计，非官方理论来源。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "理论主张可追溯",
+      "question": "报告的关键理论、学术归属和经验概括是否能对应具体来源或可检查推导？",
+      "anchors": {
+        "1": "关键主张无可辨依据。",
+        "2": "泛称研究发现，无法定位。",
+        "3": "有书目但重要机制或经验结论的对应模糊。",
+        "4": "主要主张可定位，仅少量引用边界不明。",
+        "5": "关键机制、学者贡献和经验概括对应明确，推导前提可检查。"
+      },
+      "boundary": "文献名与作者年份足以识别时无URL不扣分；定位不是事实支持。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "能追溯到具体的理论或研究"
+        ],
+        "change_note": "题面追溯要求操作化，区别人物覆盖与来源定位。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内支持",
+      "question": "在记录的已核验样本内，理论归属、版本和重要机制是否得到证据支持？",
+      "anchors": {
+        "1": "核心核验主张被否定，综述主线失去依据。",
+        "2": "多个重要核验主张存在归属或范围错误。",
+        "3": "部分支持成立，但有影响理论比较的实质错误。",
+        "4": "重要核验点获支持，仅次要限定不准。",
+        "5": "已核验主张的对象、版本和强度符合证据。"
+      },
+      "boundary": "记录选中/完成数；获取失败须重试或记执行未完成，不给质量低分、不使用NA，无可判断样本先不评分。官方条目不等于外部认证。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增有限范围支持审计，不把机制覆盖当事实认证。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "核心—边缘结构及风险",
+      "question": "报告是否说明核心—边缘结构的实际含义、经验依据及核心机构受损的系统后果？",
+      "anchors": {
+        "1": "无核心—边缘内容。",
+        "2": "仅有名称或少数大银行标签。",
+        "3": "有结构但流动性角色、经验范围或核心冲击后果的重要一面缺失。",
+        "4": "结构、经验范围及风险后果清楚，少量条件未交代。",
+        "5": "说明核心与外围的连接/流动性角色，以可辨研究说明该结构在何种市场被观察到，并解释核心受损为何可能造成不成比例影响。"
+      },
+      "boundary": "不强制e-MID样本或全球普遍性；对一类市场有据说明不适用也可，不用理论示意冒充经验观察。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:info_recall:27",
+          "drb2:11:info_recall:28",
+          "drb2:11:info_recall:29",
+          "drb2:11:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复结构、经验性质及核心冲击内容入口，具体经验论文可替换。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "金融加速器研究的部门范围",
+      "question": "报告是否区分金融加速器的企业融资基础与向家庭、银行等部门扩展的研究范围？",
+      "anchors": {
+        "1": "无部门或发展范围。",
+        "2": "仅称金融摩擦影响经济。",
+        "3": "企业基础、家庭部门扩展或银行部门扩展中任一重要方面完全缺失，或只列部门名而不说明摩擦主体或传导环节；其他部门详尽不能补偿。",
+        "4": "企业基础和家庭/银行扩展可辨，少量版本条件不明。",
+        "5": "说明早期企业融资关注点，及家庭、银行研究怎样改变承担摩擦的主体或传导环节，给出截止前可辨研究依据。"
+      },
+      "boundary": "不要求方程、指定论文或完整年表；说明部门/机制的变化而非每个版本清单。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:info_recall:8",
+          "drb2:11:info_recall:9"
+        ],
+        "query_quotes": [],
+        "change_note": "纠正将部门扩展视为可删发展史；恢复综述范围，不强制扩展模型。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "两种理论的解释能力与限制",
+      "question": "报告是否具体比较金融加速器与FIH在量化、政策分析和内生危机解释方面的能力及限制？",
+      "anchors": {
+        "1": "没有能力/限制比较。",
+        "2": "只有一种更好等标签。",
+        "3": "只谈一理论，或能力与限制只讲一面，或量化/政策用途与内生危机解释只讲一面；另一面完全缺失不能由已有内容补偿。",
+        "4": "对两理论都说明量化或政策用途、内生危机解释的能力及限制，但至少一项评价未说明针对哪种模型、方法或研究版本。",
+        "5": "两理论在上述用途的能力与限制均具体，且评价能对应到可辨的模型、方法或版本；将传统形式的限制与后续扩展区分，不把叙事性直接当作绝对无法数学化。无需穷举版本。"
+      },
+      "boundary": "不预设哪种优越；PW.D4.01需另说明这些差异如何帮助选择或互补研究视角。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "从宽泛研究价值PW补回理论优缺点的共同内容入口。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "金融联系的表示与层次",
+      "question": "报告是否说明机构联系如何表示，以及单类合同联系与多类金融联系为何不等同？",
+      "anchors": {
+        "1": "没有联系表示。",
+        "2": "只称网络复杂。",
+        "3": "有节点/联系描述，但债权债务方向或多类联系层次不明。",
+        "4": "直接债务关系与其它联系层次可辨，少量边界不清。",
+        "5": "说明债务暴露如何连接机构，以及信贷以外的保险、衍生品等联系如何构成不同层次或风险通道，交代单层简化遗漏什么。"
+      },
+      "boundary": "无需写矩阵、拟合多层模型或列全金融产品；可有据选择单层研究但须说明被简化的联系范围。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:info_recall:30",
+          "drb2:11:info_recall:31"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复网络复杂性的联系范围，放弃强制特定债务矩阵模型。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "两理论比较的推理",
+      "question": "哪篇更合理地从两理论的假设推出风险形成与实体经济后果的差异？",
+      "anchors": {
+        "0": "双方推导帮助相近，或均只并列理论特征；须区分。",
+        "1": "A对理论差异的推导整体略好，B仍可有局部解释优势。",
+        "2": "A的关键理论对比明显更成立，B的局部例子不足以弥补推理缺口。",
+        "-2": "B的关键理论对比明显更成立，A的局部例子不足以弥补推理缺口。",
+        "-1": "B对理论差异的推导整体略好，A仍可有局部解释优势。"
+      },
+      "boundary": "指明假设、推论和缺步；PT只检查必要机制说明，不把机制名称多再次奖励。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增比较推理对象，不强制某理论胜出。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "网络结构与冲击传播",
+      "question": "哪篇更合理地从网络连接和核心位置解释冲击的分散与传播？",
+      "anchors": {
+        "0": "双方对结构—传播联系的推理相近，或双方都没有成立解释；注明是哪种情况。",
+        "1": "A对结构—传播联系的一处重要推理略好，且没有被自身相关错误抵销；B可有局部解释优势。",
+        "2": "A明显更合理地从连接与核心位置推出传播或吸收冲击的条件；B在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-2": "B明显更合理地从连接与核心位置推出传播或吸收冲击的条件；A在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-1": "B对结构—传播联系的一处重要推理略好，且没有被自身相关错误抵销；A可有局部解释优势。"
+      },
+      "boundary": "连通性与核心位置是同一网络传播解释的结构条件。若一篇较好解释分散、另一篇较好解释核心冲击，按对其网络传播结论的影响比较，同等重要且抵销判0。不得借流动性或传染分析定胜负；不要求固定最优连通度、具名模型或核心失败必崩。PT.D1.04检查必要内容，本项只检查推导。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:analysis:5",
+          "drb2:11:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "独立定向审阅后从原PW.D3.02小拆；仅承接本机制的官方分析，不固定模型或预设结论。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "流动性反馈的推理",
+      "question": "哪篇更合理地解释市场流动性与融资流动性怎样相互强化并放大初始冲击？",
+      "anchors": {
+        "0": "双方对市场—融资流动性反馈的推理相近，或双方都没有成立解释；注明是哪种情况。",
+        "1": "A对市场—融资流动性反馈的一处重要推理略好，且没有被自身相关错误抵销；B可有局部解释优势。",
+        "2": "A明显更合理地解释市场恶化、融资约束和交易行为构成自我强化回路；B在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-2": "B明显更合理地解释市场恶化、融资约束和交易行为构成自我强化回路；A在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-1": "B对市场—融资流动性反馈的一处重要推理略好，且没有被自身相关错误抵销；A可有局部解释优势。"
+      },
+      "boundary": "只判断同一反馈回路的因果方向与成立条件；单向联系正确不能抵消关键回路反向或断裂。不能把自我强化称为稳定性负反馈，不强制损失/保证金螺旋标签或特定模型。不把PT.D1.05已检查的定义再奖励，不借网络或传染分析抵销缺口。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "独立定向审阅后从原PW.D3.02小拆；仅承接本机制的官方分析，不固定模型或预设结论。"
+      }
+    },
+    {
+      "id": "PW.D3.04",
+      "dimension": "D3",
+      "title": "传染渠道影响范围的推理",
+      "question": "哪篇更合理地从直接合同联系和共同资产价格联系推出两类传染的影响范围？",
+      "anchors": {
+        "0": "双方对渠道—受影响机构关系的推理相近，或双方都没有成立解释；注明是哪种情况。",
+        "1": "A对渠道—受影响机构关系的一处重要推理略好，且没有被自身相关错误抵销；B可有局部解释优势。",
+        "2": "A明显更合理地解释直接债务损失与共同资产价格变动分别能传到哪些机构；B在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-2": "B明显更合理地解释直接债务损失与共同资产价格变动分别能传到哪些机构；A在关键因果联系或范围条件上有实质缺口，局部例子不足以弥补。",
+        "-1": "B对渠道—受影响机构关系的一处重要推理略好，且没有被自身相关错误抵销；A可有局部解释优势。"
+      },
+      "boundary": "两渠道是同一范围比较的两侧；单侧详尽不能抵消另一侧路径错误。不预设价格传染总是更广，不强制指定论文。PT.D1.06.default与PT.D1.06.price分别检查两类渠道说明，本项只评范围推论；不借网络或流动性反馈的优点抵销。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "独立定向审阅后从原PW.D3.02小拆；仅承接本机制的官方分析，不固定模型或预设结论。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "综述形成的研究认识",
+      "question": "哪篇更帮助读者判断不同理论和微观研究各能解释什么、遗漏什么，以及如何互补？",
+      "anchors": {
+        "0": "双方研究认识帮助相近，或都没有超出理论清单；注明情况。",
+        "1": "A对研究解释范围的综合略有帮助，B可对某理论限制看得更准。",
+        "2": "A明显更能帮助选择和理解研究视角，B零散优缺点不足以弥补。",
+        "-2": "B明显更能帮助选择和理解研究视角，A零散优缺点不足以弥补。",
+        "-1": "B对研究解释范围的综合略有帮助，A可对某理论限制看得更准。"
+      },
+      "boundary": "不要求政策建议、统一模型或新理论；D3推理成立不自动产生这里的研究选择帮助。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留理论优缺点的判断价值，不沿用FIH不能数学化等普遍断言。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据对综述的适配",
+      "question": "哪篇的理论文献与经验材料更适合支持其系统性风险概括？",
+      "anchors": {
+        "0": "证据适配相近，或双方均无可用依据；分别说明。",
+        "1": "A的证据组合整体略适配，B可有局部更强的经验依据。",
+        "2": "A的关键概括得到明显更适用的证据组合，B局部证据优点不足以弥补。",
+        "-2": "B的关键概括得到明显更适用的证据组合，A局部证据优点不足以弥补。",
+        "-1": "B的证据组合整体略适配，A可有局部更强的经验依据。"
+      },
+      "boundary": "看研究对象、版本、模型条件及经验范围；不按名气或文献数排名，不重复逐个错引罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增证据集合适配，区别单主张核验。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "综述全文推进",
+      "question": "哪篇原报告更便于从理论对比读到微观机制并形成连贯认识？",
+      "anchors": {
+        "0": "全文推进相近，或都无连贯阅读路径；注明情况。",
+        "1": "A的全文推进略好，B可有更有效的局部摘要。",
+        "2": "A的组织和承接明显更顺畅，B局部章节优点不足以弥补跳跃重复。",
+        "-2": "B的组织和承接明显更顺畅，A局部章节优点不足以弥补跳跃重复。",
+        "-1": "B的全文推进略好，A可有更有效的局部摘要。"
+      },
+      "boundary": "按原文排序、承接与重复合评一次，不以指定标题满足程度再加分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增全文组织比较。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "专业表述清楚",
+      "question": "哪篇更清楚地表达已写的金融机制、术语和比较关系？",
+      "anchors": {
+        "0": "表述同样清楚，或都难以理解；注明区别。",
+        "1": "A的机制表述整体略易懂，B可有更清楚的局部定义。",
+        "2": "A的专业表述明显更可理解，B局部措辞优点不足以弥补歧义。",
+        "-2": "B的专业表述明显更可理解，A局部措辞优点不足以弥补歧义。",
+        "-1": "B的机制表述整体略易懂，A可有更清楚的局部定义。"
+      },
+      "boundary": "只看已写意思；内容量、外部事实真假和全篇排序另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:11:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "采用专业清楚的表达对象，剥离事实正确性。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "研究与出处查找",
+      "question": "哪篇更方便定位特定机制、理论差异和相应研究依据？",
+      "anchors": {
+        "0": "查找成本相近，或都无法找到相关依据；注明情况。",
+        "1": "A的查找路径略方便，B可有个别更好找的引用。",
+        "2": "A定位机制及依据明显更省步骤，B局部入口优势不足以弥补。",
+        "-2": "B定位机制及依据明显更省步骤，A局部入口优势不足以弥补。",
+        "-1": "B的查找路径略方便，A可有个别更好找的引用。"
+      },
+      "boundary": "按原报告真实查找步骤；无URL但具名文献可定位不直接扣分，来源真伪另审。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增信息查找对象。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:11:info_recall:1",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "指定伯南克与理论贡献对应；不强制格特勒/吉尔克里斯特全列。",
+      "discrimination_check": "PT.D1.07漏指定学者或贡献对应为3分；仅增两位合作者不保证拉分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留DSGE框架而不强制DNK同义标签。",
+      "discrimination_check": "PT.D1.01框架与假设缺失最高3分，链条条件齐全可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "信息不对称是明确机制检查点。",
+      "discrimination_check": "PT.D1.01遗漏该摩擦最高3分，具体说明可升档。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:4",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "外部相对内部融资成本直接进入5分要求。",
+      "discrimination_check": "只有融资贵而不说明内外融资溢价关系最高3分，关系完整可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:5",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "净资产与溢价反向关系进入题干链条和5分。",
+      "discrimination_check": "只列两个概念不说关系最高3分，关系及条件清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留净资产—溢价—投资放大链。",
+      "discrimination_check": "只有金融部门变化而缺投资传导为3分；完整链条可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:10",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留明斯基与FIH对应，题面明确要求。",
+      "discrimination_check": "PT.D1.07遗漏明斯基或归属不清为3分，齐全清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:13",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "对冲融资名称及现金流定义在PT.D1.02。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:14",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "投机融资名称及续借本金定义被直接检查。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:15",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "庞氏融资名称及利息覆盖问题被直接检查。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:16",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "现金流覆盖本息的定义直接进入锚点。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:17",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "现金流付息和续借本金的区别被保留。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:18",
+      "targets": [
+        "PT.D1.02.modes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.modes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留不能覆盖利息的核心区别，去掉完全依赖上涨或新债的唯一措辞。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:19",
+      "targets": [
+        "PT.D1.02.evolution"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.evolution。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留繁荣中融资结构趋险，不说所有繁荣必然转向庞氏。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:20",
+      "targets": [
+        "PT.D1.02.evolution"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.evolution。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留融资结构变化与脆弱性关系。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:24",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.04：只解释分散或传播一侧，或未说明冲击/网络条件。；充分：说明连接对小规模或异质冲击的吸收作用及大冲击下传播风险，解释条件变化为何改变稳定性，不假设越密越好。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:26",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.04：只解释分散或传播一侧，或未说明冲击/网络条件。；充分：说明连接对小规模或异质冲击的吸收作用及大冲击下传播风险，解释条件变化为何改变稳定性，不假设越密越好。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:27",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.11：有结构但流动性角色、经验范围或核心冲击后果的重要一面缺失。；充分：说明核心与外围的连接/流动性角色，以可辨研究说明该结构在何种市场被观察到，并解释核心受损为何可能造成不成比例影响。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:28",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.11：有结构但流动性角色、经验范围或核心冲击后果的重要一面缺失。；充分：说明核心与外围的连接/流动性角色，以可辨研究说明该结构在何种市场被观察到，并解释核心受损为何可能造成不成比例影响。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:32",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面指定布伦纳迈尔/佩德森及研究贡献，不固定唯一论文版本及刊名。",
+      "discrimination_check": "PT.D1.07漏指定人物或贡献为3分，满足贡献对应可高分；只刊名年份不同不自动拉分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:33",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "市场与融资流动性区别直接要求。",
+      "discrimination_check": "PT.D1.05混淆两者最高3分，区别及闭环清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:34",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "交易对价格影响的市场流动性定义明确。",
+      "discrimination_check": "仅称资金充裕而未区分交易价格影响最高3分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:35",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "融资可得性的定义明确。",
+      "discrimination_check": "只解释市场交易而未说明融资能力最高3分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:36",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留市场恶化到资本/融资约束的传导，不固定保证金为唯一环节。",
+      "discrimination_check": "PT.D1.05链条在融资收紧处中断为3分，闭环条件清楚可5分；不要求每例都保证金追缴。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:37",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "被迫出售作为所述螺旋环节明确。",
+      "discrimination_check": "螺旋中融资收紧后未说明出售反馈最高3分；闭环清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:38",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "抛售回到价格/流动性恶化的闭环明确。",
+      "discrimination_check": "只给单向关系而无强化回路为3分；完整可5分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:40",
+      "targets": [
+        "PT.D1.06.default",
+        "PT.D1.06.price"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.06.default, PT.D1.06.price。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "跨机构风险扩散的对象进入PT.D1.06。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:41",
+      "targets": [
+        "PT.D1.06.default",
+        "PT.D1.06.price"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.06.default, PT.D1.06.price。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "两类主要渠道为共同要求，接受同义分类。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:42",
+      "targets": [
+        "PT.D1.06.default"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.06.default。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "违约—债权人损失—可能连锁违约直接要求。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:44",
+      "targets": [
+        "PT.D1.06.price"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.06.price。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "共同资产的间接价格联系直接要求。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:45",
+      "targets": [
+        "PT.D1.06.price"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.06.price。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留抛售及价格/估值传播，避免所有持有人一律遭损失的绝对断言。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:7",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留该精确检索点；不强迫可选模型、文献或历史措辞。",
+      "discrimination_check": "CSV是可选微观建模形式，题面不要求；两篇仅有无CSV可同分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:8",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.12：仅企业基础或后续部门扩展一面具体，另一面缺失。；充分：说明早期企业融资关注点，及家庭、银行研究怎样改变承担摩擦的主体或传导环节，给出截止前可辨研究依据。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:9",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.12：仅企业基础或后续部门扩展一面具体，另一面缺失。；充分：说明早期企业融资关注点，及家庭、银行研究怎样改变承担摩擦的主体或传导环节，给出截止前可辨研究依据。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:11",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "均衡范式/非均衡演变的实质差异在PT.D1.03；只比冲击来源未比框架为3，不要求非均衡三个字。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:12",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留该精确检索点；不强迫可选模型、文献或历史措辞。",
+      "discrimination_check": "卡莱茨基利润方程是可选理论溯源；仅有无该方程可同分。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:21",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留该精确检索点；不强迫可选模型、文献或历史措辞。",
+      "discrimination_check": "债务悖论不是题面必答争论；只多此争论不保证分差。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:22",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.04：只解释分散或传播一侧，或未说明冲击/网络条件。；充分：说明连接对小规模或异质冲击的吸收作用及大冲击下传播风险，解释条件变化为何改变稳定性，不假设越密越好。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:23",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "PT.D1.07检查对应网络稳定性或传染方向的代表依据，少一方向为3；可替换该具体论文，不可省略整个方向。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:25",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "PT.D1.07检查对应网络稳定性或传染方向的代表依据，少一方向为3；可替换该具体论文，不可省略整个方向。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:29",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.11：有结构但流动性角色、经验范围或核心冲击后果的重要一面缺失。；充分：说明核心与外围的连接/流动性角色，以可辨研究说明该结构在何种市场被观察到，并解释核心受损为何可能造成不成比例影响。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:30",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.14：有节点/联系描述，但债权债务方向或多类联系层次不明。；充分：说明债务暴露如何连接机构，以及信贷以外的保险、衍生品等联系如何构成不同层次或风险通道，交代单层简化遗漏什么。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:31",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.14：有节点/联系描述，但债权债务方向或多类联系层次不明。；充分：说明债务暴露如何连接机构，以及信贷以外的保险、衍生品等联系如何构成不同层次或风险通道，交代单层简化遗漏什么。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:39",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "PT.D1.05区分资本损失与保证金/融资要求的作用；闭环只剩资金不足为3，术语和章节不是义务。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:43",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "PT.D1.07检查对应网络稳定性或传染方向的代表依据，少一方向为3；可替换该具体论文，不可省略整个方向。"
+    },
+    {
+      "resource_id": "drb2:11:info_recall:46",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复内容范围而非篇目或标签命中。",
+      "discrimination_check": "PT.D1.07检查对应网络稳定性或传染方向的代表依据，少一方向为3；可替换该具体论文，不可省略整个方向。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:1",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留指定比较或实际推理价值，取消未经限定的固定结论和路线。",
+      "discrimination_check": "PT.D1.03漏冲击来源比较为3分；不将所有DSGE概括为完全外生。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:2",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留指定比较或实际推理价值，取消未经限定的固定结论和路线。",
+      "discrimination_check": "PT.D1.03缺假设/分析框架对比为3分；不用“FIH永不建模”的定性标签替代。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:3",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留指定比较或实际推理价值，取消未经限定的固定结论和路线。",
+      "discrimination_check": "PT.D1.03明确检查杠杆放大与内生趋险的区别，漏此风险形成对比为3分；不同版本可有条件修正。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:4",
+      "targets": [
+        "PT.D1.13",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.13：只谈一理论，或只有优点无重要限制，或量化与危机解释方面缺失。；充分：比较两理论用于量化/政策研究与内生脆弱性/危机解释的能力和困难，限定具体模型或方法，不将叙事性等同绝对不能数学化。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:5",
+      "targets": [
+        "PT.D1.04",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.04：只解释分散或传播一侧，或未说明冲击/网络条件。；充分：说明连接对小规模或异质冲击的吸收作用及大冲击下传播风险，解释条件变化为何改变稳定性，不假设越密越好。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:6",
+      "targets": [
+        "PT.D1.11",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "v3.3恢复该对象的具体内容；不强制原文中的唯一模型、论文或普遍结论。",
+      "discrimination_check": "PT.D1.11：有结构但流动性角色、经验范围或核心冲击后果的重要一面缺失。；充分：说明核心与外围的连接/流动性角色，以可辨研究说明该结构在何种市场被观察到，并解释核心受损为何可能造成不成比例影响。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:7",
+      "targets": [
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留指定比较或实际推理价值，取消未经限定的固定结论和路线。",
+      "discrimination_check": "PW.D3.03：闭环缺少关键连接或强化方向错误可落后于成立解释；不保留官方“负反馈”措辞。其他微观机制的优点不能补偿本项缺口。"
+    },
+    {
+      "resource_id": "drb2:11:analysis:8",
+      "targets": [
+        "PW.D3.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留指定比较或实际推理价值，取消未经限定的固定结论和路线。",
+      "discrimination_check": "PW.D3.04：解释共同资产联系如何触及无直接合同的机构，可优于只列渠道；不强制价格渠道总更广。其他微观机制的优点不能补偿本项缺口。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:1",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "两个大部分直接检查。",
+      "discrimination_check": "PT.D1.08缺大部分为2分，标题结构清楚可5分。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:2",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "保留可区分的理论内容，不强制各一小节。",
+      "discrimination_check": "PT.D1.08理论内容混在一起难定位为3分；对照表同样清楚可以5分。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:3",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "微观主题小节可辨，不强制三标题逐字出现。",
+      "discrimination_check": "PT.D1.08小节混乱为3分，清楚可5分；同义标题不罚。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "专业表达由PW.D6.01比较，事实真假另核。",
+      "discrimination_check": "内容相同但术语/指代更易懂可略好；不按学术腔或事实量排名。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:5",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "题面人物及研究贡献对应检查，不强制Eisenberg/Noe全列。",
+      "discrimination_check": "PT.D1.07人名与理论脱节为2/3分，充分对应可5分；指定外人物名单未全保留。"
+    },
+    {
+      "resource_id": "drb2:11:presentation:6",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留截止前研究依据范围，后发回溯核对不算当时新进展。",
+      "discrimination_check": "PT.D1.09主体晚于截止为1/2分，次要越界3/4分，范围清楚5分。"
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "新增指定理论说明；假设讲清而传导缺环为3分，链条与条件不拆。"
+    },
+    {
+      "id": "PT.D1.02.modes",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.evolution",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "revise",
+      "reason": "冲击来源解释好但均衡/演变范式没比较仍3，已有对称缺面档，保留。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "revise",
+      "reason": "分散好、传播未答为3；核心结构是否完整不再混入。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "定义好但只说资金紧缺仍3；资本损失与保证金变化是同一反馈回路不同环节，明确缺环而不拆成两分。"
+    },
+    {
+      "id": "PT.D1.06.default",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.06.price",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.06拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "revise",
+      "reason": "网络代表文献充分但价格传染无代表依据为3；不拆作者人数或固定年份。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "新增结构检查；大标题好而小节混乱3分，结构组件不拆。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "新增日期边界；主体正确局部越界按3/4分。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "新增单一合规对象；正文未用但列入书目4分，不拆历史访问。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "新增追溯审计；书目好而结论对应不清3分，关系不拆。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "新增证据—主张关系；混合支持3分，检索失败不充当差评。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "结构说清但无经验范围或冲击意义为3；连接密度分析不能替代核心位置。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "企业说明详尽但家庭或银行任一扩展完全缺失均3；部门及其摩擦主体/传导变化共同定义发展范围，不逐模型拆。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "只谈优点或只谈限制均3；一理论充分另一理论没有亦3。能力—限制是同一适用性判断，不逐优缺点计数。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "add",
+      "reason": "会画单层网络但不说明其它联系或简化边界为3，不以更多节点补足。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "add",
+      "reason": "新增关系比较；一理论解释强另一弱按关键推理整体比较。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "split",
+      "reason": "保留网络结构—传播一个关系对象；连通性与核心位置相反表现按对所述网络结论的影响判断，同等重要且抵销为0，不再跨流动性与传染权衡。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "split",
+      "reason": "单一反馈回路；局部连接正确但关键回路断裂/反向由明显优劣档识别，不由网络推理补偿。定义与条件不机械拆开。"
+    },
+    {
+      "id": "PW.D3.04",
+      "decision": "split",
+      "reason": "两渠道与传播对象共同定义范围比较；只解释直接合同一侧而误判共同资产传播不能算比较成立，不由其他微观机制补偿。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "add",
+      "reason": "新增解释范围综合；不同优缺点按实际研究判断帮助比较。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "新增集合比较；理论来源强但经验外推弱按概括所需证据整体判断。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "新增阅读路径；摘要好而正文跳跃综合比较，不拆重复收益。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "新增局部表达；术语好而指代不清按整体理解成本比较。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "新增查找关系；机制好找出处难找仍看完整查找成本。"
+    }
+  ],
+  "author_notes": [
+    "历史：v3.1定向审阅将原PW.D3.02拆为网络、流动性、传染三个对象（当时PT12/PW9）；v3.3为PT16/PW9，既有三项PW保持。",
+    "融资类别、定义—机制与证据—结论关系未机械拆开，所有混合情况记录在atomicity_check。",
+    "CSV、卡莱茨基方程、债务悖论、指定文献年份和螺旋标签的精确召回仍不保留；多层联系的实质范围已在v3.3由PT.D1.14恢复。官方analysis:7的反馈方向措辞不照搬。",
+    "官方是本地评价来源不是外部事实保证。作者自检与程序检查不等于独立语义审核；无浏览器、无评分。",
+    "v3.3: 保留Peirce已分开的PW.D3.02/03/04，正文逐字未回退。网络PT分清连接效应与核心结构；补回部门扩展、网络联系层次及两理论能力限制；流动性锚点区分资本损失与融资要求；代表文献明确覆盖两类传染。",
+    "v3.3待审 / pending review: CSV具体形式、卡莱茨基方程及债务悖论仍非共同必选；它们分别是微观实现、思想来源和特定争论，不替代已直接检查的融资摩擦/融资趋险主机制。论文版本、经验范围及历史范式仍待领域核验。",
+    "交叉审核仅补PT.D1.12部门缺面、PT.D1.13能力/限制双向中档，并校正历史数量与多层联系说明；已拆开的PW.D3.02/03/04未改。"
+  ]
+}

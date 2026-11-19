@@ -1,0 +1,1432 @@
+{
+  "task_key": "drb2:97",
+  "title": "沉浸式梵高展",
+  "language": "zh",
+  "full_query": "你好，我最近总是看到那种沉浸式梵高艺术展的广告，感觉铺天盖地的。我有点好奇，想让你帮我做一个全面的调研，但请只关注2022年及以前的情况。我希望你帮我搞清楚几个问题：\n\n1. 当时市面上有哪些主要的梵高沉浸式展览？请列出这些展览的具体名称及其背后的主要运营公司。\n2. 这些展览里面到底是什么样的？是看真画吗？还是用投影和其他技术？它们的内容、形式和体验流程大致是怎样的？请详细描述一下，可以举一些具体的例子。\n3. 这些展览的商业模式是怎样的？比如，做一个这样的展览大概要花多少钱？普通人去看一次票价是多少？它们赚钱吗，有没有具体的收入数据可以参考？\n4. 社会上对这些展览的评价怎么样？我希望你从不同角度来总结，比如专业的艺术评论家是怎么看的，商业财经媒体是怎么分析的，以及普通观众和地方新闻是怎么报道的。\n\n请你把调研结果整理成四部分，分别使用“一、主要竞争展览及其主办方”、“二、展览内容与体验”、“三、商业模式与成本收益”、“四、各方评价”作为标题。谢谢！\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'The Influencers: Van Gogh Immersive Experiences and the Attention-Experience Economy', 'authors': ['Kate Mondloch'], 'urls': ['https://www.mdpi.com/2076-0752/11/5/90', 'https://www.researchgate.net/publication/363712184_The_Influencers_Van_Gogh_Immersive_Experiences_and_the_Attention-Experience_Economy', 'https://www.semanticscholar.org/paper/2412794ee1f3960f50cdd717199b0e8524a90f13', 'https://scispace.com/papers/the-influencers-van-gogh-immersive-experiences-and-the-12hjy9kh']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "主要展览名单与运营主体",
+      "question": "报告是否列出2022年及以前的主要梵高沉浸式展览，区分近名品牌，并给出各自对应的主要制作或运营主体？",
+      "anchors": {
+        "1": "没有可用的沉浸式展览名单，或主体答成普通原作画展。",
+        "2": "只有零散展名，或虽有展名却没有可辨认的主体对应。",
+        "3": "有多个展览—主体对应，但漏掉多个主要品牌、把两个近名品牌当成同一项目，或多数主要主体字段缺失。",
+        "4": "主要品牌和主体基本可辨，但漏掉一个主要品牌、一个主要主体，或少数制作/运营角色需读者推断。",
+        "5": "主要品牌均可辨认并对应主要主体，尤其能区分Immersive Van Gogh与Van Gogh: The Immersive Experience；没有实质遗漏或近名混同。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。 主要品牌核对对象为Immersive Van Gogh Exhibit、Imagine Van Gogh: The Immersive Exhibition、Beyond Van Gogh、Van Gogh Alive、Van Gogh: The Immersive Experience，允许可辨认简称，不是只凑五个名称。对应主体中应能识别Lighthouse Immersive与Immersive Van Gogh、Grande Experiences与Van Gogh Alive的关系；其余项目也须有实际主要主体。制作、运营、联合出品和场馆角色不能互换；不要求列全合作公司。上述官方对象是覆盖核对线索，不是已完成外部事实核验；有材料支持的名称或角色差异须先澄清，再判断遗漏。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:2",
+          "drb2:97:info_recall:3",
+          "drb2:97:info_recall:4",
+          "drb2:97:info_recall:5",
+          "drb2:97:info_recall:6",
+          "drb2:97:info_recall:8",
+          "drb2:97:info_recall:9",
+          "drb2:97:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "是否展示原作，以及使用哪些数字媒介",
+      "question": "报告是否回答“是看真画还是投影和其他技术”这一核心疑问，并说明数字媒介形式的基本构成？",
+      "anchors": {
+        "1": "没有说明展览媒介，或把所述数字投影、复制图像错误地当作梵高原作展示。",
+        "2": "只称沉浸式或数字艺术，未明确回答是否展示原作，也未说明具体数字媒介。",
+        "3": "原作边界与数字媒介构成只有一面说清：例如技术丰富却未回答是否有原作，或说明不展原作却未描述数字呈现。",
+        "4": "清楚说明所述沉浸式节目不是观看梵高原作，并说明投影、画作动画化和声音配合，但少数项目或场次边界欠清。",
+        "5": "明确说明所述数字沉浸式节目不包含梵高原作，具体交代投影、画作动画化、声音配合及必要项目差异，不把另设的原作展混入数字节目。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。 本项评媒介构成及原作边界；现场空间、参观流程由PT.D1.03评价。不得把“未以原作为主”自动视为已经回答“有没有原作”；若同一场馆另有原作展，须区别节目、展区和票种。投影表面可随场馆不同，不要求每个项目同时投满墙壁、天花板和地板。 原作有无须针对所述节目判断：仅技术名称多不能补偿未回答是否有原作；将数字复制品当成原作属于本项核心错误，判1。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:1",
+          "drb2:97:info_recall:13",
+          "drb2:97:info_recall:14",
+          "drb2:97:info_recall:16"
+        ],
+        "query_quotes": [],
+        "change_note": "审核28最小修订：当前3–5档已区分原作边界与数字媒介，仅明确1档的原作/复制品混淆及2档空泛描述；其余评分要求保留。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "内容、流程与具体例子",
+      "question": "报告是否具体描述这些展览里面是什么样、观众大致怎样经历展览，并给出能帮助理解的项目或场景例子？",
+      "anchors": {
+        "1": "没有任何可读的展览内容或流程描述。",
+        "2": "只有“沉浸、震撼、互动”等空泛形容，缺少具体内容或流程。",
+        "3": "有若干空间/技术/节目元素，但流程、观众参观路线或具体展览例子中，至少有一方面明显不足。",
+        "4": "内容、空间形式和大致流程均可定位，有具体例子，少数场景或项目归属略模糊。",
+        "5": "用具体展览或场景说明影像、声音、空间、附加体验和进出流程，让读者能形成较完整的现场图景。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:12"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "商业模式构成",
+      "question": "报告是否说明这些展览怎样作为商业项目运作，而不只是列成本、票价和收入数字？",
+      "anchors": {
+        "1": "商业模式完全未答。",
+        "2": "只说“卖票赚钱”或“很商业化”，没有说明具体如何经营。",
+        "3": "提到票务或周边等一两项收入来源，但仍未说明展览如何整体运营。",
+        "4": "说明票务、附加体验/周边/活动、场馆或巡展运营中的多数要素，个别关系没有完全说明。",
+        "5": "清楚说明展览如何通过票务、附加消费、场地/巡展/品牌营销等环节组织收入和规模化运营。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "成本信息或缺口",
+      "question": "报告是否提供有对象和口径的展览成本案例、范围或有依据的具体资料缺口，说明数字包括哪些费用？",
+      "anchors": {
+        "1": "成本问题完全未答。",
+        "2": "只称成本高，或只有一个无对象、无含义的金额。",
+        "3": "有金额或资料缺口，但案例对象、币种、期间或费用包含范围等关键口径不清。",
+        "4": "案例对象、金额或缺口及主要成本口径清楚，只有不影响理解的次要字段欠缺。",
+        "5": "提供可定位的成本案例、范围或有依据的具体资料缺口，说明适用对象、币种及相关期间，区分所列费用是部分成本、一次性投入还是总成本，不将单个案例直接视为行业平均。"
+      },
+      "boundary": "不要求覆盖固定成本类别或同时讨论临时与永久场馆；场馆费用只是可能的组成部分。若使用或比较不同项目、期间或费用范围的数据，须说明相应口径差异。不要求固定金额。有依据的资料缺口可以充分回应，但“未找到”本身不够；没有金额时无需虚填币种。本项检查口径说明，数字真实性由PT.D2.02的核验范围处理，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:24",
+          "drb2:97:info_recall:25"
+        ],
+        "query_quotes": [],
+        "change_note": "审核28：取消临时/永久场馆双覆盖配额，保留展览成本对象、包含范围、投入/总成本区分及有据资料缺口。官方固定类型及数字的遗漏检测不保证保留。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "普通票价信息",
+      "question": "报告是否给出普通人看一次展览的票价案例或范围，并让读者知道该价格对应哪里、何时、何种票或附加项目？",
+      "anchors": {
+        "1": "票价完全未答。",
+        "2": "只泛称贵、便宜或价格不一。",
+        "3": "有票价数字但地点、时期、币种或票种含义多数不清。",
+        "4": "票价对象和币种大体明确，少数附加项目或时间条件没有完全说明。",
+        "5": "提供可定位的普通票价范围/案例，并说明地点、时期、币种、基础票与附加体验的边界。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:19",
+          "drb2:97:info_recall:26"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "收入数据与盈利判断",
+      "question": "报告是否提供可参考的收入数据或有依据的缺口说明，区分票务、附属收入与净利润，并回答现有材料能否说明盈利？",
+      "anchors": {
+        "1": "收入和盈利问题均未回答。",
+        "2": "只说赚钱或商业成功，没有收入材料或具体缺口。",
+        "3": "给出收入或票数，但对象、期间、票务与附属收入是否合计、收入与利润的区别或盈利判断存在关键缺口。",
+        "4": "收入对象、期间和盈利判断限制基本明确，只有次要口径或附属收入的资料状态未说明。",
+        "5": "收入数据或可信缺口说明可定位；票务和附属收入分别交代，已知时说明是否合计，未知时标出缺口；明确营收不等于净利润，并说明能否判断盈利。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。 不要求Lighthouse的特定金额或固定收入来源数量。不能将票数当收入，也不能在总额已含礼品店收入时重复相加；是否确实误报限证据核验，推导是否成立由PW.D3.02比较。本项不要求另做利润测算。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:27",
+          "drb2:97:info_recall:28"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.08.art",
+      "dimension": "D1",
+      "title": "艺术评论",
+      "question": "报告是否具体归纳艺术评论者对这些展览的评价及判断关注点？",
+      "anchors": {
+        "1": "未回答艺术评论。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有评价标签，但所评展览、具体观点或该群体关注点不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将艺术评论者的具体观点与所评对象、关注点及材料语境对应，不把另一群体的评价代替，也不预设必须赞成或反对。"
+      },
+      "boundary": "新闻报道转述的观众意见可作观众材料，但不能直接当记者立场；区分评论样本与整个群体。PW.D4.02比较分歧解释而非观点数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:30",
+          "drb2:97:info_recall:31",
+          "drb2:97:info_recall:32",
+          "drb2:97:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.business",
+      "dimension": "D1",
+      "title": "商业财经评价",
+      "question": "报告是否具体归纳商业财经媒体对这些展览的评价及判断关注点？",
+      "anchors": {
+        "1": "未回答商业财经评价。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有评价标签，但所评展览、具体观点或该群体关注点不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将商业财经媒体的具体观点与所评对象、关注点及材料语境对应，不把另一群体的评价代替，也不预设必须赞成或反对。"
+      },
+      "boundary": "新闻报道转述的观众意见可作观众材料，但不能直接当记者立场；区分评论样本与整个群体。PW.D4.02比较分歧解释而非观点数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:36",
+          "drb2:97:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.local",
+      "dimension": "D1",
+      "title": "地方新闻评价",
+      "question": "报告是否具体归纳地方新闻报道对这些展览的评价及判断关注点？",
+      "anchors": {
+        "1": "未回答地方新闻评价。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有评价标签，但所评展览、具体观点或该群体关注点不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将地方新闻报道的具体观点与所评对象、关注点及材料语境对应，不把另一群体的评价代替，也不预设必须赞成或反对。"
+      },
+      "boundary": "新闻报道转述的观众意见可作观众材料，但不能直接当记者立场；区分评论样本与整个群体。PW.D4.02比较分歧解释而非观点数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:33",
+          "drb2:97:info_recall:34",
+          "drb2:97:info_recall:35",
+          "drb2:97:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.08.audience",
+      "dimension": "D1",
+      "title": "观众评价",
+      "question": "报告是否具体归纳普通观众对这些展览的评价及判断关注点？",
+      "anchors": {
+        "1": "未回答观众评价。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有评价标签，但所评展览、具体观点或该群体关注点不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "将普通观众的具体观点与所评对象、关注点及材料语境对应，不把另一群体的评价代替，也不预设必须赞成或反对。"
+      },
+      "boundary": "新闻报道转述的观众意见可作观众材料，但不能直接当记者立场；区分评论样本与整个群体。PW.D4.02比较分歧解释而非观点数量。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.08"
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "指定四标题",
+      "question": "报告是否按题面要求使用“一、主要竞争展览及其主办方”“二、展览内容与体验”“三、商业模式与成本收益”“四、各方评价”作为四个部分标题？",
+      "anchors": {
+        "1": "没有四部分结构，也未使用指定标题。",
+        "2": "有分节但与指定标题大多不符或缺多个部分。",
+        "3": "保留四部分意图但标题改写较多、顺序混乱或缺一个指定标题。",
+        "4": "四个部分基本对应，只有轻微标点、序号或同义小改不影响定位。",
+        "5": "完整使用四个指定标题。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:presentation:1",
+          "drb2:97:presentation:2"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "2022年及以前范围",
+      "question": "报告是否把研究对象限制在2022年及以前，且没有把2023年以后才出现或才成立的项目/数据当成当时情况？",
+      "anchors": {
+        "1": "主体研究明显转向2023年以后，2022年前情况只零散出现。",
+        "2": "多处把2023年以后项目、数据或评价当作当时情况，实质改变范围。",
+        "3": "主体仍在2022年前，但有明显后期资料混入且缺少回顾/截止说明。",
+        "4": "总体限定正确，个别后发表资料被用作回顾或少量日期说明略不清。",
+        "5": "项目、商业数据和评价均清楚限定为2022年及以前；后发表资料只用于说明此前事实并标明。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:presentation:6"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "是否避免使用题目禁止的来源",
+      "question": "报告是否避免引用或实际使用题目禁止的来源？只检查最终报告中能观察到的使用情况，不推测生成过程中是否访问过这些来源。",
+      "anchors": {
+        "1": "明确以指定禁源支撑核心结论。",
+        "2": "明确用于多个实质次要论点，核心结论尚有独立依据。",
+        "3": "明确用于一个局部实质论点。",
+        "4": "仅在文献清单中列入指定禁源，没有可确认的正文实质使用。",
+        "5": "完整最终报告未发现指定禁源引用或取用；排除清单复述不算引用。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "关键主张可追溯",
+      "question": "报告的关键主张是否能追溯到具体引用、材料位置或报告内可复核推导？",
+      "anchors": {
+        "1": "关键事实和数据大多无来源或无法定位。",
+        "2": "有少量来源，但多数核心主张与引用对应关系不清。",
+        "3": "主要主张大体有来源或可追溯推导，但若干重要数据/观点需读者猜测依据。",
+        "4": "绝大多数关键主张可定位到相应引用或推导，少数非核心处略弱。",
+        "5": "关键主张、数据、观点归属和推导前提均有清楚可复核的来源或文本链路。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内证据可靠性",
+      "question": "在记录的核验样本内，报告重要主张得到的支持是否可靠？区分材料不支持与材料访问失败。",
+      "anchors": {
+        "1": "已核验核心主张被否定或所称依据不成立，实质破坏任务回答。",
+        "2": "多个重要核验主张存在实质支持错误。",
+        "3": "重要主张部分得到支持，但仍有影响使用的范围或归属错误。",
+        "4": "重要核验主张基本得到支持，仅有次要措辞或归属问题。",
+        "5": "本次已判断主张的对象、范围、强度均符合所得证据；不代表全文引用全数正确。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。 检索执行失败不能转为质量分；重试并如实记录。须同时发布选中/完成核验数。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "内部陈述一致",
+      "question": "报告内部的事实、数值、单位、范围及正文表格是否自洽？",
+      "anchors": {
+        "1": "内部大量互相矛盾，读者无法判断采用哪一组事实或数字。",
+        "2": "多处主要项目、时间、币种或收入/成本口径前后冲突。",
+        "3": "主体可读但有若干明显不一致，需要读者自行调和。",
+        "4": "内部基本一致，少数次要字段或表述未完全同步。",
+        "5": "同一对象的名称、公司、日期、口径和数字在正文、表格和结论中保持一致。"
+      },
+      "boundary": "只按本项要求评分，不因报告采用某一种分析方法而额外加分。如果提供的文献信息足以找到来源，不因缺少URL直接扣分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "主题、分享与获客机制",
+      "question": "报告是否具体说明梵高主题的吸引力、现场分享设计和观众传播如何参与获客？",
+      "anchors": {
+        "1": "没有获客机制说明。",
+        "2": "只称梵高有名或社交媒体营销成功。",
+        "3": "解释主题吸引、分享设计或传播转化的一部分，但缺主要环节，或直接把分享量当收入。",
+        "4": "主题与情感体验、分享设计、传播获客联系清楚，局部转化条件说明较弱。",
+        "5": "说明梵高作品或生平如何形成主题吸引，现场可分享体验如何引发传播并触达潜在观众，区分曝光、购票转化与实际收入，不将品牌宣传当已证明因果。"
+      },
+      "boundary": "不要求Netflix、Instagram、镜面房间、特定论文或注意力/体验经济术语。成本或巡展机制可补充，但不能替代获客问题。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:analysis:1",
+          "drb2:97:analysis:2",
+          "drb2:97:analysis:3",
+          "drb2:97:analysis:4",
+          "drb2:97:analysis:5",
+          "drb2:97:analysis:6",
+          "drb2:97:analysis:7",
+          "drb2:97:analysis:8",
+          "drb2:97:analysis:13",
+          "drb2:97:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "原PW允许其他经营路线完全替代获客，遗漏了共同商业机制。主题—分享—获客是同一链条，讲分享而不说明触达/转化为3，不按每种媒介凑项。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "主办方的艺术价值辩护",
+      "question": "报告是否介绍并归属主办方关于艺术普及和原作保护的辩护，并区分宣传主张与已有证据？",
+      "anchors": {
+        "1": "没有主办方辩护。",
+        "2": "仅称能普及艺术或保护原作，观点归属不清。",
+        "3": "明确辩护者，但普及或保护有一面完全未交代，或把自报观众数据当独立成效证明。",
+        "4": "两类辩护及出处角色清楚，局部证据限制交代不足。",
+        "5": "具体说明艺术普及与原作保护的主办方说法及其理由，说明数据或论据的来源角色和局限，不预定辩护成立。"
+      },
+      "boundary": "不要求50%比例、不把主办方意见当普通观众评价；对某项辩护资料不足须具体交代，不能杜撰引用。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:info_recall:38",
+          "drb2:97:info_recall:39"
+        ],
+        "query_quotes": [],
+        "change_note": "补回官方两类重要价值主张，不将特定比例可选扩大为删去辩护领域。普及充分但保护完全没有明确为3。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "哪篇更准确地解释不同展览内容和技术为何产生不同观展体验？",
+      "question": "哪篇更准确地解释不同展览内容和技术为何产生不同观展体验？",
+      "anchors": {
+        "0": "两文在内容、投影节奏或空间设计如何产生观展体验上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在重要体验变化的解释上略好；B仍可局部更好。",
+        "2": "A在内容、投影节奏或空间设计如何产生观展体验上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在内容、投影节奏或空间设计如何产生观展体验上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在重要体验变化的解释上略好；A仍可局部更好。"
+      },
+      "boundary": "不要求特定心理学理论、互动装置或更多技术名词。 本项比较报告的结论能否从所列前提和条件中合理得出。评分时要指出具体推理，以及缺少哪一步。细节更多、用途更广或更方便执行，不等于推理更可靠。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "哪篇对商业判断的推导更成立、边界更清楚？",
+      "question": "哪篇对商业判断的推导更成立、边界更清楚？",
+      "anchors": {
+        "0": "两文在票价、客流、成本和收入为何支持或不足以支持商业判断上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在重要商业结论的推导上略好；B仍可局部更好。",
+        "2": "A在票价、客流、成本和收入为何支持或不足以支持商业判断上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在票价、客流、成本和收入为何支持或不足以支持商业判断上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在重要商业结论的推导上略好；A仍可局部更好。"
+      },
+      "boundary": "无需自行计算或敏感性分析；收入不是利润，谨慎措辞本身不等于正确。 本项比较报告的结论能否从所列前提和条件中合理得出。评分时要指出具体推理，以及缺少哪一步。细节更多、用途更广或更方便执行，不等于推理更可靠。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "哪篇更帮助读者理解这些展览如何作为商业项目运作，以及成功或受限的条件？",
+      "question": "哪篇更帮助读者理解展览如何把体验转化为经营收入，以及这种运作在什么条件下成功或受限？",
+      "anchors": {
+        "0": "两篇对商业运作及条件的判断帮助相近，或两篇均没有相关帮助；须说明属于哪种情况。",
+        "1": "综合双方后，A对一处重要经营联系或适用条件的解释略有更多判断价值；B可在局部更好。",
+        "2": "A明显更能把体验、获客或经营安排连成有依据的商业图景，并说明成功或受限条件；B局部有用细节不足以弥补差距。",
+        "-2": "B明显更能把体验、获客或经营安排连成有依据的商业图景，并说明成功或受限条件；A局部有用细节不足以弥补差距。",
+        "-1": "综合双方后，B对一处重要经营联系或适用条件的解释略有更多判断价值；A可在局部更好。"
+      },
+      "boundary": "允许成本结构、分发模式、体验获客等不同路线；不要求全数采用。 比较双方已有依据、或已说明适用条件的内容，看哪篇更能帮助读者作出题目需要的判断或行动。说明帮助读者判断什么，以及会带来什么实际影响。不能只因为某项推理更可靠，就在本项重复加分；应进一步说明它对判断或行动的帮助。 例如，只有“适合自拍”不等于解释商业运作；若报告确实将场景设计、观众分享、触达潜在购票者及转化限制连起来，应判断这条联系是否帮助理解获客。同样可用场馆复用、巡展或其他成立的路线得到高评价，不强制Instagram、体验经济或注意力经济术语。不以理论名词或环节数量决定优劣；同一因果链的成立性不能与PW.D3.02重复奖励，须指出它额外改变了哪项经营判断。 v3.3：PT.D1.12已检查主题—分享—获客内容，本项比较它与实际经营条件形成何种商业判断；完整巡展分析不能在PT替代获客，但可以在这里贡献不同的综合认识。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:analysis:2",
+          "drb2:97:analysis:3",
+          "drb2:97:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "哪篇更帮助理解各方评价为什么分歧，以及这些分歧意味着什么？",
+      "question": "哪篇更帮助读者判断各方评价分歧来自什么标准或诉求，以及这对理解展览价值有什么影响？",
+      "anchors": {
+        "0": "两篇对分歧及其意义的解释帮助相近，或均未提供相关帮助；须分清。",
+        "1": "A在解释一处重要分歧及其判断意义上总体略好；B仍可在其他观点上更有帮助。",
+        "2": "A明显更能辨别各方评价标准或诉求的差异，并说明其对艺术价值、体验价值或消费判断的影响；B局部观察不足以弥补差距。",
+        "-2": "B明显更能辨别各方评价标准或诉求的差异，并说明其对艺术价值、体验价值或消费判断的影响；A局部观察不足以弥补差距。",
+        "-1": "B在解释一处重要分歧及其判断意义上总体略好；A仍可在其他观点上更有帮助。"
+      },
+      "boundary": "不预设评论家错误或观众正确，不要求任何理论家。 比较双方已有依据、或已说明适用条件的内容，看哪篇更能帮助读者作出题目需要的判断或行动。说明帮助读者判断什么，以及会带来什么实际影响。不能只因为某项推理更可靠，就在本项重复加分；应进一步说明它对判断或行动的帮助。 应指明实际分歧，例如同一数字体验在原作观看、娱乐休闲或消费性价比标准下为何评价不同；不要求这些标准全部出现。只列“评论家不喜欢、观众喜欢”不构成分歧解释。可以认为批评成立、不成立或各有所指，不预设真实性批评不得要领；不要求Hayles等特定理论。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:analysis:11",
+          "drb2:97:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "哪篇的材料组合更能支撑其整体市场及社会评价图景？",
+      "question": "哪篇的材料组合更能支撑其整体市场及社会评价图景？",
+      "anchors": {
+        "0": "两文在展览经营和四类评价概括的材料适配上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在重要市场或评价概括的证据匹配上略好；B仍可局部更好。",
+        "2": "A在展览经营和四类评价概括的材料适配上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在展览经营和四类评价概括的材料适配上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在重要市场或评价概括的证据匹配上略好；A仍可局部更好。"
+      },
+      "boundary": "不按链接数量/域名声望机械排名；单引用错配只影响可采信范围，不再次逐错罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "全文组织与阅读顺序",
+      "question": "哪篇全文组织与阅读顺序更有效，能在内容推进、摘要入口和可避免的重复之间更好地服务本题读者？",
+      "anchors": {
+        "0": "两文在从展览辨识到现场、经营与评价的阅读推进上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在展览信息与讨论的组织衔接上略好；B仍可局部更好。",
+        "2": "A在从展览辨识到现场、经营与评价的阅读推进上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在从展览辨识到现场、经营与评价的阅读推进上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在展览信息与讨论的组织衔接上略好；A仍可局部更好。"
+      },
+      "boundary": "阅读原文，将排序、承接及重复内容的作用放在一起权衡，只计一次。摘要可能帮助略读，必要技术细节不是冗余；不默认篇幅短或按题面标题顺序就更好。句子意思是否清楚、特定信息及来源是否容易定位分别另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "哪篇对已写内容的表述更清楚？",
+      "question": "哪篇对已写内容的表述更清楚？",
+      "anchors": {
+        "0": "两文在展名主体、现场形式和成本收入口径的表述上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在展览细节和商业数字的理解上略好；B仍可局部更好。",
+        "2": "A在展名主体、现场形式和成本收入口径的表述上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在展名主体、现场形式和成本收入口径的表述上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在展览细节和商业数字的理解上略好；A仍可局部更好。"
+      },
+      "boundary": "只判断已写意思的可理解性：措辞、指代及局部句子或表格标注。全篇重复、章节排序、事实真假或内容更多不得再算成本项收益或缺陷。内部span切分不是原文排版。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:97:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "哪篇更方便定位所需信息及其依据？",
+      "question": "哪篇更方便定位所需信息及其依据？",
+      "anchors": {
+        "0": "两文在展览主体、票价收入及评价出处的定位上相近，或同等重要的相反优点抵销，或双方均无帮助；须说明是哪一种。",
+        "1": "综合双方优缺点，A在重要展览细节及所称来源的查找上略好；B仍可局部更好。",
+        "2": "A在展览主体、票价收入及评价出处的定位上明显更有帮助；B的局部优点不足以弥补。",
+        "-2": "B在展览主体、票价收入及评价出处的定位上明显更有帮助；A的局部优点不足以弥补。",
+        "-1": "综合双方优缺点，B在重要展览细节及所称来源的查找上略好；A仍可局部更好。"
+      },
+      "boundary": "比较查找特定任务信息及其声称来源所需的实际操作。全篇重复和来源有效性不再计分；链接与具名引用有不同定位路径，不能按链接数量排名。内部切段不等于原文URL损坏。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:97:info_recall:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "仅将“无原作”改成“不是以原作为主、可能有真画”且未澄清时，PT.D1.02从5降至3；独立原作展区的有据说明不扣。 把数字复制品当成原作判1；仅未澄清原作边界而已说明数字媒介仍按3档。",
+      "reason": "明确数字节目不含原作，去除“任何展览、任何场馆均无原作”的无条件外推。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其他信息完整时，仅遗漏Immersive Van Gogh Exhibit由5降4；与另一品牌混同造成实质识别错误可落3；已在同档存在其他缺陷时不保证每次遗漏都再降一档。",
+      "reason": "将Immersive Van Gogh Exhibit写入主要品牌核对对象，不以任意五个展名替代。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其他信息完整时，仅遗漏Imagine Van Gogh: The Immersive Exhibition由5降4；与另一品牌混同造成实质识别错误可落3；已在同档存在其他缺陷时不保证每次遗漏都再降一档。",
+      "reason": "将Imagine Van Gogh: The Immersive Exhibition写入主要品牌核对对象，不以任意五个展名替代。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:4",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其他信息完整时，仅遗漏Beyond Van Gogh由5降4；与另一品牌混同造成实质识别错误可落3；已在同档存在其他缺陷时不保证每次遗漏都再降一档。",
+      "reason": "将Beyond Van Gogh写入主要品牌核对对象，不以任意五个展名替代。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:5",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其他信息完整时，仅遗漏Van Gogh Alive由5降4；与另一品牌混同造成实质识别错误可落3；已在同档存在其他缺陷时不保证每次遗漏都再降一档。",
+      "reason": "将Van Gogh Alive写入主要品牌核对对象，不以任意五个展名替代。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:6",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其他信息完整时，仅遗漏Van Gogh: The Immersive Experience由5降4；与另一品牌混同造成实质识别错误可落3；已在同档存在其他缺陷时不保证每次遗漏都再降一档。",
+      "reason": "将Van Gogh: The Immersive Experience写入主要品牌核对对象，不以任意五个展名替代。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:7",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差是否明确说出该北美公司总数时，当前项可能同分；保留项目—公司对应不等于保留该总数断言。",
+      "reason": "不要求另写北美至少五家公司这一市场总数，品牌数、合作公司数和地域口径不可互相代替。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:8",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其余完整时，仅遗漏该主体对应从5降4；如给出错误对应，覆盖判断须先澄清，事实错配由PT.D2.02实际核验后判。",
+      "reason": "将Lighthouse Immersive—Immersive Van Gogh的主要制作关系纳入核对，不强制罗列所有合作方。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:9",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其余完整时，仅遗漏该制作主体从5降4；角色错误不能靠其他公司的数量补足，外部真假仍需实际核验。",
+      "reason": "将Grande Experiences—Van Gogh Alive的制作关系纳入核对。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:10",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "已明确Lighthouse及主要运营关系的两篇，只差Impact Museums时可能同分；此合作角色的独立召回能力有意损失。",
+      "reason": "保留主要运营主体但不要求全体联合创作者；Impact Museums的具体联合创作角色未设必答。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:11",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差是否提该展览起源时不必改分；不得以PW的宽泛背景相关性声称保留。",
+      "reason": "巴黎2019年原型及所有展览共同起源不属于题面指定事项，且跨品牌起源不能无条件归一。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:12",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只有沉浸形容而无空间描述的报告可落2/3；有可辨空间及流程的可到4/5。但将仓库替换为有据的其他场馆不降分，仓库一词召回未保留。",
+      "reason": "保留空间形式的具体描述，不把仓库式建筑设为所有展览共同形式。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:13",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只讲数字艺术不说明投影，不能到4/5；只有投影表面清单不同、媒介同样清楚时可同分，三表面齐全的原要求不保留。",
+      "reason": "投影为明确的媒介要求，不强制墙壁、天花板、地板三面同时出现。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:14",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "其余完整但仅说静态投影、未交代动画化，不能满足4/5档的媒介要求；应按仅部分媒介说清判3。",
+      "reason": "五档中明确要求说明画作动画化，不只用“数字媒介”标题对应。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "用同样具体的其他动画例子替换该案例可同分；丢失该画作与动画细节的特定召回。",
+      "reason": "不强制抽烟骷髅这一动画案例，允许其他具体且有归属的场景。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:16",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "其余完整但完全未说明声音时不满足4/5；旁白、音景或配乐之间的有据替换不扣分，原例子不逐个计。",
+      "reason": "保留声音与影像配合的媒介内容，不要求每个项目都有旁白。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:17",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "两篇只差镜面案例而其他空间描写同样具体，可同分；有镜面却无自拍机制也不会因本官方项目独立扣分。",
+      "reason": "镜面与自拍是可选装置和解释案例，不作为共同覆盖要求。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:18",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差香氛这一元素而体验描述均充分时可同分；不保留香氛特定召回。",
+      "reason": "香氛并非所有展览具有，题面未指定。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:19",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "混淆普通票与含附加体验票的报告在PT.D1.06落3/4，边界完整可到5；同样明确边界但无VR例子可同分。",
+      "reason": "保留基础票与附加体验的价格边界，不强制VR或全行业均需另付费的结论。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:20",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差该AI互动案例而其他体验信息足够时不必改分；不保留这项特定技术召回。",
+      "reason": "AI给梵高写信是可选案例，且需场次与截至2022年的证明，不能按官方文本直接强制。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:21",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "其他经营逻辑同样具体时，只差这些活动可以同分；PT.D1.04的运作描述不等于这些活动已保留。",
+      "reason": "瑜伽、冥想、情侣套餐属于可选经营实例，不规定每篇均采用特殊活动路线。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:22",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "改成其他有据的出口安排，流程和收入说明不变时同分；店铺大小和出口位置的特定召回不保留。",
+      "reason": "保留附属消费及流程的一般检查，但不要求出口处大型礼品店这一布局。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:23",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "其他商品同样具体可同分；丢失指定两种商品的辨别，不用“商业模式”宽泛挂靠。",
+      "reason": "不把梵高鸭或耳朵橡皮列为必须商品。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:24",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "口径不清仍影响评分；缺某类场馆或官方金额不再单独降档。",
+      "reason": "改查一般成本对象及费用口径，不强制临时/永久两类场馆。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:25",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "口径不清仍影响评分；缺某类场馆或官方金额不再单独降档。",
+      "reason": "改查一般成本对象及费用口径，不强制临时/永久两类场馆。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:26",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "缺票价只能1/2，金额有但票种等多数不明为3，口径完整为5；35美元与超过100美元这组特定值不必出现，数字召回有损失。",
+      "reason": "原项已有普通票、时期地点币种及附加体验边界，允许地区和票种不同的价格。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:27",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只说赚钱无数据落2，票数被当收入或期间不明落3；有可定位收入并交代盈利限制可到5。换用其他充分有据收入可同分，450万/2.5亿特定数字不保留。",
+      "reason": "保留收入数据—票数—盈利口径，不把Lighthouse和MarketWatch指定数据作为唯一可用案例。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:28",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只有票务数字且附属收入状态完全未说明不能到5；重复加总形成关键口径问题落3。3000万美元换成其他有据附属数据不扣，精确金额召回未保留。",
+      "reason": "明确检查票务与附属收入是否分别交代和是否合计，不要求3000万美元这一数值。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:29",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "两篇只差松下最大买家信息可以同分；采购排名的辨别能力未保留。",
+      "reason": "投影仪最大买家属于采购规模轶事，不是成本、盈利或体验回答不可缺的内容。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:30",
+      "targets": [
+        "PT.D1.08.art"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.08.art。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "prior_disposition_reason": "要求艺术评价交代艺术呈现与原作体验的判断依据，但不预设所有评论家普遍负面。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:31",
+      "targets": [
+        "PT.D1.08.art"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "将该比喻替换成其他明确批评可同分；特定画作、家具和IKEA关联不保留。",
+      "reason": "IKEA比喻仅为可选具体批评，其他有出处批评同样可用。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:32",
+      "targets": [
+        "PT.D1.08.art"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "两篇只有这一比喻不同而观点同样具体时可同分；不保留特定引文召回。",
+      "reason": "洗车房门帘是特定评论措辞，不是共同回答义务。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:33",
+      "targets": [
+        "PT.D1.08.local"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.08.local。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "prior_disposition_reason": "要求地方新闻的体验/消费关注有实质观点，允许材料呈现不同倾向。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:34",
+      "targets": [
+        "PT.D1.08.local"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.08.local。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "prior_disposition_reason": "地方新闻的消费关注可由辨别近名展览和选择建议具体呈现，不强制报道必须花大量篇幅。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:35",
+      "targets": [
+        "PT.D1.08.local"
+      ],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "换为其他可辨地方比较报道可以同分；特定标题的召回能力不保留。",
+      "reason": "Boston.com指定标题属于可选例证。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:36",
+      "targets": [
+        "PT.D1.08.business"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.08.business。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "prior_disposition_reason": "明确要求商业财经媒体的商业价值分析，不能用艺术好坏标签代替。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:37",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差Emily in Paris而其他获客解释同样充分可同分；这一剧集与流行关联的召回不保留。",
+      "reason": "剧集植入是可选获客实例，不强制影视传播路线。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:38",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13直接检查艺术普及与原作保护辩护及其归属，单独缺一面为3。50%精确比例和辩护必然正确不强制；主办方观点不能冒充观众。",
+      "reason": "PT.D1.13直接检查艺术普及与原作保护辩护及其归属，单独缺一面为3。50%精确比例和辩护必然正确不强制；主办方观点不能冒充观众。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:39",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13直接检查艺术普及与原作保护辩护及其归属，单独缺一面为3。50%精确比例和辩护必然正确不强制；主办方观点不能冒充观众。",
+      "reason": "PT.D1.13直接检查艺术普及与原作保护辩护及其归属，单独缺一面为3。50%精确比例和辩护必然正确不强制；主办方观点不能冒充观众。"
+    },
+    {
+      "resource_id": "drb2:97:info_recall:40",
+      "targets": [],
+      "status": "not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "不再保证检出传统机构回应或Newfields例子的遗漏。",
+      "reason": "传统机构影响属于可选补充，非Query独立必答；取消独立评分。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:1",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析指出，选择梵高作为主题并非偶然，因为他充满情感的作品和广为人知的悲剧性生平很容易被“挖掘”以创造能吸引观众注意力的情感体验。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析指出，选择梵高作为主题并非偶然，因为他充满情感的作品和广为人知的悲剧性生平很容易被“挖掘”以创造能吸引观众注意力的情感体验。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:2",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：解释展览商业模式的核心是利用社交媒体进行病毒式传播，观众通过分享体验，成为事实上的“微网红”或品牌大使。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：解释展览商业模式的核心是利用社交媒体进行病毒式传播，观众通过分享体验，成为事实上的“微网红”或品牌大使。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:3",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：解释展览的设计充满了为社交媒体（特别是Instagram）优化的元素，如镜像房间和适合自拍的场景。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：解释展览的设计充满了为社交媒体（特别是Instagram）优化的元素，如镜像房间和适合自拍的场景。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:4",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引入并解释“体验经济”（Experience Economy）概念，指出这些公司销售的不是商品，而是“难忘的体验”。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引入并解释“体验经济”（Experience Economy）概念，指出这些公司销售的不是商品，而是“难忘的体验”。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:5",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引入并解释“注意力经济”（Attention Economy）概念，指出在信息过载的时代，消费者持续的注意力本身成为稀缺资源和收入来源。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引入并解释“注意力经济”（Attention Economy）概念，指出在信息过载的时代，消费者持续的注意力本身成为稀缺资源和收入来源。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:6",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：将上述两个概念结合，分析认为梵高沉浸式展览是“注意力-体验经济”的典型产物，即通过出售体验来捕获和变现消费者的注意力。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：将上述两个概念结合，分析认为梵高沉浸式展览是“注意力-体验经济”的典型产物，即通过出售体验来捕获和变现消费者的注意力。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:7",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引用Chiara Piancatelli等人在《International Journal of Market Research》发表的研究“#artoninstagram: Engaging with Art in the Era of the Selfie”，论证了展览创造的参与感和情感体验能直接促进社交媒体分享行为。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：引用Chiara Piancatelli等人在《International Journal of Market Research》发表的研究“#artoninstagram: Engaging with Art in the Era of the Selfie”，论证了展览创造的参与感和情感体验能直接促进社交媒体分享行为。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:8",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：基于上述研究，分析指出展览通过触发情感来提高用户参与度，从而激活社交媒体分享，为活动主办方“共同创造价值”。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：基于上述研究，分析指出展览通过触发情感来提高用户参与度，从而激活社交媒体分享，为活动主办方“共同创造价值”。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:9",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只差理论名、作者和年份时可同分；其独立召回未保留。",
+      "reason": "不要求Hayles、2007年及深度/超注意力理论；避免路线锁定。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:10",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "两篇只差超注意力解释、其他体验分析同样成立时可同分；PW.D3.01虽可评价实际推导，但不强制检出此特定解释。",
+      "reason": "不把快节奏设计必然服务超注意力当作共同结论；未新增注意力模式项。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:11",
+      "targets": [
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "其他帮助相同时，一篇只报两类人褒贬，另一篇说明同一体验因评价标准不同而有不同价值判断，后者可略优；仅理论标签不同不加减分。",
+      "reason": "把艺术/原作标准与体验消费诉求差异写为可操作的比较对象，去除深度/超注意力二分的强制性。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:12",
+      "targets": [
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只说批评错了而未交代标准不构成优势；说明真实性判断与娱乐/消费诉求是否错位并给出依据可形成略好或明显更好。认为批评仍成立也可得高评价，原固定立场未保留。",
+      "reason": "比较真实性批评究竟指向什么诉求及其意义，不预定批评不得要领。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:13",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析展览主办方的营销策略，指出他们有意将展览定位为传统“精英化”、“沉闷”博物馆的对立面，以吸引更广泛的观众。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析展览主办方的营销策略，指出他们有意将展览定位为传统“精英化”、“沉闷”博物馆的对立面，以吸引更广泛的观众。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:14",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析用户在社交媒体上发布的内容，指出其重点往往是记录“我在现场”的个人化体验，而非梵高作品本身。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。",
+      "reason": "PT.D1.12直接检查主题吸引—现场分享—触达转化的经营链条；不因另有巡展分析就视为该内容已答。原条具体理论、论文、平台及预置方向仍不强制：分析用户在社交媒体上发布的内容，指出其重点往往是记录“我在现场”的个人化体验，而非梵高作品本身。；相对商业判断价值另由PW.D4.01评，不以术语齐全奖励。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "仅替换为其他成立的观众体验解释时可同分；论文、年份与特定框架的召回损失明确。",
+      "reason": "Hunter指定论文及具身体验框架是可选路线，不新增论文召回项。"
+    },
+    {
+      "resource_id": "drb2:97:analysis:16",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "同样成立的其他商业或社会评价综合可同分；该理论及结论的专门区分能力不保留。",
+      "reason": "不强制Crary、24/7或晚期资本主义侵入生活的固定批判结论。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:1",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "无四部分为1，缺部分或结构不符落2/3，四部分及标题完整为5；其他格式缺陷可能仍使报告留在同档。",
+      "reason": "原项明确要求四部分并给出缺部分的档位，维持不动。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:2",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "discrimination_check": "四标题完整为5，轻微标点/序号变化为4，明显改写为3；不是仅与标题主题相关。",
+      "reason": "四个标题逐字列于原评价问题，五档明确区分改写与完整使用。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "只列四个主要品牌而其余完整时为4，全列且对应完整为5；任意五个但多个主要品牌缺失可为3。仅列表移到别处不必降分，第一部分的硬位置要求未全保留。",
+      "reason": "补足五个实际主要品牌核对及主体，不以任意五展凑数；不新增固定列表格式或把正文移位独立扣分。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:4",
+      "targets": [
+        "PT.D1.08.art",
+        "PT.D1.08.business",
+        "PT.D1.08.local",
+        "PT.D1.08.audience"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.08.art, PT.D1.08.business, PT.D1.08.local, PT.D1.08.audience。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "prior_disposition_reason": "四类具体观点与对象有明确档位，保留类别区分，但不再用同一观点在正文的具体位置重复扣分。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:5",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "内容相同但承接/顺序更顺在PW.D5.01比较，措辞指代更清楚在PW.D6.01比较；略好正负1、明显更好正负2。改为相对比较，未保留原绝对零含糊门槛。",
+      "reason": "沿用全文组织与局部表达分工，一处宏观重复不再作为句子含糊重计。"
+    },
+    {
+      "resource_id": "drb2:97:presentation:6",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "混入后期数据且未标明为3，多处实质改变范围为2；完全正确限定为5。以2022年后出版的回顾材料说明此前事实不自动扣。",
+      "reason": "原项明确限定项目、商业数据和评价为2022年及以前，后发表材料仅可回顾此前事实。"
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "retained",
+      "reason": "名单完整但主体缺一为4，近名混同为3，品牌—公司关系不可拆。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "revise",
+      "reason": "只补明媒介误认的低档规则，原有原作边界和数字构成检查不变。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "retained",
+      "reason": "空间具体但流程无从了解为3，保持现场体验的完整路径。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "retained",
+      "reason": "只有票务或周边无整体运营为3，不把营收来源计数。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "revise",
+      "reason": "检查成本数据的对象与口径，不将两种场馆作为独立必答配额。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "retained",
+      "reason": "票价有金额无地点票种为3，条件决定价格含义。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "retained",
+      "reason": "票务收入完整但附属状态未说明不能5，收入利润混同为3。"
+    },
+    {
+      "id": "PT.D1.08.art",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.08.business",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.08.local",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.08.audience",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.08拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "retained",
+      "reason": "四标题缺一3，轻微标点4，明确单一结构对象。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "retained",
+      "reason": "主体截止正确但局部实质后期材料混入3，按影响分档。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "retained",
+      "reason": "禁源核心使用1、局部3、仅书目4；不推断过程。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "retained",
+      "reason": "来源有但重要主张对应不清3，来源与主张为同一关系。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "retained",
+      "reason": "核验支持混合3，访问失败另记录，不把执行失败当质量。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "retained",
+      "reason": "前后口径局部冲突3，正确展名不抵销收入口径矛盾。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "原PW允许其他经营路线完全替代获客，遗漏了共同商业机制。主题—分享—获客是同一链条，讲分享而不说明触达/转化为3，不按每种媒介凑项。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "补回官方两类重要价值主张，不将特定比例可选扩大为删去辩护领域。普及充分但保护完全没有明确为3。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到内容、投影节奏或空间设计如何产生观展体验；只判断此对象，保留允许局部反向优势的五档。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到票价、客流、成本和收入为何支持或不足以支持商业判断；只判断此对象，保留允许局部反向优势的五档。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "rewritten",
+      "reason": "保留经营图景相对价值，撤销以其他路线代替基本获客内容的含义；同一推理成立性不与D3重计。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "retained",
+      "reason": "保留评价标准或诉求差异及其对展览价值判断的影响这一关系对象。A对原作标准解释较好、B对消费诉求解释较好时，用相同的任务重要性依据同时比较双方实际贡献；同等重要的优势相抵、帮助相近或双方均无帮助判0并区分原因，净优势略好才判±1，明显优势不被局部贡献抵销才判±2。仅少列一种观点不自动决定本项胜负，观点覆盖由PT.D1.08检查；不使用PT的1至5缺失档位，也不由其他维度补偿。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到展览经营和四类评价概括的材料适配；只判断此对象，保留允许局部反向优势的五档。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到从展览辨识到现场、经营与评价的阅读推进；只判断此对象，保留允许局部反向优势的五档。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到展名主体、现场形式和成本收入口径的表述；只判断此对象，保留允许局部反向优势的五档。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "rewritten",
+      "reason": "将旧范例简略通用锚点落到展览主体、票价收入及评价出处的定位；只判断此对象，保留允许局部反向优势的五档。"
+    }
+  ],
+  "author_notes": [
+    "三题范例的official_checks/drb2_97.md逐条处置转入新schema；未覆盖任何seed原文件。",
+    "v3.3 作者修复：保留已有14PT/8PW小修对象与关键缺失档位；补PT.D1.12获客链、PT.D1.13主办方辩护、PT.D1.14传统机构影响。补全逐项来源和处置schema，将简略PW锚点具体化。",
+    "这是作者自检，不是独立审核。待审风险：仍未强制巴黎共同起源、Impact所有联合角色、香氛/AI/瑜伽等案例、固定金额、指定学者理论和统一批判结论。官方analysis:9/10的超注意力框架未保留，体验机制比较仍有但不宣称恢复该理论。官方原文数值和跨品牌概括未经外核。新增辩护两面及获客链需语义复审，不是独立通过。",
+    "本轮仅检查batch5的7题；原Query、逐分锚点、唯一ID、来源及反向映射、逐项原子化记录的程序检查未见错误。所有官方处置均有记录不等于全部精确要求保留。",
+    "审核28：修改PT.D1.02/05，删除PT.D1.14；旧注释中的机构影响必答或场馆双覆盖仅为历史记录，以当前条目为准。未复评。另发现PT.D1.11问句为是否使用禁源而高分表示未使用，本轮非指定范围，未修改，留待确认。",
+    "Follow-up 28–29: resolves the previously pending scope note. Only banned-source title/question polarity changed; all anchors unchanged."
+  ]
+}

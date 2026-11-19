@@ -1,0 +1,1641 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:125",
+  "language": "zh",
+  "title": "小学生课间休息教育成果",
+  "full_query": "请以“小学生课间休息对教育成果的影响”为主题，完成一份综合性调研报告。报告需基于2009年至2022年9月期间发表的学术研究，内容应包括以下两个部分：\n\n1.  **定量研究发现汇总**：\n    请制作一个表格，系统梳理并总结探讨课间休息与教育成果关系的定量研究。表格的列应包括：研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现。\n\n2.  **定性研究与综合分析**：\n    首先，同样制作一个表格，梳理并总结探讨课间休息对教育成果影响的定性研究。表格的列应包括：研究（第一作者及年份）、国家、研究参与者、课间休息时长，以及研究中教师、家长或学生感知的教育成果。\n    然后，请结合上述定量与定性研究的发现，进行综合分析。分析应侧重于以下几个方面：\n    a.  课间休息对学生行为（如课堂专注度、违纪情况）的具体影响是什么？不同研究的结论是否存在差异？如果存在，可能的原因是什么？\n    b.  课间休息对学生学业成绩（如阅读、数学分数）的影响如何？结论是否一致？\n    c.  课间休息对学生其他认知与非认知能力（如创造力、解决问题能力）有什么影响？\n    d.  基于现有证据，是否存在一个“最优”的课间休息时长或安排模式？（例如，单次长时间休息与多次短时间休息的比较）\n\n请确保所有信息准确、来源清晰，分析部分逻辑严谨。\n\n注：报告中涉及的简写全称如下：\n- ECLS-K (Early Childhood Longitudinal Studies-Kindergarten class of 1998–1999)：指“幼儿纵向研究-1998-1999学年幼儿园班”这一大型数据集。\n- MAP (Measure of Academic Progress)测试：指“学业进步衡量”标准化测试。\n- LiiNK项目 (The LiiNK Project)：指一项在研究中被评估的干预项目，包含每天进行四次15分钟的课间休息和品格发展课程。\n- CDC (Centers for Disease Control and Prevention)：指美国疾病控制与预防中心。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Educational outcomes of recess in elementary school children: A mixed-methods systematic review', 'authors': ['Erin K. Howie', 'Kristi L. Perryman', 'Joseph Moretta', 'Laura Cameron'], 'urls': ['https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294340', 'https://pubmed.ncbi.nlm.nih.gov/37992031/', 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10664954/', 'https://www.semanticscholar.org/paper/Educational-outcomes-of-recess-in-elementary-school-Howie-Perryman/643c3fb96cda4edab1466bfaaac362e6db710214']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "研究对象与发表时段",
+      "question": "报告是否以小学生课间休息与教育成果为对象，按2009年至2022年9月发表的学术研究确定证据范围？",
+      "anchors": {
+        "1": "研究主体不涉及本题或所需时段。",
+        "2": "大量依赖范围外研究，无法形成指定时段的研究图景。",
+        "3": "主体切题但有重要越界研究未说明，或混用体育课与课间休息。",
+        "4": "对象和发表时段大体明确，少量纳入边界未说明。",
+        "5": "证据范围明确限定于题定发表时段和小学教育情境；跨年级样本、复合干预及背景资料的边界说清。"
+      },
+      "boundary": "允许研究包含幼儿园或混合年级但须说明小学适用范围；发表时间不是采集数据时间，不以2023年综述代替范围内研究。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "2009年至2022年9月期间发表的学术研究"
+        ],
+        "change_note": "从题面建立范围检查与本地五档。"
+      }
+    },
+    {
+      "id": "PT.D1.02.sample",
+      "dimension": "D1",
+      "title": "定量研究与样本记录",
+      "question": "报告是否逐研究说明作者年份、国家和年级，并有可解释的纳入范围？",
+      "anchors": {
+        "1": "未回答定量研究与样本记录。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "研究可辨但国家或年级重要缺失，或无解释遗漏会改变结论的证据类别。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "相关研究、国家及年级逐条对应，纳入范围可解释；源未报告的字段如实说明，不用未报告掩盖未梳理。"
+      },
+      "boundary": "不强制八篇名单；研究对象定位与结果、休息暴露分开。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:1",
+          "drb2:125:info_recall:5",
+          "drb2:125:info_recall:8",
+          "drb2:125:info_recall:12",
+          "drb2:125:info_recall:16",
+          "drb2:125:info_recall:20",
+          "drb2:125:info_recall:24",
+          "drb2:125:info_recall:28"
+        ],
+        "query_quotes": [
+          "研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.exposure",
+      "dimension": "D1",
+      "title": "定量研究休息安排",
+      "question": "报告是否逐研究说明课间时长与频率？",
+      "anchors": {
+        "1": "未回答定量研究休息安排。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有时长但频率或研究对应关系重要不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "所纳入研究的时长、频率或有来源的未报告状态对应清楚，不混淆单次与每日/每周总量。"
+      },
+      "boundary": "不要求伪造未报告数字；只查暴露字段，真伪另核。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:2",
+          "drb2:125:info_recall:9",
+          "drb2:125:info_recall:13",
+          "drb2:125:info_recall:17",
+          "drb2:125:info_recall:21",
+          "drb2:125:info_recall:25",
+          "drb2:125:info_recall:29"
+        ],
+        "query_quotes": [
+          "研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.outcomes",
+      "dimension": "D1",
+      "title": "定量指标与发现",
+      "question": "报告是否把各定量研究的衡量指标与主要发现对应起来？",
+      "anchors": {
+        "1": "未回答定量指标与发现。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有发现但测量指标、方向或具体研究对应有主要缺口。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "逐研究说明指标与主要发现，区分统计结果、无显著发现和报告解释。"
+      },
+      "boundary": "指标—结果是一条自然记录，不拆每个测试名称；学业总体综合仍PT.D1.05。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:3",
+          "drb2:125:info_recall:4",
+          "drb2:125:info_recall:6",
+          "drb2:125:info_recall:7",
+          "drb2:125:info_recall:10",
+          "drb2:125:info_recall:11",
+          "drb2:125:info_recall:14",
+          "drb2:125:info_recall:15",
+          "drb2:125:info_recall:18",
+          "drb2:125:info_recall:19",
+          "drb2:125:info_recall:22",
+          "drb2:125:info_recall:23",
+          "drb2:125:info_recall:26",
+          "drb2:125:info_recall:27",
+          "drb2:125:info_recall:30",
+          "drb2:125:info_recall:31"
+        ],
+        "query_quotes": [
+          "研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.02.format",
+      "dimension": "D1",
+      "title": "定量表格形式",
+      "question": "报告是否以有题定六类列标题的表格呈现定量汇总？",
+      "anchors": {
+        "1": "未回答定量表格形式。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "表格存在但主要字段入口不全。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "表中研究、国家、年级、时长频率、教育指标和发现六类入口可辨，可用等效多表。"
+      },
+      "boundary": "不因单元格实质内容遗漏再扣结构分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:presentation:2",
+          "drb2:125:presentation:3"
+        ],
+        "query_quotes": [
+          "研究（第一作者及年份）、国家、年级、课间休息的时长与频率、关键的教育成果衡量指标、以及该研究的主要发现"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.02"
+    },
+    {
+      "id": "PT.D1.03.sample",
+      "dimension": "D1",
+      "title": "定性研究与参与者",
+      "question": "报告是否逐研究说明作者年份、国家和实际参与者？",
+      "anchors": {
+        "1": "未回答定性研究与参与者。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "研究可辨但参与者或地区重要缺失，或无解释遗漏关键观点类别。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "研究、国家及教师家长学生等实际受访者对应明确，纳入范围可解释。"
+      },
+      "boundary": "不强制固定论文；混合研究不当作独立重复样本。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:32",
+          "drb2:125:info_recall:34",
+          "drb2:125:info_recall:37",
+          "drb2:125:info_recall:40",
+          "drb2:125:info_recall:43"
+        ],
+        "query_quotes": [
+          "研究参与者"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.exposure",
+      "dimension": "D1",
+      "title": "定性研究休息时长",
+      "question": "报告是否说明各定性研究的课间时长及其资料状态？",
+      "anchors": {
+        "1": "未回答定性研究休息时长。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有数字但对应研究或单次/总时长含义不清。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "逐研究给出可辨休息安排，材料确实未报告时明确标注并保留依据。"
+      },
+      "boundary": "不要求编造未知时长；观点成果另查。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:35",
+          "drb2:125:info_recall:38",
+          "drb2:125:info_recall:41",
+          "drb2:125:info_recall:44"
+        ],
+        "query_quotes": [
+          "研究参与者"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.perceptions",
+      "dimension": "D1",
+      "title": "感知成果及归属",
+      "question": "报告是否把定性研究中的教育成果感知归属到相应研究和参与者？",
+      "anchors": {
+        "1": "未回答感知成果及归属。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "观点存在但归属不明，或被当作客观测得效果。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明各研究中实际参与者感知的教育成果，保留正负或分歧观点并区别感知与实测。"
+      },
+      "boundary": "不强制每研究都有所有受访群体；研究样本身份不在此重复扣。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:info_recall:33",
+          "drb2:125:info_recall:36",
+          "drb2:125:info_recall:39",
+          "drb2:125:info_recall:42",
+          "drb2:125:info_recall:45"
+        ],
+        "query_quotes": [
+          "研究参与者"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.format",
+      "dimension": "D1",
+      "title": "定性表格形式",
+      "question": "报告是否用含五类题定列标题的表格呈现定性汇总？",
+      "anchors": {
+        "1": "未回答定性表格形式。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有表但主要字段入口缺失。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "研究、国家、参与者、时长及感知成果入口清楚，可用等价多表。"
+      },
+      "boundary": "内容缺失归对应子项，不再扣格式。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:presentation:4",
+          "drb2:125:presentation:5"
+        ],
+        "query_quotes": [
+          "研究参与者"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "行为影响及分歧回应",
+      "question": "报告是否具体区分课堂专注与违纪等行为结果，并呈现研究结论的共同点与分歧？",
+      "anchors": {
+        "1": "无行为分析。",
+        "2": "只称行为更好或更差，未说明观察到什么。",
+        "3": "有具体行为结果，但课堂专注或违纪的重要一面缺失，或未回应研究结果是否有分歧。",
+        "4": "课堂专注与违纪结果、研究共同点及分歧均有具体说明，仅少量结果范围不清。",
+        "5": "具体区分专注表现与违纪记录等行为结果，呈现有依据的共同点及差异，不把不同指标自动归为同一方向。"
+      },
+      "boundary": "本项只检查行为发现及分歧的呈现。测量、休息质量与间隔等原因说明由PT.D1.10检查，推导质量由PW.D3.01比较，不因同一原因缺失重复扣本项。不能用多列正向结果掩盖重要反向或混合结果；允许有据修正官方方向。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:1",
+          "drb2:125:analysis:2"
+        ],
+        "query_quotes": [
+          "不同研究的结论是否存在差异？如果存在，可能的原因是什么？"
+        ],
+        "change_note": "保留行为和不一致发现的核心对象；取消对Erwin/Fedewa统一方向的强制答案。 交叉审同步：原因覆盖交给新增10，本项收窄为结果与分歧，避免重复缺项。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "学业影响与一致性",
+      "question": "报告是否分别说明阅读、数学等学业结果，并回答研究结论是否一致？",
+      "anchors": {
+        "1": "无学业结果。",
+        "2": "仅笼统声称成绩提高或不受影响。",
+        "3": "有具体学业结果，但缺阅读或数学的一面、未回答一致性，或将未显著、不下降与显著改善混作同一结论。",
+        "4": "分别说明阅读和数学的结果，并据已述结果回答是否一致，不混淆未显著与改善；但至少一项结果的测量方式或研究情境不清楚。",
+        "5": "阅读、数学及其一致性判断清楚且不混淆结果类型，各项结果能对应到可辨的测量方式和研究情境；说明结论在哪些学科或研究条件下一致或不同，不要求各研究方向相同。"
+      },
+      "boundary": "允许与官方概括不同的有据修正；不强制特定分数、论文或固定正向结论。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:5",
+          "drb2:125:analysis:6",
+          "drb2:125:analysis:7"
+        ],
+        "query_quotes": [
+          "课间休息对学生学业成绩（如阅读、数学分数）的影响如何？结论是否一致？"
+        ],
+        "change_note": "取学科区别及混合发现，移除指定研究和结果措辞的硬锁定；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "其他认知与非认知成果",
+      "question": "报告是否说明创造力、解决问题等其他能力的研究发现，并区分测试结果与感知？",
+      "anchors": {
+        "1": "完全未涉及其他能力。",
+        "2": "只列能力名称或空泛好处。",
+        "3": "有具体发现，但测量与感知混淆，或创造/想象能力与解决问题能力中有一类完全未考察。",
+        "4": "创造/想象与解决问题两类能力及证据类型均对应清楚，仅个别结果或资料不足说明较弱。",
+        "5": "分别交代创造/想象能力和解决问题能力的具体发现及证据限度，区分客观测试与参与者感知；某类证据不足须说明查得的具体缺口，不编造效果。"
+      },
+      "boundary": "不强制量表、固定论文或预设有益结论，但不能因题面使用例子而略去创造/想象与解决问题这两个实质能力领域。注意力不能替代两者。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:9",
+          "drb2:125:analysis:10",
+          "drb2:125:analysis:11"
+        ],
+        "query_quotes": [
+          "其他认知与非认知能力"
+        ],
+        "change_note": "保留不同能力及定量定性差异，不要求Brez等指定论文；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "最优时长与安排的回答",
+      "question": "报告是否明确回答能否确定最优课间时长或安排，并比较总时长与分次安排的证据？",
+      "anchors": {
+        "1": "未回答最优安排问题。",
+        "2": "只给推荐分钟数，没有证据或不确定性说明。",
+        "3": "回答有无最优但未区分总时长与频率分布，或其一完全空缺。",
+        "4": "总时长与安排模式均有讨论，主要证据限制清楚，少量比较条件未说明。",
+        "5": "明确能否确定最优，区分总量、单次长度与分布；说明哪些比较有直接依据、哪些只是推测或资料不足。"
+      },
+      "boundary": "不要求得出存在最优，也不锁定20、30、40分钟或多次必胜；实际推导在PW.D3.02。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:12",
+          "drb2:125:analysis:13",
+          "drb2:125:analysis:14",
+          "drb2:125:analysis:15"
+        ],
+        "query_quotes": [
+          "是否存在一个“最优”的课间休息时长或安排模式？"
+        ],
+        "change_note": "保留时长与安排问题，将具体建议方向改为证据允许的判断；五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "两部分与分析位置",
+      "question": "报告是否形成定量研究汇总、定性研究与综合分析两部分，并在定性表后分析题定四个问题？",
+      "anchors": {
+        "1": "无法识别两部分。",
+        "2": "只形成一个部分，或综合分析散落无可辨边界。",
+        "3": "两部分可辨，但定性表与分析位置不符或分析结构明显缺漏。",
+        "4": "两部分及表后分析清楚，仅个别分界或标题不够明确。",
+        "5": "两部分清楚，定性表之后有对应四问的文字分析；标题可同义改写。"
+      },
+      "boundary": "只检查指定结构，不在此再次评价四问内容质量；原报告整体推进另评。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:presentation:1",
+          "drb2:125:presentation:6",
+          "drb2:125:presentation:4"
+        ],
+        "query_quotes": [
+          "内容应包括以下两个部分"
+        ],
+        "change_note": "合并题定部分边界和分析位置，不为每个标题另设二元项；五档本地设计。 presentation:4仅用于定性表先于分析的位置要求；定性记录内容由PT.D1.03负责。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "禁源的可观察使用",
+      "question": "报告是否避免引用或实质取用题面禁止的Howie等混合方法系统综述？",
+      "anchors": {
+        "1": "禁源明确支撑核心结论。",
+        "2": "禁源明确支撑多个次要实质结论。",
+        "3": "禁源明确支撑一个局部实质结论。",
+        "4": "仅文献清单列入禁源，未确认正文取用。",
+        "5": "完整最终报告未见禁源引用或取用；复述排除清单不算使用。"
+      },
+      "boundary": "只判断最终文本；不推断访问历史、相似知识或不可见研究过程。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Educational outcomes of recess in elementary school children: A mixed-methods systematic review"
+        ],
+        "change_note": "题面禁源改为最终报告可观察边界，五档沿用范式。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "研究记录可追溯",
+      "question": "报告的研究表行及重要综合主张是否能定位到具体研究或报告内推导？",
+      "anchors": {
+        "1": "几乎无法识别研究出处。",
+        "2": "只有研究泛称或文献名堆积，主要记录无法对应。",
+        "3": "可找到相关文献，但部分关键表行或综合主张归属不清。",
+        "4": "主要表行及主张有明确来源，个别引用范围略含糊。",
+        "5": "研究记录、数字、感知观点及综合主张均有可辨认来源或可检查推导。"
+      },
+      "boundary": "无URL不扣分；作者年份标题等足以定位即可，定位不保证支持。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "来源清晰"
+        ],
+        "change_note": "本地来源审计，不将任何官方事实项复制为通用来源来源。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验样本的准确性",
+      "question": "在实际完成的核验样本内，研究对象、休息安排、衡量指标与发现是否与所获证据相符？",
+      "anchors": {
+        "1": "核心综合依据被核验否定或所称研究不存在。",
+        "2": "多个重要已核研究记录存在实质错配。",
+        "3": "部分主张有支持，但关键结果方向、单位或样本归属仍有错误。",
+        "4": "主要已核主张相符，仅次要归属或措辞问题。",
+        "5": "本次已判断记录的对象、条件、指标与发现均符合证据；不等于全表已查全。"
+      },
+      "boundary": "公布选中/完成数和材料位置；检索失败不得转质量分或NA，须记执行未完成。官方结果只是线索，不是独立真值。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "请确保所有信息准确"
+        ],
+        "change_note": "本地建立有限核验审计。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "行为差异的测量与休息情境",
+      "question": "报告是否具体讨论行为指标、课间质量及休息间隔如何影响不同研究结果的可比性？",
+      "anchors": {
+        "1": "未讨论行为研究条件。",
+        "2": "只称研究不同或情况复杂。",
+        "3": "解释了部分条件，但测量口径、休息质量或间隔分布有重要一面完全未讨论。",
+        "4": "行为测量、课间质量和休息间隔均有具体讨论，但至少一类仅作一般解释，未与所讨论研究的观察结果相连。",
+        "5": "三类条件分别与至少一个相关研究发现或明确的比较证据缺口相连，并区分观察到的联系与推测解释；不要求逐篇研究完整列表，也不要求证据不足处建立确定因果。"
+      },
+      "boundary": "不预定违纪一定增加或减少。事件记录地点和可发生事件的时间是测量口径的具体检查线索，不强制认定某一原因已经成立。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:1",
+          "drb2:125:analysis:3",
+          "drb2:125:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "旧PW仅把这些内容列作任选路线；恢复研究条件这一共同内容入口。测量讲清而课间质量整块遗漏为3，不能靠多写测量细节补偿。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "学业无损害结论的证据边界",
+      "question": "报告是否区分未发现显著学业下降与已经证明增加课间休息不会损害学业？",
+      "anchors": {
+        "1": "把没有显著下降直接当作普遍无损害证明，且支撑核心建议。",
+        "2": "作出无损害断言，未交代研究能检测多大差异或有何局限。",
+        "3": "虽承认研究局限，最终结论或建议仍将未发现下降推广成一般性的无损害保证。",
+        "4": "未作一般性无损害保证，但某处局部无损害表述缺少适用人群、安排或研究范围；结合上下文才能确定限制。",
+        "5": "无损害相关结论均说明其适用范围并保留现有不确定性，或仅准确陈述未发现下降而不作无损害断言。谨慎措辞须连同范围判断，不因使用“不太可能”就自动扣分；不强制新增检出力计算。"
+      },
+      "boundary": "不要求非劣检验或提供本不存在的区间；检查报告实际结论强度，未作无损害断言且准确描述现有局限可得5。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "官方的肯定性无损害结论不能强制照搬；恢复可直接识别该推断越界的审计，而非只在安排PW比较。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "行为研究分歧的解释",
+      "question": "哪篇更有效地解释行为研究为何出现不同结果？",
+      "anchors": {
+        "0": "两篇在研究差异的解释上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A对一处重要差异的测量、样本或情境解释略可靠；B仍可在局部更好。",
+        "2": "A对主要差异给出明显更可靠的条件化解释，不把不同测量的结果强行视为矛盾；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B对主要差异给出明显更可靠的条件化解释，不把不同测量的结果强行视为矛盾；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对一处重要差异的测量、样本或情境解释略可靠；A仍可在局部更好。"
+      },
+      "boundary": "仅比较行为结果差异的解释；综合两文涉及的主要行为分歧按其对行为结论的影响判断，同等重要的相反优势为0。测量、情境与结果必须连成解释，不把PT内容完整度再求和。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:1",
+          "drb2:125:analysis:3",
+          "drb2:125:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "从具体差异解释提炼开放比较，取消统一原因结论；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "从研究结果到安排结论",
+      "question": "哪篇对休息时长或分次安排结论的推导更成立？",
+      "anchors": {
+        "0": "两篇在安排结论的成立性上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A较好处理一处相关性、干预混杂或比较不足；B仍可在局部更好。",
+        "2": "A明显更清楚地把研究设计允许的结论与普遍最优主张分开；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更清楚地把研究设计允许的结论与普遍最优主张分开；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B较好处理一处相关性、干预混杂或比较不足；A仍可在局部更好。"
+      },
+      "boundary": "检查LiiNK等复合干预能否隔离休息作用、同一总时长下有无直接比较，以及无显著不等于无损害；不强制非劣检验或特定模型。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:125:analysis:8",
+          "drb2:125:analysis:12",
+          "drb2:125:analysis:15"
+        ],
+        "query_quotes": [
+          "LiiNK项目"
+        ],
+        "change_note": "将肯定性最优暗示改为结论可推范围；本地补复合干预边界。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "两类证据形成的教育判断",
+      "question": "哪篇把定量与定性发现结合得更有助于理解课间休息的教育价值与限制？",
+      "anchors": {
+        "0": "两篇在跨方法教育判断上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A对一处测试与感知的互补或分歧给出略有用的综合认识；B仍可在局部更好。",
+        "2": "A形成明显更有用的跨方法图景，读者能分清哪些教育收益较有依据、哪些仍不确定；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B形成明显更有用的跨方法图景，读者能分清哪些教育收益较有依据、哪些仍不确定；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对一处测试与感知的互补或分歧给出略有用的综合认识；A仍可在局部更好。"
+      },
+      "boundary": "不能把两张表复述一遍当综合；须指出对教育判断的额外影响。不强制政策建议、统一效应量或认为两类证据必定一致。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "结合上述定量与定性研究的发现，进行综合分析"
+        ],
+        "change_note": "题面派生开放综合，区别于逐问内容覆盖和局部推理。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据组合的适用性",
+      "question": "哪篇所选研究更适合支撑其对小学课间休息的整体概括？",
+      "anchors": {
+        "0": "两篇在证据组合适用性上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A在重要人群或结果概括上有略适配的互补证据；B仍可在局部更好。",
+        "2": "A为主要概括提供明显更适配的研究组合，较少靠重复样本、单类结果或无关情境代替整体证据；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B为主要概括提供明显更适配的研究组合，较少靠重复样本、单类结果或无关情境代替整体证据；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B在重要人群或结果概括上有略适配的互补证据；A仍可在局部更好。"
+      },
+      "boundary": "不按论文数、国家数或期刊声望排名；同一数据集的多篇研究不能自动算独立重复验证。单条真假在PT.D2.02，不再次逐错罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地增加选材代表性与独立性比较，不保证任何官方研究外部真实性。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "从研究表到综合分析的推进",
+      "question": "哪篇原报告更好地带领读者从研究记录进入四问分析？",
+      "anchors": {
+        "0": "两篇在全文推进上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A使表格与分析的衔接略顺畅，减少无用重复；B仍可在局部更好。",
+        "2": "A明显更有条理地组织研究信息与分析，读者不必反复重建讨论线索；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B明显更有条理地组织研究信息与分析，读者不必反复重建讨论线索；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B使表格与分析的衔接略顺畅，减少无用重复；A仍可在局部更好。"
+      },
+      "boundary": "不因两部分格式合规再次奖励；不默认更短更好，研究细节可有必要性。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "只取官方全文逻辑的组织部分；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "教育研究表述清晰",
+      "question": "哪篇更清楚地表达已写的研究指标、休息安排和结论含义？",
+      "anchors": {
+        "0": "两篇在研究表述理解上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A对关键指标或时间单位的解释略清楚；B仍可在局部更好。",
+        "2": "A对测得成绩、观察行为与感知观点的文字指代明显更清楚，读者较少误读；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B对测得成绩、观察行为与感知观点的文字指代明显更清楚，读者较少误读；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B对关键指标或时间单位的解释略清楚；A仍可在局部更好。"
+      },
+      "boundary": "只评原文理解成本；错误事实在D2，缺内容在D1。无需把题面列出的所有缩写都使用一次。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:presentation:7"
+        ],
+        "query_quotes": [],
+        "change_note": "只取语言清楚部分，不把准确与逻辑捆入同项；五档本地设计。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "研究及依据定位",
+      "question": "哪篇更方便从某项教育结论找到对应研究记录和出处？",
+      "anchors": {
+        "0": "两篇在结论到研究的查找上帮助相近，或双方均未提供相关帮助；评分理由须说明是哪一种。",
+        "1": "综合双方优缺点，A定位一处重要结果或其研究略方便；B仍可在局部更好。",
+        "2": "A定位四问涉及的结果、样本与出处明显更直接，较少错行和来回查找；B虽有局部优点，但不足以弥补这一差距。",
+        "-2": "B定位四问涉及的结果、样本与出处明显更直接，较少错行和来回查找；A虽有局部优点，但不足以弥补这一差距。",
+        "-1": "综合双方优缺点，B定位一处重要结果或其研究略方便；A仍可在局部更好。"
+      },
+      "boundary": "不按链接数和表格数量排名；来源存在由PT检查，这里只比较查找成本。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地沿用样例信息检索比较。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "其他能力的证据差异解释",
+      "question": "哪篇更合理地解释创造、想象和解决问题能力的测试结果与感知为何可能不同？",
+      "anchors": {
+        "0": "两文对能力证据差异的解释相近，或同等重要的优缺点抵销，或双方均无帮助；须说明是哪种。",
+        "1": "总体上A对能力测量、观察时间或参与者视角的一处重要差异解释略好；B仍可局部更好。",
+        "2": "A对能力测量与参与者感知之间的主要差异解释明显更可靠；B的局部解释优点不足以弥补。",
+        "-2": "B对能力测量与参与者感知之间的主要差异解释明显更可靠；A的局部解释优点不足以弥补。",
+        "-1": "总体上B对能力测量、观察时间或参与者视角的一处重要差异解释略好；A仍可局部更好。"
+      },
+      "boundary": "比较两文实际涉及的主要能力证据差异，不只挑其中一种能力；不把感知天然判低或把未显著当零效果。这里解释证据差异，D4比较跨方法结论的教育含义。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:125:analysis:9",
+          "drb2:125:analysis:10",
+          "drb2:125:analysis:11"
+        ],
+        "query_quotes": [],
+        "change_note": "从原PW.D3.01分出能力证据差异解释，防止行为机制优点补偿能力推理错误。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:125:info_recall:1",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的国家为美国，年级为K-5年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的国家为美国，年级为K-5年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:2",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的课间休息时长为平均每周133.4分钟（K）到89.4分钟（5年级）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的课间休息时长为平均每周133.4分钟（K）到89.4分钟（5年级）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:3",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的衡量指标为ECLS-K的阅读和数学分数。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的衡量指标为ECLS-K的阅读和数学分数。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:4",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的发现为课间休息对阅读或数学分数没有影响。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Dills于2011年在《Recess, Physical Education, and Elementary School Student Outcomes》中的研究的发现为课间休息对阅读或数学分数没有影响。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:5",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的国家为美国（纽约州），年级为3-5年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的国家为美国（纽约州），年级为3-5年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:6",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的衡量指标为持续注意力（字母消除任务）和创造力（替代用途任务）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的衡量指标为持续注意力（字母消除任务）和创造力（替代用途任务）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:7",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的发现为课间休息后，学生的持续注意力得到改善。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Brez于2017年在《Classroom Benefits of Recess》中的研究的发现为课间休息后，学生的持续注意力得到改善。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:8",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的国家为美国（密西西比州），年级为5年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的国家为美国（密西西比州），年级为5年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:9",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的课间休息时长为25分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的课间休息时长为25分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:10",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的衡量指标为课堂专注行为（观察法）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的衡量指标为课堂专注行为（观察法）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:11",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的发现为课间休息后，学生的课堂专注行为增加。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Stapp于2018年在《Effect of recess on fifth grade students' time on-task in an elementary classroom》中的研究的发现为课间休息后，学生的课堂专注行为增加。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:12",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的国家为美国（肯塔基州），年级为K-6年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的国家为美国（肯塔基州），年级为K-6年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:13",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的课间休息时长从1次15分钟增加到2次15分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的课间休息时长从1次15分钟增加到2次15分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:14",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的衡量指标为违纪报告和学业成绩（MAP测试）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的衡量指标为违纪报告和学业成绩（MAP测试）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:15",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的发现为增加课间休息后，违纪报告增多，但数学成绩有所提高。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Erwin于2019年在《The Effect of Doubling the Amount of Recess on Elementary Student Disciplinary Referrals and Achievement Over Time》中的研究的发现为增加课间休息后，违纪报告增多，但数学成绩有所提高。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:16",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的国家为美国（肯塔基州），年级为K-6年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的国家为美国（肯塔基州），年级为K-6年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:17",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的课间休息时长为2次15分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的课间休息时长为2次15分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:18",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的衡量指标为违纪报告。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的衡量指标为违纪报告。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:19",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的发现为距离上一次课间休息的时间越长，违纪报告越多。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Fedewa于2021年在《Relationship between the timing of recess breaks and discipline referrals among elementary children》中的研究的发现为距离上一次课间休息的时间越长，违纪报告越多。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:20",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的国家为美国（多州），年级为3年级，研究对象含部分 2 年级和 4 年级学生。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的国家为美国（多州），年级为3年级，研究对象含部分 2 年级和 4 年级学生。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:21",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的课间休息情况为70%的学生每天有15分钟或以上的课间休息。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的课间休息情况为70%的学生每天有15分钟或以上的课间休息。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:22",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的衡量指标为教师评价的集体课堂行为。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的衡量指标为教师评价的集体课堂行为。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:23",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的发现为与几乎没有课间休息的学生相比，有课间休息的学生的课堂行为更好。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Barros于2009年在《School recess and group classroom behavior》中的研究的发现为与几乎没有课间休息的学生相比，有课间休息的学生的课堂行为更好。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:24",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的国家为美国（多州），年级为幼儿园。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的国家为美国（多州），年级为幼儿园。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:25",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的课间休息情况为79%有每日课间，67%有16-30分钟/天。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的课间休息情况为79%有每日课间，67%有16-30分钟/天。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:26",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的衡量指标为ECLS-K的阅读分数。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的衡量指标为ECLS-K的阅读分数。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:27",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的发现为课间休息的时长或频率与阅读分数之间没有单独的关联，但特定的时长与频率组合与更高的阅读分数相关。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Yesil Dagli于2012年在《Recess and reading achievement of early childhood students in public schools》中的研究的发现为课间休息的时长或频率与阅读分数之间没有单独的关联，但特定的时长与频率组合与更高的阅读分数相关。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:28",
+      "targets": [
+        "PT.D1.02.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的国家为美国（多州），年级为3和5年级。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的国家为美国（多州），年级为3和5年级。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:29",
+      "targets": [
+        "PT.D1.02.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的课间休息时长为平均29.5分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的课间休息时长为平均29.5分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:30",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的衡量指标为课堂行为（BASC-3）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的衡量指标为课堂行为（BASC-3）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:31",
+      "targets": [
+        "PT.D1.02.outcomes"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.outcomes。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的发现为课间休息的质量与更好的适应性课堂行为、执行功能问题减少等正相关；课间休息时间与较低的外化问题和欺凌行为相关。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定量研究表格中，正确列出Massey于2021年在《Recess quality and social and behavioral health in elementary school students》中的研究的发现为课间休息的质量与更好的适应性课堂行为、执行功能问题减少等正相关；课间休息时间与较低的外化问题和欺凌行为相关。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:32",
+      "targets": [
+        "PT.D1.03.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Martin于2018年在《Perceptions of the effect of recess on kindergartners》中的研究的国家为美国（肯塔基、田纳西、德克萨斯州），参与者为大学生、教师、家长。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Martin于2018年在《Perceptions of the effect of recess on kindergartners》中的研究的国家为美国（肯塔基、田纳西、德克萨斯州），参与者为大学生、教师、家长。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:33",
+      "targets": [
+        "PT.D1.03.perceptions"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.perceptions。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Martin于2018年在《Perceptions of the effect of recess on kindergartners》中的研究感知的教育成果包括课堂行为、专注力和解决问题能力。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Martin于2018年在《Perceptions of the effect of recess on kindergartners》中的研究感知的教育成果包括课堂行为、专注力和解决问题能力。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:34",
+      "targets": [
+        "PT.D1.03.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究的国家为美国（德克萨斯州），参与者为K、1、2年级和体育老师。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究的国家为美国（德克萨斯州），参与者为K、1、2年级和体育老师。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:35",
+      "targets": [
+        "PT.D1.03.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究的课间休息时长为4次15分钟（LiiNK项目）。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究的课间休息时长为4次15分钟（LiiNK项目）。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:36",
+      "targets": [
+        "PT.D1.03.perceptions"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.perceptions。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究感知的教育成果包括维持专注力、学业、创造力和解决问题能力。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Bauml于2020年在《a qualitative study of teachers' perceptions of increased recess time on teaching, learning, and behavior》中的研究感知的教育成果包括维持专注力、学业、创造力和解决问题能力。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:37",
+      "targets": [
+        "PT.D1.03.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究的国家为土耳其，参与者为中小学教师和管理者。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究的国家为土耳其，参与者为中小学教师和管理者。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:38",
+      "targets": [
+        "PT.D1.03.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究的课间休息时长为法定的至少15分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究的课间休息时长为法定的至少15分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:39",
+      "targets": [
+        "PT.D1.03.perceptions"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.perceptions。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究感知的教育成果包括认知、行为、学业学习，但也提到可能分散学生注意力的负面影响。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Ozkal于2020年在《Teachers' and School Administrators' Views Regarding the Role of Recess for Students》中的研究感知的教育成果包括认知、行为、学业学习，但也提到可能分散学生注意力的负面影响。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:40",
+      "targets": [
+        "PT.D1.03.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究的国家为美国（纽约州），参与者为学生和教师。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究的国家为美国（纽约州），参与者为学生和教师。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:41",
+      "targets": [
+        "PT.D1.03.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究的课间休息时长为40分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究的课间休息时长为40分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:42",
+      "targets": [
+        "PT.D1.03.perceptions"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.perceptions。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究感知的教育成果包括专注力和解决问题能力。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Parrott于2020年在《Advocating for play: The benefits of unstructured play in public schools》中的研究感知的教育成果包括专注力和解决问题能力。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:43",
+      "targets": [
+        "PT.D1.03.sample"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.sample。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究的国家为希腊，参与者为1-6年级学生。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究的国家为希腊，参与者为1-6年级学生。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:44",
+      "targets": [
+        "PT.D1.03.exposure"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.exposure。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究的课间休息时长为4个时段，总计55分钟。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究的课间休息时长为4个时段，总计55分钟。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:info_recall:45",
+      "targets": [
+        "PT.D1.03.perceptions"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.perceptions。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "原精确要求：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究感知的教育成果包括创造和想象力。 当前可识别所选研究记录不完整；但未将该研究及该具体值设为所有报告义务，不能保证检出其遗漏。真伪需实际核验，不能声称完整保留。 本条特定断言为：定性研究表格中，正确列出Prompona于2020年在《Play during recess: primary school children's perspectives and agency》中的研究感知的教育成果包括创造和想象力。 对应表项只直接检查该类字段是否有实质、逐研究对应的信息；不等于强制该篇论文或保证此精确断言已核真。省略该研究是否导致重要证据类别缺失另按系统范围检查，不能因未命中姓名自动扣分。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:1",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.04区分专注与违纪结果；PT.D1.10直接检查测量、课间质量及间隔条件；PW.D3.01比较行为差异解释。质量只有术语而无影响说明不能达到完整档；不预定质量已获因果证明。",
+      "discrimination_check": "PT.D1.04区分专注与违纪结果；PT.D1.10直接检查测量、课间质量及间隔条件；PW.D3.01比较行为差异解释。质量只有术语而无影响说明不能达到完整档；不预定质量已获因果证明。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:2",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "保留违纪结果与专注结果可能不同的检查；不照搬Erwin和Fedewa共同方向，失去指定两研究结论召回。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:3",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.10要求测量口径与行为记录条件的具体讨论，PW.D3.01比较据此解释违纪差异是否成立。不强制事件必在课间发生这一事实结论；其精确原因仍需研究证据。",
+      "discrimination_check": "PT.D1.10要求测量口径与行为记录条件的具体讨论，PW.D3.01比较据此解释违纪差异是否成立。不强制事件必在课间发生这一事实结论；其精确原因仍需研究证据。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:4",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.10直接要求休息间隔对结果比较的意义，PW.D3.01比较解释强度。只写总分钟数而完全不谈间隔为3；不强制对Fedewa结果作官方同向概括。",
+      "discrimination_check": "PT.D1.10直接要求休息间隔对结果比较的意义，PW.D3.01比较解释强度。只写总分钟数而完全不谈间隔为3；不强制对Fedewa结果作官方同向概括。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:5",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "学业方向与一致性明确检查；允许有据不同结论而非预置只有积极或无显著。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:6",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "阅读数学与未显著须区分，但不强制Dills和Yesil Dagli或固定线性关系措辞。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:7",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "数学与阅读不同结果可识别，但不强制Erwin的具体MAP方向。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:8",
+      "targets": [
+        "PT.D2.03",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D2.03直接识别由未显著下降跳到普遍无损害的错误；PW.D3.02比较安排建议推导。保留学业损害问题，拒绝强制官方的肯定性打消担忧结论。",
+      "discrimination_check": "PT.D2.03直接识别由未显著下降跳到普遍无损害的错误；PW.D3.02比较安排建议推导。保留学业损害问题，拒绝强制官方的肯定性打消担忧结论。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:9",
+      "targets": [
+        "PT.D1.06",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.06直接检查客观测试与感知、注意与创造不同结果，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。",
+      "discrimination_check": "PT.D1.06直接检查客观测试与感知、注意与创造不同结果，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:10",
+      "targets": [
+        "PT.D1.06",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.06直接检查解决问题能力及其感知依据，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。",
+      "discrimination_check": "PT.D1.06直接检查解决问题能力及其感知依据，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:11",
+      "targets": [
+        "PT.D1.06",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.06直接检查创造与想象能力及其感知依据，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。",
+      "discrimination_check": "PT.D1.06直接检查创造与想象能力及其感知依据，PW.D3.03比较能力证据差异解释。另一个能力写得好不能补偿此领域完全没有；指定论文和统一有益结论不强制。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:12",
+      "targets": [
+        "PT.D1.07",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "能识别有无证据边界和总量讨论；不强制CDC20分钟及更长更好方向。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:13",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "能识别时长与条件对应；不强制Massey30分钟的精确案例。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:14",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "能识别定性时长感知与最佳剂量之间区别；不强制40分钟门槛或指定研究。"
+    },
+    {
+      "resource_id": "drb2:125:analysis:15",
+      "targets": [
+        "PT.D1.07",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留题面相关分析对象，改为条件化检查而非预定答案。",
+      "discrimination_check": "明确比较分布与总量的推导，不强制多次必优于单次的方向。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:1",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "按题定格式及原报告阅读功能分工。",
+      "discrimination_check": "两部分的存在可直接识别。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:2",
+      "targets": [
+        "PT.D1.02.format"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.format。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "按题定格式及原报告阅读功能分工。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:3",
+      "targets": [
+        "PT.D1.02.format"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.02.format。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "按题定格式及原报告阅读功能分工。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:4",
+      "targets": [
+        "PT.D1.03.format",
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.format, PT.D1.08。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "按题定格式及原报告阅读功能分工。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:5",
+      "targets": [
+        "PT.D1.03.format"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.format。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "按题定格式及原报告阅读功能分工。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:6",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "按题定格式及原报告阅读功能分工。",
+      "discrimination_check": "表后四問分析位置由PT.D1.08检查，实质回应由04—07检查。"
+    },
+    {
+      "resource_id": "drb2:125:presentation:7",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "按题定格式及原报告阅读功能分工。",
+      "discrimination_check": "组织和语言分别比较，表文外部准确性限核验；不保留一个混合总分。"
+    }
+  ],
+  "author_notes": [
+    "两表核对以官方研究为重要线索，不把固定名单当唯一允许范围；逐资源记录丢失的精确召回能力，不将主题相近标为完整保留。",
+    "风险：info_recall:19与analysis:2/4的Fedewa概括不能直接等同；未查原论文。LiiNK是复合干预，不能自动归因于休息。未显著不是证明无影响。",
+    "全部条目有作者原子化自检；尚待独立语义审核。无浏览器、候选报告、评分或外部API。",
+    "v3.3 作者修复：补PT.D1.10研究条件与PT.D2.03无损害推断边界；收紧PT.D1.06两类能力遗漏档位；PW.D3.01分出能力证据解释PW.D3.03。表格字段、时段、四问、禁源和查证分工保留。",
+    "这是作者自检，不是独立审核。待审风险：官方45条具名研究的精确国家、分钟数与结果未变成固定召回清单，逐条记录具体损失；仍须审查选材是否真正系统。官方analysis:2与info_recall:19对Fedewa的概括不宜机械统一；无联网事实裁定。表格一字段缺失为3、时长与频率缺一面为3等已有混合锚点可用，未为篇数拆分。",
+    "本轮仅检查batch5的7题；原Query、逐分锚点、唯一ID、来源及反向映射、逐项原子化记录的程序检查未见错误。所有官方处置均有记录不等于全部精确要求保留。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "时段与对象共同界定纳入范围；一面符合另一面越界按2或3，不拆每个年份。"
+    },
+    {
+      "id": "PT.D1.02.sample",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.exposure",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.outcomes",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.02.format",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.02拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.sample",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.exposure",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.perceptions",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.format",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "新增10承接研究条件解释后，本项只看专注/违纪结果及是否呈现分歧；任一重要结果面缺失为3，不再重复评原因。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "阅读/数学结果与一致性仍为一个比较对象；任一重要学科完全遗漏明确3，4仅容许次要细节缺口。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "rewritten",
+      "reason": "创造力详尽而解决问题整块没有为3；两者共同构成其他能力的范围检查，不按每个量表拆分。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "时长与频率不能分离解释最优；只论总量而未论安排已有3分。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "added",
+      "reason": "分区与位置共同定义题定结构；分区对但位置错按3。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "单一使用边界；清单列入与实质取用分别4与1—3。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "表行到出处是同一关系；有文献列表无逐行对应按3。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "字段和发现共同组成核验断言；日期对但结果错属于实质错配。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "旧PW仅把这些内容列作任选路线；恢复研究条件这一共同内容入口。测量讲清而课间质量整块遗漏为3，不能靠多写测量细节补偿。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "官方的肯定性无损害结论不能强制照搬；恢复可直接识别该推断越界的审计，而非只在安排PW比较。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "行为差异解释与创造力测试/感知解释可以独立相反，故后者迁至PW.D3.03；行为内部按同一行为结论的重要性判断。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "added",
+      "reason": "干预条件和结论不可拆；数字明确但缺可比性不能补齐推理。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "比较证据如何互补的一项综合关系；只整合定量而定性成为装饰不足以明显更好。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "证据与概括范围是同一适配关系；数量多但高度重叠不能弥补适用性不足。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "宏观顺序与重复合评；漂亮表格不能弥补全文跳跃。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "指标与单位给结果句含义；句子顺但分钟口径含糊仍有理解缺陷。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "结论—表行—出处是一条定位路径，不拆环节。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "split",
+      "reason": "行为差异解释正确但把感知当能力测试可独立出错；单设本项。创造力与解决问题相反局部优劣按主要能力结论影响判断，等量为0。"
+    }
+  ]
+}

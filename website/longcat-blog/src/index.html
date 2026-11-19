@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="LongCat-DeepResearch and CompareDR: research generation, comparative evaluation, and a continuously maintained leaderboard.">
+  <meta name="color-scheme" content="light">
+  <title>LongCat Deep Research · CompareDR</title>
+  <link rel="stylesheet" href="./assets/blog.css">
+</head>
+<body>
+  <a class="skip" href="#main" data-t="skip">跳到正文</a>
+  <header class="site-header"><a class="brand" href="#technical"><img src="./assets/longcat_logo.png" alt="LongCat-DeepResearch" width="2165" height="226"></a>
+    <button id="language" class="language" type="button" aria-label="Switch to English">English</button>
+  </header>
+  <main id="main">
+    <header class="hero">
+      <p class="eyebrow">LONGCAT RESEARCH</p>
+      <h1 data-t="title">深度研究：从报告生成到系统评测</h1>
+      <p class="subtitle" data-t="subtitle">LongCat-DeepResearch 技术报告与 CompareDR 基准</p>
+    </header>
+    <nav class="tabs" role="tablist" aria-label="Research works">
+      <button type="button" role="tab" id="tab-technical" aria-controls="panel-technical" aria-selected="true" data-tab="technical">LongCat-DeepResearch</button>
+      <button type="button" role="tab" id="tab-benchmark" aria-controls="panel-benchmark" aria-selected="false" tabindex="-1" data-tab="benchmark">CompareDR</button>
+    </nav>
+    <article id="panel-technical" role="tabpanel" aria-labelledby="tab-technical">
+      <header class="article-header"><p class="section-label" data-t="technicalLabel">技术报告 · 多智能体研究框架</p><h2>LongCat-DeepResearch</h2><p class="deck" data-t="technicalDeck">共享研究规划，独立开展章节研究，以定向修订完成长篇报告。</p>
+      <div class="resources" id="technical-links"></div></header>
+      <section><h3 data-t="technicalIntroTitle">让开放式研究保持一致与深入</h3><p data-t="technicalIntro"></p>
+        <figure><img src="./assets/harness_overview.png" alt="LongCat-DeepResearch harness: research planning, independent section research, assembly and editing" width="1600" height="900" loading="lazy"><figcaption data-t="harnessCaption"></figcaption></figure>
+      </section>
+      <section><h3 data-t="workflowTitle">从问题到带引用的研究报告</h3><ol class="workflow">
+        <li><h4 data-t="planTitle"></h4><p data-t="planBody"></p></li>
+        <li><h4 data-t="researchTitle"></h4><p data-t="researchBody"></p></li>
+        <li><h4 data-t="editTitle"></h4><p data-t="editBody"></p></li>
+      </ol></section>
+      <section><h3 data-t="technicalResultsTitle">原生深度研究基准上的表现</h3><p data-t="technicalResultsIntro"></p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Technical report results"><table class="native-results"><caption data-t="technicalTableCaption"></caption><thead><tr><th data-t="system">系统</th><th>DRB-I</th><th>DRB-II</th><th>ResearchRubrics</th></tr></thead><tbody>
+          <tr class="highlight"><th>LongCat-DeepResearch</th><td>55.25</td><td>51.35</td><td>79.83</td></tr>
+          <tr><th>ChatGPT-DeepResearch</th><td>54.95</td><td>47.16</td><td>74.21</td></tr>
+          <tr><th>Claude-DeepResearch</th><td>53.43</td><td>48.18</td><td>72.91</td></tr>
+          <tr><th>Gemini-DeepResearch</th><td>50.21</td><td>46.72</td><td>64.92</td></tr>
+        </tbody></table></div><p class="note" data-t="technicalCaveat"></p>
+      </section>
+      <section><h3 data-t="technicalOpenTitle">开放研究框架</h3><p data-t="technicalOpenBody"></p><a class="text-link" href="https://github.com/meituan-longcat/LongCat-DeepResearch" target="_blank" rel="noopener noreferrer" data-t="technicalReadme">查看运行说明</a></section>
+      <aside class="bridge"><p data-t="bridgeBody"></p><button type="button" data-switch="benchmark" data-t="bridgeButton">了解 CompareDR</button></aside>
+    </article>
+    <article id="panel-benchmark" role="tabpanel" aria-labelledby="tab-benchmark" hidden>
+      <header class="article-header"><p class="section-label" data-t="benchmarkLabel">研究基准 · 互补式报告评测</p><h2>CompareDR</h2><p class="deck" data-t="benchmarkDeck">从单篇报告是否合格，走向报告之间谁更好、为什么。</p><div class="resources" id="benchmark-links"></div></header>
+      <section><h3 data-t="benchmarkIntroTitle">覆盖任务要求，也辨别相对优劣</h3><p data-t="benchmarkIntro"></p>
+        <div class="facts"><div><strong>40</strong><span data-t="queriesLabel">研究问题</span></div><div><strong>360</strong><span data-t="paperReportsLabel">论文主实验报告</span></div><div><strong>1,099</strong><span data-t="criteriaLabel">任务级评测标准</span></div><div><strong>80</strong><span data-t="humanPairsLabel">人工标注报告对</span></div></div>
+        <figure><img src="./assets/framework.png" alt="CompareDR framework combining pointwise audits and pairwise comparisons with passage-linked localization and evidence verification" width="1800" height="978" loading="lazy"><figcaption data-t="frameworkCaption"></figcaption></figure>
+      </section>
+      <section><h3 data-t="validationTitle">验证评测能否识别有意义的差异</h3><p data-t="validationBody"></p><p class="note" data-t="cohortBoundary"></p></section>
+      <section id="leaderboard" class="leaderboard-section"><div class="section-heading"><h3 data-t="leaderboardTitle">持续维护的系统排行榜</h3><button id="refresh" type="button" data-t="refresh">更新数据</button></div>
+        <p data-t="leaderboardIntro"></p><p id="feed-status" class="feed-status" role="status" aria-live="polite"></p>
+        <p id="cohort-meta" class="cohort-meta"></p>
+        <div class="sort-control"><label for="sort-key" data-t="sortLabel">排序依据</label><select id="sort-key"><option value="overall" data-t="overall">综合分</option><option value="D1" data-t="D1">任务响应</option><option value="D2" data-t="D2">证据</option><option value="D3" data-t="D3">推理</option><option value="D4" data-t="D4">综合</option><option value="D5_D6" data-t="D5_D6">可读性</option></select><button id="sort-direction" type="button" data-t="descending">从高到低</button></div>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="CompareDR leaderboard"><table id="scores"><caption data-t="scoresCaption"></caption><thead id="score-head"></thead><tbody id="score-body"></tbody></table></div>
+        <p class="note" data-t="scoreMeaning"></p>
+        <details><summary data-t="protocolTitle">评测设置与更新机制</summary><p id="protocol"></p><p id="weight-note"></p><p data-t="updateMechanism"></p></details>
+        <div class="downloads"><button id="download-json" type="button" data-t="downloadJSON">下载当前 JSON</button><button id="download-csv" type="button" data-t="downloadCSV">下载当前 CSV</button></div>
+      </section>
+      <section><h3 data-t="resourcesTitle">复现与参与</h3><p data-t="resourcesIntro"></p>
+        <dl class="resource-guide"><div><dt data-t="mainPipeline">评测主流程</dt><dd><code>evaluation/</code><span data-t="pipelineDesc"></span></dd></div><div><dt data-t="experiments">实验与复现</dt><dd><code>experiments/ · reproduction/</code><span data-t="experimentsDesc"></span></dd></div><div><dt data-t="reports">报告与标注</dt><dd><code>data/</code><span data-t="reportsDesc"></span></dd></div><div><dt data-t="submission">新系统提交</dt><dd><code>submissions/</code><span data-t="submissionDesc"></span></dd></div></dl>
+        <p id="submission-link"></p><p class="note" data-t="licenseNote"></p>
+      </section>
+      <details class="authors"><summary data-t="authorsTitle">作者与机构</summary><div id="authors"></div></details>
+    </article>
+  </main>
+  <footer><span>LongCat Research</span><span data-t="footer">研究框架与评测基准 · 开放、可复现、持续维护</span></footer>
+  <noscript><p>请启用 JavaScript 以切换中英文、查看排行榜及研究内容。Enable JavaScript to view the bilingual research blog and leaderboard. <a href="./data/leaderboard.snapshot.json">Leaderboard JSON</a></p></noscript>
+  <script src="./assets/config.js"></script><script src="./assets/snapshot.js"></script><script src="./assets/authors.js"></script><script type="module" src="./assets/app.mjs"></script>
+</body></html>

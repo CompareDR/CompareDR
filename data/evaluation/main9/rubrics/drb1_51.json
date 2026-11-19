@@ -1,0 +1,1082 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb1:51",
+  "language": "en",
+  "title": "Japan's elderly consumer market, 2020–2050",
+  "full_query": "From 2020 to 2050, how many elderly people will there be in Japan? What is their consumption potential across various aspects such as clothing, food, housing, and transportation? Based on population projections, elderly consumer willingness, and potential changes in their consumption habits, please produce a market size analysis report for the elderly demographic.",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Population path",
+      "question": "Does the report quantify Japan's elderly population from 2020 to 2050?",
+      "anchors": {
+        "1": "No population answer.",
+        "2": "Only an isolated figure or percentage without an elderly definition.",
+        "3": "Some defined elderly population figures appear, but the baseline, endpoint or trajectory is missing.",
+        "4": "The definition, 2020 baseline, 2050 endpoint and trajectory are clear, with minor projection-label gaps.",
+        "5": "The elderly definition and population path across 2020–2050 are explicit, with observations distinguished from projections and the projection vintage and scenario identified."
+      },
+      "boundary": "No fixed age threshold, cohort bins or annual table. Forecast reasoning is compared separately.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:1",
+          "drb1:51:instruction_following:1"
+        ],
+        "query_quotes": [
+          "From 2020 to 2050, how many elderly people will there be in Japan?"
+        ],
+        "change_note": "Merge duplicate population coverage; remove mandatory cohort bins; anchors locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Clothing demand",
+      "question": "Does the report describe clothing consumption potential for older Japanese people?",
+      "anchors": {
+        "1": "Clothing is absent.",
+        "2": "Only a clothing market label is given.",
+        "3": "A clothing need is described but the elderly consumer or purchase setting is vague. A future opportunity without a current demand or spending baseline also scores 3.",
+        "4": "Demand and purchasing circumstances are clear with a minor scope gap.",
+        "5": "Concrete clothing needs or spending patterns and the conditions under which older Japanese consumers would purchase are described. Current demand or spending conditions are stated, alongside the potential described."
+      },
+      "boundary": "No required clothing product, brand or segmentation; quantitative market output is separate.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:2",
+          "drb1:51:instruction_following:2"
+        ],
+        "query_quotes": [
+          "clothing"
+        ],
+        "change_note": "Keep only clothing coverage from the multi-sector official objects, without mandatory inter-sector links. v3.1: retain this sector item and explicitly require a current-demand baseline; anchors remain local."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Food demand",
+      "question": "Does the report describe elderly food consumption potential in Japan?",
+      "anchors": {
+        "1": "Food is absent.",
+        "2": "Only says healthy food is a growing market.",
+        "3": "A concrete food demand pattern appears but its elderly relevance is unclear. A future opportunity without a current demand or spending baseline also scores 3.",
+        "4": "Food needs and purchasing settings are clear with a minor group-label gap.",
+        "5": "Food demand is described through identifiable elderly needs and spending circumstances, rather than undifferentiated food-market growth. Current demand or spending conditions are stated, alongside the potential described."
+      },
+      "boundary": "No required meal-delivery business or nutrition model.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:2",
+          "drb1:51:instruction_following:2"
+        ],
+        "query_quotes": [
+          "food"
+        ],
+        "change_note": "Isolate food coverage; locally distinguish labels from elderly-specific demand. v3.1: retain this sector item and explicitly require a current-demand baseline; anchors remain local."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Housing demand",
+      "question": "Does the report describe housing-related consumption potential for Japan's elderly?",
+      "anchors": {
+        "1": "Housing is absent.",
+        "2": "Only says older people need housing.",
+        "3": "A housing need appears but the type of expenditure is unclear. A future opportunity without a current demand or spending baseline also scores 3.",
+        "4": "Needs and spending boundaries are mostly clear.",
+        "5": "Housing demand and its expenditure boundary are clear, allowing the reader to distinguish the services or purchases discussed from the total property market. Current demand or spending conditions are stated, alongside the potential described."
+      },
+      "boundary": "Ownership, renting, renovation and care settings are not a fixed required list.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:2",
+          "drb1:51:instruction_following:2"
+        ],
+        "query_quotes": [
+          "housing"
+        ],
+        "change_note": "Keep housing coverage with local spending-boundary anchors, without a mandatory housing product. v3.1: retain this sector item and explicitly require a current-demand baseline; anchors remain local."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Transportation demand",
+      "question": "Does the report describe elderly mobility-related consumption potential in Japan?",
+      "anchors": {
+        "1": "Transportation is absent.",
+        "2": "Only names transport or cars.",
+        "3": "A mobility need appears but its consumption implications are vague. A future opportunity without a current demand or spending baseline also scores 3.",
+        "4": "Mobility needs and spending choices are clear with a minor condition gap.",
+        "5": "Identifiable elderly mobility needs, associated consumption and relevant purchasing circumstances are clearly described. Current demand or spending conditions are stated, alongside the potential described."
+      },
+      "boundary": "No required mode, operator or urban/rural segmentation.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:2",
+          "drb1:51:instruction_following:2"
+        ],
+        "query_quotes": [
+          "transportation"
+        ],
+        "change_note": "Keep transportation coverage without requiring particular travel modes. v3.1: retain this sector item and explicitly require a current-demand baseline; anchors remain local."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Willingness to spend",
+      "question": "Does the report explain elderly consumers' willingness to consume?",
+      "anchors": {
+        "1": "Willingness is absent.",
+        "2": "Treats all elderly savings or needs as purchases.",
+        "3": "Willingness is confused with ability to pay, or an important income/savings, health, or preference/cultural influence is entirely absent despite good treatment of the others.",
+        "4": "Willingness and ability to pay are distinguished, and the main financial, health and preference influences are explained with only a local detail gap.",
+        "5": "Willingness is distinguished from purchasing power; income/savings, health circumstances and preferences/cultural influences are connected concretely to consumption differences within Japan's elderly population."
+      },
+      "boundary": "Assess personal willingness and constraints, not institutional financing (PT.D1.13). Income/savings, health-related ability and preferences/cultural circumstances need concrete consideration; no fixed survey or demographic bins.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:4"
+        ],
+        "query_quotes": [
+          "elderly consumer willingness"
+        ],
+        "change_note": "Retain willingness coverage and remove a prescribed factor list. v3.3 restores substantive financial, health and preference influences without requiring particular examples."
+      }
+    },
+    {
+      "id": "PT.D1.07.technology",
+      "dimension": "D1",
+      "title": "Technology-driven habit change",
+      "question": "Does the report explain how technology could change elderly consumption in Japan through 2050?",
+      "anchors": {
+        "1": "No substantive account of technology-driven habit change.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The driver is named but its consumption consequence or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Links technology to concrete consumption consequences or a reasoned limited-change finding, distinguishing projection from observation."
+      },
+      "boundary": "No fixed scenario or direction required. Other drivers cannot compensate; demand magnitude remains PT.D1.08.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:5"
+        ],
+        "query_quotes": [
+          "potential changes in their consumption habits"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.health",
+      "dimension": "D1",
+      "title": "Health and longevity change",
+      "question": "Does the report explain how health and longevity could change elderly consumption in Japan through 2050?",
+      "anchors": {
+        "1": "No substantive account of health and longevity change.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The driver is named but its consumption consequence or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Links health and longevity to concrete consumption consequences or a reasoned limited-change finding, distinguishing projection from observation."
+      },
+      "boundary": "No fixed scenario or direction required. Other drivers cannot compensate; demand magnitude remains PT.D1.08.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:5"
+        ],
+        "query_quotes": [
+          "potential changes in their consumption habits"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.household",
+      "dimension": "D1",
+      "title": "Household change",
+      "question": "Does the report explain how family and household structure could change elderly consumption in Japan through 2050?",
+      "anchors": {
+        "1": "No substantive account of household change.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The driver is named but its consumption consequence or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Links family and household structure to concrete consumption consequences or a reasoned limited-change finding, distinguishing projection from observation."
+      },
+      "boundary": "No fixed scenario or direction required. Other drivers cannot compensate; demand magnitude remains PT.D1.08.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:5"
+        ],
+        "query_quotes": [
+          "potential changes in their consumption habits"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.norms",
+      "dimension": "D1",
+      "title": "Social-norm change",
+      "question": "Does the report explain how social norms could change elderly consumption in Japan through 2050?",
+      "anchors": {
+        "1": "No substantive account of social-norm change.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The driver is named but its consumption consequence or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Links social norms to concrete consumption consequences or a reasoned limited-change finding, distinguishing projection from observation."
+      },
+      "boundary": "No fixed scenario or direction required. Other drivers cannot compensate; demand magnitude remains PT.D1.08.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:5"
+        ],
+        "query_quotes": [
+          "potential changes in their consumption habits"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.07.economy",
+      "dimension": "D1",
+      "title": "Economic habit change",
+      "question": "Does the report explain how economic conditions could change elderly consumption in Japan through 2050?",
+      "anchors": {
+        "1": "No substantive account of economic habit change.",
+        "2": "Only labels or an unsupported general assertion, without an identifiable account.",
+        "3": "The driver is named but its consumption consequence or conditions are unclear.",
+        "4": "The required account is concrete and its main components are present, with only minor scope or detail gaps.",
+        "5": "Links economic conditions to concrete consumption consequences or a reasoned limited-change finding, distinguishing projection from observation."
+      },
+      "boundary": "No fixed scenario or direction required. Other drivers cannot compensate; demand magnitude remains PT.D1.08.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:5"
+        ],
+        "query_quotes": [
+          "potential changes in their consumption habits"
+        ],
+        "change_note": "Main-agent v3.5: split this object from PT.D1.07; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      "split_from": "PT.D1.07"
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Quantitative market-size answer",
+      "question": "Does the report provide interpretable market-size estimates based on the three requested inputs?",
+      "anchors": {
+        "1": "No market estimate.",
+        "2": "Only a market adjective or unlabelled total.",
+        "3": "Quantitative estimates exist, but a requested sector, a major part of the 2020–2050 period, an essential unit or one of the three input links is missing. Detailed estimates elsewhere do not remove this gap. A material analyzed market category omitted from the quantitative answer also scores 3. An important cross-sector dependency affecting the estimates is left unexplained.",
+        "4": "The requested sectors and material additional markets are quantitatively covered over the period, with population, willingness and habit inputs and relevant cross-sector dependencies identifiable; only minor unit, assumption or detail gaps remain.",
+        "5": "Quantitative estimates or bounded scenarios cover the requested sectors over 2020–2050; population, willingness, habit assumptions, currency, price basis and period are identifiable. Material additional market categories are sized or bounded, rather than silently omitted from the market account. Material interactions between sector estimates are explained, or treating them independently is justified."
+      },
+      "boundary": "No fixed formula or forecast frequency. A data-gap statement alone is not a quantitative answer. Inference validity is PW.D3.01. If all sectors are discussed but only some are sized, use 3; a full model without identifiable willingness or habit assumptions also scores 3. Units and assumptions give the estimates meaning and are not separate rewards. All categories presented as material parts of the market total must be quantitatively accounted for or bounded; merely mentioning a category as context does not require a separate forecast. Explain relevant substitution, shared budgets or linked demand where they materially affect the estimates, or justify why independent treatment is reasonable. No prescribed interaction or number of links; this is the estimate's scope/assumption check, not PW.D4.01's comparison of useful implications.",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:6",
+          "drb1:51:instruction_following:3",
+          "drb1:51:instruction_following:4",
+          "drb1:51:comprehensiveness:2"
+        ],
+        "query_quotes": [
+          "market size analysis report"
+        ],
+        "change_note": "Combine quantitative output and required inputs; remove a separate report-format score. v3.1: make uneven sector sizing and missing input links explicitly scorable at 3. Cross-review: restore substantive inter-sector consideration in sizing assumptions and synchronize the 4 anchor with the expanded category scope."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Market scope",
+      "question": "Does the report remain focused on Japan's elderly market in 2020–2050?",
+      "anchors": {
+        "1": "The main analysis concerns another market.",
+        "2": "Substantial conclusions substitute foreign or all-age markets.",
+        "3": "The requested market is central but substantial unmarked substitutions or digressions remain.",
+        "4": "The focus is maintained with only a small scope ambiguity.",
+        "5": "Japan's elderly market in the requested period remains central; other populations or periods serve labelled background or comparison roles."
+      },
+      "boundary": "Explained use of older evidence or newer projection publications is allowed.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:instruction_following:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain scope control while allowing necessary comparative evidence."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceable sizing inputs",
+      "question": "Can the key population, spending and willingness inputs be traced to sources or derivations?",
+      "anchors": {
+        "1": "Central inputs have no identifiable basis.",
+        "2": "Only generic references to research or statistics.",
+        "3": "Sources exist but several important input-to-source links are unclear.",
+        "4": "Most inputs have identifiable bases with minor attribution gaps.",
+        "5": "Key values and assumptions are linked to identifiable sources or reviewable derivations, with assumptions labelled."
+      },
+      "boundary": "Traceability is not verified support. Bibliographic information may suffice without URLs.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local input-traceability audit; official source breadth is not treated as source support."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Market accounting consistency",
+      "question": "Are the report's population units, expenditure units and totals mutually consistent?",
+      "anchors": {
+        "1": "Core totals cannot be reconciled.",
+        "2": "A major person/household, period or currency conflict changes the market estimate.",
+        "3": "A local total, unit or denominator conflicts with another stated value and requires changing a value or substantive interpretation to reconcile; the main estimate remains identifiable. Rounding compatible with the displayed precision is not such a conflict.",
+        "4": "No substantive conflict is found, but a unit, period or denominator label is omitted and can be uniquely recovered from adjacent text or a table without changing the calculation.",
+        "5": "Checked totals, units, periods and denominators agree and are explicit; overlaps or price-basis differences are explained wherever values are combined or compared. Separate statistics need not be combined into a new accounting model."
+      },
+      "boundary": "Internal audit only, not external verification or model-quality scoring.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local audit of accounting risks specific to population-based market sizing."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Support within a recorded verification sample",
+      "question": "Within the actually checked sample, do sources support the report's important population and spending claims?",
+      "anchors": {
+        "1": "Obtained evidence contradicts or fails to support central sampled claims, undermining the market answer.",
+        "2": "Several important checked inputs have substantial support errors.",
+        "3": "Checked support is mixed, with an important population, period or measurement mismatch remaining.",
+        "4": "Important checked claims are supported, apart from minor scope or attribution issues.",
+        "5": "All assessed claims match obtained evidence in population, period, measurement and strength; this does not certify unexamined claims."
+      },
+      "boundary": "Record selected and completed checks. Inaccessible sources or an empty assessed sample are execution failures: retry or report the incomplete check, never assign a low score or a default 5. No URL is required if a source is identifiable. This rubric is authored here; no external verification is performed in this batch.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local support audit added because traceability and internal arithmetic cannot identify a source that does not support an input."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Elderly age composition",
+      "question": "Does the report explain how the age composition within Japan's elderly population changes over the forecast period?",
+      "anchors": {
+        "1": "No within-elderly age composition.",
+        "2": "Older people are treated as a single uniform age group.",
+        "3": "Distinguishes elderly age groups but does not explain how their relative composition is projected to change; describing only total elderly growth is insufficient.",
+        "4": "Explains a projected shift between elderly age groups, but leaves an age boundary or forecast date unclear.",
+        "5": "Defines the age groups and forecast dates and explains the projected composition shift with counts, shares or a clear directional comparison. Complete numerical forecast series for every group are not required."
+      },
+      "boundary": "Exact bins such as 65–74/75–84/85+ are not required. Counts and their population definitions belong together; demand consequences are assessed elsewhere.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:1"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore age-composition coverage independently of the total population path: accurate total counts cannot compensate for absent within-elderly composition."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Health and personal-care consumption",
+      "question": "Does the report describe the elderly health and care market beyond clothing, food, housing and transport?",
+      "anchors": {
+        "1": "No health or care consumption.",
+        "2": "Only names healthcare as an opportunity.",
+        "3": "A concrete demand is described but payer or purchased service remains unclear; medical demand alone without care needs, or the reverse, also scores 3.",
+        "4": "Health and care needs are tied to actual consumption and payers, with a small boundary gap.",
+        "5": "Medical and personal/long-term-care needs, associated purchases or services and who pays are described, distinguishing private consumption from total public expenditure."
+      },
+      "boundary": "No mandatory treatment, company or care setting. Housing-related care must have a clear expenditure boundary rather than being counted twice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore the omitted health-and-care market domain; a service without its payer is not an interpretable consumption opportunity, and omission of either major side is explicitly 3."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Consumption beyond basic necessities",
+      "question": "Does the report explain significant elderly discretionary and enabling-service markets beyond the four named sectors and health/care?",
+      "anchors": {
+        "1": "No wider consumption markets.",
+        "2": "Only lists extra sectors.",
+        "3": "Describes a wider market but leaves major discretionary or enabling-service needs unaddressed without a substantive relevance explanation.",
+        "4": "Meaningful wider needs and purchase settings are covered, with one minor connection or scope gap.",
+        "5": "Discretionary participation and services enabling elderly consumption are concretely described, including relevant leisure/social, digital and financial needs or a substantive Japan-specific reason why a category is not material."
+      },
+      "boundary": "No product catalogue, brand or fixed sector count. A justified finding of limited demand counts as analysis; simply calling a domain optional does not.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore substantive breadth without forcing all example products. Leisure coverage cannot conceal a complete lack of consideration of digital/financial access; 3 handles the mixed result."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Japanese institutional consumption context",
+      "question": "Does the report explain how Japan's pension, health-financing and care arrangements affect elderly consumption?",
+      "anchors": {
+        "1": "No institutional context.",
+        "2": "Names policies without explaining consumer effects.",
+        "3": "An arrangement is connected to consumption, but a major pension, healthcare-financing or care-access component is entirely absent.",
+        "4": "The main financing and access arrangements are connected to purchasing conditions, with a minor specificity gap.",
+        "5": "Pension income, health financing and care availability are linked concretely to affordability, out-of-pocket spending or service access in Japan, with scope and uncertainty stated."
+      },
+      "boundary": "No fixed law list or required source agency. This checks the institutional purchasing environment, not evidence-source count or willingness itself.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate institutional context from evidence applicability. Good pension coverage but no treatment of health/care financing is explicitly 3, not compensated by source quality."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence applicability",
+      "question": "Which report uses evidence better matched to its elderly-market claims?",
+      "anchors": {
+        "0": "Evidence provides comparable help for the market picture; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A has somewhat better population or period matching for an important estimate; B may still have local strengths.",
+        "2": "A has substantially better matched and complementary evidence for central elderly-market estimates; B's local strengths do not close this gap.",
+        "-2": "B has substantially better matched and complementary evidence for central elderly-market estimates; A's local strengths do not close this gap.",
+        "-1": "On balance, B has somewhat better population or period matching for an important estimate; A may still have local strengths."
+      },
+      "boundary": "Compare applicability, not source count; no fixed source brand or policy checklist.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:comprehensiveness:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain evidence and context fit rather than mandatory source breadth."
+      }
+    },
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Population-to-market derivation",
+      "question": "Which report more convincingly derives market size from demographics and demand assumptions?",
+      "anchors": {
+        "0": "The market derivations provide similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better justifies a consequential population-to-spending step; B may still have local strengths.",
+        "2": "A provides a substantially stronger derivation of market estimates and their uncertainty from population and demand assumptions; B's local strengths do not close this gap.",
+        "-2": "B provides a substantially stronger derivation of market estimates and their uncertainty from population and demand assumptions; A's local strengths do not close this gap.",
+        "-1": "On balance, B better justifies a consequential population-to-spending step; A may still have local strengths."
+      },
+      "boundary": "No fixed model, cohort bins or sensitivity procedure; do not repeat arithmetic penalties.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:insight:2",
+          "drb1:51:insight:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Merge sizing logic and demographic interpretation; remove sophistication as a standalone benefit."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Behavioral explanations",
+      "question": "Which report better explains differences and changes in elderly willingness and consumption?",
+      "anchors": {
+        "0": "Behavioral explanations offer similar help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A better explains an important variation or change in consumption; B may still have local strengths.",
+        "2": "A provides substantially more convincing explanations of how preferences and constraints affect future sector demand; B's local strengths do not close this gap.",
+        "-2": "B provides substantially more convincing explanations of how preferences and constraints affect future sector demand; A's local strengths do not close this gap.",
+        "-1": "On balance, B better explains an important variation or change in consumption; A may still have local strengths."
+      },
+      "boundary": "Compare actual causal reasoning, not segmentation count or novelty; PT checks presence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:insight:1",
+          "drb1:51:insight:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Merge overlapping behavioral insights without named mandatory drivers."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Meaning of the market outlook",
+      "question": "Which report better distinguishes substantial elderly-market opportunities from conditional or limited ones?",
+      "anchors": {
+        "0": "Market conclusions provide comparable decision help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A more usefully clarifies an important opportunity or limitation; B may still have local strengths.",
+        "2": "A provides substantially more useful conclusions about where demand matters and what could change that judgment; B's local strengths do not close this gap.",
+        "-2": "B provides substantially more useful conclusions about where demand matters and what could change that judgment; A's local strengths do not close this gap.",
+        "-1": "On balance, B more usefully clarifies an important opportunity or limitation; A may still have local strengths."
+      },
+      "boundary": "Identify an implication for interpreting market potential; do not reward valid calculations twice or require an investment plan. Cross-sector substitution or household-budget constraints can improve interpretation when they change which market opportunity appears substantial; more cross-links alone do not help.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:insight:5",
+          "drb1:51:comprehensiveness:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt strategic foresight to useful market interpretation. v3.1: recover the official sector-interrelation distinction through its market implication, not a compulsory method."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Report progression",
+      "question": "Which original report is easier to follow from demographic context to sector estimates and conclusions?",
+      "anchors": {
+        "0": "The reports are similarly easy to follow as market analyses; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A offers a somewhat more helpful progression through the market analysis; B may still have local strengths.",
+        "2": "A offers substantially clearer overall progression, with summaries and repetition serving the argument; B's local strengths do not close this gap.",
+        "-2": "B offers substantially clearer overall progression, with summaries and repetition serving the argument; A's local strengths do not close this gap.",
+        "-1": "On balance, B offers a somewhat more helpful progression through the market analysis; A may still have local strengths."
+      },
+      "boundary": "Read original reports; no mandatory order or executive summary. Count transitions and repetition together.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:readability:1",
+          "drb1:51:readability:5",
+          "drb1:51:readability:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Combine ordering, cohesion and redundancy in one comparison."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clear market language",
+      "question": "Which report expresses its existing demographic and consumption estimates more clearly?",
+      "anchors": {
+        "0": "Wording and quantitative presentation offer similar clarity; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A makes important market terms or quantities somewhat easier to understand; B may still have local strengths.",
+        "2": "A makes the existing demographic and market claims substantially easier to understand through precise wording and labels; B's local strengths do not close this gap.",
+        "-2": "B makes the existing demographic and market claims substantially easier to understand through precise wording and labels; A's local strengths do not close this gap.",
+        "-1": "On balance, B makes important market terms or quantities somewhat easier to understand; A may still have local strengths."
+      },
+      "boundary": "No mandatory chart or CAGR; score meaning and labels, not truth or extra content.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:readability:2",
+          "drb1:51:readability:3",
+          "drb1:51:readability:4",
+          "drb1:51:readability:6"
+        ],
+        "query_quotes": [],
+        "change_note": "Combine verbal and quantitative comprehension; assess visuals only if used."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding an estimate",
+      "question": "Which original report makes a sector-year estimate and its stated basis easier to locate?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; explain whether both help similarly or neither provides relevant help.",
+        "1": "On balance, A reduces the search for an important estimate or assumption; B may still have local strengths.",
+        "2": "A substantially reduces repeated searches for sector-year estimates and their stated bases; B's local strengths do not close this gap.",
+        "-2": "B substantially reduces repeated searches for sector-year estimates and their stated bases; A's local strengths do not close this gap.",
+        "-1": "On balance, B reduces the search for an important estimate or assumption; A may still have local strengths."
+      },
+      "boundary": "Test actual lookup paths; do not count source truth, URL quantity or macro organization again.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb1:51:readability:1"
+        ],
+        "query_quotes": [],
+        "change_note": "v3.1: use only the navigation aspect of readability:1 for sector-estimate lookup, keeping overall progression in D5."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb1:51:comprehensiveness:1",
+      "targets": [
+        "PT.D1.01",
+        "PT.D1.10"
+      ],
+      "reason": "PT.D1.01 checks the total path and PT.D1.10 independently checks changing within-elderly age composition. Correct aggregate counts with no age structure now lose the latter distinction. Exact three official age bins are not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.01 checks the total path and PT.D1.10 independently checks changing within-elderly age composition. Correct aggregate counts with no age structure now lose the latter distinction. Exact three official age bins are not required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:2",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.03",
+        "PT.D1.04",
+        "PT.D1.05",
+        "PT.D1.08",
+        "PW.D4.01"
+      ],
+      "reason": "PT.D1.02–05 retain sector demand and current purchase context; PT.D1.08 now directly checks material sector dependencies affecting market estimates or justified independent treatment. PW.D4.01 compares the usefulness of resulting opportunity judgments.",
+      "status": "adapted",
+      "discrimination_check": "Four good standalone forecasts without treatment of a material shared-budget/substitution dependency are 3 in PT.D1.08. No particular interaction, product or cross-link count is mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:3",
+      "targets": [
+        "PT.D1.11",
+        "PT.D1.12"
+      ],
+      "reason": "PT.D1.11 restores medical/care demand and payer boundaries; PT.D1.12 restores discretionary and enabling services, including consideration of leisure/social, digital and financial needs. Naming additional sectors is 2; meaningful needs without a major domain are 3. Particular products and an exhaustive example catalogue are not required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 restores medical/care demand and payer boundaries; PT.D1.12 restores discretionary and enabling services, including consideration of leisure/social, digital and financial needs. Naming additional sectors is 2; meaningful needs without a major domain are 3. Particular products and an exhaustive example catalogue are not required.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:4",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "PT.D1.06 now requires financial resources, health and preference/cultural influences as well as willingness versus ability. Strong savings analysis with health entirely absent is 3; no fixed subgroup taxonomy or survey is required.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 now requires financial resources, health and preference/cultural influences as well as willingness versus ability. Strong savings analysis with health entirely absent is 3; no fixed subgroup taxonomy or survey is required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:5",
+      "targets": [
+        "PT.D1.07.technology",
+        "PT.D1.07.health",
+        "PT.D1.07.household",
+        "PT.D1.07.norms",
+        "PT.D1.07.economy"
+      ],
+      "reason": "This revision separates the former composite and maps sources to the relevant objects. See target boundaries. The prior reason is archived in prior_disposition_reason, not a current conclusion.",
+      "status": "adapted",
+      "discrimination_check": "v3.5 scores these separate objects using their individual anchors: PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy. Earlier grouped-score wording is superseded; source-specific examples remain adapted, not mandatory answer keys.",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "prior_disposition_reason": "PT.D1.07 now distinguishes absent technology, health/longevity and household/social-economic drivers from a substantive explanation of their consumption consequences. Example innovations and a predetermined direction of change remain optional."
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:6",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 requires time-consistent estimates with population, willingness and habit inputs, including material additional market categories. An extra category used only for context need not have its own forecast, unlike the original every-analyzed-category wording.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08 requires time-consistent estimates with population, willingness and habit inputs, including material additional market categories. An extra category used only for context need not have its own forecast, unlike the original every-analyzed-category wording.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:comprehensiveness:7",
+      "targets": [
+        "PT.D1.13",
+        "PW.D2.01"
+      ],
+      "reason": "PT.D1.13 directly checks pension, health-financing and care-access context; PW.D2.01 compares applicability and complementarity of actual demographic and market evidence. Good sources alone cannot compensate for absent institutional context. No source-brand quota or separate societal-attitude checklist is imposed.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.13 directly checks pension, health-financing and care-access context; PW.D2.01 compares applicability and complementarity of actual demographic and market evidence. Good sources alone cannot compensate for absent institutional context. No source-brand quota or separate societal-attitude checklist is imposed.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:insight:1",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02 detects stronger behavioral explanations, not novelty for its own sake; a credible familiar explanation can win.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02 detects stronger behavioral explanations, not novelty for its own sake; a credible familiar explanation can win.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:insight:2",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01 detects an unjustified conversion to market size and uncertainty handling; complexity or sophistication alone earns no advantage.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 detects an unjustified conversion to market size and uncertainty handling; complexity or sophistication alone earns no advantage.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:insight:3",
+      "targets": [
+        "PW.D3.02"
+      ],
+      "reason": "PW.D3.02 can distinguish a meaningful heterogeneity explanation from treating all elderly people alike; no fixed segmentation axes are required.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.02 can distinguish a meaningful heterogeneity explanation from treating all elderly people alike; no fixed segmentation axes are required.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:insight:4",
+      "targets": [
+        "PW.D3.01"
+      ],
+      "reason": "PW.D3.01 distinguishes a demographic shift that changes the estimate from simply repeating population numbers; dependency-ratio and household models are optional.",
+      "status": "adapted",
+      "discrimination_check": "PW.D3.01 distinguishes a demographic shift that changes the estimate from simply repeating population numbers; dependency-ratio and household models are optional.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:insight:5",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "reason": "PW.D4.01 detects useful forward-looking opportunity/limitation judgments, without mandatory novelty or a business/policy action plan.",
+      "status": "adapted",
+      "discrimination_check": "PW.D4.01 detects useful forward-looking opportunity/limitation judgments, without mandatory novelty or a business/policy action plan.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:instruction_following:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "PT.D1.01 directly separates a usable Japan 2020–2050 elderly population answer from missing endpoints or an isolated figure.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 directly separates a usable Japan 2020–2050 elderly population answer from missing endpoints or an isolated figure.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:instruction_following:2",
+      "targets": [
+        "PT.D1.02",
+        "PT.D1.03",
+        "PT.D1.04",
+        "PT.D1.05"
+      ],
+      "reason": "Each of clothing, food, housing and transportation has its own coverage item; omission of any sector remains visible.",
+      "status": "retained",
+      "discrimination_check": "Each of clothing, food, housing and transportation has its own coverage item; omission of any sector remains visible.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:instruction_following:3",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "PT.D1.08 explicitly scores 3 if any of population, willingness or habit links is absent despite otherwise detailed estimates.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08 explicitly scores 3 if any of population, willingness or habit links is absent despite otherwise detailed estimates.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:instruction_following:4",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "Quantitative market analysis is required; a prescribed report appearance is not a separate pass condition.",
+      "status": "adapted",
+      "discrimination_check": "Quantitative market analysis is required; a prescribed report appearance is not a separate pass condition.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:instruction_following:5",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "PT.D1.09 detects substitution or digression but allows explicitly labelled necessary comparisons instead of an absolute ban on outside-period material.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 detects substitution or digression but allows explicitly labelled necessary comparisons instead of an absolute ban on outside-period material.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:readability:1",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.02"
+      ],
+      "reason": "PW.D5.01 evaluates whole-report progression; PW.D6.02 tests navigation. Exact heading levels or an example order are not mandatory.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 evaluates whole-report progression; PW.D6.02 tests navigation. Exact heading levels or an example order are not mandatory.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:readability:2",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01 distinguishes unambiguous market language, without scoring professionalism of tone separately.",
+      "status": "adapted",
+      "discrimination_check": "PW.D6.01 distinguishes unambiguous market language, without scoring professionalism of tone separately.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:readability:3",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01 directly compares whether existing population and market quantities are understandable in context.",
+      "status": "retained",
+      "discrimination_check": "PW.D6.01 directly compares whether existing population and market quantities are understandable in context.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:readability:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "Labels and meaning of visuals actually used are compared; no automatic penalty for using clear prose instead of charts.",
+      "status": "adapted",
+      "discrimination_check": "Labels and meaning of visuals actually used are compared; no automatic penalty for using clear prose instead of charts.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:readability:5",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "PW.D5.01 detects paragraph/section transitions that help or interrupt the demographic-to-market reading path.",
+      "status": "retained",
+      "discrimination_check": "PW.D5.01 detects paragraph/section transitions that help or interrupt the demographic-to-market reading path.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:readability:6",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "reason": "PW.D6.01 compares explanations of existing market terms for readers of this analysis, rather than requiring specialized terms.",
+      "status": "retained",
+      "discrimination_check": "PW.D6.01 compares explanations of existing market terms for readers of this analysis, rather than requiring specialized terms.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb1:51:readability:7",
+      "targets": [
+        "PW.D5.01"
+      ],
+      "reason": "D5 captures whole-report repetition; unnecessary jargon is part of D6 clarity, but no blanket shorter-is-better reward remains.",
+      "status": "adapted",
+      "discrimination_check": "D5 captures whole-report repetition; unnecessary jargon is part of D6 clarity, but no blanket shorter-is-better reward remains.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb1:51:readability:8",
+      "targets": [],
+      "reason": "No separate aesthetic score for fonts, margins or visual appeal. Their precise cosmetic distinctions are not preserved.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "No separate aesthetic score for fonts, margins or visual appeal. Their precise cosmetic distinctions are not preserved.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "PT covers population, four sectors, willingness, habit change and quantitative sizing; PW compares actual evidence fit, reasoning, implications and reading value.",
+    "Official objects are not externally verified demographic evidence. Draft with author self-check only; independent review is not claimed.",
+    "v3.1: preserve all 18 prior items and IDs; clarify four current-demand baselines and mixed market-size performance, recover useful sector interrelations and navigation mapping, and add one bounded support audit. No forced atomic splitting.",
+    "The main author performed item-by-item atomicity and official-discrimination self-checks. New machine checks cover this assigned batch only; independent semantic review remains pending. No reports, scores, browsers or external data were consulted.",
+    "v3.3 author repair: Restored age composition, health/care, wider consumption and institutional context (PT.D1.10–13); strengthened current willingness, future-driver coverage and quantitative scope (PT.D1.06–08). Four sector items and bounded evidence audits are retained because they already distinguish the specific missing sector, unverifiable attribution and accounting conflict.",
+    "This is an author self-check, not independent review. Remaining review risks: Age-composition bins, named products, exact official chart styling and mandatory source brands remain unretained. PT.D1.12 breadth and PT.D1.07 driver-domain mixed anchors need semantic review for consistent materiality judgments. PW causal comparison is not a substitute for these direct scope checks; no external demographic claims were verified.",
+    "This v3.3 pass checked only the seven batch5 tasks: unchanged queries, five anchors, unique IDs, official membership and reverse mappings, and item-level atomicity records. Complete disposition records do not mean every original distinction is preserved."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "retained",
+      "reason": "A baseline without an endpoint or trajectory scores 3; an unlabelled isolated figure scores 2. The age definition and projection conditions belong to the same population answer."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "A clothing opportunity without current demand is now explicitly 3; demand and its purchasing context form one sector answer."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "rewritten",
+      "reason": "A future food opportunity without a baseline is 3 even if detailed; avoid splitting demand from the population it describes."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "rewritten",
+      "reason": "Housing need without an expenditure boundary remains 3; add current-demand coverage, not separate scores for tenure types."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "rewritten",
+      "reason": "A mobility need without consumption implications remains 3; add current-demand coverage without forcing transport modes."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "rewritten",
+      "reason": "Financial resources do not substitute for willingness; omission of a major influence is now explicitly 3 even if another is detailed."
+    },
+    {
+      "id": "PT.D1.07.technology",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.health",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.household",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.norms",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.07.economy",
+      "decision": "split",
+      "reason": "Main-agent v3.5: split this object from [PT.D1.07.technology, PT.D1.07.health, PT.D1.07.household, PT.D1.07.norms, PT.D1.07.economy]; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "rewritten",
+      "reason": "A detailed four-sector forecast with a major analyzed care market missing is explicitly 3; category scope is part of the same quantitative answer. Cross-review: estimates and their material cross-sector assumptions are one sizing account; a missing dependency is explicitly 3, and 4 now includes the additional markets."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "retained",
+      "reason": "A relevant central analysis with unmarked substitutions is explicitly 3; scope is a single object."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "retained",
+      "reason": "Sources present but attribution unclear are 3; traceability is one relationship, not a source-count score."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "retained",
+      "reason": "Consistent core figures with a local accounting conflict score 3, versus a central conflict at 2. Do not split units from their totals."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "Support may be wrong even when a source is findable and the arithmetic is consistent; separate this external-evidence relationship from those existing audits."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "Restore age-composition coverage independently of the total population path: accurate total counts cannot compensate for absent within-elderly composition."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "added",
+      "reason": "Restore the omitted health-and-care market domain; a service without its payer is not an interpretable consumption opportunity, and omission of either major side is explicitly 3."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "Restore substantive breadth without forcing all example products. Leisure coverage cannot conceal a complete lack of consideration of digital/financial access; 3 handles the mixed result."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "Separate institutional context from evidence applicability. Good pension coverage but no treatment of health/care financing is explicitly 3, not compensated by source quality."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "retained",
+      "reason": "Good fit for one input and poor fit for another are compared by their importance to the market estimate; a local advantage supports ±1, not an automatic ±2."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "retained",
+      "reason": "A sound population premise with an unsupported spending conversion is a broken derivation; uncertainty describes that same inference rather than a second independent product."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "retained",
+      "reason": "Variation and change are instances of the same preference-to-consumption explanation; local strengths remain allowed at ±1."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "rewritten",
+      "reason": "Opportunity and its limiting condition form one judgment. Add cross-sector consequences to recover a real official distinction without requiring a particular analysis route."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "retained",
+      "reason": "Useful summaries but disruptive order are judged as a whole reading path; ±1 allows mixed local strengths, so no splitting is needed."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "retained",
+      "reason": "Clear prose but ambiguous numerical labels is a mixed comprehensibility result; judge actual consequential ambiguity rather than averaging labels."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "rewritten",
+      "reason": "Finding a number but not its stated basis is an incomplete lookup path; update only the source mapping, not a new navigation score."
+    }
+  ]
+}

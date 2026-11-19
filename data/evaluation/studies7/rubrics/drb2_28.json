@@ -1,0 +1,1824 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:28",
+  "language": "en",
+  "title": "Urban water-supply energy recovery",
+  "full_query": "I am researching energy recovery technologies in urban water supply systems and hope you can help me compile a research report on this topic. My primary interest is to compare two mainstream technologies: conventional micro-hydroturbines and a technology called 'Pump as Turbine' (PAT). Please address the following tasks around this core focus:\n\n1. First, please provide a detailed comparison of 'conventional micro-hydroturbines' and 'Pump as Turbine (PATs)' technologies. I would like the comparison to cover the following aspects: operational efficiency (including best efficiency point and efficiency under partial load), costs (including procurement, installation, and operation & maintenance costs), pressure regulation capability, design and operational complexity, expected service life, and market availability.\n\n2. To more clearly present the above comparison, please create a summary table titled 'Comparison of Conventional Micro-hydroturbines and PATs', listing the advantages and disadvantages of these two types of technologies across the aforementioned dimensions.\n\n3. Next, I need a more specific technical parameter table. Please research and compile a table titled 'Technical Parameters and Applicability of Various Turbine Types', covering as many common turbine types as possible (e.g., Pelton, Turgo, Crossflow, Francis, Kaplan, Semi-Kaplan, PAT, Spherical, etc.). The table should include at least the following columns: Name, Type (Impulse or Reaction), Applicable Head Range (unit: meters), Applicable Flow Rate Range (unit: cubic meters/second), Design Point Efficiency Range (percentage), and a brief description of its pressure regulation capability.\n\n4. Finally, please summarize the main economic and technical challenges currently existing in installing such energy recovery equipment in urban water supply networks.\n\nPlease ensure your report is based on publicly available information up to and including early 2024. When outputting, please organize the content sequentially according to the four parts I requested, and use clear subheadings.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Comprehensive Review for Energy Recovery Technologies Used in Water Distribution Systems Considering Their Performance, Technical Challenges, and Economic Viability', 'authors': ['Admitos A. Bideris-Davos', 'Panagis N. Vovos'], 'urls': ['https://www.mdpi.com/2073-4441/16/15/2129', 'https://www.semanticscholar.org/paper/Comprehensive-Review-for-Energy-Recovery-Used-in-Bideris-Davos-Vovos/6961f947d8d091d41384cd7f03889427d1c294ed', 'https://agris.fao.org/search/en/providers/122436/records/675ad1b90ce2cede71d20fb8', 'https://scite.ai/reports/comprehensive-review-for-energy-recovery-PQ4NVjL2', 'https://discovery.researcher.life/article/comprehensive-review-for-energy-recovery-technologies-used-in-water-distribution-systems-considering-their-performance-technical-challenges-and-economic-viability/843769c474a63c749aeee8e2e25904e6', 'https://ouci.dntb.gov.ua/en/works/4NKGbrvl/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Efficiency comparison",
+      "question": "Does the report compare conventional micro-hydroturbines and PATs at best efficiency and partial load?",
+      "anchors": {
+        "1": "Neither technology's efficiency is described.",
+        "2": "Only one technology or a generic efficiency ranking is given.",
+        "3": "Both are discussed, but BEP or partial-load behavior is missing, or efficiency definitions are unclear.",
+        "4": "Both conditions are compared with minor uncertainty about equipment or efficiency basis.",
+        "5": "BEP and partial-load performance are compared with meaningful conditions and a clear hydraulic or overall efficiency basis; differences among designs are acknowledged."
+      },
+      "boundary": "No fixed 70–90% or 40–75% range is mandatory. A supported exception to a general ranking is valid. Coverage here is not a judgment that one technology must win.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:1",
+          "drb2:28:info_recall:2",
+          "drb2:28:info_recall:3",
+          "drb2:28:info_recall:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain the BEP/off-design comparison; remove unconditional rankings and fixed numerical answer keys."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Lifecycle cost components",
+      "question": "Does the report compare procurement, installation and O&M costs for both technologies?",
+      "anchors": {
+        "1": "No usable cost comparison.",
+        "2": "Only cheap/expensive labels or a purchase price for one technology.",
+        "3": "Both technologies appear, but a requested cost phase is absent or important costs have unclear scope. Manufacturing/customization drivers or the avoided-cost boundary in a claimed PRV substitution are materially unexplained.",
+        "4": "All three phases are compared; minor currency, period or inclusion details remain unclear.",
+        "5": "Procurement, installation and O&M are distinguished for both technologies, using scoped estimates, cost drivers or specific evidence limitations; one-time and recurring costs are not confused."
+      },
+      "boundary": "No fixed cost ratio or O&M percentage. Specific data gaps can be explicit; generic 'prices vary' cannot replace comparison. Economic inference belongs to PW.D3.02. Explain how standardized pump production versus turbine customization affects procurement, and when actual PRV replacement avoids purchase or maintenance costs; no saving may be counted when the valve remains necessary.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:5",
+          "drb2:28:info_recall:6",
+          "drb2:28:info_recall:17",
+          "drb2:28:info_recall:18",
+          "drb2:28:analysis:6",
+          "drb2:28:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain three cost phases and mass-production context; replace unqualified ratios with interpretable scope."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Pressure control comparison",
+      "question": "Does the report compare pressure regulation in conventional micro-hydroturbines and PAT installations?",
+      "anchors": {
+        "1": "No pressure-control comparison.",
+        "2": "Only one technology or unexplained high/low labels.",
+        "3": "Both are mentioned, but built-in control and installation-level auxiliary control are confused or a central operating condition is absent.",
+        "4": "Control means and limits for both are clear, with a minor distinction unresolved.",
+        "5": "The report identifies how the compared machines/installations regulate or dissipate pressure and what depends on auxiliaries, speed or operating conditions; it does not equate energy extraction with guaranteed downstream pressure control."
+      },
+      "boundary": "Guide vanes, PRVs and variable-speed control are examples, not a compulsory equipment list. Do not assign the same capability to all conventional turbine families.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:7",
+          "drb2:28:info_recall:8",
+          "drb2:28:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain inherent versus auxiliary regulation distinction with explicit installation boundaries."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Design and operating complexity",
+      "question": "Does the report compare the design, operation and maintenance demands of the two approaches?",
+      "anchors": {
+        "1": "No complexity comparison.",
+        "2": "Only simple/complex labels.",
+        "3": "Some concrete comparison exists, but design, operating or maintenance demands are materially missing, or only one approach is developed.",
+        "4": "Both approaches' design and operating demands are concrete, with a minor service detail missing.",
+        "5": "The comparison identifies design/customization, operation and maintenance demands for both, including the skills or support on which claims of simplicity depend."
+      },
+      "boundary": "Do not require PAT systems always to be simple once controls are included. Cost amounts belong to PT.D1.02; here assess what work is required.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:9",
+          "drb2:28:info_recall:10",
+          "drb2:28:info_recall:11",
+          "drb2:28:info_recall:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep customization and service-skill differences without imposing a universal PAT advantage."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Expected service life",
+      "question": "Does the report compare expected service life with interpretable equipment and maintenance conditions?",
+      "anchors": {
+        "1": "Service life is absent.",
+        "2": "Only durable/short-lived labels or an unsupported universal ranking.",
+        "3": "Both technologies have life claims, but what is being replaced, maintained or assumed is materially unclear.",
+        "4": "Life expectations for both are scoped, with a minor maintenance or component distinction missing.",
+        "5": "Life expectations or specific evidence limits are compared for both, distinguishing equipment/component replacement and relevant operating or maintenance conditions."
+      },
+      "boundary": "No compulsory 25–50 versus 10–15-year values. A justified inability to assign universal lifetimes can answer the comparison when the underlying differences are explained.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:13",
+          "drb2:28:info_recall:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep expected-life comparison, remove fixed universal lifetimes."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Market availability",
+      "question": "Does the report compare the availability of conventional micro-turbines and pumps usable as turbines?",
+      "anchors": {
+        "1": "No availability information.",
+        "2": "Only a vendor name or generic 'available' assertion.",
+        "3": "Both approaches are mentioned, but standardized/custom supply or suitability for turbine duty is unclear.",
+        "4": "Supply differences and conversion/customization implications are mostly clear.",
+        "5": "The comparison distinguishes available pump hardware from turbine-duty suitability and support, and explains standard versus customized turbine supply in the stated market."
+      },
+      "boundary": "No specific manufacturer or country is required. Catalogue availability alone does not establish a warranted PAT product.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:15",
+          "drb2:28:info_recall:16"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain supply distinction, add turbine-duty support boundary."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Requested comparison table",
+      "question": "Does the report provide the titled comparison table summarizing advantages and disadvantages across the requested dimensions?",
+      "anchors": {
+        "1": "No comparison table.",
+        "2": "A fragmentary table covers only one technology or little of the requested comparison.",
+        "3": "Both technologies appear, but a major requested dimension or meaningful advantages/disadvantages are missing.",
+        "4": "The table covers the dimensions and both technologies, with only minor title or summary omissions.",
+        "5": "A table titled 'Comparison of Conventional Micro-hydroturbines and PATs' summarizes efficiency, cost phases, pressure control, complexity, life and availability for both, with interpretable advantages and disadvantages."
+      },
+      "boundary": "Judge the requested summary representation, not factual accuracy again. No compulsory one-to-two-sentence conclusion below it.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:presentation:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep the requested title and summary coverage; remove the extra sentence-count rule."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Technical table scope",
+      "question": "Does the report provide the titled technical parameter table with broad coverage of common turbine families?",
+      "anchors": {
+        "1": "No technical parameter table.",
+        "2": "Only one or two arbitrary types are listed without explaining the selection.",
+        "3": "Several types are listed, but common families are conspicuously excluded without a reason, or the table cannot be related to urban water supply.",
+        "4": "Broad coverage is present; a limited omission or naming ambiguity remains.",
+        "5": "The table titled 'Technical Parameters and Applicability of Various Turbine Types' covers common impulse, reaction and PAT options broadly, addressing the named examples where applicable or explaining evidence/scope limitations."
+      },
+      "boundary": "Pelton, Turgo, Crossflow, Francis, Kaplan, Semi-Kaplan, PAT and Spherical are coverage-check prompts, not a closed compulsory list. A missing example needs a defensible scope/data explanation, not invented parameters. A specific evidence limitation must identify the affected type and what remains unknown. A table with substantially missing requested data cannot reach 4/5 merely by labelling gaps; retain scope and unresolved data explicitly, without invented values.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve broad family coverage but not an inflexible eight-row quota."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Turbine classification",
+      "question": "Does the parameter table identify each listed turbine and its impulse or reaction classification?",
+      "anchors": {
+        "1": "No usable names or classifications.",
+        "2": "Most rows have missing or uninterpretable classifications.",
+        "3": "Classification is supplied for some rows, but important families or variants are ambiguous.",
+        "4": "Names and classifications are clear for almost all rows, with minor variant ambiguity.",
+        "5": "Each row has a recognizable name and explained impulse/reaction classification; nonstandard or ambiguous designs are qualified rather than silently conflated."
+      },
+      "boundary": "Reference lines: Pelton/Turgo/Crossflow are conventionally impulse; Francis/Kaplan and common pump-reversal designs reaction. Spherical variants require the design context. Supported classification corrections are eligible; external correctness remains bounded by verification.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:19",
+          "drb2:28:info_recall:24",
+          "drb2:28:info_recall:29",
+          "drb2:28:info_recall:34",
+          "drb2:28:info_recall:39",
+          "drb2:28:info_recall:44",
+          "drb2:28:info_recall:49",
+          "drb2:28:info_recall:54"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain classification as a distinct table field, allow design-specific qualifications."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Applicable head ranges",
+      "question": "Does the table give interpretable head ranges in meters for the listed turbine types?",
+      "anchors": {
+        "1": "Head information is absent.",
+        "2": "Most entries lack usable values or units.",
+        "3": "Some ranges are usable, but important rows omit ranges or confuse gross, net or recoverable head.",
+        "4": "Ranges and meter units are mostly clear, with minor source-scope ambiguity.",
+        "5": "Listed types have scoped head ranges in meters, or specific data limitations; family envelopes are distinguished from guaranteed urban-network operating points."
+      },
+      "boundary": "Do not mandate the official numerical endpoints. Explain significant omissions; do not reward spurious precision or worldwide hydro ranges presented as site guarantees. A specific evidence limitation must identify the affected type and what remains unknown. A table with substantially missing requested data cannot reach 4/5 merely by labelling gaps; retain scope and unresolved data explicitly, without invented values.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:20",
+          "drb2:28:info_recall:25",
+          "drb2:28:info_recall:30",
+          "drb2:28:info_recall:35",
+          "drb2:28:info_recall:40",
+          "drb2:28:info_recall:45",
+          "drb2:28:info_recall:50",
+          "drb2:28:info_recall:55"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep head-column discrimination, remove exact endpoint matching."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Applicable flow ranges",
+      "question": "Does the table give interpretable flow ranges in cubic meters per second?",
+      "anchors": {
+        "1": "Flow information is absent.",
+        "2": "Most rows lack usable flow values or units.",
+        "3": "Usable values occur, but major rows or flow/unit definitions are unclear.",
+        "4": "Flow ranges and units are largely usable, with a minor limitation unmarked.",
+        "5": "Flow ranges are expressed in m³/s with equipment/family scope, and specific unavailable data are identified without implying a universal machine envelope."
+      },
+      "boundary": "Head coverage cannot compensate for absent flow ranges. Reliable converted units count if the requested m³/s values are supplied. A specific evidence limitation must identify the affected type and what remains unknown. A table with substantially missing requested data cannot reach 4/5 merely by labelling gaps; retain scope and unresolved data explicitly, without invented values.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:21",
+          "drb2:28:info_recall:26",
+          "drb2:28:info_recall:31",
+          "drb2:28:info_recall:36",
+          "drb2:28:info_recall:41",
+          "drb2:28:info_recall:46",
+          "drb2:28:info_recall:51",
+          "drb2:28:info_recall:56"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep flow-column completeness and scope, not fixed intervals."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Design-point efficiency ranges",
+      "question": "Does the table state design-point efficiency ranges in percent with a clear efficiency basis?",
+      "anchors": {
+        "1": "No design-point efficiency data.",
+        "2": "Only high/low labels or undefined numbers.",
+        "3": "Some percentages are supplied, but central rows or hydraulic/overall/BEP distinctions are unclear.",
+        "4": "Design-point values and basis are mostly clear, with minor scope gaps.",
+        "5": "Each listed type has scoped design-point efficiency information or a specific evidence limitation, in percent, with hydraulic versus whole-system meaning clear."
+      },
+      "boundary": "Do not treat a family range as the efficiency of every model; no exact official percentage required. A specific evidence limitation must identify the affected type and what remains unknown. A table with substantially missing requested data cannot reach 4/5 merely by labelling gaps; retain scope and unresolved data explicitly, without invented values.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:22",
+          "drb2:28:info_recall:27",
+          "drb2:28:info_recall:32",
+          "drb2:28:info_recall:37",
+          "drb2:28:info_recall:42",
+          "drb2:28:info_recall:47",
+          "drb2:28:info_recall:52",
+          "drb2:28:info_recall:57"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep efficiency-column discrimination and add denominator/basis clarity."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Per-type pressure capability",
+      "question": "Does the parameter table briefly describe each type's pressure-regulation capability?",
+      "anchors": {
+        "1": "No per-type regulation information.",
+        "2": "Only a generic assertion for all turbines.",
+        "3": "Some row descriptions exist, but important types or native versus system-level regulation remain unclear.",
+        "4": "Per-type capabilities are mostly intelligible, with minor installation conditions missing.",
+        "5": "Rows distinguish relevant machine control, downstream pressure limitations and auxiliary dependence; qualifications accompany the capability description."
+      },
+      "boundary": "No fixed high/medium/low ranking is mandatory. Flow control and residual-pressure maintenance need not be the same capability.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:info_recall:23",
+          "drb2:28:info_recall:28",
+          "drb2:28:info_recall:33",
+          "drb2:28:info_recall:38",
+          "drb2:28:info_recall:43",
+          "drb2:28:info_recall:48",
+          "drb2:28:info_recall:53",
+          "drb2:28:info_recall:58"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep per-type regulation field, remove universal rankings."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Economic installation challenges",
+      "question": "Does the report explain commercial viability barriers, including capital exposure, small-site revenue and equipment supply?",
+      "anchors": {
+        "1": "No economic barriers.",
+        "2": "Only says equipment is costly.",
+        "3": "Costs are concrete, but limited recoverable revenue, initial capital exposure or small-unit supply constraints are missing.",
+        "4": "Main project-economics barriers and responsible actors are clear, with minor context gaps.",
+        "5": "The report explains how initial procurement/integration costs, limited recoverable power and small-unit availability affect investment exposure and viable revenue, with the relevant conditions and uncertainties."
+      },
+      "boundary": "No universal 3 kW cutoff or compulsory subsidy. Institutional permission and allocation of returns are assessed in PT.D1.19; do not replace commercial analysis with 'costs vary'.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:1",
+          "drb2:28:analysis:13",
+          "drb2:28:analysis:15"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep commercial revenue, capital and supply barriers; institutional permissions and return allocation are now separate in PT.D1.19."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Water-service integration and operating support",
+      "question": "Does the report explain network intervention and operating-support challenges without compromising water service?",
+      "anchors": {
+        "1": "No water-service integration discussion.",
+        "2": "Only generic engineering difficulty.",
+        "3": "A pressure or maintenance issue is concrete, but continuity during intervention, downstream service or required operating expertise is missing.",
+        "4": "Continuity, pressure operation and installation/maintenance support are explained with a minor implementation gap.",
+        "5": "The report explains the tension between recoverable head at critical network locations and safe intervention, downstream pressure/flow needs, and competent installation and maintenance support."
+      },
+      "boundary": "No requirement that every high-energy site lies in the network core. Relate impulse atmospheric discharge versus reaction backpressure compatibility to possible installation locations; reaction classification alone never proves safe direct PRV replacement.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:3",
+          "drb2:28:analysis:4",
+          "drb2:28:analysis:10",
+          "drb2:28:analysis:11",
+          "drb2:28:analysis:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Keep staffing, network intervention and hydraulic placement; electrical integration and PAT prediction uncertainty are now separate in PT.D1.20 and PT.D1.21."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "Early-2024 information boundary",
+      "question": "Does the report use public information available up to and including early 2024?",
+      "anchors": {
+        "1": "The report principally relies on later developments.",
+        "2": "Several core judgments rely on post-boundary material.",
+        "3": "The main scope is appropriate but a substantive later finding is mixed in.",
+        "4": "The boundary is respected with a minor publication/version ambiguity.",
+        "5": "Substantive evidence is available by the stated early-2024 boundary; dates and versions permit that assessment."
+      },
+      "boundary": "The query does not define an exact last day of 'early 2024'; declare a reasonable interpretation, rather than impose one silently. A later page update alone does not establish a new finding.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "up to and including early 2024"
+        ],
+        "change_note": "Add the query's temporal constraint, without inventing a precise date."
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "Four-part output order",
+      "question": "Does the report present comparison, summary table, technical table and challenges in the requested sequence with clear subheadings?",
+      "anchors": {
+        "1": "No recognizable requested sequence.",
+        "2": "Several requested parts are absent or unidentifiable.",
+        "3": "Parts are present but a major ordering or separation problem remains.",
+        "4": "The sequence is clear, with only a minor heading/separation issue.",
+        "5": "All four requested parts are identifiable in sequence under clear subheadings."
+      },
+      "boundary": "Nested subsections count; do not force three sections merely because the official rubric did. Do not rescore content completeness here.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:presentation:1"
+        ],
+        "query_quotes": [
+          "according to the four parts I requested"
+        ],
+        "change_note": "Replace conflicting three-section wording with the query's four-part sequence."
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "Observable excluded-source use",
+      "question": "Does the final report avoid citing or substantively using the prohibited energy-recovery review?",
+      "anchors": {
+        "1": "The excluded review supports central conclusions.",
+        "2": "It supports several substantive secondary claims.",
+        "3": "It supports one local substantive claim.",
+        "4": "It appears only in a bibliography without confirmed substantive use.",
+        "5": "No observable excluded-source use in the complete final report; an exclusion notice is not use."
+      },
+      "boundary": "Do not infer browsing history from overlapping facts or similar taxonomy.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Comprehensive Review for Energy Recovery Technologies Used in Water Distribution Systems Considering Their Performance, Technical Challenges, and Economic Viability"
+        ],
+        "change_note": "Add the query's observable source boundary."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of key claims",
+      "question": "Can the report's parameter ranges, cost/life claims and water-network application claims be traced to specific sources or calculations?",
+      "anchors": {
+        "1": "Key claims have no identifiable source or derivation.",
+        "2": "Only generic references to research or data are given.",
+        "3": "Relevant sources exist, but important claim-to-source links are unclear.",
+        "4": "Main claims are traceable, with minor attribution ambiguity.",
+        "5": "Key claims have identifiable sources or reviewable derivations; assumptions are marked."
+      },
+      "boundary": "Assess traceability only. Bibliographic details can suffice without URLs; actual support belongs to PT.D2.02.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplar's traceability audit to this task's key claims; anchors locally specified."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Support within the verification sample",
+      "question": "Within completed checks, do sources support the asserted equipment, hydraulic conditions, cost basis and parameter ranges?",
+      "anchors": {
+        "1": "Verified central claims are contradicted or lack their claimed basis, undermining the answer.",
+        "2": "Several important checked claims have material support errors.",
+        "3": "Support is mixed, with material scope or attribution errors remaining.",
+        "4": "Important checked claims hold, with only minor overstatement or attribution problems.",
+        "5": "All assessed claims match the obtained evidence in object, scope and strength; this is not a full-report guarantee."
+      },
+      "boundary": "Record selected and assessed claims, scope and counts. Retrieval failure is an execution issue: retry and report it, not a low score or NA. Without completed checks, no quality conclusion is available. No external verification is performed in this authoring run.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's bounded verification audit; official rubric content is not an external fact guarantee."
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "Internal consistency",
+      "question": "Are names, units, efficiency definitions and pressure-control claims compatible between prose, both tables and conclusions?",
+      "anchors": {
+        "1": "Core statements conflict so extensively that the answer cannot be determined.",
+        "2": "An unexplained conflict in a key object, value or condition materially harms use.",
+        "3": "A local substantive conflict remains, but the main answer is identifiable.",
+        "4": "Core statements agree, with minor ambiguity that is easy to clarify.",
+        "5": "Checked prose, tables and conclusions agree; differences under different conditions are explained."
+      },
+      "boundary": "Assess internal compatibility, not external truth. Different conditions need not yield identical results.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add a task-specific consistency audit, separate from external verification."
+      }
+    },
+    {
+      "id": "PT.D1.19",
+      "dimension": "D1",
+      "title": "Institutional and contractual feasibility",
+      "question": "Does the report explain permission, incentives and responsibility for costs and returns between water and electricity actors?",
+      "anchors": {
+        "1": "No institutional feasibility content.",
+        "2": "Only a generic reference to regulations.",
+        "3": "A permission or stakeholder issue is concrete, but authorization or cost/return responsibility is missing.",
+        "4": "Permissions and stakeholder responsibilities are explained, with a minor incentive or contract detail unclear.",
+        "5": "The report identifies authorization/contractual conditions, the relevance of incentives or their absence, and how water/power actors allocate investment, operating responsibility and returns."
+      },
+      "boundary": "No named jurisdiction, license form or subsidy is required; a justified absence of subsidy is substantive discussion, not omission.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore institutional content as its own check rather than a possible economic barrier."
+      }
+    },
+    {
+      "id": "PT.D1.20",
+      "dimension": "D1",
+      "title": "Electrical use and connection",
+      "question": "Does the report explain how recovered electricity can be absorbed and connected without unacceptable electrical effects?",
+      "anchors": {
+        "1": "No discussion of energy use or electrical integration.",
+        "2": "Only states that electricity is generated or sold.",
+        "3": "An intended load or connection is named but usable absorption, connection conditions or electrical effects are unclear.",
+        "4": "Energy use and connection constraints are explained with a minor load or voltage detail missing.",
+        "5": "The report explains local use or grid connection, matching output to absorption and assessing the connection point and relevant voltage/protection constraints."
+      },
+      "boundary": "Grid export is not mandatory; local-use arrangements must still explain how output is accepted. Do not demand a full grid study.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate electrical interface from hydraulic service so neither substitutes for the other."
+      }
+    },
+    {
+      "id": "PT.D1.21",
+      "dimension": "D1",
+      "title": "PAT performance uncertainty",
+      "question": "Does the report explain uncertainty in turbine-mode PAT performance and its consequences for selection or investment?",
+      "anchors": {
+        "1": "No PAT prediction uncertainty discussed.",
+        "2": "Only says performance varies.",
+        "3": "Missing turbine-mode data or prediction error is noted but its consequence for head/flow matching or output is unclear.",
+        "4": "Data/prediction uncertainty and practical consequences are explained with a minor evidence gap.",
+        "5": "The report distinguishes pump-mode data from turbine-mode curves, explains prediction or testing limitations and their consequences for matching operating points and expected recovery."
+      },
+      "boundary": "Do not assert every supplier lacks turbine curves; where curves exist explain their operating scope and residual uncertainty. No compulsory prediction algorithm or experiment.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore turbine-mode curve uncertainty directly; vendor-data limitations are content, not a mandatory absent-data conclusion."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Hydraulic applicability reasoning",
+      "question": "Which report reasons more convincingly from turbine behavior to viable placement and pressure management?",
+      "anchors": {
+        "0": "Hydraulic reasoning offers comparable help, or neither explains a usable operating link. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly stronger reasoning for an important operating or siting link; B may still be better in some respects.",
+        "2": "A provides substantially more coherent reasoning about head recovery, residual pressure and service operation; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more coherent reasoning about head recovery, residual pressure and service operation; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly stronger reasoning for an important operating or siting link; A may still be better in some respects."
+      },
+      "boundary": "Inspect native controls, auxiliaries, atmospheric discharge/backpressure and service requirements where relevant. Reaction type alone does not prove a safe drop-in PRV replacement. No prescribed turbine or control architecture. Compare the actual central chains using the same importance criterion for both reports, record countervailing strengths and use 0 when they balance. PT content presence does not itself establish reasoning superiority.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:7",
+          "drb2:28:analysis:10",
+          "drb2:28:analysis:11",
+          "drb2:28:analysis:17"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain hydraulic/control reasoning and placement relationships, remove universal substitution claims."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Economic inference",
+      "question": "Which report derives its economic conclusions more soundly from costs, performance and operating assumptions?",
+      "anchors": {
+        "0": "Economic inferences are comparably useful, or neither provides a defensible derivation. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes an important cost-to-outcome inference slightly more soundly; B may still be better in some respects.",
+        "2": "A derives central economic conclusions substantially more soundly under explicit operating assumptions; B's local strengths do not make up for this difference.",
+        "-2": "B derives central economic conclusions substantially more soundly under explicit operating assumptions; A's local strengths do not make up for this difference.",
+        "-1": "B makes an important cost-to-outcome inference slightly more soundly; A may still be better in some respects."
+      },
+      "boundary": "No NPV model or numerical payback is compulsory. If avoided PRV costs are claimed, test whether replacement is actually avoided; do not count savings twice. Compare the actual central chains using the same importance criterion for both reports, record countervailing strengths and use 0 when they balance. PT content presence does not itself establish reasoning superiority.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:6",
+          "drb2:28:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "Compare the quality of manufacturing-cost and conditional avoided-cost inference; PT.D1.02 checks their substantive explanation without prescribing a price ranking or guaranteed saving."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Conditional technology choice",
+      "question": "Which report better helps a reader distinguish conditions favoring PATs, conventional turbines or no installation?",
+      "anchors": {
+        "0": "The reports offer comparable choice guidance, or neither goes beyond an unsupported winner. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A gives slightly more useful guidance for a consequential technology trade-off; B may still be better in some respects.",
+        "2": "A provides substantially more useful conditional choices across the stated operating requirements; B's local strengths do not make up for this difference.",
+        "-2": "B provides substantially more useful conditional choices across the stated operating requirements; A's local strengths do not make up for this difference.",
+        "-1": "B gives slightly more useful guidance for a consequential technology trade-off; A may still be better in some respects."
+      },
+      "boundary": "Compare usable synthesis of efficiency, control, life and burden, not the number of dimensions checked in PT. Stable/variable demand and auxiliary-control costs are informative but not compulsory scenarios.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:8",
+          "drb2:28:analysis:9",
+          "drb2:28:analysis:16"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain core trade-offs without predetermining PAT or conventional superiority."
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Investment uncertainty and priorities",
+      "question": "Which report better helps identify what must be measured or resolved before an urban-water recovery project is worth pursuing?",
+      "anchors": {
+        "0": "Decision help is comparable, or neither connects uncertainty to a practical next judgment. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A clarifies an important uncertainty or investment checkpoint slightly better; B may still be better in some respects.",
+        "2": "A turns project uncertainties into substantially more useful investigation or go/no-go priorities; B's local strengths do not make up for this difference.",
+        "-2": "B turns project uncertainties into substantially more useful investigation or go/no-go priorities; A's local strengths do not make up for this difference.",
+        "-1": "B clarifies an important uncertainty or investment checkpoint slightly better; A may still be better in some respects."
+      },
+      "boundary": "Performance curves, site demand, permissions and energy values are possible routes, not a mandatory checklist. No universal 3 kW cutoff; a grounded qualitative priority may suffice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:analysis:15"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the low-power viability warning into contextual investment judgment, removing its universal threshold."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Applicability of engineering evidence",
+      "question": "Which report uses evidence better matched to its claimed turbine scale, control arrangement and urban-water conditions?",
+      "anchors": {
+        "0": "Evidence-fit benefits are comparable, or neither has applicable support. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A has slightly more applicable support for an important engineering comparison; B may still be better in some respects.",
+        "2": "A has substantially better matched evidence for its central engineering comparisons; B's local strengths do not make up for this difference.",
+        "-2": "B has substantially better matched evidence for its central engineering comparisons; A's local strengths do not make up for this difference.",
+        "-1": "B has slightly more applicable support for an important engineering comparison; A may still be better in some respects."
+      },
+      "boundary": "Do not rank by citation count. Large-hydro catalogues, laboratory PAT studies and field deployments have different scope; test fit to the claim, not prestige.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Add evidence-set fit separate from individual source verification."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Whole-report progression",
+      "question": "Which original report more effectively leads from the technology comparison through parameters to network-installation implications?",
+      "anchors": {
+        "0": "The reports offer comparable organizational help, or neither supplies a usable reading path. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A offers slightly better ordering and transitions for the whole argument; B may still be better in some respects.",
+        "2": "A provides a substantially clearer path through this task's material and conclusions; B's local strengths do not make up for this difference.",
+        "-2": "B provides a substantially clearer path through this task's material and conclusions; A's local strengths do not make up for this difference.",
+        "-1": "B offers slightly better ordering and transitions for the whole argument; A may still be better in some respects."
+      },
+      "boundary": "Read the original report. Judge order, transitions, summaries and avoidable repetition together, once. Neither brevity nor a fixed outline wins by default; sentence clarity and lookup are separate.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' whole-report comparison to this audience; no extra outline requirement."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Clarity of existing content",
+      "question": "Which report more clearly explains BEP, partial load, head, flow, hydraulic efficiency and pressure regulation as actually used?",
+      "anchors": {
+        "0": "Comprehensibility is comparable, or neither explains relevant content intelligibly. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A is slightly clearer in important terminology, referents or local explanations; B may still be better in some respects.",
+        "2": "A makes the key concepts and statements substantially easier to understand; B's local strengths do not make up for this difference.",
+        "-2": "B makes the key concepts and statements substantially easier to understand; A's local strengths do not make up for this difference.",
+        "-1": "B is slightly clearer in important terminology, referents or local explanations; A may still be better in some respects."
+      },
+      "boundary": "Judge original wording, terms and local table labels, not factual truth, breadth, whole-report repetition or organization. Formal vocabulary is not a requirement.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:28:presentation:5"
+        ],
+        "query_quotes": [],
+        "change_note": "Use the exemplar's clarity comparison without rewarding formal style or jargon count."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Finding details and their basis",
+      "question": "Which report makes a turbine's parameter, comparison dimension and stated source easier to find?",
+      "anchors": {
+        "0": "Lookup effort is comparable, or neither offers usable lookup help. State whether both offer comparable help or neither offers relevant help.",
+        "1": "A makes important details and their stated basis slightly easier to find; B may still be better in some respects.",
+        "2": "A makes locating this task's key details and stated sources substantially more direct; B's local strengths do not make up for this difference.",
+        "-2": "B makes locating this task's key details and stated sources substantially more direct; A's local strengths do not make up for this difference.",
+        "-1": "B makes important details and their stated basis slightly easier to find; A may still be better in some respects."
+      },
+      "boundary": "Compare actual lookup steps in the original report. Do not count charts or URLs, treat internal segmentation as original formatting, or rescore source validity.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Adapt the exemplars' information-retrieval comparison to concrete task details."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:28:info_recall:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep BEP/off-design comparison, not fixed efficiency answers.",
+      "discrimination_check": "Original: Clearly state that conventional turbines have higher efficiency at the best efficiency point (BEP) and under partial load conditions. PT.D1.01 detects missing BEP or partial load, but does not guarantee the official ranking or exact efficiency intervals."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep BEP/off-design comparison, not fixed efficiency answers.",
+      "discrimination_check": "Original: Clearly state that the typical efficiency range for conventional turbines is between 70-90%. PT.D1.01 detects missing BEP or partial load, but does not guarantee the official ranking or exact efficiency intervals."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:3",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep BEP/off-design comparison, not fixed efficiency answers.",
+      "discrimination_check": "Original: Clearly state that PATs have lower hydraulic efficiency. PT.D1.01 detects missing BEP or partial load, but does not guarantee the official ranking or exact efficiency intervals."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:4",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep BEP/off-design comparison, not fixed efficiency answers.",
+      "discrimination_check": "Original: Clearly state that the typical efficiency range for PATs is between 40-75%. PT.D1.01 detects missing BEP or partial load, but does not guarantee the official ranking or exact efficiency intervals."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:5",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep scoped cost comparison; remove universal ratios.",
+      "discrimination_check": "Original: Clearly state that the procurement cost of conventional turbines is high, typically 2 to 10 times that of PATs. PT.D1.02 detects missing procurement/installation/O&M phases. The 2–10 ratio and 2%/15% values are not required; mass-production effects may be qualified."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:6",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep scoped cost comparison; remove universal ratios.",
+      "discrimination_check": "Original: Clearly state that PATs have low procurement costs because they are mass-produced. PT.D1.02 detects missing procurement/installation/O&M phases. The 2–10 ratio and 2%/15% values are not required; mass-production effects may be qualified."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:7",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep control distinctions with installation context.",
+      "discrimination_check": "Original: Clearly state that conventional turbines can achieve precise pressure regulation through built-in mechanisms such as guide vanes. PT.D1.03 detects native/auxiliary confusion; neither universal conventional control nor a mandatory parallel PRV is preserved."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:8",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep control distinctions with installation context.",
+      "discrimination_check": "Original: Clearly state that PATs inherently lack pressure regulation mechanisms and require auxiliary hydraulic equipment (e.g., parallel PRVs). PT.D1.03 detects native/auxiliary confusion; neither universal conventional control nor a mandatory parallel PRV is preserved."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:9",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep design/operation/service comparison.",
+      "discrimination_check": "Original: Clearly state that conventional turbines have a complex design, often requiring specialized design for specific sites. PT.D1.04 detects omitted operational demands, but does not require every PAT arrangement to be simpler to operate or maintain."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:10",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep design/operation/service comparison.",
+      "discrimination_check": "Original: Clearly state that PATs have a simple design. PT.D1.04 detects omitted operational demands, but does not require every PAT arrangement to be simpler to operate or maintain."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:11",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep design/operation/service comparison.",
+      "discrimination_check": "Original: Clearly state that maintenance of conventional turbines requires personnel with certain expertise. PT.D1.04 detects omitted operational demands, but does not require every PAT arrangement to be simpler to operate or maintain."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:12",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep design/operation/service comparison.",
+      "discrimination_check": "Original: Clearly state that PATs are relatively easy to maintain. PT.D1.04 detects omitted operational demands, but does not require every PAT arrangement to be simpler to operate or maintain."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:13",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep service-life scope rather than fixed lifetimes.",
+      "discrimination_check": "Original: Clearly state that conventional turbines have a long service life, generally 25 to 50 years. PT.D1.05 distinguishes scoped life expectations from labels; exact 25–50 and 10–15 year discrimination is lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:14",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep service-life scope rather than fixed lifetimes.",
+      "discrimination_check": "Original: Clearly state that PATs have a shorter service life, generally 10 to 15 years. PT.D1.05 distinguishes scoped life expectations from labels; exact 25–50 and 10–15 year discrimination is lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:15",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep market and support comparison without universal supply assumptions.",
+      "discrimination_check": "Original: Clearly state that conventional turbines, especially micro-hydroturbines, have limited standardized products on the market and often require customization. PT.D1.06 distinguishes standard hardware, customization and turbine-duty support, not a fixed supply ranking in every market."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:16",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep market and support comparison without universal supply assumptions.",
+      "discrimination_check": "Original: Clearly state that PATs, being standardized pump products, have wide commercial availability. PT.D1.06 distinguishes standard hardware, customization and turbine-duty support, not a fixed supply ranking in every market."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:17",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep scoped cost comparison; remove universal ratios.",
+      "discrimination_check": "Original: Clearly state that the O&M cost of micro conventional turbines accounts for approximately 2% of the total cost. PT.D1.02 detects missing procurement/installation/O&M phases. The 2–10 ratio and 2%/15% values are not required; mass-production effects may be qualified."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:18",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Keep scoped cost comparison; remove universal ratios.",
+      "discrimination_check": "Original: Clearly state that the O&M cost of PATs accounts for approximately 15% of the total installation cost. PT.D1.02 detects missing procurement/installation/O&M phases. The 2–10 ratio and 2%/15% values are not required; mass-production effects may be qualified."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:19",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Pelton turbine as Impulse type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:20",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Pelton turbine as 7–1500 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:21",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Pelton turbine as 0.001–100 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:22",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Pelton turbine as 70–90%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:23",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Pelton turbine has no pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:24",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Turgo turbine as Impulse type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:25",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Turgo turbine as 3–250 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:26",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Turgo turbine as 0.001–10 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:27",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Turgo turbine as 70–90%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:28",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Turgo turbine has no pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:29",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Crossflow turbine as Impulse type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:30",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Crossflow turbine as 2–200 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:31",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Crossflow turbine as 0.04–13 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:32",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency for the Crossflow turbine as approximately 80%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:33",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Crossflow turbine has low pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:34",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Francis turbine as Reaction type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:35",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Francis turbine as 30–700 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:36",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Francis turbine as 0.07–100 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:37",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Francis turbine as 80–90%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:38",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Francis turbine has high pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:39",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Kaplan turbine as Reaction type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:40",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Kaplan turbine as 1–70 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:41",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Kaplan turbine as 0.05–1000 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:42",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Kaplan turbine as 80–90%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:43",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Kaplan turbine has very high pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:44",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Semi-Kaplan turbine as Reaction type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:45",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Semi-Kaplan turbine as 1–70 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:46",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Semi-Kaplan turbine as 0.05–1000 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:47",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Semi-Kaplan turbine as 80–90%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:48",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Semi-Kaplan turbine has medium pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:49",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list PAT as Reaction type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:50",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for PAT as 2–400 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:51",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for PAT as 0.03–0.5 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:52",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for PAT as 40–75%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:53",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that PAT has limited pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:54",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain impulse/reaction classification but allow justified variant and coverage qualifications.",
+      "discrimination_check": "Original: In the 'Technical Parameters and Applicability of Various Turbine Types' table, correctly list the Spherical turbine as Reaction type. PT.D1.09 detects missing/ambiguous classifications and PT.D2.02 can verify asserted types; omission of an optional named example is not an automatic exact-row penalty."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:55",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain head-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the head range for the Spherical turbine as 1–4 meters. PT.D1.10 detects absent or uninterpretable head ranges; the precise official interval in this row is not mandatory, so exact endpoint matching is deliberately lost."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:56",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain flow-range reporting, not universal endpoints.",
+      "discrimination_check": "Original: In the table, correctly list the flow rate range for the Spherical turbine as 0.5–10 cubic meters/second. PT.D1.11 detects missing or unclear flow data and m³/s units; the precise official interval is not a fixed answer key."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:57",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain design-point efficiency reporting, not fixed numerical ranges.",
+      "discrimination_check": "Original: In the table, correctly list the efficiency range for the Spherical turbine as 10–50%. PT.D1.12 detects absent or undefined percentages; it accepts supported scope corrections instead of requiring this exact official value."
+    },
+    {
+      "resource_id": "drb2:28:info_recall:58",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Retain per-type capability and conditions.",
+      "discrimination_check": "Original: In the table, correctly state that the Spherical turbine has no pressure regulation capability. PT.D1.13 distinguishes useful capability descriptions from missing labels; fixed no/low/medium/high rankings are not preserved without design context."
+    },
+    {
+      "resource_id": "drb2:28:analysis:1",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14 directly checks small-unit supply constraints; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:2",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.19 directly checks authorization, incentives and responsibility/returns; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:3",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 directly checks operating expertise; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:4",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 directly checks critical-site intervention and service continuity; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:5",
+      "targets": [
+        "PT.D1.20"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.20 directly checks energy absorption and electrical connection; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:6",
+      "targets": [
+        "PT.D1.02",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02 directly checks production/customization cost drivers; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:7",
+      "targets": [
+        "PT.D1.03",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.03 directly checks native versus auxiliary mechanisms; PW.D3.01 compares inference.",
+      "discrimination_check": "Flow/energy recovery alone cannot substitute for pressure-control means."
+    },
+    {
+      "resource_id": "drb2:28:analysis:8",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "The six requested dimensions have direct PT checks; PW.D4.01 compares conditional trade-off conclusions, not a predetermined technology winner.",
+      "discrimination_check": "Specific stable-demand or long-life superiority is not universal; a conditional choice must explain which operating requirement changes the advantage."
+    },
+    {
+      "resource_id": "drb2:28:analysis:9",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "The six requested dimensions have direct PT checks; PW.D4.01 compares conditional trade-off conclusions, not a predetermined technology winner.",
+      "discrimination_check": "Specific stable-demand or long-life superiority is not universal; a conditional choice must explain which operating requirement changes the advantage."
+    },
+    {
+      "resource_id": "drb2:28:analysis:10",
+      "targets": [
+        "PT.D1.15",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 directly checks atmospheric discharge and placement; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:11",
+      "targets": [
+        "PT.D1.15",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 directly checks backpressure compatibility without automatic safe substitution; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:12",
+      "targets": [
+        "PT.D1.21"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.21 directly checks turbine-mode prediction uncertainty; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:13",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14 directly checks initial capital exposure; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:14",
+      "targets": [
+        "PT.D1.02",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02 directly checks conditional avoided PRV costs; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:15",
+      "targets": [
+        "PT.D1.14",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14 directly checks small-recovery revenue uncertainty; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:analysis:16",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "The six requested dimensions have direct PT checks; PW.D4.01 compares conditional trade-off conclusions, not a predetermined technology winner.",
+      "discrimination_check": "Specific stable-demand or long-life superiority is not universal; a conditional choice must explain which operating requirement changes the advantage."
+    },
+    {
+      "resource_id": "drb2:28:analysis:17",
+      "targets": [
+        "PT.D1.15",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.15 directly checks service risk underlying operator caution; relative inference or priorities remain separate.",
+      "discrimination_check": "Omitting this substantive relationship cannot be replaced by other engineering detail. Specific supplier, site, subsidy, fixed threshold or universal directional claims are not forced."
+    },
+    {
+      "resource_id": "drb2:28:presentation:1",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "The query requests four ordered parts, not three required sections.",
+      "discrimination_check": "Original: The report should be divided into three clear core sections, with subheadings: 1. Technological Comparison and Analysis: Conventional Micro-hydroturbines vs. PATs; 2. Technical Parameters and Applicability of Various Turbine Types; 3. Main Economic and Technical Challenges. PT.D1.17 tests the query order; the original three-section prescription is deliberately not preserved."
+    },
+    {
+      "resource_id": "drb2:28:presentation:2",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Keep the table title and requested dimensions.",
+      "discrimination_check": "Original: The first section, 'Technological Comparison and Analysis: Conventional Micro-hydroturbines vs. PATs', should first provide a textual analysis across dimensions (efficiency, costs, pressure regulation, etc.), and then embed a table titled 'Comparison of Conventional Micro-hydroturbines and PATs'; the table must include dimensions such as efficiency (including BEP, partial load efficiency), procurement cost, installation cost, O&M cost, pressure regulation capability, design/operational complexity, service life, and market availability, with 1-2 sentences of core conclusions added below the table. PT.D1.07 identifies missing summary dimensions; a fixed one-to-two-sentence conclusion and embedding in section one are not compulsory."
+    },
+    {
+      "resource_id": "drb2:28:presentation:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Its column requirements are independently covered from the query; its mandatory pre-table explanation and section-two placement are not adopted.",
+      "discrimination_check": "Original: The second section, 'Technical Parameters and Applicability of Various Turbine Types', should first provide a textual explanation of 'The Impact of Technical Parameters (Head, Flow Rate, Efficiency) on WDS Installation Selection', and then embed a table titled 'Technical Parameters and Applicability of Various Turbine Types'; the table must include the columns 'Name', 'Type', 'Head (m)', 'Flow Rate (m³/s)', 'Efficiency (%)', and 'Pressure Regulation Capability'. PT.D1.08–13 cover the requested table and fields but are not provenance reuse of this bundled prescription. The exact combined format discrimination is not retained."
+    },
+    {
+      "resource_id": "drb2:28:presentation:4",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "Treat named types as broad coverage prompts rather than a closed eight-row quota.",
+      "discrimination_check": "Original: The 'Technical Parameters and Applicability of Various Turbine Types' table embedded in the second section must fully cover eight turbine types: Pelton, Turgo, Crossflow, Francis, Kaplan, Semi-Kaplan, PAT, and Spherical. PT.D1.08 detects unexplained narrow selection; justified omission or additional types are eligible, losing inflexible exact-eight coverage behavior."
+    },
+    {
+      "resource_id": "drb2:28:presentation:5",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "Separate clarity from organization and factual correctness.",
+      "discrimination_check": "Original: The language throughout the report should be professional, accurate, with a clear logical structure, and conform to the format requirements of a research report. PW.D6.01 detects terminology ambiguity, not formal report styling or accuracy by itself."
+    }
+  ],
+  "author_notes": [
+    "No old batch4 draft exists; new task-specific items follow the minor-revision division of labor.",
+    "The query's six comparison dimensions are preserved. Technical-table parameters are separated by field, not mechanically into every numeric cell; values remain attached to units and conditions.",
+    "Official fixed head/flow/efficiency/life/cost ranges are not independently verified or made universal. Their exact-match discrimination losses are explicitly recorded.",
+    "Four requested output parts override the official three-section wording. Classification and pressure-control references allow supported corrections.",
+    "Author atomicity and official-discrimination checks only; no independent semantic-review claim, browsing, scoring or candidate-report reading.",
+    "v3.3：分开制度、电气接口和PAT曲线不确定性，补直接水力选址与成本机理，限制空参数免责。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "added",
+      "reason": "New: BEP and off-design behavior define one operating-efficiency comparison; excellence in only one condition is explicitly 3."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "Preserve three cost phases, require manufacturing drivers and conditional avoided-cost boundary; no forced price ratio."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "added",
+      "reason": "New: a control claim without its equipment boundary scores 3; mechanism and boundary must remain together."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "added",
+      "reason": "Design, operating and maintenance demands are the same complexity comparison; a material omission on any side scores 3, including strong operation detail with no design comparison."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "added",
+      "reason": "New: lifetime and its conditions are one claim; bare numbers are at most 3."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "added",
+      "reason": "New: hardware availability and fitness for the stated use form one supply comparison; pump catalogues alone score 3."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "added",
+      "reason": "New: a complete table with a small title deviation is 4; substantive missing dimensions are 3. Do not rescore detailed analysis."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "rewritten",
+      "reason": "Retain field-based checks, not eight times every numeric cell; a broadly empty column with caveats is still incomplete."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "New: name and classification must correspond; missing classes cannot be offset by detailed head data."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "rewritten",
+      "reason": "Retain field-based checks, not eight times every numeric cell; a broadly empty column with caveats is still incomplete."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "rewritten",
+      "reason": "Retain field-based checks, not eight times every numeric cell; a broadly empty column with caveats is still incomplete."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "rewritten",
+      "reason": "Retain field-based checks, not eight times every numeric cell; a broadly empty column with caveats is still incomplete."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "New: capability and conditions are one relation; auxiliary omission is not repaired by an efficiency figure."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "rewritten",
+      "reason": "Separate institutional feasibility from project economics; strong procurement numbers cannot hide absent low-revenue/supply constraints."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "rewritten",
+      "reason": "Restore explicit siting/backpressure content; electrical integration and PAT prediction are independently checked, not hidden behind generic technical difficulty."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "added",
+      "reason": "New: a single evidence-time boundary; local and central violations have separate anchors."
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "added",
+      "reason": "New: one structural instruction, with partial adherence explicitly anchored."
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "added",
+      "reason": "New: one exclusion rule; severity follows observed use, not assumed research history."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "added",
+      "reason": "One attribution relation: a bibliography without a clear link to important claims scores 3."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "added",
+      "reason": "Support and scope define one check; mixed support scores 3, central contradiction 1, and retrieval failures are outside quality judgments."
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "added",
+      "reason": "Compatibility across statements is one relation; local substantive versus minor conflicts are distinguished by 3 and 4."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "Core content now has direct PT anchors; relative inference uses symmetric net reasoning, not selective favorable chains."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "rewritten",
+      "reason": "Core content now has direct PT anchors; relative inference uses symmetric net reasoning, not selective favorable chains."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "added",
+      "reason": "New: one conditional selection judgment; lower price cannot independently cancel unmet pressure requirements."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "added",
+      "reason": "New: uncertainty and the decision it changes are one relation; merely listing risks is insufficient."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "added",
+      "reason": "New: evidence and application scope are one relation; excellent data at the wrong scale do not establish superior fit."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "added",
+      "reason": "One reading path: a good summary does not automatically offset a broken main progression."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "added",
+      "reason": "Terms and sentences are manifestations of comprehensibility; the anchors allow local countervailing strengths."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "added",
+      "reason": "A detail and its stated basis form one lookup task; easy prose with awkward reference navigation can be slightly worse."
+    },
+    {
+      "id": "PT.D1.19",
+      "decision": "added",
+      "reason": "A detailed payback cannot compensate for missing authority or return allocation; missing either substantive side is 3."
+    },
+    {
+      "id": "PT.D1.20",
+      "decision": "added",
+      "reason": "Water pressure reasoning can be excellent while electrical feasibility is absent; an energy-use label alone is2."
+    },
+    {
+      "id": "PT.D1.21",
+      "decision": "added",
+      "reason": "A good hydraulic design does not replace uncertainty discussion; curve absence with no selection consequence is3."
+    }
+  ]
+}

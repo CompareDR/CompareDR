@@ -1,0 +1,101 @@
+{
+  "paper_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
+  "tables": [
+    {
+      "label": "tab:benchmark_resources",
+      "paper_source_line": 148,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:rubric_distribution",
+      "paper_source_line": 188,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:system_results",
+      "paper_source_line": 279,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Refit from criterion-level judgments."
+    },
+    {
+      "label": "tab:human_agreement",
+      "paper_source_line": 316,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:controlled_response",
+      "paper_source_line": 348,
+      "status": "reproduced_with_author_attested_labels",
+      "scope": "Selected author-confirmed labels; 119 common revisions; reconstruct score differences."
+    },
+    {
+      "label": "tab:ablations",
+      "paper_source_line": 374,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:judge-selection",
+      "paper_source_line": 413,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:judge_pilot",
+      "paper_source_line": 485,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:cross-judge-robustness",
+      "paper_source_line": 517,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:judge-stability",
+      "paper_source_line": 534,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:token_usage",
+      "paper_source_line": 563,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:new_system_sampling",
+      "paper_source_line": 605,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute statistics from 4,200 archived trial fits, not new optimizations."
+    },
+    {
+      "label": "tab:initial_system_results",
+      "paper_source_line": 630,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "Recompute from archived judgments, scores, predictions or usage records."
+    },
+    {
+      "label": "tab:controlled_thresholds",
+      "paper_source_line": 653,
+      "status": "reproduced_with_author_attested_labels",
+      "scope": "Same 119 revisions; exhaustive within-set threshold calibration."
+    },
+    {
+      "label": "tab:controlled_dimensions",
+      "paper_source_line": 674,
+      "status": "reproduced_with_author_attested_labels",
+      "scope": "120 selected revisions; 123 target-dimension judgments."
+    },
+    {
+      "label": "tab:query_characteristics",
+      "paper_source_line": 697,
+      "status": "reproduced_from_archived_inputs",
+      "scope": "40 classification records matched by complete query identity."
+    }
+  ]
+}

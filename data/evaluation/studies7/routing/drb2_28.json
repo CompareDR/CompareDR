@@ -1,0 +1,167 @@
+{
+  "version": "execution-routing-v1",
+  "task_key": "drb2:28",
+  "rubrics_sha256": "f5da42e71beed12fef12af4e9cf21995291c74eb65aae989cf699bfdab1521da",
+  "items": [
+    {
+      "id": "PT.D1.01",
+      "mode": "optional",
+      "reason": "Comparison and scope readable in report; disputed efficiency facts can need verification."
+    },
+    {
+      "id": "PT.D1.02",
+      "mode": "optional",
+      "reason": "Cost-component comparison readable locally; consequential cost assertions can need verification."
+    },
+    {
+      "id": "PT.D1.03",
+      "mode": "optional",
+      "reason": "Control comparison readable locally; external technical capability disputes may matter."
+    },
+    {
+      "id": "PT.D1.04",
+      "mode": "optional",
+      "reason": "Work and complexity comparison readable locally; decisive technical premises may need checking."
+    },
+    {
+      "id": "PT.D1.05",
+      "mode": "optional",
+      "reason": "Life comparison and conditions readable locally; actual lifetime claims may need checking."
+    },
+    {
+      "id": "PT.D1.06",
+      "mode": "optional",
+      "reason": "Supply distinctions readable locally; warranted turbine-duty support can require evidence."
+    },
+    {
+      "id": "PT.D1.07",
+      "mode": "report_only",
+      "reason": "Frozen boundary explicitly separates table representation from factual accuracy."
+    },
+    {
+      "id": "PT.D1.08",
+      "mode": "report_only",
+      "reason": "Requested table scope and explicit limitations are observable in the report."
+    },
+    {
+      "id": "PT.D1.09",
+      "mode": "optional",
+      "reason": "Classification present locally; unusual design-specific classifications can require verification."
+    },
+    {
+      "id": "PT.D1.10",
+      "mode": "optional",
+      "reason": "Range scope and units visible locally; consequential exact envelopes may need checking."
+    },
+    {
+      "id": "PT.D1.11",
+      "mode": "optional",
+      "reason": "Flow coverage and units visible locally; numerical assumptions can require checking."
+    },
+    {
+      "id": "PT.D1.12",
+      "mode": "optional",
+      "reason": "Efficiency basis visible locally; design-point performance facts may need checking."
+    },
+    {
+      "id": "PT.D1.13",
+      "mode": "optional",
+      "reason": "Capability descriptions visible locally; hydraulic capability may need verification."
+    },
+    {
+      "id": "PT.D1.14",
+      "mode": "optional",
+      "reason": "Commercial barriers observable locally; economic premises may need checking."
+    },
+    {
+      "id": "PT.D1.15",
+      "mode": "optional",
+      "reason": "Integration discussion observable locally; installation compatibility may need verification."
+    },
+    {
+      "id": "PT.D1.16",
+      "mode": "required",
+      "reason": "High anchors require substantive evidence publication/version dates, not merely a report declaration.",
+      "source": "explicit_citation_checks",
+      "purpose": "chronology"
+    },
+    {
+      "id": "PT.D1.17",
+      "mode": "report_only",
+      "reason": "Section order is observable from original report."
+    },
+    {
+      "id": "PT.D1.18",
+      "mode": "report_only",
+      "reason": "Frozen boundary asks observable excluded-source use, not inferred browsing history."
+    },
+    {
+      "id": "PT.D2.01",
+      "mode": "report_only",
+      "reason": "Traceability only; bibliographic information can suffice without URLs, actual support belongs to D2.02."
+    },
+    {
+      "id": "PT.D2.02",
+      "mode": "required",
+      "reason": "Frozen criterion explicitly requires completed external support checks; no middle score for unavailable evidence.",
+      "source": "all_completed_checks",
+      "purpose": "citation_support"
+    },
+    {
+      "id": "PT.D2.03",
+      "mode": "report_only",
+      "reason": "Frozen boundary concerns internal compatibility, not external truth."
+    },
+    {
+      "id": "PT.D1.19",
+      "mode": "optional",
+      "reason": "Institutional discussion readable locally; concrete legal/incentive claims may need checking."
+    },
+    {
+      "id": "PT.D1.20",
+      "mode": "optional",
+      "reason": "Electrical integration explanation readable locally; concrete technical claims may need checking."
+    },
+    {
+      "id": "PT.D1.21",
+      "mode": "optional",
+      "reason": "Performance uncertainty discussion readable locally; supplier-specific claims may need checking."
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D3.02",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D4.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D4.02",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D2.01",
+      "mode": "graph_content"
+    },
+    {
+      "id": "PW.D5.01",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.01",
+      "mode": "direct_text"
+    },
+    {
+      "id": "PW.D6.02",
+      "mode": "direct_text"
+    }
+  ],
+  "status": "validated_pilot_policy",
+  "note": "Execution routing only. Required runs after bounded acquisition but always uses best available evidence to score, never pending/N/A. Other tasks need routing review before full release."
+}

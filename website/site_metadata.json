@@ -1,0 +1,26 @@
+{
+  "repository_url": "https://github.com/CompareDR/CompareDR",
+  "repository_branch": "main",
+  "publication_status": "public",
+  "paper_url": null,
+  "arxiv_url": null,
+  "year": "2026",
+  "authors": [
+    {"name": "Wanli Wu", "affiliations": [1, 2, 3], "equal": true},
+    {"name": "He Zhu", "affiliations": [1, 4], "equal": true},
+    {"name": "Yue Xu", "affiliations": [1], "equal": true},
+    {"name": "Haolin Ren", "affiliations": [1, 2, 3]},
+    {"name": "Yan Chen", "affiliations": [1]},
+    {"name": "XunLiang Cai", "affiliations": [1]},
+    {"name": "Fan Yang", "affiliations": [1]},
+    {"name": "LingChuan Liu", "affiliations": [1], "corresponding": true},
+    {"name": "Shizhu He", "affiliations": [2, 3], "corresponding": true}
+  ],
+  "affiliations": [
+    "Meituan",
+    "Institute of Automation, Chinese Academy of Sciences",
+    "University of Chinese Academy of Sciences",
+    "Peking University"
+  ],
+  "metadata_note": "Author order and capitalization follow the user's latest confirmed instructions; affiliations follow the saved manuscript. Frozen experimental inputs are unchanged."
+}

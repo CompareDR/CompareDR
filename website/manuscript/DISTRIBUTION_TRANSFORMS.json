@@ -1,0 +1,16 @@
+{
+  "scope": "Only URL tracking parameters removed; substantive query text, prohibitions, dates and language unchanged.",
+  "rows": [
+    {
+      "query_id": "drb2_75",
+      "original_query_sha256": "358deb2515a97f8a67b58b5da16f9ebefb678db578ba8e93ab212820b811a14a",
+      "distributed_query_sha256": "15742144bd70c197675140a43d222c5c4487921c9a1f2382cebb6d81c46309f0",
+      "removed_parameter_counts": {
+        "srsltid": 1
+      }
+    }
+  ],
+  "parameter_counts": {
+    "srsltid": 1
+  }
+}

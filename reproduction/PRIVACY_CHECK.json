@@ -1,0 +1,14 @@
+{
+  "files_scanned": 208,
+  "bytes_scanned": 49794950,
+  "all_file_bytes_read": true,
+  "unresolved_findings": 0,
+  "false_positive_categories": {
+    "Public citation URL path containing /home/, not a local filesystem path.": 68,
+    "Public dictionary lookup term, not an authentication key.": 8,
+    "Identifier for a cited public UN document, not local account or session data.": 100,
+    "NumPy matrix multiplication syntax, not an email address.": 1,
+    "Nonfunctional example-domain query term in a unit test.": 1
+  },
+  "scope": "Credentials and local device/account traces; not a redistribution-rights certification."
+}

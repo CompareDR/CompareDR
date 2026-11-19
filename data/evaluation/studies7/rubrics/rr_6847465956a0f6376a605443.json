@@ -1,0 +1,1106 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "rr:6847465956a0f6376a605443",
+  "language": "en",
+  "title": "投票年龄上下限",
+  "full_query": "Debate whether there should be age limits - minimum or maximum - for voting. Consider democratic principles, cognitive development and decline, intergenerational equity, and the balance between inclusivity and informed decision-making.",
+  "pointwise": [
+    {
+      "id": "PT.D1.minimum",
+      "dimension": "D1",
+      "title": "Debate over a minimum age",
+      "question": "Does the report give substantive reasons both for and against a minimum voting-age limit?",
+      "anchors": {
+        "1": "No debate about a minimum age limit.",
+        "2": "Only a position or slogan is offered.",
+        "3": "A substantive reason is given on one side, but the opposing case is absent or merely a label.",
+        "4": "Both sides have relevant reasons, with a minor ambiguity about the proposed limit or its implication.",
+        "5": "Both the case for and the case against a minimum age limit are identifiable and reasoned, including a fair statement of a case the author ultimately rejects."
+      },
+      "boundary": "This checks whether competing reasons are present, not whether they are equally convincing. No particular age cutoff, argument, neutral final stance or equal word count is required. Do not treat age-based stereotypes as evidence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:11",
+          "rr:6847465956a0f6376a605443:flat:12"
+        ],
+        "query_quotes": [
+          "minimum or maximum"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Debate over a minimum age': Does the report give substantive reasons both for and against a minimum voting-age limit? Locally design the five anchors and boundaries. Concrete changes: Preserve a substantive supporting case for a minimum age. Preserve a substantive opposing case for a minimum age."
+      }
+    },
+    {
+      "id": "PT.D1.maximum",
+      "dimension": "D1",
+      "title": "Debate over a maximum age",
+      "question": "Does the report give substantive reasons both for and against a maximum voting-age limit?",
+      "anchors": {
+        "1": "No debate about a maximum age limit.",
+        "2": "Only a position or slogan is offered.",
+        "3": "A substantive reason is given on one side, but the opposing case is absent or merely a label.",
+        "4": "Both sides have relevant reasons, with a minor ambiguity about the proposed limit or its implication.",
+        "5": "Both the case for and the case against a maximum age limit are identifiable and reasoned, including a fair statement of a case the author ultimately rejects."
+      },
+      "boundary": "This checks whether competing reasons are present, not whether they are equally convincing. No particular age cutoff, argument, neutral final stance or equal word count is required. Do not treat age-based stereotypes as evidence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:13",
+          "rr:6847465956a0f6376a605443:flat:14"
+        ],
+        "query_quotes": [
+          "minimum or maximum"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Debate over a maximum age': Does the report give substantive reasons both for and against a maximum voting-age limit? Locally design the five anchors and boundaries. Concrete changes: Preserve a fair supporting case for a maximum age, not the official stereotypes as facts. Preserve a substantive opposing case for a maximum age."
+      }
+    },
+    {
+      "id": "PT.D1.democracy",
+      "dimension": "D1",
+      "title": "Democratic principles",
+      "question": "Does the report explain how the proposed limits engage democratic political rights and legitimate participation?",
+      "anchors": {
+        "1": "No democratic-principle discussion.",
+        "2": "Democracy or rights are invoked without explaining the connection to voting limits.",
+        "3": "A principle is stated but how it supports or challenges an age rule is materially unclear.",
+        "4": "A relevant principle is linked to an age rule with only a minor interpretive gap.",
+        "5": "The report explains the relevant political-equality, participation, legitimacy or other democratic principle and how an age-based inclusion/exclusion rule engages it."
+      },
+      "boundary": "A principle and its application form one requirement; do not require a particular theorist, constitution or predetermined conclusion about all democracies.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:25",
+          "rr:6847465956a0f6376a605443:flat:31",
+          "rr:6847465956a0f6376a605443:flat:32"
+        ],
+        "query_quotes": [
+          "democratic principles"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Democratic principles': Does the report explain how the proposed limits engage democratic political rights and legitimate participation? Locally design the five anchors and boundaries. Concrete changes: Retain the relevance of political rights to age-based exclusion and assess the argument separately. Preserve the connection between age limits and democratic standards. Retain democratic voting-rights relevance without declaring a worldwide essential-right hierarchy."
+      }
+    },
+    {
+      "id": "PT.D1.development",
+      "dimension": "D1",
+      "title": "Cognitive development",
+      "question": "Does the report discuss cognitive development relevant to younger people's voting decisions, with its scope made clear?",
+      "anchors": {
+        "1": "No cognitive-development discussion.",
+        "2": "Only a stereotype about immaturity or a brain-maturity age is given.",
+        "3": "Specific developmental abilities are described, but their population, decision context or uncertainty is materially unclear. A generic individual-variation caveat cannot replace discussion of developing decision, impulse-control and emotional-regulation functions.",
+        "4": "Relevant developmental abilities and their limits are clear, with minor context gaps.",
+        "5": "Discusses developing decision-making, inhibitory control and emotional regulation, including prefrontal/executive-system development where supported; relates their different timelines to deliberative voting and individual variation rather than assigning one universal brain-completion age."
+      },
+      "boundary": "No fixed prefrontal-cortex completion age or identical maturation timetable is required. Presence of an appropriately scoped discussion is checked here; the inference from abilities to a legal cutoff is compared separately.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:5",
+          "rr:6847465956a0f6376a605443:flat:10",
+          "rr:6847465956a0f6376a605443:flat:28"
+        ],
+        "query_quotes": [
+          "cognitive development"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Cognitive development': Does the report discuss cognitive development relevant to younger people's voting decisions, with its scope made clear? Locally design the five anchors and boundaries. Concrete changes: Preserve scoped development relevant to voting, not one universal brain-maturity endpoint. Capacity uncertainty belongs with the developmental/aging claim; policy uncertainty belongs with the policy judgment it limits. Keep individual variation in both age-related discussions and the group-to-individual inference. v3.3 restores specific executive-function content while retaining uncertainty about a single maturation endpoint."
+      }
+    },
+    {
+      "id": "PT.D1.decline",
+      "dimension": "D1",
+      "title": "Cognitive aging",
+      "question": "Does the report discuss cognitive aging relevant to voting, including variation and the limits of generalizing from age?",
+      "anchors": {
+        "1": "No cognitive-aging discussion.",
+        "2": "Only an old-age stereotype or uniform decline claim.",
+        "3": "Specific cognitive changes are discussed but variation or their voting-relevant scope is materially unclear. Saying some people decline is insufficient if fluid processing/problem-solving/working-memory changes and retained learned knowledge are not distinguished.",
+        "4": "Relevant changes and variability are clear, with minor scope omissions.",
+        "5": "Explains fluid abilities such as processing speed, novel problem-solving and working memory alongside crystallized knowledge/skills and experience, with domain and individual variation; neither a fixed mid-60s onset nor lifelong immunity of learned knowledge is assumed."
+      },
+      "boundary": "Do not require decline to start in the mid-60s or knowledge never to decline. Specifying a dimension's evidence and limits is more important than a fixed age assertion.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:7",
+          "rr:6847465956a0f6376a605443:flat:10",
+          "rr:6847465956a0f6376a605443:flat:28",
+          "rr:6847465956a0f6376a605443:flat:30"
+        ],
+        "query_quotes": [
+          "decline"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Cognitive aging': Does the report discuss cognitive aging relevant to voting, including variation and the limits of generalizing from age? Locally design the five anchors and boundaries. Concrete changes: Preserve aging abilities and variation while rejecting a mandatory mid-60s onset. Capacity uncertainty belongs with the developmental/aging claim; policy uncertainty belongs with the policy judgment it limits. Keep individual variation in both age-related discussions and the group-to-individual inference. Retain distinctions among aging abilities, not never-declining crystallized intelligence as a universal rule. v3.3 restores concrete fluid/crystallized distinctions rather than allowing a generic variability statement."
+      }
+    },
+    {
+      "id": "PT.D1.generations",
+      "dimension": "D1",
+      "title": "Intergenerational equity",
+      "question": "Does the report explain how voting-age limits affect the political voice and interests of different generations?",
+      "anchors": {
+        "1": "No intergenerational discussion.",
+        "2": "Only mentions young versus old interests.",
+        "3": "A cohort effect is identified, but whose voice or interests are affected and how is unclear. A voice argument without considering how cohort sizes or an aging/youthful population alter that effect remains at most 3.",
+        "4": "The age rule's effects on generations are concrete, with minor temporal or representation ambiguity.",
+        "5": "The report identifies how an age rule changes generational representation or exposure to policy consequences, without treating a cohort's preferences as uniform. Explains how aging populations or youth-heavy structures can change the scale of representation effects, without assuming uniform preferences within a cohort."
+      },
+      "boundary": "No population projection, policy example or assertion that one generation deserves more votes is mandatory. The age rule and who it affects are one relation.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:15",
+          "rr:6847465956a0f6376a605443:flat:24"
+        ],
+        "query_quotes": [
+          "intergenerational equity"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Intergenerational equity': Does the report explain how voting-age limits affect the political voice and interests of different generations? Locally design the five anchors and boundaries. Concrete changes: Separate whether cohort effects are described from their additional interpretive value. v3.3 restores population-structure content directly."
+      }
+    },
+    {
+      "id": "PT.D1.balance",
+      "dimension": "D1",
+      "title": "Inclusivity and informed decisions",
+      "question": "Does the report explicitly address the tension between broad participation and informed voting?",
+      "anchors": {
+        "1": "Neither objective is discussed.",
+        "2": "Only one objective is named, or both are slogans.",
+        "3": "Both objectives are discussed but their tension or possible compatibility is not explained.",
+        "4": "The relationship between participation and informed decisions is clear, with a minor unresolved term.",
+        "5": "The report explains how restricting or expanding age eligibility bears on both objectives, including where they conflict or can be jointly supported."
+      },
+      "boundary": "Do not require competence testing, civic education, epistocracy or a compromise position. This is the presence of the requested relationship, not a separate quality score for each value.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:16"
+        ],
+        "query_quotes": [
+          "inclusivity and informed decision-making"
+        ],
+        "change_note": "Adapt the official material to the specific object 'Inclusivity and informed decisions': Does the report explicitly address the tension between broad participation and informed voting? Locally design the five anchors and boundaries. Concrete changes: Retain the requested inclusivity–informed-participation relation and trade-off, not a mandatory citation quota."
+      }
+    },
+    {
+      "id": "PT.D2.trace",
+      "dimension": "D2",
+      "title": "Traceability of empirical and legal claims",
+      "question": "Can important claims about cognition, voting law or policy effects be located in specific supporting sources?",
+      "anchors": {
+        "1": "Central empirical/legal claims have no identifiable sources.",
+        "2": "Only generic references to experts, science or law.",
+        "3": "Sources are listed, but important claims' particular bases remain ambiguous.",
+        "4": "Important claims have identifiable sources, with minor attribution gaps.",
+        "5": "Important empirical/legal claims are clearly assigned to sources, while the author's normative premises and inferences are identifiable as such."
+      },
+      "boundary": "Do not require a URL, medical organization or named author. A moral premise need not have a scientific citation; a neuroscience source cannot by itself establish the world's legal rules.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:4",
+          "rr:6847465956a0f6376a605443:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Traceability of empirical and legal claims': Can important claims about cognition, voting law or policy effects be located in specific supporting sources? Locally design the five anchors and boundaries. Concrete changes: Preserve appropriate legal support when a legal assertion is actually made, not compulsory assertion of universal absence. Preserve specific and applicable aging evidence, without a named researcher or fixed onset claim."
+      }
+    },
+    {
+      "id": "PT.D2.support",
+      "dimension": "D2",
+      "title": "Support within the verified sample",
+      "question": "Within the recorded verification sample, do cognition and voting-policy assertions match the obtained evidence?",
+      "anchors": {
+        "1": "A central assessed assertion is contradicted or has no claimed basis.",
+        "2": "Several important assessed assertions misstate cognitive trends, laws or policy effects.",
+        "3": "Support is mixed, with important scope or attribution errors remaining.",
+        "4": "Assessed assertions are supported with only minor imprecision.",
+        "5": "All assessed assertions match the evidence's population, jurisdiction, date and claim strength; this is not a full-report fact guarantee."
+      },
+      "boundary": "Record selected/assessed counts and source locations. Retrieval failure is an execution issue to retry/report, not a quality score or proof of no law. This draft does not perform external verification.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Support within the verified sample' for this query: Within the recorded verification sample, do cognition and voting-policy assertions match the obtained evidence? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D2.consistency",
+      "dimension": "D2",
+      "title": "Internal consistency of positions",
+      "question": "Are the report's definitions, factual statements and stated age-rule positions internally consistent?",
+      "anchors": {
+        "1": "Core positions contradict each other so the proposed rule cannot be identified.",
+        "2": "An unexplained key contradiction changes who would be enfranchised.",
+        "3": "A substantive local contradiction remains but the main positions are identifiable.",
+        "4": "The main positions are consistent with minor easy-to-resolve ambiguity.",
+        "5": "Definitions, factual ranges and the author's positions agree, with opponent arguments or conditional cases clearly distinguished."
+      },
+      "boundary": "A debate may fairly state opposing positions without contradiction. Do not confuse changing assumptions with inconsistency or score normative truth here.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Internal consistency of positions' for this query: Are the report's definitions, factual statements and stated age-rule positions internally consistent? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PT.D6.respect",
+      "dimension": "D6",
+      "title": "Non-stereotyping language",
+      "question": "Does the report argue about voting eligibility without using demeaning age stereotypes in its own voice?",
+      "anchors": {
+        "1": "The core case relies on demeaning labels for an age group.",
+        "2": "Repeated disparagement substitutes for reasons in important passages.",
+        "3": "A local substantive argument uses an age stereotype, while the main debate remains reasoned.",
+        "4": "One careless or loaded expression remains but is not used as a basis for exclusion.",
+        "5": "The report uses precise, non-demeaning language; attributed examples of prejudice are clearly distinguished from its own position."
+      },
+      "boundary": "Raw official weight 21 is -4: biased language is negative. Do not penalize quoting a stereotype in order to analyze or reject it, or a forceful reasoned policy criticism.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Non-stereotyping language': Does the report argue about voting eligibility without using demeaning age stereotypes in its own voice? Locally design the five anchors and boundaries. Concrete changes: Raw weight is -4: disparagement is negative, not a requested argument. Distinguish adoption from critical quotation."
+      }
+    },
+    {
+      "id": "PT.D1.background",
+      "dimension": "D1",
+      "title": "Existing eligibility arrangements",
+      "question": "Does the debate give a scoped factual baseline for minimum and maximum voting-age arrangements?",
+      "anchors": {
+        "1": "No institutional baseline.",
+        "2": "Only an unscoped age or claim about all democracies.",
+        "3": "Gives some minimum-age practice but not meaningful variation or the distinction from maximum-age restrictions. A clear maximum-age account with minimum-age practice or its variation missing also scores 3.",
+        "4": "Explains common minimum-age practice, lower-age variations and the status of age ceilings in the jurisdictions discussed, with minor dating/scope gaps.",
+        "5": "Provides a dated, sourced baseline covering the common 18-year threshold and lower thresholds such as 16 where supported, and distinguishes age ceilings from other eligibility/capacity rules; avoids a worldwide negative assertion based on a few countries."
+      },
+      "boundary": "No mandated country list or claim that no exception can exist; a sourced correction is allowed. This is a baseline for debate, not a requirement to research every constitution.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:1",
+          "rr:6847465956a0f6376a605443:flat:2",
+          "rr:6847465956a0f6376a605443:flat:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Minimum and maximum practices are one eligibility baseline; a clear minimum with no age-ceiling distinction remains 3. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.alternatives",
+      "dimension": "D1",
+      "title": "Alternatives to chronological exclusion",
+      "question": "Does the debate examine a concrete alternative for supporting informed participation without relying solely on an age limit?",
+      "anchors": {
+        "1": "No alternative considered.",
+        "2": "Only names civic education or testing.",
+        "3": "Explains an option but not how it addresses informed participation or its inclusion costs.",
+        "4": "Explains a concrete option and its main trade-off, with minor implementation conditions missing.",
+        "5": "Explains how an alternative such as accessible information, civic education, supported participation or a capacity-based proposal addresses the stated problem and what it may fail to solve; evaluates rather than automatically endorses it."
+      },
+      "boundary": "No particular alternative is compulsory. No competence-test recommendation is preferred. Mere mention cannot replace consideration.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "A strong age-limit argument can omit alternative means entirely; restore this independent policy-content entry. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.participation",
+      "dimension": "D1",
+      "title": "Participation and legitimacy consequences",
+      "question": "Does the debate explain how age rules could change actual participation, representation and democratic legitimacy?",
+      "anchors": {
+        "1": "No practical participation consequences.",
+        "2": "Only says democracy benefits or suffers.",
+        "3": "Identifies inclusion/exclusion but does not explain effects on turnout, representation or public acceptance.",
+        "4": "Explains the main participation-to-representation consequences and their legitimacy implications, with minor context gaps.",
+        "5": "Explains how eligibility changes alter who can participate and potentially turnout, representation and perceived legitimacy, distinguishing eligible-population changes from turnout-rate changes and predictions from observed effects."
+      },
+      "boundary": "No predetermined negative effect or required numeric estimate; the participation-to-legitimacy relationship is distinct from abstract rights and intergenerational distribution.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "An elegant equality principle does not establish practical participation consequences; restore the concrete pathway. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.implementation",
+      "dimension": "D1",
+      "title": "Legal route and rights constraints",
+      "question": "Does the debate explain the legal and rights-based constraints on changing voting-age eligibility?",
+      "anchors": {
+        "1": "No legal or rights implementation discussion.",
+        "2": "Only says a law must change.",
+        "3": "Names legislation or discrimination but not how current rules constrain the proposed change. A clear legal-change route with rights constraints absent, or a clear rights discussion with no legal route, also scores 3.",
+        "4": "Explains relevant legal-change and rights constraints in a stated setting, with minor scope gaps.",
+        "5": "Distinguishes altering statutory eligibility from constitutional requirements where relevant, and explains how equality, age-discrimination or voting-rights safeguards constrain justification and implementation; states jurisdictional limits."
+      },
+      "boundary": "No legal drafting exercise or universally required constitutional amendment. This evaluates a rule's feasible legal route, not abstract principle consistency in PW.D3.principle.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:23",
+          "rr:6847465956a0f6376a605443:flat:25"
+        ],
+        "query_quotes": [],
+        "change_note": "A clear policy preference with no implementation constraints is independently incomplete; legal route and rights barriers delimit the same change. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.context",
+      "dimension": "D1",
+      "title": "Institutional and social context",
+      "question": "Does the debate explain why the impact of an age rule may differ across political, cultural and economic settings?",
+      "anchors": {
+        "1": "No context variation.",
+        "2": "Only lists countries or labels democracies emerging/stable.",
+        "3": "Identifies a contextual difference but not its consequence for age eligibility or informed participation.",
+        "4": "Explains relevant contextual mechanisms and their policy implications, with minor comparison limits missing.",
+        "5": "Explains how education/information access, institutional protections or social and political conditions alter the impact of the same age rule; distinguishes institutions and evidence from stereotypes about emerging or established democracies."
+      },
+      "boundary": "No compulsory country pair or causal claim that emerging democracies are less informed or more racially concentrated. Demographic cohort size is assessed in PT.D1.generations.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:26",
+          "rr:6847465956a0f6376a605443:flat:27"
+        ],
+        "query_quotes": [],
+        "change_note": "A demographic comparison can be strong while institutional transfer is unexplained; context-to-impact is its own relation. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.exclusion_history",
+      "dimension": "D1",
+      "title": "Risks of eligibility screening",
+      "question": "Does the debate explain how voting qualifications could produce arbitrary or discriminatory exclusion, and assess the relevance and limits of that risk for the rules considered?",
+      "anchors": {
+        "1": "No discussion of screening abuse.",
+        "2": "Only claims tests are fair or unfair.",
+        "3": "Identifies a relevant exclusion risk or example, but does not explain how the rule or its application produces exclusion or how it bears on the voting qualification considered.",
+        "4": "Explains a concrete exclusion mechanism and its relevance to the rule considered, with a minor applicability or scope gap.",
+        "5": "Uses a concrete, reasoned account of a qualification rule or its implementation to explain how arbitrary or discriminatory exclusion could occur, and states the conditions and limits of applying that reasoning to the age rule or competence test considered."
+      },
+      "boundary": "Historical evidence, an institutional analysis or an explicitly hypothetical scenario can support this item; no historical example, country, statute or date is mandatory. Identify the mechanism rather than merely label a rule discriminatory. Separate factual examples from hypotheticals and do not treat an imagined abuse as an observed event. No requirement to equate all age limits with past racial exclusion, endorse screening, or reject it. General statements of rights belong to PT.D1.democracy/implementation; this item checks how exclusion could arise through a rule or its application.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:22",
+          "rr:6847465956a0f6376a605443:flat:33"
+        ],
+        "query_quotes": [],
+        "change_note": "Review 36: allow concrete institutional reasoning or explicit hypotheticals as well as historical cases; preserve the exclusion mechanism and its applicability limits, not a mandatory historical route. Keep the original ID for traceability."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.capacity",
+      "dimension": "D3",
+      "title": "From cognition to eligibility",
+      "question": "Which report more convincingly reasons from cognitive evidence to what an age rule can and cannot establish about voting competence?",
+      "anchors": {
+        "0": "The cognitive-policy reasoning provides comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A gives a slightly more defensible capacity-to-eligibility inference; B may still be better locally.",
+        "2": "A gives a substantially more defensible account of what age-related evidence implies for individual eligibility; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more defensible account of what age-related evidence implies for individual eligibility; A's local strengths do not make up for the difference.",
+        "-1": "B gives a slightly more defensible capacity-to-eligibility inference; A may still be better locally."
+      },
+      "boundary": "Identify the inferential step from group evidence to individuals or policy. Biological maturation, health, education and political disagreement are not interchangeable measures of voting competence. No age or testing policy is preferred by default.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:28"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'From cognition to eligibility': Which report more convincingly reasons from cognitive evidence to what an age rule can and cannot establish about voting competence? Locally design the five anchors and boundaries. Concrete changes: Keep individual variation in both age-related discussions and the group-to-individual inference."
+      }
+    },
+    {
+      "id": "PW.D3.principle",
+      "dimension": "D3",
+      "title": "Applying democratic standards",
+      "question": "Which report applies its stated democratic principles more consistently when judging age-based restrictions?",
+      "anchors": {
+        "0": "The normative reasoning provides comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A applies an important democratic standard to the age rule slightly more consistently; B may still be better locally.",
+        "2": "A gives a substantially more coherent principle-to-rule justification without unexplained exceptions; B's local strengths do not make up for the difference.",
+        "-2": "B gives a substantially more coherent principle-to-rule justification without unexplained exceptions; A's local strengths do not make up for the difference.",
+        "-1": "B applies an important democratic standard to the age rule slightly more consistently; A may still be better locally."
+      },
+      "boundary": "Judge whether the conclusion follows from the declared standards, including the burden placed on exclusion; do not dictate which political theory or ultimate policy is correct. Empirical capacity inference is a separate item.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:25",
+          "rr:6847465956a0f6376a605443:flat:31"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Applying democratic standards': Which report applies its stated democratic principles more consistently when judging age-based restrictions? Locally design the five anchors and boundaries. Concrete changes: Retain the relevance of political rights to age-based exclusion and assess the argument separately. Preserve the connection between age limits and democratic standards."
+      }
+    },
+    {
+      "id": "PW.D4.generations",
+      "dimension": "D4",
+      "title": "Consequences for generational fairness",
+      "question": "Which report gives a more useful interpretation of how the debated rules distribute political voice and policy consequences across generations?",
+      "anchors": {
+        "0": "The generational interpretations provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A clarifies an important generational consequence slightly more usefully; B may still be better locally.",
+        "2": "A provides a substantially more useful account of who gains or loses voice and what that means for generational fairness; B's local strengths do not make up for the difference.",
+        "-2": "B provides a substantially more useful account of who gains or loses voice and what that means for generational fairness; A's local strengths do not make up for the difference.",
+        "-1": "B clarifies an important generational consequence slightly more usefully; A may still be better locally."
+      },
+      "boundary": "A demographic or time-horizon example earns value through how it changes the fairness judgment, not its presence. Do not reward favoring the young or the old by default, and do not repeat PT coverage credit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:15",
+          "rr:6847465956a0f6376a605443:flat:24"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Consequences for generational fairness': Which report gives a more useful interpretation of how the debated rules distribute political voice and policy consequences across generations? Locally design the five anchors and boundaries. Concrete changes: Separate whether cohort effects are described from their additional interpretive value. Use demographic structure only through its effect on representation and fairness."
+      }
+    },
+    {
+      "id": "PW.D4.options",
+      "dimension": "D4",
+      "title": "Policy trade-offs and feasible alternatives",
+      "question": "Which report better helps assess the practical trade-offs of the age-limit positions or alternatives it actually considers?",
+      "anchors": {
+        "0": "The policy trade-off judgments provide comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A resolves an important participation-versus-informed-choice policy trade-off slightly more usefully; B may still be better locally.",
+        "2": "A gives substantially more useful, explicitly conditional policy judgments about inclusivity and informed participation; B's local strengths do not make up for the difference.",
+        "-2": "B gives substantially more useful, explicitly conditional policy judgments about inclusivity and informed participation; A's local strengths do not make up for the difference.",
+        "-1": "B resolves an important participation-versus-informed-choice policy trade-off slightly more usefully; A may still be better locally."
+      },
+      "boundary": "Compare the additional usefulness of policy trade-off judgments, including how established constraints change a choice. Alternatives, participation consequences, implementation and context now have direct PT content checks; no specific alternative or legal outcome is mandated. Do not rank reports by counting those PT requirements or repeat generational distribution credit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:10",
+          "rr:6847465956a0f6376a605443:flat:16",
+          "rr:6847465956a0f6376a605443:flat:17",
+          "rr:6847465956a0f6376a605443:flat:18",
+          "rr:6847465956a0f6376a605443:flat:23",
+          "rr:6847465956a0f6376a605443:flat:26"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Policy trade-offs and feasible alternatives': Which report better helps assess the practical trade-offs of the age-limit positions or alternatives it actually considers? Locally design the five anchors and boundaries. Concrete changes: Capacity uncertainty belongs with the developmental/aging claim; policy uncertainty belongs with the policy judgment it limits. Retain the requested inclusivity–informed-participation relation and trade-off, not a mandatory citation quota. Evaluate an alternative's policy contribution when supplied; do not require proposing one. Use turnout/representation/legitimacy consequences as reasons that can change a policy judgment. Legal-change requirements matter through the feasibility of a position in its stated jurisdiction. Contextual differences are useful insofar as they change the policy trade-off. v3.3 removes the optional-domain exemption; only the choice of particular alternative remains open."
+      }
+    },
+    {
+      "id": "PW.D2.fit",
+      "dimension": "D2",
+      "title": "Appropriateness of the evidence",
+      "question": "Which report uses evidence more appropriate to its cognition and voting-policy claims?",
+      "anchors": {
+        "0": "The evidence bases provide comparable applicable support; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A has slightly better population- or jurisdiction-appropriate support for an important claim; B may still be better locally.",
+        "2": "A has substantially more suitable evidence for its central cognition-to-policy assertions; B's local strengths do not make up for the difference.",
+        "-2": "B has substantially more suitable evidence for its central cognition-to-policy assertions; A's local strengths do not make up for the difference.",
+        "-1": "B has slightly better population- or jurisdiction-appropriate support for an important claim; A may still be better locally."
+      },
+      "boundary": "Scientific evidence can address capacities or effects, while legal sources address jurisdictional rules and political arguments justify values. Do not count references or use organizational prestige as a proxy for applicability.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:4",
+          "rr:6847465956a0f6376a605443:flat:8"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Appropriateness of the evidence': Which report uses evidence more appropriate to its cognition and voting-policy claims? Locally design the five anchors and boundaries. Concrete changes: Preserve appropriate legal support when a legal assertion is actually made, not compulsory assertion of universal absence. Preserve specific and applicable aging evidence, without a named researcher or fixed onset claim."
+      }
+    },
+    {
+      "id": "PW.D5.flow",
+      "dimension": "D5",
+      "title": "Organization of the debate",
+      "question": "Which original report more effectively moves from the competing cases to its qualified conclusions?",
+      "anchors": {
+        "0": "The debate organization provides comparable help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A organizes the competing cases and response slightly more coherently; B may still be better locally.",
+        "2": "A makes the debate's premises, objections and conclusions substantially easier to follow as a whole; B's local strengths do not make up for the difference.",
+        "-2": "B makes the debate's premises, objections and conclusions substantially easier to follow as a whole; A's local strengths do not make up for the difference.",
+        "-1": "B organizes the competing cases and response slightly more coherently; A may still be better locally."
+      },
+      "boundary": "No fixed introduction/background/conclusion labels or upfront thesis is mandatory. Judge ordering, transitions and avoidable repetition, not the policy adopted.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a605443:flat:19",
+          "rr:6847465956a0f6376a605443:flat:20",
+          "rr:6847465956a0f6376a605443:flat:29"
+        ],
+        "query_quotes": [],
+        "change_note": "Adapt the official material to the specific object 'Organization of the debate': Which original report more effectively moves from the competing cases to its qualified conclusions? Locally design the five anchors and boundaries. Concrete changes: Retain the effect of an entry point on debate progression, not a mandatory opening thesis. Retain paragraph coherence in the original debate's progression. Retain debate organization without mandatory named sections."
+      }
+    },
+    {
+      "id": "PW.D6.clear",
+      "dimension": "D6",
+      "title": "Clarity of distinctions",
+      "question": "Which report more clearly expresses age, competence, rights and the boundaries of its claims?",
+      "anchors": {
+        "0": "The reports provide comparable clarity; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A expresses an important policy distinction or qualification slightly more clearly; B may still be better locally.",
+        "2": "A makes the distinctions and qualifications in the debate substantially easier to understand; B's local strengths do not make up for the difference.",
+        "-2": "B makes the distinctions and qualifications in the debate substantially easier to understand; A's local strengths do not make up for the difference.",
+        "-1": "B expresses an important policy distinction or qualification slightly more clearly; A may still be better locally."
+      },
+      "boundary": "Judge the meaning of existing sentences, not their truth or length. Demeaning language is scored only in PT.D6.respect, not again here merely because it is offensive.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Clarity of distinctions' for this query: Which report more clearly expresses age, competence, rights and the boundaries of its claims? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    },
+    {
+      "id": "PW.D6.find",
+      "dimension": "D6",
+      "title": "Finding positions and supporting material",
+      "question": "Which report makes a particular age-limit argument, objection and its stated basis easier to locate?",
+      "anchors": {
+        "0": "The reports provide comparable lookup help; distinguish comparable useful contributions from neither providing relevant help.",
+        "1": "A makes an important argument/source lookup slightly easier; B may still be better locally.",
+        "2": "A makes relevant positions and their stated bases substantially easier to locate; B's local strengths do not make up for the difference.",
+        "-2": "B makes relevant positions and their stated bases substantially easier to locate; A's local strengths do not make up for the difference.",
+        "-1": "B makes an important argument/source lookup slightly easier; A may still be better locally."
+      },
+      "boundary": "Use original formatting and actual lookup steps; no table, link count or citation style is preferred.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Locally add 'Finding positions and supporting material' for this query: Which report makes a particular age-limit argument, objection and its stated basis easier to locate? The five anchors and boundaries are local design, not verbatim official reuse."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:1",
+      "targets": [
+        "PT.D1.background"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.background gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of the common minimum-age baseline.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:2",
+      "targets": [
+        "PT.D1.background"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.background gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of lower-threshold variation.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:3",
+      "targets": [
+        "PT.D1.background"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.background gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of maximum-age versus other eligibility rules.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:6",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "The source asks neuroscience/developmental psychology to establish universal voting law: this is a source-domain mismatch.",
+      "discrimination_check": "If two otherwise adequate reports differ only by including this exact assertion, institution or example, no score difference is guaranteed. This official presence requirement is deliberately not retained.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:9",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "reason": "An institutional medical citation quota is unrelated to whether the actual claim is adequately supported.",
+      "discrimination_check": "If two otherwise adequate reports differ only by including this exact assertion, institution or example, no score difference is guaranteed. This official presence requirement is deliberately not retained.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:22",
+      "targets": [
+        "PT.D1.exclusion_history"
+      ],
+      "status": "adapted",
+      "reason": "Retain analysis of arbitrary/discriminatory exclusion mechanisms while making historical examples optional.",
+      "discrimination_check": "A generic unfairness label or unexplained risk remains insufficient. A concrete institutional or explicitly hypothetical mechanism with scope limits can reach 5; omission of an official historical example is no longer independently penalized.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:27",
+      "targets": [
+        "PT.D1.context"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.context gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of limits of transferring a policy across institutional settings.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:33",
+      "targets": [
+        "PT.D1.exclusion_history"
+      ],
+      "status": "adapted",
+      "reason": "Retain analysis of arbitrary/discriminatory exclusion mechanisms while making historical examples optional.",
+      "discrimination_check": "A generic unfairness label or unexplained risk remains insufficient. A concrete institutional or explicitly hypothetical mechanism with scope limits can reach 5; omission of an official historical example is no longer independently penalized.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:4",
+      "targets": [
+        "PT.D2.trace",
+        "PW.D2.fit"
+      ],
+      "status": "adapted",
+      "reason": "Preserve appropriate legal support when a legal assertion is actually made, not compulsory assertion of universal absence.",
+      "discrimination_check": "A legal claim with no identifiable basis can lower traceability; support with wrong jurisdictional scope can lower evidence fit. A report avoiding the optional universal claim need not cite a source for it.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:5",
+      "targets": [
+        "PT.D1.development"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.development gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of developing executive and regulatory functions.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:7",
+      "targets": [
+        "PT.D1.decline"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.decline gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of fluid cognitive changes.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:8",
+      "targets": [
+        "PT.D2.trace",
+        "PW.D2.fit"
+      ],
+      "status": "adapted",
+      "reason": "Preserve specific and applicable aging evidence, without a named researcher or fixed onset claim.",
+      "discrimination_check": "A traceable aging claim is distinguishable from vague scientific attribution; fit compares the population/measure. Adding Blazer or a digit-symbol example alone does not assure a better score.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:10",
+      "targets": [
+        "PT.D1.development",
+        "PT.D1.decline",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Capacity uncertainty belongs with the developmental/aging claim; policy uncertainty belongs with the policy judgment it limits.",
+      "discrimination_check": "An important unqualified cognitive generalization keeps its PT item at 3 or below. Explaining an unresolved policy condition can improve the options judgment. A ritual call for more research is not compulsory and does not itself improve a score.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:11",
+      "targets": [
+        "PT.D1.minimum"
+      ],
+      "status": "retained",
+      "reason": "Preserve a substantive supporting case for a minimum age.",
+      "discrimination_check": "A substantive opposing case but no supporting reason scores 3; supplying the supporting case permits 4/5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:12",
+      "targets": [
+        "PT.D1.minimum"
+      ],
+      "status": "retained",
+      "reason": "Preserve a substantive opposing case for a minimum age.",
+      "discrimination_check": "A good supporting case with no countercase scores 3; adding an actual opposing reason permits 4/5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:13",
+      "targets": [
+        "PT.D1.maximum"
+      ],
+      "status": "retained",
+      "reason": "Preserve a fair supporting case for a maximum age, not the official stereotypes as facts.",
+      "discrimination_check": "A report with only objections scores 3; fairly stating a pro-limit reason permits 4/5. No endorsement of that reason is required.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:14",
+      "targets": [
+        "PT.D1.maximum"
+      ],
+      "status": "retained",
+      "reason": "Preserve a substantive opposing case for a maximum age.",
+      "discrimination_check": "A strong pro-limit case with no counterargument remains 3; articulating an objection permits 4/5.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:15",
+      "targets": [
+        "PT.D1.generations",
+        "PW.D4.generations"
+      ],
+      "status": "adapted",
+      "reason": "Separate whether cohort effects are described from their additional interpretive value.",
+      "discrimination_check": "Naming young/old only scores 2 in PT; a specific voice/consequence relation can reach 5. A further explanation that changes the fairness judgment can improve PW, not just repeat that coverage.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:16",
+      "targets": [
+        "PT.D1.balance",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Retain the requested inclusivity–informed-participation relation and trade-off, not a mandatory citation quota.",
+      "discrimination_check": "Mentioning only one value cannot reach 4/5 in PT; a reasoned policy consequence can separately improve PW. A primary political-theory reference is not mandatory for a clearly stated normative premise.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:17",
+      "targets": [
+        "PT.D1.alternatives",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.alternatives gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of a concrete alternative and its costs.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:18",
+      "targets": [
+        "PT.D1.participation",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.participation gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of participation, representation and legitimacy consequences.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:19",
+      "targets": [
+        "PW.D5.flow"
+      ],
+      "status": "adapted",
+      "reason": "Retain the effect of an entry point on debate progression, not a mandatory opening thesis.",
+      "discrimination_check": "An introduction making the argument easier to follow can improve organization; equal clarity achieved without an upfront position is not penalized.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:20",
+      "targets": [
+        "PW.D5.flow"
+      ],
+      "status": "adapted",
+      "reason": "Retain paragraph coherence in the original debate's progression.",
+      "discrimination_check": "Repairing an unconnected paragraph sequence can improve D5; having one-idea paragraphs with no net improvement need not. Exact paragraph format is not compulsory.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:21",
+      "targets": [
+        "PT.D6.respect"
+      ],
+      "status": "adapted",
+      "reason": "Raw weight is -4: disparagement is negative, not a requested argument. Distinguish adoption from critical quotation.",
+      "discrimination_check": "Adding an adopted substantive age stereotype to otherwise reasoned writing can lower respect to 3; repeated disparagement can yield 2/1. Quoting prejudice to reject it is not penalized. The official literal emotionally-charged-language rule is narrowed to avoid punishing legitimate criticism.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:23",
+      "targets": [
+        "PT.D1.implementation",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.implementation gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of statutory/constitutional routes.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:24",
+      "targets": [
+        "PT.D1.generations",
+        "PW.D4.generations"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.generations gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of cohort-size effects.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:25",
+      "targets": [
+        "PT.D1.democracy",
+        "PT.D1.implementation",
+        "PW.D3.principle"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.implementation gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of rights constraints on implementing a change.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:26",
+      "targets": [
+        "PT.D1.context",
+        "PW.D4.options"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.context gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of social and institutional impact differences.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:28",
+      "targets": [
+        "PT.D1.development",
+        "PT.D1.decline",
+        "PW.D3.capacity"
+      ],
+      "status": "adapted",
+      "reason": "Keep individual variation in both age-related discussions and the group-to-individual inference.",
+      "discrimination_check": "Unqualified age=capacity language prevents 5 on the relevant PT item; explaining why a group mean cannot determine every individual's eligibility can improve capacity reasoning. Do not count the same observation twice without a distinct inference benefit.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:29",
+      "targets": [
+        "PW.D5.flow"
+      ],
+      "status": "adapted",
+      "reason": "Retain debate organization without mandatory named sections.",
+      "discrimination_check": "Better progression from background to arguments may improve D5; adding introduction/background/conclusion headings alone does not guarantee a score change.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:30",
+      "targets": [
+        "PT.D1.decline"
+      ],
+      "status": "adapted",
+      "reason": "Restore the substantive distinction without imposing unverified universal claims, a fixed case, age, date or policy position.",
+      "discrimination_check": "PT.D1.decline gives 1–3 for absent/generic accounts or important gaps and 4–5 for a specific qualified account of learned knowledge versus fluid abilities.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:31",
+      "targets": [
+        "PT.D1.democracy",
+        "PW.D3.principle"
+      ],
+      "status": "adapted",
+      "reason": "Preserve the connection between age limits and democratic standards.",
+      "discrimination_check": "A standard with no explanation of its connection to age eligibility remains 2/3; a concrete connection can reach 5. Reasoning that follows or fails to follow the declared standard is independently compared.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a605443:flat:32",
+      "targets": [
+        "PT.D1.democracy"
+      ],
+      "status": "adapted",
+      "reason": "Retain democratic voting-rights relevance without declaring a worldwide essential-right hierarchy.",
+      "discrimination_check": "Explaining how political participation engages an age rule improves coverage; the exact 'every democracy/most essential' assertion is neither necessary nor a guaranteed bonus.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.minimum",
+      "decision": "add",
+      "reason": "Added: the two-sided debate has an explicit 3 for one-sidedness; strength on one side cannot earn 4/5 without a substantive countercase."
+    },
+    {
+      "id": "PT.D1.maximum",
+      "decision": "add",
+      "reason": "Added: the two-sided debate has an explicit 3 for one-sidedness; strength on one side cannot earn 4/5 without a substantive countercase."
+    },
+    {
+      "id": "PT.D1.democracy",
+      "decision": "add",
+      "reason": "Added: a principle label without an application remains 2/3; no need to split the relation."
+    },
+    {
+      "id": "PT.D1.development",
+      "decision": "add",
+      "reason": "Added: developmental finding and its population/context form one claim; a numerical age cannot compensate for missing scope."
+    },
+    {
+      "id": "PT.D1.decline",
+      "decision": "add",
+      "reason": "Added: change, retained abilities and variation qualify the same age-to-capacity claim; a major unqualified generalization remains 3 or below."
+    },
+    {
+      "id": "PT.D1.generations",
+      "decision": "add",
+      "reason": "Added: affected cohort without a change in representation/consequence is incomplete; the existing relation gets an explicit 3."
+    },
+    {
+      "id": "PT.D1.balance",
+      "decision": "add",
+      "reason": "Added: the relationship is the query's object; detailed discussion of only one objective stays at 2/3."
+    },
+    {
+      "id": "PT.D2.trace",
+      "decision": "add",
+      "reason": "Added: claim-to-source attribution is one relation and handles mixed attribution at 3."
+    },
+    {
+      "id": "PT.D2.support",
+      "decision": "add",
+      "reason": "Added: jurisdiction/date and population delimit one factual claim; mixed support is explicitly 3."
+    },
+    {
+      "id": "PT.D2.consistency",
+      "decision": "add",
+      "reason": "Added: consistency refers to the same speaker/condition, not agreement between both sides of a debate."
+    },
+    {
+      "id": "PT.D6.respect",
+      "decision": "add",
+      "reason": "Added: one language-use boundary graded by extent and argumentative role; polished wording cannot offset adopted disparagement."
+    },
+    {
+      "id": "PW.D3.capacity",
+      "decision": "add",
+      "reason": "Added: evidence-to-eligibility is one inference; a factual trend with no policy bridge is not completed by another neuroscience fact."
+    },
+    {
+      "id": "PW.D3.principle",
+      "decision": "add",
+      "reason": "Added: a normative premise and its application are one reasoning relation; consistency here concerns inference, not factual repetition."
+    },
+    {
+      "id": "PW.D4.generations",
+      "decision": "add",
+      "reason": "Added: representation and experienced consequences inform one distributional judgment, not separate rewards for demographic data and examples."
+    },
+    {
+      "id": "PW.D4.options",
+      "decision": "add",
+      "reason": "Added: means, constraints and consequences address one policy-choice question. Fixed tests, education reforms or a legal drafting exercise are not required."
+    },
+    {
+      "id": "PW.D2.fit",
+      "decision": "add",
+      "reason": "Added: source type and claim purpose form one evidence-fit relation; neither a legal source nor a medical source is universally better."
+    },
+    {
+      "id": "PW.D5.flow",
+      "decision": "add",
+      "reason": "Added: one debate progression; a clear introduction cannot compensate for an unconnected conclusion without identifying the broken transition."
+    },
+    {
+      "id": "PW.D6.clear",
+      "decision": "add",
+      "reason": "Added: terms and qualifiers define one proposition; this is separate from the explicit non-stereotyping boundary."
+    },
+    {
+      "id": "PW.D6.find",
+      "decision": "add",
+      "reason": "Added: one lookup task for a scoped argument and its basis, not independent checks for labels."
+    },
+    {
+      "id": "PT.D1.background",
+      "decision": "revise",
+      "reason": "Minimum and maximum practices are one eligibility baseline; a clear minimum with no age-ceiling distinction remains 3. A clear maximum-age account with minimum-age practice or its variation missing also scores 3."
+    },
+    {
+      "id": "PT.D1.alternatives",
+      "decision": "revise",
+      "reason": "A strong age-limit argument can omit alternative means entirely; restore this independent policy-content entry."
+    },
+    {
+      "id": "PT.D1.participation",
+      "decision": "revise",
+      "reason": "An elegant equality principle does not establish practical participation consequences; restore the concrete pathway."
+    },
+    {
+      "id": "PT.D1.implementation",
+      "decision": "revise",
+      "reason": "A clear policy preference with no implementation constraints is independently incomplete; legal route and rights barriers delimit the same change. A clear legal-change route with rights constraints absent, or a clear rights discussion with no legal route, also scores 3."
+    },
+    {
+      "id": "PT.D1.context",
+      "decision": "revise",
+      "reason": "A demographic comparison can be strong while institutional transfer is unexplained; context-to-impact is its own relation."
+    },
+    {
+      "id": "PT.D1.exclusion_history",
+      "decision": "revise",
+      "reason": "Assess one exclusion mechanism and its relevance to the voting qualification; historical, institutional or explicitly hypothetical reasoning are alternative routes, not separate required objects."
+    }
+  ],
+  "author_notes": [
+    "v3.1 history: No prior draft for this task. Minimum/maximum debates, development/aging and distinct empirical/normative inferences are separate; paired arguments retain explicit one-sidedness anchors rather than a score average.",
+    "v3.1 history: Important dropped distinctions: mandatory country examples, worldwide maximum-age absence, neuroscience-as-legal-source requirement, medical institutional quota, fixed cognitive ages and historical examples. Each is recorded rather than hidden beneath a broad heading.",
+    "v3.1 history: The negative-language source has weight -4; it is used in the negative direction with quoted criticism distinguished from adopted prejudice. No age group or policy conclusion is favoured.",
+    "v3.1 history: No candidate reports, historical scores or external verification used; author and machine checks do not constitute independent review.",
+    "v3.3 repair: Preserve both minimum/maximum debates, development/aging distinctions and the negative weight-21 language rule. Restore institutional background, alternatives, participation effects, implementation, context and historical screening risks. Specify executive, fluid and crystallized abilities without fixed maturation/onset ages or universal legal claims. Reject the official neuroscience-to-worldwide-law source mismatch.",
+    "Final v3.3 draft: 17 PT / 8 PW. Author and mechanical checks are not independent semantic approval. No external fact verification or report scoring was performed.",
+    "Review 36: only PT.D1.exclusion_history and related notes revised; ID retained although history is no longer mandatory. Earlier history-only high-score wording is historical. All PW unchanged. No legal/historical fact verification or reevaluation performed."
+  ]
+}

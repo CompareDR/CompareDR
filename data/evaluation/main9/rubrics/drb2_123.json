@@ -1,0 +1,1494 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:123",
+  "language": "zh",
+  "title": "合法城市中的住房非正规性",
+  "full_query": "我需要一份关于全球“住房非正规性”（Housing Informality, HI）的研究报告，请不要局限于贫民窟或非正式定居点，而是聚焦于那些在合法城市区域内出现的非合规、适应性住房实践。报告需要以2024年5月之前的数据和研究为基础，整理并分析以下几个方面：\n\n1.  **核心趋势分类与解读**：请识别并总结全球范围内主要的住房非正规性趋势。对于每种趋势，请提供具体定义和实例。主要需要覆盖非正规市场动态、附属住宅单元（ADUs）、未经授权的改造、非常规住房和侵占行为这五大类。\n\n2.  **驱动因素分析**：深入探讨导致这些非正规住房现象出现的背后原因。请从经济、社会文化、法规制度、人口迁移以及适应性需求这几个维度进行分析，并解释不同驱动因素是如何与特定的非正规住房趋势相关联的。\n\n3.  **产生的影响评估**：全面评估住房非正规性带来的多方面影响。请分别从经济（如影子经济、税收流失）、社会（如社区凝聚力、社会排斥）、法律法规（如管理难题、权利模糊）以及健康与安全（如建筑标准、基础设施缺乏）四个层面展开论述。\n\n请确保报告结构清晰，语言准确，分析有理有据。最终输出时，分别论述第一、二、三部分。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Trends, Methods, Drivers, and Impacts of Housing Informalities (HI): A Systematic Literature Review', 'authors': ['Rim Mrani', 'Hassan Radoine', 'Jérôme Chenal', 'Alanda Kamana'], 'urls': ['https://www.mdpi.com/2413-8851/9/4/101', 'https://www.researchgate.net/publication/390268719_Trends_Methods_Drivers_and_Impacts_of_Housing_Informalities_HI_A_Systematic_Literature_Review', 'https://doaj.org/article/0bc6b503b324459f8cb11b523e1b8f00', 'https://ouci.dntb.gov.ua/en/works/lmbQjr5E/']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "研究范围",
+      "question": "报告是否聚焦全球合法城市区域内的非合规、适应性住房实践，并区别于仅研究贫民窟？",
+      "anchors": {
+        "1": "主体不是本题住房实践。",
+        "2": "几乎全部是贫民窟或单一城市介绍，没有说明题面范围。",
+        "3": "讨论合法城市区域实践，但与非正式定居点混同，或把单地现象无说明当全球。",
+        "4": "聚焦正确，跨地区范围可辨，少量概念或地域外推界线不清。",
+        "5": "明确本题HI的对象与非合规层面，以跨地区视野讨论合法城市内实践，贫民窟仅作有界参照。"
+      },
+      "boundary": "不要求各洲定额案例；合法城市不代表每套住房合法，非典型住房也不自动违法。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:1"
+        ],
+        "query_quotes": [
+          "合法城市区域内出现的非合规、适应性住房实践"
+        ],
+        "change_note": "保留HI与定居点区别，补全球视角的范围检查而不规定国家名单。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "非正规市场动态",
+      "question": "报告是否定义非正规市场动态，说明其租赁、交易和中介安排的多种形式及具体实例？",
+      "anchors": {
+        "1": "没有市场动态。",
+        "2": "只说市场混乱，无定义或实例。",
+        "3": "有定义和一个市场现象，但将非正规市场仅等同某一住房外形，或合同/准入及组织交易的环节不清。",
+        "4": "定义与实例对应，少量合同、准入或监管条件不清。",
+        "5": "说明租赁或交易如何通过非正式合同、分租共享或中介渠道等不同安排运作，给出具体实例并辨明相应非合规环节；不把口头协议或线上平台本身当成非法。"
+      },
+      "boundary": "不指定劏房、Gumtree或城市；但多种市场运作形式不能被一个结构改造例子替代。融资独立由PT.D1.19检查。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:1",
+          "drb2:123:info_recall:2",
+          "drb2:123:info_recall:4",
+          "drb2:123:info_recall:5",
+          "drb2:123:info_recall:6"
+        ],
+        "query_quotes": [
+          "对于每种趋势，请提供具体定义和实例。"
+        ],
+        "change_note": "保留多形式市场内容，不强制品牌和某城市；融资分开。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "附属住宅单元",
+      "question": "报告是否说明ADU与主住宅或地块的附属关系，并举出属于本题范围的实例？",
+      "anchors": {
+        "1": "没有ADU。",
+        "2": "只展开缩写或说加建。",
+        "3": "定义或实例仅一项充分，或将所有ADU一律视为非正规。",
+        "4": "附属单元概念与非合规实例清楚，少量许可或用途条件不明。",
+        "5": "明确附属居住单元含义，以具体加建、改造或其他相当实例说明非合规发生在哪个环节，并区别获批ADU。"
+      },
+      "boundary": "后院、车库是可选例子，不要求澳大利亚或南非。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:8"
+        ],
+        "query_quotes": [],
+        "change_note": "保留附属单元定义，补合法与非合规ADU的边界。"
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "未经授权的改造",
+      "question": "报告是否定义未经授权改造并举例说明改动内容与缺少的批准？",
+      "anchors": {
+        "1": "未讨论改造。",
+        "2": "只称违建，没有改动内容。",
+        "3": "有具体改造但授权关系不明，或仅定义没有实例。",
+        "4": "改造、实例和批准问题大体明确，仅次要条件不清。",
+        "5": "清楚说明既有住房的结构、空间或用途改动及其未获所需批准的关系，实例可辨。"
+      },
+      "boundary": "不要求土耳其、摩洛哥或加层；有材料支持的管辖范围差异可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:10"
+        ],
+        "query_quotes": [],
+        "change_note": "保留未授权变更对象，开放改造类型和地理实例。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "非常规住房",
+      "question": "报告是否定义非常规住房并举例说明它何时属于非正规性？",
+      "anchors": {
+        "1": "没有非常规住房。",
+        "2": "只说另类、创新，无具体住居形式。",
+        "3": "有形式或实例，但非典型与非合规的区别不清，或缺具体实例。",
+        "4": "非典型结构和本题非合规关系大体清楚，少量用途或许可条件未交代。",
+        "5": "说明将非典型结构用于居住的含义，具体实例的居住用途与规则不相容处明确；不把创新形式都判违法。"
+      },
+      "boundary": "集装箱、船屋均非必选，不指定新西兰或牛津。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:12"
+        ],
+        "query_quotes": [],
+        "change_note": "保留非典型结构用于住宅的概念，取消指定结构清单。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "侵占行为",
+      "question": "报告是否定义未经权利人许可占用土地或建筑的行为，并说明具体城市住房实例？",
+      "anchors": {
+        "1": "没有侵占内容。",
+        "2": "只有标签或将一般租住当侵占。",
+        "3": "定义或实例只一项清楚，或未说明占用许可关系。",
+        "4": "占用、许可关系和实例明确，次要法律情境未交代。",
+        "5": "明确侵占的占用与授权关系，以本题城市住房实例说明情境，并限定有关法律性质的辖区。"
+      },
+      "boundary": "不要求特定城市，也不把所有侵占当同一犯罪类型或都出于抗议。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:14"
+        ],
+        "query_quotes": [],
+        "change_note": "保留未经授权占用的核心，改写无条件非法定性。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "经济驱动",
+      "question": "报告是否说明住房负担、收入或供给压力怎样与具体HI趋势相联系？",
+      "anchors": {
+        "1": "未讨论经济原因。",
+        "2": "只说贫穷或房价高。",
+        "3": "有经济因素，但未连到具体HI趋势或主要条件缺失。",
+        "4": "经济压力与趋势对应清楚，少量群体或市场条件不清。",
+        "5": "具体说明经济约束及其对应的住房应对，负担能力、收入差距或其他实际所用因素的适用群体可辨。"
+      },
+      "boundary": "不强制将经济因素判为一切HI的根本原因；这里只查原因与趋势关系是否说明，推理质量由D3比较。 不能仅并列因素与趋势，须说明具体作用环节和必要条件；有据不同方向可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:16",
+          "drb2:123:info_recall:17",
+          "drb2:123:analysis:2"
+        ],
+        "query_quotes": [],
+        "change_note": "保留经济维度及住房负担线索，不把所有经济细项列作必选。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "社会文化驱动",
+      "question": "报告是否说明家庭、社会网络、文化或集体认同需求与具体HI趋势的关联？",
+      "anchors": {
+        "1": "没有社会文化因素。",
+        "2": "只写文化不同、家庭需求大。",
+        "3": "提出具体社会文化需求和住房实践，但只将二者并列，没有解释需求怎样促成该实践。",
+        "4": "解释了需求促成具体住房实践的作用环节，但所指群体或家庭、社区情境仍不清楚。",
+        "5": "作用环节、所指群体和家庭或社区情境均可辨。无需穷举地区，只需说明所述关联适用于什么情境；不能用地域或族群标签代替解释。"
+      },
+      "boundary": "不强制多代同堂或城市抵抗论。 不能仅并列因素与趋势，须说明具体作用环节和必要条件；有据不同方向可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:18",
+          "drb2:123:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "保留社会文化驱动维度，开放具体需求与理论。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "法规制度驱动",
+      "question": "报告是否说明法规、审批或执行安排如何与HI形成有关？",
+      "anchors": {
+        "1": "没有制度原因。",
+        "2": "只说制度不好或违法者多。",
+        "3": "有具体制度因素但与趋势缺联系，或滞后与严格含义混淆。",
+        "4": "制度条件与趋势联系清楚，次要管辖条件不明。",
+        "5": "说明实际制度障碍或执行条件及其对应的住房应对，明确规则内容或作用环节。"
+      },
+      "boundary": "允许严格、滞后、缺位或其他有据制度解释，不要求每种都写；形成原因不与法律后果重复评分。 不能仅并列因素与趋势，须说明具体作用环节和必要条件；有据不同方向可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:21",
+          "drb2:123:info_recall:22",
+          "drb2:123:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留制度维度和监管线索，区别形成原因与后果。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "人口迁移驱动",
+      "question": "报告是否说明人口与迁移变化如何影响正规住房准入，并与HI趋势相连？",
+      "anchors": {
+        "1": "未讨论人口迁移。",
+        "2": "只称移民多或城市化快。",
+        "3": "有具体人口变化，但住房准入或对应趋势不清。",
+        "4": "人口变化、准入约束和应对趋势大体相连，少量群体条件未交代。",
+        "5": "明确所讨论群体的人口迁移处境及其住房机会变化，说明相应HI实践，不把移民身份本身当非法。"
+      },
+      "boundary": "不要求所有迁移者都因法律障碍被排除，也不强制侵占案例。 不能仅并列因素与趋势，须说明具体作用环节和必要条件；有据不同方向可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:23",
+          "drb2:123:info_recall:24",
+          "drb2:123:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "保留人口迁移与正规准入机制，限定群体范围。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "适应性需求",
+      "question": "报告是否说明住户改变空间、密度或居住安排的需求与HI趋势的联系？",
+      "anchors": {
+        "1": "未说明适应性需求。",
+        "2": "只有灵活、创新等赞语。",
+        "3": "有具体空间需求，但与住房实践或非合规环节未联系。",
+        "4": "空间或生活变化与应对明确，少量用途条件不清。",
+        "5": "说明为什么现有空间或居住安排不满足需求，以及相应改造、利用或居住形式，明确非正规性产生环节。"
+      },
+      "boundary": "不要求增加密度、改变配置和利用闲置三种全部出现。 不能仅并列因素与趋势，须说明具体作用环节和必要条件；有据不同方向可接受。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:25",
+          "drb2:123:info_recall:26",
+          "drb2:123:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "保留适应性需求与空间应对，去除逐例强制。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "经济影响",
+      "question": "报告是否评估HI对住房交易、收入和公共财政的经济影响？",
+      "anchors": {
+        "1": "没有经济影响。",
+        "2": "只称有利或有损经济。",
+        "3": "有具体收入后果，但影子交易、地方税收或市场秩序中的重要影响未解释。",
+        "4": "未登记经济活动与税收影响均说明，少量收入或财政口径不清。",
+        "5": "说明未登记交易和收入流如何影响地方税收及市场竞争/秩序，明确主体条件，区分未申报、征管损失与法定免税。"
+      },
+      "boundary": "不要求断言所有非正规活动免税；无需计算缺乏数据的税收总额。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:27",
+          "drb2:123:info_recall:28",
+          "drb2:123:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "保留题面影子经济与税收差异，新增未申报不等于免税边界。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "社会影响",
+      "question": "报告是否说明HI对社区支持和社会排斥的影响？",
+      "anchors": {
+        "1": "没有社会后果。",
+        "2": "只称促进社区或造成问题。",
+        "3": "支持网络与排斥只讲一面，或对象与情境不清。",
+        "4": "两类后果与主体可辨，少量发生条件欠清。",
+        "5": "说明社区支持或凝聚与孤立、排斥可能同时存在的情境，交代受益和受损群体，不强行给每个案例平衡正负。"
+      },
+      "boundary": "不指定ADU一定促混合收入、侵占一定污名化；不重复经济损失。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:31",
+          "drb2:123:info_recall:32"
+        ],
+        "query_quotes": [],
+        "change_note": "保留正负社会后果，允许具体案例不对称。"
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "法律法规影响",
+      "question": "报告是否说明HI对权利保障和城市治理产生的后果？",
+      "anchors": {
+        "1": "未讨论法律后果。",
+        "2": "只说违法或难管理。",
+        "3": "有权利或治理内容，但租赁保障、占用产权边界或市政执行与保护的重要一面缺失，或法域不明。",
+        "4": "权利不稳定和管理问题都说明，少量角色或法域条件不足。",
+        "5": "说明租赁保障与占用/产权边界如何影响居民权利，并交代市政执行与保护住户之间的管理困难；不把未登记等同完全无权，也不把所有侵占等同抗议。"
+      },
+      "boundary": "不在此评制度如何产生HI；事实合法性由限样本核验处理。 侵占的产权冲突须有实质说明，允许有据区分生存需要与组织化抗议，不强制城市抵抗理论。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:35",
+          "drb2:123:info_recall:36",
+          "drb2:123:info_recall:37",
+          "drb2:123:analysis:9",
+          "drb2:123:analysis:10"
+        ],
+        "query_quotes": [],
+        "change_note": "保留权利与治理影响，取消统一法律结论。"
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "健康与安全影响",
+      "question": "报告是否具体说明建筑条件和基础设施不足带来的健康安全后果？",
+      "anchors": {
+        "1": "无健康安全内容。",
+        "2": "只说危险、条件差。",
+        "3": "有建筑或服务问题，但另一重要方面未说明，或未指出暴露对象与后果。",
+        "4": "建筑条件和基础服务的风险均具体，少量住房类型或条件不清。",
+        "5": "说明实际建筑标准或居住条件、基本设施不足与相关健康安全后果，类型与暴露情境可辨，不笼统断定全部住房都危险。"
+      },
+      "boundary": "通风、消防、结构、水电和卫生是核对线索，不要求每种住房都出现全部风险。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:38",
+          "drb2:123:info_recall:39",
+          "drb2:123:info_recall:40"
+        ],
+        "query_quotes": [],
+        "change_note": "保留建筑与基础服务两类风险，取消对所有住房类型的普遍断言。"
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "资料截止",
+      "question": "报告是否以2024年5月之前的数据和研究为基础？",
+      "anchors": {
+        "1": "主要依据均在截止之后。",
+        "2": "多项核心论述依赖截止后资料。",
+        "3": "主体在截止前，但局部实质论点混入截止后研究。",
+        "4": "依据基本在截止前，仅少量发布日期或版本未明确。",
+        "5": "实际使用的数据和研究均明确在2024年5月之前，后期检索页面不冒充早期研究。"
+      },
+      "boundary": "检查研究和数据时间，不把仅网页更新日期当新研究；不能据本项推断历史访问。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:presentation:5"
+        ],
+        "query_quotes": [
+          "2024年5月之前的数据和研究"
+        ],
+        "change_note": "保留严格资料截止，五档本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "三部分论述",
+      "question": "报告是否分别论述趋势、驱动与影响三部分？",
+      "anchors": {
+        "1": "无法辨认三部分。",
+        "2": "缺少多个部分或仅有散列笔记。",
+        "3": "三个主题出现但混在一起，或一部分没有独立论述。",
+        "4": "三部分可辨，仅小段归属不清。",
+        "5": "三部分分别展开，标题或相当结构清楚。"
+      },
+      "boundary": "不要求第四部分表格，全文阅读路径由D5比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:presentation:1"
+        ],
+        "query_quotes": [
+          "分别论述第一、二、三部分。"
+        ],
+        "change_note": "保留题面三部分，不采用官方额外第四表。"
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "禁源可观察使用",
+      "question": "最终报告是否引用或使用题面禁止的HI综述？",
+      "anchors": {
+        "1": "禁源明确支撑核心结论。",
+        "2": "禁源支撑多个实质次要论点。",
+        "3": "禁源支撑一个局部实质论点。",
+        "4": "只在参考文献列禁源，未确认正文使用。",
+        "5": "完整最终报告没有可观察禁源使用；排除声明复述不算引用。"
+      },
+      "boundary": "仅查最终文本，不推测访问历史；相同事实或分类不能自动证明取用。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "Trends, Methods, Drivers, and Impacts of Housing Informalities (HI): A Systematic Literature Review"
+        ],
+        "change_note": "题面新增禁源审计，不从官方资源推导。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "关键主张可追溯",
+      "question": "报告的城市实例、HI驱动解释和影响判断能否定位到对应研究或可检查推导？",
+      "anchors": {
+        "1": "关键主张没有可辨认的出处或推导。",
+        "2": "只笼统提到研究、资料或数据，无法定位。",
+        "3": "有相关来源，但重要主张与具体材料的对应不清。",
+        "4": "主要主张可定位，只有次要出处范围不清。",
+        "5": "关键主张分别对应可定位材料或可检查推导，作者假设明确标出。"
+      },
+      "boundary": "只评可定位性；无URL不直接扣分。来源是否支持另由PT.D2.02核验。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用三题出处审计分工，按本题重要主张设定对象；锚点本地明确。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内的支持程度",
+      "question": "在已完成的核验范围内，所获研究是否支持报告的城市、住房类型、时期和影响主张？",
+      "anchors": {
+        "1": "已核验核心主张被材料否定或所称依据不成立，破坏主要回答。",
+        "2": "多个重要已核验主张存在实质支持错误。",
+        "3": "支持情况混合，仍有影响使用的范围或归属错误。",
+        "4": "重要已核验主张基本获支持，仅有次要夸大或归属问题。",
+        "5": "所有已完成判断均符合所得证据的对象、范围和强度；不是全文正确性保证。"
+      },
+      "boundary": "发布选中与完成核验的主张、范围和数量；访问失败是执行问题，重试并记录，不转质量低分、不使用NA。没有完成核验就不能给出本项质量结论。本轮不执行外核。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用有限样本核验分工；只判断取得的证据，不将官方条目当外部事实保证。"
+      }
+    },
+    {
+      "id": "PT.D2.03",
+      "dimension": "D2",
+      "title": "内部口径一致",
+      "question": "报告中HI类别、城市法域、年份和受影响群体的说法是否前后一致？",
+      "anchors": {
+        "1": "多个核心陈述互相冲突，无法确定主要回答。",
+        "2": "关键对象、数值或条件出现未解释冲突，明显影响使用。",
+        "3": "同一城市、群体、时段或HI类别出现未解释的实质冲突，需改动局部内容才能相容；包括将截止期后事件直接用作截止期内事实。主要回答仍可辨。",
+        "4": "没有实质冲突，但局部法域、年份或群体标签省略；可由相邻文本唯一补全，且不改变结论的范围。",
+        "5": "正文、表格和结论的类别、法域、年份与群体相容且范围明确。截止期后资料若清楚标为背景、未充作截止期内事实，不因出现本身扣分；分类重叠有说明也不算冲突。"
+      },
+      "boundary": "只查内部兼容，不把不同条件下的差异判成矛盾；不重复外核真假。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增本题口径一致性审计，与外部核验分开。"
+      }
+    },
+    {
+      "id": "PT.D1.19",
+      "dimension": "D1",
+      "title": "非正规住房融资",
+      "question": "报告是否说明正规银行之外的融资如何支持HI实践，以及其经济影响与限制？",
+      "anchors": {
+        "1": "未讨论融资安排。",
+        "2": "只称缺钱或非正式融资，没有资金关系。",
+        "3": "有融资例子但资金如何取得、与正规金融关系或经济后果有重要缺口。",
+        "4": "资金取得方式与非正规住房实践及风险相连，少量主体或条件不清。",
+        "5": "说明正规金融准入之外的融资关系、资金用途及对住房实践的支持和风险，区分替代/补充银行体系与所有融资都违法。"
+      },
+      "boundary": "不要求社区储蓄团体或固定借贷产品；家庭、社区等有据安排均可，但不能用租金未申报替代融资说明。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:info_recall:7",
+          "drb2:123:info_recall:29"
+        ],
+        "query_quotes": [],
+        "change_note": "恢复融资领域，原先把社区实例不必选扩大成融资完全不必答。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "驱动如何产生实践",
+      "question": "哪篇更可靠地解释经济、制度、社会或人口需求怎样促成具体HI实践？",
+      "anchors": {
+        "0": "两篇对HI形成机制的解释帮助相近，或均无可用机制；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在重要驱动与住房应对的因果联系上略更成立；B仍可在局部更好。",
+        "2": "A对主要驱动到住房实践的解释链明显更可靠；B的局部优点不足以弥补这一差距。",
+        "-2": "B对主要驱动到住房实践的解释链明显更可靠；A的局部优点不足以弥补这一差距。",
+        "-1": "B在重要驱动与住房应对的因果联系上略更成立；A仍可在局部更好。"
+      },
+      "boundary": "不把原因栏目齐全当机制优越；检视实际环节和替代解释，不强制经济首因、文化首因或单一理论。 比较全文核心形成机制，双方按同一重要性标准同时列出正反差别；同等重要的反向优势相抵判0，不任选一机制决定全篇。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:2",
+          "drb2:123:analysis:3",
+          "drb2:123:analysis:4",
+          "drb2:123:analysis:5",
+          "drb2:123:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "保留形成机制比较，取消指定国家、必然根因和固定定性。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "财政与市场后果的推理",
+      "question": "哪篇更可靠地解释非正规经济活动如何影响地方财政与市场秩序？",
+      "anchors": {
+        "0": "两篇后果推理帮助相近，或均无可用解释；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A对重要后果的作用环节和条件解释略好；B仍可在局部更好。",
+        "2": "A对主要影响从何产生的推理明显更成立；B的局部优点不足以弥补这一差距。",
+        "-2": "B对主要影响从何产生的推理明显更成立；A的局部优点不足以弥补这一差距。",
+        "-1": "B对重要后果的作用环节和条件解释略好；A仍可在局部更好。"
+      },
+      "boundary": "只比较交易/收入到财政与市场后果的因果链；不重复PT内容完整性，权利推理由PW.D3.03比较。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:8"
+        ],
+        "query_quotes": [],
+        "change_note": "仅保留analysis:8的财政与市场后果解释；法律权利后果已分至PW.D3.03，不再在本项比较。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "住房应对的利弊",
+      "question": "哪篇更帮助理解HI为何能缓解住居需求，却可能把代价转移给住户、社区或城市？",
+      "anchors": {
+        "0": "双方利弊综合帮助相近，或都只孤立罗列正负影响；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A对重要受益与代价之间的判断略更有用；B仍可在局部更好。",
+        "2": "A对住房应对的收益、代价及承担者形成明显更有用的认识；B的局部优点不足以弥补这一差距。",
+        "-2": "B对住房应对的收益、代价及承担者形成明显更有用的认识；A的局部优点不足以弥补这一差距。",
+        "-1": "B对重要受益与代价之间的判断略更有用；A仍可在局部更好。"
+      },
+      "boundary": "不要求给政策建议或认定HI总体好/坏；须指出综合后改变什么判断，不重奖D3因果成立。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "保留辩证影响，变成承担者与条件的综合判断，不以正负数量平衡。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "全球异同与外推边界",
+      "question": "哪篇更帮助辨认不同地区HI的共同压力和不可互换的制度、实践差异？",
+      "anchors": {
+        "0": "两篇跨地区认识帮助相近，或都未形成有关综合；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A对跨地区共同性或差异的解释意义略更有用；B仍可在局部更好。",
+        "2": "A形成明显更有用的跨地区HI认识而不抹平关键差异；B的局部优点不足以弥补这一差距。",
+        "-2": "B形成明显更有用的跨地区HI认识而不抹平关键差异；A的局部优点不足以弥补这一差距。",
+        "-1": "B对跨地区共同性或差异的解释意义略更有用；A仍可在局部更好。"
+      },
+      "boundary": "不强制南北二分、适应性连续体或抗议理论；地区案例更多不自动更好。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:11",
+          "drb2:123:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "保留跨趋势/地区综合，取消预设南北因果二分。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "全球住房证据适配",
+      "question": "哪篇的研究材料更适合支撑其跨城市、跨住房类型的概括？",
+      "anchors": {
+        "0": "双方证据集合的适用价值相近，或均无可用支持；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在重要概括的地区或制度适配上略好；B仍可在局部更好。",
+        "2": "A为核心全球概括提供明显更适配且互补的证据；B的局部优点不足以弥补这一差距。",
+        "-2": "B为核心全球概括提供明显更适配且互补的证据；A的局部优点不足以弥补这一差距。",
+        "-1": "B在重要概括的地区或制度适配上略好；A仍可在局部更好。"
+      },
+      "boundary": "不以城市数量或法律文本声望排名；个案可说明机制，但外推规模须有相应依据。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增全球综述的证据集合比较。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "全文组织与推进",
+      "question": "哪篇原报告更有效地把HI分类、驱动和影响串成完整研究认识？",
+      "anchors": {
+        "0": "两篇对整体理解的组织帮助相近，或都未形成可用阅读路径；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在整体阅读顺序和承接上略有帮助；B仍可在局部更好。",
+        "2": "A的组织明显更能连起本题的材料与结论；B的局部优点不足以弥补这一差距。",
+        "-2": "B的组织明显更能连起本题的材料与结论；A的局部优点不足以弥补这一差距。",
+        "-1": "B在整体阅读顺序和承接上略有帮助；A仍可在局部更好。"
+      },
+      "boundary": "阅读原报告，顺序、承接、摘要和不必要重复合并评一次；不默认更短或固定章节顺序更好。句子和查找效率另评。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用三题全文组织比较，仅适配本题阅读目标，不增加格式义务。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "已写内容的清晰表达",
+      "question": "哪篇更清楚地表达非正规、非合规、未授权及居民权利的区别？",
+      "anchors": {
+        "0": "双方已写意思的可理解性相近，或都没有可理解的相关说明；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在关键术语、指代或局部说明上略清楚；B仍可在局部更好。",
+        "2": "A使关键概念和陈述明显更易理解；B的局部优点不足以弥补这一差距。",
+        "-2": "B使关键概念和陈述明显更易理解；A的局部优点不足以弥补这一差距。",
+        "-1": "B在关键术语、指代或局部说明上略清楚；A仍可在局部更好。"
+      },
+      "boundary": "只评原文措辞、术语和局部表格标签，不重复事实、内容覆盖、全篇重复或组织评分；自然语言不必故作学术。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "沿用清晰表达比较；不把学术文风或术语数量当优势。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "信息与依据查找",
+      "question": "哪篇更方便找到某类HI的定义、对应城市实例、驱动或影响及其依据？",
+      "anchors": {
+        "0": "双方查找成本相近，或都没有可用查找帮助；须说明是双方均有相近帮助，还是双方均无相关帮助。",
+        "1": "A在重要信息及其出处的查找上略省力；B仍可在局部更好。",
+        "2": "A使本题关键细节和出处的定位明显更直接；B的局部优点不足以弥补这一差距。",
+        "-2": "B使本题关键细节和出处的定位明显更直接；A的局部优点不足以弥补这一差距。",
+        "-1": "B在重要信息及其出处的查找上略省力；A仍可在局部更好。"
+      },
+      "boundary": "比较在原报告中查找特定内容的实际操作；不按图表、URL数量排名，不以内部切段判断原排版，不重复来源真实性。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "沿用信息定位分工，限定到本题实际查找对象。"
+      }
+    },
+    {
+      "id": "PW.D3.03",
+      "dimension": "D3",
+      "title": "权利脆弱性的推理",
+      "question": "哪篇更可靠地解释规则与执行的不确定性如何改变居住权利？",
+      "anchors": {
+        "0": "双方权利机制的解释相近，或双方均未给出实际推理；须说明是哪种。",
+        "1": "A对关键权利不稳定的作用环节解释略更可靠，B仍可在局部更好。",
+        "2": "A对规则、执行和居民处境的推导明显更扎实，B局部优点不足以抵补差距。",
+        "-1": "B对关键权利不稳定的作用环节解释略更可靠，A仍可在局部更好。",
+        "-2": "B对规则、执行和居民处境的推导明显更扎实，A局部优点不足以抵补差距。"
+      },
+      "boundary": "不强制每种HI都剥夺权利；比较实际因果依据，不以写了法条或PT14高档当胜负。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:123:analysis:9"
+        ],
+        "query_quotes": [],
+        "change_note": "从财政/权利混评中分出独立后果推理。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:123:info_recall:1",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "定义保留并补题面实例。",
+      "discrimination_check": "原项：明确定义“非正规市场动态”趋势，并指出其包含多种形式。 PT.D1.02能区分市场概念与纯标签，未规定具体市场形式。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:2",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02恢复合同、分租共享或中介等市场运作形式；不强制原城市/品牌。",
+      "discrimination_check": "可以区分只有住房外形与解释交易组织的报告；原具名实例逐一命中不保留，不宣称所有例子皆必答。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：在“非正规市场动态”趋势中，明确提及“移民住房”作为其实例。 未保留「移民住房」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:4",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02恢复合同、分租共享或中介等市场运作形式；不强制原城市/品牌。",
+      "discrimination_check": "可以区分只有住房外形与解释交易组织的报告；原具名实例逐一命中不保留，不宣称所有例子皆必答。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:5",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02恢复合同、分租共享或中介等市场运作形式；不强制原城市/品牌。",
+      "discrimination_check": "可以区分只有住房外形与解释交易组织的报告；原具名实例逐一命中不保留，不宣称所有例子皆必答。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:6",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.02恢复合同、分租共享或中介等市场运作形式；不强制原城市/品牌。",
+      "discrimination_check": "可以区分只有住房外形与解释交易组织的报告；原具名实例逐一命中不保留，不宣称所有例子皆必答。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:7",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.19直接承接非正规融资关系及后果，社区储蓄不是唯一方式。",
+      "discrimination_check": "只讲租金或税收、完全无融资为1；资金关系有而后果无为3，指定金融形式不强制。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:8",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留定义对象并限定非合规条件。",
+      "discrimination_check": "原项：明确定义“附属住宅单元”（Accessory Dwelling Units, ADUs）趋势，指出其为后院加建或车库改造等形式。 PT.D1.03识别定义和实例的对应；后院或车库不是必选，丢失该精确表述命中区分。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:9",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：明确指出ADUs在澳大利亚和南非等地是长期趋势，旨在应对住房压力并规避正规住房法规。 未保留「澳大利亚和南非ADU长期趋势」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:10",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留定义对象并限定非合规条件。",
+      "discrimination_check": "原项：明确定义“未经授权的改造”（Unauthorized Modifications）趋势，指出其为未经批准的结构性变更，如加盖楼层或内部分割。 PT.D1.04识别定义和实例的对应；加层或分割不是必选，丢失该精确表述命中区分。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:11",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：明确指出未经授权的改造在土耳其和摩洛哥等地普遍存在。 未保留「土耳其和摩洛哥改造」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:12",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留定义对象并限定非合规条件。",
+      "discrimination_check": "原项：明确定义“非常规住房”（Unusual Housing）趋势，指出其为将非典型结构（如集装箱、船屋）用作住宅。 PT.D1.05识别定义和实例的对应；集装箱或船屋不是必选，丢失该精确表述命中区分。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:13",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：明确指出非常规住房在新西兰和牛津等地作为一种创新解决方案出现。 未保留「新西兰和牛津非常规住房」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:14",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留定义对象并限定非合规条件。",
+      "discrimination_check": "原项：明确定义“侵占行为”（Squatting）趋势，指出其为非法占用土地或建筑物的行为。 PT.D1.06识别定义和实例的对应；不保留跨法域一律非法定性，丢失该精确表述命中区分。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：明确指出侵占行为在米兰、北京和前东德地区均是社会排斥和住房危机的体现。 未保留「米兰、北京和前东德侵占」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:16",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "题面指定五类驱动均单独有对应条目。",
+      "discrimination_check": "原项：在驱动因素部分，明确识别“经济驱动因素”为核心原因之一。 PT.D1.07至11分别识别该驱动缺失，不用其他原因弥补。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:17",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留相关因果线索，允许有据同类解释。",
+      "discrimination_check": "原项：在经济驱动因素中，明确提及“住房负担能力问题”或“收入不平等”。 对应驱动条目识别具体条件与趋势关系，原项指定子例或普遍断言不必全部出现，精确命中不保留。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:18",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "题面指定五类驱动均单独有对应条目。",
+      "discrimination_check": "原项：在驱动因素部分，明确识别“社会文化驱动因素”。 PT.D1.07至11分别识别该驱动缺失，不用其他原因弥补。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:19",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：在社会文化驱动因素中，明确提及“多代同堂”的家庭结构需求（尤其是在土耳其和摩洛哥）。 未保留「特定国家多代同堂」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:20",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：在社会文化驱动因素中，明确提及将侵占行为视为一种“城市范围的抵抗”（city-wide resistance）。 未保留「城市范围的抵抗」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:21",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "题面指定五类驱动均单独有对应条目。",
+      "discrimination_check": "原项：在驱动因素部分，明确识别“法规与制度因素”。 PT.D1.07至11分别识别该驱动缺失，不用其他原因弥补。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:22",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留相关因果线索，允许有据同类解释。",
+      "discrimination_check": "原项：在法规与制度因素中，明确提及“监管框架滞后”或“规划控制过严”。 对应驱动条目识别具体条件与趋势关系，原项指定子例或普遍断言不必全部出现，精确命中不保留。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:23",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "题面指定五类驱动均单独有对应条目。",
+      "discrimination_check": "原项：在驱动因素部分，明确识别“人口与迁移动态”为催化剂。 PT.D1.07至11分别识别该驱动缺失，不用其他原因弥补。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:24",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留相关因果线索，允许有据同类解释。",
+      "discrimination_check": "原项：在人口与迁移动态中，明确提及移民因法律、财务或社会限制而无法进入正规市场。 对应驱动条目识别具体条件与趋势关系，原项指定子例或普遍断言不必全部出现，精确命中不保留。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:25",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "题面指定五类驱动均单独有对应条目。",
+      "discrimination_check": "原项：在驱动因素部分，明确识别“适应性与灵活性需求”。 PT.D1.07至11分别识别该驱动缺失，不用其他原因弥补。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:26",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留相关因果线索，允许有据同类解释。",
+      "discrimination_check": "原项：在适应性与灵活性需求中，明确提及居民为增加密度、改变空间配置或利用闲置空间而进行改造。 对应驱动条目识别具体条件与趋势关系，原项指定子例或普遍断言不必全部出现，精确命中不保留。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:27",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留题面明确的经济与社会影响线索。",
+      "discrimination_check": "原项：在经济影响部分，明确指出HI催生了与正规经济并行的“影子经济”或“平行经济”。 PT.D1.12/13对重要一面遗漏规定3分，不会仅凭泛称经济或社会影响判满。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:28",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留题面明确的经济与社会影响线索。",
+      "discrimination_check": "原项：在经济影响部分，明确指出非法租赁和未申报收入导致“税收收入损失”。 PT.D1.12/13对重要一面遗漏规定3分，不会仅凭泛称经济或社会影响判满。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:29",
+      "targets": [
+        "PT.D1.19"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.19直接承接非正规融资关系及后果，社区储蓄不是唯一方式。",
+      "discrimination_check": "只讲租金或税收、完全无融资为1；资金关系有而后果无为3，指定金融形式不强制。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:30",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "不将未经授权活动自动认定法定免税。",
+      "discrimination_check": "原项：在经济影响部分，明确提及未经授权的改造活动（如非法建筑）产生的收入是免税的。 未保留「非法建筑收入免税」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:31",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留题面明确的经济与社会影响线索。",
+      "discrimination_check": "原项：在社会影响部分，明确指出HI可以发展出“紧密的社区网络”和“非正式支持系统”。 PT.D1.12/13对重要一面遗漏规定3分，不会仅凭泛称经济或社会影响判满。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:32",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留题面明确的经济与社会影响线索。",
+      "discrimination_check": "原项：在社会影响部分，明确指出HI社区也可能遭受“社会孤立”或“被排斥于正规经济之外”。 PT.D1.12/13对重要一面遗漏规定3分，不会仅凭泛称经济或社会影响判满。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:33",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：在社会影响部分，明确指出ADUs有助于实现“代际同住”和“混合收入社区”。 未保留「ADU代际同住和混合收入」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:34",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "题面未指定该案例或具体论断。",
+      "discrimination_check": "原项：在社会影响部分，明确指出侵占社区面临“被污名化”和法律挑战的紧张社会关系。 未保留「侵占社区污名化」的单独命中差异；相关广义维度仍评价，但不冒充已保留本项。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:35",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14分别点明租赁保障、占用产权边界和市政执行保护。",
+      "discrimination_check": "上述任一重要面缺失最高3；不强制统一法域结论，不是只用法律影响总标题承接。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:36",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14分别点明租赁保障、占用产权边界和市政执行保护。",
+      "discrimination_check": "上述任一重要面缺失最高3；不强制统一法域结论，不是只用法律影响总标题承接。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:37",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14分别点明租赁保障、占用产权边界和市政执行保护。",
+      "discrimination_check": "上述任一重要面缺失最高3；不强制统一法域结论，不是只用法律影响总标题承接。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:38",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留权利治理或建筑服务风险，避免普遍化。",
+      "discrimination_check": "原项：在健康与安全影响部分，明确指出非正规租赁单元、分割公寓和未经授权的改造通常缺乏“适当的通风、消防安全措施或结构完整性”。 PT.D1.14/15可识别权利、管理、建筑、服务层面的缺口；不逐一强制特定住房类型和每种风险原措辞。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:39",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留权利治理或建筑服务风险，避免普遍化。",
+      "discrimination_check": "原项：在健康与安全影响部分，明确指出侵占社区通常缺乏“清洁水、电力和卫生设施”等基本服务。 PT.D1.14/15可识别权利、管理、建筑、服务层面的缺口；不逐一强制特定住房类型和每种风险原措辞。"
+    },
+    {
+      "resource_id": "drb2:123:info_recall:40",
+      "targets": [
+        "PT.D1.15"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "保留权利治理或建筑服务风险，避免普遍化。",
+      "discrimination_check": "原项：在健康与安全影响部分，明确指出不合规的ADUs可能存在“管道或电气基础设施不足”的问题。 PT.D1.14/15可识别权利、管理、建筑、服务层面的缺口；不逐一强制特定住房类型和每种风险原措辞。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:1",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留合法城市HI与贫民窟区别。",
+      "discrimination_check": "原项：能够明确区分“住房非正规性”（HI）与传统的“非正式住房”（如贫民窟），并解释前者是在现有合法框架内发生的非合规实践。 PT.D1.01明确区分研究对象，补全球范围不改变原核心。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:2",
+      "targets": [
+        "PT.D1.07",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.07直接检查该驱动到住房应对的具体解释；PW.D3.01仅比较推导可靠性。",
+      "discrimination_check": "原因标签或因果环节缺失在对应PT不超过3，不靠其他原因弥补；指定国家及绝对根因不强制。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:3",
+      "targets": [
+        "PT.D1.08",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.08直接检查该驱动到住房应对的具体解释；PW.D3.01仅比较推导可靠性。",
+      "discrimination_check": "原因标签或因果环节缺失在对应PT不超过3，不靠其他原因弥补；指定国家及绝对根因不强制。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:4",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.09直接检查该驱动到住房应对的具体解释；PW.D3.01仅比较推导可靠性。",
+      "discrimination_check": "原因标签或因果环节缺失在对应PT不超过3，不靠其他原因弥补；指定国家及绝对根因不强制。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:5",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.10直接检查该驱动到住房应对的具体解释；PW.D3.01仅比较推导可靠性。",
+      "discrimination_check": "原因标签或因果环节缺失在对应PT不超过3，不靠其他原因弥补；指定国家及绝对根因不强制。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:6",
+      "targets": [
+        "PT.D1.11",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.11直接检查该驱动到住房应对的具体解释；PW.D3.01仅比较推导可靠性。",
+      "discrimination_check": "原因标签或因果环节缺失在对应PT不超过3，不靠其他原因弥补；指定国家及绝对根因不强制。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:7",
+      "targets": [
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留正负功能综合。",
+      "discrimination_check": "原项：在评估影响时，能够辩证地看待HI，既指出其作为解决方案的积极社会功能（如提供可负担住房、增强社区凝聚力），也揭示其消极后果（如经济风险、安全隐患、社会排斥）。 PW.D4.01明确比较应对收益与代价及承担者，不只是PT影响覆盖总评。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:8",
+      "targets": [
+        "PT.D1.12",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.12保留财政与市场秩序内容，PW.D3.02独立比较解释链。",
+      "discrimination_check": "只讲税损而无市场后果在PT为3；不是凭影子经济标签获充分，允许有据限定效果。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:9",
+      "targets": [
+        "PT.D1.14",
+        "PW.D3.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14查权利内容，PW.D3.03查推理。",
+      "discrimination_check": "单纯称法律灰色不等于说明保障脆弱，政治经济长篇不能填补权利链。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:10",
+      "targets": [
+        "PT.D1.14"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "PT.D1.14恢复占用对产权秩序的挑战；不要求一律解释为社会抗议。",
+      "discrimination_check": "只讲租约不讲占用授权边界不能满分；原城市抵抗理论仍非必选，其精确政治定性未完整保留。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:11",
+      "targets": [
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留跨地区综合，不固定共同根因或南北二分。",
+      "discrimination_check": "原项：能够总结出，尽管HI的五种趋势表现各异，但它们共享着相似的根源，如市场失灵、法规缺位和经济不平等，并共同构成了一个复杂的适应性策略连续体。 PW.D4.02识别有条件共同性与差异；不能复制原项连续体或南北方向的命中。"
+    },
+    {
+      "resource_id": "drb2:123:analysis:12",
+      "targets": [
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "保留跨地区综合，不固定共同根因或南北二分。",
+      "discrimination_check": "原项：能够指出“全球北方”的HI（如ADUs、共享住房）更多是应对高成本和过度监管市场，而“全球南方”的HI（如非正式租赁、未经授权改造）更多是应对正规系统供给的缺失或失败。 PW.D4.02识别有条件共同性与差异；不能复制原项连续体或南北方向的命中。"
+    },
+    {
+      "resource_id": "drb2:123:presentation:1",
+      "targets": [
+        "PT.D1.17"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留三部分分别论述。",
+      "discrimination_check": "原项：报告结构清晰，按任务要求分为三个部分：核心趋势分类与解读、驱动因素分析、产生的影响评估。 PT.D1.17直接识别三部分结构。"
+    },
+    {
+      "resource_id": "drb2:123:presentation:2",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "题面只要求三部分，未要求第四表及指定行列。",
+      "discrimination_check": "原项：前三部分为独立的论述段落，第四部分为格式正确的表格。 不再区分是否附加第四表、两列及五趋势行；不能以主题相关声称保留。"
+    },
+    {
+      "resource_id": "drb2:123:presentation:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "题面只要求三部分，未要求第四表及指定行列。",
+      "discrimination_check": "原项：表格应包含至少两列：“驱动因素”和“主要影响”，行标签为五大核心趋势。 不再区分是否附加第四表、两列及五趋势行；不能以主题相关声称保留。"
+    },
+    {
+      "resource_id": "drb2:123:presentation:4",
+      "targets": [
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "取清楚表达，全文推进另由本地D5处理。",
+      "discrimination_check": "原项：语言专业、准确，定义清晰，逻辑连贯，没有含糊不清的表述。 PW.D6.01识别术语和歧义；不把专业文风、事实真伪和逻辑可靠混为一个分。"
+    },
+    {
+      "resource_id": "drb2:123:presentation:5",
+      "targets": [
+        "PT.D1.16"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "reason": "保留2024年5月之前研究数据限制。",
+      "discrimination_check": "原项：所有内容应基于2024年5月之前的公开信息和研究。 PT.D1.16区别局部与核心截止后资料使用。"
+    }
+  ],
+  "author_notes": [
+    "没有本题旧稿；所有最终条目按新范例新增。",
+    "趋势定义与实例、原因与对应实践保持关系判断；各驱动与各影响分别可评，混合表现由3/4档明确处理。",
+    "原项30的免税断言、额外第四表、特定城市案例和政治抗议必选均不保留；非正规不等于一律非法。",
+    "来源映射仅指Rubric设计来源；未作外部法规或健康事实核验。本轮无浏览器、无评分、无候选报告。",
+    "已做作者原子化与逐项官方差异自检，不是独立语义审核通过。",
+    "v3.3：恢复融资与多形式交易范围、市场秩序及产权区别，强化各驱动直接解释，分开财政与权利推理。 本轮仅作者修复与程序检查，不是独立审核通过；未浏览、未评分、未外核。"
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "新增",
+      "reason": "新增：对象与范围共同界定研究；合法城区讲清但全球视角缺失为3。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "rewritten",
+      "reason": "具体结构例子不能替代合同和交易安排；不逐品牌或形式拆分。"
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "新增",
+      "reason": "新增：例子必须说明同一概念，缺实例或缺边界为3，不拆数值与条件。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "新增",
+      "reason": "新增：改动与授权缺口构成同一判断，只有改造而无授权关系为3。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "新增",
+      "reason": "新增：形式与非正规边界不可分；漂亮例子不能弥补未说明不合规处。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "新增",
+      "reason": "新增：占用与授权是单一关系；有例子无许可边界为3。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "rewritten",
+      "reason": "保留各驱动独立内容入口并要求实质作用环节；原因标签丰富但无形成过程不超过3。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "rewritten",
+      "reason": "保留各驱动独立内容入口并要求实质作用环节；原因标签丰富但无形成过程不超过3。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "rewritten",
+      "reason": "保留各驱动独立内容入口并要求实质作用环节；原因标签丰富但无形成过程不超过3。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "rewritten",
+      "reason": "保留各驱动独立内容入口并要求实质作用环节；原因标签丰富但无形成过程不超过3。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "rewritten",
+      "reason": "保留各驱动独立内容入口并要求实质作用环节；原因标签丰富但无形成过程不超过3。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "rewritten",
+      "reason": "补财政与市场秩序的两面；财政具体而竞争秩序全缺为3，融资仍独立。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "新增",
+      "reason": "新增：同一社会影响评估用3分处理单面，无需为正负各开分。"
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "rewritten",
+      "reason": "权利治理仍保持一项并明列租赁/占用/管理缺面，原3档已可处理混合；不新增每种法权分。"
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "新增",
+      "reason": "新增：风险与暴露条件不能拆；只建筑无服务或反之为3。"
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "新增",
+      "reason": "新增：单一时间约束，局部违规与核心违规按档位区分。"
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "新增",
+      "reason": "新增：形式整体按缺失档位评，不把每标题独立计分。"
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "新增",
+      "reason": "新增：单一使用边界，按影响范围划档。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "新增",
+      "reason": "出处与主张的对应是一项关系；有书目却无法对应重要主张为3，不拆出处数量与对应关系。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "新增",
+      "reason": "支持与范围共同定义一次核验；混合支持明确为3，核心反证为1，访问失败不属于五档质量。"
+    },
+    {
+      "id": "PT.D2.03",
+      "decision": "新增",
+      "reason": "同一对象在不同位置的兼容性是关系判断；局部好、局部冲突明确落3或4，无需逐句拆分。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "五类驱动已有独立实质PT；PW统一比较核心推理净优势而非任选，明确相反优势相抵规则。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "rewritten",
+      "reason": "经济后果与权利后果可独立反向，分开，不以解释好一个抵补另一个。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "新增",
+      "reason": "新增：同一应对的权衡不能拆为优点计数和缺点计数。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "新增",
+      "reason": "新增：共同性与差异界定外推范围，是同一比较关系。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "新增",
+      "reason": "新增：样本与概括是一关系，单地材料细并不补跨城代表性缺口。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "新增",
+      "reason": "组织要素共同服务一条阅读路径；局部摘要好但主体跳跃，按总体略好/明显差判断，不分别奖励。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "新增",
+      "reason": "术语与句子都是已写意思的可理解性；允许局部反向优势，由五档整体比较处理。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "新增",
+      "reason": "信息与所称依据构成一次查找任务；正文易找但出处绕行可为略差，不再拆来源有效性。"
+    },
+    {
+      "id": "PT.D1.19",
+      "decision": "added",
+      "reason": "租金税收解释充分而无资金取得过程仍1/2；融资来源好而后果缺失为3。"
+    },
+    {
+      "id": "PW.D3.03",
+      "decision": "added",
+      "reason": "财政解释再强不能掩盖权利推理跳步，权利链内部规则与后果不拆。"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+name: Submit a research system
+description: Submit 40 research reports for CompareDR evaluation and leaderboard review.
+title: "[System submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Submit report outputs, not a proposed score. Read the [submission format](https://github.com/CompareDR/CompareDR/blob/main/submissions/README.md) and download the [template ZIP](https://github.com/CompareDR/CompareDR/raw/refs/heads/main/website/dist/submission-template.zip).
+        Do not attach credentials, confidential information, or private login/session links.
+  - type: input
+    id: system-name
+    attributes:
+      label: System display name
+      placeholder: Name of the complete research system
+    validations:
+      required: true
+  - type: input
+    id: model-harness
+    attributes:
+      label: Model and research harness
+      description: Include exact exposed model identifiers and the harness version or public name. Use undisclosed where genuinely unavailable.
+    validations:
+      required: true
+  - type: textarea
+    id: generation-settings
+    attributes:
+      label: Generation settings and dates
+      description: Reasoning setting, tools, budgets, generation dates, and other material settings. No keys or account identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: report-package
+    attributes:
+      label: Report package
+      description: Attach the ZIP here or provide an accessible download link. Include submission.json and reports named by the 40 frozen query IDs. Do not paste report bodies into the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Local format-validation result
+      description: Paste the output of python validate.py . after filling the template. This is a format check, not a score or factual-quality certification.
+      render: json
+    validations:
+      required: true
+  - type: textarea
+    id: exceptions
+    attributes:
+      label: Failed tasks, citation limitations, or redistribution restrictions
+      description: State none if no exceptions apply. Incomplete collections can be discussed but cannot be listed as complete entries.
+    validations:
+      required: true
+  - type: checkboxes
+    id: declarations
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I used the frozen query IDs and original task requirements, and disclosed any incomplete or failed tasks.
+          required: true
+        - label: I preserved the actual report text and available citations rather than reconstructing missing content.
+          required: true
+        - label: I am authorized to share this material for evaluation and have disclosed redistribution restrictions.
+          required: true
+        - label: I removed credentials, personal account identifiers, private session data, and unrelated files.
+          required: true
+        - label: I understand that submission does not trigger automatic evaluation or guarantee leaderboard inclusion.
+          required: true

@@ -1,0 +1,19 @@
+# Install as .github/workflows/leaderboard-validation.yml in the release repository.
+name: Validate leaderboard data
+on:
+  pull_request:
+    paths: ['website/longcat-blog/**']
+  push:
+    paths: ['website/longcat-blog/**']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm test && npm run validate-feed
+        working-directory: website/longcat-blog

@@ -1,0 +1,47 @@
+{
+  "source": "CompareDR public-v8-nine-systems",
+  "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
+  "presentation_metadata_sha256": "8a663a95089d6acc055a89d483c0540f5ce862134eab8d5e3f7a73979b839967",
+  "figure_sha256": {
+    "framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
+    "framework.pdf": "c335817fccdd488cd47076c948e875a458c14eb187cd21bc84444d696b598bc9"
+  },
+  "original_style_reference": "baseline/assets",
+  "model_calls": 0,
+  "publication": "local only; no deployment performed",
+  "score_columns": [
+    "D1",
+    "D2",
+    "D3",
+    "D4",
+    "D5_D6",
+    "overall"
+  ],
+  "repository_tables": {
+    "README.md": "6bee5f5cd319fcf847b02a5845822687f296f98a995cfa62dd1a64e6df15a15b",
+    "LEADERBOARD.md": "aa3fd784375613e931a162996b43a311007419a77efad338e31b0992b77ad0e4"
+  },
+  "stylesheet_unchanged": true,
+  "files": {
+    "dist/assets/app.js": "2281e9b04346ab53e60faae014948ad639e55c5c29f99297f981edc565a1f0b8",
+    "dist/assets/data.js": "d9ae6b8b94a64c48ca6109c4ffe6fe0c5fef53cee84123c82ecc0e524bbcb7da",
+    "dist/assets/framework.pdf": "c335817fccdd488cd47076c948e875a458c14eb187cd21bc84444d696b598bc9",
+    "dist/assets/framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
+    "dist/assets/leaderboard.css": "62a3f958304b7d53132dabbb2b48b5b9c11dd0ea154d8238d5d5c3bb9ff5e69e",
+    "dist/assets/leaderboard.js": "0d730a2763354de19df88976df83ef4759cc17fcd5cf31cf3816a7ffebabd50a",
+    "dist/assets/project.css": "8d7680aedc3da4c3134981227d3e5d2befcaefbcb62b8611096e9628832d5527",
+    "dist/assets/project.js": "cc7558b8292f654d6a1529fa040f95f78bc77889caf3d16fb7faa0d51308351c",
+    "dist/assets/style.css": "976098e132e15bce09aded1b5cf192f02def751aaa07b679d46c94605a58be81",
+    "dist/assets/table2_domain_distribution.svg": "e0c3cabd128db34e62846a46f1b61b685f0fcaea6c0323a095f4afe813e2df00",
+    "dist/comparedr.bib": "42ffe3bf8788d877dc78b24c6bab62317ef27267038962731365eb9b349dce98",
+    "dist/data.json": "85f656dc0da6c3b82bdc261ed2d0a352baba98f267a4628eb0e5f8de2611c48d",
+    "dist/experiment_results.json": "a91e2996154915b4d8b56296839caf5134b7fc4101d4b182c1311dc3ee483595",
+    "dist/index.html": "ff1db8609149b2907a7ffd0f43f8b1389acf39392dd270da0a1cf1a51ffa846f",
+    "dist/leaderboard.csv": "d3ddfd1bd582a3e9be9530775c44885870a9f95bd0556422b0f35ae82d36df10",
+    "dist/leaderboard.html": "eb45a411f8e6cec0b4cf0c113b22d5d009a422bfc9f79ca4ba1f7823c2173dee",
+    "dist/leaderboard.json": "326e4039f28370aa316f9482f7375bf1d2b39cfe142840b3ae86ec3aa31c6f52",
+    "dist/participation.md": "2f105c79e159c707a2b3f03bdcac28256f2e48dd233371206bcb448c508b0be6",
+    "dist/submission-format.md": "4dd44d8d82183e2b3470e4227c997720dca2f4ac1e92eb965672e6586415f999",
+    "dist/submission-template.zip": "2048610ac4dc9a311560c32647fa6c5891054c6929af153d8ba928265b2c281b"
+  }
+}

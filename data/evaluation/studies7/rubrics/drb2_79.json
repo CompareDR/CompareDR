@@ -1,0 +1,1264 @@
+{
+  "version": "route-value-rubrics-low25-v3.5-main-revision",
+  "task_key": "drb2:79",
+  "language": "zh",
+  "title": "包容性日语教学",
+  "full_query": "我是一名大学的日语项目负责人，最近在考虑如何让我们的课堂对所有学生都更友好、更具包容性。我听说一些传统的日语教材和教学方法可能对LGBTQ+（性少数群体）的学生不太友好，比如总是默认学生是异性恋，或者在教性别化语言（男性语/女性语）时过于死板。我希望你帮我做一份调研报告，梳理一下这个问题。请重点关注截至2020年的情况，并整理成以下三个部分：\n\n1.  **主流日语教材中的问题**：请调研几本在北美广泛使用的初中级日语教材，分析其中是否存在缺少LGBTQ+内容、或者包含一些基于异性恋假设的练习等问题。请务必举出具体来自哪本教材的例子，并说明为什么这些内容会给学生带来困扰。\n\n2.  **日语性别化表达的教学挑战**：分析在日语教学中，关于男性和女性说话方式差异的传统教法存在哪些问题。请同样引用一些教材或教学指导书中的具体说法作为例子，并结合相关研究，说明这种教法为何可能是有问题的。\n\n3.  **更具包容性的教学建议**：基于以上发现，提出一些老师们可以采纳的、具体的教学策略。比如，当教材内容有问题时如何处理？以及，如何以一种更包容的方式教授性别化语言？\n\n请确保报告内容具体、有据可依，并清晰地分为以上三个部分。\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'Toward More Inclusive Japanese Language Education: Incorporating an Awareness of Gender and Sexual Diversity among Students', 'authors': ['Jotaro Arimori'], 'urls': ['https://jll.pitt.edu/ojs/JLL/article/view/129', 'https://www.researchgate.net/publication/345454410_Toward_More_Inclusive_Japanese_Language_Education_Incorporating_an_Awareness_of_Gender_and_Sexual_Diversity_among_Students', 'https://doaj.org/article/c78fd6a300a34214beae90b10da5e355', 'https://doi.org/10.5195/jll.2020.129', 'https://www.jstor.org/stable/e27013670']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "教材调研范围",
+      "question": "报告是否调研多本北美广泛使用的初中级日语教材，并交代书名、程度和相关版本？",
+      "anchors": {
+        "1": "没有可辨教材。",
+        "2": "仅一部教材或只泛称主流教材。",
+        "3": "有多部教材，但北美使用范围、程度或例子所属版本重要信息不明。",
+        "4": "教材范围和例子版本基本明确，少量背景信息缺失。",
+        "5": "多本相关教材可辨，北美使用范围与初中级定位有依据，所用版本足以界定例子；不将新版改动混入旧版。"
+      },
+      "boundary": "不要求固定教材名单或销量排名；只检查范围说明，广泛使用断言真假限证据核验。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "几本在北美广泛使用的初中级日语教材"
+        ],
+        "change_note": "由题面新增教材样本范围审计，不按某本指定教材锁定。"
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "教材代表性缺口",
+      "question": "是否说明所查教材怎样呈现或遗漏LGBTQ+生活，并解释对学习者的意义？",
+      "anchors": {
+        "1": "无代表性讨论。",
+        "2": "只断言教材不包容。",
+        "3": "说明呈现不足，但检查范围、具体教材归属或被忽视的影响不清。",
+        "4": "具体说明所查教材的呈现范围及学生可能被忽视的处境，局部语境略简。",
+        "5": "用具体教材与检查范围说明LGBTQ+人物/关系的呈现或缺口及其对归属感和参与的影响，也承认所查材料中的例外，不把个别缺席当全部教材结论。"
+      },
+      "boundary": "不强制任何教材都负面，也不强制某个正面书名；PW只比解释证据到后果的力度。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:3",
+          "drb2:79:analysis:1"
+        ],
+        "query_quotes": [],
+        "change_note": "代表性缺失与主动身份预设可以分别好坏，拆出呈现问题。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.03.teaching",
+      "dimension": "D1",
+      "title": "规定性教学的具体说法",
+      "question": "报告是否以教材或指导书的具体说法说明传统性别化表达教法？",
+      "anchors": {
+        "1": "未回答规定性教学的具体说法。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只有二元教法概括，没有可辨的教材说法或规范要求。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明具体材料如何规定代词、语气等表达，区分社会规范描述与对学习者的强制正确性要求。"
+      },
+      "boundary": "不强制某本书或全部表达类别；取证定位归D2。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:79:info_recall:16",
+          "drb2:79:info_recall:17",
+          "drb2:79:info_recall:18",
+          "drb2:79:info_recall:19"
+        ],
+        "query_quotes": [
+          "教材或教学指导书中的具体说法",
+          "结合相关研究"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.usage",
+      "dimension": "D1",
+      "title": "真实语言使用研究",
+      "question": "报告是否用研究说明语境、风格及身份如何影响性别化表达的实际使用？",
+      "anchors": {
+        "1": "未回答真实语言使用研究。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "有研究名但缺具体使用发现或适用情境。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "用可辨研究说明代词、语气或等效现象中的使用变化及身份/情境意义，不把一个样本推成所有人均如此。"
+      },
+      "boundary": "不固定Miyazaki/Abe等作者名单，也不声称现实不存在性别规范。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:79:info_recall:20",
+          "drb2:79:info_recall:21",
+          "drb2:79:info_recall:22",
+          "drb2:79:analysis:8"
+        ],
+        "query_quotes": [
+          "教材或教学指导书中的具体说法",
+          "结合相关研究"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.03.authority",
+      "dimension": "D1",
+      "title": "教师规范与身份压力",
+      "question": "报告是否说明将性别规范当强制正确性要求可能造成的身份压力？",
+      "anchors": {
+        "1": "未回答教师规范与身份压力。",
+        "2": "只有名称、结论或泛泛描述，没有可辨认的具体内容。",
+        "3": "只说刻板或不包容，缺教师要求与学生表达选择之间的具体关系。",
+        "4": "本项主要内容已具体回答，仅次要条件或细节欠清。",
+        "5": "说明教师专家权威如何把规范转成限制，并可能迫使自我隐藏，区分解释可能风险与断言所有学生受害。"
+      },
+      "boundary": "PW.D3.02比较这条推理是否更成立；本项只确认具体回应，不重复奖励研究条数。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:79:analysis:9",
+          "drb2:79:analysis:10"
+        ],
+        "query_quotes": [
+          "教材或教学指导书中的具体说法",
+          "结合相关研究"
+        ],
+        "change_note": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+      },
+      "split_from": "PT.D1.03"
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "去除任务中的关系预设",
+      "question": "是否给出保留语言学习目标又去除异性恋默认的具体教材调整？",
+      "anchors": {
+        "1": "无教材调整。",
+        "2": "只有尊重口号。",
+        "3": "有改写动作，但仍默认伴侣性别/婚姻路径或未说明如何保留学习目标。",
+        "4": "具体调整关系称谓或任务设定，学习目标和适用条件明确，局部步骤略简。",
+        "5": "展示怎样用不预设性别的关系表达或等效任务重构去除身份默认，说明教师如何介绍与练习原语言点；让学生无需先否认默认身份才可参与。"
+      },
+      "boundary": "不强制koibito/sukina hito两词全列；策略不能只靠声明大家平等而保留原排他题干。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:23",
+          "drb2:79:info_recall:24",
+          "drb2:79:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "内容改写与隐私自主可以分别好坏，原04拆出任务设定调整。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "规范知识与用语自主",
+      "question": "是否说明如何把性别化表达教成可理解其社会含义、而非按学生身份分配的资源？",
+      "anchors": {
+        "1": "无相关教学方案。",
+        "2": "只有语言自由口号。",
+        "3": "允许选择但未解释社会规范/语用含义，或仍按身份限定可用表达。",
+        "4": "说明社会规范与语法规则的区别及学生选择空间，局部课堂呈现略简。",
+        "5": "具体说明如何讲解常见性别规范及遵循/偏离的语用含义，同时让所有学生有机会理解和取用相关表达，不把生理/社会性别变成语法许可条件。"
+      },
+      "boundary": "不强制抽象规范或gengo-shigen术语及作者；其核心规范知识/资源取用区别不能省略。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:26",
+          "drb2:79:info_recall:27",
+          "drb2:79:analysis:11",
+          "drb2:79:analysis:12",
+          "drb2:79:analysis:13",
+          "drb2:79:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "原则教学与不同水平活动可独立不足，收窄本项为规范—自主使用关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "截至2020年范围",
+      "question": "报告是否将教材、研究和教学情况限定为截至2020年的范围？",
+      "anchors": {
+        "1": "主体采用2020年以后情况。",
+        "2": "多处以新版或后来研究代替当时状况。",
+        "3": "主体范围正确但重要后期材料混入或版本不清。",
+        "4": "基本符合截止，仅少量出版/修订日期不明。",
+        "5": "教材版本、研究发现和历史情况对应截至2020年；后发回顾或新版本只在明确区分时作背景。"
+      },
+      "boundary": "不按当前版本纠正旧版而不说明版本差异；不要求额外研究史断言。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "截至2020年"
+        ],
+        "change_note": "题面时间范围新增，避免教材新版/旧版混同。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "三个指定领域",
+      "question": "报告是否清楚分为教材问题、性别化表达教学挑战和包容教学建议三个部分？",
+      "anchors": {
+        "1": "无法辨认三个领域。",
+        "2": "只一部分清楚，其他混排或缺失。",
+        "3": "三个领域可辨但标题或分界明显不清。",
+        "4": "三个部分均有清楚标识，仅少量内容归属不明。",
+        "5": "三部分标题和内容边界清楚，能分别查到调查发现、教法挑战和建议。"
+      },
+      "boundary": "接受同义标题与不同内部分组，不强制每段小标题。",
+      "provenance": {
+        "kind": "mixed",
+        "official_resource_ids": [
+          "drb2:79:presentation:1"
+        ],
+        "query_quotes": [
+          "清晰地分为以上三个部分"
+        ],
+        "change_note": "保留题面三部分结构，不新增固定层级。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "禁源可观察使用",
+      "question": "报告是否避免以题面禁源作为论证依据？",
+      "anchors": {
+        "1": "核心结论使用指定禁源。",
+        "2": "多个实质次要论点使用禁源。",
+        "3": "一个局部实质论点使用禁源。",
+        "4": "禁源只列书目，未发现正文实质使用。",
+        "5": "完整终稿未见禁源取用，说明排除对象不算引用。"
+      },
+      "boundary": "仅查最终报告，不推断历史浏览；同作者其它研究不自动等于指定禁源。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "do not quote it"
+        ],
+        "change_note": "由题面禁源新增终稿审计，避免把作者整体禁用。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "教材与研究可追溯",
+      "question": "报告中的教材例子、引文和研究结论是否能定位到具体材料及对应位置？",
+      "anchors": {
+        "1": "关键例子和研究无可辨来源。",
+        "2": "只有泛称教材或研究。",
+        "3": "有书目但重要引文、版本或内容对应需猜测。",
+        "4": "重要例子及研究可定位，少量位置或引用范围不明。",
+        "5": "关键教材内容与研究主张对应具体来源，版本和可用章节/页码/例题标识等足以查找；直引与转述分清。"
+      },
+      "boundary": "不强制URL或统一页码格式；能定位不等于内容真实支持，未取得教材时不得把推测写成原文。",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "具体、有据可依"
+        ],
+        "change_note": "本地补版本敏感的来源审计；不指定书目全集。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "核验范围内支持",
+      "question": "在记录的已核验范围内，教材表述和研究归属是否支持报告的判断？",
+      "anchors": {
+        "1": "核心教材引文或研究主张被证据否定。",
+        "2": "多个重要核验点有实质误引或范围错误。",
+        "3": "部分主张受支持，但仍有影响教学判断的实质错配。",
+        "4": "重要核验点基本受支持，仅少量限定或归属问题。",
+        "5": "已核验引文、版本、语境与研究结论强度相符；未核验部分不作正确保证。"
+      },
+      "boundary": "记录选中/完成数。材料无法取得需重试或记执行未完成，不给低分或NA；无可判材料先不评分。官方例句亦需核验，不能视为外部认证。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增有限证据支持审计，区分呈现缺口和推测。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "性别非规范表达的教材呈现",
+      "question": "报告是否结合具体教材内容，判断其中是否存在对性别非规范表达的贬抑，并说明判断依据及可能的课堂影响？",
+      "anchors": {
+        "1": "未检查相关教材内容，或对教材含义作出关键错误判断。",
+        "2": "只说应避免刻板印象、存在污名化或未发现问题，没有具体教材依据。",
+        "3": "给出教材内容或检查范围，但内容语境与判断的联系不清；未发现问题时，未说明这一结论限于哪些材料。",
+        "4": "教材依据、语境及判断范围清楚，但发现问题时对可能课堂影响的解释，或未发现时对该结论能否推广的说明仍不充分。",
+        "5": "结合具体教材内容及语境作出有范围的判断：发现贬抑时说明其可能的课堂影响，不预设学生体验一致；未发现时说明检查的教材、版本或内容范围，不把局部未发现推广为普遍不存在。"
+      },
+      "boundary": "不要求指定教材或固定负面例句，也不要求必须发现污名化。未发现须有可辨的检查材料和范围，一句“没有问题”不构成充分调查。这里检查主动贬抑的内容及其语境，不以缺少LGBTQ+人物代替；未发现贬抑不等于不存在其他包容性问题。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:7",
+          "drb2:79:info_recall:10",
+          "drb2:79:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "允许有具体教材依据及范围的发现或未发现结论；不再强制出现官方负面例子，保留对主动贬抑内容的调查判断。 五档为本地修订。"
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "异性恋预设与披露压力",
+      "question": "是否用教材任务解释婚恋身份预设如何限制学生安全作答？",
+      "anchors": {
+        "1": "无身份预设讨论。",
+        "2": "只说恋爱练习不合适。",
+        "3": "有具名练习，但说谎/披露困境或婚恋讨论中的安全顾虑不清。",
+        "4": "说明任务如何预设关系并造成回答压力，主要语境和学生选择可辨，局部略简。",
+        "5": "具体说明伴侣或婚姻任务如何使学生在隐瞒与披露间受压，以及社会/同伴态度为何可能使婚姻合法环境仍不安全；不假定所有学生都会不适。"
+      },
+      "boundary": "不强制固定婚前问题或恋人用词；必须讨论私人关系预设及社会接纳条件，不能以任选教材取消风险领域。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:12",
+          "drb2:79:info_recall:14",
+          "drb2:79:analysis:4",
+          "drb2:79:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "一个呈现缺口例子不能代表主动披露压力，故拆出任务—选择关系。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "自主回答与隐私保护",
+      "question": "是否给出不迫使学生披露或掩饰真实身份的课堂参与安排？",
+      "anchors": {
+        "1": "无选择或隐私安排。",
+        "2": "只称尊重隐私。",
+        "3": "允许编故事但仍要求暴露选择理由，或不说明拒答/替代任务怎么参与。",
+        "4": "非披露选项和参与安排清楚，少量评价或使用条件略简。",
+        "5": "说明学生可不回答私人问题、采用不涉及个人身份的等效任务或自愿角色，且无需解释私人理由；区分自愿虚构与被迫撒谎，并使替代参与保留学习机会。"
+      },
+      "boundary": "不要求学生出柜、特定跳题制度或把一切角色扮演视为有害。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:25",
+          "drb2:79:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "任务语言改得包容不等于学生有拒绝私人讨论的选择；本项单独判断参与自主。；五档为本地设计。"
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "语言风格观察活动",
+      "question": "报告是否提供适合目标学习水平的观察活动，引导学生理解语境与语言风格的关系，而非只按男女分类？",
+      "anchors": {
+        "1": "没有语言风格观察活动，或活动仍只要求按男女固定分类。",
+        "2": "只说多看多听或注意语言多样性，没有具体观察任务。",
+        "3": "有观察材料和任务，但学生要注意的风格差异或所需语言支持不清。",
+        "4": "观察材料、步骤、关注点及水平适配清楚，但如何引导学生解释观察到的差异仍不充分。",
+        "5": "提供目标水平可完成的观察或反思任务及必要支持，引导学生结合关系、场合等语境因素解释风格差异，说明讨论或反馈的重点，不将风格归结为固定性别规则。"
+      },
+      "boundary": "不限定初级，也不强制电视剧或其他特定材料；水平适配可由任务难度与支持安排体现，无需固定标签。不要求学生披露性别身份。本项检查观察与理解，PT.D1.13检查实际运用；同一活动可兼有两者，但必须分别给出观察任务与表达实践，不能以同一段包容性口号重复得分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:29",
+          "drb2:79:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "取消初级水平配额，保留具体、水平适配的风格观察与理解活动；不强制官方材料类型。 五档为本地修订。"
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "语言风格表达实践",
+      "question": "报告是否提供适合目标学习水平的具体活动，让学生自主选择并尝试不同语言风格，理解其表达效果？",
+      "anchors": {
+        "1": "没有表达实践，或强制按学生真实身份分配语言风格。",
+        "2": "只说自由表达或角色扮演，没有具体实践安排。",
+        "3": "有实践任务，但学生如何选择风格、运用语言或获得所需支持不清。",
+        "4": "实践步骤、风格选择及水平适配清楚，但如何理解表达效果或获得反馈仍不充分。",
+        "5": "给出目标水平可执行的表达任务和必要支持，允许自主选择角色或风格，并说明结合语境理解表达效果的反馈或反思安排，不按学生真实身份规定表达。"
+      },
+      "boundary": "不限定中高级，不强制短剧、视频或身份探索；自愿使用虚构角色不等于被迫隐藏身份。水平适配可由任务难度与支持安排体现。本项检查实际运用，与PT.D1.12的观察理解分工；同一活动可覆盖两者，但需有各自具体任务，不凭重复的原则表述在两项得分。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:info_recall:30",
+          "drb2:79:analysis:13",
+          "drb2:79:presentation:3"
+        ],
+        "query_quotes": [],
+        "change_note": "取消中高级水平配额，保留具体、水平适配且自主选择的表达实践；不强制官方活动类型。 五档为本地修订。"
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "教材如何造成排斥",
+      "question": "哪篇更合理地解释具体教材任务怎样使学生感到被忽视、受身份假设约束或面临披露压力？",
+      "anchors": {
+        "0": "解释帮助相近，或都仅称教材有害；须注明。",
+        "1": "A对任务到学生处境的解释略好，B可有更清楚的局部分析。",
+        "2": "A的关键排斥机制解释明显更成立，B局部例句优势不足以弥补缺环。",
+        "-2": "B的关键排斥机制解释明显更成立，A局部例句优势不足以弥补缺环。",
+        "-1": "B对任务到学生处境的解释略好，A可有更清楚的局部分析。"
+      },
+      "boundary": "指出任务要求、学生选择和可能后果；不把所有LGBTQ+学生体验设成一致，不强制某例句。 比较全文实际核心教材排斥解释，以相同的任务重要性标准列出双方正反推理差异；等重反向优势抵销为0，不任选一个例子判胜。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:analysis:1",
+          "drb2:79:analysis:3",
+          "drb2:79:analysis:4",
+          "drb2:79:analysis:5",
+          "drb2:79:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "保留例子到困扰的推理，区分自愿虚构角色和被迫掩饰身份，不要求固定负面结论。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "规范与实际用法的解释",
+      "question": "哪篇更合理地说明规定性性别教法与真实语用、身份表达之间的关系？",
+      "anchors": {
+        "0": "解释相近，或均只反对刻板而无研究推理；注明情况。",
+        "1": "A对规范与实际用法的解释略好，B可在某研究上更有说服力。",
+        "2": "A明显更能用相关研究解释教法的限制和条件，B局部观察不足以弥补。",
+        "-2": "B明显更能用相关研究解释教法的限制和条件，A局部观察不足以弥补。",
+        "-1": "B对规范与实际用法的解释略好，A可在某研究上更有说服力。"
+      },
+      "boundary": "不要求否定所有社会性别规范；区分描述常见用法与强制学生遵守身份规范。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:analysis:8",
+          "drb2:79:analysis:11",
+          "drb2:79:analysis:12"
+        ],
+        "query_quotes": [],
+        "change_note": "比较实际语用解释，不强制语言资源/抽象规范术语。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "教材策略的课堂帮助",
+      "question": "哪篇更帮助教师处理有问题的教材任务，同时保留学习目标并保护学生选择？",
+      "anchors": {
+        "0": "课堂处理帮助相近，或双方只有口号；注明情况。",
+        "1": "A的教材处理建议整体略实用，B可有更好的局部活动。",
+        "2": "A的策略明显更有助于教师兼顾学习目标与学生自主，B局部技巧不足以弥补。",
+        "-2": "B的策略明显更有助于教师兼顾学习目标与学生自主，A局部技巧不足以弥补。",
+        "-1": "B的教材处理建议整体略实用，A可有更好的局部活动。"
+      },
+      "boundary": "不要求换教材或某中性词。必须说明实际教学决定的帮助；自愿虚构可以有价值，强迫学生编造身份不能视为自主。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "将强迫虚构的批评转为课堂选择价值比较，保留D3与D4不同判断对象。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "用语选择的教学价值",
+      "question": "哪篇更帮助教师设计适合学生水平的性别化语言教学，让学生理解语境与表达选择？",
+      "anchors": {
+        "0": "教学选择帮助相近，或都没有可用建议；注明情况。",
+        "1": "A对教学活动与选择能力的指导略好，B可对某水平更有帮助。",
+        "2": "A明显更能把语境理解转化为可用教学判断，B局部活动优势不足以弥补。",
+        "-2": "B明显更能把语境理解转化为可用教学判断，A局部活动优势不足以弥补。",
+        "-1": "B对教学活动与选择能力的指导略好，A可对某水平更有帮助。"
+      },
+      "boundary": "比较所提活动对学习的帮助，不要求看剧、短剧、视频或特定理论。表达自由不是不说明社会语用后果。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:analysis:13",
+          "drb2:79:analysis:14"
+        ],
+        "query_quotes": [],
+        "change_note": "保留赋能与活动教学目的的价值，不锁定语言资源路线。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "证据的教学适配",
+      "question": "哪篇的教材和研究证据更适合支持其针对北美大学日语课堂的概括？",
+      "anchors": {
+        "0": "证据适配相近，或均无可用支持；注明区别。",
+        "1": "A的证据适配整体略好，B可在某教材版本上更充分。",
+        "2": "A的重要课堂判断有明显更适用的教材和研究支持，B局部证据优势不足以弥补。",
+        "-2": "B的重要课堂判断有明显更适用的教材和研究支持，A局部证据优势不足以弥补。",
+        "-1": "B的证据适配整体略好，A可在某教材版本上更充分。"
+      },
+      "boundary": "看版本、学习阶段、研究情境及外推边界，不按引文数或研究者名气；单次错引不重复罚分。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增跨语境研究适配比较。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "报告组织",
+      "question": "哪篇原报告更便于从教材发现读到教法挑战和相应建议？",
+      "anchors": {
+        "0": "全文组织帮助相近，或都无连贯阅读路径；注明情况。",
+        "1": "A的全文推进略好，B可有更好摘要。",
+        "2": "A组织明显更连贯，B局部标题优势不足以弥补重复跳跃。",
+        "-2": "B组织明显更连贯，A局部标题优势不足以弥补重复跳跃。",
+        "-1": "B的全文推进略好，A可有更好摘要。"
+      },
+      "boundary": "原文承接、重复合评一次；不重复三章结构达标，不强制结尾建议表。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留整体逻辑组织，与表达分工而非混评。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "中文说明与日语例句",
+      "question": "哪篇对已写日语例句、术语和课堂建议的表述更清楚？",
+      "anchors": {
+        "0": "表述相近，或都难以理解；注明情况。",
+        "1": "A的说明略易懂，B可有更清楚的局部释义。",
+        "2": "A的例句标注与中文说明明显更易理解，B局部文笔不足以弥补歧义。",
+        "-2": "B的例句标注与中文说明明显更易理解，A局部文笔不足以弥补歧义。",
+        "-1": "B的说明略易懂，A可有更清楚的局部释义。"
+      },
+      "boundary": "只判已写意思及直引/转述标注可懂性；翻译真实性和出处可靠性另审。",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:79:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "保留表达清楚对象，与全文组织分开，双向来源仅对应这两个实际子对象。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "教材例子定位",
+      "question": "哪篇更方便查到某教材问题、对应建议和所称材料依据？",
+      "anchors": {
+        "0": "查找帮助相近，或都无法定位所需内容；注明情况。",
+        "1": "A的定位步骤略少，B可有更好局部索引。",
+        "2": "A完成例子到建议及依据的查找明显更方便，B局部入口不足以弥补。",
+        "-2": "B完成例子到建议及依据的查找明显更方便，A局部入口不足以弥补。",
+        "-1": "B的定位步骤略少，A可有更好局部索引。"
+      },
+      "boundary": "按原报告实际步骤判断，不因无URL直接扣分；来源是否支持另评。",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "本地新增任务信息定位。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:79:info_recall:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.02中有范围的代表性与学习归属缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:7",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "允许有具体教材依据及范围的发现或未发现结论；不再强制出现官方负面例子，保留对主动贬抑内容的调查判断。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:10",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "允许有具体教材依据及范围的发现或未发现结论；不再强制出现官方负面例子，保留对主动贬抑内容的调查判断。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:12",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.10中恋爱身份默认缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:14",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.10中婚姻路径默认缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:16",
+      "targets": [
+        "PT.D1.03.teaching"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.teaching。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:17",
+      "targets": [
+        "PT.D1.03.teaching"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.teaching。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:18",
+      "targets": [
+        "PT.D1.03.teaching"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.teaching。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:19",
+      "targets": [
+        "PT.D1.03.teaching"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.teaching。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:20",
+      "targets": [
+        "PT.D1.03.usage"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.usage。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:21",
+      "targets": [
+        "PT.D1.03.usage"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.usage。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:22",
+      "targets": [
+        "PT.D1.03.usage"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.usage。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "保留教材/研究或教学关系的实际检查，取消指定书名、研究者、例句及无条件结论。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:23",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.04中关系称谓去默认缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:25",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.11中拒绝私人回答的真实选择缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:26",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.05中社会规范而非语法许可缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:29",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "取消初级水平配额，保留具体、水平适配的风格观察与理解活动；不强制官方材料类型。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:30",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "取消中高级水平配额，保留具体、水平适配且自主选择的表达实践；不强制官方活动类型。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:1",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "不要求研究刚起步的历史总评或三位作者名单；仅有无这段背景可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:2",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "英语教育比较及至少两位学者不是题面义务；只加这段比较可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:4",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Marugoto相方是可选正面例子；其它合格教材内容可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:5",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "aikata词源与同性伴侣用法不是必答词条；仅是否解释该词可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:6",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Marugoto教师手册的有意模糊说明是可选例证；仅有无该引用可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:8",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Genki朋友是男性这一台词不强制；其它具体材料可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:9",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Genki像女性这一台词不强制；不按逐句命中评分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:11",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Nakama男女比拟例句不设必答，替换为其它合格例证可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:13",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Genki男/女朋友与好朋友的具体题句不强制；精确召回未保留。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:15",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Nakama婚前想做什么的具体问题不强制；其它身份假设练习可同分。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:24",
+      "targets": [
+        "PT.D1.04"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.04中中性词或等效任务重构缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:27",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.05中所有人可取用表达资源缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:info_recall:28",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "未保留可选背景、精确例句、词条或理论来源的逐点命中要求。",
+      "discrimination_check": "Nakamura(2007)不是共同必引来源；仅有无作者年份可同分。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:1",
+      "targets": [
+        "PT.D1.02",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.02中缺席怎样影响归属和参与缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:2",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "不强制特定研究者及固定结论。",
+      "discrimination_check": "Gray、Snelbecker/Meyer为可选理论支撑；仅引用这些作者与否可同分。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:3",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "允许有具体教材依据及范围的发现或未发现结论；不再强制出现官方负面例子，保留对主动贬抑内容的调查判断。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:4",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.10中隐瞒/披露困境缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:5",
+      "targets": [
+        "PT.D1.10",
+        "PW.D3.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.10中合法不等于安全接纳缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:6",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "不强制特定研究者及固定结论。",
+      "discrimination_check": "Moore(2016)与放弃语言学习的特定结论不强制，只有无该引文可同分。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:7",
+      "targets": [
+        "PT.D1.11",
+        "PW.D3.01",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.11中自愿虚构与被迫隐瞒缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:8",
+      "targets": [
+        "PT.D1.03.usage",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.usage, PW.D3.02。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "恢复实质内容而不强制官方书名、原句、作者或术语。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:9",
+      "targets": [
+        "PT.D1.03.authority"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.authority。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "恢复实质内容而不强制官方书名、原句、作者或术语。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:10",
+      "targets": [
+        "PT.D1.03.authority"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "reason": "本轮将原合并对象拆开并按实质对象收窄来源映射；参见目标项边界。旧处置理由仅留在prior_disposition_reason作为历史，不是当前结论。",
+      "discrimination_check": "v3.5分别按这些条目的独立锚点评价：PT.D1.03.authority。旧合并分数描述作废；具体例子仍按原改编边界处理，不代表官方细节全部保留。",
+      "prior_disposition_reason": "恢复实质内容而不强制官方书名、原句、作者或术语。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:11",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.05中遵循/偏离规范的语用意义缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:12",
+      "targets": [
+        "PT.D1.05",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "恢复实质内容而不强制官方书名、原句、作者或术语。",
+      "discrimination_check": "PT.D1.05中身份不决定表达许可缺失或只有口号时为1–3，具体且合理才可4/5；其它问题解释再好也不补偿。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:13",
+      "targets": [
+        "PT.D1.05",
+        "PT.D1.13",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "取消中高级水平配额，保留具体、水平适配且自主选择的表达实践；不强制官方活动类型。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:analysis:14",
+      "targets": [
+        "PT.D1.12",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "取消初级水平配额，保留具体、水平适配的风格观察与理解活动；不强制官方材料类型。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:presentation:1",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "retained",
+      "importance": "format",
+      "original_requirement_preserved": true,
+      "reason": "保留题面三个部分，标题可同义。",
+      "discrimination_check": "PT.D1.07只有一部分清楚2分，三部分分界清楚5分。"
+    },
+    {
+      "resource_id": "drb2:79:presentation:2",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "题面要求三部分，不要求每部分内部另有小标题。",
+      "discrimination_check": "三部分同样清楚时，内部段落或小标题形式不同可以同分；不假称保留所有层级。"
+    },
+    {
+      "resource_id": "drb2:79:presentation:3",
+      "targets": [
+        "PT.D1.04",
+        "PT.D1.05",
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "reason": "取消中高级水平配额，保留具体、水平适配且自主选择的表达实践；不强制官方活动类型。",
+      "discrimination_check": "按当前条目检查具体依据或教学任务，不再因缺少指定负面案例、固定学习水平或活动形式扣分。官方这些特定要求的遗漏检测不保证保留；其他映射条目的职责不变。"
+    },
+    {
+      "resource_id": "drb2:79:presentation:4",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "reason": "分别评价原文组织和已有意思的表达，不新增正式格式审美项。",
+      "discrimination_check": "PW.D5.01识别承接/重复变化，PW.D6.01识别例句标注及中文理解变化；同一问题只按对象计一次。"
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "新增样本关系；多本书名齐全但程度/版本不明为3分，不拆书名与版本。"
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "split",
+      "reason": "代表性缺失与主动身份预设可以分别好坏，拆出呈现问题。"
+    },
+    {
+      "id": "PT.D1.03.teaching",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.usage",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.03.authority",
+      "decision": "split",
+      "reason": "主Agent v3.5：从PT.D1.03拆出本对象，其他子项不能补偿；保留原引用为来源，不宣称全文原样保留。"
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "split",
+      "reason": "内容改写与隐私自主可以分别好坏，原04拆出任务设定调整。"
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "split",
+      "reason": "原则教学与不同水平活动可独立不足，收窄本项为规范—自主使用关系。"
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "add",
+      "reason": "新增时间边界；主线早期而局部新版混入3/4分。"
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "新增结构对象；领域存在但分界混乱3分，不重复评价内容深度。"
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "新增单一使用边界；同作者非禁文章不算违规，书目单列4分。"
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "新增追溯关系；有书名无引文位置关系3分，页码与出处不拆。"
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "新增支持关系；取不到教材不是教材说法错误的证据。"
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "revise",
+      "reason": "允许有具体教材依据及范围的发现或未发现结论；不再强制出现官方负面例子，保留对主动贬抑内容的调查判断。"
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "split",
+      "reason": "一个呈现缺口例子不能代表主动披露压力，故拆出任务—选择关系。"
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "split",
+      "reason": "任务语言改得包容不等于学生有拒绝私人讨论的选择；本项单独判断参与自主。"
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "revise",
+      "reason": "取消初级水平配额，保留具体、水平适配的风格观察与理解活动；不强制官方材料类型。观察与表达仍为两个独立学习功能，不以同一泛泛原则重复得分。"
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "revise",
+      "reason": "取消中高级水平配额，保留具体、水平适配且自主选择的表达实践；不强制官方活动类型。观察与表达仍为两个独立学习功能，不以同一泛泛原则重复得分。"
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "add",
+      "reason": "新增因果关系；例子真而后果臆测不等于有效解释。 比较全文实际核心教材排斥解释，以相同的任务重要性标准列出双方正反推理差异；等重反向优势抵销为0，不任选一个例子判胜。"
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "add",
+      "reason": "新增解释关系；有规范描述而无实际语用联系按缺环比较。"
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "add",
+      "reason": "新增策略价值；活动能练语法但强迫披露/掩饰时不能靠趣味性抵销。"
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "add",
+      "reason": "新增教学关系；活动好玩而无语境学习目的不构成明显优势。"
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "新增证据集合；成人酒吧语用不能未经说明直接代表初级课堂。"
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "新增阅读路径；摘要强正文重复按完整路径比较。"
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "新增局部理解；罗马字多不等于清楚，译文指代与例句为同一理解单元。"
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "新增查找关系；建议好找而教材依据难找看完整步骤。"
+    }
+  ],
+  "author_notes": [
+    "v3.1历史记录：本题无旧稿，新增10 PT/8 PW。教材样本、例证到困扰、教法到研究、具体建议为不同对象，不按固定案例清单拆分。",
+    "v3.1历史记录：所有PT用3分明确部分强部分弱；两种具体建议分别检查教材处理和性别语言教学，PW比较实际解释和课堂选择价值。",
+    "v3.1历史记录：有意不保留官方逐句Genki/Nakama/Marugoto/Tobira召回、aikata词源、中性词指定词条、gengo-shigen及特定学者全集。具体例证仍是共同要求，不能用泛泛包容口号替代。",
+    "v3.1历史记录：不得把同作者全部作品当禁源；有根据的教材版本修正、不同学生体验和自愿虚构角色均须容纳。官方引文和研究年代未进行外部事实核验。",
+    "v3.1历史记录：作者自检和程序检查不是独立审核；未读取候选报告或评分。",
+    "v3.3：将旧教材问题总项拆为代表性、性别非规范污名、异性恋预设/披露压力三个关系；教材改写与隐私自主分开；补回规范作为社会知识而非身份许可的实质区别及初级观察/中高级实践。保留教材—研究论证，补教师权威和自我隐藏影响。Marugoto相方词源、指定原句、作者名单等仍不是必答；正面例外不能被预设负面总评抹去。所有活动尊重自愿选择，不以包容之名要求公开或探索真实身份。",
+    "当前计数：15 PT / 8 PW。保留既有定向修复；作者自检不构成独立审核通过。",
+    "review14_27_minimal_v1 第25题：仅修订PT.D1.09/12/13及对应说明。取消负面发现预设和初级/中高级活动配额，但仍保留观察与表达两类活动的覆盖偏好；未合并条目。此前相冲突的说明仅作历史记录，以当前条目为准。未重新评测。"
+  ]
+}

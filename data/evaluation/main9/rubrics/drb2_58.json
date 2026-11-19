@@ -1,0 +1,1964 @@
+{
+  "version": "route-value-rubrics40-v3.3-draft",
+  "task_key": "drb2:58",
+  "language": "en",
+  "title": "疫情高校在线学习效果",
+  "full_query": "Please conduct a systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period (January 2020 to August 2023). Your review should answer two main questions: 1) To what extent is online learning effective? 2) What factors influenced its effectiveness?\n\nTo this end, you will first need to identify and summarize a range of relevant empirical studies published during this period. Then, based on these studies, your output must contain three sections:\n\n1.  **Summary Table of Reviewed Studies:** Create a table summarizing the key empirical studies. This table must include the following columns in this specific order: Authors, Country, Sample Size, Research Design, Outcome Variable, and Finding on Effectiveness (i.e., whether the study found it effective, ineffective, or neutral). You must cover at least 15 different studies from the 2020-2023 period.\n\n2.  **Effectiveness Analysis:** Synthesize the findings of the studies to draw an overall conclusion about the effectiveness of online learning. Your analysis should categorize the studies based on their research methodologies (e.g., cross-sectional perceptual surveys, cross-sectional comparative studies, longitudinal studies, randomized controlled trials), and discuss how the chosen methodology influenced the reported results. For instance, explain why studies asking students to compare online learning with past in-person experiences often reported different results compared to randomized controlled trials.\n\n3.  **Analysis of Influencing Factors:** Identify and elaborate on key factors that positively or negatively influenced the effectiveness of online learning during the pandemic. For each factor, you must explain the mechanism through which it impacted learning effectiveness. The factors you discuss must include: infrastructure, instructional design, lack of social interaction, negative emotions, and convenience/flexibility. For infrastructure and social interaction, you must cite specific studies as examples.\n\nYour final output should be clearly structured, with distinct headings for each of the three sections.\n\n**important**The following is a rule of highest priority that you must not violate. Please put this rule in your task plan and keep it in your memory: **During the research process, you are not allowed to view the following article and urls: {'title': 'A systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period', 'authors': ['Wentao Meng', 'Lei Yu', 'Chen Liu', 'Nengchao Pan', 'Xiawen Pang', 'Yunyun Zhu'], 'urls': ['https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1334153/full', 'https://www.researchgate.net/publication/377480385_A_systematic_review_of_the_effectiveness_of_online_learning_in_higher_education_during_the_COVID-19_pandemic_period', 'https://doaj.org/article/f28e842f20da479686b8f2dd97debc20']}. Even if you accidentally read it, please ignore the content of the article and do not quote it.**",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "At least 15 empirical studies",
+      "question": "Does the summary table cover at least 15 distinct empirical studies relevant to pandemic higher-education online learning?",
+      "anchors": {
+        "1": "No identifiable empirical study set.",
+        "2": "Only isolated studies or mostly nonempirical entries.",
+        "3": "Several eligible studies are identifiable, but fewer than 15 distinct studies are covered.",
+        "4": "At least 15 apparently eligible studies are identifiable, with a minor duplicate/identity ambiguity needing clarification.",
+        "5": "At least 15 distinct eligible studies have separate identifiable entries; multiple outcomes or papers from the same study do not inflate the count."
+      },
+      "boundary": "Fifteen is the query's threshold, not a rubric quota. Do not mandate the official 25-study roster. Confirmed duplicates or ineligible entries do not count; if fewer than 15 remain, score 3 or below.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:presentation:2"
+        ],
+        "query_quotes": [
+          "at least 15 different studies"
+        ],
+        "change_note": "Retain the explicit minimum and distinguish studies from table rows/papers."
+      }
+    },
+    {
+      "id": "PT.D1.02",
+      "dimension": "D1",
+      "title": "Specified table and interpretable fields",
+      "question": "Does the table present Authors, Country, Sample Size, Research Design, Outcome Variable and Finding on Effectiveness in that order, with interpretable entries?",
+      "anchors": {
+        "1": "No summary table.",
+        "2": "A table exists but most required fields or their meanings are absent.",
+        "3": "At least one required column is entirely missing, or required fields have material ordering or interpretability problems, even if some rows are detailed.",
+        "4": "All six fields are present and generally informative, with one minor ordering or entry-detail problem.",
+        "5": "All six columns appear in the specified order; entries identify study authors, setting, relevant sample, design, measured outcome and effective/ineffective/neutral findings with needed qualifications."
+      },
+      "boundary": "Allow a qualified mixed finding when outcomes differ; do not force false neutrality. A sample size must specify its analyzed population where needed. Missing data may be explicitly reported, not invented. Evidence accuracy is PT.D2.02.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:presentation:3"
+        ],
+        "query_quotes": [
+          "Authors, Country, Sample Size, Research Design, Outcome Variable, and Finding on Effectiveness"
+        ],
+        "change_note": "Retain column order and interpretability, not official per-study numbers."
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "January 2020–August 2023 scope",
+      "question": "Does the review keep its empirical evidence within the requested publication period and pandemic higher-education setting?",
+      "anchors": {
+        "1": "Mainly answers a different population or time period.",
+        "2": "Multiple central studies are clearly outside the requested setting or publication interval.",
+        "3": "The main scope fits but important dates, pandemic settings or education levels remain ambiguous.",
+        "4": "Scope is clear with only minor date or setting qualification missing.",
+        "5": "Core included studies address pandemic higher education and were published January 2020–August 2023; earlier background and later commentary are separated from eligible evidence."
+      },
+      "boundary": "The date is a publication criterion as asked, not only a data-collection date. For ambiguous 2023 dates, state what is known; do not silently assume August eligibility.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "January 2020 to August 2023"
+        ],
+        "change_note": "Query-derived time/population boundary absent from a dedicated official item."
+      }
+    },
+    {
+      "id": "PT.D1.04",
+      "dimension": "D1",
+      "title": "Review selection account",
+      "question": "Does the report explain how it identified and selected the empirical evidence used in this systematic review?",
+      "anchors": {
+        "1": "No indication of how studies were found or selected.",
+        "2": "Only labels itself systematic or says a search was conducted.",
+        "3": "Identifies sources or selection conditions, but the path from search to included studies is materially unclear.",
+        "4": "Search scope and selection logic are understandable with a minor reproducibility gap.",
+        "5": "States search sources, time coverage and selection conditions sufficiently to understand why studies entered the review, including relevant limits or exclusions."
+      },
+      "boundary": "No mandatory PRISMA diagram, registered protocol, database brand or meta-analysis. Do not reward invented screening totals; honest limitations can satisfy the specification.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "systematic review"
+        ],
+        "change_note": "Local operational meaning of systematic selection, without importing a named review workflow."
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Methodological grouping",
+      "question": "Does the synthesis distinguish the main study designs and assign the reviewed studies to meaningful categories?",
+      "anchors": {
+        "1": "No design grouping.",
+        "2": "Only design names without classified evidence.",
+        "3": "Some studies are grouped, but perceptual surveys, retrospective comparisons, longitudinal evidence or randomized comparisons are conflated or left unexplained.",
+        "4": "The main design distinctions and study assignments are clear, with minor classification detail missing.",
+        "5": "Distinguishes noncomparative perceptions, retrospective/in-person comparisons, longitudinal change and randomized comparisons, showing which evidence is available in the selected corpus and explicitly explaining any genuine evidence gap."
+      },
+      "boundary": "No equal counts or required named papers; a different roster does not excuse omitting the design distinctions needed to answer the question.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:3"
+        ],
+        "query_quotes": [],
+        "change_note": "Split grouping from four independently variable design-specific interpretations; clear labels cannot compensate for missing bias explanations. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Overall effectiveness answer",
+      "question": "Does the review give a synthesis-based answer to how effective online learning was, with the outcome and context of that conclusion clear?",
+      "anchors": {
+        "1": "No overall effectiveness answer.",
+        "2": "Only says effective or ineffective without synthesis.",
+        "3": "Some synthesis exists but the measured outcome, evidence scope or uncertainty of the overall claim is unclear.",
+        "4": "The answer reflects the reviewed evidence and its main limits, with a minor context qualification missing.",
+        "5": "States what can be concluded for the reviewed outcomes and contexts, distinguishes important variation or uncertainty and ties the conclusion to the studies."
+      },
+      "boundary": "Mixed, positive, negative or inconclusive answers are eligible when justified. Do not require an effect-size meta-analysis or official percentages. PT checks the answer exists and is scoped; PW compares inferential quality.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:1",
+          "drb2:58:analysis:8"
+        ],
+        "query_quotes": [
+          "To what extent is online learning effective?"
+        ],
+        "change_note": "Open the official mixed/RCT-positive conclusion to findings warranted by the selected corpus."
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Infrastructure mechanism and example",
+      "question": "Does the review explain how infrastructure affects participation or learning and cite a specific empirical study illustrating it?",
+      "anchors": {
+        "1": "No infrastructure discussion.",
+        "2": "Only names connectivity or devices.",
+        "3": "A concrete mechanism or study is given but the other is missing or unconnected. A device or network label without a participation link, or a study without that mechanism, remains 3.",
+        "4": "Participation/learning pathway and a relevant example are clear, with minor context missing.",
+        "5": "Explains how connection reliability/speed and device access enable or disrupt attendance, materials and participation, tied to a named empirical study and its actual setting/outcome."
+      },
+      "boundary": "No compulsory Pakistan/India case, broadband threshold or claim that every developing country is worse.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:9",
+          "drb2:58:analysis:10",
+          "drb2:58:analysis:11"
+        ],
+        "query_quotes": [
+          "For infrastructure and social interaction, you must cite specific studies as examples."
+        ],
+        "change_note": "Retain factor, participation pathway and example while permitting different studies. v3.3 restores the specific substantive pathway, not a required theory or named example."
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Instructional design mechanism",
+      "question": "Does the review explain how instructional design influences the measured effectiveness of pandemic online learning?",
+      "anchors": {
+        "1": "No instructional-design discussion.",
+        "2": "Only lists teaching quality as important.",
+        "3": "Names a specific design feature but leaves its learning mechanism or context unclear. Explaining one design feature while a major teaching-readiness or assessment/interaction issue is absent remains at most 3.",
+        "4": "Design feature and pathway to outcomes are clear, with minor conditions missing.",
+        "5": "Explains how course design, teacher readiness and assessment/feedback or interaction arrangements shape learning during emergency delivery; distinguishes medium effects from instructional implementation."
+      },
+      "boundary": "Do not mandate a learning theory, synchronous delivery, specific platform or exhaustive teacher-characteristics list.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:12",
+          "drb2:58:analysis:13"
+        ],
+        "query_quotes": [
+          "instructional design"
+        ],
+        "change_note": "Retain instructional mechanisms; remove predetermined teacher-unpreparedness conclusion. v3.3 restores the specific substantive pathway, not a required theory or named example."
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Social interaction mechanism and example",
+      "question": "Does the review explain how reduced social interaction affects learning, supported by a specific study?",
+      "anchors": {
+        "1": "No social-interaction discussion.",
+        "2": "Only says interaction is lacking.",
+        "3": "Provides a mechanism or study but not a clear connection between the two. A loneliness-only account without the educational interaction pathway, or a pathway with no study connection, is at most 3.",
+        "4": "Reduced-interaction mechanism and empirical example are clear, with a minor setting/outcome gap.",
+        "5": "Explains how reduced dialogue, peer exchange or feedback limits collaborative knowledge construction or learning support, tied to a named study and its population/outcome; a named constructivist theory is unnecessary."
+      },
+      "boundary": "Checks educational exchange and its study example, not the separate emotional mediation in PT.D1.10; do not mandate constructivism or Baber.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:14",
+          "drb2:58:analysis:15",
+          "drb2:58:analysis:17"
+        ],
+        "query_quotes": [
+          "lack of social interaction"
+        ],
+        "change_note": "Preserve the required mechanism/example; remove one mandated theory and study. v3.3 restores the specific substantive pathway, not a required theory or named example."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Negative-emotion mechanism",
+      "question": "Does the review explain how pandemic-related negative emotions affected learning rather than only listing emotions?",
+      "anchors": {
+        "1": "No negative-emotion discussion.",
+        "2": "Only lists stress or loneliness.",
+        "3": "Describes an emotion but the motivation/attention or learning link is unclear. Listing emotions or discussing motivation without explaining the interaction/isolation link and the emotion-to-learning pathway is at most 3.",
+        "4": "Emotion-to-learning pathway is clear, with minor context qualification missing.",
+        "5": "Explains how pandemic circumstances and reduced social contact can produce isolation, anxiety or exhaustion, and how these undermine attention, motivation or learning activity; distinguishes this pathway from proof that online delivery caused all distress."
+      },
+      "boundary": "No required full emotion list; do not assume online learning caused all distress or require clinical diagnoses.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:18",
+          "drb2:58:analysis:19",
+          "drb2:58:analysis:16"
+        ],
+        "query_quotes": [
+          "negative emotions"
+        ],
+        "change_note": "Retain motivation/learning mechanism; do not assert automatic causality from lockdown or a symptom list. v3.3 restores the specific substantive pathway, not a required theory or named example."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Convenience and flexibility mechanism",
+      "question": "Does the review explain how convenience or flexibility can affect learning and for whom the proposed benefit applies?",
+      "anchors": {
+        "1": "No convenience/flexibility discussion.",
+        "2": "Only calls online learning convenient.",
+        "3": "Names a benefit but does not explain its learning pathway or conditions. An anytime/anywhere benefit without explaining learner regulation or a comparable capacity to use flexibility remains at most 3.",
+        "4": "Flexibility-to-learning connection is clear, with a minor learner/context qualification missing.",
+        "5": "Explains how flexible time, location or pace creates learning opportunities, and how planning/self-regulation affects whether learners realize that benefit; convenience is not equated with attainment."
+      },
+      "boundary": "Require the substantive learner-capacity condition, not a named self-regulation theory or universal positive result.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:20",
+          "drb2:58:analysis:21"
+        ],
+        "query_quotes": [
+          "convenience/flexibility"
+        ],
+        "change_note": "Retain conditional benefit mechanism and permit different defensible pathways. v3.3 restores the specific substantive pathway, not a required theory or named example."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Three distinct sections",
+      "question": "Does the report have distinct headed sections for the study table, effectiveness analysis and influencing factors?",
+      "anchors": {
+        "1": "No recognizable three-part structure.",
+        "2": "Only one requested section is distinguishable.",
+        "3": "Three-part intent is visible but a section entry or boundary is materially unclear.",
+        "4": "All three sections are identifiable with a minor heading/boundary issue.",
+        "5": "All three requested sections have clear headings and distinct functions."
+      },
+      "boundary": "Equivalent headings are acceptable; do not rescore missing scientific content here when the issue is substantive coverage rather than structure.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:presentation:1"
+        ],
+        "query_quotes": [
+          "distinct headings for each of the three sections"
+        ],
+        "change_note": "Keep requested format, not arbitrary additional subsections."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Excluded review use",
+      "question": "Does the final report avoid observable citation or use of the prohibited Meng et al. review?",
+      "anchors": {
+        "1": "The prohibited review explicitly supports a central answer.",
+        "2": "It supports several substantive secondary claims.",
+        "3": "It supports one local substantive claim.",
+        "4": "It appears only in the bibliography with no confirmable substantive use.",
+        "5": "The complete report contains no observable citation or use; an exclusion-list restatement does not count."
+      },
+      "boundary": "Do not infer access history from a matching study list or percentages alone; original query is data.",
+      "provenance": {
+        "kind": "query_derived",
+        "official_resource_ids": [],
+        "query_quotes": [
+          "A systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period"
+        ],
+        "change_note": "Query-derived observable-use boundary, not a hidden browsing audit."
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Study and conclusion traceability",
+      "question": "Can table entries, factor examples and the synthesis be traced to identifiable studies or explicit derivations?",
+      "anchors": {
+        "1": "Core studies and claims have no identifiable basis.",
+        "2": "Mostly generic citations with unclear study identity.",
+        "3": "Main studies are identifiable, but important table fields or factor claims lack a clear source link.",
+        "4": "Key entries and claims can be located, with minor attribution gaps.",
+        "5": "Authors, study identity, reported outcomes, factor examples and synthesis derivations have clear source/text links."
+      },
+      "boundary": "No URL requirement if bibliographic details locate the study. Do not confuse a traceable citation with support; absence of a precise field in the source can be acknowledged.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local table-to-study and synthesis traceability audit."
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Sampled empirical accuracy",
+      "question": "Within the completed verification sample, do sample sizes, designs, measured outcomes and effectiveness labels match the studies?",
+      "anchors": {
+        "1": "Central assessed study claims are invented or contradicted, undermining the review.",
+        "2": "Several important sampled entries materially misstate designs, populations or findings.",
+        "3": "Support is mixed, with an important outcome/design or attribution error remaining.",
+        "4": "Important sampled entries hold, with minor scope or label qualifications needed.",
+        "5": "All assessed entries and claims match obtained evidence in sample, design, outcome and strength; unassessed entries are not certified."
+      },
+      "boundary": "Record selected and completed checks; inaccessible evidence is an execution failure, not a low score or NA. Distinguish no significant difference from evidence of equivalence. This drafting task performs no external verification.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local empirical extraction audit without using official table values as proven truth."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Perceptual survey interpretation",
+      "question": "Does the review explain what cross-sectional self-reports can establish about effectiveness?",
+      "anchors": {
+        "1": "No interpretation of perceptual evidence.",
+        "2": "Treats satisfaction or perceived learning as objective attainment.",
+        "3": "Recognizes subjectivity but not measurement-tool differences or the absence of a valid comparison.",
+        "4": "Explains self-report and instrument-comparability limits and relates them to findings, with minor qualifications missing.",
+        "5": "Explains how differing self-report measures capture different constructs and why an unpaired perception cannot establish an online-versus-in-person causal effect; interprets available findings without declaring all self-reports worthless."
+      },
+      "boundary": "If an eligible design genuinely is absent, explain the search-specific gap and what cannot be concluded; do not invent studies or treat unexplored evidence as a satisfied review. Noncomparative measurement is one interpretation object; longitudinal analysis cannot repair its missing construct distinction.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Noncomparative measurement is one interpretation object; longitudinal analysis cannot repair its missing construct distinction. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Retrospective comparison interpretation",
+      "question": "Does the review explain why comparisons with remembered in-person learning can differ from controlled comparisons?",
+      "anchors": {
+        "1": "No retrospective comparison discussion.",
+        "2": "Accepts remembered comparisons as unbiased causal effects.",
+        "3": "Mentions recall bias but does not connect pre-pandemic context or comparison conditions to the reported result.",
+        "4": "Explains how recall and emergency/past-context differences may shift reported effectiveness, with minor study links missing.",
+        "5": "Relates retrospective idealization, pandemic disruption and non-equivalent comparison conditions to findings, explaining why they need not match randomized results; does not assume every negative rating is biased."
+      },
+      "boundary": "If an eligible design genuinely is absent, explain the search-specific gap and what cannot be concluded; do not invent studies or treat unexplored evidence as a satisfied review. One retrospective contrast; a rigorous account of trials cannot substitute for explaining the remembered comparator.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:5"
+        ],
+        "query_quotes": [],
+        "change_note": "One retrospective contrast; a rigorous account of trials cannot substitute for explaining the remembered comparator. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "Longitudinal comparison interpretation",
+      "question": "Does the review explain what before/after or repeated-measure findings do and do not establish?",
+      "anchors": {
+        "1": "No longitudinal interpretation.",
+        "2": "Treats any improvement over time as an online-learning effect.",
+        "3": "Recognizes time differences but misses important course, measurement or assessment-comparability threats.",
+        "4": "Relates changes in courses, self-report measures or assessment conditions to the findings, with minor applicability qualifications missing.",
+        "5": "Explains which baseline, course-content and assessment differences could produce apparent improvement, distinguishing actual attainment from reporting or assessment artifacts; discusses integrity risks only where relevant and does not assume cheating occurred."
+      },
+      "boundary": "If an eligible design genuinely is absent, explain the search-specific gap and what cannot be concluded; do not invent studies or treat unexplored evidence as a satisfied review. One change-over-time comparison; do not force positive results, a particular study or allegations of cheating.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:6"
+        ],
+        "query_quotes": [],
+        "change_note": "One change-over-time comparison; do not force positive results, a particular study or allegations of cheating. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.17",
+      "dimension": "D1",
+      "title": "Randomized comparison interpretation",
+      "question": "Does the review explain what randomization contributes and how the trial results should be interpreted?",
+      "anchors": {
+        "1": "No trial interpretation.",
+        "2": "Calls trials proof of online superiority solely because they are randomized.",
+        "3": "Mentions allocation but not its relation to confounding, actual outcomes or important trial limits.",
+        "4": "Explains allocation and relevant outcomes with important limitations, leaving only minor trial-specific gaps.",
+        "5": "Explains why random assignment strengthens the comparison while outcome measurement, implementation, attrition and setting still limit inference; reports the actual direction and applicability of the selected trials without assuming universal superiority."
+      },
+      "boundary": "If an eligible design genuinely is absent, explain the search-specific gap and what cannot be concluded; do not invent studies or treat unexplored evidence as a satisfied review. One allocation-to-inference relation; better perception discussion cannot offset uncritical trial claims.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "One allocation-to-inference relation; better perception discussion cannot offset uncritical trial claims. Five-level anchors are locally designed."
+      }
+    },
+    {
+      "id": "PT.D1.18",
+      "dimension": "D1",
+      "title": "Resource inequalities across settings",
+      "question": "Does the review explain how unequal resources change the difficulty of pandemic online learning across settings?",
+      "anchors": {
+        "1": "No resource-context analysis.",
+        "2": "Only labels countries developed or developing.",
+        "3": "Describes unequal resources but does not explain how they change learning barriers or who is affected.",
+        "4": "Links resource differences to participation or instructional constraints using the reviewed settings, with minor qualifications missing.",
+        "5": "Explains why connectivity, device or institutional-support differences can compound barriers in resource-constrained settings, distinguishing country labels from actual conditions and avoiding a uniform national ranking."
+      },
+      "boundary": "Directly assess context-to-barrier content; PW.D4.01 compares its further implications, not its mere presence.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:22"
+        ],
+        "query_quotes": [],
+        "change_note": "Resource disparities were only under broad PW; sound overall implications can coexist with no account of unequal barriers. Five-level anchors are locally designed."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Method-sensitive synthesis",
+      "question": "Compared with B, how well does A reason from designs and outcomes to the effectiveness conclusion?",
+      "anchors": {
+        "0": "The reports offer comparable method-to-conclusion reasoning, or neither offers relevant help; state which.",
+        "1": "A provides slightly better method-to-conclusion reasoning overall; B may be stronger on a local point.",
+        "2": "A provides substantially better method-to-conclusion reasoning; B's local strengths do not offset causal or outcome confusion.",
+        "-2": "B provides substantially better method-to-conclusion reasoning; A's local strengths do not offset causal or outcome confusion.",
+        "-1": "B provides slightly better method-to-conclusion reasoning overall; A may be stronger on a local point."
+      },
+      "boundary": "Judge inference, not presence of the methodology section. Randomization is not automatic proof of quality or online superiority. Compare the whole method-to-conclusion argument using the same relevance standard for both corpora; record opposing strengths. Equal-impact opposing advantages yield 0, not a win chosen by selecting one design.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:4",
+          "drb2:58:analysis:5",
+          "drb2:58:analysis:6",
+          "drb2:58:analysis:7"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate methodological reasoning quality from requested design coverage."
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Factor explanations",
+      "question": "Compared with B, how well does A explain pathways from learning conditions to outcomes?",
+      "anchors": {
+        "0": "The reports offer comparable factor-to-outcome explanation, or neither offers relevant help; state which.",
+        "1": "A provides slightly better factor-to-outcome explanation overall; B may be stronger on a local point.",
+        "2": "A provides substantially better factor-to-outcome explanation; B's local strengths do not offset circularity or unsupported causal leaps.",
+        "-2": "B provides substantially better factor-to-outcome explanation; A's local strengths do not offset circularity or unsupported causal leaps.",
+        "-1": "B provides slightly better factor-to-outcome explanation overall; A may be stronger on a local point."
+      },
+      "boundary": "PT scores required factors and examples; this item scores reasoning within supplied explanations, not number of factors. Compare the actual core factor pathways across the report using the same importance-to-learning-outcome standard on both sides. Record strengths and weaknesses in both directions; equally consequential opposing advantages yield 0. Do not choose a different favorable factor for each report.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local reasoning-quality comparison."
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Evidence fit for the synthesis",
+      "question": "Compared with B, how well does A match the evidence corpus to the scope of effectiveness claims?",
+      "anchors": {
+        "0": "The reports offer comparable corpus-to-claim evidence fit, or neither offers relevant help; state which.",
+        "1": "A provides slightly better corpus-to-claim evidence fit overall; B may be stronger on a local point.",
+        "2": "A provides substantially better corpus-to-claim evidence fit; B's local strengths do not offset major scope or outcome mismatch.",
+        "-2": "B provides substantially better corpus-to-claim evidence fit; A's local strengths do not offset major scope or outcome mismatch.",
+        "-1": "B provides slightly better corpus-to-claim evidence fit overall; A may be stronger on a local point."
+      },
+      "boundary": "No required country distribution or study roster; source accuracy is checked separately.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Evaluate corpus-to-claim fit, not citation quantity."
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Conditional implications",
+      "question": "Compared with B, how well does A clarify when pandemic online learning is likely to work or struggle?",
+      "anchors": {
+        "0": "The reports offer comparable conditional practical insight, or neither offers relevant help; state which.",
+        "1": "A provides slightly better conditional practical insight overall; B may be stronger on a local point.",
+        "2": "A provides substantially better conditional practical insight; B's local strengths do not offset context-free generalization.",
+        "-2": "B provides substantially better conditional practical insight; A's local strengths do not offset context-free generalization.",
+        "-1": "B provides slightly better conditional practical insight overall; A may be stronger on a local point."
+      },
+      "boundary": "Do not require a developing-versus-developed ranking or an intervention plan. Value may come from clarifying uncertainty.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:analysis:22"
+        ],
+        "query_quotes": [],
+        "change_note": "Retain resource-context sensitivity without mandating a country-income conclusion."
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Table-to-conclusion progression",
+      "question": "Compared with B, how well does A connect the study table, synthesis and factor analysis?",
+      "anchors": {
+        "0": "The reports offer comparable table-to-synthesis progression, or neither offers relevant help; state which.",
+        "1": "A provides slightly better table-to-synthesis progression overall; B may be stronger on a local point.",
+        "2": "A provides substantially better table-to-synthesis progression; B's local strengths do not offset disconnection or repetition.",
+        "-2": "B provides substantially better table-to-synthesis progression; A's local strengths do not offset disconnection or repetition.",
+        "-1": "B provides slightly better table-to-synthesis progression overall; A may be stronger on a local point."
+      },
+      "boundary": "Heading compliance belongs to PT; no forced narrative beyond the query's sections.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Separate organization from prose clarity."
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Outcome and design clarity",
+      "question": "Compared with B, how well does A distinguish measured outcomes, designs and the meaning of effectiveness?",
+      "anchors": {
+        "0": "The reports offer comparable outcome and design clarity, or neither offers relevant help; state which.",
+        "1": "A provides slightly better outcome and design clarity overall; B may be stronger on a local point.",
+        "2": "A provides substantially better outcome and design clarity; B's local strengths do not offset central terminology ambiguity.",
+        "-2": "B provides substantially better outcome and design clarity; A's local strengths do not offset central terminology ambiguity.",
+        "-1": "B provides slightly better outcome and design clarity overall; A may be stronger on a local point."
+      },
+      "boundary": "Style is not a required academic register; factual support is a separate check.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "drb2:58:presentation:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Preserve intelligibility and objective expression, not ornamental academic tone."
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Study lookup",
+      "question": "Compared with B, how well does A help readers move from synthesis claims to study rows and sources?",
+      "anchors": {
+        "0": "The reports offer comparable study-to-source lookup, or neither offers relevant help; state which.",
+        "1": "A provides slightly better study-to-source lookup overall; B may be stronger on a local point.",
+        "2": "A provides substantially better study-to-source lookup; B's local strengths do not offset the main search burden.",
+        "-2": "B provides substantially better study-to-source lookup; A's local strengths do not offset the main search burden.",
+        "-1": "B provides slightly better study-to-source lookup overall; A may be stronger on a local point."
+      },
+      "boundary": "No mandatory links, DOI format or hyperlinks; traceability existence is PT, retrieval effort is PW.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "Local navigational quality."
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "drb2:58:info_recall:1",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Adnan and Anwar (2020). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Adnan and Anwar (2020). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:2",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Adnan and Anwar (2020)'s study as 'Pakistan'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Adnan and Anwar (2020)'s study as 'Pakistan'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:3",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Adnan and Anwar (2020)'s study as '126'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Adnan and Anwar (2020)'s study as '126'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:4",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Adnan and Anwar (2020)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Adnan and Anwar (2020)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:5",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Almusharraf and Khahro (2020). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Almusharraf and Khahro (2020). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:6",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Almusharraf and Khahro (2020)'s study as 'Saudi Arabia'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Almusharraf and Khahro (2020)'s study as 'Saudi Arabia'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:7",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Almusharraf and Khahro (2020)'s study as '283'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Almusharraf and Khahro (2020)'s study as '283'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:8",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Almusharraf and Khahro (2020)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Almusharraf and Khahro (2020)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:9",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Sharma et al. (2020). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Sharma et al. (2020). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:10",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Sharma et al. (2020)'s study as 'Nepal'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Sharma et al. (2020)'s study as 'Nepal'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:11",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Sharma et al. (2020)'s study as '434'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Sharma et al. (2020)'s study as '434'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:12",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Sharma et al. (2020)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Sharma et al. (2020)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:13",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Lalduhawma et al. (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Lalduhawma et al. (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:14",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Lalduhawma et al. (2022)'s study as 'India'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Lalduhawma et al. (2022)'s study as 'India'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:15",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Lalduhawma et al. (2022)'s study as '356 students and 60 teachers'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Lalduhawma et al. (2022)'s study as '356 students and 60 teachers'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:16",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Lalduhawma et al. (2022)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Lalduhawma et al. (2022)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:17",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Hong et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Hong et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:18",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Hong et al. (2021)'s study as 'China'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Hong et al. (2021)'s study as 'China'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:19",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Hong et al. (2021)'s study as '531'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Hong et al. (2021)'s study as '531'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:20",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Hong et al. (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Hong et al. (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:21",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Rahman (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Rahman (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:22",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Rahman (2021)'s study as 'India'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Rahman (2021)'s study as 'India'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:23",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Rahman (2021)'s study as '132'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Rahman (2021)'s study as '132'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:24",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Rahman (2021)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Rahman (2021)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:25",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Mok et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Mok et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:26",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Mok et al. (2021)'s study as 'Hong Kong'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Mok et al. (2021)'s study as 'Hong Kong'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:27",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Mok et al. (2021)'s study as '1227'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Mok et al. (2021)'s study as '1227'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:28",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Mok et al. (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Mok et al. (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:29",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Tsang et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Tsang et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:30",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Tsang et al. (2021)'s study as 'Hong Kong'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Tsang et al. (2021)'s study as 'Hong Kong'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:31",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Tsang et al. (2021)'s study as '409'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Tsang et al. (2021)'s study as '409'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:32",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Tsang et al. (2021)'s study as 'Neutral'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Tsang et al. (2021)'s study as 'Neutral'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:33",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Mahyoob (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Mahyoob (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:34",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Mahyoob (2021)'s study as 'Saudi Arabia'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Mahyoob (2021)'s study as 'Saudi Arabia'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:35",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Mahyoob (2021)'s study as '333'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Mahyoob (2021)'s study as '333'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:36",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Mahyoob (2021)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Mahyoob (2021)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:37",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Baber (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Baber (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:38",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Baber (2022)'s study as 'India'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Baber (2022)'s study as 'India'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:39",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Baber (2022)'s study as '211'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Baber (2022)'s study as '211'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:40",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Baber (2022)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Baber (2022)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:41",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Conrad et al. (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Conrad et al. (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:42",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Conrad et al. (2022)'s study as 'Canada'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Conrad et al. (2022)'s study as 'Canada'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:43",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Conrad et al. (2022)'s study as '240'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Conrad et al. (2022)'s study as '240'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:44",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Conrad et al. (2022)'s study as 'Neutral'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Conrad et al. (2022)'s study as 'Neutral'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:45",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Haningsih and Rohmi (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Haningsih and Rohmi (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:46",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Haningsih and Rohmi (2022)'s study as 'Indonesia'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Haningsih and Rohmi (2022)'s study as 'Indonesia'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:47",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Haningsih and Rohmi (2022)'s study as '160'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Haningsih and Rohmi (2022)'s study as '160'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:48",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Haningsih and Rohmi (2022)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Haningsih and Rohmi (2022)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:49",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Chandrasiri and Weerakoon (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Chandrasiri and Weerakoon (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:50",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Chandrasiri and Weerakoon (2022)'s study as 'Sri Lanka'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Chandrasiri and Weerakoon (2022)'s study as 'Sri Lanka'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:51",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Chandrasiri and Weerakoon (2022)'s study as '518'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Chandrasiri and Weerakoon (2022)'s study as '518'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:52",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Chandrasiri and Weerakoon (2022)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Chandrasiri and Weerakoon (2022)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:53",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Cranfield et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Cranfield et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:54",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Cranfield et al. (2021)'s study as 'Multinational (Hungary, South Africa, and Wales)'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Cranfield et al. (2021)'s study as 'Multinational (Hungary, South Africa, and Wales)'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:55",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Cranfield et al. (2021)'s study as '559'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Cranfield et al. (2021)'s study as '559'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:56",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Cranfield et al. (2021)'s study as 'Neutral'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Cranfield et al. (2021)'s study as 'Neutral'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:57",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Alawamleh et al. (2020). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Alawamleh et al. (2020). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:58",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Alawamleh et al. (2020)'s study as 'Jordan'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Alawamleh et al. (2020)'s study as 'Jordan'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:59",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Alawamleh et al. (2020)'s study as '133'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Alawamleh et al. (2020)'s study as '133'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:60",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Alawamleh et al. (2020)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Alawamleh et al. (2020)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:61",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Gonzalez-Ramirez et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Gonzalez-Ramirez et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:62",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Gonzalez-Ramirez et al. (2021)'s study as 'USA'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Gonzalez-Ramirez et al. (2021)'s study as 'USA'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:63",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Gonzalez-Ramirez et al. (2021)'s study as '139'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Gonzalez-Ramirez et al. (2021)'s study as '139'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:64",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Gonzalez-Ramirez et al. (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Gonzalez-Ramirez et al. (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:65",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Muthuprasad et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Muthuprasad et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:66",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Muthuprasad et al. (2021)'s study as 'India'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Muthuprasad et al. (2021)'s study as 'India'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:67",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Muthuprasad et al. (2021)'s study as '307'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Muthuprasad et al. (2021)'s study as '307'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:68",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Muthuprasad et al. (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Muthuprasad et al. (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:69",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Selco and Habbak (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Selco and Habbak (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:70",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Selco and Habbak (2021)'s study as 'USA'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Selco and Habbak (2021)'s study as 'USA'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:71",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Selco and Habbak (2021)'s study as '584'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Selco and Habbak (2021)'s study as '584'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:72",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Selco and Habbak (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Selco and Habbak (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:73",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Hollister et al. (2022). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Hollister et al. (2022). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:74",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Hollister et al. (2022)'s study as 'USA'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Hollister et al. (2022)'s study as 'USA'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:75",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Hollister et al. (2022)'s study as '187'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Hollister et al. (2022)'s study as '187'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:76",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Hollister et al. (2022)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Hollister et al. (2022)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:77",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Zhang and Chen (2023). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Zhang and Chen (2023). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:78",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Zhang and Chen (2023)'s study as 'China'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Zhang and Chen (2023)'s study as 'China'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:79",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Zhang and Chen (2023)'s study as '476'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Zhang and Chen (2023)'s study as '476'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:80",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Zhang and Chen (2023)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Zhang and Chen (2023)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:81",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Almahasees et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Almahasees et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:82",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the country for Almahasees et al. (2021)'s study as 'Jordan'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the country for Almahasees et al. (2021)'s study as 'Jordan'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:83",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Almahasees et al. (2021)'s study as '50 teachers and 280 students'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Almahasees et al. (2021)'s study as '50 teachers and 280 students'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:84",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Almahasees et al. (2021)'s study as 'Ineffective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Almahasees et al. (2021)'s study as 'Ineffective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:85",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Chang et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Chang et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:86",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the research design for Chang et al. (2021)'s study as 'Longitudinal study'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the research design for Chang et al. (2021)'s study as 'Longitudinal study'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:87",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Chang et al. (2021)'s study as '37'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Chang et al. (2021)'s study as '37'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:88",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Chang et al. (2021)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Chang et al. (2021)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:89",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Fyllos et al. (2021). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Fyllos et al. (2021). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:90",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the research design for Fyllos et al. (2021)'s study as 'Longitudinal study'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the research design for Fyllos et al. (2021)'s study as 'Longitudinal study'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:91",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Fyllos et al. (2021)'s study as '61'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Fyllos et al. (2021)'s study as '61'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:92",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Fyllos et al. (2021)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Fyllos et al. (2021)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:93",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Jiang et al. (2023). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Jiang et al. (2023). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:94",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the research design for Jiang et al. (2023)'s study as 'Randomized Controlled Trial'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the research design for Jiang et al. (2023)'s study as 'Randomized Controlled Trial'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:95",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Jiang et al. (2023)'s study as '200'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Jiang et al. (2023)'s study as '200'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:96",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Jiang et al. (2023)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Jiang et al. (2023)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:97",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must include the study by Shirahmadi et al. (2023). The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must include the study by Shirahmadi et al. (2023). PT.D1.01 still requires 15 distinct eligible studies and PT.D1.04 an explained selection path; substituting an eligible study is allowed, losing this named inclusion distinction.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:98",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the research design for Shirahmadi et al. (2023)'s study as 'Randomized Controlled Trial'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the research design for Shirahmadi et al. (2023)'s study as 'Randomized Controlled Trial'. PT.D1.02 requires an interpretable setting or design for every selected entry; absent fields lower that item, and PT.D2.02 tests assessed accuracy. This is not preservation of this exact study-specific value.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:99",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the sample size for Shirahmadi et al. (2023)'s study as '120'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the sample size for Shirahmadi et al. (2023)'s study as '120'. PT.D1.02 requires the selected study's sample and population to be interpretable; a missing denominator cannot be replaced by country or author detail. PT.D2.02 assesses sampled correctness, not complete verification of this fixed number.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:info_recall:100",
+      "targets": [],
+      "reason": "Optional official corpus detail: The summary table must correctly state the finding for Shirahmadi et al. (2023)'s study as 'Effective'. The query permits a different eligible corpus; if used, factual fidelity is audited rather than this exact detail being mandatory.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Exact official detail not imposed: The summary table must correctly state the finding for Shirahmadi et al. (2023)'s study as 'Effective'. PT.D1.02 requires the selected study's outcome and qualified finding; PT.D1.06 synthesizes them, and PT.D2.02 tests assessed label accuracy. A different corpus is not required to reproduce this official verdict.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:1",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Require an evidence-scoped overall conclusion, not a preselected mixed verdict.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 distinguishes a synthesis from a study list; a justified non-mixed result may pass, losing the prescribed verdict.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:2",
+      "targets": [],
+      "reason": "The 36/52/12 percentages depend on the optional official corpus and classification.",
+      "status": "deliberately_not_retained",
+      "discrimination_check": "Their omission is intentionally unpenalized; a different selected corpus must not inherit these percentages.",
+      "importance": "supporting",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:3",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.05 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of four substantive design distinctions.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:4",
+      "targets": [
+        "PT.D1.14",
+        "PW.D3.01"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.14 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of subjective constructs and measurement comparability.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:5",
+      "targets": [
+        "PT.D1.15",
+        "PW.D3.01"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.15 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of retrospective comparator and pandemic-context bias.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:6",
+      "targets": [
+        "PT.D1.16",
+        "PW.D3.01"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.16 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of course and assessment comparability over time.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:7",
+      "targets": [
+        "PT.D1.17",
+        "PW.D3.01"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.17 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of allocation, outcomes and limits.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:8",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "reason": "Retain methodological calibration of the final conclusion.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.06 detects no synthesis or unsupported certainty; the official final RCT-positive conclusion is not imposed.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:9",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain infrastructure as an explicit required factor.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.07 detects its omission independently of the other factors.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:analysis:10",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Retain access and participation as the infrastructure mechanism.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 distinguishes merely naming connectivity from explaining its learning consequence; not every listed device term is compulsory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:11",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "reason": "Require a named relevant infrastructure study, allowing alternative eligible studies.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.07 detects an unsupported generic example but not omission of Adnan or Lalduhawma specifically.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:12",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "Retain instructional design as its own required factor.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.08 detects a missing instructional account despite good infrastructure coverage.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:analysis:13",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.08 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of course design, readiness and assessment/interaction.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:14",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Retain reduced social interaction as its own required factor.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.09 detects omission of the interaction issue.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:analysis:15",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of educational exchange and knowledge construction.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:16",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of interaction–isolation–learning.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:17",
+      "targets": [
+        "PT.D1.09"
+      ],
+      "reason": "Retain a named empirical illustration of social interaction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.09 distinguishes no example from a relevant example, but does not require Baber.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:18",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Retain negative emotions as an explicit separate factor.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.10 detects missing emotional learning effects even if interaction itself is covered.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:analysis:19",
+      "targets": [
+        "PT.D1.10"
+      ],
+      "reason": "Retain the emotions-to-learning ability or motivation connection.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.10 rejects merely listing feelings; every listed emotion and direct causal wording are not mandatory.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:20",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "Retain convenience and flexibility as an explicit factor.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 detects omission while allowing conditional rather than universally positive findings.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:21",
+      "targets": [
+        "PT.D1.11"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.11 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of flexibility and learner regulation.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:analysis:22",
+      "targets": [
+        "PT.D1.18",
+        "PW.D4.01"
+      ],
+      "reason": "Restore a direct substantive check without prescribing a study, theory label or outcome direction.",
+      "status": "adapted",
+      "discrimination_check": "PT.D1.18 distinguishes a label/important gap (2/3) from a concrete qualified explanation (4/5) of resource differences and compounded barriers.",
+      "importance": "core",
+      "original_requirement_preserved": false
+    },
+    {
+      "resource_id": "drb2:58:presentation:1",
+      "targets": [
+        "PT.D1.12"
+      ],
+      "reason": "Preserve the three requested headed functions.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.12 detects missing sections; functionally equivalent headings are accepted.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:presentation:2",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "reason": "Preserve at least 15 distinct empirical studies in separate entries.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.01 distinguishes fewer than 15 even if all rows are detailed.",
+      "importance": "core",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:presentation:3",
+      "targets": [
+        "PT.D1.02"
+      ],
+      "reason": "Preserve six columns in the specified order.",
+      "status": "retained",
+      "discrimination_check": "PT.D1.02 distinguishes reordered or incomplete fields from a compliant table.",
+      "importance": "format",
+      "original_requirement_preserved": true
+    },
+    {
+      "resource_id": "drb2:58:presentation:4",
+      "targets": [
+        "PW.D5.01",
+        "PW.D6.01"
+      ],
+      "reason": "Separate coherent progression from clear objective outcome language.",
+      "status": "adapted",
+      "discrimination_check": "PW.D5.01 and PW.D6.01 can score opposite performances; an ornate academic register is not required.",
+      "importance": "format",
+      "original_requirement_preserved": false
+    }
+  ],
+  "author_notes": [
+    "v3.1 history: Author self-check only; no independent semantic approval or external source verification.",
+    "v3.1 history: No prior assigned draft was available as a baseline. All final items have mixed-performance checks.",
+    "v3.1 history: The exact 25-study roster, sample sizes, fixed effectiveness percentages and universal RCT-positive conclusion are deliberately not keys. Selected-study accuracy still requires evidence.",
+    "v3.1 history: Five factor requirements and the table's explicit study minimum are query requirements, not imposed rubric quotas.",
+    "v3.1 history: Batch author program checks: 15 PT, 7 PW and 126 official records. Exact query, five-level anchors, IDs, verbatim query quotes, bidirectional provenance and complete atomicity records checked. This is not independent semantic approval or verification of official factual claims.",
+    "v3.1 history: Author review corrected all seven PW scales from absolute report-quality wording to A/B comparison anchors; topic-specific coverage and the official dispositions were unchanged.",
+    "v3.3 repair: Split the old grouped methodology item into grouping and separate perceptual, retrospective, longitudinal and randomized interpretations. Restore instructional readiness, educational interaction versus emotional mediation, self-regulation and resource-context disparities. The 25 named studies, their 100 exact fields, fixed percentages and a uniformly positive trial verdict remain non-mandatory; each disposition explains the corresponding selected-study requirement.",
+    "Final v3.3 draft: 20 PT / 7 PW. Author and mechanical checks are not independent semantic approval. No external fact verification or report scoring was performed."
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "add",
+      "reason": "New count requirement; excellent detail for fewer than 15 stays at 3, independent of table-field detail."
+    },
+    {
+      "id": "PT.D1.02",
+      "decision": "add",
+      "reason": "New table schema; good columns with vague entries score 3/4, so fields and their meanings are not mechanically split."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "add",
+      "reason": "New eligibility relation; recent papers on schools cannot compensate for wrong population, handled in grades 1–3."
+    },
+    {
+      "id": "PT.D1.04",
+      "decision": "add",
+      "reason": "New audit of selection path; search locations without inclusion logic score 3, not independent checklist items."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "add",
+      "reason": "New conclusion and scope are one answer; a decisive statement with no outcome definition scores 2/3."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "add",
+      "reason": "A device or network label without a participation link, or a study without that mechanism, remains 3. The condition-to-outcome relation stays together; another factor cannot compensate."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "add",
+      "reason": "Explaining one design feature while a major teaching-readiness or assessment/interaction issue is absent remains at most 3. The condition-to-outcome relation stays together; another factor cannot compensate."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "add",
+      "reason": "A loneliness-only account without the educational interaction pathway, or a pathway with no study connection, is at most 3. The condition-to-outcome relation stays together; another factor cannot compensate."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "add",
+      "reason": "Listing emotions or discussing motivation without explaining the interaction/isolation link and the emotion-to-learning pathway is at most 3. The condition-to-outcome relation stays together; another factor cannot compensate."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "add",
+      "reason": "An anytime/anywhere benefit without explaining learner regulation or a comparable capacity to use flexibility remains at most 3. The condition-to-outcome relation stays together; another factor cannot compensate."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "add",
+      "reason": "New format constraint; contents good but section boundaries unclear scores 3; no mandatory layout beyond query."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "add",
+      "reason": "New single prohibition; usage severity already supplies all grades."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "add",
+      "reason": "New attribution relation; bibliography good but row/factor attribution unclear scores 3."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "add",
+      "reason": "New claim–evidence relationship; partial verified support scores 3 and retrieval failure has no quality score."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "add",
+      "reason": "The comparison concerns design-to-conclusion inference: excellent category coverage can coexist with weak causal interpretation. A modest justified synthesis is judged against B, not assigned an absolute pairwise grade. Compare the whole method-to-conclusion argument using the same relevance standard for both corpora; record opposing strengths. Equal-impact opposing advantages yield 0, not a win chosen by selecting one design."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "add",
+      "reason": "Coverage can be complete but reasoning weak; a missing factor is not automatically a second penalty here. Compare the actual core factor pathways across the report using the same importance-to-learning-outcome standard on both sides. Record strengths and weaknesses in both directions; equally consequential opposing advantages yield 0. Do not choose a different favorable factor for each report."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "add",
+      "reason": "Many accurate studies can still be poorly matched to a universal claim; fit determines this score."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "add",
+      "reason": "A geographic label without a resource-to-implication link is not a high score; sound implications need not make that label."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "add",
+      "reason": "Correct headings can coexist with disconnected content. Compare table-to-synthesis progression in the two original reports; coherent prose alone does not determine the relative grade."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "add",
+      "reason": "A logical structure does not rescue unclear outcome language, and clear prose does not prove accuracy."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "add",
+      "reason": "Identifiable but cumbersome references can pass traceability. Compare the effort of finding the relevant study evidence; no absolute lookup grade follows from passing the audit."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "split",
+      "reason": "Split grouping from four independently variable design-specific interpretations; clear labels cannot compensate for missing bias explanations."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "split",
+      "reason": "Noncomparative measurement is one interpretation object; longitudinal analysis cannot repair its missing construct distinction."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "split",
+      "reason": "One retrospective contrast; a rigorous account of trials cannot substitute for explaining the remembered comparator."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "split",
+      "reason": "One change-over-time comparison; do not force positive results, a particular study or allegations of cheating."
+    },
+    {
+      "id": "PT.D1.17",
+      "decision": "split",
+      "reason": "One allocation-to-inference relation; better perception discussion cannot offset uncritical trial claims."
+    },
+    {
+      "id": "PT.D1.18",
+      "decision": "revise",
+      "reason": "Resource disparities were only under broad PW; sound overall implications can coexist with no account of unequal barriers."
+    }
+  ]
+}

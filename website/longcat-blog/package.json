@@ -1,0 +1,11 @@
+{
+  "name": "longcat-research-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "validate-feed": "node scripts/validate-feed.mjs feed/v1/leaderboard.json",
+    "release-check": "node scripts/release-check.mjs"
+  }
+}

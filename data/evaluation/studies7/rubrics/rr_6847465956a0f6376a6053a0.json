@@ -1,0 +1,1175 @@
+{
+  "task_key": "rr:6847465956a0f6376a6053a0",
+  "title": "分布式音频与聊天",
+  "language": "en",
+  "full_query": "Write a technical proposal for a distributed audio streaming system. The system should include an audio streaming platform and a live chat feature. This application should be built for both browser and mobile settings. Include detailed technologies and justify why they are used. Assume the audience is a team of experienced software developers at a medium sized software company.",
+  "version": "route-value-rubrics40-v3.3-draft",
+  "pointwise": [
+    {
+      "id": "PT.D1.01",
+      "dimension": "D1",
+      "title": "Proposal objective and assumptions",
+      "question": "Does the proposal state its audio-and-chat product objective and the workload, performance, operating and team assumptions needed to interpret its design?",
+      "anchors": {
+        "1": "Neither an identifiable audio-and-chat objective nor usable design assumptions is stated.",
+        "2": "Only a generic objective is given, or assumptions are listed without identifying the product they describe.",
+        "3": "The product is identifiable, but an important workload, performance, operating or team assumption needed to interpret its choices is missing or too vague.",
+        "4": "The objective and the assumptions needed by the design are clear, with only a minor interpretive gap.",
+        "5": "The objective and necessary workload, performance, operating and team assumptions are explicit. Performance expectations are concrete enough to assess the chosen design, and team capabilities or availability relied on by the proposal are stated."
+      },
+      "boundary": "Judge the context needed to interpret this proposal, not the ambition of its targets. Concrete expectations may be numeric or a testable behavior; no prescribed latency, uptime, team size or staffing model is required. Goals and the conditions that give them meaning remain one item. Feasibility, cost and implementation priorities are assessed separately. A missing assumption matters only when a material choice depends on it.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:15",
+          "rr:6847465956a0f6376a6053a0:flat:21"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.02.audio",
+      "dimension": "D1",
+      "title": "Audio delivery path",
+      "question": "Does the proposal specify how audio reaches a playing client, including the transport and media-handling choices at the relevant handoffs?",
+      "anchors": {
+        "1": "No audio delivery path is specified.",
+        "2": "Audio tools are named, but the proposal does not show how they move playable audio to a client.",
+        "3": "Part of the path is described, but a major origin-to-player handoff or its transport/media-handling choice is unspecified.",
+        "4": "The main path, component roles and transport/media-handling choices are explicit, with only a minor handoff detail missing.",
+        "5": "The chosen origin, processing if used, delivery and playback form an explicit path. The proposal identifies how audio is represented or encoded and transported, and where serving, relaying or caching is handled as relevant to that path."
+      },
+      "boundary": "Check whether the audio path and its selected technologies are described, not whether they are better than another design. No particular live/VOD model, codec, protocol, media server, cache or CDN is required. Managed handling can satisfy the item when the proposal explains what is delegated and how the client receives compatible audio. Do not require a catalogue of alternatives; reasons for choices remain PT.D1.06.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:13",
+          "rr:6847465956a0f6376a6053a0:flat:14"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.02.chat",
+      "dimension": "D1",
+      "title": "Live chat delivery path",
+      "question": "Does the proposal specify how live chat messages move between participants through its chosen services?",
+      "anchors": {
+        "1": "No chat delivery path.",
+        "2": "Only names a chat service or protocol.",
+        "3": "A message path exists but a major participant/service handoff is missing.",
+        "4": "Participant-to-service-to-recipient delivery and roles are clear, with a minor gap.",
+        "5": "Message submission, routing to the intended conversation and recipient delivery are explicit; no specific broker, database or protocol is required."
+      },
+      "boundary": "Check whether the report describes this required part of the system. Do not score whether its technology or architectural style is better than another.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.02.deployment",
+      "dimension": "D1",
+      "title": "Distributed deployment responsibilities",
+      "question": "Does the proposal identify the hosting environment, implementation technologies and distributed responsibilities of its major components?",
+      "anchors": {
+        "1": "No usable deployment responsibilities or hosting design are given.",
+        "2": "Only platform or vendor names are supplied, without component placement.",
+        "3": "Some placement is described, but a central component lacks a hosting environment, implementation technology or deployment responsibility.",
+        "4": "Major client, service and storage placements and technologies are clear, with a minor deployment detail missing.",
+        "5": "The chosen hosting environment and major client/service/storage technologies are identified and mapped to their deployment responsibilities."
+      },
+      "boundary": "Score specification, not vendor preference or architectural superiority. A cloud platform, managed service, self-hosted environment or justified combination is eligible. Diagrams, containers, microservices and multiple regions are not mandatory. Deployment placement is distinct from the release and maintenance practices compared in PW.D4.04.runtime/PW.D4.04.change.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:2"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.03",
+      "dimension": "D1",
+      "title": "Browser and mobile client design",
+      "question": "Does the proposal specify browser and mobile client technologies, their audio/chat responsibilities and the client behavior needed by the chosen product?",
+      "anchors": {
+        "1": "Neither browser nor mobile client setting is designed.",
+        "2": "One setting is missing, or both are only labels.",
+        "3": "Both client settings are identifiable, but at least one lacks material technology, responsibility or product-critical behavior detail.",
+        "4": "Both settings have technologies, responsibilities and the necessary client behavior specified, with one minor gap.",
+        "5": "Both browser and mobile choices, audio/chat responsibilities and product-critical interaction or playback/network behavior are explicit; shared implementations clearly explain what is shared and what differs."
+      },
+      "boundary": "Check specification for both settings, not which client technology is better. Native, cross-platform and suitable web-based routes remain eligible. A clearly specified platform with the other wholly absent scores 2; if the other exists but lacks material detail, score 3. Do not require every official UI/UX or performance example: background playback, accessibility, responsive layout, caching and state management matter here when the described product relies on them. This item does not judge whether a reason for choosing a framework is persuasive.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:16"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.05",
+      "dimension": "D1",
+      "title": "Scope relevance of included material",
+      "question": "Is the main body related to the requested distributed audio streaming system with live chat for browser and mobile settings?",
+      "anchors": {
+        "1": "The main body answers another question, with relevant content only sporadic.",
+        "2": "Multiple main sections deviate from the requested system and substantially change the focus.",
+        "3": "The main body is on topic, but obvious side branches do not contribute to the proposal.",
+        "4": "Almost all content is on topic, with only isolated weakly connected expansions.",
+        "5": "All main content is within the topic or has a clear necessary background, design, or explanatory function."
+      },
+      "boundary": "Score what this item asks for, without favoring one particular approach. A source can count without a URL if its bibliographic details are enough to find it.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:20"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.01",
+      "dimension": "D2",
+      "title": "Traceability of key external claims",
+      "question": "Can a task-critical external claim be traced to a specific source, excerpt, or derivation within the report?",
+      "anchors": {
+        "1": "No identifiable source or derivation is provided for the claim.",
+        "2": "The report refers only generically to research, benchmarks, documentation, or data.",
+        "3": "A relevant bibliography or paragraph-level source exists, but attribution for the claim is materially ambiguous.",
+        "4": "A specific source or derivation can be located, with only minor boundary ambiguity.",
+        "5": "The claim is clearly bound to a specific source or reviewable derivation, with no key attribution ambiguity."
+      },
+      "boundary": "Score what this item asks for, without favoring one particular approach. A source can count without a URL if its bibliographic details are enough to find it.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.02",
+      "dimension": "D2",
+      "title": "Verified evidence reliability",
+      "question": "Within the recorded verification sample, how reliable is the support for the report’s material assertions? Distinguish wrong support from inaccessible sources.",
+      "anchors": {
+        "1": "Central sampled assertions are contradicted or lack the claimed basis, undermining the task answer.",
+        "2": "Material support errors affect several important sampled assertions.",
+        "3": "Support is mixed: some important assertions hold, but material scope or attribution errors remain.",
+        "4": "Important sampled assertions hold; only minor overstatement or attribution issues remain.",
+        "5": "All assessed assertions match the obtained evidence in object, scope and strength; this is not a full-report citation guarantee."
+      },
+      "boundary": "Score what this item asks for, without favoring one particular approach. A source can count without a URL if its bibliographic details are enough to find it. Retrieval failures cannot yield a quality score; retry/report execution failure. Always publish selected/assessed counts.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D2.04",
+      "dimension": "D2",
+      "title": "Internal consistency of technical statements",
+      "question": "Are the report's internal technical statements, values, units, scopes, and tables mutually consistent within the checked scope?",
+      "anchors": {
+        "1": "Multiple core statements are incompatible, and the proposed design or main answer cannot be determined.",
+        "2": "At least one key unexplained conflict substantively harms the proposal.",
+        "3": "There is a local substantive conflict, but the main proposal remains identifiable.",
+        "4": "The core is consistent, with only minor ambiguity that is easy to disambiguate.",
+        "5": "Statements within the checked scope are compatible, and differences in conditions are explained."
+      },
+      "boundary": "Score what this item asks for, without favoring one particular approach. A source can count without a URL if its bibliographic details are enough to find it.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.06",
+      "dimension": "D1",
+      "title": "Reasons for technology choices",
+      "question": "Does the proposal explain why its major technologies are chosen for the requested audio-and-chat system?",
+      "anchors": {
+        "1": "No meaningful technology choices or reasons.",
+        "2": "Technologies are named but reasons are mostly generic slogans.",
+        "3": "Several major choices have task-related reasons, with important unexplained choices.",
+        "4": "Most major choices have explicit task-related reasons; minor rationale gaps remain.",
+        "5": "Major choices have clear reasons tied to the product and team assumptions, without requiring any particular comparison format."
+      },
+      "boundary": "Check whether reasons are given. Pairwise separately evaluates whether those reasons are sound and useful; listing more alternatives does not by itself earn credit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:13",
+          "rr:6847465956a0f6376a6053a0:flat:17"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.07",
+      "dimension": "D1",
+      "title": "Concrete service interfaces",
+      "question": "Does the proposal describe concrete audio-related and chat service interactions using its chosen API or messaging style?",
+      "anchors": {
+        "1": "No usable service interface is described.",
+        "2": "An API style or messaging protocol is named, but no concrete operation or event is explained.",
+        "3": "Concrete interactions are described, but a central audio-related or chat operation lacks the participants, input, result or delivery semantics needed to understand it.",
+        "4": "Important audio-related and chat interactions have interpretable contracts, with only a minor input, result or delivery detail missing.",
+        "5": "The chosen interface style and important audio-related and chat operations or events are explicit: who invokes or emits them, what information they carry, and what result or delivery behavior the caller/recipient expects."
+      },
+      "boundary": "This is the level of interface detail in a technical proposal, not an implementation-ready API specification. HTTP endpoints, RPC methods, events and managed SDK operations are eligible; exact URL paths, REST, GraphQL, gRPC or WebSockets are not mandatory. PT.D1.02.audio/chat check the overall delivery path; this item checks the meaning of interactions, not the same flow arrows again. Permissions and protection are assessed in PT.D1.08.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:11"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.08",
+      "dimension": "D1",
+      "title": "Protection of the audio-and-chat system",
+      "question": "Does the proposal specify protections for the access boundaries, sensitive data and abuse risks created by its chosen audio-and-chat design?",
+      "anchors": {
+        "1": "No relevant security protection is specified.",
+        "2": "Security tools or slogans are listed without identifying what they protect.",
+        "3": "Some protections are concrete, but a major exposure in access control, sensitive data/credentials or service abuse is left without a response.",
+        "4": "The principal exposures have concrete controls and responsible components, with only a minor protection boundary unclear.",
+        "5": "Controls are tied to the design's principal exposures: who may access or administer resources, how relevant data and credentials are protected, and how the service handles abuse. The responsible components and important protection limits are clear."
+      },
+      "boundary": "Judge concrete security specification, not the number of named controls or the promise of perfect security. Public content can still need administrative access control and abuse protection; data-at-rest controls depend on what is stored. No specific authentication scheme, vault, WAF or rotation interval is required. A strong access-control description cannot earn 4 or 5 if a major sensitive-data or abuse exposure is unaddressed. Privacy obligations, content permissions and moderation decisions are compared in PW.D4.05.privacy, PW.D4.05.rights and PW.D4.05.moderation respectively, not inferred from encryption alone. v3.3: privacy, content permission and moderation plan coverage is now PT.D1.14–16; the three preserved PW children assess distinct decision usefulness.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:12"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PT.D1.09",
+      "dimension": "D1",
+      "title": "Capacity growth and traffic spikes",
+      "question": "Does the proposal specify how audio delivery, chat fan-out and shared state cope with expected growth and sudden demand?",
+      "anchors": {
+        "1": "No scaling or spike response.",
+        "2": "Only says the system scales or names infrastructure products.",
+        "3": "Some capacity response is concrete, but a major audio, chat or state bottleneck is unaddressed, or sudden spikes are ignored.",
+        "4": "Main bottlenecks and growth/spike responses are specified, with a minor trigger or limit unclear.",
+        "5": "The design identifies limiting resources and their capacity responses for audio, chat and shared state, including sudden demand, overload behavior and boundaries under its stated workload."
+      },
+      "boundary": "A single managed service may cover several roles if its limits and delegated behavior are explained. No mandatory sharding, CDN, queue or multi-region route; growth and spike conditions cannot be omitted.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:5",
+          "rr:6847465956a0f6376a6053a0:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore direct scaling-plan coverage; a strong media path cannot compensate for an unaddressed chat/state bottleneck. Capacity and the behavior at its boundary are one specification."
+      }
+    },
+    {
+      "id": "PT.D1.10",
+      "dimension": "D1",
+      "title": "Budget and operating-resource scenarios",
+      "question": "Does the proposal explain how usage and growth affect infrastructure, maintenance and staffing costs?",
+      "anchors": {
+        "1": "No budget or resource implications.",
+        "2": "Only calls the system cheap or gives an unexplained total.",
+        "3": "Some cost drivers are concrete, but usage/growth assumptions, maintenance or staffing implications are missing.",
+        "4": "Major usage-dependent and ongoing people/maintenance costs are connected to the plan, with a minor assumption gap.",
+        "5": "Interpretable estimates or bounded cost-driver scenarios explain how delivery, compute/storage and maintenance/staffing burdens change with usage and growth; assumptions and unknown prices are explicit."
+      },
+      "boundary": "No fixed low/medium/high table or current vendor quote is required. Qualitative scenarios must name what changes and why, not merely say costs rise.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:4"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore budget substance from PW-only coverage. Hosting cost detail without maintenance/staffing implications scores3; price precision is not a separate reward."
+      }
+    },
+    {
+      "id": "PT.D1.11",
+      "dimension": "D1",
+      "title": "Runtime observation and incident response",
+      "question": "Does the proposal specify useful runtime observations and how the team responds to audio/chat service problems?",
+      "anchors": {
+        "1": "No operating plan.",
+        "2": "Only names dashboards or logging tools.",
+        "3": "Some observations or actions exist, but the signal-to-diagnosis-to-response path is broken, or a major audio, chat, usage/capacity or security observation is absent.",
+        "4": "Relevant observations lead to responsible diagnosis and action, with a minor signal or handoff gap.",
+        "5": "Audio playback/delivery, chat operation, usage/capacity and security conditions have relevant signals, a diagnosis path and responsible incident actions; collection is proportionate to data sensitivity."
+      },
+      "boundary": "No fixed tool, metric count or raw-chat logging. Managed observability must identify what the team sees and can do; release-specific decisions are separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:8",
+          "rr:6847465956a0f6376a6053a0:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Directly checks the runtime maintenance plan previously only compared in PW. Signals without response or response without a trigger are reciprocal3 cases."
+      }
+    },
+    {
+      "id": "PT.D1.12",
+      "dimension": "D1",
+      "title": "Validation and deployment-change plan",
+      "question": "Does the proposal specify how code and infrastructure changes are tested, deployed and handled if unsuccessful?",
+      "anchors": {
+        "1": "No change or validation plan.",
+        "2": "Only names CI/CD or an automation product.",
+        "3": "A pipeline is described but suitable automated/system validation, release criteria, reproducible deployment or failed-change handling has a material gap.",
+        "4": "Tests, reproducible deployment and failed-change response form a clear path, with minor responsibility detail missing.",
+        "5": "The plan links suitable automated checks and system/load validation to release criteria, repeatable code/infrastructure deployment and a defined failed-change response."
+      },
+      "boundary": "No mandatory IaC product, Kubernetes or rollback technique. Roll-forward or reverting a managed configuration may be appropriate; explain the actual path. Runtime incidents not caused by changes are separate.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore DevOps and automated validation content. Fast deployment with no validation or failure response scores3; these are one conditional change path."
+      }
+    },
+    {
+      "id": "PT.D1.13",
+      "dimension": "D1",
+      "title": "Delivery sequence and team feasibility",
+      "question": "Does the proposal give a milestone sequence and a feasible delivery approach for the assumed team?",
+      "anchors": {
+        "1": "No delivery approach.",
+        "2": "Only gives dates or names Agile/Scrum.",
+        "3": "Milestones exist, but timing/effort, dependencies or the team's ability to execute them is unclear.",
+        "4": "Milestone sequence, indicative effort/timing and team responsibilities are plausible and explicit, with a minor dependency gap.",
+        "5": "The proposal explains what is built and validated in sequence, indicative effort or timing, dependencies and feedback/replanning points, justified by the team's available skills and capacity."
+      },
+      "boundary": "No fixed calendar or named methodology. Ranges with explicit uncertainty are acceptable; an unordered feature list is not a delivery plan.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:7",
+          "rr:6847465956a0f6376a6053a0:flat:18"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore timeline/model substance without forcing a methodology name; milestones without feasibility are3, and delivery model is judged through actual feedback and sequencing."
+      }
+    },
+    {
+      "id": "PT.D1.14",
+      "dimension": "D1",
+      "title": "Personal-data obligations",
+      "question": "Does the proposal address personal-data handling and the privacy context relevant to its users and deployment?",
+      "anchors": {
+        "1": "No privacy handling.",
+        "2": "Only asserts compliance or mentions a statute.",
+        "3": "Data or obligations are identified, but a consequential collection, retention, access or jurisdiction uncertainty has no response.",
+        "4": "Relevant personal-data handling and obligations/assumptions are clear, with a minor unresolved detail.",
+        "5": "The proposal connects personal data collected and retained to purpose, access/deletion handling and relevant jurisdiction assumptions; consequential unknown obligations have a concrete resolution step."
+      },
+      "boundary": "No mandatory GDPR/CCPA jurisdiction. Encryption alone does not answer purpose, retention or user-data obligations; this is plan content, not legal certification.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore privacy coverage separately from rights and moderation. Data inventory without response to a relevant obligation is3."
+      }
+    },
+    {
+      "id": "PT.D1.15",
+      "dimension": "D1",
+      "title": "Audio-use permission handling",
+      "question": "Does the proposal specify how the chosen audio content is authorized and how uncertain permissions are handled?",
+      "anchors": {
+        "1": "No audio-use permission consideration.",
+        "2": "Only says copyright does not apply or licensing will be handled.",
+        "3": "Identifies a content source but not who authorizes its use or what happens if permission is absent.",
+        "4": "Content model, authorization and unresolved-permission response are clear, with a minor responsibility gap.",
+        "5": "For the chosen content model, the proposal identifies permission authority, how permission is established and who prevents or resolves unauthorized use."
+      },
+      "boundary": "Original user audio is eligible; commercial music licences are not compulsory. A named content model is not proof of permission.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore independent content-rights scope; strong privacy cannot hide absent permission handling."
+      }
+    },
+    {
+      "id": "PT.D1.16",
+      "dimension": "D1",
+      "title": "Accountable chat-content handling",
+      "question": "Does the proposal define how chat-content problems are reported or detected and resolved under a responsible policy process?",
+      "anchors": {
+        "1": "No moderation plan.",
+        "2": "Only promises moderation or names a filter.",
+        "3": "A rule, detector or moderator is named, but reporting/detection, responsibility or action is missing.",
+        "4": "A chat-content problem has a clear responsible action path, with a minor escalation detail unclear.",
+        "5": "The proposal states relevant content-policy boundaries and links detection/reporting to accountable review or automated decisions, actions and handling of contested or escalated cases."
+      },
+      "boundary": "No mandatory moderation vendor, all-human team or public-chat model. Closed chat still needs a proportionate responsibility path; rate limiting alone is service-abuse protection.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "Restore direct moderation coverage without merging legal domains. Detection with no responsible action scores3."
+      }
+    }
+  ],
+  "pairwise": [
+    {
+      "id": "PW.D3.01",
+      "dimension": "D3",
+      "title": "Which proposal provides the more coherent end-to-end audio and chat behavior?",
+      "question": "Which proposal provides the more coherent end-to-end audio and chat behavior?",
+      "anchors": {
+        "0": "The proposals offer similar help with the origin-to-player and participant-to-recipient reasoning, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of the origin-to-player and participant-to-recipient reasoning; B may still be locally better.",
+        "2": "A gives substantially stronger help with the origin-to-player and participant-to-recipient reasoning; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with the origin-to-player and participant-to-recipient reasoning; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of the origin-to-player and participant-to-recipient reasoning; A may still be locally better."
+      },
+      "boundary": "Do not require a particular protocol, CDN, microservice layout, or live-audio product assumption. Assess whether the stated inference follows from its premises under the stated conditions. More implementation artifacts, broader usefulness or a more detailed plan are not themselves stronger reasoning. Name the actual inference and any gap. Use the same comparison scope for both proposals: consider consequential audio, chat and shared-state claims across their stated workload, not only the winner's strongest path or failure example. Explain how opposing strengths affect the main end-to-end behavior; equally important opposed advantages give 0. Do not sum PT coverage.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D3.02",
+      "dimension": "D3",
+      "title": "Which proposal reasons more convincingly about behavior under load and failure for its stated workload?",
+      "question": "Which proposal reasons more convincingly about behavior under load and failure for its stated workload?",
+      "anchors": {
+        "0": "The proposals offer similar help with the reasoning about capacity limits, overload and failure responses, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of the reasoning about capacity limits, overload and failure responses; B may still be locally better.",
+        "2": "A gives substantially stronger help with the reasoning about capacity limits, overload and failure responses; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with the reasoning about capacity limits, overload and failure responses; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of the reasoning about capacity limits, overload and failure responses; A may still be locally better."
+      },
+      "boundary": "Do not require Kubernetes, multi-region service, or invented SLA targets. Assess whether the stated inference follows from its premises under the stated conditions. More implementation artifacts, broader usefulness or a more detailed plan are not themselves stronger reasoning. Name the actual inference and any gap. Use the same comparison scope for both proposals: consider consequential audio, chat and shared-state claims across their stated workload, not only the winner's strongest path or failure example. Explain how opposing strengths affect the main end-to-end behavior; equally important opposed advantages give 0. Do not sum PT coverage.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:5",
+          "rr:6847465956a0f6376a6053a0:flat:9"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.01",
+      "dimension": "D4",
+      "title": "Which proposal makes more useful technology trade-offs for this team and product?",
+      "question": "Which proposal makes more useful technology trade-offs for this team and product?",
+      "anchors": {
+        "0": "The proposals offer similar help with technology choices and their concrete product/team trade-offs, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of technology choices and their concrete product/team trade-offs; B may still be locally better.",
+        "2": "A gives substantially stronger help with technology choices and their concrete product/team trade-offs; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with technology choices and their concrete product/team trade-offs; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of technology choices and their concrete product/team trade-offs; A may still be locally better."
+      },
+      "boundary": "A longer alternatives table is not itself a benefit; do not reward any vendor by default. Assess which established or explicitly conditional contribution better resolves the requested choice or next action. Name that choice and the consequence. Do not award a second advantage merely because the same inference is more valid; validity constrains the usable contribution.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:2",
+          "rr:6847465956a0f6376a6053a0:flat:13"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.02",
+      "dimension": "D4",
+      "title": "Which proposal gives the team more useful implementation priorities?",
+      "question": "Which proposal better helps the team decide what to build or validate first, considering implementation dependencies, available capabilities and uncertainty?",
+      "anchors": {
+        "0": "The proposals provide comparable help with build/validation priorities, or neither gives usable prioritization. State which case applies.",
+        "1": "Overall, A gives slightly more useful guidance on an important build order or validation decision, although B may plan another part better.",
+        "2": "A gives substantially more useful build/validation priorities with their dependencies and feasibility conditions; B's local planning advantages do not make up for that difference.",
+        "-2": "B gives substantially more useful build/validation priorities with their dependencies and feasibility conditions; A's local planning advantages do not make up for that difference.",
+        "-1": "Overall, B gives slightly more useful guidance on an important build order or validation decision, although A may plan another part better."
+      },
+      "boundary": "Do not require named Agile/Scrum methods, a dated schedule or fixed phases. When a timeline is offered, its value depends on the stated dependencies and team assumptions, not the presence of dates. Count here only the consequence for build order, sequencing or resolving uncertainty. Budget trade-offs, day-to-day operation/release readiness and governance judgments belong to PW.D4.03, PW.D4.04.runtime/PW.D4.04.change and PW.D4.05.privacy/PW.D4.05.rights/PW.D4.05.moderation; security specification belongs to PT.D1.08. Do not award the same benefit twice.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:7"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D2.01",
+      "dimension": "D2",
+      "title": "Which proposal uses evidence that is more applicable to its central technical choices?",
+      "question": "Which proposal uses evidence that is more applicable to its central technical choices?",
+      "anchors": {
+        "0": "The proposals offer similar help with workload-, platform- and version-appropriate support for central choices, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of workload-, platform- and version-appropriate support for central choices; B may still be locally better.",
+        "2": "A gives substantially stronger help with workload-, platform- and version-appropriate support for central choices; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with workload-, platform- and version-appropriate support for central choices; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of workload-, platform- and version-appropriate support for central choices; A may still be locally better."
+      },
+      "boundary": "Do not count URLs; test relevance to the asserted platform, workload, and version.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D5.01",
+      "dimension": "D5",
+      "title": "Report organization and reading order",
+      "question": "Which report is easier for the intended audience to read as a whole, considering the order of ideas, helpful summaries and unnecessary repetition together?",
+      "anchors": {
+        "0": "The proposals offer similar help with the reading path from requirements through architecture to operating decisions, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of the reading path from requirements through architecture to operating decisions; B may still be locally better.",
+        "2": "A gives substantially stronger help with the reading path from requirements through architecture to operating decisions; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with the reading path from requirements through architecture to operating decisions; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of the reading path from requirements through architecture to operating decisions; A may still be locally better."
+      },
+      "boundary": "Read the original report. Judge ordering, transitions and the role of repeated material together, once. Summaries can help skimming; necessary technical detail is not waste. Do not prefer the shorter report or the query heading order by default. Sentence clarity and finding a specific detail/source are separate objects.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D6.01",
+      "dimension": "D6",
+      "title": "Which report communicates its existing ideas more clearly?",
+      "question": "Which report communicates its existing ideas more clearly?",
+      "anchors": {
+        "0": "The proposals offer similar help with the meaning of component roles, protocols and technical conditions, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of the meaning of component roles, protocols and technical conditions; B may still be locally better.",
+        "2": "A gives substantially stronger help with the meaning of component roles, protocols and technical conditions; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with the meaning of component roles, protocols and technical conditions; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of the meaning of component roles, protocols and technical conditions; A may still be locally better."
+      },
+      "boundary": "Judge comprehensibility of the ideas actually written: wording, referents, and local sentence/table labeling. Do not count whole-report repetition, section order, factual truth, or extra detail as a second benefit or defect. Internal span cuts are not original formatting.",
+      "provenance": {
+        "kind": "local_added",
+        "official_resource_ids": [],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D6.02",
+      "dimension": "D6",
+      "title": "Which report makes relevant details and their basis easier to locate?",
+      "question": "Which report makes relevant details and their basis easier to locate?",
+      "anchors": {
+        "0": "The proposals offer similar help with finding a component contract, assumption or its stated basis, equally important opposite advantages cancel, or neither offers help. State which applies.",
+        "1": "Overall, A is somewhat more helpful with an important aspect of finding a component contract, assumption or its stated basis; B may still be locally better.",
+        "2": "A gives substantially stronger help with finding a component contract, assumption or its stated basis; B's local strengths do not close that gap.",
+        "-2": "B gives substantially stronger help with finding a component contract, assumption or its stated basis; A's local strengths do not close that gap.",
+        "-1": "Overall, B is somewhat more helpful with an important aspect of finding a component contract, assumption or its stated basis; A may still be locally better."
+      },
+      "boundary": "Judge the actual steps to find a specific requested detail and its stated source. Do not count macro repetition or source validity again. Original links and named citations may provide different lookup paths; link counts are not scores. Internal span cuts are not broken original URLs.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:1"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.03",
+      "dimension": "D4",
+      "title": "Cost and resource trade-offs",
+      "question": "Which proposal better helps this medium-sized company understand how its audio-and-chat design's costs and staffing burden change with use, growth and ongoing operation?",
+      "anchors": {
+        "0": "The proposals give comparable usable insight into cost/resource consequences, or neither goes beyond unsupported totals or generic claims of low cost. State which case applies.",
+        "1": "Overall, A gives slightly more useful insight into an important workload-dependent cost or staffing burden, although B may illuminate another cost better.",
+        "2": "A's grounded or explicitly conditional cost/resource analysis materially improves a central affordability or growth decision; B's local budget advantages do not make up for the difference.",
+        "-2": "B's grounded or explicitly conditional cost/resource analysis materially improves a central affordability or growth decision; A's local budget advantages do not make up for the difference.",
+        "-1": "Overall, B gives slightly more useful insight into an important workload-dependent cost or staffing burden, although A may illuminate another cost better."
+      },
+      "boundary": "Compare implications of costs, not table length, vendor preference or precision of invented prices. Qualitative cost drivers, transparent estimates and justified scenarios are all eligible; fixed low/medium/high cases or a full financial model are not required. Identify the usage, maintenance or staffing change and the decision it affects. A proposal with no such analysis cannot be preferred on this item to one providing usable analysis, all else equal. Price/support errors are handled in D2; generic technology rationale is PT.D1.06. Do not count the same cost advantage again in PW.D4.01.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:4"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.04.runtime",
+      "dimension": "D4",
+      "title": "Running-service monitoring and response",
+      "question": "Which proposal better helps the team turn observations of a running audio/chat service into a diagnosis and an appropriate incident response?",
+      "anchors": {
+        "0": "The proposals provide comparably usable signal-to-response paths, or neither connects service observations to usable incident action. State which case applies.",
+        "1": "A makes an important signal-to-response decision slightly more usable, although B may explain another step in that incident path better.",
+        "2": "A makes the path from a relevant service signal to diagnosis and response substantially more usable; B's local monitoring strengths do not make up for its broken or unclear response path.",
+        "-2": "B makes the path from a relevant service signal to diagnosis and response substantially more usable; A's local monitoring strengths do not make up for its broken or unclear response path.",
+        "-1": "B makes an important signal-to-response decision slightly more usable, although A may explain another step in that incident path better."
+      },
+      "boundary": "Judge one relation: what an observed service condition lets the team diagnose and do. Monitoring without a usable diagnosis/action link does not establish a better complete response path; response advice without a recognizable trigger has the reciprocal gap. Name the missing link, not a trade-off against unrelated release practices. Logs, metrics, traces and analytics are possible means, not a checklist. Do not require logging chat contents or named tools. Exclude planned-change validation, rollout and rollback, which belong to PW.D4.04.change. Do not rescore hosting placement or capacity reasoning.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:8",
+          "rr:6847465956a0f6376a6053a0:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.04.change",
+      "dimension": "D4",
+      "title": "Change validation, release and recovery",
+      "question": "Which proposal better helps the team decide whether and how a service change can be released, and what to do if that change fails?",
+      "anchors": {
+        "0": "The proposals provide comparably usable change-control paths, or neither explains usable release and failed-change decisions. State which case applies.",
+        "1": "A slightly better resolves an important release/go-no-go or failed-change decision, although B may explain another part of that change path better.",
+        "2": "A gives a substantially more usable path from validation to release and a response to failed changes; B's local pipeline strengths do not make up for its unresolved change-control gap.",
+        "-2": "B gives a substantially more usable path from validation to release and a response to failed changes; A's local pipeline strengths do not make up for its unresolved change-control gap.",
+        "-1": "B slightly better resolves an important release/go-no-go or failed-change decision, although A may explain another part of that change path better."
+      },
+      "boundary": "Judge a proposed or newly released change as one conditional decision path. Tests matter through what they establish for release; recovery matters through what happens when that change fails. Fast automated deployment without a release criterion or failed-change response does not establish a more usable complete path. Rollback, roll-forward and other justified recovery routes are eligible; no CI product, infrastructure-as-code tool or deployment strategy is mandatory. Exclude general runtime incident response assessed in PW.D4.04.runtime. A release-specific signal may inform go/no-go here, but its general monitoring convenience must not be rewarded twice. Initial feature-build ordering remains PW.D4.02.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:10"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.05.privacy",
+      "dimension": "D4",
+      "title": "Privacy obligations in the chosen design",
+      "question": "Which proposal better helps the team decide how to handle personal data consistently with the privacy obligations and assumptions relevant to its product?",
+      "anchors": {
+        "0": "The proposals provide comparable help with relevant personal-data handling decisions, or neither connects privacy obligations to usable design decisions. State which case applies.",
+        "1": "A gives slightly more useful guidance for an important personal-data handling decision, although B may clarify another part of the same privacy context better.",
+        "2": "A gives substantially more usable guidance for a consequential personal-data handling decision under its stated privacy context; B's local privacy detail does not make up for its unresolved decision.",
+        "-2": "B gives substantially more usable guidance for a consequential personal-data handling decision under its stated privacy context; A's local privacy detail does not make up for its unresolved decision.",
+        "-1": "B gives slightly more useful guidance for an important personal-data handling decision, although A may clarify another part of the same privacy context better."
+      },
+      "boundary": "Judge the relationship between the personal data handled, the relevant obligation or stated uncertainty, and its design consequence. Data scope, retention or consent give that judgment context, rather than forming a mandatory legal checklist. Explicit assumptions and concrete steps to resolve an unknown jurisdiction can be useful; unsupported compliance assurances are not. No specific statute, jurisdiction or privacy architecture is required. Do not trade privacy help against audio copyright or chat moderation. D2 handles truth of legal assertions; PT.D1.08 handles technical protections, so encryption alone is not privacy-governance credit.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.05.rights",
+      "dimension": "D4",
+      "title": "Permission to stream audio content",
+      "question": "Which proposal better helps the team determine who can authorize use of the audio content and how unresolved content permissions affect the proposed service?",
+      "anchors": {
+        "0": "The proposals provide comparable help with audio-use permissions, or neither gives usable guidance on who authorizes content use and how missing permission is handled. State which case applies.",
+        "1": "A slightly better resolves an important audio-use permission question, although B may clarify another part of the same rights context better.",
+        "2": "A gives substantially more usable guidance for establishing or resolving audio-use permissions; B's local licensing detail does not make up for its unresolved permission decision.",
+        "-2": "B gives substantially more usable guidance for establishing or resolving audio-use permissions; A's local licensing detail does not make up for its unresolved permission decision.",
+        "-1": "B slightly better resolves an important audio-use permission question, although A may clarify another part of the same rights context better."
+      },
+      "boundary": "Judge content authorization for the selected content model and the consequence of missing or uncertain permission. Original user audio, licensed catalogues and other justified models are eligible; do not force commercial music licensing or a fixed rights-holder workflow. A content-model assumption must explain why permission is available or how it will be resolved, rather than merely assert that copyright does not apply. Privacy policies and chat moderation cannot substitute for this judgment. D2 handles legal factual accuracy; compare the usefulness of established or explicitly conditional rights decisions.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    },
+    {
+      "id": "PW.D4.05.moderation",
+      "dimension": "D4",
+      "title": "Chat moderation responsibility",
+      "question": "Which proposal better helps the team decide how a chat-content problem reaches an accountable moderator or process and leads to an appropriate moderation action?",
+      "anchors": {
+        "0": "The proposals provide comparable help with handling chat-content problems, or neither connects a problem to an accountable moderation decision. State which case applies.",
+        "1": "A slightly better resolves an important moderation-responsibility or action decision, although B may explain another part of the same moderation path better.",
+        "2": "A gives a substantially more usable path from a chat-content problem to an accountable moderation decision; B's local policy detail does not make up for its unresolved responsibility or action.",
+        "-2": "B gives a substantially more usable path from a chat-content problem to an accountable moderation decision; A's local policy detail does not make up for its unresolved responsibility or action.",
+        "-1": "B slightly better resolves an important moderation-responsibility or action decision, although A may explain another part of the same moderation path better."
+      },
+      "boundary": "Judge the path from identifying or reporting a chat-content issue to responsibility and action. Those links define one moderation decision, not separate rewards for a policy and an employee title. Human, automated and hybrid approaches are eligible; no specific filtering tool, policy or staffing model is required. Policy slogans without an accountable action path do not establish useful moderation. Do not compensate for a moderation gap with privacy or licensing detail. Technical service-abuse controls remain PT.D1.08; count only the distinct content-policy handling consequence here.",
+      "provenance": {
+        "kind": "official_adapted",
+        "official_resource_ids": [
+          "rr:6847465956a0f6376a6053a0:flat:19"
+        ],
+        "query_quotes": [],
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      }
+    }
+  ],
+  "official_disposition": [
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:1",
+      "targets": [
+        "PW.D6.02"
+      ],
+      "status": "adapted",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "Holding content fixed, replacing misleading headings with component-specific headings can favor the easier-to-search proposal under PW.D6.02 when the required lookup actually becomes easier. Merely adding official-style labels with no lookup improvement is not separately rewarded; the original label-presence distinction is lost.",
+      "reason": "The retained lookup item evaluates whether readers can find a specific component or decision in the original proposal; meaningful section labels can improve that operation. It does not require labelled sections as a format."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:2",
+      "targets": [
+        "PT.D1.02.deployment",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "If two proposals map components equally well but only one names an implementable environment/stack, it can reach deployment 5 while a central unspecified technology keeps the other at 3. A better justified hosting trade-off can separately affect PW.D4.01 only through a decision benefit, not because the vendor is on the official list. No full technical-suitability guarantee is claimed.",
+      "reason": "Revised deployment anchors now require an identified hosting environment and major technologies mapped to responsibilities. PW.D4.01 compares the usable choice consequence; there is no supplier whitelist."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:3",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "format",
+      "original_requirement_preserved": false,
+      "discrimination_check": "Two otherwise equally understandable proposals, one with a diagram and one with equally clear prose, are not separated solely by diagram presence. This official format-presence discrimination is intentionally lost.",
+      "reason": "Do not require an architecture diagram or flowchart: the query requests a technical proposal, not a visual format."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:4",
+      "targets": [
+        "PT.D1.10",
+        "PW.D4.03"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.10 directly checks usage/growth and maintenance/staffing budget scenarios; PW.D4.03 compares their affordability implications. A hosting bill with no staffing or growth context is3. Fixed scenario labels and a financial model remain optional.",
+      "reason": "PT.D1.10 directly checks usage/growth and maintenance/staffing budget scenarios; PW.D4.03 compares their affordability implications. A hosting bill with no staffing or growth context is3. Fixed scenario labels and a financial model remain optional."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:5",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.09 requires a concrete sudden-demand response, not merely a scalable-vendor name. PW.D3.02 compares whether that response actually bounds overload under the workload. Multiple CDNs and caching are examples, not obligations.",
+      "reason": "PT.D1.09 requires a concrete sudden-demand response, not merely a scalable-vendor name. PW.D3.02 compares whether that response actually bounds overload under the workload. Multiple CDNs and caching are examples, not obligations."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:6",
+      "targets": [],
+      "status": "deliberately_not_retained",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "Adding a comparable-product name with no design consequence does not change a required score. The original reward for at least one market example is intentionally lost, not claimed under scope relevance.",
+      "reason": "A market-product mention is not necessary to specify or justify this system and may reward name-dropping or an inappropriate live-audio assumption."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:7",
+      "targets": [
+        "PT.D1.13",
+        "PW.D4.02"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13 restores milestones, indicative timing/effort and team feasibility. PW.D4.02 compares useful priority decisions; dates without dependency reasoning cannot pass as a complete plan. Fixed phases remain optional.",
+      "reason": "PT.D1.13 restores milestones, indicative timing/effort and team feasibility. PW.D4.02 compares useful priority decisions; dates without dependency reasoning cannot pass as a complete plan. Fixed phases remain optional."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:8",
+      "targets": [
+        "PT.D1.11",
+        "PW.D4.04.runtime"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.11 restores runtime observation, diagnosis and responsible action across media/chat, usage and security. PW.D4.04.runtime independently compares the usable incident decision path. Every listed metric and chat-content logging are not required. Cross-review: missing usage/capacity observation is explicitly 3 in PT.D1.11; absent suitable validation is explicitly 3 in PT.D1.12 where applicable.",
+      "reason": "PT.D1.11 restores runtime observation, diagnosis and responsible action across media/chat, usage and security. PW.D4.04.runtime independently compares the usable incident decision path. Every listed metric and chat-content logging are not required."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:9",
+      "targets": [
+        "PT.D1.09",
+        "PW.D3.02"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.09 directly checks audio, chat and state capacity limits and responses; detailed audio scaling with ignored shared-state bottlenecks is3. PW.D3.02 tests the actual load/failure inference; no mandatory CQRS/sharding/multi-region.",
+      "reason": "PT.D1.09 directly checks audio, chat and state capacity limits and responses; detailed audio scaling with ignored shared-state bottlenecks is3. PW.D3.02 tests the actual load/failure inference; no mandatory CQRS/sharding/multi-region."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:10",
+      "targets": [
+        "PT.D1.11",
+        "PT.D1.12",
+        "PW.D4.04.runtime",
+        "PW.D4.04.change"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.11 covers runtime observability; PT.D1.12 covers automated validation, repeatable code/infrastructure deployment and failed-change response. The preserved separate runtime/change PWs compare their decision value. No particular CI/IaC tool is mandatory. Cross-review: missing usage/capacity observation is explicitly 3 in PT.D1.11; absent suitable validation is explicitly 3 in PT.D1.12 where applicable.",
+      "reason": "PT.D1.11 covers runtime observability; PT.D1.12 covers automated validation, repeatable code/infrastructure deployment and failed-change response. The preserved separate runtime/change PWs compare their decision value. No particular CI/IaC tool is mandatory."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:11",
+      "targets": [
+        "PT.D1.07"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "A proposal naming REST/WebSockets only scores 2; concrete contracts with an important missing result/delivery meaning score 3; explicit relevant contracts can reach 5. Literal HTTP endpoint examples are not compulsory: RPC methods, events and managed SDK operations can satisfy the same function. The original endpoint-example requirement is not preserved verbatim.",
+      "reason": "The new interface item requires a style and interpretable concrete operations/events for audio-related and chat interactions."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:12",
+      "targets": [
+        "PT.D1.08"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "Holding the system fixed, protection slogans score 2, a good login design that leaves a major credential or abuse exposure unaddressed scores 3, and explicit controls with clear responsibility/boundaries can score 5. No WAF, vault, specific encryption suite or rotation schedule is forced. The official examples are not a mandatory control checklist.",
+      "reason": "The added protection item explicitly evaluates access, sensitive data/credentials and service abuse, with a major unresolved exposure blocking 4/5."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:13",
+      "targets": [
+        "PT.D1.02.audio",
+        "PT.D1.06",
+        "PW.D4.01"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "An unspecified central transport caps path coverage at 3; naming one without a meaningful reason lowers PT.D1.06; an evidenced compatibility/latency trade-off can improve PW.D4.01. A justified single-protocol proposal is not penalized merely for omitting a multi-protocol comparison. That explicit comparison obligation is intentionally not preserved.",
+      "reason": "The revised path requires an identified transport; existing rationale anchors require reasons for major choices, and the trade-off item can compare the consequence of a protocol decision."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:14",
+      "targets": [
+        "PT.D1.02.audio"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "A component arrow diagram omitting how playable audio is represented or delivered has an important specification gap and scores 3; a fully specified path can score 5. Omission of a CDN or separate media server is not itself a defect when the route does not need it. The official component examples are not forced.",
+      "reason": "Revised audio-path anchors expressly require representation/encoding, transport and the serving/relaying/caching responsibility relevant to the chosen route."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:15",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "If the design depends on an unexplained low-latency requirement, that interpretive gap yields 3; a numeric or testable expectation with its context can enable 5. Official example values and an arbitrary SLA bundle are not required. Pure numeric-target presence is not preserved when a testable behavioral expectation is sufficient.",
+      "reason": "The revised assumptions anchor requires concrete, assessable performance expectations needed to interpret design choices, instead of generic quality aspirations."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:16",
+      "targets": [
+        "PT.D1.03"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "If both proposals name frameworks but only one explains a client behavior essential to its described product, the other has a material gap under 3 and the complete one may reach 5. A missing entire platform still scores 2. Not every accessibility, layout, background-audio or caching example is mandatory; differences on nonessential examples may not be distinguished.",
+      "reason": "The revised two-client item explicitly includes product-critical interaction and playback/network behavior while retaining the existing platform-imbalance anchors."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:17",
+      "targets": [
+        "PT.D1.06"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "For otherwise identical chosen technologies, meaningful task-related reasons can score 5 while generic slogans score 2 and important unexplained choices score 3. The baseline also accepts other relevant product/team reasons; it does not require a cost/performance discussion for every choice. That narrower official restriction is deliberately not fully retained.",
+      "reason": "Raw weight verified as -5. This is a negative criterion for technology choices without a relevant cost/performance justification, not an instruction to omit reasons. The existing rationale ladder penalizes absent or generic reasons."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:18",
+      "targets": [
+        "PT.D1.13"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.13 restores an actual delivery approach with dependencies and feedback/replanning justified by team capacity. A methodology name alone scores2. Agile/Scrum branding remains nonmandatory, but delivery substance is not omitted.",
+      "reason": "PT.D1.13 restores an actual delivery approach with dependencies and feedback/replanning justified by team capacity. A methodology name alone scores2. Agile/Scrum branding remains nonmandatory, but delivery substance is not omitted."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:19",
+      "targets": [
+        "PT.D1.14",
+        "PT.D1.15",
+        "PT.D1.16",
+        "PW.D4.05.privacy",
+        "PW.D4.05.rights",
+        "PW.D4.05.moderation"
+      ],
+      "status": "adapted",
+      "importance": "core",
+      "original_requirement_preserved": false,
+      "discrimination_check": "PT.D1.14,15,16 directly check privacy, audio permissions and chat-content responsibility separately. Existing PW.D4.05.privacy/rights/moderation separately compare the resulting decisions; one domain cannot compensate for another. Named statutes and specific tools are optional.",
+      "reason": "PT.D1.14,15,16 directly check privacy, audio permissions and chat-content responsibility separately. Existing PW.D4.05.privacy/rights/moderation separately compare the resulting decisions; one domain cannot compensate for another. Named statutes and specific tools are optional."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:20",
+      "targets": [
+        "PT.D1.05"
+      ],
+      "status": "retained",
+      "importance": "core",
+      "original_requirement_preserved": true,
+      "discrimination_check": "Adding an unsupported video-codec/game-engine/blockchain detour to an otherwise on-topic proposal moves it from 5 to 4 if isolated and weakly connected, or to 3 when it is an obvious unhelpful side branch; major off-topic sections can score 2. An actually justified use is not penalized solely for its name. This preserves the negative direction without turning the examples into a blacklist.",
+      "reason": "Raw weight verified as -5. This is a negative criterion for unjustified irrelevant technologies. Existing scope anchors lower scores for irrelevant side branches and distinguish necessary explanatory context."
+    },
+    {
+      "resource_id": "rr:6847465956a0f6376a6053a0:flat:21",
+      "targets": [
+        "PT.D1.01"
+      ],
+      "status": "adapted",
+      "importance": "supporting",
+      "original_requirement_preserved": false,
+      "discrimination_check": "If a deployment or delivery choice depends on mobile/operations expertise that is not stated, PT.D1.01 can remain at 3; explicit relevant capabilities/availability can enable 5. A full headcount and specialization roster is not compulsory when it does not affect interpretation. The original blanket team-composition disclosure is therefore only partially preserved.",
+      "reason": "The revised design-context anchor expressly names the capabilities or availability the proposal relies on. It does not assume that an experienced team implies unlimited staffing or every specialty."
+    }
+  ],
+  "atomicity_check": [
+    {
+      "id": "PT.D1.01",
+      "decision": "retained",
+      "reason": "Workload and targets define assumptions; clear product without a relied-on team capability is3, not a separate staffing checklist."
+    },
+    {
+      "id": "PT.D1.02.audio",
+      "decision": "retained",
+      "reason": "Encoding/transport without a playable client handoff is3; keep the end-to-end path intact."
+    },
+    {
+      "id": "PT.D1.02.chat",
+      "decision": "retained",
+      "reason": "Submission without routing or recipient delivery is3; these are one message path."
+    },
+    {
+      "id": "PT.D1.02.deployment",
+      "decision": "retained",
+      "reason": "Clear component list without hosting or implementation for a central component is3."
+    },
+    {
+      "id": "PT.D1.03",
+      "decision": "retained",
+      "reason": "One client absent is2, present but materially underspecified is3; no platform averages."
+    },
+    {
+      "id": "PT.D1.05",
+      "decision": "retained",
+      "reason": "Unjustified irrelevant technology is a negative boundary: isolated weak connection4, substantive detour3; preserve flat20's -5 meaning."
+    },
+    {
+      "id": "PT.D2.01",
+      "decision": "retained",
+      "reason": "A source list without claim attribution is3; one traceability relationship."
+    },
+    {
+      "id": "PT.D2.02",
+      "decision": "retained",
+      "reason": "Mixed verified support is3; retrieval failure is outside quality scoring."
+    },
+    {
+      "id": "PT.D2.04",
+      "decision": "retained",
+      "reason": "Compatible names cannot compensate for a substantive contradictory technical condition, which scores3 or2 by importance."
+    },
+    {
+      "id": "PT.D1.06",
+      "decision": "retained",
+      "reason": "Important unexplained choices are3, slogans2; preserve flat17's -5 direction, not an instruction to omit rationale."
+    },
+    {
+      "id": "PT.D1.07",
+      "decision": "retained",
+      "reason": "Concrete operation without result/delivery meaning is3; contract input and output stay together."
+    },
+    {
+      "id": "PT.D1.08",
+      "decision": "retained",
+      "reason": "Strong login but unaddressed major credential or abuse exposure is3; security is not proof of privacy compliance."
+    },
+    {
+      "id": "PW.D3.01",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with the origin-to-player and participant-to-recipient reasoning; compare both proposals' consequential claims on this object, not a selected strongest example. Cross-review: shared scope and opposing-strength handling are now explicit in the boundary."
+    },
+    {
+      "id": "PW.D3.02",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with the reasoning about capacity limits, overload and failure responses; compare both proposals' consequential claims on this object, not a selected strongest example. Cross-review: shared scope and opposing-strength handling are now explicit in the boundary."
+    },
+    {
+      "id": "PW.D4.01",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with technology choices and their concrete product/team trade-offs; compare both proposals' consequential claims on this object, not a selected strongest example."
+    },
+    {
+      "id": "PW.D4.02",
+      "decision": "retained",
+      "reason": "Build order and validation priorities form a decision comparison: opposite local planning strengths must be weighed by their effect on the build decision; use 0/±1/±2, not PT 1–5 bands."
+    },
+    {
+      "id": "PW.D2.01",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with workload-, platform- and version-appropriate support for central choices; compare both proposals' consequential claims on this object, not a selected strongest example."
+    },
+    {
+      "id": "PW.D5.01",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with the reading path from requirements through architecture to operating decisions; compare both proposals' consequential claims on this object, not a selected strongest example."
+    },
+    {
+      "id": "PW.D6.01",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with the meaning of component roles, protocols and technical conditions; compare both proposals' consequential claims on this object, not a selected strongest example."
+    },
+    {
+      "id": "PW.D6.02",
+      "decision": "rewritten",
+      "reason": "Replace generic anchors with finding a component contract, assumption or its stated basis; compare both proposals' consequential claims on this object, not a selected strongest example."
+    },
+    {
+      "id": "PW.D4.03",
+      "decision": "retained",
+      "reason": "Cost drivers and affordability consequences form one decision comparison; consider opposing workload and staffing advantages under 0/±1/±2, not nonexistent PW 3/4 bands."
+    },
+    {
+      "id": "PW.D4.04.runtime",
+      "decision": "retained",
+      "reason": "Preserve earlier split: Judge one relation: what an observed service condition lets the team diagnose and do. Monitoring without a usable diagnosis/action link does not establish a better complete response path; response advice without a recognizable trigger has the reciprocal gap. Name the missing link, not a trade-off against unrelated release practices. Logs, metrics, traces and analytics are possible means, not a checklist. Do not require logging chat contents or named tools. Exclude planned-change validation, rollout and rollback, which belong to PW.D4.04.change. Do not rescore hosting placement or capacity reasoning."
+    },
+    {
+      "id": "PW.D4.04.change",
+      "decision": "retained",
+      "reason": "Preserve earlier split: Judge a proposed or newly released change as one conditional decision path. Tests matter through what they establish for release; recovery matters through what happens when that change fails. Fast automated deployment without a release criterion or failed-change response does not establish a more usable complete path. Rollback, roll-forward and other justified recovery routes are eligible; no CI product, infrastructure-as-code tool or deployment strategy is mandatory. Exclude general runtime incident response assessed in PW.D4.04.runtime. A release-specific signal may inform go/no-go here, but its general monitoring convenience must not be rewarded twice. Initial feature-build ordering remains PW.D4.02."
+    },
+    {
+      "id": "PW.D4.05.privacy",
+      "decision": "retained",
+      "reason": "Preserve earlier split: Judge the relationship between the personal data handled, the relevant obligation or stated uncertainty, and its design consequence. Data scope, retention or consent give that judgment context, rather than forming a mandatory legal checklist. Explicit assumptions and concrete steps to resolve an unknown jurisdiction can be useful; unsupported compliance assurances are not. No specific statute, jurisdiction or privacy architecture is required. Do not trade privacy help against audio copyright or chat moderation. D2 handles truth of legal assertions; PT.D1.08 handles technical protections, so encryption alone is not privacy-governance credit."
+    },
+    {
+      "id": "PW.D4.05.rights",
+      "decision": "retained",
+      "reason": "Preserve earlier split: Judge content authorization for the selected content model and the consequence of missing or uncertain permission. Original user audio, licensed catalogues and other justified models are eligible; do not force commercial music licensing or a fixed rights-holder workflow. A content-model assumption must explain why permission is available or how it will be resolved, rather than merely assert that copyright does not apply. Privacy policies and chat moderation cannot substitute for this judgment. D2 handles legal factual accuracy; compare the usefulness of established or explicitly conditional rights decisions."
+    },
+    {
+      "id": "PW.D4.05.moderation",
+      "decision": "retained",
+      "reason": "Preserve earlier split: Judge the path from identifying or reporting a chat-content issue to responsibility and action. Those links define one moderation decision, not separate rewards for a policy and an employee title. Human, automated and hybrid approaches are eligible; no specific filtering tool, policy or staffing model is required. Policy slogans without an accountable action path do not establish useful moderation. Do not compensate for a moderation gap with privacy or licensing detail. Technical service-abuse controls remain PT.D1.08; count only the distinct content-policy handling consequence here."
+    },
+    {
+      "id": "PT.D1.09",
+      "decision": "added",
+      "reason": "Restore direct scaling-plan coverage; a strong media path cannot compensate for an unaddressed chat/state bottleneck. Capacity and the behavior at its boundary are one specification."
+    },
+    {
+      "id": "PT.D1.10",
+      "decision": "added",
+      "reason": "Restore budget substance from PW-only coverage. Hosting cost detail without maintenance/staffing implications scores3; price precision is not a separate reward."
+    },
+    {
+      "id": "PT.D1.11",
+      "decision": "added",
+      "reason": "Directly checks the runtime maintenance plan previously only compared in PW. Signals without response or response without a trigger are reciprocal3 cases. Cross-review: the middle anchor explicitly includes usage/capacity, matching the high anchor."
+    },
+    {
+      "id": "PT.D1.12",
+      "decision": "added",
+      "reason": "Restore DevOps and automated validation content. Fast deployment with no validation or failure response scores3; these are one conditional change path. Cross-review: validation absence is explicit even if a release gate is named."
+    },
+    {
+      "id": "PT.D1.13",
+      "decision": "added",
+      "reason": "Restore timeline/model substance without forcing a methodology name; milestones without feasibility are3, and delivery model is judged through actual feedback and sequencing."
+    },
+    {
+      "id": "PT.D1.14",
+      "decision": "added",
+      "reason": "Restore privacy coverage separately from rights and moderation. Data inventory without response to a relevant obligation is3."
+    },
+    {
+      "id": "PT.D1.15",
+      "decision": "added",
+      "reason": "Restore independent content-rights scope; strong privacy cannot hide absent permission handling."
+    },
+    {
+      "id": "PT.D1.16",
+      "decision": "added",
+      "reason": "Restore direct moderation coverage without merging legal domains. Detection with no responsible action scores3."
+    }
+  ],
+  "author_notes": [
+    "Seed provenance/disposition restored from official_checks/rr_6847465956a0f6376a6053a0.md. Raw flat17 and flat20 are -5, retained as negative boundaries, never reversed.",
+    "v3.3 author repair: Restored direct plan coverage for capacity/spikes, budget, runtime operations, change validation, delivery sequence and three separate governance domains (PT.D1.09–16). Preserved the prior runtime/change and privacy/rights/moderation PW splits; made generic PW anchors task-specific.",
+    "This is an author self-check, not independent review. Remaining review risks: Architecture diagrams, market-product names, supplier/codec lists, exact performance targets and named Agile methods remain unrequired with explicit losses. Cost estimates can be conditional, not invented prices; legal planning is not legal certification. The joint load/failure PW still needs careful comparison of equally important opposing bottleneck claims; no independent review is claimed.",
+    "This v3.3 pass checked only the seven batch5 tasks: unchanged queries, five anchors, unique IDs, official membership and reverse mappings, and item-level atomicity records. Complete disposition records do not mean every original distinction is preserved."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "revision": "paper-2026-11-16-main9-v1",
+  "benchmark": "CompareDR",
+  "snapshot_date": "2026-11-16",
+  "cohort": "main9",
+  "systems": 9,
+  "queries": 40,
+  "reports": 360,
+  "within_query_pairs": 1440,
+  "score_scale": [
+    0,
+    100
+  ],
+  "weights": {
+    "D1": 30,
+    "D2": 30,
+    "D3": 10,
+    "D4": 10,
+    "D5_D6": 20
+  },
+  "protocol": {
+    "judge": "GPT-5.5",
+    "reasoning": "medium",
+    "verifier": "deepseek-v4.1-flash",
+    "verifier_reasoning": "disabled",
+    "note": "Leaderboard model names identify report-generation systems, not the judge."
+  },
+  "comparison_scope": "Scores depend on the comparison pool; an added system requires a consistently aggregated expanded cohort.",
+  "rows": [
+    {
+      "model": "GPT-6",
+      "harness": "ChatGPT Deep Research",
+      "D1": 93.07405773352464,
+      "D2": 86.087726202319,
+      "D3": 74.82971292295643,
+      "D4": 73.74148962930512,
+      "D5_D6": 72.34909691824973,
+      "overall": 83.07547481962924,
+      "rank": 1
+    },
+    {
+      "model": "LongCat",
+      "harness": "LongCat-DeepResearch",
+      "D1": 93.59111061045078,
+      "D2": 83.59804930788616,
+      "D3": 82.63726674170437,
+      "D4": 78.78616340642968,
+      "D5_D6": 66.612559276286,
+      "overall": 82.62160284557167,
+      "rank": 2
+    },
+    {
+      "model": "Kimi K3",
+      "harness": "Kimi Researcher",
+      "D1": 90.87785596165529,
+      "D2": 76.55302161975376,
+      "D3": 70.19424636661502,
+      "D4": 67.04107067059918,
+      "D5_D6": 74.52350585756942,
+      "overall": 78.85749614965802,
+      "rank": 3
+    },
+    {
+      "model": "Claude Opus 5",
+      "harness": "Claude Research",
+      "D1": 86.74396101726789,
+      "D2": 69.5847805809174,
+      "D3": 52.02817243965914,
+      "D4": 57.60584040666633,
+      "D5_D6": 45.33458496412514,
+      "overall": 66.92894075691318,
+      "rank": 4
+    },
+    {
+      "model": "MiniMax M3",
+      "harness": "MiniMax Agent",
+      "D1": 84.41293076763276,
+      "D2": 60.85441008590442,
+      "D3": 47.3250049408881,
+      "D4": 46.191108128064585,
+      "D5_D6": 57.62885315863093,
+      "overall": 64.45758419468264,
+      "rank": 5
+    },
+    {
+      "model": "GPT-5.5",
+      "harness": "GPT Researcher",
+      "D1": 78.85914256989139,
+      "D2": 59.11196056510649,
+      "D3": 36.34960225620139,
+      "D4": 46.75364900125712,
+      "D5_D6": 46.30316277965955,
+      "overall": 58.96228862217714,
+      "rank": 6
+    },
+    {
+      "model": "—",
+      "harness": "DuMate Deep Research",
+      "D1": 82.92219028713802,
+      "D2": 50.24424024944388,
+      "D3": 35.07892873198149,
+      "D4": 37.92874442971922,
+      "D5_D6": 44.04764953504134,
+      "overall": 56.06022638415294,
+      "rank": 7
+    },
+    {
+      "model": "Gemini 3.7 Flash",
+      "harness": "Gemini Deep Research",
+      "D1": 81.25454470709889,
+      "D2": 46.1146347604769,
+      "D3": 35.50707385636582,
+      "D4": 27.729977770620735,
+      "D5_D6": 33.41603502762487,
+      "overall": 51.21766600849636,
+      "rank": 8
+    },
+    {
+      "model": "Qwen 3.8 Max",
+      "harness": "Qwen Deep Research",
+      "D1": 70.18052175453974,
+      "D2": 39.595968294858636,
+      "D3": 16.049991743628244,
+      "D4": 14.221956557338036,
+      "D5_D6": 12.440802482813037,
+      "overall": 38.448302341478765,
+      "rank": 9
+    }
+  ]
+}
