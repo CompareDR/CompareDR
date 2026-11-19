@@ -1,7 +1,7 @@
 {
-  "source": "CompareDR public-v8-nine-systems",
-  "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
-  "presentation_metadata_sha256": "8a663a95089d6acc055a89d483c0540f5ce862134eab8d5e3f7a73979b839967",
+  "source": "CompareDR public-v8-nine-systems-author-sync",
+  "source_sha256": "f767c077ea74ca3e98ae836d8d07a8ffd84b353a948520238e3b8594d00ab086",
+  "presentation_metadata_sha256": "ae8271e63aec10be43af45319441a284c9d8bc773ad347be8fc6f90e26c04618",
   "figure_sha256": {
     "framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
     "framework.pdf": "c335817fccdd488cd47076c948e875a458c14eb187cd21bc84444d696b598bc9"
@@ -23,8 +23,12 @@
   },
   "stylesheet_unchanged": true,
   "files": {
+    "dist/DATA_LICENSE.md": "59c86285c94a8c1760d8b6c6091c7a564db063b71223e58f51d28b67072c42d2",
+    "dist/LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "dist/NOTICE": "f62ee1acdb18c9a9633721befd804181fbc3e62d6239602a4316518ba119085f",
+    "dist/THIRD_PARTY_NOTICES.md": "0a450e6c15869812e9eec94141599645a68b4f07453f7a5584ca086611841f3f",
     "dist/assets/app.js": "2281e9b04346ab53e60faae014948ad639e55c5c29f99297f981edc565a1f0b8",
-    "dist/assets/data.js": "d9ae6b8b94a64c48ca6109c4ffe6fe0c5fef53cee84123c82ecc0e524bbcb7da",
+    "dist/assets/data.js": "a64c68e11598c308a15fadbeaf65982e3bee70ec7dc0e23d274d96ad7069b834",
     "dist/assets/framework.pdf": "c335817fccdd488cd47076c948e875a458c14eb187cd21bc84444d696b598bc9",
     "dist/assets/framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
     "dist/assets/leaderboard.css": "62a3f958304b7d53132dabbb2b48b5b9c11dd0ea154d8238d5d5c3bb9ff5e69e",
@@ -34,14 +38,23 @@
     "dist/assets/style.css": "976098e132e15bce09aded1b5cf192f02def751aaa07b679d46c94605a58be81",
     "dist/assets/table2_domain_distribution.svg": "e0c3cabd128db34e62846a46f1b61b685f0fcaea6c0323a095f4afe813e2df00",
     "dist/comparedr.bib": "42ffe3bf8788d877dc78b24c6bab62317ef27267038962731365eb9b349dce98",
-    "dist/data.json": "85f656dc0da6c3b82bdc261ed2d0a352baba98f267a4628eb0e5f8de2611c48d",
-    "dist/experiment_results.json": "a91e2996154915b4d8b56296839caf5134b7fc4101d4b182c1311dc3ee483595",
-    "dist/index.html": "ff1db8609149b2907a7ffd0f43f8b1389acf39392dd270da0a1cf1a51ffa846f",
+    "dist/data.json": "edb48a02ebfc838340937a5d0c9abd5185c88723eaf2b4041d867fc28a9c8238",
+    "dist/experiment_results.json": "65786f385e23a4e11f0087390576b33914355bdd6569b3b0d753aff0ab7942d2",
+    "dist/index.html": "49cb0ed0cdfa1d4e67dc4c30492cf2be99135320c6313477283e28b2dc957ba4",
     "dist/leaderboard.csv": "d3ddfd1bd582a3e9be9530775c44885870a9f95bd0556422b0f35ae82d36df10",
-    "dist/leaderboard.html": "eb45a411f8e6cec0b4cf0c113b22d5d009a422bfc9f79ca4ba1f7823c2173dee",
+    "dist/leaderboard.html": "5bd9add3a85a9af5366a034c8d842c14d73be36a1b4c9719ce4e609ee86738c4",
     "dist/leaderboard.json": "326e4039f28370aa316f9482f7375bf1d2b39cfe142840b3ae86ec3aa31c6f52",
+    "dist/licenses/CC-BY-4.0.txt": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+    "dist/licenses/CRITERION_LICENSE_MAP.json": "3b9b1a09dc0e24aabe903f42a01cf4c583d80dcea4d2d9bd23b6466397b409dd",
+    "dist/licenses/DRB-I-LICENSE.txt": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "dist/licenses/DRB-II-CODE-LICENSE.txt": "80bc9fe3eb9ed21cfd800df9d36304c05c3d95d4db2053e17989fe5d72cebcdc",
+    "dist/licenses/DRB-II-DATA-LICENSE.txt": "f765ec6ba0a039cc26bc8adff5f19b6f463bbcb76543133fc7d09fdca0416746",
+    "dist/licenses/DRB2_ARTICLE_ATTRIBUTIONS.md": "eb19624ce1fddc699bc7a626502dfc3762dc6873802cb9c6335ec9d3d08b84c8",
+    "dist/licenses/LONGCAT_MIT_LICENSE.txt": "eb09fa9ea85b06d066fda22108d72d3acb0e08c71cb0f414abc08160e697bd56",
+    "dist/licenses/QUERY_LICENSE_MATRIX.md": "7bcca87f4863a1e7d464e44b8ae9b9ce74820529bbd518672336d3422e9d5fb0",
+    "dist/licenses/ResearchRubrics-MIT-LICENSE.txt": "51710a6c9d8bc698d3cae02c46c07e821d8ba84272f3db528f803a5412406ba8",
     "dist/participation.md": "2f105c79e159c707a2b3f03bdcac28256f2e48dd233371206bcb448c508b0be6",
-    "dist/submission-format.md": "4dd44d8d82183e2b3470e4227c997720dca2f4ac1e92eb965672e6586415f999",
-    "dist/submission-template.zip": "2048610ac4dc9a311560c32647fa6c5891054c6929af153d8ba928265b2c281b"
+    "dist/submission-format.md": "3b2b53897569a0be2626e571c386db164403ec827acd2d1978d9f1fa12005e4c",
+    "dist/submission-template.zip": "058a631031e1cb752590de711420e9c9148dc84084582fea370a6cb662f7e00d"
   }
 }

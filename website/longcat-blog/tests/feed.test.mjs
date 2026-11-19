@@ -1,5 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {content} from '../src/content.mjs';
+test('both languages report the common-set calibrated macro-F1, not accuracy', () => {
+  for (const lang of ['zh','en']) {
+    const text = content[lang].validationBody;
+    for (const part of ['119', 'macro-F1', '64.2%', '37.8%']) assert.ok(text.includes(part));
+    assert.ok(!text.includes('64.7%'));
+  }
+});
 import fs from 'node:fs';
 import {validateFeed,fetchFeed,chooseFeed,safeFeedURL,DIMENSIONS} from '../src/feed.mjs';
 const original = JSON.parse(fs.readFileSync(new URL('../../dist/leaderboard.json',import.meta.url)));

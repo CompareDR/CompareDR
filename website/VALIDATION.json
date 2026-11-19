@@ -1,8 +1,8 @@
 {
   "status": "passed",
-  "tests": 29,
-  "checked_on": "2026-11-18",
-  "scope": "Local academic project-page update with collapsed authors, exact paper workflow, concrete criteria explorer, resource directory and manuscript citation; numerical inputs retained",
+  "tests": 30,
+  "checked_on": "2026-11-19",
+  "scope": "Standalone site unit tests, including a clean build, the 40-query and 80-criterion attribution payload, and alignment with the current manuscript authors. Browser interaction observations below are from the prior presentation review.",
   "synchronized_score_surfaces": [
     "README.md",
     "LEADERBOARD.md",
@@ -13,8 +13,8 @@
     "website/dist/data.json",
     "website/dist/assets/data.js"
   ],
-  "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
-  "pdf_sha256": "9601062a42df499ad3688a1f7bcf5b51635bd5b8c6272debedc61d54eaee96d5",
+  "source_sha256": "f767c077ea74ca3e98ae836d8d07a8ffd84b353a948520238e3b8594d00ab086",
+  "pdf_sha256": "d49c7cf786a8de98695d1fca1bc8eed59377959b1f372622a8160e0466ea0464",
   "same_baseline_stylesheet_and_domain_chart": true,
   "presentation_override": "templates/project.css",
   "authors_collapsed_by_default": true,

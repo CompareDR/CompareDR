@@ -4,7 +4,10 @@ Local preparation only; no deployment or public address is configured.
 The numerical results, system names and title remain synchronized with the saved
 16 November 2026 manuscript. Author order, name capitalization and affiliations
 are presentation metadata in `site_metadata.json`, following the owner's latest
-confirmed list rather than modifying the frozen experimental manuscript.
+confirmed list. The current manuscript source, PDF metadata and both sites use
+the same order and affiliation numbering. The historical numerical reference
+in `reproduction/offline/paper/` remains frozen. For the current paper and
+its asset hashes, see [the release snapshot](manuscript/source/PAPER_MANIFEST.json).
 
 The 18 November presentation update retains the blue/white identity and the
 baseline stylesheet, with layout changes isolated in `templates/project.css`:

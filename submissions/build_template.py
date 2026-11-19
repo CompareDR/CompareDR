@@ -3,6 +3,7 @@ import hashlib
 import json
 import zipfile
 from pathlib import Path
+from attribution import query_notices
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parent
@@ -38,6 +39,7 @@ def build():
         'submission/validate.py':(HERE/'validate.py').read_bytes(),
         'submission/README.md':readme.encode('utf-8'),
         'submission/reports/README.md':b'Place reports here as <query_id>.md. See submission.json for all 40 exact filenames. No example report counts as a system output.\n'}
+    files.update({'submission/'+name: content for name, content in query_notices().items()})
     out = REPO / 'website/dist/submission-template.zip'
     out.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(out, 'w', compression=zipfile.ZIP_DEFLATED) as archive:

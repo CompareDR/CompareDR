@@ -20,3 +20,8 @@ technical report and research-harness code are linked from the blog.
 `SOURCE_PACKAGES.json` records the historical input package receipts, not a
 claim that the current public-facing files match those earlier website archives
 byte for byte. Scientific input hashes and report manifests remain authoritative.
+
+The current [manuscript source](website/manuscript/source/main.tex) and
+[PDF](website/manuscript/CompareDR.pdf) share the author list on the first
+page. Use the [paper manifest](website/manuscript/source/PAPER_MANIFEST.json)
+for the presentation snapshot, not the historical experimental input hashes.

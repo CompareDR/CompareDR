@@ -43,7 +43,7 @@ The following notices apply to the retained material, not to unrelated project c
 The blog uses the unmodified logo and harness illustration from
 [meituan-longcat/LongCat-DeepResearch](https://github.com/meituan-longcat/LongCat-DeepResearch).
 Its MIT notice (`Copyright (c) 2026 LongCat`) is included at
-[LONGCAT_MIT_LICENSE.txt](website/longcat-blog/vendor/LONGCAT_MIT_LICENSE.txt).
+[LONGCAT_MIT_LICENSE.txt](licenses/LONGCAT_MIT_LICENSE.txt).
 
 ## Attribution maps and other material
 

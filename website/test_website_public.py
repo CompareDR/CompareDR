@@ -43,6 +43,12 @@ class PublicWebsiteTests(unittest.TestCase):
             for directory in ('docs','evaluation','experiments','reproduction','data/reports','data/annotations'):
                 shutil.copytree(ROOT.parent/directory,root.parent/directory,ignore=shutil.ignore_patterns('__pycache__'))
             shutil.copy2(ROOT.parent/'README.md',root.parent/'README.md')
+            for name in ('LICENSE','NOTICE','DATA_LICENSE.md','THIRD_PARTY_NOTICES.md'):
+                shutil.copy2(ROOT.parent/name,root.parent/name)
+            shutil.copytree(ROOT.parent/'licenses',root.parent/'licenses')
+            vendor = Path('longcat-blog/vendor/LONGCAT_MIT_LICENSE.txt')
+            (root/vendor.parent).mkdir(parents=True)
+            shutil.copy2(ROOT/vendor,root/vendor)
             for name in ('manuscript','baseline','templates'):
                 shutil.copytree(ROOT/name,root/name)
             shutil.copy2(ROOT/'sync_comparedr.py',root/'sync_comparedr.py')
@@ -168,9 +174,35 @@ class PublicWebsiteTests(unittest.TestCase):
 
     def test_manuscript_snapshot_integrity(self):
         manifest = json.loads((INPUT / 'source/PAPER_MANIFEST.json').read_text())
-        for key in ('main.tex', 'iclr2027_conference.bib'):
-            self.assertEqual(hashlib.sha256((INPUT / 'source' / key).read_bytes()).hexdigest(), manifest['files']['source/'+key])
+        for key, sha in manifest['files'].items():
+            self.assertEqual(hashlib.sha256((INPUT / key).read_bytes()).hexdigest(), sha, key)
+        tex=(INPUT/'source/main.tex').read_text()
+        meta=json.loads((ROOT/'site_metadata.json').read_text())
+        names=[a['name'] for a in meta['authors']]
+        self.assertEqual(re.search(r'pdfauthor=\{([^}]+)\}',tex)[1].split(', '),names)
+        pairs=re.findall(r'\\textbf\{([^}]+)\}\\textsuperscript\{([^}]+)\}',tex.split(r'\author{',1)[1].split(r'\normalfont',1)[0])
+        self.assertEqual([n for n,_ in pairs],names)
+        for (_,marks), author in zip(pairs,meta['authors']):
+            expected=list(map(str,author['affiliations']))
+            if author.get('equal'): expected.append('*')
+            if author.get('corresponding'): expected.append(r'\textdagger')
+            self.assertEqual(marks.split(','),expected)
+        for i, name in enumerate(meta['affiliations'],1):
+            self.assertIn(r'\textsuperscript{'+str(i)+'}'+name,tex)
         self.assertEqual(self.data, make_data())
+
+    def test_standalone_attribution(self):
+        credits=self.data['attribution']
+        wanted={(q['id'],q[k]['id']) for q in self.data['queries'] for k in ('pt_example','pw_example')}
+        rows=credits['criterion_provenance']
+        self.assertEqual(len(rows),80)
+        self.assertEqual(wanted,{(r['query_id'],r['criterion_id']) for r in rows})
+        for q in self.data['queries']:
+            self.assertIn('| '+q['id']+' |',credits['notices']['licenses/QUERY_LICENSE_MATRIX.md'])
+        for key in ('DATA_LICENSE.md','THIRD_PARTY_NOTICES.md'):
+            for url in re.findall(r'\]\(([^)]+)\)',(DIST/key).read_text()):
+                if not url.startswith('https://'):
+                    self.assertTrue((DIST/url).is_file(),url)
 
     def test_latest_title(self):
         self.assertEqual(self.data['title'], 'CompareDR: Benchmarking Deep Research Reports from Individual Quality to Comparative Merit')

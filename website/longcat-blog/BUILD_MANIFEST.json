@@ -2,10 +2,10 @@
   "schema": 1,
   "files": {
     "assets/app.mjs": "0a977bf8df04d2eadf001d12fd6c7d658965ddad1ba25ad6b30ceef4cc6d51d2",
-    "assets/authors.js": "16ea795bc1c3be160b2cba8e3d7b5abed8e7b6ae33e9369eaa539ac8e7ced03c",
+    "assets/authors.js": "63400782f0daf2d0765d57978eefe6a6ef03def290e92700c9dcb00aedaa04db",
     "assets/blog.css": "2e9c85c4c744b4fd5361be5451c7b58872da0cdeb736bd77e0a261d947fb0a53",
     "assets/config.js": "d5439567dedd7cd4f1689e16287855fb99ee3757d1ffc8775ac83d20923878a4",
-    "assets/content.mjs": "b9b091f4c99264239de24678bbe8ed37c648d47763832a09684ced7b2cb6e188",
+    "assets/content.mjs": "ed4c73d9deef75587dc73ace94484b85085566157e8ed0a75426b3d61af89fb0",
     "assets/feed.mjs": "2fb53332eab07bd6c7596338c16ef6301e3326794706738c6555cd094f827f7c",
     "assets/framework.png": "5693278f63c19e98e52c0d35d3d724de86ac8412f847baf4dfd9bc6cf2adf3c5",
     "assets/harness_overview.png": "e0d8f218466a8595122b4ba9f42deabb9d159acd4d653c4c2f9cb1d02678712b",

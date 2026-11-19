@@ -7,18 +7,18 @@
   "year": "2026",
   "authors": [
     {"name": "Wanli Wu", "affiliations": [1, 2, 3], "equal": true},
-    {"name": "He Zhu", "affiliations": [1, 4], "equal": true},
-    {"name": "Yue Xu", "affiliations": [1], "equal": true},
+    {"name": "He Zhu", "affiliations": [2, 4], "equal": true},
+    {"name": "Yue Xu", "affiliations": [2], "equal": true},
     {"name": "Haolin Ren", "affiliations": [1, 2, 3]},
-    {"name": "Yan Chen", "affiliations": [1]},
-    {"name": "XunLiang Cai", "affiliations": [1]},
-    {"name": "Fan Yang", "affiliations": [1]},
-    {"name": "LingChuan Liu", "affiliations": [1], "corresponding": true},
-    {"name": "Shizhu He", "affiliations": [2, 3], "corresponding": true}
+    {"name": "Yan Chen", "affiliations": [2]},
+    {"name": "XunLiang Cai", "affiliations": [2]},
+    {"name": "Fan Yang", "affiliations": [2]},
+    {"name": "LingChuan Liu", "affiliations": [2], "corresponding": true},
+    {"name": "Shizhu He", "affiliations": [1, 3], "corresponding": true}
   ],
   "affiliations": [
-    "Meituan",
     "Institute of Automation, Chinese Academy of Sciences",
+    "Meituan",
     "University of Chinese Academy of Sciences",
     "Peking University"
   ],

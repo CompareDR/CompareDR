@@ -13,6 +13,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 INPUT = ROOT / 'manuscript'
 DIST = ROOT / 'dist'
+sys.path.insert(0, str(ROOT.parent / 'submissions'))
+from attribution import site_notices, standalone_credits
 SCORE_KEYS = ('D1', 'D2', 'D3', 'D4', 'D5_D6', 'overall')
 PAPER = INPUT / 'source/main.tex'
 TEX = PAPER.read_text()
@@ -263,23 +265,29 @@ def make_data():
         gemini_reasoning='provider default', kimi_generation_setting='Kimi K3 Max')
     data['benchmark_resources'] = [dict(component=r[0], drb1=int(r[1]), drb2=int(r[2]), researchrubrics=int(r[3]), total=int(r[4])) for r in table('tab:benchmark_resources')]
     data['rubric_distribution'] = [dict(dimension=r[0], focus=r[1], pointwise=int(r[2]), pairwise=int(r[3]), total=int(r[4].replace(',', ''))) for r in table('tab:rubric_distribution')]
-    data['manuscript'] = dict(version='public-v8-nine-systems', date='2026-11-16',
-        source_sha256=digest(PAPER), pdf_sha256=json.loads((INPUT / 'source/PAPER_MANIFEST.json').read_text())['files']['CompareDR.pdf'],
+    paper_manifest = json.loads((INPUT / 'source/PAPER_MANIFEST.json').read_text())
+    data['manuscript'] = dict(version=paper_manifest['version'], date=paper_manifest['numerical_snapshot'],
+        author_revision=paper_manifest['author_revision'],
+        source_sha256=digest(PAPER), pdf_sha256=paper_manifest['files']['CompareDR.pdf'],
         tables={key: table(key) for key in ('tab:benchmark_resources','tab:rubric_distribution','tab:system_results', 'tab:human_agreement',
             'tab:controlled_response', 'tab:ablations', 'tab:judge-selection',
             'tab:cross-judge-robustness', 'tab:judge-stability', 'tab:judge_pilot',
             'tab:new_system_sampling', 'tab:token_usage', 'tab:controlled_dimensions',
             'tab:controlled_thresholds')})
     assert data['queries'] == baseline['queries']
+    data['attribution'] = standalone_credits(data['queries'])
     assert data['domains'] == baseline['domains']
     return data
 
 
 def build():
     # Build the query-only intake kit alongside the site; never include answer keys.
-    sys.path.insert(0, str(ROOT.parent / 'submissions'))
     from build_template import build as build_submission_template
     build_submission_template()
+    for relative, content in site_notices().items():
+        target = DIST / relative
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(content)
     data = make_data()
     presentation, bibtex = project_context(data['title'])
     assets = DIST / 'assets'
@@ -340,7 +348,7 @@ def build():
     for name in ('index.html', 'leaderboard.html'):
         target = DIST / name
         target.write_text(version_assets(target.read_text()))
-    audit = dict(source='CompareDR public-v8-nine-systems', source_sha256=digest(PAPER),
+    audit = dict(source='CompareDR '+data['manuscript']['version'], source_sha256=digest(PAPER),
         presentation_metadata_sha256=digest(ROOT / 'site_metadata.json'),
         figure_sha256={name:digest(ROOT.parent / 'docs/assets' / name) for name in ('framework.png', 'framework.pdf')},
         original_style_reference='baseline/assets',

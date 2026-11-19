@@ -12,6 +12,8 @@ new comparison cohort has been consistently aggregated.
 
 Unzip the template and keep these paths. The template contains the exact 40 query
 IDs and original task text, **without rubrics or answer keys**.
+Keep `QUERY_ATTRIBUTION.md`, `LICENSE`, and `licenses/` with redistributed queries.
+Article credits are for attribution, not additional sources for answering the tasks.
 
 ```text
 submission/

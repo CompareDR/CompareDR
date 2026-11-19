@@ -2306,10 +2306,11 @@
     }
   ],
   "manuscript": {
-    "version": "public-v8-nine-systems",
+    "version": "public-v8-nine-systems-author-sync",
     "date": "2026-11-16",
-    "source_sha256": "73f359ab994cd6a27b72a97b40a099444e9d7037f1f945d8dea098f2f7f4722a",
-    "pdf_sha256": "9601062a42df499ad3688a1f7bcf5b51635bd5b8c6272debedc61d54eaee96d5",
+    "author_revision": "2026-11-19",
+    "source_sha256": "f767c077ea74ca3e98ae836d8d07a8ffd84b353a948520238e3b8594d00ab086",
+    "pdf_sha256": "d49c7cf786a8de98695d1fca1bc8eed59377959b1f372622a8160e0466ea0464",
     "tables": {
       "tab:benchmark_resources": [
         [
@@ -2832,5 +2833,2496 @@
         ]
       ]
     }
+  },
+  "attribution": {
+    "scope": "Keep these credits with redistributed queries and criterion examples. Upstream licenses remain applicable; CC BY 4.0 covers only eligible CompareDR contributions.",
+    "project": "CompareDR",
+    "repository": "https://github.com/CompareDR/CompareDR",
+    "notices": {
+      "LICENSE": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "licenses/DRB-I-LICENSE.txt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n",
+      "licenses/DRB-II-DATA-LICENSE.txt": "Creative Commons Attribution 4.0 / Attribution-NonCommercial 4.0 / CC0\n(Per-task license follows the source article)\n\nCopyright 2025-2026 Ruizhe Li and DeepResearch Bench II Contributors\n\nThis license applies to all data files in this repository, including but\nnot limited to:\n\n  - tasks_and_rubrics.jsonl\n  - Rubrics, task descriptions, and evaluation annotations\n\nPer-task License:\n\n  Each entry in tasks_and_rubrics.jsonl includes a \"license\" field that\n  records the license of its corresponding source article. The rubrics\n  and task descriptions derived from each source article follow the same\n  license as that source article:\n\n    - 129 tasks: CC BY 4.0 (idx: all except those listed below)\n    - 2 tasks:   CC BY-NC 4.0 (idx=26, idx=110)\n    - 1 task:    CC0 / Public Domain (idx=119)\n\n  Each task's rubrics and descriptions inherit the license of their\n  source article. For the 129 CC BY 4.0 tasks, commercial use is\n  permitted with attribution. For idx=26 and idx=110 (CC BY-NC 4.0),\n  commercial use is not permitted. For idx=119 (CC0), no restrictions\n  apply.\n\nYou are free to:\n\n  Share — copy and redistribute the material in any medium or format\n  Adapt — remix, transform, and build upon the material\n\nUnder the following terms (per task):\n\n  For CC BY 4.0 tasks:\n    Attribution — You must give appropriate credit, provide a link to\n    the license, and indicate if changes were made.\n    Full text: https://creativecommons.org/licenses/by/4.0/legalcode\n\n  For CC BY-NC 4.0 tasks (idx=26, idx=110):\n    Attribution — Same as above.\n    NonCommercial — You may not use the material for commercial purposes.\n    Full text: https://creativecommons.org/licenses/by-nc/4.0/legalcode\n\n  For CC0 tasks (idx=119):\n    No conditions. Public domain.\n    Full text: https://creativecommons.org/publicdomain/zero/1.0/legalcode\n",
+      "licenses/CC-BY-4.0.txt": "Attribution 4.0 International\n\n=======================================================================\n\nCreative Commons Corporation (\"Creative Commons\") is not a law firm and\ndoes not provide legal services or legal advice. Distribution of\nCreative Commons public licenses does not create a lawyer-client or\nother relationship. Creative Commons makes its licenses and related\ninformation available on an \"as-is\" basis. Creative Commons gives no\nwarranties regarding its licenses, any material licensed under their\nterms and conditions, or any related information. Creative Commons\ndisclaims all liability for damages resulting from their use to the\nfullest extent possible.\n\nUsing Creative Commons Public Licenses\n\nCreative Commons public licenses provide a standard set of terms and\nconditions that creators and other rights holders may use to share\noriginal works of authorship and other material subject to copyright\nand certain other rights specified in the public license below. The\nfollowing considerations are for informational purposes only, are not\nexhaustive, and do not form part of our licenses.\n\n     Considerations for licensors: Our public licenses are\n     intended for use by those authorized to give the public\n     permission to use material in ways otherwise restricted by\n     copyright and certain other rights. Our licenses are\n     irrevocable. Licensors should read and understand the terms\n     and conditions of the license they choose before applying it.\n     Licensors should also secure all rights necessary before\n     applying our licenses so that the public can reuse the\n     material as expected. Licensors should clearly mark any\n     material not subject to the license. This includes other CC-\n     licensed material, or material used under an exception or\n     limitation to copyright. More considerations for licensors:\n    wiki.creativecommons.org/Considerations_for_licensors\n\n     Considerations for the public: By using one of our public\n     licenses, a licensor grants the public permission to use the\n     licensed material under specified terms and conditions. If\n     the licensor's permission is not necessary for any reason--for\n     example, because of any applicable exception or limitation to\n     copyright--then that use is not regulated by the license. Our\n     licenses grant only permissions under copyright and certain\n     other rights that a licensor has authority to grant. Use of\n     the licensed material may still be restricted for other\n     reasons, including because others have copyright or other\n     rights in the material. A licensor may make special requests,\n     such as asking that all changes be marked or described.\n     Although not required by our licenses, you are encouraged to\n     respect those requests where reasonable. More considerations\n     for the public:\n    wiki.creativecommons.org/Considerations_for_licensees\n\n=======================================================================\n\nCreative Commons Attribution 4.0 International Public License\n\nBy exercising the Licensed Rights (defined below), You accept and agree\nto be bound by the terms and conditions of this Creative Commons\nAttribution 4.0 International Public License (\"Public License\"). To the\nextent this Public License may be interpreted as a contract, You are\ngranted the Licensed Rights in consideration of Your acceptance of\nthese terms and conditions, and the Licensor grants You such rights in\nconsideration of benefits the Licensor receives from making the\nLicensed Material available under these terms and conditions.\n\n\nSection 1 -- Definitions.\n\n  a. Adapted Material means material subject to Copyright and Similar\n     Rights that is derived from or based upon the Licensed Material\n     and in which the Licensed Material is translated, altered,\n     arranged, transformed, or otherwise modified in a manner requiring\n     permission under the Copyright and Similar Rights held by the\n     Licensor. For purposes of this Public License, where the Licensed\n     Material is a musical work, performance, or sound recording,\n     Adapted Material is always produced where the Licensed Material is\n     synched in timed relation with a moving image.\n\n  b. Adapter's License means the license You apply to Your Copyright\n     and Similar Rights in Your contributions to Adapted Material in\n     accordance with the terms and conditions of this Public License.\n\n  c. Copyright and Similar Rights means copyright and/or similar rights\n     closely related to copyright including, without limitation,\n     performance, broadcast, sound recording, and Sui Generis Database\n     Rights, without regard to how the rights are labeled or\n     categorized. For purposes of this Public License, the rights\n     specified in Section 2(b)(1)-(2) are not Copyright and Similar\n     Rights.\n\n  d. Effective Technological Measures means those measures that, in the\n     absence of proper authority, may not be circumvented under laws\n     fulfilling obligations under Article 11 of the WIPO Copyright\n     Treaty adopted on December 20, 1996, and/or similar international\n     agreements.\n\n  e. Exceptions and Limitations means fair use, fair dealing, and/or\n     any other exception or limitation to Copyright and Similar Rights\n     that applies to Your use of the Licensed Material.\n\n  f. Licensed Material means the artistic or literary work, database,\n     or other material to which the Licensor applied this Public\n     License.\n\n  g. Licensed Rights means the rights granted to You subject to the\n     terms and conditions of this Public License, which are limited to\n     all Copyright and Similar Rights that apply to Your use of the\n     Licensed Material and that the Licensor has authority to license.\n\n  h. Licensor means the individual(s) or entity(ies) granting rights\n     under this Public License.\n\n  i. Share means to provide material to the public by any means or\n     process that requires permission under the Licensed Rights, such\n     as reproduction, public display, public performance, distribution,\n     dissemination, communication, or importation, and to make material\n     available to the public including in ways that members of the\n     public may access the material from a place and at a time\n     individually chosen by them.\n\n  j. Sui Generis Database Rights means rights other than copyright\n     resulting from Directive 96/9/EC of the European Parliament and of\n     the Council of 11 March 1996 on the legal protection of databases,\n     as amended and/or succeeded, as well as other essentially\n     equivalent rights anywhere in the world.\n\n  k. You means the individual or entity exercising the Licensed Rights\n     under this Public License. Your has a corresponding meaning.\n\n\nSection 2 -- Scope.\n\n  a. License grant.\n\n       1. Subject to the terms and conditions of this Public License,\n          the Licensor hereby grants You a worldwide, royalty-free,\n          non-sublicensable, non-exclusive, irrevocable license to\n          exercise the Licensed Rights in the Licensed Material to:\n\n            a. reproduce and Share the Licensed Material, in whole or\n               in part; and\n\n            b. produce, reproduce, and Share Adapted Material.\n\n       2. Exceptions and Limitations. For the avoidance of doubt, where\n          Exceptions and Limitations apply to Your use, this Public\n          License does not apply, and You do not need to comply with\n          its terms and conditions.\n\n       3. Term. The term of this Public License is specified in Section\n          6(a).\n\n       4. Media and formats; technical modifications allowed. The\n          Licensor authorizes You to exercise the Licensed Rights in\n          all media and formats whether now known or hereafter created,\n          and to make technical modifications necessary to do so. The\n          Licensor waives and/or agrees not to assert any right or\n          authority to forbid You from making technical modifications\n          necessary to exercise the Licensed Rights, including\n          technical modifications necessary to circumvent Effective\n          Technological Measures. For purposes of this Public License,\n          simply making modifications authorized by this Section 2(a)\n          (4) never produces Adapted Material.\n\n       5. Downstream recipients.\n\n            a. Offer from the Licensor -- Licensed Material. Every\n               recipient of the Licensed Material automatically\n               receives an offer from the Licensor to exercise the\n               Licensed Rights under the terms and conditions of this\n               Public License.\n\n            b. No downstream restrictions. You may not offer or impose\n               any additional or different terms or conditions on, or\n               apply any Effective Technological Measures to, the\n               Licensed Material if doing so restricts exercise of the\n               Licensed Rights by any recipient of the Licensed\n               Material.\n\n       6. No endorsement. Nothing in this Public License constitutes or\n          may be construed as permission to assert or imply that You\n          are, or that Your use of the Licensed Material is, connected\n          with, or sponsored, endorsed, or granted official status by,\n          the Licensor or others designated to receive attribution as\n          provided in Section 3(a)(1)(A)(i).\n\n  b. Other rights.\n\n       1. Moral rights, such as the right of integrity, are not\n          licensed under this Public License, nor are publicity,\n          privacy, and/or other similar personality rights; however, to\n          the extent possible, the Licensor waives and/or agrees not to\n          assert any such rights held by the Licensor to the limited\n          extent necessary to allow You to exercise the Licensed\n          Rights, but not otherwise.\n\n       2. Patent and trademark rights are not licensed under this\n          Public License.\n\n       3. To the extent possible, the Licensor waives any right to\n          collect royalties from You for the exercise of the Licensed\n          Rights, whether directly or through a collecting society\n          under any voluntary or waivable statutory or compulsory\n          licensing scheme. In all other cases the Licensor expressly\n          reserves any right to collect such royalties.\n\n\nSection 3 -- License Conditions.\n\nYour exercise of the Licensed Rights is expressly made subject to the\nfollowing conditions.\n\n  a. Attribution.\n\n       1. If You Share the Licensed Material (including in modified\n          form), You must:\n\n            a. retain the following if it is supplied by the Licensor\n               with the Licensed Material:\n\n                 i. identification of the creator(s) of the Licensed\n                    Material and any others designated to receive\n                    attribution, in any reasonable manner requested by\n                    the Licensor (including by pseudonym if\n                    designated);\n\n                ii. a copyright notice;\n\n               iii. a notice that refers to this Public License;\n\n                iv. a notice that refers to the disclaimer of\n                    warranties;\n\n                 v. a URI or hyperlink to the Licensed Material to the\n                    extent reasonably practicable;\n\n            b. indicate if You modified the Licensed Material and\n               retain an indication of any previous modifications; and\n\n            c. indicate the Licensed Material is licensed under this\n               Public License, and include the text of, or the URI or\n               hyperlink to, this Public License.\n\n       2. You may satisfy the conditions in Section 3(a)(1) in any\n          reasonable manner based on the medium, means, and context in\n          which You Share the Licensed Material. For example, it may be\n          reasonable to satisfy the conditions by providing a URI or\n          hyperlink to a resource that includes the required\n          information.\n\n       3. If requested by the Licensor, You must remove any of the\n          information required by Section 3(a)(1)(A) to the extent\n          reasonably practicable.\n\n       4. If You Share Adapted Material You produce, the Adapter's\n          License You apply must not prevent recipients of the Adapted\n          Material from complying with this Public License.\n\n\nSection 4 -- Sui Generis Database Rights.\n\nWhere the Licensed Rights include Sui Generis Database Rights that\napply to Your use of the Licensed Material:\n\n  a. for the avoidance of doubt, Section 2(a)(1) grants You the right\n     to extract, reuse, reproduce, and Share all or a substantial\n     portion of the contents of the database;\n\n  b. if You include all or a substantial portion of the database\n     contents in a database in which You have Sui Generis Database\n     Rights, then the database in which You have Sui Generis Database\n     Rights (but not its individual contents) is Adapted Material; and\n\n  c. You must comply with the conditions in Section 3(a) if You Share\n     all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not\nreplace Your obligations under this Public License where the Licensed\nRights include other Copyright and Similar Rights.\n\n\nSection 5 -- Disclaimer of Warranties and Limitation of Liability.\n\n  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE\n     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS\n     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF\n     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,\n     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,\n     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR\n     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,\n     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT\n     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT\n     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\n\n  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE\n     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,\n     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,\n     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,\n     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR\n     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN\n     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR\n     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR\n     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\n\n  c. The disclaimer of warranties and limitation of liability provided\n     above shall be interpreted in a manner that, to the extent\n     possible, most closely approximates an absolute disclaimer and\n     waiver of all liability.\n\n\nSection 6 -- Term and Termination.\n\n  a. This Public License applies for the term of the Copyright and\n     Similar Rights licensed here. However, if You fail to comply with\n     this Public License, then Your rights under this Public License\n     terminate automatically.\n\n  b. Where Your right to use the Licensed Material has terminated under\n     Section 6(a), it reinstates:\n\n       1. automatically as of the date the violation is cured, provided\n          it is cured within 30 days of Your discovery of the\n          violation; or\n\n       2. upon express reinstatement by the Licensor.\n\n     For the avoidance of doubt, this Section 6(b) does not affect any\n     right the Licensor may have to seek remedies for Your violations\n     of this Public License.\n\n  c. For the avoidance of doubt, the Licensor may also offer the\n     Licensed Material under separate terms or conditions or stop\n     distributing the Licensed Material at any time; however, doing so\n     will not terminate this Public License.\n\n  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public\n     License.\n\n\nSection 7 -- Other Terms and Conditions.\n\n  a. The Licensor shall not be bound by any additional or different\n     terms or conditions communicated by You unless expressly agreed.\n\n  b. Any arrangements, understandings, or agreements regarding the\n     Licensed Material not stated herein are separate from and\n     independent of the terms and conditions of this Public License.\n\n\nSection 8 -- Interpretation.\n\n  a. For the avoidance of doubt, this Public License does not, and\n     shall not be interpreted to, reduce, limit, restrict, or impose\n     conditions on any use of the Licensed Material that could lawfully\n     be made without permission under this Public License.\n\n  b. To the extent possible, if any provision of this Public License is\n     deemed unenforceable, it shall be automatically reformed to the\n     minimum extent necessary to make it enforceable. If the provision\n     cannot be reformed, it shall be severed from this Public License\n     without affecting the enforceability of the remaining terms and\n     conditions.\n\n  c. No term or condition of this Public License will be waived and no\n     failure to comply consented to unless expressly agreed to by the\n     Licensor.\n\n  d. Nothing in this Public License constitutes or may be interpreted\n     as a limitation upon, or waiver of, any privileges and immunities\n     that apply to the Licensor or You, including from the legal\n     processes of any jurisdiction or authority.\n\n\n=======================================================================\n\nCreative Commons is not a party to its public\nlicenses. Notwithstanding, Creative Commons may elect to apply one of\nits public licenses to material it publishes and in those instances\nwill be considered the “Licensor.” The text of the Creative Commons\npublic licenses is dedicated to the public domain under the CC0 Public\nDomain Dedication. Except for the limited purpose of indicating that\nmaterial is shared under a Creative Commons public license or as\notherwise permitted by the Creative Commons policies published at\ncreativecommons.org/policies, Creative Commons does not authorize the\nuse of the trademark \"Creative Commons\" or any other trademark or logo\nof Creative Commons without its prior written consent including,\nwithout limitation, in connection with any unauthorized modifications\nto any of its public licenses or any other arrangements,\nunderstandings, or agreements concerning use of licensed material. For\nthe avoidance of doubt, this paragraph does not form part of the\npublic licenses.\n\nCreative Commons may be contacted at creativecommons.org.\n\n",
+      "licenses/ResearchRubrics-MIT-LICENSE.txt": "MIT License\n\nCopyright (c) 2025 [Authors/Institution]\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+      "licenses/QUERY_LICENSE_MATRIX.md": "# 40 题上游许可清单（审批草案）\n\n许可来自固定版本上游声明；不等同于对报告正文授权，也不是对每篇来源文章的完整法律核查。\n\n| CompareDR ID | 上游许可 | 题面比对 | 上游固定版本 |\n|---|---|---|---|\n| drb1_19 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb1_25 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb1_27 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb1_47 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb1_48 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb1_51 | [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0) | 一致 | [数据](https://github.com/Ayanami0730/deep_research_bench/blob/f2735b5c3636759c22f9e936c0232de8bf545b67/data/prompt_data/query.jsonl) |\n| drb2_11 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_117 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_119 | [CC0](https://creativecommons.org/publicdomain/zero/1.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_123 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_125 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_129 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_15 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_18 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_21 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_28 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_3 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_41 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_46 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_58 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_66 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_71 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_75 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 已有追踪参数清理；连带少一个引号，见审计记录 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_76 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_79 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_84 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_95 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| drb2_97 | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | 一致 | [数据](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl) |\n| rr_683a58c9a7e7fe4e76958488 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605343 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605363 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605371 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a6053a0 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605427 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605434 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605443 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a60545c | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a605492 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a6054a7 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n| rr_6847465956a0f6376a6054d0 | [MIT](https://opensource.org/license/mit) | 一致 | [数据](https://huggingface.co/datasets/ScaleAI/researchrubrics/blob/85de3115053d1453ed612caacf4a405edc1ad756/processed_data.jsonl) |\n",
+      "licenses/DRB2_ARTICLE_ATTRIBUTIONS.md": "# DRB-II 选入题目的原始文章归属（审批附件）\n\n本附件从固定版本任务记录的 `content.blocked` 提取作者、题名和链接。该字段在原任务中用于禁止生成系统查阅来源文章；在这里仅用于开源归属声明，不改变评测禁令。许可为上游逐条标注，不能据此覆盖文章内另有标注的图片或其他第三方材料。\n\nCompareDR 对相关任务及评分标准进行了选择、结构化与改编；逐项变更见 `CRITERION_LICENSE_MAP.json`。链接仅去除追踪参数，未改动冻结输入。\n\n## drb2_3\n\nDigital-Based Policy and Health Promotion Policy in Japan, the Republic of Korea, Singapore, and Thailand: A Scoping Review of Policy Paths to Healthy Aging\n\n作者：Nadila Mulati; Myo Nyein Aung; Malcolm Field; Eun Woo Nam; Carol Ma Hok Ka; Saiyud Moolphate; Hocheol Lee; Yuki Goto; Nam Hae Kweun; Takumi Suda; Yuka Koyanagi; Yuiko Nagamine; Motoyuki Yuasa\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/1660-4601/19/24/16995)\n- [来源链接 2](https://pubmed.ncbi.nlm.nih.gov/36554873/)\n- [来源链接 3](https://www.researchgate.net/publication/366401399_Digital-Based_Policy_and_Health_Promotion_Policy_in_Japan_the_Republic_of_Korea_Singapore_and_Thailand_A_Scoping_Review_of_Policy_Paths_to_Healthy_Aging)\n\n## drb2_11\n\nA Review of Micro-Based Systemic Risk Research from Multiple Perspectives\n\n作者：Xiao Bai; Huaping Sun; Shibao Lu; Farhad Taghizadeh-Hesary\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/1099-4300/22/7/711)\n- [来源链接 2](https://pubmed.ncbi.nlm.nih.gov/33286483/)\n- [来源链接 3](https://www.researchgate.net/publication/342524950_A_Review_of_Micro-Based_Systemic_Risk_Research_from_Multiple_Perspectives)\n- [来源链接 4](https://ui.adsabs.harvard.edu/abs/2020Entrp..22..711B/abstract)\n- [来源链接 5](https://www.mdpi.com/1099-4300/22/7/711/reprints)\n- [来源链接 6](https://researchportal.u-tokai.ac.jp/ja/publications/a-review-of-micro-based-systemic-risk-research-from-multiple-pers)\n\n## drb2_15\n\nNavigating Governmental Choices: A Comprehensive Review of Artificial Intelligence's Impact on Decision-Making\n\n作者：Gustavo Caiza; Verónica Sanguña; Natalia Tusa; Violeta Masaquiza; Alexandra Ortiz; Marcelo V. Garcia\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2227-9709/11/3/64)\n- [来源链接 2](https://doi.org/10.3390/informatics11030064)\n- [来源链接 3](https://text2fa.ir/wp-content/uploads/Text2fa.ir-Navigating-Governmental-Choices-A-Comprehensive-R.pdf)\n- [来源链接 4](https://pure.ups.edu.ec/en/publications/navigating-governmental-choices-a-comprehensive-review-of-artific)\n- [来源链接 5](https://www.semanticscholar.org/paper/Navigating-Governmental-Choices%3A-A-Comprehensive-of-Caiza-Sangu%C3%B1a/ef838c9723caeba6042168ec17c02358b5a50721)\n- [来源链接 6](https://ouci.dntb.gov.ua/en/works/lxdPJKEl/)\n- [来源链接 7](https://www.researchgate.net/publication/348933222_Artificial_Intelligence_in_Public_Governance)\n\n## drb2_18\n\nHorizontal Gene Transfers in Plants\n\n作者：Emilie Aubin; Moaine El Baidouri; Olivier Panaud\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2075-1729/11/8/857)\n- [来源链接 2](https://www.researchgate.net/publication/354068358_Horizontal_Gene_Transfers_in_Plants)\n- [来源链接 3](https://www.mdpi.com/2075-1729/11/8/857/review_report)\n- [来源链接 4](https://ouci.dntb.gov.ua/en/works/961KBDJl/)\n\n## drb2_21\n\nAnimal navigation: how animals use environmental factors to find their way\n\n作者：Roswitha Wiltschko; Wolfgang Wiltschko\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://link.springer.com/article/10.1140/epjs/s11734-022-00610-w)\n- [来源链接 2](https://epjst.epj.org/articles/epjst/abs/2023/02/11734_2022_Article_610/11734_2022_Article_610.html)\n- [来源链接 3](https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way/)\n- [来源链接 4](https://mycoordinates.org/animal-navigation-how-animals-use-environmental-factors-to-find-their-way-2/)\n\n## drb2_28\n\nComprehensive Review for Energy Recovery Technologies Used in Water Distribution Systems Considering Their Performance, Technical Challenges, and Economic Viability\n\n作者：Admitos A. Bideris-Davos; Panagis N. Vovos\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2073-4441/16/15/2129)\n- [来源链接 2](https://www.semanticscholar.org/paper/Comprehensive-Review-for-Energy-Recovery-Used-in-Bideris-Davos-Vovos/6961f947d8d091d41384cd7f03889427d1c294ed)\n- [来源链接 3](https://agris.fao.org/search/en/providers/122436/records/675ad1b90ce2cede71d20fb8)\n- [来源链接 4](https://scite.ai/reports/comprehensive-review-for-energy-recovery-PQ4NVjL2)\n- [来源链接 5](https://discovery.researcher.life/article/comprehensive-review-for-energy-recovery-technologies-used-in-water-distribution-systems-considering-their-performance-technical-challenges-and-economic-viability/843769c474a63c749aeee8e2e25904e6)\n- [来源链接 6](https://ouci.dntb.gov.ua/en/works/4NKGbrvl/)\n\n## drb2_41\n\nModelling in low-code development: a multi-vocal systematic review\n\n作者：Alessio Bucaioni; Antonio Cicchetti; Federico Ciccozzi\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://link.springer.com/article/10.1007/s10270-021-00964-0)\n- [来源链接 2](https://www.researchgate.net/publication/357937892_Modelling_in_low-code_development_a_multi-vocal_systematic_review)\n- [来源链接 3](https://www.semanticscholar.org/paper/Modelling-in-low-code-development%3A-a-multi-vocal-Bucaioni-Cicchetti/2f25601fa5db68904a5bfbcebc7247610b4a84f5)\n- [来源链接 4](https://www.es.mdu.se/publications/6377-Modelling_in_low_code_development__a_multi_vocal_systematic_review)\n- [来源链接 5](https://conf.researchr.org/details/models-2022/models-2022-journal-first/72/Modelling-in-low-code-development-a-multi-vocal-systematic-review)\n\n## drb2_46\n\nAuto-Scaling Techniques in Cloud Computing: Issues and Research Directions\n\n作者：Saleha Alharthi; Afra Alshamsi; Anoud Alseiari; Abdulmalik Alwarafy\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/1424-8220/24/17/5551)\n- [来源链接 2](https://www.researchgate.net/publication/383489546_Auto-Scaling_Techniques_in_Cloud_Computing_Issues_and_Research_Directions)\n- [来源链接 3](https://pubmed.ncbi.nlm.nih.gov/39275461/)\n- [来源链接 4](https://research.uaeu.ac.ae/en/publications/auto-scaling-techniques-in-cloud-computing-issues-and-research-di)\n\n## drb2_58\n\nA systematic review of the effectiveness of online learning in higher education during the COVID-19 pandemic period\n\n作者：Wentao Meng; Lei Yu; Chen Liu; Nengchao Pan; Xiawen Pang; Yunyun Zhu\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2023.1334153/full)\n- [来源链接 2](https://www.researchgate.net/publication/377480385_A_systematic_review_of_the_effectiveness_of_online_learning_in_higher_education_during_the_COVID-19_pandemic_period)\n- [来源链接 3](https://doaj.org/article/f28e842f20da479686b8f2dd97debc20)\n\n## drb2_66\n\nThe Interplay Between the Gut Microbiota and Colorectal Cancer: A Review of the Literature\n\n作者：Marco Cintoni; Marta Palombaro; Eleonora Zoli; Giuseppe D'Agostino; Gabriele Pulcini; Elena Leonardi; Pauline Raoul; Emanuele Rinninella; Flavio De Maio; Esmeralda Capristo; Antonio Gasbarrini; Maria Cristina Mele\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2076-2607/13/6/1410)\n- [来源链接 2](https://pubmed.ncbi.nlm.nih.gov/40572299/)\n- [来源链接 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC12195752/)\n- [来源链接 4](https://www.researchgate.net/publication/392786159_The_Interplay_Between_the_Gut_Microbiota_and_Colorectal_Cancer_A_Review_of_the_Literature)\n\n## drb2_71\n\nThe Psychology of Conspiracy Theories\n\n作者：Karen M. Douglas; Robbie M. Sutton; Aleksandra Cichocka\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.researchgate.net/publication/317401748_The_Psychology_of_Conspiracy_Theories)\n- [来源链接 2](https://pubmed.ncbi.nlm.nih.gov/29276345/)\n- [来源链接 3](https://www.semanticscholar.org/paper/The-Psychology-of-Conspiracy-Theories-Douglas-Sutton/4e1797aa41ad9d61c0178fb3d6c16131e661369a)\n- [来源链接 4](https://journals.sagepub.com/doi/10.1177/0963721417718261)\n- [来源链接 5](https://journals.sagepub.com/doi/abs/10.1177/0963721417718261)\n- [来源链接 6](https://www.goodreads.com/book/show/44547044-the-psychology-of-conspiracy-theories)\n\n## drb2_75\n\nIs a New Chinese Literary History Possible? A Critical Investigation of The Cambridge History of Chinese Literature\n\n作者：Shen Yifan 沈一帆\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.sciencedirect.com/org/science/article/pii/S2352133324000104)\n- [来源链接 2](https://www.researchgate.net/publication/379985497_Is_a_New_Chinese_Literary_History_Possible_A_Critical_Investigation_of_The_Cambridge_History_of_Chinese_Literature)\n- [来源链接 3](https://www.lhp.sdu.edu.cn/info/1372/4096.htm)\n- [来源链接 4](https://brill.com/view/journals/joch/10/1/article-p1_1.xml)\n\n## drb2_76\n\nSpecial issue introduction: Towards a global history of international organizations and decolonization\n\n作者：Eva-Maria Muschik\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.cambridge.org/core/journals/journal-of-global-history/article/special-issue-introduction-towards-a-global-history-of-international-organizations-and-decolonization/066AFEF8CEA16E7F776CC7CFF72927CC)\n- [来源链接 2](https://ideas.repec.org/a/cup/jglhis/v17y2022i2p173-190_1.html)\n- [来源链接 3](https://www.researchgate.net/publication/359174525_Special_issue_introduction_Towards_a_global_history_of_international_organizations_and_decolonization)\n- [来源链接 4](https://ucrisportal.univie.ac.at/en/publications/towards-a-global-history-of-international-organizations-and-decol)\n\n## drb2_79\n\nToward More Inclusive Japanese Language Education: Incorporating an Awareness of Gender and Sexual Diversity among Students\n\n作者：Jotaro Arimori\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://jll.pitt.edu/ojs/JLL/article/view/129)\n- [来源链接 2](https://www.researchgate.net/publication/345454410_Toward_More_Inclusive_Japanese_Language_Education_Incorporating_an_Awareness_of_Gender_and_Sexual_Diversity_among_Students)\n- [来源链接 3](https://doaj.org/article/c78fd6a300a34214beae90b10da5e355)\n- [来源链接 4](https://doi.org/10.5195/jll.2020.129)\n- [来源链接 5](https://www.jstor.org/stable/e27013670)\n\n## drb2_84\n\nThe Policy Framework of Natural Resource Management in Oil-Dependence Countries\n\n作者：Basem Ertimi; Tamat Sarmidi; Norlin Khalid; Mohd Helmi Ali\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2227-7099/9/1/25)\n- [来源链接 2](https://www.researchgate.net/publication/347057845_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries)\n- [来源链接 3](https://www.researchgate.net/publication/349562167_The_Policy_Framework_of_Natural_Resource_Management_in_Oil-Dependence_Countries)\n- [来源链接 4](https://ideas.repec.org/a/gam/jecomi/v9y2021i1p25-d504509.html)\n- [来源链接 5](https://www.econstor.eu/handle/10419/257183)\n- [来源链接 6](https://scispace.com/papers/the-policy-framework-of-natural-resource-management-in-oil-20jx4xk9e5)\n- [来源链接 7](https://ouci.dntb.gov.ua/en/works/loow31El/)\n\n## drb2_95\n\nA review of emerging hydroforming technologies: design considerations, parametric studies, and recent innovations\n\n作者：Satish Chinchanikar; Harsh Mulik; Param Varude; Sameer Atole; Neha Mundada\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://jeas.springeropen.com/articles/10.1186/s44147-024-00546-z)\n- [来源链接 2](https://www.researchgate.net/publication/385401108_A_review_of_emerging_hydroforming_technologies_design_considerations_parametric_studies_and_recent_innovations)\n- [来源链接 3](https://ui.adsabs.harvard.edu/abs/2024JEAS...71..205C/abstract)\n\n## drb2_97\n\nThe Influencers: Van Gogh Immersive Experiences and the Attention-Experience Economy\n\n作者：Kate Mondloch\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2076-0752/11/5/90)\n- [来源链接 2](https://www.researchgate.net/publication/363712184_The_Influencers_Van_Gogh_Immersive_Experiences_and_the_Attention-Experience_Economy)\n- [来源链接 3](https://www.semanticscholar.org/paper/2412794ee1f3960f50cdd717199b0e8524a90f13)\n- [来源链接 4](https://scispace.com/papers/the-influencers-van-gogh-immersive-experiences-and-the-12hjy9kh)\n\n## drb2_117\n\nIs Emptiness Non-Empty? Jizang's Conception of Buddha-Nature\n\n作者：Jenny Hung\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2077-1444/16/2/184)\n- [来源链接 2](https://philarchive.org/rec/HUNIEN)\n- [来源链接 3](https://researchportal.hkust.edu.hk/en/publications/is-emptiness-non-empty-jizangs-conception-of-buddha-nature)\n- [来源链接 4](https://www.academia.edu/127515451/Is_Emptiness_Non_Empty_Jizang_s_Conception_of_Buddha_Nature)\n\n## drb2_119\n\nEffects and perceptions of weather, climate, and climate change on outdoor recreation and nature-based tourism in the United States: A systematic review\n\n作者：Emily J. Wilkins; Lydia Horne\n\n上游标注：[CC0](https://creativecommons.org/publicdomain/zero/1.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://journals.plos.org/climate/article?id=10.1371%2Fjournal.pclm.0000266)\n- [来源链接 2](https://www.researchgate.net/publication/379537818_Effects_and_perceptions_of_weather_climate_and_climate_change_on_outdoor_recreation_and_nature-based_tourism_in_the_United_States_A_systematic_review)\n- [来源链接 3](https://pubs.usgs.gov/publication/70253056)\n- [来源链接 4](https://aithor.com/paper-summary/effects-and-perceptions-of-weather-climate-and-climate-change-on-outdoor-recreation-and-nature-based-tourism-in-the-united-states-a-systematic-review)\n\n## drb2_123\n\nTrends, Methods, Drivers, and Impacts of Housing Informalities (HI): A Systematic Literature Review\n\n作者：Rim Mrani; Hassan Radoine; Jérôme Chenal; Alanda Kamana\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2413-8851/9/4/101)\n- [来源链接 2](https://www.researchgate.net/publication/390268719_Trends_Methods_Drivers_and_Impacts_of_Housing_Informalities_HI_A_Systematic_Literature_Review)\n- [来源链接 3](https://doaj.org/article/0bc6b503b324459f8cb11b523e1b8f00)\n- [来源链接 4](https://ouci.dntb.gov.ua/en/works/lmbQjr5E/)\n\n## drb2_125\n\nEducational outcomes of recess in elementary school children: A mixed-methods systematic review\n\n作者：Erin K. Howie; Kristi L. Perryman; Joseph Moretta; Laura Cameron\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0294340)\n- [来源链接 2](https://pubmed.ncbi.nlm.nih.gov/37992031/)\n- [来源链接 3](https://pmc.ncbi.nlm.nih.gov/articles/PMC10664954/)\n- [来源链接 4](https://www.semanticscholar.org/paper/Educational-outcomes-of-recess-in-elementary-school-Howie-Perryman/643c3fb96cda4edab1466bfaaac362e6db710214)\n\n## drb2_129\n\nLow-Alcohol and Nonalcoholic Wines: From Production to Cardiovascular Health, along with Their Economic Effects\n\n作者：Paula Silva\n\n上游标注：[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。\n\n任务及许可依据：[DRB-II 固定版本](https://github.com/imlrz/DeepResearch-Bench-II/blob/7c7a9a8cda9dad4e6728f4d6a89bb04541feb222/tasks_and_rubrics.jsonl)。\n\n- [来源链接 1](https://www.mdpi.com/2306-5710/10/3/49)\n- [来源链接 2](https://www.researchgate.net/publication/381766531_Low-Alcohol_and_Nonalcoholic_Wines_From_Production_to_Cardiovascular_Health_along_with_Their_Economic_Effects)\n- [来源链接 3](https://www.ciencia-e-vinho.com/2024/07/07/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascular-health-along-with-their-economic-effects/)\n- [来源链接 4](https://novaresearch.unl.pt/en/publications/low-alcohol-and-nonalcoholic-wines-from-production-to-cardiovascu)\n- [来源链接 5](https://news.sciencenet.cn/htmlpaper/2025/8/2025822154821467138669.shtm)\n- [来源链接 6](https://ouci.dntb.gov.ua/works/7AJqKPJ4/)\n\n",
+      "QUERY_ATTRIBUTION.md": "# CompareDR query credits\n\nRetain this file and the accompanying `licenses/` directory with the queries.\nThe [40-query map](licenses/QUERY_LICENSE_MATRIX.md) identifies the upstream\nrecord, pinned source and terms for each query. CompareDR selected the tasks\nand changed their representation. These attributions do not override any task's\nsource restrictions or confer rights in external works.\n\n* DeepResearch Bench: six queries from Ayanami0730/deep_research_bench,\n  under the [upstream Apache-2.0 license](licenses/DRB-I-LICENSE.txt).\n* DeepResearch Bench II: 22 queries from imlrz/DeepResearch-Bench-II.\n  Keep the [authors, titles and article links](licenses/DRB2_ARTICLE_ATTRIBUTIONS.md)\n  and the [upstream data notice](licenses/DRB-II-DATA-LICENSE.txt).\n  Twenty-one are CC BY 4.0; query 119 is CC0. No new restriction is imposed on CC0.\n* ResearchRubrics: twelve queries from ScaleAI/researchrubrics, with the\n  [original MIT copyright and permission notice](licenses/ResearchRubrics-MIT-LICENSE.txt).\n\nCopyright (c) 2026 LongCat. The CompareDR validator is licensed under\n[Apache-2.0](LICENSE). Eligible original data contributions are under\n[CC BY 4.0](licenses/CC-BY-4.0.txt), without relicensing the source material.\n"
+    },
+    "criterion_provenance": [
+      {
+        "query_id": "drb1_19",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb1:19:comprehensiveness:1",
+            "upstream_query_id": "drb1_19",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "a8e29f2af342139a84d1626f171cd51fd49c060715197d525d0cc47de81381dc"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留定义与场景对象，纠正官方将Cardinality / Churn并列造成的混用风险；五档本地设计。 交叉审核恢复：定义不再重复要求成因场景。 v1.2：按用户要求拆为定义与基数关系两个独立判项；档位为本地修订，来源ID为继承关系，不表示官方原文。"
+      },
+      {
+        "query_id": "drb1_19",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:19:insight:1",
+            "upstream_query_id": "drb1_19",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "57493fb6c20d74150a8a11d4884ade60d41295d3ebd9ac03fa825645f93c230f"
+          },
+          {
+            "resource_id": "drb1:19:insight:2",
+            "upstream_query_id": "drb1_19",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "08bf4feb96c65bbb70119d601bb9c80e5536fce99bb5482c3982cea34434cd7e"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将根源与影响合并比较因果链，避免同一解释重复奖励。"
+      },
+      {
+        "query_id": "drb1_25",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:25:comprehensiveness:1",
+            "upstream_query_id": "drb1_25",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "1f48a1ec055a25fae952651fa03a9b851bc7aad1b1858e825b9284f74fb764a9"
+          },
+          {
+            "resource_id": "drb1:25:instruction_following:3",
+            "upstream_query_id": "drb1_25",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "ebf011e3245f2052e27ce7add8b8fb6ba8a4d5d199a0718104f854e77a6ddf84"
+          },
+          {
+            "resource_id": "drb1:25:instruction_following:7",
+            "upstream_query_id": "drb1_25",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "8d8b0ab7bad3510042d42f49f42cb28fd2d516140426667e612d1fe4d1c32aeb"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "合并时效与主题范围，删除官方5–10年暗定窗口；五档本地设计。"
+      },
+      {
+        "query_id": "drb1_25",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:25:insight:1",
+            "upstream_query_id": "drb1_25",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "ce555335fe470fb6806c8e846d0e6be6ca3b1efb654a51dd2207984bff057123"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将机制深度改为开放的阶段推理比较，不指定分子模型。"
+      },
+      {
+        "query_id": "drb1_27",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:27:comprehensiveness:3",
+            "upstream_query_id": "drb1_27",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "b9293dddf51ea7ac17a0a18a101edfd587a19acf5dc51747e4ebb444daad8aa2"
+          },
+          {
+            "resource_id": "drb1:27:instruction_following:1",
+            "upstream_query_id": "drb1_27",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "a5dbd3d80fefba0ad533af5546c412b4072d702475d5f10640a6821bfec8d4ca"
+          },
+          {
+            "resource_id": "drb1:27:instruction_following:2",
+            "upstream_query_id": "drb1_27",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "b2b5f172a0c8d8950d062ef6314b0f0c8e19b302609d3e865a9c2743a8d3c571"
+          },
+          {
+            "resource_id": "drb1:27:instruction_following:3",
+            "upstream_query_id": "drb1_27",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "2e850d096366792ba2780fe94b8241adbf002fe342a6e75063a4837a15dc6281"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "合并结合主题、如何结合和协同内容覆盖，取消多种模式数量要求；五档本地设计。"
+      },
+      {
+        "query_id": "drb1_27",
+        "section": "pairwise",
+        "criterion_id": "PW.D2.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "本地新增证据适配比较，聚焦人群、干预环境与结果而非出处数量。"
+      },
+      {
+        "query_id": "drb1_47",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:47:instruction_following:1",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "bcaa1bfae19bdfa9ff865838ee25398ee11c3d919fc4da0c0fd74b3c9b4d0728"
+          },
+          {
+            "resource_id": "drb1:47:instruction_following:3",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "15051112876618795e3a4ac7511f62bfbd865a133f86d34a0989dc5bd35cf997"
+          },
+          {
+            "resource_id": "drb1:47:instruction_following:4",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "f09297b11b9c4615d72e4257b82a6b7fb3892cf7844c05e9d806caaabfa0188a"
+          },
+          {
+            "resource_id": "drb1:47:instruction_following:5",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "0ad5131049aaecaeed925aeea5a5458fa6d4b0ef32279713fd297e7b4632813d"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "改写旧PT.D1.01：移除无法执行的笼统广度总评，保留整体任务方向；具体内容要求由独立PT恢复。"
+      },
+      {
+        "query_id": "drb1_47",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:47:insight:2",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "7911dc995f41646d28fa2562d5c2b3967333f50acba7142860526e4c459fbaf5"
+          },
+          {
+            "resource_id": "drb1:47:insight:5",
+            "upstream_query_id": "drb1_47",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "2a7fe38a624e08d592ca3f854a0ce7f1f9c0354635e90c367aca540cc13a2e2f"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "按独立审核R2明确全文实际核心机制的共同评价范围，以同一任务重要性依据比较，列出相反优势并只判断净推理差异；不新增机制项。"
+      },
+      {
+        "query_id": "drb1_48",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:48:comprehensiveness:1",
+            "upstream_query_id": "drb1_48",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "53b58918812c8dbf5b360d6ff5890d1a4d536d614ef701871e9b5f011ef77daa"
+          },
+          {
+            "resource_id": "drb1:48:instruction_following:1",
+            "upstream_query_id": "drb1_48",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "4d8d8465ab21f1c319f6b24019191cf5879ee034d5d2ad5f70372a8ed3f1f336"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "合并时间与完整食谱的重复要求；本地设计五档，允许明确的第二周复用。"
+      },
+      {
+        "query_id": "drb1_48",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:48:insight:1",
+            "upstream_query_id": "drb1_48",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "1c3538d6c8b0a5912e2285e1d74f06e7949c1953901620cea67b75eded34e150"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将个人条件与营养互补两个独立推理分开。"
+      },
+      {
+        "query_id": "drb1_51",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb1:51:comprehensiveness:1",
+            "upstream_query_id": "drb1_51",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "fe90901847bc629d1f933918d4eaa448ae964fce40797eac03b997267142807e"
+          },
+          {
+            "resource_id": "drb1:51:instruction_following:1",
+            "upstream_query_id": "drb1_51",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "598bd5d4641f26695540ca5d36264a3d05070ee96d5ca9cde3ace0d8ff4ef780"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Merge duplicate population coverage; remove mandatory cohort bins; anchors locally designed."
+      },
+      {
+        "query_id": "drb1_51",
+        "section": "pairwise",
+        "criterion_id": "PW.D2.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb1:51:comprehensiveness:7",
+            "upstream_query_id": "drb1_51",
+            "upstream_license": "Apache-2.0",
+            "original_criterion_sha256": "0597b14b9ab9692c532531f612b30ba771857c96d0c0ae7b114c87e66fe85be5"
+          }
+        ],
+        "source_query_license": "Apache-2.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "Apache-2.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain evidence and context fit rather than mandatory source breadth."
+      },
+      {
+        "query_id": "drb2_11",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:11:info_recall:2",
+            "upstream_query_id": "drb2_11",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3c38f77370f616e5b6e57d90cea8c8620d09f1f6da08dc5b02cbfb5c0ab57e10"
+          },
+          {
+            "resource_id": "drb2:11:info_recall:3",
+            "upstream_query_id": "drb2_11",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "616b1016cf83e60dd934daff4d8faa519ab81c6528074b57e97e3781a1de87a8"
+          },
+          {
+            "resource_id": "drb2:11:info_recall:4",
+            "upstream_query_id": "drb2_11",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "28d567e04990c63dd73989cebf5702c65d718a04c253ec7cff828b34e4a54705"
+          },
+          {
+            "resource_id": "drb2:11:info_recall:5",
+            "upstream_query_id": "drb2_11",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "48a63a4bc64fb664798d58213d2f227759fb2e53571a997fd4120e924d88b8c1"
+          },
+          {
+            "resource_id": "drb2:11:info_recall:6",
+            "upstream_query_id": "drb2_11",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "5e5665659e8f70e41bde0e08260db06a3ad8fe2526b1db463d06acae4d8928e8"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "官方基本机制整合为题面理论说明；五档及遗漏档位本地设计。"
+      },
+      {
+        "query_id": "drb2_11",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "本地新增比较推理对象，不强制某理论胜出。"
+      },
+      {
+        "query_id": "drb2_117",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:117:info_recall:1",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "c9cdb72851cde5870f80db2eda91db9438fc27af1324a74c80e0544cb957256a"
+          },
+          {
+            "resource_id": "drb2:117:info_recall:2",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "4db31f9983741a0a6ece784a081965d195dc0926b3b63257a8fc24a7e9d74bad"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留题面背景对象，合并简短背景而非每个字段独立评分；锚点本地设计。"
+      },
+      {
+        "query_id": "drb2_117",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:117:analysis:1",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d2e68aef6cdfca92ed58a5a05206cd250a586afbe604df6dff2b971c2b9a3c75"
+          },
+          {
+            "resource_id": "drb2:117:analysis:2",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "b82738477de9cc869dbc2a442df2c288606c0bcb2cb352e726886ca07e7555ef"
+          },
+          {
+            "resource_id": "drb2:117:analysis:3",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9d929014d41ac5a75ad42341a95366dcb6db89b3a587c831d9655796d85a65d1"
+          },
+          {
+            "resource_id": "drb2:117:analysis:4",
+            "upstream_query_id": "drb2_117",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "fa7861713ab8adad0b853ba7a554b604dfe1a3e52ea3eb097acc2207fbafce80"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3定向修订：v3.3沿用基线判断对象；原自检：新增解释链，反驳好但立正跳跃会削弱整链，不拆相互依存的推理。"
+      },
+      {
+        "query_id": "drb2_119",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:119:presentation:2",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "cf8d00ae0ce734f788ed5cb2cd2fdbdfb9e2008723892502173f3942a4ef4851"
+          },
+          {
+            "resource_id": "drb2:119:presentation:3",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "e0c0c4addcebef16cee8658780777dffd19af3c33a3f0d3b412a73992d2230ad"
+          }
+        ],
+        "source_query_license": "CC0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将相关官方判断收束到“所需表格”：报告是否提供按七类活动组织、含题面五类信息列的总结表？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：承接五类列信息，允许同义表头。；保留七类活动行。"
+      },
+      {
+        "query_id": "drb2_119",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:119:info_recall:33",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "1f35dc6216f414dca4e37155d3ce47412fca4af8d7b0014c8f23bbba3a55c5de"
+          },
+          {
+            "resource_id": "drb2:119:info_recall:34",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "d875e10bbd590afe2b54ec21f7ac02ea711ad72ae92ffecdca22d5eb51024f00"
+          },
+          {
+            "resource_id": "drb2:119:info_recall:35",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "45fedc5c76566695609a14a0e6d05d43a96c51e1f1c6f949bbf90b84a412ebc3"
+          },
+          {
+            "resource_id": "drb2:119:analysis:1",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "ae65ea386ecba9f656e28eeea8758216cd5c3cb5e95a9ef8607468f0a8e94bc1"
+          },
+          {
+            "resource_id": "drb2:119:analysis:2",
+            "upstream_query_id": "drb2_119",
+            "upstream_license": "CC0",
+            "original_criterion_sha256": "296d3bf97e96b125875db897a6368c8a933372d5f2e0f820bd9210021930242c"
+          }
+        ],
+        "source_query_license": "CC0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将相关官方判断收束到“温度响应解释”：哪篇更能解释升温何时促进参与、何时过热或积雪损失抑制参与？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：改为温度响应关系解释。；承接非雪活动的温度条件解释，不强制官方单一因果路线。；承接过热转折的非线性解释，不强制官方单一因果路线。"
+      },
+      {
+        "query_id": "drb2_123",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:123:analysis:1",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9efd685c862c7b1d6b94233bae696d1bfb8c6e6596d43b8b52fb7b2710c67c43"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留HI与定居点区别，补全球视角的范围检查而不规定国家名单。"
+      },
+      {
+        "query_id": "drb2_123",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:123:analysis:2",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "be94b8f39dccc58844186ca45c002a1315b70caab6227566880e62b749ccf44d"
+          },
+          {
+            "resource_id": "drb2:123:analysis:3",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "619a45f89fa6780a0190b997c3a2fa538d216cd834dab202f6ed1e38a0648626"
+          },
+          {
+            "resource_id": "drb2:123:analysis:4",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "ac01b162e97432667a127eb93ebf7791ec931e01daf7be622d049976c60a55a4"
+          },
+          {
+            "resource_id": "drb2:123:analysis:5",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "7e3ba8af64f4b5db6b14d9708c50d1460a82c556a88e90dff308b05f7a32b033"
+          },
+          {
+            "resource_id": "drb2:123:analysis:6",
+            "upstream_query_id": "drb2_123",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "33c06081e616a43d811b56f35b88767fb71a8239443c0c5ee6e4e3bb99f727db"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留形成机制比较，取消指定国家、必然根因和固定定性。"
+      },
+      {
+        "query_id": "drb2_125",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "query_derived",
+        "official_references": [],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从题面建立范围检查与本地五档。"
+      },
+      {
+        "query_id": "drb2_125",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:125:analysis:1",
+            "upstream_query_id": "drb2_125",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f2e76963fac38366d1b44f63c3621e9434254634662ec2cd67ad444fdf0c69d7"
+          },
+          {
+            "resource_id": "drb2:125:analysis:3",
+            "upstream_query_id": "drb2_125",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "1a2dd90451e6c70ab2c65ff1b57433c0e2e1b9b512b3408f12591fc15259c2db"
+          },
+          {
+            "resource_id": "drb2:125:analysis:4",
+            "upstream_query_id": "drb2_125",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "62594fe55e4df2499efd9448d5562b3ef88101cbf11a0d8194eae91f18bb46c3"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从具体差异解释提炼开放比较，取消统一原因结论；五档本地设计。"
+      },
+      {
+        "query_id": "drb2_129",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:129:info_recall:1",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "432440acad526b54bceae0d68106a8e31d7a8dfe14c2d2e5591745bb012b4ca1"
+          },
+          {
+            "resource_id": "drb2:129:presentation:1",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f60b80381f0ab1c0ced5b4e54fcd2bb840d0cf273942fa9a74af52ae69a20c77"
+          },
+          {
+            "resource_id": "drb2:129:presentation:2",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "68e9328bb9f7811f089104c0abfebce610592f1990099923513b86b0dfce8c31"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "合并重复结构资源，保留两部分与三阶段的对应关系；本地锚点明确只满足一层结构的情况。"
+      },
+      {
+        "query_id": "drb2_129",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:129:analysis:1",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3c877801ceebbed5b957430d4ff96bc1ce401fe015c228b6428ce35f15a028f3"
+          },
+          {
+            "resource_id": "drb2:129:analysis:2",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "fee9c1dd0018d1ec354d3c2f08950c7837e1f710ded76659d90fa63503f9996c"
+          },
+          {
+            "resource_id": "drb2:129:analysis:3",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "5575c322d6bbc8cbb695d332fca4722e0e8207584038208260588c89c0296a0d"
+          },
+          {
+            "resource_id": "drb2:129:analysis:4",
+            "upstream_query_id": "drb2_129",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "2d188e34f118fc09b6cc5809d0e6673b841c86960694f1a2a115efc904a7de67"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "把官方条件性机理保留为实际推理比较线索，不将其全部变成共同必答结论。"
+      },
+      {
+        "query_id": "drb2_15",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:15:info_recall:6",
+            "upstream_query_id": "drb2_15",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "cf31334108423c1b8aa83e65a07287f18b3ed4c183f4174ea1d8f34baf8c5d52"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将官方速度准确率断言改为任务与效果说明，不预设实际成效。"
+      },
+      {
+        "query_id": "drb2_15",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:15:analysis:1",
+            "upstream_query_id": "drb2_15",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "2cde894d8bd017ca1a90b5a4be62f8bbef2b869071790f038271669535b4e4af"
+          },
+          {
+            "resource_id": "drb2:15:analysis:2",
+            "upstream_query_id": "drb2_15",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "64b4779d02617fbf7a4221327cedf86074ab22c0779febcb9c79a74bf5cb4626"
+          },
+          {
+            "resource_id": "drb2:15:analysis:3",
+            "upstream_query_id": "drb2_15",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "dbf23fe3db437ea988abac403c8e04980aab3f5603aee3932eda2f9b22084fc3"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从原PW.D3.01分出流程改善解释；保留官方自动化/数据/公共服务的作用关系，删除与五种风险机制的混合判断。"
+      },
+      {
+        "query_id": "drb2_18",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:18:info_recall:1",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "4ba6b6491ac69af0267737405d25366cb2a5efcf45ca9d696fc92e9cd28d7233"
+          },
+          {
+            "resource_id": "drb2:18:info_recall:2",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "cb7cf625ed3522d4aa62ff42bb739cd610480ac0868296bb4b10045c6d1a305b"
+          },
+          {
+            "resource_id": "drb2:18:info_recall:3",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "69d9cca14a24854f49937401c80fba651cfbd1f256fb6be64d2757db07808124"
+          },
+          {
+            "resource_id": "drb2:18:info_recall:7",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "75e5dfd78a722aea34d479ce0eea1d4491226362f6aa4c8dba7e0a35437531cf"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain connection/material specificity; remove the exhaustive transported-substance list. Anchors locally designed. Cross-review restores the mitochondrial material domain without imposing a frequency claim."
+      },
+      {
+        "query_id": "drb2_18",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:18:analysis:1",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "60af2371e5f95422a7e32d0bc79fdd49393a7b8a60466d670bcf8f5fef94140e"
+          },
+          {
+            "resource_id": "drb2:18:analysis:2",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d3c22d0a14cdd4a7e0fa50c8bd0f29b505f5c4d7fbb08cbcdca070f4e3c4bd1c"
+          },
+          {
+            "resource_id": "drb2:18:analysis:3",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "09c7e7bdc88916d422f43efda53b2217364d3ecbf1dd12bb2b6849105ea92f66"
+          },
+          {
+            "resource_id": "drb2:18:analysis:7",
+            "upstream_query_id": "drb2_18",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e7875ce9a3ee6305a9b23eea02c71f145291e8925e8ad07d69e91b94c8d43095"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New inferential chain; good contact explanation cannot offset an unsupported inheritance leap."
+      },
+      {
+        "query_id": "drb2_21",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.mag.principle",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:21:info_recall:2",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "5786ee5d40b220370e67ee8b9f4e98f80530668cebcdc8a15256953123bc3f9b"
+          },
+          {
+            "resource_id": "drb2:21:info_recall:5",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "8c5637317199178fd7b61b0bf0294a7534fc061c2d06da626560fa8ccb08b756"
+          },
+          {
+            "resource_id": "drb2:21:info_recall:6",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "82bea971dcc6bbfcff56d72d816662973ac9a3c53a1ad24c834fef6828afe62c"
+          },
+          {
+            "resource_id": "drb2:21:info_recall:7",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "81412d2ad89015ea524f15cfce636f93375602d3ac7127da3be2bfa738e2292b"
+          },
+          {
+            "resource_id": "drb2:21:info_recall:16",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "74d6f554de6060b196d46b6bc048a14d3f7bf458414713f1402feb30c6ed0364"
+          },
+          {
+            "resource_id": "drb2:21:analysis:1",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "a33e3dcb43a73507f4a80062c27947b058ff12f5bbbd9eb76706117472b742e4"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "将相关官方判断收束到“地磁罗盘：工作原理与模式”：报告是否具体说明地磁罗盘的地磁方向信息及倾角、极性模式的差别？；本地重写五档、明确对象条件与评分边界。具体保留/舍弃：采用该官方对象所属的机制/类群/条件检查，允许有据的范围修正。；保留倾角与极性的概念区别的判断，去掉唯一实验或绝对化结论。"
+      },
+      {
+        "query_id": "drb2_21",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.mechanism",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:21:info_recall:13",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "68ae7d4964ade7050fd545dcbc4a3387753ec61ada9749611c09f896248b9118"
+          },
+          {
+            "resource_id": "drb2:21:analysis:2",
+            "upstream_query_id": "drb2_21",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "45d5fd60a1680712938642a8f2b9122e3126cd14d3a6c6b620752a6067ee10d0"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "模型解释强而时钟推理弱会独立发生；原机制总项收窄为磁场模型到行为关系。；五档重新设计，不作为PT内容总结。"
+      },
+      {
+        "query_id": "drb2_28",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:28:info_recall:1",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "b5c208cc774b5909c78297e22a7710e09764cf420805e0b879e9ee191eafa620"
+          },
+          {
+            "resource_id": "drb2:28:info_recall:2",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "10fe529210c85a3a4842aa6815a1aa3d5210885bfe0da9ea520a8a6730cd0331"
+          },
+          {
+            "resource_id": "drb2:28:info_recall:3",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "10b5c49cf08a30b9792446c58a3301e83e2dc0f00c28e7671a4e446a24054476"
+          },
+          {
+            "resource_id": "drb2:28:info_recall:4",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e4f89f18df016a86f37627d36ffc79e2bf555c8b39a7c89bc6dfe436b6781e1a"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain the BEP/off-design comparison; remove unconditional rankings and fixed numerical answer keys."
+      },
+      {
+        "query_id": "drb2_28",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:28:analysis:7",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "4056bd2bcefb8281fa0fc5797669def2db336c2eeadbd2a62f4aa2c5fea89bda"
+          },
+          {
+            "resource_id": "drb2:28:analysis:10",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "8969ae6b2894d19d8e1f2c342bfcc9ec425d629abc6768c5967179e9ac24a7fc"
+          },
+          {
+            "resource_id": "drb2:28:analysis:11",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "fe20aeb66579f77e715845927abdd740e291a5125eb43cfa13bdc3e1e5a4a65f"
+          },
+          {
+            "resource_id": "drb2:28:analysis:17",
+            "upstream_query_id": "drb2_28",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "90afd28aad1516cd17986bdd3a204ca6a02fae3d6409033a3d629dd20528b099"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain hydraulic/control reasoning and placement relationships, remove universal substitution claims."
+      },
+      {
+        "query_id": "drb2_3",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:3:info_recall:1",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "6f70984791421b8b18e550adec2c5f4bc8510f525457f0278c737778f98e5701"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:2",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "62ea70aa6ac6b8922e86c911eaa7351d5e356140358d040748de53b30ace9307"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:3",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "32cc2df6db873bd6727cfcd98424ff66d32fa94593411d4ea31c6184529f4e63"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:4",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "dd361da40b7861517fc3cf7e920654219e8d3711f4d8d15439b9da376ede86d2"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:5",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f00680e6020880b6484f0b95a8def46b391c4edd78bd838ac1cdf06190a7b153"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:6",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "fa193be0c51003df79c5b5e6b0918766d1beaa2d520f3261fc68dbc4e92b7f3c"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:7",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "813d9b5145cc0cc6b05fd489f9875489770ade097e9b8d00806ae6b0208e52b2"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:8",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "bb30949751be04259a867b74c4de610d238c529e228c86e2c7de921edcb236d0"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:9",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "92af285a56bc3ea44fe6914a1665293f322cea20b3850db0b3137177587b8fde"
+          },
+          {
+            "resource_id": "drb2:3:info_recall:10",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f59e6cceee270bb4ecab3263932c95366366021a4575d22ae6c6fa8891637718"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "聚合日本官方节点为一国历程覆盖，不逐政策设分或固定阶段数；锚点本地设计。"
+      },
+      {
+        "query_id": "drb2_3",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:3:analysis:1",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "59b55be8cd0d3f2f15274ca2d079ce5810c77479717aa1d18418282dd2fdfafd"
+          },
+          {
+            "resource_id": "drb2:3:analysis:2",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "846447c78ff6d770400d7aa0cedafb6c57e08691de79cd4f85c5b7cb1351feae"
+          },
+          {
+            "resource_id": "drb2:3:analysis:3",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e204d3598c049d2880f1943cbc623bc682ae2ef97f0b03c7e5659f6c0c70353c"
+          },
+          {
+            "resource_id": "drb2:3:analysis:4",
+            "upstream_query_id": "drb2_3",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3857ddc42f2c8027fe2af77f629e82db19379a46cdf524a2aca44d1c4ba4831c"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留四国演進分析但取消预定快慢及追赶结论；五档本地设计。"
+      },
+      {
+        "query_id": "drb2_41",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:41:info_recall:2",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "664a1ee24ce8040b19c912e1cc8be4d3431165eb09d6e63729e6052e1d0c080d"
+          },
+          {
+            "resource_id": "drb2:41:info_recall:6",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "106d3dc25a74308c8afd04711d76db5348684c21c8c938c18375862d9d0972ba"
+          },
+          {
+            "resource_id": "drb2:41:info_recall:9",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3bc2c7d231a8d5069117f975f5f54a3f060000505cf73a45012328ca52ddcdb1"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3恢复具体技术/应用/收益范围，名称可替换但领域不可静默删去。"
+      },
+      {
+        "query_id": "drb2_41",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:41:analysis:1",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9696b4a6ddde38d6b5e2acd1d81b796dfd3b994a3e3f9b8c41c6aef500c2bdaa"
+          },
+          {
+            "resource_id": "drb2:41:analysis:2",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "ef94c5979536fa9b9afad66500ea31cc702749d0f939dc5f80198357d5865415"
+          },
+          {
+            "resource_id": "drb2:41:analysis:3",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "0e3799b2240c0a9646f64d4b8e39257a434dfab9ad1fcbcf96eac4806ae27fe2"
+          },
+          {
+            "resource_id": "drb2:41:analysis:4",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "48f5b2ffe6d46cb1ccf9d5e08a9598a636cb415a4097bded01d6a2309383e9a4"
+          },
+          {
+            "resource_id": "drb2:41:analysis:5",
+            "upstream_query_id": "drb2_41",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e45a93947f77a0db615620b345a4af02d30efc5ae7829c265c8237ab0be91a58"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "合并相关机制解释，保留历史连续性、应用范围和开发门槛线索，去掉唯一MDE路线和固定因果结论。 定向修复R1：保留PT必要关系检查，PW须说明额外的推导成立性差异，不重复奖励PT高档解释或覆盖。"
+      },
+      {
+        "query_id": "drb2_46",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:46:info_recall:1",
+            "upstream_query_id": "drb2_46",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "400f16eb5131575d06ef853ab1e51b4ef025b5b25f2a0581519712ba4204da66"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retains the requested categories and adds implementation-sensitive boundaries; anchors locally authored."
+      },
+      {
+        "query_id": "drb2_46",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:46:analysis:1",
+            "upstream_query_id": "drb2_46",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "ab9a175d467d687508e946638d0b0821dfb20bd1e202aedea93b1d2613da1e01"
+          },
+          {
+            "resource_id": "drb2:46:analysis:2",
+            "upstream_query_id": "drb2_46",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "0a4e16893d686387eb3ba5d0c7b12ac1a8653413e9b6765ba79e502a449293cb"
+          },
+          {
+            "resource_id": "drb2:46:analysis:4",
+            "upstream_query_id": "drb2_46",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f7a7c44452e4647a46a00eaa4acf745447e712e5e2863df76af080fe7940c344"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapts timing and error trade-offs into conditional reasoning instead of fixed superiority claims. Cross-review distinguishes profile completion and equal opposing timing advantages."
+      },
+      {
+        "query_id": "drb2_58",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:58:presentation:2",
+            "upstream_query_id": "drb2_58",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9230a0e3d9909bd0dae4999fe00736c9adcac604587ea897e94b1272ff3ed508"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain the explicit minimum and distinguish studies from table rows/papers."
+      },
+      {
+        "query_id": "drb2_58",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:58:analysis:4",
+            "upstream_query_id": "drb2_58",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e745169b4a0314655f21f44b34316eea771e0b530359d4fde6d05f110413e2c3"
+          },
+          {
+            "resource_id": "drb2:58:analysis:5",
+            "upstream_query_id": "drb2_58",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "83e9aee0c2b1a76ac9558328c3fd6427359934560291893ff352ccb4e6c8a4c2"
+          },
+          {
+            "resource_id": "drb2:58:analysis:6",
+            "upstream_query_id": "drb2_58",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "03c4897044f17702b335de9aa68f98b566b7967b8826106516fac3a0fe96e491"
+          },
+          {
+            "resource_id": "drb2:58:analysis:7",
+            "upstream_query_id": "drb2_58",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "5fca23534a278e22ff9d907faa12de3d7a87d977bb9e499b9724d12b153606dc"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Separate methodological reasoning quality from requested design coverage."
+      },
+      {
+        "query_id": "drb2_66",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.table",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:66:presentation:1",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "116d253737aca36636fdd127b42a1eeb9b980cbb7ddef2f48f030417edc9fea0"
+          },
+          {
+            "resource_id": "drb2:66:presentation:2",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "abcd763443abbd57264d9f62624018d12190de3d02a33cc642a5fb578f3148ae"
+          },
+          {
+            "resource_id": "drb2:66:presentation:3",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "6f8544e101015d29545744d7d19f0771c55de709e79a9764eec3b26a589cb559"
+          },
+          {
+            "resource_id": "drb2:66:presentation:8",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "8cc7cd97d548cbd7d1dbcf5d997f4b78378a6452da591a736c97c7c10ec8a567"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt the official material to the specific object 'Requested therapy table': Does the report provide the requested four-column table covering the four treatment areas and the two specified future modalities? Locally design the five anchors and boundaries. Concrete changes: Retain the table requirement. Retain the four specified information columns; harmless label variations remain acceptable. Retain required areas without compulsory ordering. Retain probiotics/prebiotics and FMT under Future Outlook; do not mandate a dietary row."
+      },
+      {
+        "query_id": "drb2_66",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.surgery",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:66:analysis:1",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "59dfd72b946aa15a404ba8dc04312567c0b0bb104b306f630fbca40c164b583c"
+          },
+          {
+            "resource_id": "drb2:66:analysis:2",
+            "upstream_query_id": "drb2_66",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "4f00e4af25f55294b206bf34521d80a32e5ede4d5f9429a52915ef5fef194237"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt the official material to the specific object 'Surgical complications: causal explanation': Which report better explains microbial changes through barrier or tissue-healing processes to a postoperative outcome? Locally design the five anchors and boundaries. Concrete changes: Retain a judgment of preparation–microbiota–barrier injury chain; remove a prescribed positive conclusion or uniquely required molecular route. Retain a judgment of bacterial tissue degradation and impaired healing; remove a prescribed positive conclusion or uniquely required molecular route."
+      },
+      {
+        "query_id": "drb2_71",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:71:info_recall:2",
+            "upstream_query_id": "drb2_71",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "c43def560b1437eb415f7fa7a495a2517eb56c7243a52588c3b05a7dc5008b3d"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留秘密合谋解释的对象，开放措辞并避免污名化。"
+      },
+      {
+        "query_id": "drb2_71",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:71:info_recall:4",
+            "upstream_query_id": "drb2_71",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "ea42d5bf58807b63b6559782312f12efdbe975dc7c0116c6f4d7275e80e70453"
+          },
+          {
+            "resource_id": "drb2:71:info_recall:5",
+            "upstream_query_id": "drb2_71",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "7c1fb71f151a3439c07d8c4c60a147dd61a7d5195b0408d36e99337e993e394d"
+          },
+          {
+            "resource_id": "drb2:71:analysis:1",
+            "upstream_query_id": "drb2_71",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "83ff80416fad6ff48236cc80a5fa0adcd3e6c332ba47d23797e4e20b4c6c748e"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3将跨动机混合的D3收窄为独立机制或后果推断，避免不同需求的相反表现任意权衡。"
+      },
+      {
+        "query_id": "drb2_75",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:75:info_recall:1",
+            "upstream_query_id": "drb2_75",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "849963492391e026935d5f7d3ee91472075a4f97404e820f8af2b23d308ad503"
+          },
+          {
+            "resource_id": "drb2:75:info_recall:2",
+            "upstream_query_id": "drb2_75",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "87de1768e21046e1ac00018adb47883a26f44587b46ef2bb060880cb3be24b80"
+          },
+          {
+            "resource_id": "drb2:75:presentation:5",
+            "upstream_query_id": "drb2_75",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "24b149c9cc153b0b32f2c79fb8f82543e41d08dc003bf475b34b1505ab474e93"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "取对象身份及呈现目的；五档本地设计。"
+      },
+      {
+        "query_id": "drb2_75",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:75:analysis:1",
+            "upstream_query_id": "drb2_75",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "15ed462bb087e04c2384b67eb134c10e38227b8235dc63e7878afe80a05cff3b"
+          },
+          {
+            "resource_id": "drb2:75:analysis:2",
+            "upstream_query_id": "drb2_75",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f4bb841ee556cbf02f08e14334f6d4f78b263cd59531ba86b717d292009c7d52"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留回应与建构意义，取消固定五大原则对应；五档本地设计。"
+      },
+      {
+        "query_id": "drb2_76",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:76:info_recall:3",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f405fc301a8cf1c14c655b8ee6c7a40ffa91992a1573a3b0115ea76ace6c7c2c"
+          },
+          {
+            "resource_id": "drb2:76:info_recall:7",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3017b4835f5bf7550f09b044ab17bdd561fd457edd2517ccb850115c7b5ecec9"
+          },
+          {
+            "resource_id": "drb2:76:info_recall:9",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "ba75bef2bcf6ce586f8419680fa8e488335ddc2aa99cd7f0dbbabb0a8801fed7"
+          },
+          {
+            "resource_id": "drb2:76:info_recall:10",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "87481712c1097c607729da15242e0e2435990407392dd839bd804c440ca95456"
+          },
+          {
+            "resource_id": "drb2:76:info_recall:11",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "cc652229d4b90c033b58eac43d7f567b2631dee2c062793a9fcab6f660757a9b"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain the institutional dual-role content, allowing explained qualifications; remove expert-name and exact-word requirements. Cross-review makes the already-required welfare/development framework explicit in 3/5 anchors."
+      },
+      {
+        "query_id": "drb2_76",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:76:analysis:1",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "e40482fa475b20828d80a1068ce4d0f0def1b4b2cc0fe5b43e1b2d06ee7d8a13"
+          },
+          {
+            "resource_id": "drb2:76:analysis:2",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "211b54a2a67d1bbc65f6cab9e94fce5822c0bb8e549d49e2212690a665c1127a"
+          },
+          {
+            "resource_id": "drb2:76:info_recall:12",
+            "upstream_query_id": "drb2_76",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "72b3db356ae4f7473e775905aef19231fcd1561b464eba10dd53bd7dc3592fca"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: Imperial maintenance and oversight interact within one causal account; a broken link is not repaired by unrelated historical detail."
+      },
+      {
+        "query_id": "drb2_79",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "query_derived",
+        "official_references": [],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "由题面新增教材样本范围审计，不按某本指定教材锁定。"
+      },
+      {
+        "query_id": "drb2_79",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:79:analysis:1",
+            "upstream_query_id": "drb2_79",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "5860f9985886834dedcef8a5ae58289e57dba240b0be3e318cab2ef1a77cfbe3"
+          },
+          {
+            "resource_id": "drb2:79:analysis:3",
+            "upstream_query_id": "drb2_79",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d0b29c0e9e4f6754c595da4a9ab86693e8d29b5d41d9f224a8e244ce01844d14"
+          },
+          {
+            "resource_id": "drb2:79:analysis:4",
+            "upstream_query_id": "drb2_79",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9c1f06e5e48cd8477bd90bda09a70c76fe72f21c5cb33a702a7f91abf8fe27d0"
+          },
+          {
+            "resource_id": "drb2:79:analysis:5",
+            "upstream_query_id": "drb2_79",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "630dfaa64c586364ef2ad4454ed179134a44f665b23b684a22c414fbd1873104"
+          },
+          {
+            "resource_id": "drb2:79:analysis:7",
+            "upstream_query_id": "drb2_79",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "db557b6b57003eb8031c7960729b68c1d68e3d9c6de89027374196dbcdc17e58"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "保留例子到困扰的推理，区分自愿虚构角色和被迫掩饰身份，不要求固定负面结论。"
+      },
+      {
+        "query_id": "drb2_84",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:84:info_recall:1",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "30ca95d9165f1dfa7158a567b1e00256c49314349b44900338b3805534139299"
+          },
+          {
+            "resource_id": "drb2:84:info_recall:5",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d1cacec603cf515cc94e740d6d9de4c301efb29578a37eda27ddb3774bf2c1e6"
+          },
+          {
+            "resource_id": "drb2:84:info_recall:6",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "0e66f79fb1f47d967a1c2523681b69facd861b87875fd6ebc7431f3f746cb9e5"
+          },
+          {
+            "resource_id": "drb2:84:info_recall:7",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "7183d45da8a49061bf7002db549783189fae96901efd9fdf0c4e8046cb666b5b"
+          },
+          {
+            "resource_id": "drb2:84:analysis:10",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "bdeee9bdb0ddff9da8f762244ab60e5691da27fbc0760bf320e192765acc41c9"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain distinct economic vulnerabilities without a deterministic curse."
+      },
+      {
+        "query_id": "drb2_84",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:84:analysis:2",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "4869348ebf87ae6fc62aef3189ffb2d9219c8fde941543151097ec5c69339a90"
+          },
+          {
+            "resource_id": "drb2:84:analysis:3",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d8179321a0d1aa7edefbbd5184d23bd0209b19064e518b3732120d10000720ad"
+          },
+          {
+            "resource_id": "drb2:84:analysis:4",
+            "upstream_query_id": "drb2_84",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "9548ab85b7b79c56f4f44d0a6f40a4a3af689bc31f11e84e3567c6fa7af81589"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Move depth of mechanism comparison to PW while PT retains coverage."
+      },
+      {
+        "query_id": "drb2_95",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "query_derived",
+        "official_references": [],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "题面派生的范围或可观察禁源检查，沿用seed五档；不是官方独立事实条目。"
+      },
+      {
+        "query_id": "drb2_95",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "drb2:95:analysis:1",
+            "upstream_query_id": "drb2_95",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "7d44e76f5a4e04d14a76eceeda0e6aa9933701f87ac1d1557bc083c05725ff4a"
+          },
+          {
+            "resource_id": "drb2:95:analysis:2",
+            "upstream_query_id": "drb2_95",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "01614e9443d53a88b14808cdf74b5ff714054d71b0aa81956bcf9369c9f4f0f6"
+          },
+          {
+            "resource_id": "drb2:95:analysis:3",
+            "upstream_query_id": "drb2_95",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "c6a39c7da6677f8a0598d550de102e46d0a2f10197a358aa1f48bb8e203f62f5"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "官方评价对象及精确最终子项来源按official_disposition逐项承接；五档与方法中立边界为本地设计。仅补充与本次PT修订的去重边界，原问题和五档保留。"
+      },
+      {
+        "query_id": "drb2_97",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "drb2:97:info_recall:2",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "88e2898e7e48a837c79bb23004c94220bb5529406bf362b7631673d6dcca0ed2"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:3",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "3739561b3bb5141fb0c24df616ac87ab0bb16076a0741287c717f2ee87a03389"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:4",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "7bbc3fd08ccb39a5307ae512909e73427e8262a3bac8e8f6aab1572645ec7b43"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:5",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "d9cc79b6a125c5f15cfe9482cd7ec305197c2fcb1735eb4f383c10e25519dec5"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:6",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "90e71d8b91e9ffc5a2fb903eb7b9d9ab4c2515b9d1a9229d30c5cd88ca65cad2"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:8",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "eaa8946026fe5afd3fa6396ccc3529af7139cd163504fcda79c9923a4b1a3f80"
+          },
+          {
+            "resource_id": "drb2:97:info_recall:9",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f26b62d33c006ddf005483ea82ba10aaf6dc91340be16e0eac5cdc7ec3101e5b"
+          },
+          {
+            "resource_id": "drb2:97:presentation:3",
+            "upstream_query_id": "drb2_97",
+            "upstream_license": "CC BY 4.0",
+            "original_criterion_sha256": "f91c0c01f2e127b43bb568d6052937d4294e987d924b60c1dff7cb6575ab4450"
+          }
+        ],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "CC BY 4.0"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      },
+      {
+        "query_id": "drb2_97",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "CC BY 4.0",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      },
+      {
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.engram",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:3",
+            "upstream_query_id": "rr_683a58c9a7e7fe4e76958488",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "1027aec49a7300b576af33215cb85b68711e2ceeebbdb5b5cd3af6479cf43a55"
+          },
+          {
+            "resource_id": "rr:683a58c9a7e7fe4e76958488:flat:9",
+            "upstream_query_id": "rr_683a58c9a7e7fe4e76958488",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "3132a35e6322e521b01d6da674444d1a85abb190c6a60accd0b7c904d0d2341a"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt flat:3 to persistent encoding, reactivation and a trace's functional contribution to a specific memory. High anchors require a predicted selective perturbation effect or an equivalent causal explanation, not an executed experiment, fixed sparsity or nonredundant one-cell necessity. The five anchors and boundary are locally designed. For flat:9 (raw weight -3), retain the distinction between memory traces and transient errors without requiring error-controlled engram formation."
+      },
+      {
+        "query_id": "rr_683a58c9a7e7fe4e76958488",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.inference",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Locally add 'Integrated inference reasoning' for this query: Which proposal more convincingly explains how its memory–prediction interaction leads to the stated class decision? The five anchors and boundaries are local design, not verbatim official reuse."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605343",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605343:flat:1",
+            "upstream_query_id": "rr_6847465956a0f6376a605343",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "27f4554af268fb21e39f8b26102e5639759eeda36a1be8f9122f3427b0c5965e"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605343:flat:2",
+            "upstream_query_id": "rr_6847465956a0f6376a605343",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "59e76349896192fe9573fa8e32c2b5e8a88ebab2f52549547504e5c8d65ea386"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605343:flat:5",
+            "upstream_query_id": "rr_6847465956a0f6376a605343",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "ed1212e629f6b67c894f1dd40c60236c5ccba82924ae72a2c890b5585b307b2f"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New: identity, location and capacity define the selected venue; a beautiful venue with no dining capacity specified is 3, not offset by ambiance. Cross-review makes missing occasion suitability remain at 3 rather than allowing the old capacity-only 4."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605343",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Add end-to-end compatibility reasoning beyond the existence of PT specifications."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605363",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605363:flat:10",
+            "upstream_query_id": "rr_6847465956a0f6376a605363",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "043711f35409d13d1410409e406691ee6aa12df326294fbea33c0266fa482bf0"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt event coverage into a period-wide account; remove the two-event quota and mandatory examples. Anchors are locally designed."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605363",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605363:flat:2",
+            "upstream_query_id": "rr_6847465956a0f6376a605363",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "d47693d3486893e337f1e70066ce14a2189e26cd174af2c30a90af410b29ff48"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt the fixed Getaround story into an open mechanism comparison. Anchors are locally designed."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605371",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:10",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "89e3bb24f7d0fb28dba9055ac6a008cebb0e4b611137d467e83dbc4bdfd9d1fd"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:11",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "a26b43181f8bced20d6a3795f467443ea54848c337434a257688916735cc15d7"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:12",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "85078a156c8bf021c7835aad5f2ab41d053ca0a6220414ac08286e0a70ae9249"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:19",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "70bb1f652da9ac8ad15f7d85378d50cd7e1c73eb6c1a06bb1ebf9f1236ef350e"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:22",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "f486292c6c55fb85ae6adf42a6c53b765fa7707898d57e3b6e29353c3f2ef2ab"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:13",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "7a65c80054514a2b8b00e443a516b244d5a1988350506b6af93d3161523622d9"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:26",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "abfc754bc5794618ca99423dc68d0888c1dac4dc2e58dac8e98ec8cf2736a3f0"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Merge ranking, reasons and negative missing-city check; preserve US scope but drop example cities and regional diversity."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605371",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605371:flat:34",
+            "upstream_query_id": "rr_6847465956a0f6376a605371",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "098ba5140aa20ac867973d24745d5e5f9b17503a4a23214b88b79a141bca6a88"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt neighborhood variation to actual joint feasibility rather than requiring three named Austin neighborhoods or fixed rents."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a6053a0:flat:15",
+            "upstream_query_id": "rr_6847465956a0f6376a6053a0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "a2ef62da136ce9e51ee6d8ca8612025d52a364098d7682a5cfce3948a7312374"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a6053a0:flat:21",
+            "upstream_query_id": "rr_6847465956a0f6376a6053a0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "b2cc69ce107389fe2dcb3d5e08422e69680734d0bdd08bbe8d8e669d7306bf2d"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6053a0",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "从指定三题小修baseline保留问题与锚点；来源精确恢复自official_checks逐项表，非将官方整组复制到所有子项。"
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605427",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605427:flat:20",
+            "upstream_query_id": "rr_6847465956a0f6376a605427",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "24f1e72fdc0c9a548727600b249acf5238ad6a7a349d4b16bff15006f0a42ef4"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605427:flat:21",
+            "upstream_query_id": "rr_6847465956a0f6376a605427",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "407685e3b80f12f1f8c7e6bd9a06fa5358dc331b3c1e6ffa04d7d0cfdaacabbd"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapts negative-weight geography/year checks into correct-scope anchors; rejects penalties for merely mentioning a city."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605427",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Locally added end-to-end feasibility reasoning, separate from including time blocks."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605434",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605434:flat:23",
+            "upstream_query_id": "rr_6847465956a0f6376a605434",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "bb979d7b4508522f71bd04a3942ec68896dc749724984d0d0bd7fe169342d944"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605434:flat:16",
+            "upstream_query_id": "rr_6847465956a0f6376a605434",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "8170ff64d35cde2c1cca8450392c9173376b17949c642ba8535be734bb088c1b"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3 targeted revision: Remove integration-cost and limitation completeness from old high anchors; these are now direct independent content objects."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605434",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605434:flat:13",
+            "upstream_query_id": "rr_6847465956a0f6376a605434",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "14fc2465547f573a21c06f0d72102e9bd94f5073a1e97796ab60c49ad2b42ecb"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605434:flat:16",
+            "upstream_query_id": "rr_6847465956a0f6376a605434",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "8170ff64d35cde2c1cca8450392c9173376b17949c642ba8535be734bb088c1b"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605434:flat:25",
+            "upstream_query_id": "rr_6847465956a0f6376a605434",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "2931ddd1b3604249d7457ece3b757ba1a40d937bf7484f912eed429a55a01467"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "v3.3 targeted revision: v3.3 retains this judgment object. Baseline mixed-performance check: New comparison: all required topics may appear with poor causal reasoning; a concise correct chain can be stronger. Cross-review: negative anchors are exact directional counterparts, so B can win by stronger valid work without A being erroneous."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605443",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.minimum",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605443:flat:11",
+            "upstream_query_id": "rr_6847465956a0f6376a605443",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "4c6a24bb96bb453218f3d2ef88b9b4189f480a35062974cd13d8a5917484059c"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605443:flat:12",
+            "upstream_query_id": "rr_6847465956a0f6376a605443",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "47d365546227f31017f8ff1ae92bd50b19308353f6c89f162f99dc1813e8b7d1"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt the official material to the specific object 'Debate over a minimum age': Does the report give substantive reasons both for and against a minimum voting-age limit? Locally design the five anchors and boundaries. Concrete changes: Preserve a substantive supporting case for a minimum age. Preserve a substantive opposing case for a minimum age."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605443",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.capacity",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605443:flat:28",
+            "upstream_query_id": "rr_6847465956a0f6376a605443",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "2cb856d3fc53905eba625ebe5349cb7b28b53eae7bad97376df513a2ed619ba7"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapt the official material to the specific object 'From cognition to eligibility': Which report more convincingly reasons from cognitive evidence to what an age rule can and cannot establish about voting competence? Locally design the five anchors and boundaries. Concrete changes: Keep individual variation in both age-related discussions and the group-to-individual inference."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a60545c:flat:15",
+            "upstream_query_id": "rr_6847465956a0f6376a60545c",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "85aeb11776e62c9fe56f8c59cd9213c0dc78c4b92d910f45403b1579a7475370"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Expand date labels into the query's required process account; do not treat named dates as complete narratives."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a60545c",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Add open causal evaluation beyond required case coverage."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605492",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:1",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "947bceeae662c94fe1d6aa50b93c859e7aaa6c10877050b3452f6a649b76cd72"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:4",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "7f73df370480277abbd35097dc6e2df149cfd929694b50651e80e664fa3e5a1e"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:8",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "695d7630d205fb25c749bcfa2ac48ac6aae9e12a35e00e7822cc430c0181c40d"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain a specific objective and label space, removing forced diagnostic-plus-description and three-class routes. Locally designed anchors."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a605492",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "official_adapted",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:10",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "176fa6a1c4f0e5c8e461ad3f3c7b61465d72f10fe89ba196ee703dd3202e2b23"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:13",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "4d4fe7e3030dbe5ff15735da1556627ee66373ffaf144cb434ca8db3c6810d1f"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a605492:flat:20",
+            "upstream_query_id": "rr_6847465956a0f6376a605492",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "610118c8cbdedd806f9b48df9665165f8bd7d12e965b7129ccc6ba4deb7b5c87"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Preserve the negative misuse-of-statistics distinction and planning value, avoiding blanket bans based only on a method name. Local anchors."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a6054a7:flat:13",
+            "upstream_query_id": "rr_6847465956a0f6376a6054a7",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "3d96eb9b57c23765a0828211d5992c49336e5a96d9344c80f82de39e22f64a11"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a6054a7:flat:16",
+            "upstream_query_id": "rr_6847465956a0f6376a6054a7",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "89dd8dd2feee464f91e0ffcf5fef45fc3de2db134f79a48cfcf2ef94214710a1"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a6054a7:flat:28",
+            "upstream_query_id": "rr_6847465956a0f6376a6054a7",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "3b92e73e9c23a68ed487631b303ecae8610eb61de3c56d6c729763f59ded75e6"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Retain definition and design distinction; remove a compulsory glossary or assumption that all programs share one design."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6054a7",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "local_added",
+        "official_references": [],
+        "source_query_license": "MIT",
+        "contains_query_quotes": false,
+        "upstream_license_requirements": [],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Local comparative causal-identification criterion; separates reporting findings from interpreting their causal strength."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "section": "pointwise",
+        "criterion_id": "PT.D1.01.cycle",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a6054d0:flat:1",
+            "upstream_query_id": "rr_6847465956a0f6376a6054d0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "9ca82c9aafc96402426fec053da94ed67da2309fe433f7ccd645f6653ec7f038"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a6054d0:flat:2",
+            "upstream_query_id": "rr_6847465956a0f6376a6054d0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "aa965738ddc65f9b8ad91b14dfc64d18ad9124147e91eaaead2f31fbf38886ee"
+          },
+          {
+            "resource_id": "rr:6847465956a0f6376a6054d0:flat:3",
+            "upstream_query_id": "rr_6847465956a0f6376a6054d0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "eda353fe7619d6afa8f8cddc6848c9ed7f346bb0e73df4c36f96f1a167d1ea8f"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Main-agent v3.5: split this object from PT.D1.01; sibling content cannot compensate. Source links indicate adaptation, not literal preservation."
+      },
+      {
+        "query_id": "rr_6847465956a0f6376a6054d0",
+        "section": "pairwise",
+        "criterion_id": "PW.D3.01",
+        "provenance_kind": "mixed",
+        "official_references": [
+          {
+            "resource_id": "rr:6847465956a0f6376a6054d0:flat:19",
+            "upstream_query_id": "rr_6847465956a0f6376a6054d0",
+            "upstream_license": "MIT",
+            "original_criterion_sha256": "80bde4189cfda87ca9651144772ae6d163d30374d5093719b367314ecbd11ff8"
+          }
+        ],
+        "source_query_license": "MIT",
+        "contains_query_quotes": true,
+        "upstream_license_requirements": [
+          "MIT"
+        ],
+        "proposed_license_for_owned_additions": "CC-BY-4.0, subject to ownership and release approval",
+        "legal_scope_note": "Provenance classification is not a copyright clearance or a determination that unreferenced additions are wholly original.",
+        "change_note": "Adapts the official process-to-Osiris mapping into the quality of supported historical inference across eligible cases; no fixed allegorical answer. Cross-review removes the mandatory weaker-essay defect from both substantial-advantage anchors."
+      }
+    ]
   }
 }

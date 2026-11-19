@@ -107,8 +107,17 @@ class SubmissionTests(unittest.TestCase):
         first=build();second=build()
         self.assertEqual(first,second)
         with zipfile.ZipFile(HERE.parent/'website/dist/submission-template.zip') as archive:
-            self.assertEqual(len(archive.namelist()),5)
+            names=set(archive.namelist())
+            self.assertTrue({'submission/'+s for s in ('QUERY_ATTRIBUTION.md','LICENSE',
+                'licenses/DRB-I-LICENSE.txt','licenses/DRB-II-DATA-LICENSE.txt',
+                'licenses/CC-BY-4.0.txt','licenses/ResearchRubrics-MIT-LICENSE.txt',
+                'licenses/QUERY_LICENSE_MATRIX.md','licenses/DRB2_ARTICLE_ATTRIBUTIONS.md')} <= names)
+            self.assertFalse(any('rubric' in n.lower() and not n.endswith('MIT-LICENSE.txt') or
+                                 'criterion' in n.lower() for n in names))
             queries=json.loads(archive.read('submission/queries.json'))['queries']
+            matrix=archive.read('submission/licenses/QUERY_LICENSE_MATRIX.md').decode()
+            for q in queries:
+                self.assertIn('| '+q['query_id']+' |',matrix)
             self.assertEqual(len(queries),40)
             self.assertTrue(all(set(q)=={'query_id','language','query'} for q in queries))
             archive.extractall(self.root/'unpacked')
